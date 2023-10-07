@@ -1,0 +1,245 @@
+; This file is generated based on the parts database query below:")
+;   database-part(["manufacturer" => "Texas Instruments", "mpn" => "DRV2605YZFR"])
+#use-added-syntax(jitx)
+defpackage DRV2605YZFR :
+  import core
+  import jitx
+  import jitx/commands
+
+  import ocdb/utils/landpatterns
+  import ocdb/utils/symbols
+  import ocdb/utils/box-symbol
+  import ocdb/utils/bundles
+  import ocdb/utils/generator-utils
+  import ocdb/utils/generic-components
+
+pcb-pad circle-smd-pad :
+  name = "circle-smd-pad"
+  type = SMD
+  shape = Circle(0.12)
+  layer(SolderMask(Top)) = Circle(0.17)
+
+pcb-landpattern lp :
+  pad A1 : circle-smd-pad at loc(-0.5, -0.5005) on Top
+  pad A2 : circle-smd-pad at loc(-0.5, -0.0005177) on Top
+  pad A3 : circle-smd-pad at loc(-0.5, 0.49950) on Top
+  pad B1 : circle-smd-pad at loc(0.0, -0.5005) on Top
+  pad B2 : circle-smd-pad at loc(0.0, -0.0005177) on Top
+  pad B3 : circle-smd-pad at loc(0.0, 0.49950) on Top
+  pad C1 : circle-smd-pad at loc(0.5, -0.5005) on Top
+  pad C2 : circle-smd-pad at loc(0.5, -0.0005177) on Top
+  pad C3 : circle-smd-pad at loc(0.5, 0.49950) on Top
+
+  layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, W, loc(-1.5, 2.5321), "", TrueTypeFont, false, false)
+  layer(Finish(Top)) = Text(">VALUE", 1.0, W, loc(-1.5, 1.5321), "", TrueTypeFont, false, false)
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.152, [
+    Point(-0.826, -0.82650), 
+    Point(-0.826, 0.82650), 
+    Point(0.8260, 0.82650), 
+    Point(0.8260, -0.82650), 
+    Point(-0.826, -0.82650)])
+  layer(Finish(Top)) = Polyline(0.06, [Arc(-0.75, -0.7505, 0.03, 0.0, -360.0)])
+  layer(Finish(Top)) = Polyline(0.2, [Arc(-0.5, -0.599500000000035, 0.1, 0.0, -360.0)])
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.2, [Arc(-0.5, -1.22649999999999, 0.1, 0.0, -360.0)])
+  layer(Paste(Top)) = PolygonWithArcs([
+    Point(-0.65, -0.60550), 
+    Point(-0.65, -0.39550), 
+    Point(-0.605, -0.350501), 
+    Point(-0.395, -0.350501), 
+    Point(-0.35, -0.39550), 
+    Point(-0.35, -0.60550), 
+    Point(-0.395, -0.65050), 
+    Point(-0.605, -0.65050), 
+    Point(-0.65, -0.60550)])
+  layer(Paste(Top)) = PolygonWithArcs([
+    Point(-0.15, -0.60550), 
+    Point(-0.15, -0.39550), 
+    Point(-0.105, -0.350501), 
+    Point(0.105008, -0.350501), 
+    Point(0.150, -0.39550), 
+    Point(0.150, -0.60550), 
+    Point(0.105008, -0.65050), 
+    Point(-0.105, -0.65050), 
+    Point(-0.15, -0.60550)])
+  layer(Paste(Top)) = PolygonWithArcs([
+    Point(0.350, -0.60550), 
+    Point(0.350, -0.39550), 
+    Point(0.3950, -0.350501), 
+    Point(0.605008, -0.350501), 
+    Point(0.650, -0.39550), 
+    Point(0.650, -0.60550), 
+    Point(0.605008, -0.65050), 
+    Point(0.3950, -0.65050), 
+    Point(0.350, -0.60550)])
+  layer(Paste(Top)) = PolygonWithArcs([
+    Point(-0.65, -0.10550), 
+    Point(-0.65, 0.1045), 
+    Point(-0.605, 0.1495), 
+    Point(-0.395, 0.1495), 
+    Point(-0.35, 0.1045), 
+    Point(-0.35, -0.10550), 
+    Point(-0.395, -0.15050), 
+    Point(-0.605, -0.15050), 
+    Point(-0.65, -0.10550)])
+  layer(Paste(Top)) = PolygonWithArcs([
+    Point(-0.15, -0.10550), 
+    Point(-0.15, 0.1045), 
+    Point(-0.105, 0.1495), 
+    Point(0.105008, 0.1495), 
+    Point(0.150, 0.1045), 
+    Point(0.150, -0.10550), 
+    Point(0.105008, -0.15050), 
+    Point(-0.105, -0.15050), 
+    Point(-0.15, -0.10550)])
+  layer(Paste(Top)) = PolygonWithArcs([
+    Point(0.350, -0.10550), 
+    Point(0.350, 0.1045), 
+    Point(0.3950, 0.1495), 
+    Point(0.605008, 0.1495), 
+    Point(0.650, 0.1045), 
+    Point(0.650, -0.10550), 
+    Point(0.605008, -0.15050), 
+    Point(0.3950, -0.15050), 
+    Point(0.350, -0.10550)])
+  layer(Paste(Top)) = PolygonWithArcs([
+    Point(-0.65, 0.3945), 
+    Point(-0.65, 0.6045), 
+    Point(-0.605, 0.6495), 
+    Point(-0.395, 0.6495), 
+    Point(-0.35, 0.6045), 
+    Point(-0.35, 0.3945), 
+    Point(-0.395, 0.3495), 
+    Point(-0.605, 0.3495), 
+    Point(-0.65, 0.3945)])
+  layer(Paste(Top)) = PolygonWithArcs([
+    Point(-0.15, 0.3945), 
+    Point(-0.15, 0.6045), 
+    Point(-0.105, 0.6495), 
+    Point(0.105008, 0.6495), 
+    Point(0.150, 0.6045), 
+    Point(0.150, 0.3945), 
+    Point(0.105008, 0.3495), 
+    Point(-0.105, 0.3495), 
+    Point(-0.15, 0.3945)])
+  layer(Paste(Top)) = PolygonWithArcs([
+    Point(0.350, 0.3945), 
+    Point(0.350, 0.6045), 
+    Point(0.3950, 0.6495), 
+    Point(0.605008, 0.6495), 
+    Point(0.650, 0.6045), 
+    Point(0.650, 0.3945), 
+    Point(0.605008, 0.3495), 
+    Point(0.3950, 0.3495), 
+    Point(0.350, 0.3945)])
+  layer(Courtyard(Top)) = Rectangle(1.65199999999993, 1.65300000000002)
+
+pcb-symbol sym :
+  pin EN at Point(-7.62001524003048, 10.1600203200406) with :
+    direction = Left
+    length = 5.08001016002032
+    number-size = 1.0
+    name-size = 1.0
+  pin REG at Point(-7.62001524003048, 7.62001524003048) with :
+    direction = Left
+    length = 5.08001016002032
+    number-size = 1.0
+    name-size = 1.0
+  pin OUT+ at Point(-7.62001524003048, 5.08001016002032) with :
+    direction = Left
+    length = 5.08001016002032
+    number-size = 1.0
+    name-size = 1.0
+  pin IN_TRIG at Point(-7.62001524003048, 2.54000508001016) with :
+    direction = Left
+    length = 5.08001016002032
+    number-size = 1.0
+    name-size = 1.0
+  pin SDA at Point(-7.62001524003048, 0.0) with :
+    direction = Left
+    length = 5.08001016002032
+    number-size = 1.0
+    name-size = 1.0
+  pin GND at Point(-7.62001524003048, -2.54000508001016) with :
+    direction = Left
+    length = 5.08001016002032
+    number-size = 1.0
+    name-size = 1.0
+  pin SCL at Point(-7.62001524003048, -5.08001016002032) with :
+    direction = Left
+    length = 5.08001016002032
+    number-size = 1.0
+    name-size = 1.0
+  pin VDD at Point(-7.62001524003048, -7.62001524003048) with :
+    direction = Left
+    length = 5.08001016002032
+    number-size = 1.0
+    name-size = 1.0
+  pin OUT- at Point(-7.62001524003048, -10.1600203200406) with :
+    direction = Left
+    length = 5.08001016002032
+    number-size = 1.0
+    name-size = 1.0
+
+  layer("value") = Text(">VALUE", 0.7056, C, loc(0.0, 12.1600203200406), "", TrueTypeFont, false, false)
+  layer("reference") = Text(">REF", 0.7056, C, loc(0.0, 13.1600203200406), "", TrueTypeFont, false, false)
+  layer("foreground") = Rectangle(20.3200406400813, 25.9080518161036, loc(2.54000508001016, 0.254000508001016))
+  layer("foreground") = Circle(-6.3500127000254, 11.9380238760478, 0.381000762001524)
+  layer("foreground") = Circle(-6.3500127000254, 11.9380238760478, 0.381000762001524)
+
+public pcb-component component :
+  name = "DRV2605YZFR"
+  description = "2.5V~5.5V I2C BGA-9  Motor Driver ICs ROHS"
+  manufacturer = "Texas Instruments"
+  mpn = "DRV2605YZFR"
+  datasheet = "https://datasheet.lcsc.com/lcsc/1806151241_Texas-Instruments-DRV2605YZFR_C81079.pdf"
+  pin-properties :
+    [pin:Ref | pads:Ref ... | side:Dir | electrical-type:String | bank:Int]
+    [EN | A1 | Left | "unspecified" | 0]
+    [REG | A2 | Up | "unspecified" | 0]
+    [OUT+ | A3 | Right | "unspecified" | 0]
+    [IN_TRIG | B1 | Left | "unspecified" | 0]
+    [SDA | B2 | Left | "unspecified" | 0]
+    [GND | B3 | Down | "unspecified" | 0]
+    [SCL | C1 | Left | "unspecified" | 0]
+    [VDD | C2 | Up | "unspecified" | 0]
+    [OUT- | C3 | Right | "unspecified" | 0]
+
+  assign-landpattern(lp)
+  make-box-symbol()
+
+  property(self.category) = "power_supply_chip"
+  property(self.manufacturer) = "Texas Instruments"
+  property(self.manufacturer_aliases) = ["Texas Instruments"]
+  property(self.mpn) = "DRV2605YZFR"
+  property(self.cofactr_id) = "ICZDHL1J0HH3"
+  property(self.reference_prefix) = "U"
+  property(self.trust) = "low"
+  property(self.x) = 1.65199999999993
+  property(self.y) = 1.65300000000002
+  property(self.area) = 2.73075599999992
+  property(self.case) = "BGA-9"
+
+public pcb-module module :
+  pin OUT+
+  pin OUT-
+  pin EN
+  pin IN_TRIG
+  pin VDD
+  pin GND
+
+  public inst drv : DRV2605YZFR/component
+
+  net (OUT+ drv.OUT+)
+  net (OUT- drv.OUT-)
+  net (EN drv.EN)
+  net (IN_TRIG drv.IN_TRIG)
+  net (GND drv.GND)
+  net (VDD drv.VDD)
+
+  bypass-cap-strap(drv.REG GND 1.0e-6)
+  bypass-cap-strap(drv.VDD GND 1.0e-6)
+
+  supports i2c :
+    i2c.sda => drv.SDA
+    i2c.scl => drv.SCL
+

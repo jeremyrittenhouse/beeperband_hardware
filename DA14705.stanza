@@ -1,0 +1,623 @@
+#use-added-syntax(jitx)
+defpackage DA14705 :
+  import core
+  import collections
+  import math
+  import lang-utils
+  import jitx
+  import jitx/commands
+
+  import ocdb/utils/landpatterns
+  import ocdb/utils/symbols
+  import ocdb/utils/box-symbol
+  import ocdb/utils/bundles
+  import ocdb/utils/generator-utils
+  import ocdb/utils/generic-components
+
+  import bundles
+
+pcb-landpattern lp :
+  make-bga-landpattern(12, 12, 0.450, 0.250, min-typ-max(5.930, 6.000, 6.070), min-typ-max(6.130, 6.200, 6.270))
+
+public pcb-component component :
+  name = "DA14705"
+  mpn = "DA14705-00000HZ2"
+  manufacturer = "Renesas"
+  description = "Highly Integrated Advanced Bluetooth® 5.2 SoC"
+  datasheet = "https://www.renesas.com/us/en/document/dst/da1470x-datasheet?r=1614976"
+
+  pin-properties :
+    [ pin : Ref  | pads : Ref ... | side:Dir | bank:Ref ]
+    [AVS1        |        H[6]    |  Down    |  Supply  ]
+    [AVS2        |        H[7]    |  Down    |  Supply  ]
+    [AVS3        |        H[8]    |  Down    |  Supply  ]
+    [ESDN        |        B[9]    |  Down    |   RF     ]
+    [GND_BOOST   |        H[1]    |  Down    |  Supply  ]
+    [GND_BUCK    |        M[1]    |  Down    |  Supply  ]
+    [GND_RF1     |        D[12]   |  Down    |    RF    ]
+    [GND_RF2     |        C[12]   |  Down    |    RF    ]
+    [GND_SDADC   |        L[8]    |  Down    |  Supply  ]
+    [GND_VAD     |        L[9]    |  Down    |  Supply  ]
+    [GND_XTAL1   |        E[12]   |  Down    |  Misc    ]
+    [GND_XTAL2   |        E[11]   |  Down    |  Misc    ]
+    [GND_XTAL3   |        G[12]   |  Down    |  Misc    ]
+    [LED1        |        L[5]    |  Right   |   Misc   ]
+    [LED2        |        L[6]    |  Right   |   Misc   ]
+    [LED3        |        L[4]    |  Right   |   Misc   ]
+    [LX          |        M[2]    |  Up      |  Supply  ]
+    [LY          |        L[1]    |  Up      |  Supply  ]
+    [LZ          |        J[1]    |  Up      |  Supply  ]
+    [OQSIF_CLK   |        B[4]    |  Right   |   Mem    ]
+    [OQSIF_CS    |        A[6]    |  Right   |   Mem    ]
+    [OQSIF_D0    |        A[1]    |  Right   |   Mem    ]
+    [OQSIF_D1    |        A[2]    |  Right   |   Mem    ]
+    [OQSIF_D2    |        A[3]    |  Right   |   Mem    ]
+    [OQSIF_D3    |        B[3]    |  Right   |   Mem    ]
+    [P0_00       |        C[7]    |  Left    |   P0     ]
+    [P0_01       |        D[6]    |  Left    |   P0     ]
+    [P0_02       |        D[8]    |  Left    |   P0     ]
+    [P0_03       |        D[7]    |  Left    |   P0     ]
+    [P0_04       |        B[7]    |  Left    |   P0     ]
+    [P0_05       |        D[9]    |  Left    |   P0     ]
+    [P0_06       |        B[12]   |  Left    |   P0     ]
+    [P0_07       |        B[6]    |  Left    |   P0     ]
+    [P0_08       |        G[10]   |  Left    |   P0     ]
+    [P0_09       |        E[7]    |  Left    |   P0     ]
+    [P0_10       |        G[9]    |  Left    |   P0     ]
+    [P0_11       |        C[10]   |  Left    |   P0     ]
+    [P0_12       |        D[4]    |  Left    |   P0     ]
+    [P0_13       |        E[1]    |  Left    |   P0     ]
+    [P0_14       |        E[9]    |  Left    |   P0     ]
+    [P0_15       |        F[8]    |  Left    |   P0     ]
+    [P0_16       |        G[8]    |  Right   |   P0     ]
+    [P0_17       |        F[9]    |  Right   |   P0     ]
+    [P0_18       |        B[11]   |  Right   |   P0     ]
+    [P0_19       |        D[10]   |  Right   |   P0     ]
+    [P0_20       |        C[8]    |  Right   |   P0     ]
+    [P0_21       |        E[10]   |  Right   |   P0     ]
+    [P0_22       |        H[2]    |  Right   |   P0     ]
+    [P0_23       |        H[9]    |  Right   |   P0     ]
+    [P0_24       |        F[7]    |  Right   |   P0     ]
+    [P0_25       |        C[3]    |  Right   |   P0     ]
+    [P0_26       |        C[4]    |  Right   |   P0     ]
+    [P0_27       |        L[7]    |  Right   |   P0     ]
+    [P0_28       |        D[11]   |  Right   |   P0     ]
+    [P0_29       |        C[11]   |  Right   |   P0     ]
+    [P0_30       |        H[10]   |  Right   |   P0     ]
+    [P0_31       |        K[5]    |  Right   |   P0     ]
+    [P1_00       |        K[4]    |  Left    |   P1     ]
+    [P1_01       |        E[8]    |  Left    |   P1     ]
+    [P1_02       |        D[5]    |  Left    |   P1     ]
+    [P1_03       |        C[9]    |  Left    |   P1     ]
+    [P1_04       |        B[8]    |  Left    |   P1     ]
+    [P1_05       |        M[7]    |  Left    |   P1     ]
+    [P1_06       |        M[8]    |  Left    |   P1     ]
+    [P1_07       |        K[3]    |  Left    |   P1     ]
+    [P1_08       |        C[6]    |  Left    |   P1     ]
+    [P1_09       |        J[4]    |  Left    |   P1     ]
+    [P1_10       |        E[5]    |  Left    |   P1     ]
+    [P1_11       |        K[8]    |  Left    |   P1     ]
+    [P1_12       |        K[9]    |  Left    |   P1     ]
+    [P1_13       |        H[4]    |  Left    |   P1     ]
+    [P1_14       |        G[2]    |  Left    |   P1     ]
+    [P1_15       |        J[6]    |  Left    |   P1     ]
+    [P1_16       |        B[5]    |  Right   |   P1     ]
+    [P1_17       |        G[4]    |  Right   |   P1     ]
+    [P1_18       |        H[5]    |  Right   |   P1     ]
+    [P1_19       |        F[4]    |  Right   |   P1     ]
+    [P1_20       |        F[3]    |  Right   |   P1     ]
+    [P1_21       |        C[5]    |  Right   |   P1     ]
+    [P1_22       |        K[7]    |  Right   |   P1     ]
+    [P1_23       |        K[6]    |  Right   |   P1     ]
+    [P1_24       |        J[3]    |  Right   |   P1     ]
+    [P1_25       |        J[5]    |  Right   |   P1     ]
+    [P1_26       |        H[3]    |  Right   |   P1     ]
+    [P1_27       |        G[3]    |  Right   |   P1     ]
+    [P1_28       |        F[2]    |  Right   |   P1     ]
+    [P1_29       |        D[1]    |  Right   |   P1     ]
+    [P1_30       |        J[8]    |  Right   |   P1     ]
+    [P1_31       |        J[7]    |  Right   |   P1     ]
+    [P2_00       |        E[3]    |  Left    |   P2     ]
+    [P2_01       |        J[9]    |  Left    |   P2     ]
+    [P2_02       |        E[4]    |  Left    |   P2     ]
+    [P2_03       |        E[6]    |  Left    |   P2     ]
+    [P2_04       |        B[1]    |  Left    |   P2     ]
+    [P2_05       |        B[2]    |  Left    |   P2     ]
+    [P2_06       |        A[4]    |  Left    |   P2     ]
+    [P2_07       |        A[5]    |  Left    |   P2     ]
+    [P2_08       |        H[12]   |  Left    |   P2     ]
+    [P2_09       |        H[11]   |  Left    |   P2     ]
+    [P2_10       |        F[1]    |  Left    |   P2     ]
+    [P2_11       |        G[1]    |  Left    |   P2     ]
+    [P2_12       |        D[2]    |  Left    |   P2     ]
+    [P2_13       |        D[3]    |  Left    |   P2     ]
+    [P2_14       |        E[2]    |  Left    |   P2     ]
+    [PSUB        |        A[8]    |  Down    |   RF     ]
+    [PSUBRF      |        A[12]   |  Down    |   RF     ]
+    [RFIOM1      |        A[9]    |  Down    |   RF     ]
+    [RFIOM2      |        A[11]   |  Down    |   RF     ]
+    [RFIOP       |        A[10]   |  Right   |   RF     ]
+    [V12         |        L[3]    |  Up      |  Supply  ]
+    [V14         |        L[2]    |  Up      |  Supply  ]
+    [V14RF       |        A[7]    |  Up      |  Supply  ]
+    [V18         |        K[2]    |  Up      |  Supply  ]
+    [V18F        |        C[1]    |  Up      |  Supply  ]
+    [V18P        |        J[2]    |  Up      |  Supply  ]
+    [V30         |        M[6]    |  Up      |  Supply  ]
+    [VAD         |        M[9]    |  Up      |  Misc    ]
+    [VBAT        |        M[4]    |  Up      |  Supply  ]
+    [VBUS        |        M[5]    |  Up      |  Supply  ]
+    [VLED        |        K[1]    |  Up      |  Supply  ]
+    [VSSD1       |        G[5]    |  Down    |  Supply  ]
+    [VSSD2       |        G[6]    |  Down    |  Supply  ]
+    [VSSD3       |        F[6]    |  Down    |  Supply  ]
+    [VSSD4       |        F[5]    |  Down    |  Supply  ]
+    [VSSD5       |        G[7]    |  Down    |  Supply  ]
+    [VSSIOQQ     |        C[2]    |  Down    |  Supply  ]
+    [VSYS        |        M[3]    |  Up      |  Supply  ]
+    [XTAL32Mm    |        F[12]   |  Left    |   Misc   ]
+    [XTAL32Mp    |        F[11]   |  Left    |   Misc   ]
+    [nRST        |        B[10]   |  Left    |   Misc   ]
+    [NC          | J[10] J[11] J[12] K[10] K[11] K[12] L[10] L[11] L[12] M[10] M[11] M[12] |  Left |  NC ]
+      
+
+  no-connect(self.NC)
+  assign-landpattern(lp)
+  make-box-symbol()
+
+  val all-ios = [self.P0_00 self.P0_01 self.P0_02 self.P0_03 self.P0_04 self.P0_05 self.P0_06 self.P0_07 
+                 self.P0_08 self.P0_09 self.P0_10 self.P0_11 self.P0_12 self.P0_13 self.P0_14 self.P0_15 
+                 self.P0_16 self.P0_17 self.P0_18 self.P0_19 self.P0_20 self.P0_21 self.P0_22 self.P0_23 
+                 self.P0_24 self.P0_25 self.P0_26 self.P0_27 self.P0_28 self.P0_29 self.P0_30 self.P0_31 
+                 self.P1_00 self.P1_01 self.P1_02 self.P1_03 self.P1_04 self.P1_05 self.P1_06 self.P1_07 
+                 self.P1_08 self.P1_09 self.P1_10 self.P1_11 self.P1_12 self.P1_13 self.P1_14 self.P1_15 
+                 self.P1_16 self.P1_17 self.P1_18 self.P1_19 self.P1_20 self.P1_21 self.P1_22 self.P1_23 
+                 self.P1_24 self.P1_25 self.P1_26 self.P1_27 self.P1_28 self.P1_29 self.P1_30 self.P1_31 
+                 self.P2_00 self.P2_01 self.P2_02 self.P2_03 self.P2_04 self.P2_05 self.P2_06 self.P2_07 
+                 self.P2_08 self.P2_09 self.P2_10 self.P2_11 self.P2_12 self.P2_13 self.P2_14]
+
+  for p in all-ios do :
+    supports gpio :
+      gpio.gpio => p
+
+  ; swd x 3
+  supports swd(): ; M33
+    swd().swdio  => self.P0_00
+    swd().swdclk => self.P0_01
+  
+  ; supports swd(): ; CMAC M0+
+  ;   swd().swdio  => self.P0_04
+  ;   swd().swdclk => self.P0_07
+  
+  supports swd(): ; SNC M0+
+    swd().swdio  => self.P0_02
+    swd().swdclk => self.P0_03
+
+  supports usb-2-data :
+    usb-2-data.P => self.P2_10
+    usb-2-data.N => self.P2_11
+  
+  supports ETM :
+    ETM.clk => self.P0_31
+    ETM.data[0] => self.P1_30
+    ETM.data[1] => self.P1_22
+    ETM.data[2] => self.P1_31
+    ETM.data[3] => self.P1_23
+
+  ; QuadSPI
+  supports quad-spi :
+    quad-spi.sck => self.P1_26
+    quad-spi.cs => self.P1_25
+    quad-spi.sdio[0] => self.P1_09
+    quad-spi.sdio[1] => self.P1_27
+    quad-spi.sdio[2] => self.P1_18
+    quad-spi.sdio[3] => self.P1_17
+
+  supports quad-spi :
+    quad-spi.sck => self.P1_19
+    quad-spi.cs => self.P1_24
+    quad-spi.sdio[0] => self.P1_15
+    quad-spi.sdio[1] => self.P1_14
+    quad-spi.sdio[2] => self.P1_13
+    quad-spi.sdio[3] => self.P1_20
+
+  supports octal-spi :
+    octal-spi.sck => self.OQSIF_CLK
+    octal-spi.cs => self.OQSIF_CS
+    octal-spi.sdio[0] => self.OQSIF_D0
+    octal-spi.sdio[1] => self.OQSIF_D1
+    octal-spi.sdio[2] => self.OQSIF_D2
+    octal-spi.sdio[3] => self.OQSIF_D3
+    octal-spi.sdio[4] => self.P2_04
+    octal-spi.sdio[5] => self.P2_05
+    octal-spi.sdio[6] => self.P2_06
+    octal-spi.sdio[7] => self.P2_07
+
+  pcb-bundle spi-sck:
+    pin p
+  
+  pcb-bundle spi-mosi:
+    pin p
+  
+  pcb-bundle spi-miso:
+    pin p
+  
+  pcb-bundle spi-en:
+    pin p
+  
+  for io in all-ios do :
+    supports spi-sck:
+      spi-sck.p => io
+    supports spi-mosi:
+      spi-mosi.p => io
+    supports spi-miso:
+      spi-miso.p => io
+    supports spi-en:
+      spi-en.p => io
+
+  ; SPI
+  supports spi-w-en :
+    require spi-sck-pin : spi-sck
+    require spi-mosi-pin : spi-mosi
+    require spi-miso-pin : spi-miso
+    require spi-en-pin : spi-en
+    spi-w-en.sck => spi-sck-pin.p
+    spi-w-en.mosi => spi-mosi-pin.p
+    spi-w-en.miso => spi-miso-pin.p
+    spi-w-en.en => spi-en-pin.p
+
+  ;SPI2
+  supports spi-w-en :
+    require spi-sck-pin : spi-sck
+    require spi-mosi-pin : spi-mosi
+    require spi-miso-pin : spi-miso
+    require spi-en-pin : spi-en
+    spi-w-en.sck => spi-sck-pin.p
+    spi-w-en.mosi => spi-mosi-pin.p
+    spi-w-en.miso => spi-miso-pin.p
+    spi-w-en.en => spi-en-pin.p
+
+  ; SPI3 with fixed IO pins
+  supports spi-w-en :
+    require spi-en-pin : spi-en
+    spi-w-en.sck => self.P1_28
+    spi-w-en.mosi => self.P2_02
+    spi-w-en.miso => self.P0_00
+    spi-w-en.en => spi-en-pin.p
+
+
+  pcb-bundle i2c-scl:
+    pin p
+  
+  pcb-bundle i2c-sda:
+    pin p
+  
+  for io in all-ios do :
+    supports i2c-scl:
+      i2c-scl.p => io
+    supports i2c-sda:
+      i2c-sda.p => io
+
+  ; I2C 
+  supports i2c :
+    require i2c-scl-pin : i2c-scl
+    require i2c-sda-pin : i2c-sda
+    i2c.scl => i2c-scl-pin.p
+    i2c.sda => i2c-sda-pin.p
+
+  ; I2C2
+  supports i2c :
+    require i2c-scl-pin : i2c-scl
+    require i2c-sda-pin : i2c-sda
+    i2c.scl => i2c-scl-pin.p
+    i2c.sda => i2c-sda-pin.p
+
+
+  ; I3C
+  supports i3c :
+    i3c.scl => self.P1_12
+    i3c.sda => self.P1_11
+
+  pcb-bundle uart-rx:
+    pin p
+  
+  pcb-bundle uart-tx:
+    pin p
+  
+  pcb-bundle uart-cts:
+    pin p
+  
+  pcb-bundle uart-rts:
+    pin p
+  
+  for io in all-ios do :
+    supports uart-rx:
+      uart-rx.p => io
+    supports uart-tx:
+      uart-tx.p => io
+    supports uart-cts:
+      uart-cts.p => io
+    supports uart-rts:
+      uart-rts.p => io
+
+  supports uart() :
+    require tx-pin: uart-tx
+    require rx-pin: uart-rx
+    uart().rx => rx-pin.p
+    uart().tx => tx-pin.p
+  
+  supports usart([UART-CTS, UART-RTS, UART-RX, UART-TX]):
+    require tx-pin: uart-tx
+    require rx-pin: uart-rx
+    require cts-pin: uart-cts
+    require rts-pin: uart-rts
+    usart([UART-CTS, UART-RTS, UART-RX, UART-TX]).tx => tx-pin.p
+    usart([UART-CTS, UART-RTS, UART-RX, UART-TX]).rx => rx-pin.p
+    usart([UART-CTS, UART-RTS, UART-RX, UART-TX]).cts => cts-pin.p
+    usart([UART-CTS, UART-RTS, UART-RX, UART-TX]).rts => rts-pin.p
+
+  supports usart([UART-CTS, UART-RTS, UART-RX, UART-TX]):
+    require tx-pin: uart-tx
+    require rx-pin: uart-rx
+    require cts-pin: uart-cts
+    require rts-pin: uart-rts
+    usart([UART-CTS, UART-RTS, UART-RX, UART-TX]).tx => tx-pin.p
+    usart([UART-CTS, UART-RTS, UART-RX, UART-TX]).rx => rx-pin.p
+    usart([UART-CTS, UART-RTS, UART-RX, UART-TX]).cts => cts-pin.p
+    usart([UART-CTS, UART-RTS, UART-RX, UART-TX]).rts => rts-pin.p
+
+
+  pcb-bundle iso7816-clk:
+    pin p
+  pcb-bundle iso7816-data:
+    pin p
+  pcb-bundle iso7816-rst:
+    pin p
+  pcb-bundle iso7816-ci:
+    pin p
+
+  for io in all-ios do :
+    supports iso7816-clk:
+      iso7816-clk.p => io
+    supports iso7816-data:
+      iso7816-data.p => io
+    supports iso7816-rst:
+      iso7816-rst.p => io
+    supports iso7816-ci:
+      iso7816-ci.p => io
+
+  supports ISO7816:
+    require clk-pin : iso7816-clk
+    require data-pin : iso7816-data
+    require rst-pin : iso7816-rst
+    require ci-pin : iso7816-ci
+    ISO7816.clk => clk-pin.p
+    ISO7816.data => data-pin.p
+    ISO7816.rst => rst-pin.p
+    ISO7816.ci => ci-pin.p
+
+  pcb-bundle pcm-clk:
+    pin p
+  pcb-bundle pcm-fsc:
+    pin p
+  pcb-bundle pcm-di:
+    pin p
+  pcb-bundle pcm-do:
+    pin p
+  
+  for io in all-ios do :
+    supports pcm-clk:
+      pcm-clk.p => io
+    supports pcm-fsc:
+      pcm-fsc.p => io
+    supports pcm-di:
+      pcm-di.p => io
+    supports pcm-do:
+      pcm-do.p => io
+
+  supports PCM:
+    require pcm-clk-pin : pcm-clk
+    require pcm-fsc-pin : pcm-fsc
+    require pcm-di-pin : pcm-di
+    require pcm-do-pin : pcm-do
+    PCM.clk => pcm-clk-pin.p
+    PCM.fsc => pcm-fsc-pin.p
+    PCM.di => pcm-di-pin.p
+    PCM.do => pcm-do-pin.p
+
+  pcb-bundle pdm-clk:
+    pin p
+  pcb-bundle pdm-data:
+    pin p
+
+  for io in all-ios do :
+    supports pdm-clk:
+      pdm-clk.p => io
+    supports pdm-data:
+      pdm-data.p => io
+
+  supports PDM:
+   require pdm-clk-pin : pdm-clk
+   require pdm-data-pin : pdm-data
+   PDM.clk => pdm-clk-pin.p
+   PDM.data => pdm-data-pin.p
+
+  supports adc :
+    adc.adc => self.P0_05
+  supports adc :
+    adc.adc => self.P0_06
+  supports adc :
+    adc.adc => self.P0_27
+  supports adc :
+    adc.adc => self.P0_30
+
+  supports jdi-parallel:
+    jdi-parallel.hck       => self.P0_14
+    jdi-parallel.enb       => self.P0_18
+    jdi-parallel.hst       => self.P0_15
+    jdi-parallel.vst       => self.P0_16
+    jdi-parallel.xrst      => self.P0_22
+    jdi-parallel.red[0]    => self.P0_17
+    jdi-parallel.red[1]    => self.P0_23
+    jdi-parallel.green[0]  => self.P0_24
+    jdi-parallel.green[1]  => self.P1_00
+    jdi-parallel.blue[0]   => self.P1_01
+    jdi-parallel.blue[1]   => self.P0_21
+    jdi-parallel.vcom-frp  => self.P0_19
+    jdi-parallel.xfrp      => self.P0_10
+
+  supports spi-display-x1 :
+    spi-display-x1.sclk     => self.P0_14
+    spi-display-x1.cs       => self.P0_18
+    spi-display-x1.sd       => self.P0_15
+    spi-display-x1.extcomin => self.P0_19
+    spi-display-x1.te       => self.P0_10
+  
+  supports spi-display-x2 :
+    spi-display-x2.sclk     => self.P0_14
+    spi-display-x2.cs       => self.P0_18
+    spi-display-x2.sd[0]    => self.P0_15
+    spi-display-x2.sd[1]    => self.P0_16
+    spi-display-x2.extcomin => self.P0_19
+    spi-display-x2.te       => self.P0_10
+  
+  supports spi-display-x4 :
+    spi-display-x4.sclk     => self.P0_14
+    spi-display-x4.cs       => self.P0_18
+    spi-display-x4.sd[0]    => self.P0_15
+    spi-display-x4.sd[1]    => self.P0_16
+    spi-display-x4.sd[2]    => self.P0_22
+    spi-display-x4.sd[3]    => self.P0_17
+    spi-display-x4.extcomin => self.P0_19
+    spi-display-x4.te       => self.P0_10
+
+public pcb-module module :
+  pin GND
+  pin V12  
+  pin V14  
+  pin V18  
+  pin V18F 
+  pin V18P 
+  pin V30  
+  pin VBAT 
+  pin VBUS 
+  pin VSYS
+
+  public inst mcu : DA14705/component
+  inst xtal-32M : ocdb/components/abracon/ABM12-32-B2X-T3/component
+  ; crystal connections
+  net (xtal-32M.p[1] mcu.XTAL32Mp)
+  net (xtal-32M.p[2] mcu.XTAL32Mm)
+
+  inst led : database-part(["mpn" => "TJ-S1615SW6TWMLCCYRGB-A5", "manufacturer" => "Togialed"])
+  net VLED (mcu.VLED led.p[1])
+  symbol(VLED) = ocdb/utils/symbols/supply-sym
+  net (led.p[2] mcu.LED1)
+  net (led.p[3] mcu.LED2)
+  net (led.p[4] mcu.LED3)
+  
+  ; all dbg connections
+  inst dbg-m33-conn : ocdb/components/tag-connect/TC2030-IDC-NL/component
+  require dbg-power-m33 : power from dbg-m33-conn
+  require dbg-m33 : swd() from dbg-m33-conn
+  require mcu-dbg-m33 : swd() from mcu
+  require conn-reset : reset from dbg-m33-conn
+  net (dbg-m33 mcu-dbg-m33)
+  net (conn-reset.reset mcu.nRST)
+  net (dbg-power-m33.vdd VSYS)
+  net (dbg-power-m33.gnd GND)
+
+  inst dbg-snc-conn : ocdb/components/tag-connect/TC2030-IDC-NL/component
+  require dbg-power-snc : power from dbg-snc-conn
+  require dbg-snc : swd() from dbg-snc-conn
+  require mcu-dbg-snc : swd() from mcu
+  net (dbg-snc mcu-dbg-snc)
+  net (dbg-power-snc.vdd VSYS)
+  net (dbg-power-snc.gnd GND)
+
+  inst etm-conn : pin-header(6, 1.00)
+  require mcu-etm : ETM from mcu
+  net (mcu-etm.clk etm-conn.p[1])
+  net (mcu-etm.data[0] etm-conn.p[2])
+  net (mcu-etm.data[1] etm-conn.p[3])
+  net (mcu-etm.data[2] etm-conn.p[4])
+  net (mcu-etm.data[3] etm-conn.p[5])
+  net (GND etm-conn.p[6])
+
+  ; supply decoupling table using area optimized table 
+  val supplies = kvs([
+    mcu.V12 => 22.0e-6
+    mcu.V14  => 22.0e-6
+    mcu.V14RF  => 22.0e-6
+    mcu.V18  => 47.0e-6
+    mcu.V18F => 0.1e-6
+    mcu.V18P => 47.0e-6
+    mcu.V30  => 10.0e-6
+    mcu.VBAT => 10.0e-6
+    mcu.VBUS => 10.0e-6
+    mcu.VLED => 2.2e-6 
+    mcu.VSYS => 10.0e-6 ])
+
+  for [pin_, cap_] in supplies do:
+    val bypc = bypass-cap-strap(pin_, GND, cap_)
+    schematic-group(bypc) = bypasses
+
+  net (V12      mcu.V12)
+  net (V14      mcu.V14)
+  net (V18      mcu.V18)
+  net (V18F    mcu.V18F)
+  net (V18P    mcu.V18P)
+  net (V30      mcu.V30)
+  net (VBAT    mcu.VBAT)
+  net (VBUS    mcu.VBUS)
+  net (VLED    mcu.VLED)
+  net (VSYS    mcu.VSYS)
+  
+  val ground-pins = [mcu.AVS1 mcu.AVS2 mcu.AVS3 mcu.VSSD1 mcu.VSSD2 mcu.VSSD3 mcu.VSSD4 mcu.VSSD5 
+                     mcu.VSSIOQQ mcu.PSUB mcu.PSUBRF mcu.RFIOM1 mcu.RFIOM2 mcu.GND_BOOST mcu.GND_BUCK 
+                     mcu.GND_RF1 mcu.GND_RF2 mcu.GND_SDADC mcu.GND_VAD mcu.GND_XTAL1 mcu.GND_XTAL2 
+                     mcu.GND_XTAL3 mcu.ESDN]
+  for gp in ground-pins do :
+    net (GND gp)
+  
+  net (mcu.V14 mcu.V14RF)
+  res-strap(mcu.V18F, mcu.V18P, 0.0)
+  
+  ; inductors for onboard switching supply setup
+  val l1 = ind-strap(mcu.LX mcu.LY 470.0e-9)
+  short-trace(l1.p[1] mcu.LX)
+  short-trace(l1.p[2] mcu.LY)
+  val l2 = ind-strap(mcu.LZ mcu.VSYS 1.0e-6)
+  short-trace(l2.p[1] mcu.LZ)
+  short-trace(l2.p[2] mcu.VSYS)
+  bypass-cap-strap(mcu.VSYS, GND, 10.0e-6)
+
+  ; inst usb-conn : ocdb/components/korean-hroparts-elec/TYPE-C-31-M-23/module(SinkDefault)
+
+  ; net (usb usb-conn.usb-c.data)
+  ; net (usb-conn.vbus.vdd VBUSp)
+  ; net (usb-conn.vbus.gnd GND)
+
+  ; schematic-group(self) = wireless-power
+
+
+  ; public inst usb : usb2-on-a-usb-c-connector(ocdb/components/korean-hroparts-elec/TYPE-C-31-M-12/module(SinkDefault))
+
+  ; ; Define ground net and assign symbol
+  ; net (GND usb.usb-2.vbus.gnd)
+
+  ; ; Create a protected power and data interface for USB-2
+  ; val protected-usb = ocdb/modules/protection/esd-clamp(usb.usb-2, GND)
+
+  ; net (VBUSp protected-usb.usb-out.vbus.vdd usb.usb-2.vbus.vdd)
+  ; net (usb-data protected-usb.usb-out.data)
+
+  schematic-group(mcu, 0) = bank0
+  schematic-group(mcu, 1) = bank1
+  schematic-group(xtal-32M) = bank1
+  schematic-group(mcu, 2) = bank2
+  schematic-group(mcu, 3) = bank3
+  schematic-group(mcu, 4) = bank4
+  schematic-group(mcu, 5) = bank5
+
+  layout-group(self) = mcu

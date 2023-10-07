@@ -1,0 +1,125 @@
+; This file is generated based on the parts database query below:")
+;   database-part(["manufacturer" => "STMicroelectronics", "mpn" => "LSM6DSOXTR"])
+#use-added-syntax(jitx)
+defpackage LSM6DSV16BX :
+  import core
+  import jitx
+  import jitx/commands
+
+  import ocdb/utils/landpatterns
+  import ocdb/utils/symbols
+  import ocdb/utils/box-symbol
+  import ocdb/utils/bundles
+  import ocdb/utils/generator-utils
+  import ocdb/utils/generic-components
+
+  import bundles
+
+pcb-pad rectangle-smd-pad :
+  name = "rectangle-smd-pad"
+  type = SMD
+  shape = Rectangle(0.5, 0.28)
+  layer(SolderMask(Top)) = Rectangle(0.602, 0.382)
+  layer(Paste(Top)) = Rectangle(0.5, 0.28)
+
+pcb-pad rectangle-smd-pad-1 :
+  name = "rectangle-smd-pad-1"
+  type = SMD
+  shape = Rectangle(0.28, 0.5)
+  layer(SolderMask(Top)) = Rectangle(0.382, 0.602)
+  layer(Paste(Top)) = Rectangle(0.28, 0.5)
+
+pcb-landpattern lp :
+  pad p[1] : rectangle-smd-pad at loc(-1.175, 0.7505) on Top
+  pad p[2] : rectangle-smd-pad at loc(-1.175, 0.24950) on Top
+  pad p[3] : rectangle-smd-pad at loc(-1.175, -0.24950) on Top
+  pad p[4] : rectangle-smd-pad at loc(-1.175, -0.7505) on Top
+  pad p[5] : rectangle-smd-pad-1 at loc(-0.5, -0.9250) on Top
+  pad p[6] : rectangle-smd-pad-1 at loc(0.0, -0.9250) on Top
+  pad p[7] : rectangle-smd-pad-1 at loc(0.5, -0.9250) on Top
+  pad p[8] : rectangle-smd-pad at loc(1.1750, -0.7505) on Top
+  pad p[9] : rectangle-smd-pad at loc(1.1750, -0.24950) on Top
+  pad p[10] : rectangle-smd-pad at loc(1.1750, 0.24950) on Top
+  pad p[11] : rectangle-smd-pad at loc(1.1750, 0.7505) on Top
+  pad p[12] : rectangle-smd-pad-1 at loc(0.5, 0.9245) on Top
+  pad p[13] : rectangle-smd-pad-1 at loc(0.0, 0.9245) on Top
+  pad p[14] : rectangle-smd-pad-1 at loc(-0.5, 0.9249) on Top
+
+  layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, W, loc(-1.5, 3.03210), "", TrueTypeFont, false, false)
+  layer(Finish(Top)) = Text(">VALUE", 1.0, W, loc(-1.5, 2.03210), "", TrueTypeFont, false, false)
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.152, [Point(0.8310, 1.32650), Point(1.5760, 1.32650), Point(1.5760, 1.0805)])
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.152, [Point(0.8310, -1.32650), Point(1.5760, -1.32650), Point(1.5760, -1.08050)])
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.152, [Point(-0.83, 1.32650), Point(-1.576, 1.32650), Point(-1.576, 1.0805)])
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.152, [Point(-0.83, -1.32650), Point(-1.576, -1.32650), Point(-1.576, -1.08050)])
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.15, [Arc(-1.778, 0.7615, 0.075, 0.0, -360.0)])
+  layer(Finish(Top)) = Polyline(0.15, [Arc(-1.651, 0.7615, 0.075, 0.0, -360.0)])
+  layer(Finish(Top)) = Polyline(0.06, [Arc(-1.5, 1.24950, 0.03, 0.0, -360.0)])
+  layer(Courtyard(Top)) = Rectangle(3.152, 2.6530)
+
+public pcb-component component :
+  name = "LSM6DSOXTR"
+  description = "MEMS MODULE 3D GYROSCOPE/ACCELEROMETER LGA"
+  manufacturer = "STMicroelectronics"
+  mpn = "LSM6DSOXTR"
+  datasheet = "https://www.st.com/resource/en/datasheet/lsm6dsv16bx.pdf"
+  pin-properties :
+    [pin:Ref   | pads:Ref ...  | side:Dir | electrical-type:String | bank:Int]
+    [SDO_SA0   | p[1]  | Right | "unspecified" | 0]
+    [TDMOUT    | p[2]  | Right | "unspecified" | 0]
+    [BCLK      | p[3]  | Right | "unspecified" | 0]
+    [INT1      | p[4]  | Right | "unspecified" | 0]
+    [VDDIO     | p[5]  | Up    | "unspecified" | 0]
+    [AH1_QVAR1 | p[6]  | Left  | "unspecified" | 0]
+    [GND       | p[7]  | Down  | "unspecified" | 0]
+    [VDD       | p[8]  | Up    | "unspecified" | 0]
+    [AH2_QVAR2 | p[9]  | Left  | "unspecified" | 0]
+    [INT2      | p[10] | Right | "unspecified" | 0]
+    [WCLK      | p[11] | Right | "unspecified" | 0]
+    [CS        | p[12] | Right | "unspecified" | 0]
+    [SCL       | p[13] | Right | "unspecified" | 0]
+    [SDA       | p[14] | Right | "unspecified" | 0]
+
+  assign-landpattern(lp)
+  make-box-symbol()
+
+  property(self.manufacturer) = "STMicroelectronics"
+  property(self.manufacturer_aliases) = ["STMicroelectronics"]
+  property(self.mpn) = "LSM6DSV16BX"
+  property(self.reference_prefix) = "U"
+  property(self.trust) = "low"
+  property(self.x) = 3.152
+  property(self.y) = 2.6530
+  property(self.area) = 8.36225599999988
+  property(self.case) = "LGA-14(2.5x3)"
+
+
+public pcb-module module :
+  pin VDD
+  pin GND
+      
+  public inst imu : LSM6DSV16BX/component ; will use in Mode 2
+  
+  net (GND imu.GND)
+  no-connect(imu.WCLK)
+  net (VDD imu.VDDIO imu.VDD)
+  
+  bypass-cap-strap(imu.VDD GND 0.1e-6)
+  bypass-cap-strap(imu.VDDIO GND 0.1e-6)
+
+  supports i3c :
+    i3c.sda => imu.SDA
+    i3c.scl => imu.SCL
+  
+  supports spi-w-en :
+    spi-w-en.sck  => imu.SCL
+    spi-w-en.mosi => imu.SDA
+    spi-w-en.miso => imu.SDO_SA0
+    spi-w-en.en   => imu.CS
+  
+  supports TDM :
+    TDM.tdm => imu.TDMOUT
+    TDM.bclk => imu.BCLK
+    TDM.wclk => imu.WCLK
+
+  schematic-group(self) = qvar
+  layout-group(self) = qvar

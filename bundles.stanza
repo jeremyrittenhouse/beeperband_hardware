@@ -1,0 +1,97 @@
+#use-added-syntax(jitx)
+defpackage bundles :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+  import ocdb/utils/defaults
+
+; ETM module
+public pcb-bundle ETM :
+ pin clk
+ port data : pin[4]
+
+public pcb-bundle octal-spi :
+  port sdio : pin[8]
+  pin sck
+  pin cs
+
+public pcb-bundle spi-w-en :
+  pin sck
+  pin mosi
+  pin miso
+  pin en
+
+public pcb-bundle i3c :
+  pin sda
+  pin scl
+
+public pcb-bundle ISO7816 :
+  pin clk
+  pin data
+  pin rst
+  pin ci
+
+public pcb-bundle PCM :
+  pin clk
+  pin fsc
+  pin di
+  pin do
+
+public pcb-bundle PDM :
+  pin clk
+  pin data
+
+public pcb-bundle TDM :
+  pin wclk
+  pin bclk
+  pin tdm
+
+public pcb-bundle eMMC :
+  pin cmd
+  pin clk
+  pin rst
+  port data : pin[8]
+
+public pcb-bundle jdi-parallel :
+  pin hck
+  pin enb
+  pin hst
+  pin vst
+  pin xrst
+  port red : pin[2]
+  port green : pin[2]
+  port blue : pin[2]
+  pin vcom-frp
+  pin xfrp
+
+public pcb-bundle spi-display-x1 :
+  pin sclk
+  pin cs
+  pin sd
+  pin extcomin
+  pin te
+
+public pcb-bundle spi-display-x2 :
+  pin sclk
+  pin cs
+  port sd : pin[[0 1]]
+  pin extcomin
+  pin te
+
+public pcb-bundle spi-display-x4 :
+  pin sclk
+  pin cs
+  port sd : pin[4]
+  pin extcomin
+  pin te
+
+public pcb-bundle full-i2s :
+  pin bclk
+  pin wclk
+  pin mclk
+  pin datin
+  pin datout
+  pin scl
+  pin sda

@@ -1,0 +1,13 @@
+include "open-components-database/stanza.proj"
+package main defined-in "main.stanza"
+package helpers defined-in "helpers.stanza"
+package bundles defined-in "bundles.stanza"
+package rules defined-in "rules.stanza"
+
+package DA14705 defined-in "DA14705.stanza"
+package DA7212-01UM2 defined-in "DA7212-01UM2.stanza"
+package BQ51003YFPR defined-in "BQ51003YFPR.stanza"
+package AT25FF321A-UUN-T defined-in "AT25FF321A-UUN-T.stanza"
+package LSM6DSV16BX defined-in "LSM6DSV16BX.stanza"
+package PMM-3738-VM1000-R defined-in "PMM-3738-VM1000-R.stanza"
+package DRV2605YZFR defined-in "DRV2605YZFR.stanza"

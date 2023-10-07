@@ -1,0 +1,72 @@
+; When renaming the stanza package name below, also rename it in the folder stanza.proj
+; See docs.jitx.com for help
+#use-added-syntax(jitx)
+defpackage PMM-3738-VM1000-R:
+  import core
+  import collections
+  import jitx
+  import jitx/commands
+  import ocdb
+  import ocdb/utils/defaults
+  import ocdb/utils/landpatterns
+  import ocdb/utils/box-symbol
+  import ocdb/utils/bundles
+  import ocdb/utils/generic-components
+
+pcb-landpattern lp :
+  val x-off = 2.10 - 2.74 / 2.0 
+  pad p[1] : smd-pad(Circle(0.723 * 0.5)) at loc(x-off + -2.100, -0.965)
+  pad p[2] : smd-pad(Circle(0.562 * 0.5)) at loc(x-off +  0.640, -1.015)
+  pad p[3] : smd-pad(Circle(0.562 * 0.5)) at loc(x-off +  0.640,  1.015)
+  pad p[4] : smd-pad(Circle(0.723 * 0.5)) at loc(x-off + -2.100,  0.965)
+  pad p[5] : smd-pad(Circle(0.562 * 0.5)) at loc(x-off + -2.100,  0.000)
+  pad p[6] : smd-pad(Circle(1.560 * 0.5)) at loc(x-off + 0.000, 0.000)
+  layer(Cutout()) = Circle(C, x-off, 0.0, 0.750 * 0.5)
+  layer(Courtyard(Top)) = Rectangle(3.76, 2.95) ; at loc( -0.5 * 2.74 + 0.640 , 0.0)
+  layer(Silkscreen("pol", Top)) = Circle(x-off + -2.800, -0.965, 0.1)
+  ref-label()
+
+ 
+public pcb-component component :
+  name = "PMM-3738-VM1000-R"
+  description = "Low-Noise Bottom Port Piezoelectric MEMS Microphone"
+  mpn = " PMM-3738-VM1000-R"
+  manufacturer = "PUI Audio, Inc"
+  reference-prefix = "U"
+
+  pin-properties :
+    [pin:Ref      | pads:Int ... | side:Dir ]
+    [VOUT         | 1            | Right    ]
+    [GND          | 2 3 5 6      | Down     ]
+    [VDD          | 4            | Up       ]
+
+  make-box-symbol()
+  assign-landpattern(lp)
+
+  supports power:
+    power.vdd => self.VDD
+    power.gnd => self.GND
+
+; Visualize the symbol and landpattern in the VSCode visualizer.
+; Remove before use of the component in a design
+; view(component)
+
+public pcb-module module :
+  pin OUT
+  pin VDD
+  pin GND
+
+  public inst mic : PMM-3738-VM1000-R/component
+  inst fb : ocdb/components/laird/LI0805H151R-10/component
+
+  net (VDD mic.VDD)
+  net (GND mic.GND)
+
+  bypass-cap-strap(mic.VDD GND 1.0e-6)
+
+  net (mic.VOUT fb.p[1])
+  bypass-cap-strap(fb.p[2] GND 100.0e-12)
+  res-strap(fb.p[2] GND 47.0e3)
+  bypass-cap-strap(fb.p[2] OUT 1.0e-6)
+
+  schematic-group(self) = microphone

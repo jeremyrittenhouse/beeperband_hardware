@@ -1,0 +1,152 @@
+#use-added-syntax(jitx)
+defpackage DA7212-01UM2 :
+  import core
+  import collections
+  import math
+  import lang-utils
+  import jitx
+  import jitx/commands
+
+  import ocdb/utils/landpatterns
+  import ocdb/utils/symbols
+  import ocdb/utils/box-symbol
+  import ocdb/utils/bundles
+  import ocdb/utils/generator-utils
+  import ocdb/utils/generic-components
+
+  import bundles
+
+defn bga-pad ():
+  val ball-diameter = 0.250
+  val pastemask-diameter = 0.230
+  val soldermask-diameter = 0.260
+  inside pcb-landpattern :
+    smd-pad(Circle(ball-diameter * 0.5), Circle(soldermask-diameter * 0.5), Circle(pastemask-diameter * 0.5))
+
+
+pcb-landpattern lp :
+  val delta-x = 0.250
+  val delta-y = 0.340
+  val x-cnt = 17
+  val offset-x = -2.0
+  val offset-y = 0.510
+  val rows = ["A" "B" "C" "D"]
+  for (j in rows, j-cnt in 0 to false) do :
+    for i in ((j-cnt % 2) + 1) through x-cnt by 2 do :
+      val x-loc = offset-x + to-double(i - 1) * delta-x
+      val y-loc = offset-y - to-double(j-cnt) * delta-y
+      val i-cnt = i % 17
+      val pad-name = Ref(append(j, to-string(i)))
+      pad (pad-name) : bga-pad() at loc(x-loc, y-loc)
+  layer(Courtyard(Top)) = Rectangle(4.6, 1.660)
+  layer(Silkscreen("pol", Top)) = Circle(-2.000, 1.000, 0.1)
+  ref-label()
+
+public pcb-component component :
+  mpn = "DA7212-01UM2"
+  manufacturer = "Renesas"
+  description = "Audio codec and driver"
+
+  pin-properties :
+    [ pin : Ref | pads : Ref ...       | side:Dir ]    
+    [MIC1_P     |  C17               |  Left    ]
+    [MIC1_N     |  B16               |  Left    ]
+    [MIC2_P     |  D16               |  Left    ]
+    [MIC2_N     |  C15               |  Left    ]
+    [AUX_L      |  C13               |  Left    ]
+    [AUX_R      |  D14               |  Left    ]
+    [MICBIAS1   |  A15               |  Right   ]
+    [MICBIAS2   |  A17               |  Right   ]
+    [HP_L       |  A3                |  Right   ]
+    [HP_R       |  A5                |  Right   ]
+    [SP_P       |  B12               |  Right   ]
+    [SP_N       |  A13               |  Right   ]
+    [HPCSP      |  A1                |  Up      ]
+    [HPCSN      |  C1                |  Up      ]
+    [HPCFP      |  D2                |  Up      ]
+    [HPCFN      |  C3                |  Up      ]
+    [SDA        |  C9                |  Right   ]
+    [SCL        |  D8                |  Right   ]
+    [DATIN      |  C5                |  Right   ]
+    [DATOUT     |  C7                |  Left    ]
+    [BCLK       |  D4                |  Right   ]
+    [WCLK       |  D6                |  Right   ]
+    [MCLK       |  C11               |  Right   ]
+    [DACREF     |  A7                |  Left    ]
+    [VMID       |  A9                |  Up      ]
+    [GND_SENSE  |  B4                |  Down    ]
+    [VREF       |  B8                |  Up      ]
+    [VDD_A      |  B6                |  Up      ]
+    [VDD_IO     |  D10               |  Up      ]
+    [VDD_SP     |  A11               |  Up      ]
+    [VDD_MIC    |  B14               |  Up      ]
+    [VDIG       |  D12               |  Up      ]
+    [GND_A      |  B10               |  Down    ]
+    [GND_CP     |  B2                |  Down    ]
+
+  make-box-symbol()
+  assign-landpattern(lp)
+
+
+public pcb-module module :
+  port pwr1p8 : power
+  port pwrsys : power
+  
+  net GND (pwr1p8.gnd pwrsys.gnd)
+  public inst codec : DA7212-01UM2/component
+
+  net (GND codec.GND_A codec.GND_CP)
+  net VDD1P8 (pwr1p8.vdd codec.VDD_A codec.VDD_IO codec.VDD_MIC)
+  net VSYS (pwrsys.vdd codec.VDD_SP)
+
+  no-connect(codec.HP_L)
+  no-connect(codec.HP_R)
+  no-connect(codec.GND_SENSE)
+
+  val cap-table = kvs([
+    codec.VDD_A   => 1.0e-6
+    codec.VDIG    => 0.1e-6
+    codec.VDD_IO  => 1.0e-6
+    codec.VDD_SP  => 1.0e-6
+    codec.VMID    => 1.0e-6
+    codec.DACREF  => 1.0e-6
+    codec.VDD_MIC => 1.0e-6
+    codec.HPCSP   => 1.0e-6
+    codec.HPCFP   => 1.0e-6
+    ])
+  for [pin_, cap_] in cap-table do:
+    val bypc = bypass-cap-strap(pin_, GND, cap_)
+    schematic-group(bypc) = codec-bypass
+
+  bypass-cap-strap(codec.HPCFN codec.HPCSN 1.0e-6)
+
+  supports i2c :
+    i2c.scl => codec.SCL
+    i2c.sda => codec.SDA
+
+  supports full-i2s :
+    full-i2s.sda    => codec.SDA
+    full-i2s.scl    => codec.SCL
+    full-i2s.datin  => codec.DATIN 
+    full-i2s.datout => codec.DATOUT
+    full-i2s.bclk   => codec.BCLK  
+    full-i2s.wclk   => codec.WCLK  
+    full-i2s.mclk   => codec.MCLK
+
+
+  inst mic1 : PMM-3738-VM1000-R/module
+  inst mic2 : PMM-3738-VM1000-R/module
+
+  net (mic1.VDD codec.MICBIAS1)
+  net (mic2.VDD codec.MICBIAS2)
+  net (GND mic1.GND mic2.GND)
+  net (mic1.OUT codec.MIC1_P)
+  net (mic2.OUT codec.MIC2_P)
+  no-connect(codec.MIC1_N)
+  no-connect(codec.MIC2_N)
+
+  no-connect(codec.AUX_L)
+  no-connect(codec.AUX_R)
+
+  schematic-group(self) = codec
+  layout-group(self) = codec

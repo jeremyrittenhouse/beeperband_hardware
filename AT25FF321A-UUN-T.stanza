@@ -1,0 +1,79 @@
+#use-added-syntax(jitx)
+defpackage AT25FF321A-UUN-T :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/utils/landpatterns
+  import ocdb/utils/symbols
+  import ocdb/utils/box-symbol
+  import ocdb/utils/bundles
+  import ocdb/utils/generator-utils
+  import ocdb/utils/generic-components
+
+val ball-diameter = 0.210
+val pastemask-diameter = 0.200
+val soldermask-diameter = 0.230
+
+defn bga-pad ():
+  inside pcb-landpattern :
+    smd-pad(Circle(ball-diameter * 0.5), Circle(soldermask-diameter * 0.5), Circle(pastemask-diameter * 0.5))
+
+
+pcb-landpattern WLCSP-12:
+  pad A1 : bga-pad() at loc( 0.700,  0.600)
+  pad A5 : bga-pad() at loc(-0.700,  0.600)
+  pad B2 : bga-pad() at loc( 0.350,  0.400)
+  pad B4 : bga-pad() at loc(-0.350,  0.400)
+  pad C3 : bga-pad() at loc( 0.000,  0.200)
+  pad D2 : bga-pad() at loc( 0.350,  0.000)
+  pad D4 : bga-pad() at loc(-0.350,  0.000)
+  pad E3 : bga-pad() at loc( 0.000, -0.200)
+  pad F2 : bga-pad() at loc( 0.350, -0.400)
+  pad F4 : bga-pad() at loc(-0.350, -0.400)
+  pad G1 : bga-pad() at loc( 0.700, -0.600)
+  pad G5 : bga-pad() at loc(-0.700, -0.600)
+  layer(Courtyard(Top)) = Rectangle(1.800, 2.400)
+  layer(Silkscreen("pol", Top)) = Circle(-1.0, 1.25, 0.1)
+  ref-label()
+
+public pcb-component component :
+  name = "AT25FF321A-UUN-T"
+  manufacturer = "Renesas"
+  mpn = "AT25FF321A-UUN-T"
+  description = "FLASH - NOR Memory IC 32Mbit SPI - Quad I/O 104 MHz 12-WLCSP (2.39x1.77)"
+  datasheet = "https://www.renesas.com/us/en/document/dst/at25ff321a-datasheet?r=1608546"
+  pin-properties :
+    [ pin : Ref | pads : Ref ... | side:Dir ]
+    [ CSn      |   B4           | Left     ]
+    [ Vcc      |   B2           | Up       ]
+    [ NC       |   A5 A1 G1 G5  | Down     ]
+    [ GND      |   C3           | Down     ]  
+    [ SO       |   D4           | Right    ]  
+    [ HRn      |   D2           | Right    ]  
+    [ WPn      |   F4           | Right    ]  
+    [ SI       |   E3           | Left     ]  
+    [ SCK      |   F2           | Left     ]  
+
+  no-connect(self.NC)
+
+  supports quad-spi :
+    quad-spi.sck => self.SCK
+    quad-spi.cs => self.CSn
+    quad-spi.sdio[0] => self.SI
+    quad-spi.sdio[1] => self.SO
+    quad-spi.sdio[2] => self.WPn
+    quad-spi.sdio[3] => self.HRn
+
+  assign-landpattern(WLCSP-12)
+  make-box-symbol()
+
+public pcb-module module :
+  
+  public inst m : AT25FF321A-UUN-T/component
+
+  bypass-cap-strap(m.Vcc, m.GND, 1.0e-6)
+  schematic-group(self) = memory
+  layout-group(self) = memory

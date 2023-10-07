@@ -38,6 +38,10 @@ pcb-landpattern WLCSP-12:
   layer(Courtyard(Top)) = Rectangle(1.800, 2.400)
   layer(Silkscreen("pol", Top)) = Circle(-1.0, 1.25, 0.1)
   ref-label()
+  model3d = Model3D("3d-models/AT25FF321A-UUN-T.stp",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 0.0))
 
 public pcb-component component :
   name = "AT25FF321A-UUN-T"

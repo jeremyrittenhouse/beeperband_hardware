@@ -41,6 +41,11 @@ pcb-landpattern lp :
   layer(Courtyard(Top)) = Rectangle(4.6, 1.660)
   layer(Silkscreen("pol", Top)) = Circle(-2.000, 1.000, 0.1)
   ref-label()
+    model3d = Model3D("3d-models/DA7212-01UM2.stp",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 0.0))
+
 
 public pcb-component component :
   mpn = "DA7212-01UM2"

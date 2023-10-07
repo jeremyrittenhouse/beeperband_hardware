@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name beeper-design)(type KiCad)(uri "$(KIPRJMOD)/beeper-design.pretty")(options "")(descr ""))
+)

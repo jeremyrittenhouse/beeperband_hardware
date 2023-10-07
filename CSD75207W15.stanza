@@ -1,0 +1,222 @@
+; This file is generated based on the parts database query below:")
+;   database-part(["manufacturer" => "Texas Instruments", "mpn" => "CSD75207W15"])
+#use-added-syntax(jitx)
+defpackage CSD75207W15 :
+  import core
+  import jitx
+  import jitx/commands
+
+
+pcb-pad circle-smd-pad :
+  name = "circle-smd-pad"
+  type = SMD
+  shape = Circle(0.12)
+  layer(SolderMask(Top)) = Circle(0.17)
+
+pcb-landpattern lp :
+  pad A1 : circle-smd-pad at loc(-0.5, -0.5005) on Top
+  pad A2 : circle-smd-pad at loc(-0.5, -0.0005177) on Top
+  pad A3 : circle-smd-pad at loc(-0.5, 0.49950) on Top
+  pad B1 : circle-smd-pad at loc(0.0, -0.5005) on Top
+  pad B2 : circle-smd-pad at loc(0.0, -0.0005177) on Top
+  pad B3 : circle-smd-pad at loc(0.0, 0.49950) on Top
+  pad C1 : circle-smd-pad at loc(0.5, -0.5005) on Top
+  pad C2 : circle-smd-pad at loc(0.5, -0.0005177) on Top
+  pad C3 : circle-smd-pad at loc(0.5, 0.49950) on Top
+
+  layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, W, loc(-1.5, 2.53210), "", TrueTypeFont, false, false)
+  layer(Finish(Top)) = Text(">VALUE", 1.0, W, loc(-1.5, 1.53210), "", TrueTypeFont, false, false)
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.152, [
+    Point(-0.826, -0.82650), 
+    Point(-0.826, 0.82650), 
+    Point(0.82602, 0.82650), 
+    Point(0.82602, -0.82650), 
+    Point(-0.826, -0.82650)])
+  layer(Finish(Top)) = Polyline(0.06, [Arc(-0.75, -0.7505, 0.03, 0.0, -360.0)])
+  layer(Finish(Top)) = Polyline(0.2, [Arc(-0.5, -0.59950, 0.1, 0.0, -360.0)])
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.2, [Arc(-0.5, -1.2265, 0.1, 0.0, -360.0)])
+  layer(Paste(Top)) = PolygonWithArcs([
+    Point(-0.65977, -0.60550), 
+    Point(-0.65977, -0.39550), 
+    Point(-0.60505, -0.350501), 
+    Point(-0.39582, -0.350501), 
+    Point(-0.35909, -0.39550), 
+    Point(-0.35909, -0.60550), 
+    Point(-0.39582, -0.65050), 
+    Point(-0.60505, -0.65050), 
+    Point(-0.65977, -0.60550)])
+  layer(Paste(Top)) = PolygonWithArcs([
+    Point(-0.15977, -0.60550), 
+    Point(-0.15977, -0.39550), 
+    Point(-0.10505, -0.350501), 
+    Point(0.1050, -0.350501), 
+    Point(0.150, -0.39550), 
+    Point(0.150, -0.60550), 
+    Point(0.1050, -0.65050), 
+    Point(-0.10505, -0.65050), 
+    Point(-0.15977, -0.60550)])
+  layer(Paste(Top)) = PolygonWithArcs([
+    Point(0.350, -0.60550), 
+    Point(0.350, -0.39550), 
+    Point(0.3950, -0.350501), 
+    Point(0.6050, -0.350501), 
+    Point(0.650, -0.39550), 
+    Point(0.650, -0.60550), 
+    Point(0.6050, -0.65050), 
+    Point(0.3950, -0.65050), 
+    Point(0.350, -0.60550)])
+  layer(Paste(Top)) = PolygonWithArcs([
+    Point(-0.65977, -0.10550), 
+    Point(-0.65977, 0.1045), 
+    Point(-0.60505, 0.1495), 
+    Point(-0.39582, 0.1495), 
+    Point(-0.35909, 0.1045), 
+    Point(-0.35909, -0.10550), 
+    Point(-0.39582, -0.15050), 
+    Point(-0.60505, -0.15050), 
+    Point(-0.65977, -0.10550)])
+  layer(Paste(Top)) = PolygonWithArcs([
+    Point(-0.15977, -0.10550), 
+    Point(-0.15977, 0.1045), 
+    Point(-0.10505, 0.1495), 
+    Point(0.1050, 0.1495), 
+    Point(0.150, 0.1045), 
+    Point(0.150, -0.10550), 
+    Point(0.1050, -0.15050), 
+    Point(-0.10505, -0.15050), 
+    Point(-0.15977, -0.10550)])
+  layer(Paste(Top)) = PolygonWithArcs([
+    Point(0.350, -0.10550), 
+    Point(0.350, 0.1045), 
+    Point(0.3950, 0.1495), 
+    Point(0.6050, 0.1495), 
+    Point(0.650, 0.1045), 
+    Point(0.650, -0.10550), 
+    Point(0.6050, -0.15050), 
+    Point(0.3950, -0.15050), 
+    Point(0.350, -0.10550)])
+  layer(Paste(Top)) = PolygonWithArcs([
+    Point(-0.65977, 0.39454), 
+    Point(-0.65977, 0.6045), 
+    Point(-0.60505, 0.6495), 
+    Point(-0.39582, 0.6495), 
+    Point(-0.35909, 0.6045), 
+    Point(-0.35909, 0.39454), 
+    Point(-0.39582, 0.3495), 
+    Point(-0.60505, 0.3495), 
+    Point(-0.65977, 0.39454)])
+  layer(Paste(Top)) = PolygonWithArcs([
+    Point(-0.15977, 0.39454), 
+    Point(-0.15977, 0.6045), 
+    Point(-0.10505, 0.6495), 
+    Point(0.1050, 0.6495), 
+    Point(0.150, 0.6045), 
+    Point(0.150, 0.39454), 
+    Point(0.1050, 0.3495), 
+    Point(-0.10505, 0.3495), 
+    Point(-0.15977, 0.39454)])
+  layer(Paste(Top)) = PolygonWithArcs([
+    Point(0.350, 0.39454), 
+    Point(0.350, 0.6045), 
+    Point(0.3950, 0.6495), 
+    Point(0.6050, 0.6495), 
+    Point(0.650, 0.6045), 
+    Point(0.650, 0.39454), 
+    Point(0.6050, 0.3495), 
+    Point(0.3950, 0.3495), 
+    Point(0.350, 0.39454)])
+  layer(Courtyard(Top)) = Rectangle(1.652, 1.6530)
+  model3d = Model3D("3d-models/CSD75207W15.stp",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 0.0))
+
+pcb-symbol sym :
+  pin G1 at Point(-7.620, 5.080) with :
+    direction = Left
+    length = 5.080
+    number-size = 1.0
+    name-size = 1.0
+  pin D10 at Point(-7.620, 2.540) with :
+    direction = Left
+    length = 5.080
+    number-size = 1.0
+    name-size = 1.0
+  pin D11 at Point(-7.620, 0.0) with :
+    direction = Left
+    length = 5.080
+    number-size = 1.0
+    name-size = 1.0
+  pin S2 at Point(-7.620, -5.080) with :
+    direction = Left
+    length = 5.080
+    number-size = 1.0
+    name-size = 1.0
+  pin D20 at Point(-7.620, -7.620) with :
+    direction = Left
+    length = 5.080
+    number-size = 1.0
+    name-size = 1.0
+  pin D12 at Point(-7.620, -10.160) with :
+    direction = Left
+    length = 5.080
+    number-size = 1.0
+    name-size = 1.0
+  pin G2 at Point(7.620, 5.080) with :
+    direction = Right
+    length = 5.080
+    number-size = 1.0
+    name-size = 1.0
+  pin D21 at Point(7.620, 2.540) with :
+    direction = Right
+    length = 5.080
+    number-size = 1.0
+    name-size = 1.0
+  pin D22 at Point(7.620, 0.0) with :
+    direction = Right
+    length = 5.080
+    number-size = 1.0
+    name-size = 1.0
+
+  layer("value") = Text(">VALUE", 0.7056, C, loc(0.0, 7.080), "", TrueTypeFont, false, false)
+  layer("reference") = Text(">REF", 0.7056, C, loc(0.0, 8.080), "", TrueTypeFont, false, false)
+  layer("foreground") = Rectangle(15.240, 20.320, loc(0.0, -2.540))
+
+public pcb-component component :
+  name = "CSD75207W15"
+  description = "3.9A 162mΩ@1.8V,1A 700mW 2 P-Channel BGA-9  MOSFETs ROHS"
+  manufacturer = "Texas Instruments"
+  mpn = "CSD75207W15"
+  datasheet = "https://datasheet.lcsc.com/lcsc/1806122238_Texas-Instruments-CSD75207W15_C201968.pdf"
+  pin-properties :
+    [pin:Ref | pads:Ref ... | side:Dir | electrical-type:String | bank:Int]
+    [G1 | A1 | Left | "unspecified" | 0]
+    [D10 | A2 | Left | "unspecified" | 0]
+    [D11 | A3 | Left | "unspecified" | 0]
+    [S2 | B1 | Left | "unspecified" | 0]
+    [D20 | B2 | Left | "unspecified" | 0]
+    [D12 | B3 | Left | "unspecified" | 0]
+    [G2 | C1 | Right | "unspecified" | 0]
+    [D21 | C2 | Right | "unspecified" | 0]
+    [D22 | C3 | Right | "unspecified" | 0]
+
+  assign-landpattern(lp)
+  assign-symbol(sym)
+
+  property(self.category) = "transistor"
+  property(self.manufacturer) = "Texas Instruments"
+  property(self.manufacturer_aliases) = ["Texas Instruments"]
+  property(self.mpn) = "CSD75207W15"
+  property(self.mpn_aliases) = ["CSD75207W15"]
+  property(self.cofactr_id) = "TRTQCIIZFNEX"
+  property(self.reference_prefix) = "Q"
+  property(self.trust) = "low"
+  property(self.x) = 1.652
+  property(self.y) = 1.6530
+  property(self.area) = 2.730756
+  property(self.case) = "BGA-9"
+  property(self.\|vendor_part_numbers.lcsc|) = "C201968"
+  property(self.minimum_quantity) = 5
+  property(self.price) = 0.197183099
+  property(self.stock) = 0
+

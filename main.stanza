@@ -36,7 +36,7 @@ pcb-module beeper-design :
   inst codec   : DA7212-01UM2/module
   inst qsensor : LSM6DSV16BX/module
   inst vad-mic : PMM-3738-VM1000-R/module
-  inst button  : database-part(["mpn" => "EVPBB4A9B000", "manufacturer" => "Panasonic"])[3]
+  inst button  : EVPBB4A9B000/component[3]
   inst hap-drv : DRV2605YZFR/module
   
   ; setup some nets by default

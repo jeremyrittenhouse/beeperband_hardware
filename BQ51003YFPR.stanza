@@ -15,6 +15,10 @@ defpackage BQ51003YFPR :
 
 pcb-landpattern lp :
   make-bga-landpattern(7, 4, 0.400, 0.250, typ(1.6), typ(2.8))
+  model3d = Model3D("3d-models/BQ51003YFPR--3DModel-STEP-56544.STEP",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(-90.0, 0.0, 0.0))
 
 public pcb-component component :
   name = "BQ51003YFPR"
@@ -123,7 +127,8 @@ public pcb-module module :
   bypass-cap-strap(wpwr.RECT, GND, 10.0e-6)
   bypass-cap-strap(wpwr.RECT, GND, 4.7e-6)
 
-  inst q1 : database-part(["mpn" => "CSD75207W15", "manufacturer" => "Texas Instruments"])
+  inst q1 : CSD75207W15/component 
+  ; database-part(["mpn" => "CSD75207W15", "manufacturer" => "Texas Instruments"])
 
   net (VBUSp q1.G1 q1.D10 q1.D11)
   net (VBUS q1.D20 q1.D21 q1.D22)

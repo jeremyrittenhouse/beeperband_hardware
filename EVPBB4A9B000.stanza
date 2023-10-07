@@ -1,0 +1,111 @@
+; This file is generated based on the parts database query below:")
+;   database-part(["manufacturer" => "Panasonic", "mpn" => "EVPBB4A9B000"])
+#use-added-syntax(jitx)
+defpackage EVPBB4A9B000 :
+  import core
+  import jitx
+  import jitx/commands
+
+
+pcb-pad rectangle-smd-pad :
+  name = "rectangle-smd-pad"
+  type = SMD
+  shape = Rectangle(0.45, 0.45)
+  layer(SolderMask(Top)) = Rectangle(0.552, 0.552)
+  layer(Paste(Top)) = Rectangle(0.45, 0.45)
+
+pcb-landpattern lp :
+  pad A : rectangle-smd-pad at loc(-1.5, 0.37950) on Top
+  pad A1 : rectangle-smd-pad at loc(-1.5, -0.37950) on Top
+  pad B : rectangle-smd-pad at loc(1.5, 0.37950) on Top
+  pad B1 : rectangle-smd-pad at loc(1.5, -0.37950) on Top
+
+  layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, W, loc(-1.5, 2.6051), "", TrueTypeFont, false, false)
+  layer(Finish(Top)) = Text(">VALUE", 1.0, W, loc(-1.5, 1.6051), "", TrueTypeFont, false, false)
+  layer(Finish(Top)) = Line(0.254, [Point(-1.016, 0.8005), Point(1.0160, 0.8005)])
+  layer(Finish(Top)) = Line(0.254, [Point(1.0160, 0.8005), Point(1.0160, -0.80050)])
+  layer(Finish(Top)) = Line(0.254, [Point(1.0160, -0.80050), Point(-1.016, -0.80050)])
+  layer(Finish(Top)) = Line(0.254, [Point(-1.016, -0.80050), Point(-1.016, 0.8005)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [Point(-1.300, 0.8995), Point(1.3000, 0.8995)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [Point(1.3000, -0.8995), Point(-1.300, -0.8995)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [Point(-0.254, 0.7615), Point(0.2540, 0.7615)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [Point(-0.254, -0.76250), Point(0.2540, -0.76250)])
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.254, [Arc(0.2540, -0.0005, 0.762, 90.0, -180.0)])
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.254, [Arc(-0.254, -0.0005, 0.762, 270.0, -180.0)])
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.254, [Arc(0.0, -0.0005, 0.381, 0.0, -360.0)])
+  layer(Finish(Top)) = Polyline(0.06, [Arc(-1.725, -1.02650, 0.03, 0.0, -360.0)])
+  layer(Courtyard(Top)) = Rectangle(3.0, 1.799)
+  model3d = Model3D("3d-models/EVP-BB4A9B000--3DModel-STEP-56544.STEP",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(-90.0, 0.0, 0.0))
+
+pcb-symbol sym-EVP-BB4A9B000 :
+  pin A1 at Point(-5.080, -3.810) with :
+    direction = Left
+    length = 2.540
+    number-size = 1.0
+    name-size = 1.0
+  pin A at Point(-5.080, 1.270) with :
+    direction = Left
+    length = 2.540
+    number-size = 1.0
+    name-size = 1.0
+  pin B1 at Point(5.080, -3.810) with :
+    direction = Right
+    length = 2.540
+    number-size = 1.0
+    name-size = 1.0
+  pin B at Point(5.080, 1.270) with :
+    direction = Right
+    length = 2.540
+    number-size = 1.0
+    name-size = 1.0
+
+  layer("value") = Text(">VALUE", 0.7056, C, loc(0.0, 3.270), "", TrueTypeFont, false, false)
+  layer("reference") = Text(">REF", 0.7056, C, loc(0.0, 4.270), "", TrueTypeFont, false, false)
+  layer("foreground") = Circle(1.0160, -1.270, 0.2540)
+  layer("foreground") = Circle(-1.0160, -1.270, 0.2540)
+  layer("foreground") = Polyline(0.2540, [Point(-3.5560, -3.810), Point(-3.5560, 1.270)])
+  layer("foreground") = Polyline(0.2540, [Point(3.5560, -3.810), Point(3.5560, 1.270)])
+  layer("foreground") = Polyline(0.2540, [Point(-5.080, 1.270), Point(-3.5560, 1.270)])
+  layer("foreground") = Polyline(0.2540, [Point(-5.080, -3.810), Point(-3.5560, -3.810)])
+  layer("foreground") = Polyline(0.2540, [Point(5.080, 1.270), Point(3.5560, 1.270)])
+  layer("foreground") = Polyline(0.2540, [Point(5.080, -3.810), Point(3.5560, -3.810)])
+  layer("foreground") = Polyline(0.2540, [Point(1.270, -1.270), Point(3.5560, -1.270)])
+  layer("foreground") = Polyline(0.2540, [Point(-1.270, -1.270), Point(-3.5560, -1.270)])
+  layer("foreground") = Polyline(0.2540, [Point(-0.7620, -1.0160), Point(1.0160, 0.2540)])
+
+public pcb-component component :
+  name = "C140848"
+  description = "IP67 20mA 2.6mm 50MΩ 500000 2.4N 15V -40℃~+85℃ 1.6mm 0.55mm Round Button Brick nogging SPST SMD,1.6x2.6mm  Tactile Switches ROHS"
+  manufacturer = "Panasonic"
+  mpn = "EVPBB4A9B000"
+  datasheet = "https://datasheet.lcsc.com/lcsc/1810171042_PANASONIC-EVPBB4A9B000_C140848.pdf"
+  pin-properties :
+    [pin:Ref | pads:Ref ... | side:Dir | electrical-type:String | bank:Int]
+    [A1 | A1 | Left | "unspecified" | 0]
+    [A | A | Left | "unspecified" | 0]
+    [B1 | B1 | Right | "unspecified" | 0]
+    [B | B | Right | "unspecified" | 0]
+
+  assign-landpattern(lp)
+  assign-symbol(sym-EVP-BB4A9B000)
+
+  property(self.manufacturer) = "Panasonic"
+  property(self.manufacturer_aliases) = ["PANASONIC" "Panasonic"]
+  property(self.mpn) = "EVPBB4A9B000"
+  property(self.mpn_aliases) = ["EVPBB4A9B000"]
+  property(self.cofactr_id) = "SB4ZW69TIUQD"
+  property(self.reference_prefix) = "SW"
+  property(self.trust) = "low"
+  property(self.x) = 3.0
+  property(self.y) = 1.799
+  property(self.area) = 5.39699999999993
+  property(self.case) = "SMD,1.6x2.6mm"
+  property(self.\|vendor_part_numbers.lcsc|) = "C140848"
+  property(self.minimum_quantity) = 5
+  property(self.price) = 0.184647887
+  property(self.stock) = 2903
+  property(self.rated-temperature) = Toleranced(22.5, 62.5, 62.5)
+

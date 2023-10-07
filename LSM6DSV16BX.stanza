@@ -55,6 +55,10 @@ pcb-landpattern lp :
   layer(Finish(Top)) = Polyline(0.15, [Arc(-1.651, 0.7615, 0.075, 0.0, -360.0)])
   layer(Finish(Top)) = Polyline(0.06, [Arc(-1.5, 1.24950, 0.03, 0.0, -360.0)])
   layer(Courtyard(Top)) = Rectangle(3.152, 2.6530)
+  model3d = Model3D("3d-models/LSM6DSV16BXTR.stp",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 0.0))
 
 public pcb-component component :
   name = "LSM6DSOXTR"

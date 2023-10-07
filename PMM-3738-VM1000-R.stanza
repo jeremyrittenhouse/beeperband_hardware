@@ -25,7 +25,10 @@ pcb-landpattern lp :
   layer(Courtyard(Top)) = Rectangle(3.76, 2.95) ; at loc( -0.5 * 2.74 + 0.640 , 0.0)
   layer(Silkscreen("pol", Top)) = Circle(x-off + -2.800, -0.965, 0.1)
   ref-label()
-
+  model3d = Model3D("3d-models/PMM-3738-VM1000-R--3DModel-STEP-1.STEP",
+    Vec3D(0.660, 22.500, 0.000),
+    Vec3D(1.000,  1.000, 1.000),
+    Vec3D(0.000,  0.000, 0.000))
  
 public pcb-component component :
   name = "PMM-3738-VM1000-R"

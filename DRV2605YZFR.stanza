@@ -132,6 +132,10 @@ pcb-landpattern lp :
     Point(0.3950, 0.3495), 
     Point(0.350, 0.3945)])
   layer(Courtyard(Top)) = Rectangle(1.65199999999993, 1.65300000000002)
+  model3d = Model3D("3d-models/DRV2605YZFR.STEP",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(-90.0, 0.0, 0.0))
 
 pcb-symbol sym :
   pin EN at Point(-7.62001524003048, 10.1600203200406) with :

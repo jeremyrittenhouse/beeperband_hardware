@@ -338,7 +338,6 @@ public pcb-component component :
     i2c.scl => i2c-scl-pin.p
     i2c.sda => i2c-sda-pin.p
 
-
   ; I3C
   supports i3c :
     i3c.scl => self.P1_12
@@ -527,6 +526,7 @@ public pcb-module module :
   pin V30  
   pin VBAT 
   pin VBUS 
+  pin VBUSp
   pin VSYS
 
   public inst mcu : DA14705/component
@@ -619,13 +619,30 @@ public pcb-module module :
   short-trace(l2.p[2] mcu.VSYS)
   bypass-cap-strap(mcu.VSYS, GND, 10.0e-6)
 
-  ; inst usb-conn : ocdb/components/korean-hroparts-elec/TYPE-C-31-M-23/module(SinkDefault)
+  inst ant : J2450AT18D0100/component
+  ; rf matching placeholder
+  inst cpi1 : ceramic-cap(1.0e-12)
+  inst lpi : smd-inductor(1.0e-6)
+  inst cpi2 : ceramic-cap(1.0e-12)
 
+  net (mcu.RFIOP cpi1.p[1] lpi.p[1])
+  net (lpi.p[2] cpi2.p[1] ant.p[1])
+  net (GND cpi1.p[2] cpi2.p[2] ant.GND)
+
+  inst usb-conn : ocdb/components/korean-hroparts-elec/TYPE-C-31-M-23/module(SinkDefault)
+  inst esd :  database-part(["mpn" => "TPD4S012DRYR", "manufacturer" => "Texas Instruments"])
+
+  require mcu-usb : usb-2-data from mcu
   ; net (usb usb-conn.usb-c.data)
-  ; net (usb-conn.vbus.vdd VBUSp)
-  ; net (usb-conn.vbus.gnd GND)
-
-  ; schematic-group(self) = wireless-power
+  net (usb-conn.usb-c.vbus.vdd VBUSp)
+  net (usb-conn.usb-c.vbus.gnd GND)
+  net (usb-conn.usb-c.data[1] mcu-usb)
+  net (esd.D+ usb-conn.usb-c.data[1].P)
+  net (esd.D- usb-conn.usb-c.data[1].N)
+  net (esd.GND usb-conn.usb-c.vbus.gnd)
+  net (esd.VBUS usb-conn.usb-c.vbus.vdd)
+  no-connect(esd.NC)
+  schematic-group([usb-conn esd]) = usb
 
 
   ; public inst usb : usb2-on-a-usb-c-connector(ocdb/components/korean-hroparts-elec/TYPE-C-31-M-12/module(SinkDefault))
@@ -634,7 +651,6 @@ public pcb-module module :
   ; net (GND usb.usb-2.vbus.gnd)
 
   ; ; Create a protected power and data interface for USB-2
-  ; database-part(["mpn" => "TPD4S012DRYR", "manufacturer" => "Texas Instruments"])
   ; val protected-usb = ocdb/modules/protection/esd-clamp(usb.usb-2, GND)
   ; net (VBUSp protected-usb.usb-out.vbus.vdd usb.usb-2.vbus.vdd)
   ; net (usb-data protected-usb.usb-out.data)

@@ -35,7 +35,7 @@ pcb-module beeper-design :
   inst wpwr    : BQ51003YFPR/module
   inst codec   : DA7212-01UM2/module
   inst qsensor : LSM6DSV16BX/module
-  inst vad-mic : PMM-3738-VM1000-R/module
+  ; inst vad-mic : PMM-3738-VM1000-R/module
   inst button  : EVPBB4A9B000/component[3]
   inst hap-drv : DRV2605YZFR/module
   
@@ -62,6 +62,7 @@ pcb-module beeper-design :
   net (VDDBUS  mcu.VBUS)
   net (VDDSYS  mcu.VSYS)
 
+  net (mcu.VBUSp wpwr.VBUSp)
   ; connect quad spi from memory to mcu
   require mem-qspi : quad-spi from mem.m
   require mcu-qspi : quad-spi from mcu.mcu
@@ -112,14 +113,16 @@ pcb-module beeper-design :
   ;   add-testpoint([p], gen-testpad(0.5))
 
   ; connect all of our grounds
-  net GND (mcu.GND mem.m.GND wpwr.GND codec.pwr1p8.gnd codec.pwrsys.gnd vad-mic.GND hap-drv.GND qsensor.GND)
+  net GND (mcu.GND mem.m.GND wpwr.GND codec.pwr1p8.gnd codec.pwrsys.gnd hap-drv.GND qsensor.GND)
+  ; vad-mic.GND
 
   ; connect the power supplies at the top level for those components
   net (VDDSYS mem.m.Vcc wpwr.VBUS codec.pwrsys.vdd hap-drv.VDD)
-  net (VDD1P8 codec.pwr1p8.vdd vad-mic.VDD qsensor.VDD)
+  net (VDD1P8 codec.pwr1p8.vdd qsensor.VDD)
+  ; vad-mic.VDD 
 
   ; connect VAD microphone -> just a single analog connection
-  net (vad-mic.OUT mcu.mcu.VAD)
+  ;net (vad-mic.OUT mcu.mcu.VAD)
 
   ; buttons (3) and placed per the mechanical design (subject to change)
   require mcu-but : gpio[3] from mcu.mcu

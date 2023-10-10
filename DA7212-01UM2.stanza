@@ -139,14 +139,14 @@ public pcb-module module :
     full-i2s.mclk   => codec.MCLK
 
 
-  inst mic1 : PMM-3738-VM1000-R/module
-  inst mic2 : PMM-3738-VM1000-R/module
+  ; inst mic1 : PMM-3738-VM1000-R/module
+  ; inst mic2 : PMM-3738-VM1000-R/module
 
-  net (mic1.VDD codec.MICBIAS1)
-  net (mic2.VDD codec.MICBIAS2)
-  net (GND mic1.GND mic2.GND)
-  net (mic1.OUT codec.MIC1_P)
-  net (mic2.OUT codec.MIC2_P)
+  ; net (mic1.VDD codec.MICBIAS1)
+  ; net (mic2.VDD codec.MICBIAS2)
+  ; net (GND mic1.GND mic2.GND)
+  ; net (mic1.OUT codec.MIC1_P)
+  ; net (mic2.OUT codec.MIC2_P)
   no-connect(codec.MIC1_N)
   no-connect(codec.MIC2_N)
 

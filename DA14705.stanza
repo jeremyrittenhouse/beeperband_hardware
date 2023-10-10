@@ -530,10 +530,11 @@ public pcb-module module :
   pin VSYS
 
   public inst mcu : DA14705/component
-  inst xtal-32M : ocdb/components/abracon/ABM12-32-B2X-T3/component
+  inst xtal-32M : database-part(["mpn" => "XRCGB32M000F1H00R0", "manufacturer" => "Murata"])
   ; crystal connections
   net (xtal-32M.p[1] mcu.XTAL32Mp)
-  net (xtal-32M.p[2] mcu.XTAL32Mm)
+  net (xtal-32M.p[3] mcu.XTAL32Mm)
+  net (GND xtal-32M.GND0 xtal-32M.GND1)
 
   inst led : database-part(["mpn" => "TJ-S1615SW6TWMLCCYRGB-A5", "manufacturer" => "Togialed"])
   net VLED (mcu.VLED led.p[1])
@@ -633,8 +634,8 @@ public pcb-module module :
   ; net (GND usb.usb-2.vbus.gnd)
 
   ; ; Create a protected power and data interface for USB-2
+  ; database-part(["mpn" => "TPD4S012DRYR", "manufacturer" => "Texas Instruments"])
   ; val protected-usb = ocdb/modules/protection/esd-clamp(usb.usb-2, GND)
-
   ; net (VBUSp protected-usb.usb-out.vbus.vdd usb.usb-2.vbus.vdd)
   ; net (usb-data protected-usb.usb-out.data)
 

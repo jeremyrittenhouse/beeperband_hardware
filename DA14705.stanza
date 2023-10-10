@@ -16,16 +16,29 @@ defpackage DA14705 :
 
   import bundles
 
-defn depop? (row:Int, col:Int) :
-  val depopulated = [
-    [5,9]
-    [6,10]
-  ]
-  contains?(depopulated, [row, col])
+defn MyBgaModifier () -> BGAModifier:
+  new BGAModifier:
+    defmethod locs (this, num-rows:Int, num-cols:Int, pitch:Double) :
+      val offset-locs = [105, 106, 107, 117, 118, 119, 129, 130, 131, 141, 142, 143]
+      val all-locs = grid-locs(num-rows, num-cols, pitch, pitch)
+      val new-locs = to-tuple $
+        for (p in all-locs, i in 0 to false) seq :
+          if not contains?(offset-locs, i) :
+            p
+          else :
+            loc(x(center(p)) + 0.2, y(center(p)) - 0.2)
+      new-locs
+
+    defmethod depopulated? (this, row:Int, col:Int) -> True|False:
+      val depop = [
+        [5,9]
+        [6,10]
+      ]
+      contains?(depop, [row, col])
 
 pcb-landpattern lp :
   make-bga-landpattern(12, 12, 0.450, 0.250, min-typ-max(5.930, 6.000, 6.070), min-typ-max(6.130, 6.200, 6.270), modifier) where :
-    val modifier = CustomDepop(depop?)
+    val modifier = MyBgaModifier()
 
   model3d = Model3D("3d-models/DA14705-00000HZ2.stp",
     Vec3D(0.0, 0.0, 0.0),
@@ -634,5 +647,3 @@ public pcb-module module :
   schematic-group(mcu, 5) = bank5
 
   layout-group(self) = mcu
-
-view(component)

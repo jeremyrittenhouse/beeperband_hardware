@@ -19,14 +19,14 @@ defpackage DA14705 :
 defn MyBgaModifier () -> BGAModifier:
   new BGAModifier:
     defmethod locs (this, num-rows:Int, num-cols:Int, pitch:Double) :
-      val offset-locs = [105, 106, 107, 117, 118, 119, 129, 130, 131, 141, 142, 143]
+      val offset-locs = [8, 9, 10, 11, 20, 21, 22, 23, 32, 33, 34, 35, 44, 45, 46, 47]
       val all-locs = grid-locs(num-rows, num-cols, pitch, pitch)
       val new-locs = to-tuple $
         for (p in all-locs, i in 0 to false) seq :
           if not contains?(offset-locs, i) :
             p
           else :
-            loc(x(center(p)) + 0.2, y(center(p)) - 0.2)
+            loc(x(center(p)) + 0.2975, y(center(p)) + 0.2075)
       new-locs
 
     defmethod depopulated? (this, row:Int, col:Int) -> True|False:
@@ -647,3 +647,5 @@ public pcb-module module :
   schematic-group(mcu, 5) = bank5
 
   layout-group(self) = mcu
+
+view(component)

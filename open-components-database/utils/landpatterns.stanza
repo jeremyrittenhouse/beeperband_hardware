@@ -2324,9 +2324,9 @@ pcb-pad bga-pad (typical-ball-diameter:Double,      ; the typical/nominal size o
   val collapsible? = pad-type is Collapsible
 
   val adjustment = switch(density-level) :
-    DensityLevelA: 0.75 when collapsible? else 1.15
-    DensityLevelB: 0.80 when collapsible? else 1.10
-    DensityLevelC: 0.85 when collapsible? else 1.05
+    DensityLevelA: 0.75 ; when collapsible? else 1.15
+    DensityLevelB: 0.80 ; when collapsible? else 1.10
+    DensityLevelC: 0.85 ; when collapsible? else 1.05
 
   val definition-diameter = typical-ball-diameter * adjustment
   val referenced-diameter = definition-diameter + solder-mask-registration * 2.0

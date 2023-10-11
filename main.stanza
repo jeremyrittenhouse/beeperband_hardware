@@ -22,9 +22,30 @@ defpackage main :
 
 MIN-PKG = "0201"
 ; max_height = 1.5
+; DENSITY-LEVEL = 
+set-rules(my-std-rules)
 
 ; Define the shape/size of the board
-val board-shape = Rectangle(26.0, 19.0)
+val x-off = 17.270
+val y-off = -15.110
+val x-but-off =  2.050
+val y-but-off = 10.750
+val board-shape = PolygonWithArcs([
+                   Point( -4.770 + x-off,   5.610 + y-off),
+                   Point(-31.020 + x-off,   5.610 + y-off),
+                   Point(-31.020 + x-off,  24.610 + y-off),
+                   Point( -3.520 + x-off,  24.610 + y-off),
+                   Point( -3.520 + x-off,   7.110 + y-off),
+                   Arc(Point(-3.770 + x-off, 6.110 + y-off), 1.000, 90.00, 90.00)]) ; Rectangle(26.0, 19.0)
+
+val signal-shape = PolygonWithArcs([
+                   Point( -4.770 + x-off,   5.610 + y-off),
+                   Point(-31.020 + x-off,   5.610 + y-off),
+                   Point(-31.020 + x-off,  24.610 + y-off),
+                   Point( -3.520 + x-off,  24.610 + y-off),
+                   Point( -3.520 + x-off,   7.110 + y-off),
+                   Arc(Point(-3.770 + x-off, 6.110 + y-off), 1.000, 90.00, 90.00)]) ; Rectangle(26.0, 19.0)
+
 
 ; Module to run as a design
 pcb-module beeper-design :
@@ -129,9 +150,9 @@ pcb-module beeper-design :
   for i in 0 to 3 do :
     net (mcu-but[i].gpio button[i].A button[i].A1)
     net (GND button[i].B button[i].B1)
-  place(button[0]) at loc(-8.300, 0.000, 90.0) on Top
-  place(button[1]) at loc( 1.700, 0.000, 90.0) on Top
-  place(button[2]) at loc(11.700, 0.000, 90.0) on Top
+  val x-delta = 10.000
+  for i in 0 to 3 do :
+    place(button[i]) at loc(-31.020 + x-off + x-but-off + to-double(i) * 10.000,   5.610 + y-off + y-but-off, 90.0) on Top
 
   ; let's make prettier schematics
   symbol(GND) = ocdb/utils/symbols/ground-sym
@@ -140,9 +161,17 @@ pcb-module beeper-design :
 
   ; power planes (let's assume 4 layers for now...)
   geom(GND):
-    copper-pour(LayerIndex(1), isolate = 0.1, rank = 1) = board-shape
+    copper-pour(LayerIndex(1), isolate = 0.1, rank = 1) = signal-shape
   geom(VDDSYS) :
-    copper-pour(LayerIndex(2), isolate = 0.1, rank = 1) = board-shape
+    copper-pour(LayerIndex(2), isolate = 0.1, rank = 1) = signal-shape
+
+  ; layer(Cutout()) = Line(0.2, [Point(-31.02, 5.61), Point(-4.77000000000001, 5.61)])
+  ; layer(Cutout()) = Line(0.2, [Point(-3.52000000000001, 7.11), Point(-3.52000000000001, 24.61)])
+  ; layer(Cutout()) = Line(0.2, [Point(-4.77000000000001, 5.61), Point(-4.77000000000001, 6.11)])
+  ; layer(Cutout()) = Line(0.2, [Point(-3.52000000000001, 24.61), Point(-31.02, 24.61)])
+  ; layer(Cutout()) = Line(0.2, [Point(-31.02, 24.61), Point(-31.02, 5.61)])
+  ; layer(Cutout()) = Line(0.2, [Point(-3.77000000000001, 7.11), Point(-3.52000000000001, 7.11)])
+  ; layer(Cutout()) = Polyline(0.2, [Arc(-3.7699802613628, 6.10998026136275, 1.00001973883201, 179.998869081715, -89.9977381634326)])
 
 
 ; Set the design name     - a directory with this name will be generated under the "designs" directory

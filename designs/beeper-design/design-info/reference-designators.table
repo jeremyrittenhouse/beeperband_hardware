@@ -29,6 +29,7 @@
     "9ESdQPmzukTMy5CyTFHyjy": "C33",
     "2MPFgjvjdoDE6XHPoQYqZF": "C34",
     "EDYRjoQZkrAViL7Qnxgw6x": "C35",
+    "4KQx9kMygaAaEU4CXrJ92L": "C36",
     "9SSh4BComEEC2cugXXifVe": "C4",
     "2cmto4YdDPBgVLnQX7fZW2": "C42",
     "CdfSntPBMCKU2MpKqhf5Tk": "C43",
@@ -43,10 +44,10 @@
     "3HXkBAHTNULm45sZfhwZ5m": "C9",
     "BFNorRQzj61DXDSUuwFz8A": "F1",
     "DXxxXc11GMaGHnTF1YF2f3": "J1",
-    "44kNc2utjBCMjhQujeoNfY": "J2",
     "69ztWzMeZ5NYtjscQujZP4": "J3",
     "C785DKzMLqAD4F7na2KuD8": "J4",
     "6kBkZd6f2AiMS5hiHwFtv9": "J5",
+    "3pC5XRFfGntJ8odwTDzGkf": "J6",
     "BrFFsRwzrFSZBVWAXoUnWs": "L1",
     "7zWkzSL9dsanvNrd3J4Jfp": "L2",
     "5DA5pNNuhs3GZn6XdcHEn3": "L3",
@@ -59,7 +60,6 @@
     "2GsNjSksumtQT61RdtXJZa": "R16",
     "BFm46vTbqDZxYp3mLsXYYq": "R17",
     "v66atuRhTUmQ9wbKoDkC7": "R18",
-    "3YvNRiJ62VZsReUB8wmMiP": "R19",
     "6fPEfNv2Akwc3NLHY874kd": "R2",
     "FQkoXjMW9mhR3tcP1RGPUK": "R3",
     "72v27ugCwi7ZWBoxWp5iyp": "R4",
@@ -78,7 +78,6 @@
     "A4AgD9AzJ2nRBHW9y6299T": "U3",
     "8gZnRd8Cb2X7FzBJcjKiwN": "U4",
     "6HKsGtiqajrMnb1JFcCFGk": "U9",
-    "BynoCintb9fuuwozQUaFvx": "USB1",
     "A2u7NdnDnE6XFt3TyNKLHp": "XTAL1"
   }
 }

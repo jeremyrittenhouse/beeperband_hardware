@@ -37,7 +37,7 @@ defn MyBgaModifier () -> BGAModifier:
       contains?(depop, [row, col])
 
 pcb-landpattern lp :
-  make-bga-landpattern(12, 12, 0.450, 0.250, min-typ-max(5.930, 6.000, 6.070), min-typ-max(6.130, 6.200, 6.270), modifier) where :
+  make-bga-landpattern(12, 12, 0.450, 0.250, SolderMaskDefined, min-typ-max(5.930, 6.000, 6.070), min-typ-max(6.130, 6.200, 6.270), modifier) where :
     val modifier = MyBgaModifier()
 
   model3d = Model3D("3d-models/DA14705-00000HZ2.stp",
@@ -215,9 +215,9 @@ public pcb-component component :
   ;   swd().swdio  => self.P0_04
   ;   swd().swdclk => self.P0_07
   
-  supports swd(): ; SNC M0+
-    swd().swdio  => self.P0_02
-    swd().swdclk => self.P0_03
+  ; supports swd(): ; SNC M0+
+  ;   swd().swdio  => self.P0_02
+  ;   swd().swdclk => self.P0_03
 
   supports usb-2-data :
     usb-2-data.P => self.P2_10
@@ -548,19 +548,20 @@ public pcb-module module :
   require dbg-power-m33 : power from dbg-m33-conn
   require dbg-m33 : swd() from dbg-m33-conn
   require mcu-dbg-m33 : swd() from mcu
-  require conn-reset : reset from dbg-m33-conn
+  require conn-uart : uart() from dbg-m33-conn
+  require mcu-uart : uart() from mcu
   net (dbg-m33 mcu-dbg-m33)
-  net (conn-reset.reset mcu.nRST)
+  net (conn-uart mcu-uart) ; ok to make this tx -> tx, rx -> rx as the connector has the same expectation
   net (dbg-power-m33.vdd VSYS)
   net (dbg-power-m33.gnd GND)
 
-  inst dbg-snc-conn : ocdb/components/tag-connect/TC2030-IDC-NL/component
-  require dbg-power-snc : power from dbg-snc-conn
-  require dbg-snc : swd() from dbg-snc-conn
-  require mcu-dbg-snc : swd() from mcu
-  net (dbg-snc mcu-dbg-snc)
-  net (dbg-power-snc.vdd VSYS)
-  net (dbg-power-snc.gnd GND)
+  ; inst dbg-snc-conn : ocdb/components/tag-connect/TC2030-IDC-NL/component
+  ; require dbg-power-snc : power from dbg-snc-conn
+  ; require dbg-snc : swd() from dbg-snc-conn
+  ; require mcu-dbg-snc : swd() from mcu
+  ; net (dbg-snc mcu-dbg-snc)
+  ; net (dbg-power-snc.vdd VSYS)
+  ; net (dbg-power-snc.gnd GND)
 
   inst etm-conn : pin-header(6, 1.00)
   require mcu-etm : ETM from mcu
@@ -573,32 +574,32 @@ public pcb-module module :
 
   ; supply decoupling table using area optimized table 
   val supplies = kvs([
-    mcu.V12 => 22.0e-6
-    mcu.V14  => 22.0e-6
-    mcu.V14RF  => 22.0e-6
-    mcu.V18  => 47.0e-6
-    mcu.V18F => 0.1e-6
-    mcu.V18P => 47.0e-6
-    mcu.V30  => 10.0e-6
-    mcu.VBAT => 10.0e-6
-    mcu.VBUS => 10.0e-6
-    mcu.VLED => 2.2e-6 
-    mcu.VSYS => 10.0e-6 ])
+    mcu.V12   => 22.0e-6
+    mcu.V14   => 22.0e-6
+    mcu.V14RF => 22.0e-6
+    mcu.V18   => 47.0e-6
+    mcu.V18F  => 0.1e-6
+    mcu.V18P  => 47.0e-6
+    mcu.V30   => 10.0e-6
+    mcu.VBAT  => 10.0e-6
+    mcu.VBUS  => 10.0e-6
+    mcu.VLED  => 2.2e-6 
+    mcu.VSYS  => 10.0e-6 ])
 
   for [pin_, cap_] in supplies do:
     val bypc = bypass-cap-strap(pin_, GND, cap_)
     schematic-group(bypc) = bypasses
 
-  net (V12      mcu.V12)
-  net (V14      mcu.V14)
-  net (V18      mcu.V18)
-  net (V18F    mcu.V18F)
-  net (V18P    mcu.V18P)
-  net (V30      mcu.V30)
-  net (VBAT    mcu.VBAT)
-  net (VBUS    mcu.VBUS)
-  net (VLED    mcu.VLED)
-  net (VSYS    mcu.VSYS)
+  net (V12   mcu.V12)
+  net (V14   mcu.V14)
+  net (V18   mcu.V18)
+  net (V18F mcu.V18F)
+  net (V18P mcu.V18P)
+  net (V30   mcu.V30)
+  net (VBAT mcu.VBAT)
+  net (VBUS mcu.VBUS)
+  net (VLED mcu.VLED)
+  net (VSYS mcu.VSYS)
   
   val ground-pins = [mcu.AVS1 mcu.AVS2 mcu.AVS3 mcu.VSSD1 mcu.VSSD2 mcu.VSSD3 mcu.VSSD4 mcu.VSSD5 
                      mcu.VSSIOQQ mcu.PSUB mcu.PSUBRF mcu.RFIOM1 mcu.RFIOM2 mcu.GND_BOOST mcu.GND_BUCK 
@@ -620,29 +621,29 @@ public pcb-module module :
   bypass-cap-strap(mcu.VSYS, GND, 10.0e-6)
 
   inst ant : J2450AT18D0100/component
-  ; rf matching placeholder
+  ; rf pi-network matching placeholder
   inst cpi1 : ceramic-cap(1.0e-12)
-  inst lpi : smd-inductor(1.0e-6)
+  inst lpi : smd-inductor(1.0e-9)
   inst cpi2 : ceramic-cap(1.0e-12)
 
   net (mcu.RFIOP cpi1.p[1] lpi.p[1])
   net (lpi.p[2] cpi2.p[1] ant.p[1])
   net (GND cpi1.p[2] cpi2.p[2] ant.GND)
 
-  inst usb-conn : ocdb/components/korean-hroparts-elec/TYPE-C-31-M-23/module(SinkDefault)
+  inst usb : micro-usb-connector
   inst esd :  database-part(["mpn" => "TPD4S012DRYR", "manufacturer" => "Texas Instruments"])
 
   require mcu-usb : usb-2-data from mcu
   ; net (usb usb-conn.usb-c.data)
-  net (usb-conn.usb-c.vbus.vdd VBUSp)
-  net (usb-conn.usb-c.vbus.gnd GND)
-  net (usb-conn.usb-c.data[1] mcu-usb)
-  net (esd.D+ usb-conn.usb-c.data[1].P)
-  net (esd.D- usb-conn.usb-c.data[1].N)
-  net (esd.GND usb-conn.usb-c.vbus.gnd)
-  net (esd.VBUS usb-conn.usb-c.vbus.vdd)
+  net (usb.usb-2.vbus.vdd VBUSp)
+  net (usb.usb-2.vbus.gnd GND)
+  net (usb.usb-2.data mcu-usb)
+  net (esd.D+ usb.usb-2.data.P)
+  net (esd.D- usb.usb-2.data.N)
+  net (esd.GND usb.usb-2.vbus.gnd)
+  net (esd.VBUS usb.usb-2.vbus.vdd)
   no-connect(esd.NC)
-  schematic-group([usb-conn esd]) = usb
+  schematic-group([usb esd]) = usb
 
 
   ; public inst usb : usb2-on-a-usb-c-connector(ocdb/components/korean-hroparts-elec/TYPE-C-31-M-12/module(SinkDefault))

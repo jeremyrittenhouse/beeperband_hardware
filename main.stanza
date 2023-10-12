@@ -21,6 +21,7 @@ defpackage main :
 
 
 MIN-PKG = "0201"
+DESIGN-QUANTITY = 10
 ; max_height = 1.5
 ; DENSITY-LEVEL = 
 set-rules(my-std-rules)
@@ -119,6 +120,9 @@ pcb-module beeper-design :
 
   ; haptic output header (for now)
   inst haptic : pin-header(2, 1.00)
+  component-status(haptic) :
+    bom-status = NotInBOM
+
   net (haptic.p[1] hap-drv.OUT+)
   net (haptic.p[2] hap-drv.OUT-)
 
@@ -181,7 +185,8 @@ pcb-module beeper-design :
 ;     [optional] quantity - Minimum stock quantity the vendor should carry (if not give default quantity will be used)
 setup-design(
   "beeper-design",
-  ocdb/utils/defaults/default-board(ocdb/manufacturers/stackups/bay-area-circuits-4-layer-62-mil, board-shape)
+  ocdb/utils/defaults/default-board(ocdb/manufacturers/stackups/bay-area-circuits-4-layer-62-mil, board-shape,)
+  quantity = DESIGN-QUANTITY
 )
 
 ; Set the schematic sheet size

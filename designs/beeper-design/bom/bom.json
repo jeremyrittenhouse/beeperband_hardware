@@ -1,0 +1,638 @@
+{
+	"proj-name":	"beeper-design",
+	"headers":	[{
+			"field":	"status",
+			"name":	"Status",
+			"width":	10
+		}, {
+			"field":	"description",
+			"name":	"Description",
+			"width":	10
+		}, {
+			"field":	"insts",
+			"name":	"References",
+			"width":	10
+		}, {
+			"field":	"datasheet",
+			"name":	"Datasheet",
+			"width":	10
+		}, {
+			"field":	"manufacturer",
+			"name":	"Manufacturer",
+			"width":	10
+		}, {
+			"field":	"mpn",
+			"name":	"Part Number",
+			"width":	10
+		}, {
+			"field":	"vendor",
+			"name":	"Vendor",
+			"width":	10
+		}, {
+			"field":	"_quantity",
+			"name":	"Quantity",
+			"width":	8
+		}, {
+			"field":	"price",
+			"name":	"Price",
+			"width":	8
+		}, {
+			"field":	"_subtotal",
+			"name":	"Cost",
+			"width":	8
+		}, {
+			"field":	"_preferred",
+			"name":	"Preferred",
+			"width":	8
+		}],
+	"new_bom":	{
+		"rows":	[{
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"31.25mW Thin Film Resistor ±25ppm/℃ ±0.1% 10kΩ 0201  Chip Resistor - Surface Mount ROHS",
+				"insts":	["R7", "R6", "R5"],
+				"datasheet":	"https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English",
+				"manufacturer":	"TE Connectivity",
+				"mpn":	"CPF0201B10KE1",
+				"vendor":	"DigiKey",
+				"sku":	"CPF0201B10KE1",
+				"price":	0.30255,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 10uF X5R ±20% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	["C23", "C12", "C11", "C9", "C8", "C7"],
+				"datasheet":	"http://www.calchipelectronics.com/pdf/gmc_series.pdf",
+				"manufacturer":	"Cal-Chip Electronics",
+				"mpn":	"GMC04X5R106M10NT",
+				"vendor":	"DigiKey",
+				"sku":	"GMC04X5R106M10NT",
+				"price":	0.029,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"50V 270pF X7R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	["C21"],
+				"datasheet":	"http://www.calchipelectronics.com/pdf/gmc_series.pdf",
+				"manufacturer":	"Cal-Chip Electronics",
+				"mpn":	"GMC02X7R271K50NT",
+				"vendor":	"DigiKey",
+				"sku":	"GMC02X7R271K50NT",
+				"price":	0.0045,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"6V -40℃~+85℃@(Ta) 60W 3A Unidirectional 5.5V SON-6(1x1.5)  ESD Protection Devices ROHS",
+				"insts":	["F1"],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/1809050016_Texas-Instruments-TPD4S012DRYR_C96506.pdf",
+				"manufacturer":	"Texas Instruments",
+				"mpn":	"TPD4S012DRYR",
+				"vendor":	"LCSC",
+				"sku":	"TPD4S012DRYR",
+				"price":	0.2683,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"30mW Thin Film Resistor ±25ppm/℃ ±0.1% 845Ω 0201  Chip Resistor - Surface Mount ROHS",
+				"insts":	["R2"],
+				"datasheet":	"https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English",
+				"manufacturer":	"TE Connectivity",
+				"mpn":	"CPF0201B845RE1",
+				"vendor":	"DigiKey",
+				"sku":	"CPF0201B845RE1",
+				"price":	0.30255,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"32MHz 6pF 60Ω ±10ppm ±10ppm -30℃~+85℃ SMD2016-4P  Crystals ROHS",
+				"insts":	["XTAL1"],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2201242130_Murata-Electronics-XRCGB32M000F1H00R0_C880116.pdf",
+				"manufacturer":	"Murata",
+				"mpn":	"XRCGB32M000F1H00R0",
+				"vendor":	"Arrow",
+				"sku":	"XRCGB32M000F1H00R0",
+				"price":	0.2943,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"20mA White Diffused -40℃~+80℃ Common anode RGB 120° 0606  Light Emitting Diodes (LED) ROHS",
+				"insts":	["LED1"],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2006181007_TOGIALED-TJ-S1615SW6TWMLCCYRGB-A5_C601682.pdf",
+				"manufacturer":	"Togialed",
+				"mpn":	"TJ-S1615SW6TWMLCCYRGB-A5",
+				"vendor":	"JLCPCB",
+				"sku":	"TJ-S1615SW6TWMLCCYRGB-A5",
+				"price":	0.078309859,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"",
+				"insts":	["C22", "C20", "C19"],
+				"datasheet":	"https://www.atceramics.com/UserFiles/550z.pdf",
+				"manufacturer":	"American Technical Ceramics",
+				"mpn":	"550Z103PTRD",
+				"vendor":	"DigiKey",
+				"sku":	"550Z103PTRD",
+				"price":	3.96525,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"31.25mW Thin Film Resistor ±25ppm/℃ ±0.1% 196Ω 0201  Chip Resistor - Surface Mount ROHS",
+				"insts":	["R3"],
+				"datasheet":	"https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English",
+				"manufacturer":	"TE Connectivity",
+				"mpn":	"CPF0201B196RE1",
+				"vendor":	"DigiKey",
+				"sku":	"CPF0201B196RE1",
+				"price":	0.30255,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"MEMS MODULE 3D GYROSCOPE/ACCELEROMETER LGA",
+				"insts":	["U9"],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2003190335_STMicroelectronics-LSM6DSOXTR_C481766.pdf",
+				"manufacturer":	"STMicroelectronics",
+				"mpn":	"LSM6DSOXTR",
+				"vendor":	"Newark",
+				"sku":	"LSM6DSOXTR",
+				"price":	7.8,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"16V 1uF X5R ±20% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	["C48", "C47", "C35", "C34", "C33", "C32", "C31", "C30", "C29", "C28", "C26", "C13"],
+				"datasheet":	"http://www.samsungsem.com/kr/support/product-search/mlcc/CL03A105MO3NRNC.jsp",
+				"manufacturer":	"Samsung",
+				"mpn":	"CL03A105MO3NRNC",
+				"vendor":	"JLCPCB",
+				"sku":	"CL03A105MO3NRNC",
+				"price":	0.016901408,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"FIXED IND 1NH 470MA 110 MOHM SMD",
+				"insts":	["L3"],
+				"datasheet":	"https://www.we-online.com/catalog/datasheet/7447820010.pdf",
+				"manufacturer":	"Wurth Elektronik",
+				"mpn":	"7447820010",
+				"vendor":	"DigiKey",
+				"sku":	"7447820010",
+				"price":	0.1,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"31.25mW Thin Film Resistor ±0.5% ±50ppm/℃ 20kΩ 0201  Chip Resistor - Surface Mount ROHS",
+				"insts":	["R4"],
+				"datasheet":	"https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English",
+				"manufacturer":	"TE Connectivity",
+				"mpn":	"5-2176074-3",
+				"vendor":	"Mouser",
+				"sku":	"5-2176074-3",
+				"price":	0.58,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"15mA 1uH ±10% 0402  Inductors (SMD) ROHS",
+				"insts":	["L2"],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2202010100_Abracon-LLC-AIML-0402-1R0K-T_C2043446.pdf",
+				"manufacturer":	"Abracon",
+				"mpn":	"AIML-0402-1R0K-T",
+				"vendor":	"Mouser",
+				"sku":	"AIML-0402-1R0K-T",
+				"price":	0.1,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"IP67 20mA 2.6mm 50MΩ 500000 2.4N 15V -40℃~+85℃ 1.6mm 0.55mm Round Button Brick nogging SPST SMD,1.6x2.6mm  Tactile Switches ROHS",
+				"insts":	["U16", "U15", "U14"],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/1810171042_PANASONIC-EVPBB4A9B000_C140848.pdf",
+				"manufacturer":	"Panasonic",
+				"mpn":	"EVPBB4A9B000",
+				"vendor":	"JLCPCB",
+				"sku":	"EVPBB4A9B000",
+				"price":	0.184647887,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 47uF X5R ±20% 0805  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	["C6", "C4"],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_TDK-C2012X5R1A476M125AC_C2182652.pdf",
+				"manufacturer":	"TDK",
+				"mpn":	"C2012X5R1A476M125AC",
+				"vendor":	"Newark",
+				"sku":	"C2012X5R1A476M125AC",
+				"price":	0.252,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"50mA 470nH ±3% 16.5Ω -  Inductors (SMD) ROHS",
+				"insts":	["L1"],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2108030330_Murata-Electronics-LQP03HQR47H02D_C1857921.pdf",
+				"manufacturer":	"Murata",
+				"mpn":	"LQP03HQR47H02D",
+				"vendor":	"DigiKey",
+				"sku":	"LQP03HQR47H02D",
+				"price":	0.23,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"IC WIRELESS PWR RCVR 28DSBGA",
+				"insts":	["U3"],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/1810010230_Texas-Instruments-BQ51003YFPR_C134093.pdf",
+				"manufacturer":	"Texas Instruments",
+				"mpn":	"BQ51003YFPR",
+				"vendor":	"DigiKey",
+				"sku":	"BQ51003YFPR",
+				"price":	0.67883,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"RES 0 OHM JUMPER 1/20W 0201",
+				"insts":	["R1"],
+				"datasheet":	"http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR02X.pdf",
+				"manufacturer":	"Walsin Tech Corp",
+				"mpn":	"WR02X000 PAL",
+				"vendor":	"DigiKey",
+				"sku":	"WR02X000 PAL",
+				"price":	0.00133,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"",
+				"insts":	["C25", "C24"],
+				"datasheet":	"https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf?ref_disty=digikey",
+				"manufacturer":	"TDK",
+				"mpn":	"C1005X5R1A475K050BC",
+				"vendor":	"Newark",
+				"sku":	"C1005X5R1A475K050BC",
+				"price":	0.402,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"2.5V~5.5V I2C BGA-9  Motor Driver ICs ROHS",
+				"insts":	["U12"],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/1806151241_Texas-Instruments-DRV2605YZFR_C81079.pdf",
+				"manufacturer":	"Texas Instruments",
+				"mpn":	"DRV2605YZFR",
+				"vendor":	"DigiKey",
+				"sku":	"DRV2605YZFR",
+				"price":	1.15488,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"3.9A 162mΩ@1.8V,1A 700mW 2 P-Channel BGA-9  MOSFETs ROHS",
+				"insts":	["U13"],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/1806122238_Texas-Instruments-CSD75207W15_C201968.pdf",
+				"manufacturer":	"Texas Instruments",
+				"mpn":	"CSD75207W15",
+				"vendor":	"DigiKey",
+				"sku":	"CSD75207W15",
+				"price":	0.24869,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"16V 470nF ±20% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	["C16", "C15"],
+				"datasheet":	"https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=EMK063BBJ474MPLF%20%20&u=M",
+				"manufacturer":	"Taiyo Yuden",
+				"mpn":	"EMK063BBJ474MPLF",
+				"vendor":	"DigiKey",
+				"sku":	"EMK063BBJ474MPLF",
+				"price":	0.27,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 22nF X7S ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	["C18", "C17"],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2201270700_TDK-C0603X7S1A223K030BC_C1845782.pdf",
+				"manufacturer":	"TDK",
+				"mpn":	"C0603X7S1A223K030BC",
+				"vendor":	"Arrow",
+				"sku":	"C0603X7S1A223K030BC",
+				"price":	0.0044,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"50mW Thick Film Resistors ±5% ±200ppm/℃ 100kΩ 0201  Chip Resistor - Surface Mount ROHS",
+				"insts":	["R18"],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2210171730_CAL-CHIP-ELECTRONICS--INC--RM02J104CT_C3929885.pdf",
+				"manufacturer":	"Cal-Chip Electronics",
+				"mpn":	"RM02J104CT",
+				"vendor":	"DigiKey",
+				"sku":	"RM02J104CT",
+				"price":	0.0015,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"",
+				"insts":	["C50", "C49"],
+				"datasheet":	"http://frontierusa.com/images/datasheets/FEC-MLCC-Catalog-2017.pdf",
+				"manufacturer":	"Frontier",
+				"mpn":	"0201G250N1R0BCT",
+				"vendor":	"DigiKey",
+				"sku":	"0201G250N1R0BCT",
+				"price":	0.012,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 2.2uF X5R ±20% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	["C14", "C10"],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2007201008_Samsung-Electro-Mechanics-CL03A225MP3CRNC_C318539.pdf",
+				"manufacturer":	"Samsung",
+				"mpn":	"CL03A225MP3CRNC",
+				"vendor":	"Newark",
+				"sku":	"CL03A225MP3CRNC",
+				"price":	0.05,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	2,
+					"name":	"No Matching Part"
+				},
+				"description":	"FLASH - NOR Memory IC 32Mbit SPI - Quad I/O 104 MHz 12-WLCSP (2.39x1.77)",
+				"insts":	["U2"],
+				"datasheet":	null,
+				"manufacturer":	null,
+				"mpn":	"AT25FF321A-UUN-T",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	2,
+					"name":	"No Matching Part"
+				},
+				"description":	null,
+				"insts":	["U17"],
+				"datasheet":	null,
+				"manufacturer":	null,
+				"mpn":	"2450AT18D0100",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	2,
+					"name":	"No Matching Part"
+				},
+				"description":	"Audio codec and driver",
+				"insts":	["U4"],
+				"datasheet":	null,
+				"manufacturer":	null,
+				"mpn":	"DA7212-01UM2",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	2,
+					"name":	"No Matching Part"
+				},
+				"description":	null,
+				"insts":	["J6"],
+				"datasheet":	null,
+				"manufacturer":	null,
+				"mpn":	"10103594-0001LF",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	2,
+					"name":	"No Matching Part"
+				},
+				"description":	"Highly Integrated Advanced Bluetooth® 5.2 SoC",
+				"insts":	["U1"],
+				"datasheet":	null,
+				"manufacturer":	null,
+				"mpn":	"DA14705-00000HZ2",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	4,
+					"name":	"Not Enough Stock"
+				},
+				"description":	"",
+				"insts":	["C3", "C2", "C1"],
+				"datasheet":	"http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A226MP8ZUNE.jsp",
+				"manufacturer":	"Samsung",
+				"mpn":	"CL10A226MP8ZUNE",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	4,
+					"name":	"Not Enough Stock"
+				},
+				"description":	"",
+				"insts":	["C43", "C42", "C27", "C36", "C5"],
+				"datasheet":	"https://www.vishay.com/docs/28538/vjw1bcultrasmall.pdf",
+				"manufacturer":	"Vishay",
+				"mpn":	"VJ0201G104KXQCW1BC",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	4,
+					"name":	"Not Enough Stock"
+				},
+				"description":	"RES 8.2K OHM 0.5% 1/32W 0201",
+				"insts":	["R17", "R16", "R15", "R14", "R13", "R12"],
+				"datasheet":	"https://www.seielect.com/catalog/sei-rncf.pdf",
+				"manufacturer":	"SEI",
+				"mpn":	"RNCF0201DTC8K20",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	4,
+					"name":	"Not Enough Stock"
+				},
+				"description":	"RES 1K OHM 1% 1/32W 0201",
+				"insts":	["R8"],
+				"datasheet":	"https://www.seielect.com/catalog/sei-rncf.pdf",
+				"manufacturer":	"SEI",
+				"mpn":	"RNCF0201FKE1K00",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}],
+		"entries":	[{
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}]
+	},
+	"metrics":	[{
+			"name":	"Line Items",
+			"value":	36
+		}, {
+			"name":	"Components",
+			"value":	75
+		}, {
+			"name":	"Cost",
+			"value":	"$27.86"
+		}]
+}

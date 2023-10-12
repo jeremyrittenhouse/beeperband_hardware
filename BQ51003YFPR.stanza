@@ -89,7 +89,9 @@ public pcb-module module :
 
   public inst wpwr : BQ51003YFPR/component
 
-  inst ant : pin-header(2, 1.000)
+  inst coil : pin-header(2, 1.000)
+  component-status(coil) :
+    bom-status = NotInBOM
 
   net (nCHG wpwr.nCHG)
   net (CTRL wpwr.TS-CTRL)
@@ -121,8 +123,8 @@ public pcb-module module :
 
   bypass-cap-strap(wpwr.AC1, wpwr.AC2, 270.0e-12)
 
-  bypass-cap-strap(wpwr.AC1 ant.p[1] 10.0e-9)
-  net (ant.p[2] wpwr.AC2)
+  bypass-cap-strap(wpwr.AC1 coil.p[1] 10.0e-9)
+  net (coil.p[2] wpwr.AC2)
 
   bypass-cap-strap(wpwr.RECT, GND, 10.0e-6)
   bypass-cap-strap(wpwr.RECT, GND, 4.7e-6)

@@ -1,5 +1,5 @@
 #use-added-syntax(jitx)
-defpackage DA14705 :
+defpackage DA14705-00000HZ2 :
   import core
   import collections
   import math
@@ -539,7 +539,7 @@ public pcb-module module :
   pin VBUSp
   pin VSYS
 
-  public inst mcu : DA14705/component
+  public inst mcu : DA14705-00000HZ2/component
   inst xtal-32M : database-part(["mpn" => "XRCGB32M000F1H00R0", "manufacturer" => "Murata"])
   ; crystal connections
   net (xtal-32M.p[1] mcu.XTAL32Mp)

@@ -52,7 +52,7 @@ val signal-shape = PolygonWithArcs([
 pcb-module beeper-design :
 
   ; let's instance all of the major elements of the design at the top level
-  inst mcu     : DA14705/module
+  inst mcu     : DA14705-00000HZ2/module
   inst mem     : AT25FF321A-UUN-T/module
   inst wpwr    : BQ51003YFPR/module
   inst codec   : DA7212-01UM2/module

@@ -51,33 +51,6 @@ public pcb-component component :
   make-box-symbol()
   assign-landpattern(lp)
 
-; pcb-landpattern ant-qi-coil :
-
-;   pad p[1] : smd-pad(0.5, 0.5) at loc(0.0, 0.25)
-;   pad p[2] : smd-pad(0.9, 0.5) at loc(-2.1, 0.25)
-
-;   copper(LayerIndex(0)) = Line(0.5, [Point(-2.1, 5.15), Point(2.2, 5.15), Point(2.2, 2.51), 
-;                                 Point(4.7, 2.51),  Point(4.7, 5.15), Point(6.9, 5.15), 
-;                                 Point(6.9, 2.51),  Point(9.4, 2.51), Point(9.4, 5.15), 
-;                                 Point(11.6, 5.15), Point(11.6, 0.96)])
-;   copper(LayerIndex(0)) = Line(0.5, [Point(0.0, 0.0),   Point(0.0, 5.15)])
-;   copper(LayerIndex(0)) = Rectangle(0.9, 5.4, loc(-2.1, 2.7))
-;   layer(ForbidCopper(LayerIndex(0), LayerIndex(0, Bottom))) = Rectangle(30.0, 5.5, loc(5.0, 3.25))
-;   layer(SolderMask(Top)) = Rectangle(30.0, 5.5, loc(5.0, 3.25))
-;   layer(Courtyard(Top)) = Rectangle(30.0, 5.5, loc(5.0, 3.25))
-;   layer(Courtyard(Bottom)) = Rectangle(30.0, 5.5, loc(5.0, 3.25))
-;   ref-label()
-
-; pcb-component qi-antenna-cmp :
-;   port p : pin[[1 2]]
-;   description = "Qi wireless charging antenna"
-;   val pkg = ant-qi-coil
-;   val sym = antenna-symbol(1, 0)
-;   landpattern = pkg(p[1] => pkg.p[1], p[2] => pkg.p[2])
-;   symbol = sym(p[1] => sym.p[1], p[2] => sym.p[2])
-;   reference-prefix = "ANT"
-;   property(self.rated-temperature) = false
-
 public pcb-module module :
   pin VBUS
   pin VBUSp
@@ -128,8 +101,7 @@ public pcb-module module :
   bypass-cap-strap(wpwr.RECT, GND, 10.0e-6)
   bypass-cap-strap(wpwr.RECT, GND, 4.7e-6)
 
-  inst q1 : CSD75207W15/component 
-  ; database-part(["mpn" => "CSD75207W15", "manufacturer" => "Texas Instruments"])
+  inst q1 : CSD75207W15/component  ; database-part(["mpn" => "CSD75207W15", "manufacturer" => "Texas Instruments"])
 
   net (VBUSp q1.G1 q1.D10 q1.D11)
   net (VBUS q1.D20 q1.D21 q1.D22)

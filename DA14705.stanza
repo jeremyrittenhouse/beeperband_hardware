@@ -555,8 +555,7 @@ public pcb-module module :
   
   ; all dbg connections
   inst dbg-m33-conn : ocdb/components/tag-connect/TC2030-IDC-NL/component
-  component-status(dbg-m33-conn) :
-    bom-status = NotInBOM
+  dnp(dbg-m33-conn)
   require dbg-power-m33 : power from dbg-m33-conn
   require dbg-m33 : swd() from dbg-m33-conn
   require mcu-dbg-m33 : swd() from mcu
@@ -576,8 +575,9 @@ public pcb-module module :
   ; net (dbg-power-snc.gnd GND)
 
   inst etm-conn : pin-header(6, 1.00)
-  component-status(etm-conn) :
-    bom-status = NotInBOM
+  dnp(etm-conn)
+  ; component-status(etm-conn) :
+  ;   bom-status = NotInBOM
 
   require mcu-etm : ETM from mcu
   net (mcu-etm.clk etm-conn.p[1])
@@ -635,14 +635,16 @@ public pcb-module module :
   short-trace(l2.p[2] mcu.VSYS)
   bypass-cap-strap(mcu.VSYS, GND, 10.0e-6)
 
-  inst ant : J2450AT18D0100/component
+  inst ant : J2450AT18D0100/component(true)
   ; rf pi-network matching placeholder
   inst cpi1 : ceramic-cap(1.0e-12)
   inst lpi : smd-inductor(1.0e-9)
   inst cpi2 : ceramic-cap(1.0e-12)
+  inst lm : smd-inductor(1.0e-9)
 
   net (mcu.RFIOP cpi1.p[1] lpi.p[1])
-  net (lpi.p[2] cpi2.p[1] ant.p[1])
+  net (lpi.p[2] cpi2.p[1] lm.p[1])
+  net (lm.p[2] ant.ANT)
   net (GND cpi1.p[2] cpi2.p[2] ant.GND)
 
   inst usb : micro-usb-connector

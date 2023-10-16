@@ -90,8 +90,7 @@ public pcb-module module :
   public inst wpwr : BQ51003YFPR/component
 
   inst coil : pin-header(2, 1.000)
-  component-status(coil) :
-    bom-status = NotInBOM
+  dnp(coil)
 
   net (nCHG wpwr.nCHG)
   net (CTRL wpwr.TS-CTRL)

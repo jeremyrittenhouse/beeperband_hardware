@@ -120,8 +120,9 @@ pcb-module beeper-design :
 
   ; haptic output header (for now)
   inst haptic : pin-header(2, 1.00)
-  component-status(haptic) :
-    bom-status = NotInBOM
+  dnp(haptic)
+  ; component-status(haptic) :
+  ;   bom-status = NotInBOM
 
   net (haptic.p[1] hap-drv.OUT+)
   net (haptic.p[2] hap-drv.OUT-)

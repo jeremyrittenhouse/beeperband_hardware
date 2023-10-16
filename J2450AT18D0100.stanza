@@ -13,34 +13,55 @@ pcb-pad rect-smd-pad :
   ocdb/utils/landpatterns/apply-soldermask(0.0508)
   layer(Paste(Top)) = Rectangle(1.0, 0.6)
 
-public pcb-landpattern _2450AT18D0100_STD-R-1 :
-  pad p[0] : rect-smd-pad at loc(-1.500, -0.65, 180.0) on Top
-  pad p[1] : rect-smd-pad at loc(1.500, -0.65, 180.0) on Top
-  pad p[2] : rect-smd-pad at loc(-1.500, 0.650, 180.0) on Top
-  pad p[3] : rect-smd-pad at loc(1.500, 0.650, 180.0) on Top
+public pcb-landpattern _2450AT18D0100_STD-R-1 (mirror-y:True|False) :
+  if mirror-y :
+    pad p[1] : rect-smd-pad at loc(-1.500, -0.650, 180.0) on Top
+    pad p[2] : rect-smd-pad at loc( 1.500,  0.650, 180.0) on Top
+    pad p[3] : rect-smd-pad at loc( 1.500, -0.650, 180.0) on Top
+    pad p[4] : rect-smd-pad at loc(-1.500,  0.650, 180.0) on Top
+  else :
+    pad p[1] : rect-smd-pad at loc(-1.500, -0.650, 180.0) on Top
+    pad p[2] : rect-smd-pad at loc( 1.500, -0.650, 180.0) on Top
+    pad p[3] : rect-smd-pad at loc( 1.500,  0.650, 180.0) on Top
+    pad p[4] : rect-smd-pad at loc(-1.500,  0.650, 180.0) on Top
 
-  layer(Silkscreen("F-SilkS", Top)) = Rectangle(0.5, 0.5, loc(0.85, 8.0e-005, 180.0))
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [Point(-1.600, -0.2000), Point(-1.600, 0.200)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [Point(-0.85008, -0.8), Point(0.850, -0.8000)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [Point(-0.85008, 0.800), Point(0.850, 0.800)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [Point(1.59992, -0.19992), Point(1.59992, 0.200)])
+  if mirror-y :
+    layer(Silkscreen("F-SilkS", Top))  = Rectangle(0.5, 0.5, loc(-0.85, 0.000, 180.0))
+  else :
+    layer(Silkscreen("F-SilkS", Top))  = Rectangle(0.5, 0.5, loc( 0.85, 0.000, 180.0))
+
+  layer(Silkscreen("F-SilkS", Top))  = Line(0.15, [Point(-1.600, -0.2000), Point(-1.600, 0.200)])
+  layer(Silkscreen("F-SilkS", Top))  = Line(0.15, [Point(-0.850, -0.8), Point(0.850, -0.800)])
+  layer(Silkscreen("F-SilkS", Top))  = Line(0.15, [Point(-0.850, 0.800), Point(0.850, 0.800)])
+  layer(Silkscreen("F-SilkS", Top))  = Line(0.15, [Point(1.600, -0.200), Point(1.600, 0.200)])
+
   layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(-1.600, -0.8), Point(-1.600, 0.800)])
-  layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(-1.600, -0.8), Point(1.59992, -0.8)])
+  layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(-1.600, -0.8), Point(1.600, -0.8)])
   layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(-1.600, -0.5), Point(-1.100, -0.5)])
   layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(-1.600, 0.500), Point(-1.100, 0.500)])
-  layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(-1.600, 0.800), Point(1.59992, 0.800)])
+  layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(-1.600, 0.800), Point(1.600, 0.800)])
+
   layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(-1.100, -0.8), Point(-1.100, -0.5)])
   layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(-1.100, 0.500), Point(-1.100, 0.800)])
-  layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(0.60689, -0.24725), Point(0.60689, 0.25243)])
-  layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(0.60689, -0.24725), Point(1.10574, -0.24725)])
-  layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(0.60689, 0.25243), Point(1.10574, 0.25243)])
+  if mirror-y :
+    layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(-0.60689, -0.24725), Point(-0.60689,  0.25243)])
+    layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(-0.60689, -0.24725), Point(-1.10574, -0.24725)])
+    layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(-0.60689,  0.25243), Point(-1.10574,  0.25243)])
+    layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(-1.10574, -0.24725), Point(-1.10574,  0.25243)])
+  else :
+    layer(CustomLayer("Top Assembly")) = Line(0.1, [Point( 0.60689, -0.24725), Point( 0.60689,  0.25243)])
+    layer(CustomLayer("Top Assembly")) = Line(0.1, [Point( 0.60689, -0.24725), Point( 1.10574, -0.24725)])
+    layer(CustomLayer("Top Assembly")) = Line(0.1, [Point( 0.60689,  0.25243), Point( 1.10574,  0.25243)])
+    layer(CustomLayer("Top Assembly")) = Line(0.1, [Point( 1.10574, -0.24725), Point( 1.10574,  0.25243)])
+
+
   layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(1.09992, -0.8), Point(1.09992, -0.5)])
-  layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(1.09992, -0.5), Point(1.59992, -0.5)])
+  layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(1.09992, -0.5), Point(1.600, -0.5)])
   layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(1.09992, 0.500), Point(1.09992, 0.800)])
-  layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(1.09992, 0.500), Point(1.59992, 0.500)])
-  layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(1.10574, -0.24725), Point(1.10574, 0.25243)])
-  layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(1.59992, -0.8), Point(1.59992, 0.800)])
-  layer(CustomLayer("Top Assembly")) = Text(">REF", 0.381, SW, loc(-0.90808, -0.19992), "Arial", StrokeFont, false, false)
+  layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(1.09992, 0.500), Point(1.600, 0.500)])
+  layer(CustomLayer("Top Assembly")) = Line(0.1, [Point(1.600, -0.8), Point(1.600, 0.800)])
+
+  layer(CustomLayer("Top Assembly")) = Text(">REF", 0.381, SW, loc(-0.90808, -0.200), "Arial", StrokeFont, false, false)
   layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 0.5, SW, loc(0.4410, 1.5432, 180.0), "Arial", StrokeFont, false, false)
 
   layer(ForbidCopper(LayerIndex(0), LayerIndex(0, Bottom))) = Polygon([  
@@ -89,7 +110,7 @@ public pcb-symbol Johanson2450AT18D0100_STD-R :
   pin GND at Point(6.35, -3.81) with :
     direction = Left
     length = 2.54
-  pin p[1] at Point(0.0, 0.0) with :
+  pin ANT at Point(0.0, 0.0) with :
     direction = Down
     length = 3.81
 
@@ -98,15 +119,15 @@ public pcb-symbol Johanson2450AT18D0100_STD-R :
   layer("foreground") = Line(0.127, [Point(0.0, 0.0), Point(-3.81, 3.81)])
   layer("foreground") = Line(0.127, [Point(0.0, 0.0), Point(0.0, 5.08)])
 
-public pcb-component component :
+public pcb-component component (mirror-y:True|False):
   manufacturer = "Johanson Technology"
   mpn = "2450AT18D0100"
   pin-properties :
     [pin:Ref | pads:Ref ... | side:Dir]
-    [GND | p[3] p[2] p[0] | Down]
-    [p[1] | p[1] | Left]
+    [GND | p[2] p[3] p[4] | Down]
+    [ANT | p[1] | Left]
 
-  assign-landpattern(_2450AT18D0100_STD-R-1)
+  assign-landpattern(_2450AT18D0100_STD-R-1(mirror-y))
   assign-symbol(Johanson2450AT18D0100_STD-R)
 
   property(self.\|Artikkelnr Noca|) = "53059035"
@@ -129,4 +150,3 @@ public pcb-component component :
   property(self.\|Supplier Part Number 1|) = "2450AT18D0100E"
   property(self.\|Supplier Part Number 2|) = "609-2450AT18D0100E"
   property(self.Value) = "2450AT18D0100"
-

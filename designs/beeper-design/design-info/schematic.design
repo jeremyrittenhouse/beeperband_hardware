@@ -18304,8 +18304,8 @@
 								}]
 						},
 						"origin":	{
-							"x":	199,
-							"y":	111
+							"x":	180,
+							"y":	107
 						},
 						"partial-island-nets":	[[{
 									"parent-net-id":	972069,
@@ -19312,8 +19312,8 @@
 								}]
 						},
 						"origin":	{
-							"x":	175,
-							"y":	29
+							"x":	122,
+							"y":	10
 						},
 						"partial-island-nets":	[[{
 									"parent-net-id":	972037,
@@ -20665,8 +20665,8 @@
 								}]
 						},
 						"origin":	{
-							"x":	248,
-							"y":	64
+							"x":	213,
+							"y":	60
 						},
 						"partial-island-nets":	[[{
 									"parent-net-id":	972036,
@@ -21770,8 +21770,8 @@
 								}]
 						},
 						"origin":	{
-							"x":	287,
-							"y":	50
+							"x":	257,
+							"y":	53
 						},
 						"partial-island-nets":	[[{
 									"parent-net-id":	972059,
@@ -22922,8 +22922,8 @@
 								}]
 						},
 						"origin":	{
-							"x":	172,
-							"y":	63
+							"x":	119,
+							"y":	44
 						},
 						"partial-island-nets":	[[{
 									"parent-net-id":	972041,
@@ -23023,8 +23023,8 @@
 								}]
 						},
 						"origin":	{
-							"x":	186,
-							"y":	62
+							"x":	133,
+							"y":	43
 						},
 						"partial-island-nets":	[[{
 									"parent-net-id":	972042,
@@ -23215,8 +23215,8 @@
 								}]
 						},
 						"origin":	{
-							"x":	169,
-							"y":	88
+							"x":	116,
+							"y":	69
 						},
 						"partial-island-nets":	[]
 					}, {

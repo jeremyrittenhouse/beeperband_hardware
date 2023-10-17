@@ -38,8 +38,8 @@ public defn run-check-on-design (circuit:Instantiable) :
 ; Actual Export design
 ; ====================
 public defn export-to-cad () :
-  set-paper(ANSI-A4)
-  set-export-backend(`kicad) ; set the CAD software for export to be altium (also supported: `kicad)
+  set-paper(ANSI-B)
+  set-export-backend(`altium) ; set the CAD software for export to be altium (also supported: `kicad)
   export-cad()
 
 ; ====================

@@ -587,6 +587,12 @@ public pcb-module module :
   net (mcu-etm.data[3] etm-conn.p[5])
   net (GND etm-conn.p[6])
 
+  ; placeholder for battery connector
+  inst bat-conn : pin-header(2, 1.00)
+  dnp(bat-conn)
+  net (bat-conn.p[1] VBAT)
+  net (bat-conn.p[2] GND)
+
   ; supply decoupling table using area optimized table 
   val supplies = kvs([
     mcu.V12   => 22.0e-6

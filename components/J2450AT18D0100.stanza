@@ -108,7 +108,7 @@ public pcb-landpattern _2450AT18D0100_STD-R-1 (mirror-y:True|False) :
 
 public pcb-symbol Johanson2450AT18D0100_STD-R :
   pin GND at Point(6.35, -3.81) with :
-    direction = Left
+    direction = Right
     length = 2.54
   pin ANT at Point(0.0, 0.0) with :
     direction = Down

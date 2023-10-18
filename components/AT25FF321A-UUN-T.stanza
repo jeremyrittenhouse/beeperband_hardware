@@ -13,9 +13,9 @@ defpackage AT25FF321A-UUN-T :
   import ocdb/utils/generator-utils
   import ocdb/utils/generic-components
 
-val ball-diameter = 0.210
+val ball-diameter = 0.250
 val pastemask-diameter = 0.200
-val soldermask-diameter = 0.230
+val soldermask-diameter = 0.250
 
 defn bga-pad ():
   inside pcb-landpattern :

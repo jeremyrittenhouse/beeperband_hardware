@@ -50,17 +50,46 @@ pcb-module beeper-flex :
   public inst vad :PMM-3738-VM1000-R/module
   public inst mic : GMA3526H10-B26/module[2]
 
-  net VDDMIC ()
-  net VDDVAD ()
-  net GND ()
-  net MICCLK ()
+  public inst led : L23-23B_R6GHBHW-C30_2A/component
+
+  inst conn : pin-header(16, 1, 1.00)
+
+  net VDDMIC  ()
+  net VDDVAD  ()
+  net VDDLED  ()
+  net GND     ()
+  net MICCLK  ()
   net MICDATA ()
+  net LEDR    ()
+  net LEDG    ()
+  net LEDB    ()
+
+  net (conn.p[ 1] VDDMIC  )
+  net (conn.p[ 2] VDDVAD  )
+  net (conn.p[ 3] VDDLED  )
+  net (conn.p[ 4] GND     )
+  net (conn.p[ 5] MICCLK  )
+  net (conn.p[ 6] MICDATA )
+  net (conn.p[ 7] LEDR    )
+  net (conn.p[ 8] LEDG    )
+  net (conn.p[ 9] LEDB    )
+  net (conn.p[10]      )
+  net (conn.p[11]      )
+  net (conn.p[12]      )
+  net (conn.p[13]      )
+  net (conn.p[14]      )
+  net (conn.p[15]      )
+  net (conn.p[16]      )
 
   net (VDDVAD vad.VDD)
   net (VDDMIC mic[0].VDD mic[1].VDD)
+  net (VDDLED led.A)
   net (GND vad.GND mic[0].GND mic[1].GND)
 
   net vad-out (vad.OUT)
+  net (LEDR led.R)
+  net (LEDG led.G)
+  net (LEDB led.B)
 
   require mic0-pdm : PDM from mic[0]
   require mic1-pdm : PDM from mic[1]

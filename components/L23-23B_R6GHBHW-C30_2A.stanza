@@ -1,7 +1,7 @@
 ; This file is generated based on the parts database query below:")
 ;   database-part(["manufacturer" => "Everlight", "mpn" => "22-23C/R6GHBHW-C01/2C"])
 #use-added-syntax(jitx)
-defpackage components/L23-23B_R6GHBHW-C30_2A :
+defpackage L23-23B_R6GHBHW-C30_2A :
   import core
   import jitx
   import jitx/commands

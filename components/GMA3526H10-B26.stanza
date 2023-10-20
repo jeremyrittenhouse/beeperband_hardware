@@ -23,7 +23,6 @@ pcb-pad polygon-smd-pad :
   name = "polygon-smd-pad"
   type = SMD
   val circ-shape = Polygon([
-    Point(0.064, 1.067)
     Point(0.034, 1.066)
     Point(0.004, 1.062)
     Point(-0.025, 1.057)
@@ -401,5 +400,3 @@ public pcb-module module :
     PDM.clk  => mic.CLOCK
 
   bypass-cap-strap(mic.VDD, mic.GROUND, 0.100e-6)
-
-view(component)

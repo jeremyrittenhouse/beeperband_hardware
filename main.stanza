@@ -31,26 +31,29 @@ val x-off = 17.270
 val y-off = -15.110
 val x-but-off =  2.050
 val y-but-off = 10.750
-val board-shape = PolygonWithArcs([
-                   Point( -4.770 + x-off,   5.610 + y-off),
-                   Point(-31.020 + x-off,   5.610 + y-off),
-                   Point(-31.020 + x-off,  24.610 + y-off),
-                   Point( -3.520 + x-off,  24.610 + y-off),
-                   Point( -3.520 + x-off,   7.110 + y-off),
-                   Arc(Point(-3.770 + x-off, 6.110 + y-off), 1.000, 90.00, 90.00)]) ; Rectangle(26.0, 19.0)
 
-val signal-shape = PolygonWithArcs([
-                   Point( -4.770 + x-off,   5.610 + y-off),
-                   Point(-31.020 + x-off,   5.610 + y-off),
-                   Point(-31.020 + x-off,  24.610 + y-off),
-                   Point( -3.520 + x-off,  24.610 + y-off),
-                   Point( -3.520 + x-off,   7.110 + y-off),
-                   Arc(Point(-3.770 + x-off, 6.110 + y-off), 1.000, 90.00, 90.00)]) ; Rectangle(26.0, 19.0)
+val board-shape = loc(x-off, y-off) * PolygonWithArcs([
+                   Point( -4.770,   5.610),
+                   Point(-31.020,   5.610),
+                   Point(-31.020,  24.610),
+                   Point( -3.520,  24.610),
+                   Point( -3.520,   7.110),
+                   Arc(Point(-3.770, 6.110), 1.000, 90.00, 90.00)]); Rectangle(26.0, 19.0)
 
+val signal-shape = loc(x-off, y-off) * PolygonWithArcs([
+                   Point( -4.770,   5.610),
+                   Point(-31.020,   5.610),
+                   Point(-31.020,  24.610),
+                   Point( -3.520,  24.610),
+                   Point( -3.520,   7.110),
+                   Arc(Point(-3.770, 6.110), 1.000, 90.00, 90.00)]) ; Rectangle(26.0, 19.0)
+
+defn qvar-shape (ver : Int) :
+  Rectangle(13.0, 18.0, loc(to-double(2 * ver - 3) * 6.5, 0.0))
 
 ; Module to run as a design
 pcb-module beeper-design :
-
+  
   ; let's instance all of the major elements of the design at the top level
   inst mcu     : DA14705-00000HZ2/module
   inst mem     : AT25FF321A-UUN-T/module
@@ -71,6 +74,9 @@ pcb-module beeper-design :
   net VDDBAT  ()
   net VDDBUS  ()
   net VDDSYS  ()
+
+  net QVAR1 ()
+  net QVAR2 ()
 
   val supply-nets = [VDD1P2 VDD1P4 VDD1P8 VDD1P8F VDD1P8P VDD3P0 VDDBAT VDDBUS VDDSYS]
   ; connect nets to pins of the mcu module
@@ -106,6 +112,9 @@ pcb-module beeper-design :
   require mcu-i3c : i3c from mcu.mcu
   net (qsen-i3c mcu-i3c)
   val i2c-qsens-pullups = add-open-drain-pullups(mcu-i3c, VDDSYS)
+
+  net (qsensor.imu.AH1_QVAR1 QVAR1)
+  net (qsensor.imu.AH2_QVAR2 QVAR2)
 
   ; now connect i2c for haptic driver
   require drv-i2c : i2c from hap-drv
@@ -165,10 +174,17 @@ pcb-module beeper-design :
     symbol(n_) = ocdb/utils/symbols/supply-sym
 
   ; power planes (let's assume 4 layers for now...)
-  geom(GND):
+  geom(GND) :
     copper-pour(LayerIndex(1), isolate = 0.1, rank = 1) = signal-shape
   geom(VDDSYS) :
     copper-pour(LayerIndex(2), isolate = 0.1, rank = 1) = signal-shape
+
+  geom(QVAR1) : 
+    copper-pour(LayerIndex(3), isolate = 2.0, rank = 2) = qvar-shape(1)
+
+  geom(QVAR2) : 
+    copper-pour(LayerIndex(3), isolate = 2.0, rank = 2) = qvar-shape(2)
+
 
   ; layer(Cutout()) = Line(0.2, [Point(-31.02, 5.61), Point(-4.77000000000001, 5.61)])
   ; layer(Cutout()) = Line(0.2, [Point(-3.52000000000001, 7.11), Point(-3.52000000000001, 24.61)])

@@ -1,0 +1,53 @@
+#use-added-syntax(jitx)
+defpackage stackups :
+  import core
+  import collections
+  import jitx
+  import jitx/commands
+
+pcb-material copper :
+  type = Conductor
+  name = "Copper"
+
+pcb-material polyimide :
+  type = Dielectric
+  dielectric-coefficient = 4.26
+  name = "Polyimide"
+
+pcb-material adhesive :
+  type = Dielectric
+  dielectric-coefficient = 4.26
+  name = "Polyimide"
+
+; missing is silkscreen, ENIG plating
+
+pcb-material stiffener :
+  type = Dielectric
+  dielectric-coefficient = 4.26
+  name = "Stiffener"
+
+pcb-material soldermask :
+  type = Dielectric
+  dielectric-coefficient = 3.9
+  name = "Taiyo BSN4000"
+pcb-material core :
+  type = Dielectric
+  dielectric-coefficient = 4.26
+  name = "FR4 Core"
+
+public pcb-stackup jlcpcb-flex-2-layer-110um :
+  name = "JLCPCB 2 layer flex 0.110mm"
+;   layer(0.0125, polyimide) ; 
+;   layer(0.0150, adhesive) ; 
+;   layer(0.0116, copper) ; 
+;   layer(0.0250, polyimide)
+;   layer(0.0116, copper) ; 
+;   layer(0.0150, adhesive) ;
+;   layer(0.0125, polyimide) ; 
+;   layer(0.0500, stiffener) ; options: from 50um to 200um
+
+  layer(0.0125, soldermask) ; 
+  layer(0.0116, copper) ; 
+  layer(0.0250, core)
+  layer(0.0116, copper) ; 
+  layer(0.0150, soldermask) ;

@@ -95,3 +95,10 @@ public pcb-bundle full-i2s :
   pin datout
   pin scl
   pin sda
+
+public pcb-bundle da7212-i2s :
+  pin bclk
+  pin wclk
+  pin mclk
+  pin datin
+  pin datout

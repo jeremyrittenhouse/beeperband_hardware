@@ -1,0 +1,193 @@
+; This file is generated based on the parts database query below:")
+;   database-part(["manufacturer" => "Everlight", "mpn" => "22-23C/R6GHBHW-C01/2C"])
+#use-added-syntax(jitx)
+defpackage components/L23-23B_R6GHBHW-C30_2A :
+  import core
+  import jitx
+  import jitx/commands
+
+
+pcb-pad rectangle-smd-pad :
+  name = "rectangle-smd-pad"
+  type = SMD
+  shape = Rectangle(0.700, 0.700)
+  layer(SolderMask(Top)) = Rectangle(0.800, 0.800)
+  layer(Paste(Top)) = Rectangle(0.700, 0.700)
+
+pcb-landpattern lp :
+  pad p[1] : rectangle-smd-pad at loc(-1.450, -0.475) on Top
+  pad p[2] : rectangle-smd-pad at loc( 1.450, -0.475) on Top
+  pad p[3] : rectangle-smd-pad at loc( 1.450,  0.475) on Top
+  pad p[4] : rectangle-smd-pad at loc(-1.450,  0.475) on Top
+
+  layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, W, loc(-1.600, 1.500), "", TrueTypeFont, false, false)
+  layer(Finish(Top)) = Text(">VALUE", 1.0, W, loc(-1.500, 1.508), "", TrueTypeFont, false, false)
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [Point(-2.000, -0.125), Point(-2.000, -1.025)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [Point(-1.100, -1.025), Point(-2.000, -1.025)])
+  layer(Silkscreen("F-SilkS", Top)) = Circle(-1.700, -1.300, 0.100)
+
+  layer(Cutout()) = Rectangle(1.500, 1.500)
+
+  ; layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [Point(-0.799,  0.066), Point( 0.839,  0.066)])
+  ; layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [Point(-0.615, -0.802), Point(-0.876, -0.206)])
+  ; layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [Point( 0.655, -0.802), Point( 0.917, -0.206)])
+  ; layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [Point( 0.655, -0.802), Point(-0.615, -0.802)])
+  ; layer(Finish(Top)) = Circle(-1.341, -0.727, 0.030)
+  ; layer(Finish(Top)) = Polygon([
+  ;   Point(0.870, -0.338)
+  ;   Point(0.770, -0.718)
+  ;   Point(-0.730, -0.738)
+  ;   Point(-0.890, -0.218)
+  ;   Point(0.910, -0.218)])
+  ; layer(Finish(Top)) = Polygon([
+  ;   Point(-1.090, 0.272)
+  ;   Point(-1.550, 0.272)
+  ;   Point(-1.550, 0.372)
+  ;   Point(-1.090, 0.372)
+  ;   Point(-1.090, 0.352)])
+  ; layer(Finish(Top)) = Polygon([
+  ;   Point(-1.260, 0.582)
+  ;   Point(-1.260, 0.122)
+  ;   Point(-1.360, 0.122)
+  ;   Point(-1.360, 0.582)
+  ;   Point(-1.340, 0.582)])
+  ; layer(Finish(Top)) = Polygon([
+  ;   Point(-0.170, 0.692)
+  ;   Point(-0.630, 0.692)
+  ;   Point(-0.630, 0.792)
+  ;   Point(-0.170, 0.792)
+  ;   Point(-0.170, 0.772)])
+  ; layer(Finish(Top)) = Polygon([
+  ;   Point(0.680, 0.702)
+  ;   Point(0.220, 0.702)
+  ;   Point(0.220, 0.802)
+  ;   Point(0.680, 0.802)
+  ;   Point(0.680, 0.782)])
+  ; layer(Finish(Top)) = Polygon([
+  ;   Point(1.550, 0.302)
+  ;   Point(1.090, 0.302)
+  ;   Point(1.090, 0.402)
+  ;   Point(1.550, 0.402)
+  ;   Point(1.550, 0.382)])
+  layer(Courtyard(Top)) = Rectangle(3.750, 1.800)
+
+pcb-symbol sym :
+  pin A at Point(7.620, -2.540) with :
+    direction = Up
+    length = 2.540
+    number-size = 1.000
+    name-size = 1.000
+  pin R at Point(2.540, -2.540) with :
+    direction = Down
+    length = 2.540
+    number-size = 1.000
+    name-size = 1.000
+  pin G at Point(-2.540, -2.540) with :
+    direction = Down
+    length = 2.540
+    number-size = 1.000
+    name-size = 1.000
+  pin B at Point(-7.620, -2.540) with :
+    direction = Down
+    length = 2.540
+    number-size = 1.000
+    name-size = 1.000
+
+  layer("value") = Text(">VALUE", 0.7056, C, loc(0.0, -0.540), "", TrueTypeFont, false, false)
+  layer("reference") = Text(">REF", 0.7056, C, loc(0.0, 0.460), "", TrueTypeFont, false, false)
+  layer("foreground") = Polyline(0.254, [
+    Point(4.318, 0.0)
+    Point(0.762, 0.0)])
+  layer("foreground") = Polyline(0.254, [
+    Point(3.683, -0.889)
+    Point(5.461, -2.667)])
+  layer("foreground") = Polyline(0.254, [
+    Point(4.699, 0.127)
+    Point(6.477, -1.651)])
+  layer("foreground") = Polyline(0.254, [
+    Point(-0.762, 0.0)
+    Point(-4.318, 0.0)])
+  layer("foreground") = Polyline(0.254, [
+    Point(-1.397, -0.889)
+    Point(0.381, -2.667)])
+  layer("foreground") = Polyline(0.254, [
+    Point(-0.381, 0.127)
+    Point(1.397, -1.651)])
+  layer("foreground") = Polyline(0.254, [
+    Point(-5.842, 0.0)
+    Point(-9.398, 0.0)])
+  layer("foreground") = Polyline(0.254, [
+    Point(-6.477, -0.889)
+    Point(-4.699, -2.667)])
+  layer("foreground") = Polyline(0.254, [
+    Point(-5.461, 0.127)
+    Point(-3.683, -1.651)])
+  layer("foreground") = Polyline(0.254, [
+    Point(-7.620, 2.540)
+    Point(-7.620, 5.080)
+    Point(7.620, 5.080)
+    Point(7.620, 0.0)
+    Point(7.620, -2.540)])
+  layer("foreground") = Polyline(0.254, [
+    Point(-2.540, 2.540)
+    Point(-2.540, 5.080)
+    Point(-2.286, 5.080)])
+  layer("foreground") = Polyline(0.254, [
+    Point(2.540, 2.540)
+    Point(2.540, 5.080)])
+  layer("foreground") = Polyline(0.254, [
+    Point(2.540, 0.0)
+    Point(2.540, -2.540)])
+  layer("foreground") = Polyline(0.254, [
+    Point(-2.540, 0.0)
+    Point(-2.540, -2.540)])
+  layer("foreground") = Polyline(0.254, [
+    Point(-7.620, 0.0)
+    Point(-7.620, -2.540)])
+  layer("foreground") = Polygon([
+    Point(5.461, -2.667)
+    Point(4.953, -1.651)
+    Point(4.445, -2.159)])
+  layer("foreground") = Polygon([
+    Point(6.477, -1.651)
+    Point(5.969, -0.635)
+    Point(5.461, -1.143)])
+  layer("foreground") = Polygon([
+    Point(0.381, -2.667)
+    Point(-0.127, -1.651)
+    Point(-0.635, -2.159)])
+  layer("foreground") = Polygon([
+    Point(1.397, -1.651)
+    Point(0.889, -0.635)
+    Point(0.381, -1.143)])
+  layer("foreground") = Polygon([
+    Point(-4.699, -2.667)
+    Point(-5.207, -1.651)
+    Point(-5.715, -2.159)])
+  layer("foreground") = Polygon([
+    Point(-3.683, -1.651)
+    Point(-4.191, -0.635)
+    Point(-4.699, -1.143)])
+
+public pcb-component component :
+  name = "L23-23B_R6GHBHW-C30_2A"
+  description = "White Diffused Counterpost -40℃~+85℃ Common anode RGB 130° SMD,1.3x3.2mm Light Emitting Diodes (LED) ROHS"
+  manufacturer = "Everlight"
+  mpn = "23-23B/R6GHBHW-C30/2A"
+  datasheet = "https://datasheet.lcsc.com/lcsc/1811021512_Everlight-Elec-22-23C-R6GHBHW-C01-2C_C181865.pdf"
+  pin-properties :
+    [pin:Ref | pads:Ref ... | side:Dir | electrical-type:String | bank:Int]
+    [A  | p[1] | Up   | "unspecified" | 0]
+    [R  | p[2] | Down | "unspecified" | 0]
+    [G  | p[3] | Down | "unspecified" | 0]
+    [B  | p[4] | Down | "unspecified" | 0]
+
+  assign-landpattern(lp)
+  assign-symbol(sym)
+
+  property(self.category) = "diode"
+  property(self.manufacturer_aliases) = ["Everlight" "Everlight Elec"]
+  property(self.mpn_aliases) = ["23-23B/R6GHBHW-C30/2A"]
+  property(self.reference_prefix) = "LED"
+  property(self.trust) = "low"
+  property(self.\|vendor_part_numbers.lcsc|) = "C2922368"

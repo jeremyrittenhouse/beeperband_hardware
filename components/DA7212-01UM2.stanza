@@ -109,19 +109,23 @@ public pcb-module module :
   no-connect(codec.GND_SENSE)
 
   val cap-table = kvs([
-    codec.VDD_A   => 1.0e-6
-    codec.VDIG    => 0.1e-6
-    codec.VDD_IO  => 1.0e-6
-    codec.VDD_SP  => 1.0e-6
-    codec.VMID    => 1.0e-6
-    codec.DACREF  => 1.0e-6
-    codec.VDD_MIC => 1.0e-6
-    codec.HPCSP   => 1.0e-6
-    codec.HPCFP   => 1.0e-6
+    codec.VDD_A    => 1.0e-6
+    codec.VDIG     => 0.1e-6
+    codec.VDD_IO   => 1.0e-6
+    ;codec.VDD_SP  => 1.0e-6
+    codec.MICBIAS1 => 1.0e-6
+    codec.MICBIAS2 => 1.0e-6
+    codec.VMID     => 1.0e-6
+    codec.DACREF   => 1.0e-6
+    codec.VDD_MIC  => 1.0e-6
+    codec.HPCSP    => 1.0e-6
+    codec.HPCFP    => 1.0e-6
+    codec.VREF     => 1.0e-6
     ])
   for [pin_, cap_] in cap-table do:
     val bypc = bypass-cap-strap(pin_, GND, cap_)
     schematic-group(bypc) = codec-bypass
+  no-connect(codec.VDD_SP) ; no speaker
 
   bypass-cap-strap(codec.HPCFN codec.HPCSN 1.0e-6)
 
@@ -129,29 +133,42 @@ public pcb-module module :
     i2c.scl => codec.SCL
     i2c.sda => codec.SDA
 
-  supports full-i2s :
-    full-i2s.sda    => codec.SDA
-    full-i2s.scl    => codec.SCL
-    full-i2s.datin  => codec.DATIN 
-    full-i2s.datout => codec.DATOUT
-    full-i2s.bclk   => codec.BCLK  
-    full-i2s.wclk   => codec.WCLK  
-    full-i2s.mclk   => codec.MCLK
+  ; supports full-i2s :
+  ;   full-i2s.sda    => codec.SDA
+  ;   full-i2s.scl    => codec.SCL
+  ;   full-i2s.datin  => codec.DATIN 
+  ;   full-i2s.datout => codec.DATOUT
+  ;   full-i2s.bclk   => codec.BCLK  
+  ;   full-i2s.wclk   => codec.WCLK  
+  ;   full-i2s.mclk   => codec.MCLK
 
+  supports i2s([I2S-SDMI I2S-MCK]) :
+    i2s([I2S-SDMI I2S-MCK]).sdmo  => codec.DATIN 
+    i2s([I2S-SDMI I2S-MCK]).sdmi  => codec.DATOUT
+    i2s([I2S-SDMI I2S-MCK]).ck    => codec.BCLK  
+    i2s([I2S-SDMI I2S-MCK]).ws    => codec.WCLK  
+    i2s([I2S-SDMI I2S-MCK]).mck   => codec.MCLK
 
-  ; inst mic1 : PMM-3738-VM1000-R/module
-  ; inst mic2 : PMM-3738-VM1000-R/module
+  supports PDM :
+    PDM.data => codec.MIC1_N
+    PDM.clk  => codec.MIC1_P
 
   ; net (mic1.VDD codec.MICBIAS1)
   ; net (mic2.VDD codec.MICBIAS2)
   ; net (GND mic1.GND mic2.GND)
   ; net (mic1.OUT codec.MIC1_P)
   ; net (mic2.OUT codec.MIC2_P)
-  no-connect(codec.MIC1_N)
+  ; no-connect(codec.MIC1_N)
+  no-connect(codec.MIC2_P)
   no-connect(codec.MIC2_N)
 
   no-connect(codec.AUX_L)
   no-connect(codec.AUX_R)
+
+  no-connect(codec.HP_L)
+  no-connect(codec.HP_R)
+  no-connect(codec.SP_P)
+  no-connect(codec.SP_N)
 
   schematic-group(self) = codec
   layout-group(self) = codec

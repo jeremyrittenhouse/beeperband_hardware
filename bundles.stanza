@@ -17,12 +17,6 @@ public pcb-bundle octal-spi :
   pin sck
   pin cs
 
-public pcb-bundle spi-w-en :
-  pin sck
-  pin mosi
-  pin miso
-  pin en
-
 public pcb-bundle i3c :
   pin sda
   pin scl

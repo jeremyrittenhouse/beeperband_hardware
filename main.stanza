@@ -63,7 +63,7 @@ pcb-module beeper-design :
   ; inst vad-mic : PMM-3738-VM1000-R/module
   inst button  : EVPBB4A9B000/component[3]
   inst hap-drv : DRV2605YZFR/module
-  
+  inst flex-conn : J10051922-1210EHLF/component
   ; setup some nets by default
   net VDD1P2  ()
   net VDD1P4  ()
@@ -74,6 +74,7 @@ pcb-module beeper-design :
   net VDDBAT  ()
   net VDDBUS  ()
   net VDDSYS  ()
+  net VLED    ()
 
   net QVAR1 ()
   net QVAR2 ()
@@ -89,8 +90,19 @@ pcb-module beeper-design :
   net (VDDBAT  mcu.VBAT)
   net (VDDBUS  mcu.VBUS)
   net (VDDSYS  mcu.VSYS)
+  net (VLED    mcu.VLED)
 
   net (mcu.VBUSp wpwr.VBUSp)
+
+  ; connect all of our grounds
+  net GND (mcu.GND mem.m.GND wpwr.GND codec.GND hap-drv.GND qsensor.GND)
+  net (GND flex-conn.p[13] flex-conn.p[14])
+  ; vad-mic.GND
+
+  ; connect the power supplies at the top level for those components
+  net (VDDSYS mem.m.Vcc wpwr.VBUS codec.VDDSYS hap-drv.VDD)
+  net (VDD1P8 qsensor.VDD)
+
   ; connect quad spi from memory to mcu
   require mem-qspi : quad-spi from mem.m
   require mcu-qspi : quad-spi from mcu.mcu
@@ -102,16 +114,28 @@ pcb-module beeper-design :
   net (codec-i2c mcu-codec-i2c)
   val i2c-codec-pullups = add-open-drain-pullups(mcu-codec-i2c, VDDSYS)
 
-  ; not sure if this is supposed to be SPI or I3C?
-  ; if SPI then uncomment the following lines
-  ; require qsen-spi : spi-w-en from qsensor
-  ; require mcu-spi : spi-w-en from mcu.mcu
-  ; net (qsen-spi mcu-spi)
-  ; i3c interface
+  require codec-pdm : PDM from codec
+
+  ; not sure if this is supposed to be SPI or I3C or both?
+   ; i3c interface
   require qsen-i3c : i3c from qsensor
   require mcu-i3c : i3c from mcu.mcu
   net (qsen-i3c mcu-i3c)
   val i2c-qsens-pullups = add-open-drain-pullups(mcu-i3c, VDDSYS)
+
+ ; if SPI then uncomment the following lines
+  ; require qsen-spi : spi([SPI-SDO SPI-SDI SPI-CS]) from qsensor
+  require mcu-spi  : spi([SPI-SDO SPI-SDI SPI-CS]) from mcu.mcu
+  inst rs-sda : chip-resistor(0.0)
+  inst rs-scl : chip-resistor(0.0)
+  dnp(rs-sda)
+  dnp(rs-scl)
+  net (rs-sda.p[1] qsen-i3c.sda)
+  net (rs-scl.p[1] qsen-i3c.scl)
+  net (mcu-spi.sdo rs-sda.p[2])
+  net (mcu-spi.sck rs-scl.p[2])
+  net (mcu-spi.sdi qsensor.imu.SDO_SA0)
+  net (mcu-spi.cs  qsensor.imu.CS     )
 
   net (qsensor.imu.AH1_QVAR1 QVAR1)
   net (qsensor.imu.AH2_QVAR2 QVAR2)
@@ -143,18 +167,37 @@ pcb-module beeper-design :
   net (wpwr.nCHG mcu-wpwr[2].gpio)
   net (wpwr.CTRL mcu-wpwr[3].gpio)
 
+  ; flex connections
+  ; net (conn.p[ 1] VDDMIC  )
+  ; net (conn.p[ 2] VDDVAD  )
+  ; net (conn.p[ 3] VDDLED  )
+  ; net (conn.p[ 4] GND     )
+  ; net (conn.p[ 5] MICCLK  )
+  ; net (conn.p[ 6] MICDATA )
+  ; net (conn.p[ 7] LEDR    )
+  ; net (conn.p[ 8] LEDG    )
+  ; net (conn.p[ 9] LEDB    )
+  ; net (conn.p[10] SPKP    )
+  ; net (conn.p[11] SPKN    )
+
+  net (flex-conn.p[ 1] codec.MICBIAS    )
+  net (flex-conn.p[ 2] VDD3P0           )
+  net (flex-conn.p[ 3] VLED             )
+  net (flex-conn.p[ 4] GND              )
+  net (flex-conn.p[ 5] codec-pdm.clk    )
+  net (flex-conn.p[ 6] codec-pdm.data   )
+  net (flex-conn.p[ 7] mcu.LED[0]       )
+  net (flex-conn.p[ 8] mcu.LED[1]       )
+  net (flex-conn.p[ 8] mcu.LED[2]       )
+  net (flex-conn.p[10] codec.codec.SP_P )
+  net (flex-conn.p[11] codec.codec.SP_N )
+  net (flex-conn.p[12] )
+
+
   ; if we want testpoints on the power supplies we can uncomment the following line
   ; for p in [mcu.V12  mcu.V14 mcu.V18  mcu.V18F mcu.V18P mcu.V30 mcu.VBAT mcu.VBUS mcu.VSYS] do :
   ;   add-testpoint([p], gen-testpad(0.5))
 
-  ; connect all of our grounds
-  net GND (mcu.GND mem.m.GND wpwr.GND codec.pwr1p8.gnd codec.pwrsys.gnd hap-drv.GND qsensor.GND)
-  ; vad-mic.GND
-
-  ; connect the power supplies at the top level for those components
-  net (VDDSYS mem.m.Vcc wpwr.VBUS codec.pwrsys.vdd hap-drv.VDD)
-  net (VDD1P8 codec.pwr1p8.vdd qsensor.VDD)
-  ; vad-mic.VDD 
 
   ; connect VAD microphone -> just a single analog connection
   ;net (vad-mic.OUT mcu.mcu.VAD)

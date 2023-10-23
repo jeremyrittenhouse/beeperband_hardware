@@ -114,11 +114,11 @@ public pcb-module module :
     i3c.sda => imu.SDA
     i3c.scl => imu.SCL
   
-  supports spi-w-en :
-    spi-w-en.sck  => imu.SCL
-    spi-w-en.mosi => imu.SDA
-    spi-w-en.miso => imu.SDO_SA0
-    spi-w-en.en   => imu.CS
+  supports spi([SPI-SDO SPI-SDI SPI-CS]) :
+    spi([SPI-SDO SPI-SDI SPI-CS]).sck => imu.SCL
+    spi([SPI-SDO SPI-SDI SPI-CS]).sdo => imu.SDA
+    spi([SPI-SDO SPI-SDI SPI-CS]).sdi => imu.SDO_SA0
+    spi([SPI-SDO SPI-SDI SPI-CS]).cs  => imu.CS
   
   supports TDM :
     TDM.tdm => imu.TDMOUT

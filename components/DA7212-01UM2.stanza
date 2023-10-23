@@ -94,15 +94,16 @@ public pcb-component component :
 
 
 public pcb-module module :
-  port pwr1p8 : power
-  port pwrsys : power
+  pin GND
+  pin VDD1P8
+  pin VDDSYS
+  pin MICBIAS
   
-  net GND (pwr1p8.gnd pwrsys.gnd)
   public inst codec : DA7212-01UM2/component
 
   net (GND codec.GND_A codec.GND_CP)
-  net VDD1P8 (pwr1p8.vdd codec.VDD_A codec.VDD_IO codec.VDD_MIC)
-  net VSYS (pwrsys.vdd codec.VDD_SP)
+  net (VDD1P8 codec.VDD_A codec.VDD_IO codec.VDD_MIC)
+  net (VDDSYS codec.VDD_SP)
 
   no-connect(codec.HP_L)
   no-connect(codec.HP_R)
@@ -112,7 +113,7 @@ public pcb-module module :
     codec.VDD_A    => 1.0e-6
     codec.VDIG     => 0.1e-6
     codec.VDD_IO   => 1.0e-6
-    ;codec.VDD_SP  => 1.0e-6
+    codec.VDD_SP   => 1.0e-6
     codec.MICBIAS1 => 1.0e-6
     codec.MICBIAS2 => 1.0e-6
     codec.VMID     => 1.0e-6
@@ -125,7 +126,6 @@ public pcb-module module :
   for [pin_, cap_] in cap-table do:
     val bypc = bypass-cap-strap(pin_, GND, cap_)
     schematic-group(bypc) = codec-bypass
-  no-connect(codec.VDD_SP) ; no speaker
 
   bypass-cap-strap(codec.HPCFN codec.HPCSN 1.0e-6)
 
@@ -167,8 +167,8 @@ public pcb-module module :
 
   no-connect(codec.HP_L)
   no-connect(codec.HP_R)
-  no-connect(codec.SP_P)
-  no-connect(codec.SP_N)
+  ; no-connect(codec.SP_P)
+  ; no-connect(codec.SP_N)
 
   schematic-group(self) = codec
   layout-group(self) = codec

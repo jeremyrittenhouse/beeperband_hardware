@@ -272,55 +272,54 @@ public pcb-component component :
   pcb-bundle spi-sck:
     pin p
   
-  pcb-bundle spi-mosi:
+  pcb-bundle spi-sdo:
     pin p
   
-  pcb-bundle spi-miso:
+  pcb-bundle spi-sdi:
     pin p
   
-  pcb-bundle spi-en:
+  pcb-bundle spi-cs:
     pin p
   
   for io in all-ios do :
     supports spi-sck:
       spi-sck.p => io
-    supports spi-mosi:
-      spi-mosi.p => io
-    supports spi-miso:
-      spi-miso.p => io
-    supports spi-en:
-      spi-en.p => io
+    supports spi-sdo:
+      spi-sdo.p => io
+    supports spi-sdi:
+      spi-sdi.p => io
+    supports spi-cs:
+      spi-cs.p => io
 
   ; SPI
-  supports spi-w-en :
+  supports spi([SPI-SDO SPI-SDI SPI-CS]) :
     require spi-sck-pin : spi-sck
-    require spi-mosi-pin : spi-mosi
-    require spi-miso-pin : spi-miso
-    require spi-en-pin : spi-en
-    spi-w-en.sck => spi-sck-pin.p
-    spi-w-en.mosi => spi-mosi-pin.p
-    spi-w-en.miso => spi-miso-pin.p
-    spi-w-en.en => spi-en-pin.p
+    require spi-sdo-pin : spi-sdo
+    require spi-sdi-pin : spi-sdi
+    require spi-cs-pin  : spi-cs
+    spi([SPI-SDO SPI-SDI SPI-CS]).sck => spi-sck-pin.p
+    spi([SPI-SDO SPI-SDI SPI-CS]).sdo => spi-sdo-pin.p
+    spi([SPI-SDO SPI-SDI SPI-CS]).sdi => spi-sdi-pin.p
+    spi([SPI-SDO SPI-SDI SPI-CS]).cs  => spi-cs-pin.p
 
   ;SPI2
-  supports spi-w-en :
+  supports spi([SPI-SDO SPI-SDI SPI-CS]) :
     require spi-sck-pin : spi-sck
-    require spi-mosi-pin : spi-mosi
-    require spi-miso-pin : spi-miso
-    require spi-en-pin : spi-en
-    spi-w-en.sck => spi-sck-pin.p
-    spi-w-en.mosi => spi-mosi-pin.p
-    spi-w-en.miso => spi-miso-pin.p
-    spi-w-en.en => spi-en-pin.p
+    require spi-sdo-pin : spi-sdo
+    require spi-sdi-pin : spi-sdi
+    require spi-cs-pin  : spi-cs
+    spi([SPI-SDO SPI-SDI SPI-CS]).sck => spi-sck-pin.p
+    spi([SPI-SDO SPI-SDI SPI-CS]).sdo => spi-sdo-pin.p
+    spi([SPI-SDO SPI-SDI SPI-CS]).sdi => spi-sdi-pin.p
+    spi([SPI-SDO SPI-SDI SPI-CS]).cs  => spi-cs-pin.p
 
   ; SPI3 with fixed IO pins
-  supports spi-w-en :
-    require spi-en-pin : spi-en
-    spi-w-en.sck => self.P1_28
-    spi-w-en.mosi => self.P2_02
-    spi-w-en.miso => self.P0_00
-    spi-w-en.en => spi-en-pin.p
-
+  supports spi([SPI-SDO SPI-SDI SPI-CS]) :
+    require spi-cs-pin : spi-cs
+    spi([SPI-SDO SPI-SDI SPI-CS]).sck => self.P1_28
+    spi([SPI-SDO SPI-SDI SPI-CS]).sdo => self.P2_02
+    spi([SPI-SDO SPI-SDI SPI-CS]).sdi => self.P0_00
+    spi([SPI-SDO SPI-SDI SPI-CS]).cs  => spi-cs-pin.p
 
   pcb-bundle i2c-scl:
     pin p
@@ -538,6 +537,8 @@ public pcb-module module :
   pin VBUS 
   pin VBUSp
   pin VSYS
+  pin VLED
+  port LED : pin[3] ; RGB
 
   public inst mcu : DA14705-00000HZ2/component
   inst xtal-32M : database-part(["mpn" => "XRCGB32M000F1H00R0", "manufacturer" => "Murata"])
@@ -546,12 +547,12 @@ public pcb-module module :
   net (xtal-32M.p[3] mcu.XTAL32Mm)
   net (GND xtal-32M.GND0 xtal-32M.GND1)
 
-  inst led : database-part(["mpn" => "TJ-S1615SW6TWMLCCYRGB-A5", "manufacturer" => "Togialed"])
-  net VLED (mcu.VLED led.p[1])
-  symbol(VLED) = ocdb/utils/symbols/supply-sym
-  net (led.p[2] mcu.LED1)
-  net (led.p[3] mcu.LED2)
-  net (led.p[4] mcu.LED3)
+  ; inst led : database-part(["mpn" => "TJ-S1615SW6TWMLCCYRGB-A5", "manufacturer" => "Togialed"])
+  ; net VLED (mcu.VLED led.p[1])
+  ; symbol(VLED) = ocdb/utils/symbols/supply-sym
+  ; net (led.p[2] mcu.LED1)
+  ; net (led.p[3] mcu.LED2)
+  ; net (led.p[4] mcu.LED3)
   
   ; all dbg connections
   inst dbg-m33-conn : ocdb/components/tag-connect/TC2030-IDC-NL/component

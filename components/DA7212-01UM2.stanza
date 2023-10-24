@@ -105,6 +105,8 @@ public pcb-module module :
   net (VDD1P8 codec.VDD_A codec.VDD_IO codec.VDD_MIC)
   net (VDDSYS codec.VDD_SP)
 
+  net (MICBIAS codec.MICBIAS1)
+
   no-connect(codec.HP_L)
   no-connect(codec.HP_R)
   no-connect(codec.GND_SENSE)

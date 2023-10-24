@@ -188,10 +188,10 @@ pcb-module beeper-design :
   net (flex-conn.p[ 6] codec-pdm.data   )
   net (flex-conn.p[ 7] mcu.LED[0]       )
   net (flex-conn.p[ 8] mcu.LED[1]       )
-  net (flex-conn.p[ 8] mcu.LED[2]       )
+  net (flex-conn.p[ 9] mcu.LED[2]       )
   net (flex-conn.p[10] codec.codec.SP_P )
   net (flex-conn.p[11] codec.codec.SP_N )
-  net (flex-conn.p[12] )
+  net (flex-conn.p[12] mcu.VADOUT)
 
 
   ; if we want testpoints on the power supplies we can uncomment the following line

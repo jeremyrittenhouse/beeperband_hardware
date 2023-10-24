@@ -73,7 +73,7 @@ pcb-module beeper-flex :
   net (VDDLED led.A)
   net (GND vad.GND mic[0].GND mic[1].GND)
 
-  net VADOUT (vad.OUT)
+  net (VADOUT vad.OUT)
   net (LEDR led.R)
   net (LEDG led.G)
   net (LEDB led.B)

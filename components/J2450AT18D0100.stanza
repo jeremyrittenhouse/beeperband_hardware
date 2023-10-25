@@ -119,9 +119,12 @@ public pcb-symbol Johanson2450AT18D0100_STD-R :
   layer("foreground") = Line(0.127, [Point(0.0, 0.0), Point(-3.81, 3.81)])
   layer("foreground") = Line(0.127, [Point(0.0, 0.0), Point(0.0, 5.08)])
 
-public pcb-component component (mirror-y:True|False):
+public pcb-component component (-- mirror-y:True|False = false):
   manufacturer = "Johanson Technology"
   mpn = "2450AT18D0100"
+  name = "2450AT18D0100"
+  description = "2.4GHz Chip RF Antenna 2.4GHz ~ 2.5GHz 1.5dBi Solder Surface Mount"
+  datasheet = "http://www.johansontechnology.com/datasheets/antennas/2450AT18D0100.pdf"
   pin-properties :
     [pin:Ref | pads:Ref ... | side:Dir]
     [GND | p[2] p[3] p[4] | Down]

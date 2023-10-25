@@ -75,9 +75,16 @@ public pcb-component component :
   make-box-symbol()
 
 public pcb-module module :
-  
-  public inst m : AT25FF321A-UUN-T/component
+  pin VDD
+  pin GND
+  port qspi : quad-spi
 
-  bypass-cap-strap(m.Vcc, m.GND, 1.0e-6)
+  inst m : AT25FF321A-UUN-T/component
+  require m-qspi : quad-spi from m
+  net (m-qspi qspi)
+
+  net (VDD m.Vcc)
+  net (GND m.GND)
+  bypass-cap-strap(VDD, GND, 1.0e-6)
   schematic-group(self) = memory
   layout-group(self) = memory

@@ -203,11 +203,7 @@ public pcb-component component :
 
 public pcb-module module :
   pin GND
-  pin V12  
-  pin V14  
   pin V18  
-  pin V18F 
-  pin V18P 
   pin V30  
   pin VBAT 
   pin VBUS 
@@ -218,11 +214,18 @@ public pcb-module module :
   pin VADOUT
 
   public inst mcu : DA14705-00000HZ2/component
+  inst mem     : AT25FF321A-UUN-T/module
+
   inst xtal-32M : database-part(["mpn" => "XRCGB32M000F1H00R0", "manufacturer" => "Murata"])
   ; crystal connections
   net (xtal-32M.p[1] mcu.XTAL32Mp)
   net (xtal-32M.p[3] mcu.XTAL32Mm)
-  net (GND xtal-32M.GND0 xtal-32M.GND1)
+  net (GND xtal-32M.GND0 xtal-32M.GND1 mem.GND)
+  net (VSYS mem.VDD)
+
+; connect quad spi from memory to mcu
+  require mcu-mem : quad-spi from mcu
+  net (mem.qspi mcu-mem)
 
   net (LED[0] mcu.LED1)
   net (LED[1] mcu.LED2)
@@ -288,11 +291,7 @@ public pcb-module module :
     val bypc = bypass-cap-strap(pin_, GND, cap_)
     schematic-group(bypc) = bypasses
 
-  net (V12   mcu.V12)
-  net (V14   mcu.V14)
   net (V18   mcu.V18)
-  net (V18F mcu.V18F)
-  net (V18P mcu.V18P)
   net (V30   mcu.V30)
   net (VBAT mcu.VBAT)
   net (VBUS mcu.VBUS)
@@ -318,7 +317,7 @@ public pcb-module module :
   short-trace(l2.p[2] mcu.VSYS)
   bypass-cap-strap(mcu.VSYS, GND, 10.0e-6)
 
-  inst ant : J2450AT18D0100/component(true)
+  inst ant : J2450AT18D0100/component(mirror-y = true)
   ; rf pi-network matching placeholder
   inst cpi1 : ceramic-cap(1.0e-12)
   inst lpi : smd-inductor(1.0e-9)
@@ -363,6 +362,7 @@ public pcb-module module :
   schematic-group(mcu, 3) = bank3
   schematic-group(mcu, 4) = bank4
   schematic-group(mcu, 5) = bank5
+  schematic-group(mcu, 6) = bank6
 
   layout-group(self) = mcu
 

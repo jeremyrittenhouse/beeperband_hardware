@@ -56,7 +56,6 @@ pcb-module beeper-design :
   
   ; let's instance all of the major elements of the design at the top level
   inst mcu     : DA14705-00000HZ2/module
-  inst mem     : AT25FF321A-UUN-T/module
   inst wpwr    : BQ51003YFPR/module
   inst codec   : DA7212-01UM2/module
   inst qsensor : LSM6DSV16BX/module
@@ -65,48 +64,31 @@ pcb-module beeper-design :
   inst hap-drv : DRV2605YZFR/module
   inst flex-conn : J10051922-1210EHLF/component
   ; setup some nets by default
-  net VDD1P2  ()
-  net VDD1P4  ()
   net VDD1P8  ()
-  net VDD1P8F ()
-  net VDD1P8P ()
   net VDD3P0  ()
-  net VDDBAT  ()
-  net VDDBUS  ()
   net VDDSYS  ()
   net VLED    ()
 
   net QVAR1 ()
   net QVAR2 ()
 
-  val supply-nets = [VDD1P2 VDD1P4 VDD1P8 VDD1P8F VDD1P8P VDD3P0 VDDBAT VDDBUS VDDSYS]
+  val supply-nets = [VDD1P8 VDD3P0 VDDSYS]
   ; connect nets to pins of the mcu module
-  net (VDD1P2  mcu.V12)
-  net (VDD1P4  mcu.V14)
   net (VDD1P8  mcu.V18)
-  net (VDD1P8F mcu.V18F)
-  net (VDD1P8P mcu.V18P)
   net (VDD3P0  mcu.V30)
-  net (VDDBAT  mcu.VBAT)
-  net (VDDBUS  mcu.VBUS)
   net (VDDSYS  mcu.VSYS)
   net (VLED    mcu.VLED)
 
   net (mcu.VBUSp wpwr.VBUSp)
 
   ; connect all of our grounds
-  net GND (mcu.GND mem.m.GND wpwr.GND codec.GND hap-drv.GND qsensor.GND)
+  net GND (mcu.GND wpwr.GND codec.GND hap-drv.GND qsensor.GND)
   net (GND flex-conn.p[13] flex-conn.p[14])
   ; vad-mic.GND
 
   ; connect the power supplies at the top level for those components
-  net (VDDSYS mem.m.Vcc wpwr.VBUS codec.VDDSYS hap-drv.VDD)
+  net (VDDSYS wpwr.VBUS codec.VDDSYS hap-drv.VDD)
   net (VDD1P8 qsensor.VDD)
-
-  ; connect quad spi from memory to mcu
-  require mem-qspi : quad-spi from mem.m
-  require mcu-qspi : quad-spi from mcu.mcu
-  net (mem-qspi mcu-qspi)
 
   ; connect i2c from codec to mcu
   require codec-i2c:i2c from codec

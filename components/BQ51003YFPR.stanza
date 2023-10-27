@@ -13,6 +13,8 @@ defpackage BQ51003YFPR :
   import ocdb/utils/generator-utils
   import ocdb/utils/generic-components
 
+  import bundles
+
 pcb-landpattern lp :
   make-bga-landpattern(7, 4, 0.400, 0.250, typ(1.6), typ(2.8))
   model3d = Model3D("3d-models/BQ51003YFPR--3DModel-STEP-56544.STEP",
@@ -55,20 +57,16 @@ public pcb-module module :
   pin VBUS
   pin VBUSp
   pin GND
-  pin EN1
-  pin EN2
-  pin nCHG
-  pin CTRL
+  port CMD : wpwr-ctl
 
   public inst wpwr : BQ51003YFPR/component
-
-  inst coil : pin-header(2, 1.000)
+  inst coil        : pin-header(2, 1.000)
   dnp(coil)
 
-  net (nCHG wpwr.nCHG)
-  net (CTRL wpwr.TS-CTRL)
-  net (EN1 wpwr.EN1)
-  net (EN2 wpwr.EN2)
+  net (CMD.nCHG wpwr.nCHG)
+  net (CMD.CTRL wpwr.TS-CTRL)
+  net (CMD.EN1  wpwr.EN1)
+  net (CMD.EN2  wpwr.EN2)
   net (VBUS wpwr.OUT)
   net (GND wpwr.PGND)
 

@@ -13,6 +13,8 @@ defpackage DRV2605YZFR :
   import ocdb/utils/generator-utils
   import ocdb/utils/generic-components
 
+  import bundles
+
 pcb-pad circle-smd-pad :
   name = "circle-smd-pad"
   type = SMD
@@ -224,26 +226,35 @@ public pcb-component component :
   property(self.case) = "BGA-9"
 
 public pcb-module module :
-  pin OUT+
-  pin OUT-
-  pin EN
-  pin IN_TRIG
+  ; pin EN
+  ; pin IN_TRIG
   pin VDD
   pin GND
+  ; port i2c : i2c
+  port intf : haptic-intf
 
   public inst drv : DRV2605YZFR/component
 
-  net (OUT+ drv.OUT+)
-  net (OUT- drv.OUT-)
-  net (EN drv.EN)
-  net (IN_TRIG drv.IN_TRIG)
+  net (intf.EN drv.EN)
+  net (intf.IN_TRIG drv.IN_TRIG)
   net (GND drv.GND)
   net (VDD drv.VDD)
 
   bypass-cap-strap(drv.REG GND 1.0e-6)
   bypass-cap-strap(drv.VDD GND 1.0e-6)
 
-  supports i2c :
-    i2c.sda => drv.SDA
-    i2c.scl => drv.SCL
+  net (intf.i2c.sda drv.SDA)
+  net (intf.i2c.scl drv.SCL)
+  val i2c-hap-pu = add-open-drain-pullups(intf.i2c, VDD, 1.0e6, 10.0e-12)
 
+  ; haptic output header (for now)
+  inst haptic-conn : pin-header(2, 1.00)
+  dnp(haptic-conn)
+  ; component-status(haptic) :
+  ;   bom-status = NotInBOM
+
+  net (haptic-conn.p[1] drv.OUT+)
+  net (haptic-conn.p[2] drv.OUT-)
+
+  schematic-group(self) = haptic
+  layout-group(self) = haptic

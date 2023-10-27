@@ -18,7 +18,9 @@ defpackage main :
   import helpers
   import rules
   import bundles
+  import system
 
+  import flex
 
 MIN-PKG = "0201"
 DESIGN-QUANTITY = 10
@@ -48,31 +50,25 @@ val signal-shape = loc(x-off, y-off) * PolygonWithArcs([
                    Point( -3.520,   7.110),
                    Arc(Point(-3.770, 6.110), 1.000, 90.00, 90.00)]) ; Rectangle(26.0, 19.0)
 
-defn qvar-shape (ver : Int) :
-  Rectangle(13.0, 18.0, loc(to-double(2 * ver - 3) * 6.5, 0.0))
-
 ; Module to run as a design
 pcb-module beeper-design :
-  
+  port flex : flex-signals
+
   ; let's instance all of the major elements of the design at the top level
-  inst mcu     : DA14705-00000HZ2/module
-  inst wpwr    : BQ51003YFPR/module
-  inst codec   : DA7212-01UM2/module
-  inst qsensor : LSM6DSV16BX/module
-  ; inst vad-mic : PMM-3738-VM1000-R/module
-  inst button  : EVPBB4A9B000/component[3]
-  inst hap-drv : DRV2605YZFR/module
-  inst flex-conn : J10051922-1210EHLF/component
+  inst flex-conn : beeper-connector(main-board)
+  inst mcu       : DA14705-00000HZ2/module
+  inst wpwr      : BQ51003YFPR/module
+  inst codec     : DA7212-01UM2/module
+  inst qsensor   : LSM6DSV16BX/module
+  inst button    : EVPBB4A9B000/component[3]
+  inst hapdrv    : DRV2605YZFR/module
   ; setup some nets by default
   net VDD1P8  ()
   net VDD3P0  ()
   net VDDSYS  ()
   net VLED    ()
 
-  net QVAR1 ()
-  net QVAR2 ()
-
-  val supply-nets = [VDD1P8 VDD3P0 VDDSYS]
+  val supply-nets = [VDD1P8 VDD3P0 VDDSYS VLED]
   ; connect nets to pins of the mcu module
   net (VDD1P8  mcu.V18)
   net (VDD3P0  mcu.V30)
@@ -82,18 +78,15 @@ pcb-module beeper-design :
   net (mcu.VBUSp wpwr.VBUSp)
 
   ; connect all of our grounds
-  net GND (mcu.GND wpwr.GND codec.GND hap-drv.GND qsensor.GND)
-  net (GND flex-conn.p[13] flex-conn.p[14])
-  ; vad-mic.GND
+  net GND (mcu.GND wpwr.GND codec.GND hapdrv.GND qsensor.GND)
 
   ; connect the power supplies at the top level for those components
-  net (VDDSYS wpwr.VBUS codec.VDDSYS hap-drv.VDD)
+  net (VDDSYS wpwr.VBUS codec.VDDSYS hapdrv.VDD)
   net (VDD1P8 qsensor.VDD)
 
   ; connect i2c from codec to mcu
-  require codec-i2c:i2c from codec
   require mcu-codec-i2c:i2c from mcu.mcu
-  net (codec-i2c mcu-codec-i2c)
+  net (codec.i2c mcu-codec-i2c)
   val i2c-codec-pullups = add-open-drain-pullups(mcu-codec-i2c, VDDSYS)
 
   require codec-pdm : PDM from codec
@@ -108,6 +101,9 @@ pcb-module beeper-design :
  ; if SPI then uncomment the following lines
   ; require qsen-spi : spi([SPI-SDO SPI-SDI SPI-CS]) from qsensor
   require mcu-spi  : spi([SPI-SDO SPI-SDI SPI-CS]) from mcu.mcu
+  ; since there is ambiguity on which interface is being used
+  ; need to add some no-pop resistors to preserve the ability
+  ; to switch interfaces post-fabrication
   inst rs-sda : chip-resistor(0.0)
   inst rs-scl : chip-resistor(0.0)
   dnp(rs-sda)
@@ -119,70 +115,31 @@ pcb-module beeper-design :
   net (mcu-spi.sdi qsensor.imu.SDO_SA0)
   net (mcu-spi.cs  qsensor.imu.CS     )
 
-  net (qsensor.imu.AH1_QVAR1 QVAR1)
-  net (qsensor.imu.AH2_QVAR2 QVAR2)
-
-  ; now connect i2c for haptic driver
-  require drv-i2c : i2c from hap-drv
-  require mcu-hap-i2c : i2c from mcu.mcu
-  net (drv-i2c mcu-hap-i2c)
-  val i2c-hap-pullups = add-open-drain-pullups(mcu-hap-i2c, VDDSYS)
-
-  ; connect misc pins on haptic driver from whichever mcu pins make sense
-  require mcu-hap : gpio[2] from mcu.mcu
-  net (hap-drv.EN mcu-hap[0].gpio)
-  net (hap-drv.IN_TRIG mcu-hap[1].gpio)
-
-  ; haptic output header (for now)
-  inst haptic : pin-header(2, 1.00)
-  dnp(haptic)
-  ; component-status(haptic) :
-  ;   bom-status = NotInBOM
-
-  net (haptic.p[1] hap-drv.OUT+)
-  net (haptic.p[2] hap-drv.OUT-)
+  ; now connect mcu to haptic driver
+  net (hapdrv.intf mcu.haptic-intf)
 
   ; connect control/status pins to wireless power chip
-  require mcu-wpwr : gpio[4] from mcu.mcu
-  net (wpwr.EN1 mcu-wpwr[0].gpio)
-  net (wpwr.EN2 mcu-wpwr[1].gpio)
-  net (wpwr.nCHG mcu-wpwr[2].gpio)
-  net (wpwr.CTRL mcu-wpwr[3].gpio)
+  net (mcu.WPWR-CTRL wpwr.CMD)
 
-  ; flex connections
-  ; net (conn.p[ 1] VDDMIC  )
-  ; net (conn.p[ 2] VDDVAD  )
-  ; net (conn.p[ 3] VDDLED  )
-  ; net (conn.p[ 4] GND     )
-  ; net (conn.p[ 5] MICCLK  )
-  ; net (conn.p[ 6] MICDATA )
-  ; net (conn.p[ 7] LEDR    )
-  ; net (conn.p[ 8] LEDG    )
-  ; net (conn.p[ 9] LEDB    )
-  ; net (conn.p[10] SPKP    )
-  ; net (conn.p[11] SPKN    )
+  net (flex-conn.connections.VDDMIC   codec.MICBIAS    )
+  net (flex-conn.connections.VDDVAD   VDD3P0           )
+  net (flex-conn.connections.VDDLED   VLED             )
+  net (flex-conn.connections.GND      GND              )
+  net (flex-conn.connections.MICCLK   codec-pdm.clk    )
+  net (flex-conn.connections.MICDATA  codec-pdm.data   )
+  net (flex-conn.connections.LEDR     mcu.LED[0]       )
+  net (flex-conn.connections.LEDG     mcu.LED[1]       )
+  net (flex-conn.connections.LEDB     mcu.LED[2]       )
+  net (flex-conn.connections.SPKP     codec.codec.SP_P )
+  net (flex-conn.connections.SPKN     codec.codec.SP_N )
+  net (flex-conn.connections.VADOUT   mcu.VADOUT       )
 
-  net (flex-conn.p[ 1] codec.MICBIAS    )
-  net (flex-conn.p[ 2] VDD3P0           )
-  net (flex-conn.p[ 3] VLED             )
-  net (flex-conn.p[ 4] GND              )
-  net (flex-conn.p[ 5] codec-pdm.clk    )
-  net (flex-conn.p[ 6] codec-pdm.data   )
-  net (flex-conn.p[ 7] mcu.LED[0]       )
-  net (flex-conn.p[ 8] mcu.LED[1]       )
-  net (flex-conn.p[ 9] mcu.LED[2]       )
-  net (flex-conn.p[10] codec.codec.SP_P )
-  net (flex-conn.p[11] codec.codec.SP_N )
-  net (flex-conn.p[12] mcu.VADOUT)
-
+  net (flex-conn.connections flex)
 
   ; if we want testpoints on the power supplies we can uncomment the following line
   ; for p in [mcu.V12  mcu.V14 mcu.V18  mcu.V18F mcu.V18P mcu.V30 mcu.VBAT mcu.VBUS mcu.VSYS] do :
   ;   add-testpoint([p], gen-testpad(0.5))
 
-
-  ; connect VAD microphone -> just a single analog connection
-  ;net (vad-mic.OUT mcu.mcu.VAD)
 
   ; buttons (3) and placed per the mechanical design (subject to change)
   require mcu-but : gpio[3] from mcu.mcu
@@ -195,30 +152,23 @@ pcb-module beeper-design :
 
   ; let's make prettier schematics
   symbol(GND) = ocdb/utils/symbols/ground-sym
-  for n_ in supply-nets do :
-    symbol(n_) = ocdb/utils/symbols/supply-sym
+  for n in supply-nets do :
+    symbol(n) = ocdb/utils/symbols/altium-power-bar-sym
 
   ; power planes (let's assume 4 layers for now...)
   geom(GND) :
     copper-pour(LayerIndex(1), isolate = 0.1, rank = 1) = signal-shape
   geom(VDDSYS) :
     copper-pour(LayerIndex(2), isolate = 0.1, rank = 1) = signal-shape
+  
+  schematic-group(self) = main-board
+  layout-group(self) = main-board
 
-  geom(QVAR1) : 
-    copper-pour(LayerIndex(3), isolate = 2.0, rank = 2) = qvar-shape(1)
+pcb-module top-level :
+  inst m : beeper-design
+  inst f : beeper-flex
 
-  geom(QVAR2) : 
-    copper-pour(LayerIndex(3), isolate = 2.0, rank = 2) = qvar-shape(2)
-
-
-  ; layer(Cutout()) = Line(0.2, [Point(-31.02, 5.61), Point(-4.77000000000001, 5.61)])
-  ; layer(Cutout()) = Line(0.2, [Point(-3.52000000000001, 7.11), Point(-3.52000000000001, 24.61)])
-  ; layer(Cutout()) = Line(0.2, [Point(-4.77000000000001, 5.61), Point(-4.77000000000001, 6.11)])
-  ; layer(Cutout()) = Line(0.2, [Point(-3.52000000000001, 24.61), Point(-31.02, 24.61)])
-  ; layer(Cutout()) = Line(0.2, [Point(-31.02, 24.61), Point(-31.02, 5.61)])
-  ; layer(Cutout()) = Line(0.2, [Point(-3.77000000000001, 7.11), Point(-3.52000000000001, 7.11)])
-  ; layer(Cutout()) = Polyline(0.2, [Arc(-3.7699802613628, 6.10998026136275, 1.00001973883201, 179.998869081715, -89.9977381634326)])
-
+  net (m.flex f.main)
 
 ; Set the design name     - a directory with this name will be generated under the "designs" directory
 ;     the board           - a Board object
@@ -226,7 +176,8 @@ pcb-module beeper-design :
 ;     [optional] vendors  - Strings or AuthorizedVendors (if not give default vendors will be used)
 ;     [optional] quantity - Minimum stock quantity the vendor should carry (if not give default quantity will be used)
 setup-design(
-  "beeper-design",
+  ; "beeper-system", ; 
+  "beeper-design"
   ocdb/utils/defaults/default-board(ocdb/manufacturers/stackups/bay-area-circuits-4-layer-62-mil, board-shape,)
   quantity = DESIGN-QUANTITY
 )
@@ -235,7 +186,8 @@ setup-design(
 set-paper(ANSI-B)
 
 ; Set the top level module (the module to be compile into a schematic and PCB)
-set-main-module(beeper-design)
+; set-main-module(top-level) ; beeper-design
+set-main-module(beeper-design) ; beeper-design
 
 ; View the results
 view-schematic()

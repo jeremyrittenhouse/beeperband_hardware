@@ -130,12 +130,25 @@ pcb-landpattern edge-lp :
     Point( 2.250, -1.900)
     Point( 3.250, -1.900)
     Point( 2.750, -1.400)])
-  layer(Cutout()) = Polyline(0.100, [
+  ; layer(Cutout()) = Polyline(0.100, [
+  ;   Point(-3.250, -1.250)
+  ;   Point(-3.250,  1.250)
+  ;   Point( 3.250,  1.250)
+  ;   Point( 3.250, -1.250)
+  ;   ])
+  layer(Finish(Top)) = Polyline(0.100, [
     Point(-3.250, -1.250)
     Point(-3.250,  1.250)
     Point( 3.250,  1.250)
     Point( 3.250, -1.250)
     ])
+  layer(Finish(Bottom)) = Polyline(0.100, [
+    Point(-3.250, -1.250)
+    Point(-3.250,  1.250)
+    Point( 3.250,  1.250)
+    Point( 3.250, -1.250)
+    ])
+
   layer(CustomLayer("stiffener")) = Rectangle(6.500, 3.000, loc(0.000, -0.250))
 
 

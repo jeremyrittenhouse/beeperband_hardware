@@ -392,14 +392,17 @@ public pcb-module module :
   pin SELECT
   pin VDD
   pin GND
+  port PDM : PDM
 
   public inst mic : GMA3526H10-B26/component
   net (SELECT mic.SELECT)
   net (GND mic.GROUND)
   net (VDD mic.VDD)
 
-  supports PDM :
-    PDM.data => mic.DATA
-    PDM.clk  => mic.CLOCK
+  net (PDM.data mic.DATA )
+  net (PDM.clk  mic.CLOCK)
 
   bypass-cap-strap(mic.VDD, mic.GROUND, 0.100e-6)
+
+  schematic-group(self) = mic
+  layout-group(self) = mic

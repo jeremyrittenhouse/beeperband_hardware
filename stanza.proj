@@ -5,6 +5,7 @@ package helpers defined-in "helpers.stanza"
 package bundles defined-in "bundles.stanza"
 package rules defined-in "rules.stanza"
 package stackups defined-in "stackups.stanza"
+package system defined-in "system.stanza"
 
 package DA14705-00000HZ2           defined-in "components/DA14705-00000HZ2.stanza"
 package DA14705-00000HZ2-supports  defined-in "components/DA14705-00000HZ2-supports.stanza"

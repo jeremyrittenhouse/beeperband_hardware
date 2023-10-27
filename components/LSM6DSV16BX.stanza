@@ -15,6 +15,10 @@ defpackage LSM6DSV16BX :
 
   import bundles
 
+
+defn qvar-shape (ver : Int) :
+  Rectangle(13.0, 18.0, loc(to-double(2 * ver - 3) * 6.5, 0.0))
+
 pcb-pad rectangle-smd-pad :
   name = "rectangle-smd-pad"
   type = SMD
@@ -100,11 +104,11 @@ public pcb-component component :
 public pcb-module module :
   pin VDD
   pin GND
-      
+  port TDM : TDM
+
   public inst imu : LSM6DSV16BX/component ; will use in Mode 2
   
   net (GND imu.GND)
-  no-connect(imu.WCLK)
   net (VDD imu.VDDIO imu.VDD)
   
   bypass-cap-strap(imu.VDD GND 0.1e-6)
@@ -120,10 +124,18 @@ public pcb-module module :
     spi([SPI-SDO SPI-SDI SPI-CS]).sdi => imu.SDO_SA0
     spi([SPI-SDO SPI-SDI SPI-CS]).cs  => imu.CS
   
-  supports TDM :
-    TDM.tdm => imu.TDMOUT
-    TDM.bclk => imu.BCLK
-    TDM.wclk => imu.WCLK
+  net (TDM.tdm  imu.TDMOUT)
+  net (TDM.bclk imu.BCLK  )
+  net (TDM.wclk imu.WCLK  )
+
+  net QVAR1 (imu.AH1_QVAR1)
+  net QVAR2 (imu.AH2_QVAR2)
+
+  geom(QVAR1) : 
+    copper-pour(LayerIndex(3), isolate = 2.0, rank = 2) = qvar-shape(1)
+
+  geom(QVAR2) : 
+    copper-pour(LayerIndex(3), isolate = 2.0, rank = 2) = qvar-shape(2)
 
   schematic-group(self) = qvar
   layout-group(self) = qvar

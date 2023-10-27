@@ -212,9 +212,12 @@ public pcb-module module :
   pin VLED
   port LED : pin[3] ; RGB
   pin VADOUT
+  port WPWR-CTRL : wpwr-ctl
+  port haptic-intf : haptic-intf
+
 
   public inst mcu : DA14705-00000HZ2/component
-  inst mem     : AT25FF321A-UUN-T/module
+  inst mem        : AT25FF321A-UUN-T/module
 
   inst xtal-32M : database-part(["mpn" => "XRCGB32M000F1H00R0", "manufacturer" => "Murata"])
   ; crystal connections
@@ -232,7 +235,19 @@ public pcb-module module :
   net (LED[2] mcu.LED3)
 
   net (VADOUT mcu.VAD)
-  
+
+  require hap-i2c : i2c from mcu
+  require hap-gpio : gpio[2] from mcu
+  net (haptic-intf.i2c     hap-i2c         )
+  net (haptic-intf.EN      hap-gpio[0].gpio)
+  net (haptic-intf.IN_TRIG hap-gpio[1].gpio)
+
+  require mcu-wpwr : gpio[4] from mcu
+  net (WPWR-CTRL.EN1  mcu-wpwr[0].gpio)
+  net (WPWR-CTRL.EN2  mcu-wpwr[1].gpio)
+  net (WPWR-CTRL.nCHG mcu-wpwr[2].gpio)
+  net (WPWR-CTRL.CTRL mcu-wpwr[3].gpio)
+
   ; all dbg connections
   inst dbg-m33-conn : ocdb/components/tag-connect/TC2030-IDC-NL/component
   dnp(dbg-m33-conn)

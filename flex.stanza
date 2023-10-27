@@ -20,6 +20,8 @@ defpackage flex :
   import bundles
   import stackups
 
+  import system
+
 
 MIN-PKG = "0201"
 DESIGN-QUANTITY = 10
@@ -40,33 +42,33 @@ val signal-shape = Polygon([
                    Point(  3.250, -15.000),
                    Point(  3.250,  15.000)]); Rectangle(26.0, 19.0)
 
+
 ; Module to run as a design
-pcb-module beeper-flex :
+public pcb-module beeper-flex :
+
+  port main : flex-signals
+
   ; let's instance all of the major elements of the design on the flex
-  public inst vad : PMM-3738-VM1000-R/module
-  public inst mic : GMA3526H10-B26/module[2]
+  inst vad : PMM-3738-VM1000-R/module
+  inst mic : GMA3526H10-B26/module[2]
+  inst led : L23-23B_R6GHBHW-C30_2A/component
+  inst conn : beeper-connector(flex-board)
 
-  public inst led : L23-23B_R6GHBHW-C30_2A/component
-
-  inst conn : J10051922-1210EHLF/flex-edge ; pin-header(12, 1, 1.00)
   place(conn) at loc(0.000, 15.000 - 1.250) on Top
+  net VDDMIC     (conn.connections.VDDMIC  )
+  net VDDVAD     (conn.connections.VDDVAD  )
+  net VDDLED     (conn.connections.VDDLED  )
+  net GND        (conn.connections.GND     )
+  net MICCLK     (conn.connections.MICCLK  )
+  net MICDATA    (conn.connections.MICDATA )
+  net LEDR       (conn.connections.LEDR    )
+  net LEDG       (conn.connections.LEDG    )
+  net LEDB       (conn.connections.LEDB    )
+  net SPKP       (conn.connections.SPKP    )
+  net SPKN       (conn.connections.SPKN    )
+  net VADOUT     (conn.connections.VADOUT  )
 
-  net VDDMIC     (conn.p[ 1])
-  net VDDVAD     (conn.p[ 2])
-  net VDDLED     (conn.p[ 3])
-  net GND        (conn.p[ 4])
-  net MICCLK     (conn.p[ 5])
-  net MICDATA    (conn.p[ 6])
-  net LEDR       (conn.p[ 7])
-  net LEDG       (conn.p[ 8])
-  net LEDB       (conn.p[ 9])
-  net SPKP       (conn.p[10])
-  net SPKN       (conn.p[11])
-  net VADOUT     (conn.p[12])
-  ; net (conn.p[13]      )
-  ; net (conn.p[14]      )
-  ; net (conn.p[15]      )
-  ; net (conn.p[16]      )
+  net (main conn.connections)
 
   net (VDDVAD vad.VDD)
   net (VDDMIC mic[0].VDD mic[1].VDD)
@@ -78,23 +80,23 @@ pcb-module beeper-flex :
   net (LEDG led.G)
   net (LEDB led.B)
 
-  require mic0-pdm : PDM from mic[0]
-  require mic1-pdm : PDM from mic[1]
   ; combine PDM
-  net (MICCLK  mic0-pdm.clk  mic1-pdm.clk)
-  net (MICDATA mic0-pdm.data mic1-pdm.data)
+  net (MICCLK  mic[0].PDM.clk mic[1].PDM.clk)
+  net (MICDATA mic[0].PDM.data mic[1].PDM.data)
   net (VDDMIC mic[0].SELECT) ; output data from mic[0] on high CLK phase
   net (GND    mic[1].SELECT) ; output data from mic[1] on low CLK phase
 
   ; let's make prettier schematics
   symbol(GND) = ocdb/utils/symbols/ground-sym
-  for n_ in [VDDVAD VDDMIC] do :
-    symbol(n_) = ocdb/utils/symbols/supply-sym
+  for n_ in [VDDVAD VDDMIC VDDLED] do :
+    symbol(n_) = ocdb/utils/symbols/altium-power-bar-sym
 
-  ; power planes (let's assume 4 layers for now...)
-  geom(GND) :
-    copper-pour(LayerIndex(1), isolate = 0.1, rank = 1) = signal-shape
+  ; power planes (let's assume 2 layers for now...)
+  ; geom(GND) :
+  ;   copper-pour(LayerIndex(1), isolate = 0.1, rank = 1) = signal-shape
 
+  schematic-group(self) = flex-board
+  layout-group(self) = flex-board
 
 ; Set the design name     - a directory with this name will be generated under the "designs" directory
 ;     the board           - a Board object

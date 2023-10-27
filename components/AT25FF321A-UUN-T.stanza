@@ -63,14 +63,6 @@ public pcb-component component :
 
   no-connect(self.NC)
 
-  supports quad-spi :
-    quad-spi.sck => self.SCK
-    quad-spi.cs => self.CSn
-    quad-spi.sdio[0] => self.SI
-    quad-spi.sdio[1] => self.SO
-    quad-spi.sdio[2] => self.WPn
-    quad-spi.sdio[3] => self.HRn
-
   assign-landpattern(WLCSP-12)
   make-box-symbol()
 
@@ -80,8 +72,12 @@ public pcb-module module :
   port qspi : quad-spi
 
   inst m : AT25FF321A-UUN-T/component
-  require m-qspi : quad-spi from m
-  net (m-qspi qspi)
+  net (qspi.sck     m.SCK)
+  net (qspi.cs      m.CSn)
+  net (qspi.sdio[0] m.SI )
+  net (qspi.sdio[1] m.SO )
+  net (qspi.sdio[2] m.WPn)
+  net (qspi.sdio[3] m.HRn)
 
   net (VDD m.Vcc)
   net (GND m.GND)

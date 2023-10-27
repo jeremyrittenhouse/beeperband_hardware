@@ -35,13 +35,13 @@ pcb-landpattern lp :
     for i in ((j-cnt % 2) + 1) through x-cnt by 2 do :
       val x-loc = offset-x + to-double(i - 1) * delta-x
       val y-loc = offset-y - to-double(j-cnt) * delta-y
-      val i-cnt = i % 17
+      val i-cnt = i % x-cnt
       val pad-name = Ref(append(j, to-string(i)))
       pad (pad-name) : bga-pad() at loc(x-loc, y-loc)
   layer(Courtyard(Top)) = Rectangle(4.6, 1.660)
   layer(Silkscreen("pol", Top)) = Circle(-2.000, 1.000, 0.1)
   ref-label()
-    model3d = Model3D("3d-models/DA7212-01UM2.stp",
+  model3d = Model3D("3d-models/DA7212-01UM2.stp",
     Vec3D(0.0, 0.0, 0.0),
     Vec3D(1.0, 1.0, 1.0),
     Vec3D(0.0, 0.0, 0.0))
@@ -98,6 +98,8 @@ public pcb-module module :
   pin VDD1P8
   pin VDDSYS
   pin MICBIAS
+  port i2c : i2c
+  port i2s : i2s([I2S-SDMI I2S-MCK])
   
   public inst codec : DA7212-01UM2/component
 
@@ -131,36 +133,19 @@ public pcb-module module :
 
   bypass-cap-strap(codec.HPCFN codec.HPCSN 1.0e-6)
 
-  supports i2c :
-    i2c.scl => codec.SCL
-    i2c.sda => codec.SDA
+  net (i2c.scl codec.SCL)
+  net (i2c.sda codec.SDA)
 
-  ; supports full-i2s :
-  ;   full-i2s.sda    => codec.SDA
-  ;   full-i2s.scl    => codec.SCL
-  ;   full-i2s.datin  => codec.DATIN 
-  ;   full-i2s.datout => codec.DATOUT
-  ;   full-i2s.bclk   => codec.BCLK  
-  ;   full-i2s.wclk   => codec.WCLK  
-  ;   full-i2s.mclk   => codec.MCLK
-
-  supports i2s([I2S-SDMI I2S-MCK]) :
-    i2s([I2S-SDMI I2S-MCK]).sdmo  => codec.DATIN 
-    i2s([I2S-SDMI I2S-MCK]).sdmi  => codec.DATOUT
-    i2s([I2S-SDMI I2S-MCK]).ck    => codec.BCLK  
-    i2s([I2S-SDMI I2S-MCK]).ws    => codec.WCLK  
-    i2s([I2S-SDMI I2S-MCK]).mck   => codec.MCLK
-
+  net (i2s.sdmo  codec.DATIN)
+  net (i2s.sdmi  codec.DATOUT)
+  net (i2s.ck    codec.BCLK)
+  net (i2s.ws    codec.WCLK)
+  net (i2s.mck   codec.MCLK)  
+  
   supports PDM :
     PDM.data => codec.MIC1_N
     PDM.clk  => codec.MIC1_P
 
-  ; net (mic1.VDD codec.MICBIAS1)
-  ; net (mic2.VDD codec.MICBIAS2)
-  ; net (GND mic1.GND mic2.GND)
-  ; net (mic1.OUT codec.MIC1_P)
-  ; net (mic2.OUT codec.MIC2_P)
-  ; no-connect(codec.MIC1_N)
   no-connect(codec.MIC2_P)
   no-connect(codec.MIC2_N)
 

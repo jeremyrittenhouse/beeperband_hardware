@@ -6,6 +6,11 @@ defpackage bundles :
   import jitx
   import jitx/commands
   import ocdb/utils/defaults
+  import ocdb/utils/bundles
+
+public pcb-enum /board-type :
+  main-board
+  flex-board
 
 ; ETM module
 public pcb-bundle ETM :
@@ -96,3 +101,30 @@ public pcb-bundle da7212-i2s :
   pin mclk
   pin datin
   pin datout
+
+
+; design-specific bundles
+public pcb-bundle wpwr-ctl :
+  pin EN1
+  pin EN2
+  pin nCHG
+  pin CTRL
+
+public pcb-bundle flex-signals :
+  pin VDDMIC 
+  pin VDDVAD 
+  pin VDDLED 
+  pin GND    
+  pin MICCLK 
+  pin MICDATA
+  pin LEDR   
+  pin LEDG   
+  pin LEDB   
+  pin SPKP   
+  pin SPKN
+  pin VADOUT
+
+public pcb-bundle haptic-intf :
+  port i2c : i2c
+  pin EN
+  pin IN_TRIG

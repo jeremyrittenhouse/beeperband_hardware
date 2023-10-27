@@ -196,10 +196,11 @@ pcb-module top-level :
 ;     [optional] rules    - the PCB design rules (if not given default rules will be used)
 ;     [optional] vendors  - Strings or AuthorizedVendors (if not give default vendors will be used)
 ;     [optional] quantity - Minimum stock quantity the vendor should carry (if not give default quantity will be used)
+
 setup-design(
   ; "beeper-system", ; 
   "beeper-design"
-  ocdb/utils/defaults/default-board(ocdb/manufacturers/stackups/bay-area-circuits-4-layer-62-mil, board-shape,)
+  ocdb/utils/defaults/default-board(ocdb/manufacturers/stackups/bay-area-circuits-4-layer-62-mil, board-shape)
   quantity = DESIGN-QUANTITY
 )
 
@@ -207,10 +208,10 @@ setup-design(
 set-paper(ANSI-B)
 
 ; Set the top level module (the module to be compile into a schematic and PCB)
-; set-main-module(top-level) ; beeper-design
-set-main-module(beeper-design) ; beeper-design
+; set-main-module(top-level)
+set-main-module(beeper-design)
 
 ; View the results
 view-schematic()
 view-board()
-; view-design-explorer()
+view-design-explorer()

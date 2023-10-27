@@ -917,6 +917,7 @@
     {"operation":"place","place":{"placements":[{"id":"ErxJqA2VcyJbqmz1KnUzK1","pose":{"center":{"x":0.44674128236129373,"y":-8.7282428380704253},"angle":270,"flipx":false},"side":"top"}]}},
     {"operation":"place","place":{"placements":[{"id":"CrTkMX2fu1qFsAMVKfZz3a","pose":{"center":{"x":3.9345657435703592,"y":-7.1311584832471775},"angle":270,"flipx":false},"side":"top"}]}},
     {"operation":"place","place":{"placements":[{"id":"FinPpnUzaoQQjvsjdctnp1","pose":{"center":{"x":5.46417768161768,"y":-6.4106978002548818},"angle":0,"flipx":false},"side":"top"}]}},
-    {"operation":"place","place":{"placements":[{"id":"6kBkZd6f2AiMS5hiHwFtv9","pose":{"center":{"x":21.286645672045957,"y":-3.3107768275888643},"angle":0,"flipx":false},"side":"top"}]}}
+    {"operation":"unroute","delete":{"routes":["3edZqrrzjq454RUiVaPcSY","8zwDnBk5uXBeQxSZsCnGQF","EnZxrT8B8QseybMm3yaZNC"]}},
+    {"operation":"place","place":{"placements":[{"id":"euSjByA1qc8K8tSUpCm3t","pose":{"center":{"x":18.449274970504895,"y":6.7996936979676263},"angle":180,"flipx":false},"side":"top"}]}}
   ]
 }

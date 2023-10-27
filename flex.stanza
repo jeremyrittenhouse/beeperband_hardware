@@ -56,7 +56,7 @@ public pcb-module beeper-flex :
 
   place(conn) at loc(0.000, 15.000 - 1.250) on Top
  
-  net (main conn.connections)
+  net (main conn.c)
 
   net VDDVAD (vad.VDD)
   net VDDMIC (mic[0].VDD mic[1].VDD mic[0].SELECT) ; output data from mic[0] on high CLK phase
@@ -75,17 +75,17 @@ public pcb-module beeper-flex :
   net SPKN ()
   net SPKP ()
 
-  net (VDDMIC     conn.connections.VDDMIC  )
-  net (VDDVAD     conn.connections.VDDVAD  )
-  net (VDDLED     conn.connections.VDDLED  )
-  net (GND        conn.connections.GND     )
-  net (MICPDM     conn.connections.MICPDM  )
-  net (LEDR       conn.connections.LEDR    )
-  net (LEDG       conn.connections.LEDG    )
-  net (LEDB       conn.connections.LEDB    )
-  net (SPKP       conn.connections.SPKP    )
-  net (SPKN       conn.connections.SPKN    )
-  net (VADOUT     conn.connections.VADOUT  )
+  net (VDDMIC     conn.c.VDDMIC  )
+  net (VDDVAD     conn.c.VDDVAD  )
+  net (VDDLED     conn.c.VDDLED  )
+  net (GND        conn.c.GND     )
+  net (MICPDM     conn.c.MICPDM  )
+  net (LEDR       conn.c.LEDR    )
+  net (LEDG       conn.c.LEDG    )
+  net (LEDB       conn.c.LEDB    )
+  net (SPKP       conn.c.SPKP    )
+  net (SPKN       conn.c.SPKN    )
+  net (VADOUT     conn.c.VADOUT  )
 
 
 
@@ -96,8 +96,8 @@ public pcb-module beeper-flex :
     symbol(n_) = ocdb/utils/symbols/altium-power-bar-sym
 
   ; power planes (let's assume 2 layers for now...)
-  ; geom(GND) :
-  ;   copper-pour(LayerIndex(1), isolate = 0.1, rank = 1) = signal-shape
+  geom(GND) :
+    copper-pour(LayerIndex(0), isolate = 0.1, rank = 1) = signal-shape
 
   schematic-group(self) = flex-board
   layout-group(self) = flex-board

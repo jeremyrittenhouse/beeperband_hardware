@@ -55,36 +55,40 @@ public pcb-module beeper-flex :
   inst conn : beeper-connector(flex-board)
 
   place(conn) at loc(0.000, 15.000 - 1.250) on Top
-  net VDDMIC     (conn.connections.VDDMIC  )
-  net VDDVAD     (conn.connections.VDDVAD  )
-  net VDDLED     (conn.connections.VDDLED  )
-  net GND        (conn.connections.GND     )
-  net MICCLK     (conn.connections.MICCLK  )
-  net MICDATA    (conn.connections.MICDATA )
-  net LEDR       (conn.connections.LEDR    )
-  net LEDG       (conn.connections.LEDG    )
-  net LEDB       (conn.connections.LEDB    )
-  net SPKP       (conn.connections.SPKP    )
-  net SPKN       (conn.connections.SPKN    )
-  net VADOUT     (conn.connections.VADOUT  )
-
+ 
   net (main conn.connections)
 
-  net (VDDVAD vad.VDD)
-  net (VDDMIC mic[0].VDD mic[1].VDD)
-  net (VDDLED led.A)
-  net (GND vad.GND mic[0].GND mic[1].GND)
-
-  net (VADOUT vad.OUT)
-  net (LEDR led.R)
-  net (LEDG led.G)
-  net (LEDB led.B)
+  net VDDVAD (vad.VDD)
+  net VDDMIC (mic[0].VDD mic[1].VDD mic[0].SELECT) ; output data from mic[0] on high CLK phase
+  net VDDLED (led.A)
+  net GND    (vad.GND mic[0].GND mic[1].GND mic[1].SELECT) ; output data from mic[1] on low CLK phase
 
   ; combine PDM
-  net (MICCLK  mic[0].PDM.clk mic[1].PDM.clk)
-  net (MICDATA mic[0].PDM.data mic[1].PDM.data)
-  net (VDDMIC mic[0].SELECT) ; output data from mic[0] on high CLK phase
-  net (GND    mic[1].SELECT) ; output data from mic[1] on low CLK phase
+  net MICPDM (mic[0].PDM mic[1].PDM)
+
+  net VADOUT (vad.OUT)
+
+  net LEDR (led.R)
+  net LEDG (led.G)
+  net LEDB (led.B)
+
+  net SPKN ()
+  net SPKP ()
+
+  net (VDDMIC     conn.connections.VDDMIC  )
+  net (VDDVAD     conn.connections.VDDVAD  )
+  net (VDDLED     conn.connections.VDDLED  )
+  net (GND        conn.connections.GND     )
+  net (MICPDM     conn.connections.MICPDM  )
+  net (LEDR       conn.connections.LEDR    )
+  net (LEDG       conn.connections.LEDG    )
+  net (LEDB       conn.connections.LEDB    )
+  net (SPKP       conn.connections.SPKP    )
+  net (SPKN       conn.connections.SPKN    )
+  net (VADOUT     conn.connections.VADOUT  )
+
+
+
 
   ; let's make prettier schematics
   symbol(GND) = ocdb/utils/symbols/ground-sym

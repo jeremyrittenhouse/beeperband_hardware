@@ -114,9 +114,8 @@ public pcb-bundle flex-signals :
   pin VDDMIC 
   pin VDDVAD 
   pin VDDLED 
-  pin GND    
-  pin MICCLK 
-  pin MICDATA
+  pin GND 
+  port MICPDM : PDM
   pin LEDR   
   pin LEDG   
   pin LEDB   
@@ -128,3 +127,17 @@ public pcb-bundle haptic-intf :
   port i2c : i2c
   pin EN
   pin IN_TRIG
+
+public pcb-bundle rgb :
+  pin r
+  pin g
+  pin b
+
+public pcb-bundle system-io :
+  ;
+  port codec-pdm   : PDM
+  port codec-i2c   : i2c
+  port qsen-i3c    : i3c
+  port qsen-spi    : spi([SPI-SDO SPI-SDI SPI-CS])
+  port haptic-intf : haptic-intf
+  port button-io   : gpio[3]

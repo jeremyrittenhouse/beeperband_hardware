@@ -210,11 +210,14 @@ public pcb-module module :
   pin VBUSp
   pin VSYS
   pin VLED
-  port LED : pin[3] ; RGB
+  port LED         : pin[3] ; RGB
   pin VADOUT
-  port WPWR-CTRL : wpwr-ctl
+  port WPWR-CTRL   : wpwr-ctl
   port haptic-intf : haptic-intf
-
+  port button-io   : gpio[3]
+  port qsen-spi    : spi([SPI-SDO SPI-SDI SPI-CS])
+  port qsen-i3c    : i3c
+  port codec-i2c   : i2c
 
   public inst mcu : DA14705-00000HZ2/component
   inst mem        : AT25FF321A-UUN-T/module
@@ -235,6 +238,18 @@ public pcb-module module :
   net (LED[2] mcu.LED3)
 
   net (VADOUT mcu.VAD)
+
+  require c-i2c:i2c from mcu
+  net (c-i2c codec-i2c)
+
+  require q-i3c : i3c from mcu
+  net (q-i3c qsen-i3c)
+
+  require q-spi : spi([SPI-SDO SPI-SDI SPI-CS]) from mcu
+  net (q-spi qsen-spi)
+
+  require mcu-button : gpio[3] from mcu
+  net (mcu-button button-io)
 
   require hap-i2c : i2c from mcu
   require hap-gpio : gpio[2] from mcu

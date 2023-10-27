@@ -25,18 +25,18 @@ public pcb-module beeper-connector (board : bundles/board-type) :
       (flex-board) : J10051922-1210EHLF/flex-edge
       (main-board) : J10051922-1210EHLF/component
   inst c : connector
-  net (connections.VDDMIC    c.p[ 1])
-  net (connections.VDDVAD    c.p[ 2])
-  net (connections.VDDLED    c.p[ 3])
-  net (connections.GND       c.p[ 4])
-  net (connections.MICCLK    c.p[ 5])
-  net (connections.MICDATA   c.p[ 6])
-  net (connections.LEDR      c.p[ 7])
-  net (connections.LEDG      c.p[ 8])
-  net (connections.LEDB      c.p[ 9])
-  net (connections.SPKP      c.p[10])
-  net (connections.SPKN      c.p[11])
-  net (connections.VADOUT    c.p[12])
+  net (connections.VDDMIC      c.p[ 1])
+  net (connections.VDDVAD      c.p[ 2])
+  net (connections.VDDLED      c.p[ 3])
+  net (connections.GND         c.p[ 4])
+  net (connections.MICPDM.clk  c.p[ 5])
+  net (connections.MICPDM.data c.p[ 6])
+  net (connections.LEDR        c.p[ 7])
+  net (connections.LEDG        c.p[ 8])
+  net (connections.LEDB        c.p[ 9])
+  net (connections.SPKP        c.p[10])
+  net (connections.SPKN        c.p[11])
+  net (connections.VADOUT      c.p[12])
 
   if board == main-board :
     net (connections.GND c.p[13])

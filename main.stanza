@@ -50,23 +50,67 @@ val signal-shape = loc(x-off, y-off) * PolygonWithArcs([
                    Point( -3.520,   7.110),
                    Arc(Point(-3.770, 6.110), 1.000, 90.00, 90.00)]) ; Rectangle(26.0, 19.0)
 
+
+public pcb-module board-io :
+  port system-io : system-io
+  pin VDD ; some vdd's
+  pin VDD1P8
+  pin GND
+
+  public inst codec     : DA7212-01UM2/module
+  public inst qsensor   : LSM6DSV16BX/module
+  public inst button    : EVPBB4A9B000/component[3]
+  public inst hapdrv    : DRV2605YZFR/module
+
+  net (GND codec.GND hapdrv.GND qsensor.GND)
+  net (VDD codec.VDDSYS hapdrv.VDD qsensor.GND)
+  net (VDD1P8 qsensor.VDD)
+
+  require codec-pdm : PDM from codec ; does this go away with a port?
+  net (system-io.codec-pdm codec-pdm)
+  val i2c-codec-pullups = add-open-drain-pullups(codec.i2c, VDD)
+  net (system-io.codec-i2c codec.i2c)
+
+  require qsen-i3c : i3c from qsensor
+  net (system-io.qsen-i3c qsen-i3c)
+  val i2c-qsens-pullups = add-open-drain-pullups(qsen-i3c, VDD)
+  ; since there is ambiguity on which interface is being used
+  ; need to add some no-pop resistors to preserve the ability
+  ; to switch interfaces post-fabrication
+  inst rs-sda : chip-resistor(0.0)
+  inst rs-scl : chip-resistor(0.0)
+  dnp(rs-sda)
+  dnp(rs-scl)
+  net (rs-sda.p[1] qsen-i3c.sda)
+  net (rs-scl.p[1] qsen-i3c.scl)
+  net (system-io.qsen-spi.sdo rs-sda.p[2])
+  net (system-io.qsen-spi.sck rs-scl.p[2])
+  net (system-io.qsen-spi.sdi qsensor.imu.SDO_SA0)
+  net (system-io.qsen-spi.cs  qsensor.imu.CS     )
+
+  net (system-io.haptic-intf hapdrv.intf)
+
+  for i in 0 to 3 do :
+    net (system-io.button-io[i].gpio button[i].A button[i].A1)
+    net (GND button[i].B button[i].B1)
+
+  schematic-group(self) = board-io
+
 ; Module to run as a design
-pcb-module beeper-design :
+public pcb-module beeper-design :
   port flex : flex-signals
 
   ; let's instance all of the major elements of the design at the top level
   inst flex-conn : beeper-connector(main-board)
+  inst board-io  : board-io
   inst mcu       : DA14705-00000HZ2/module
   inst wpwr      : BQ51003YFPR/module
-  inst codec     : DA7212-01UM2/module
-  inst qsensor   : LSM6DSV16BX/module
-  inst button    : EVPBB4A9B000/component[3]
-  inst hapdrv    : DRV2605YZFR/module
   ; setup some nets by default
   net VDD1P8  ()
   net VDD3P0  ()
   net VDDSYS  ()
   net VLED    ()
+  net GND     ()
 
   val supply-nets = [VDD1P8 VDD3P0 VDDSYS VLED]
   ; connect nets to pins of the mcu module
@@ -78,61 +122,40 @@ pcb-module beeper-design :
   net (mcu.VBUSp wpwr.VBUSp)
 
   ; connect all of our grounds
-  net GND (mcu.GND wpwr.GND codec.GND hapdrv.GND qsensor.GND)
+  net (GND mcu.GND wpwr.GND board-io.GND)
 
   ; connect the power supplies at the top level for those components
-  net (VDDSYS wpwr.VBUS codec.VDDSYS hapdrv.VDD)
-  net (VDD1P8 qsensor.VDD)
+  net (VDDSYS wpwr.VBUS board-io.VDD)
+  net (VDD1P8 board-io.VDD1P8)
 
   ; connect i2c from codec to mcu
-  require mcu-codec-i2c:i2c from mcu.mcu
-  net (codec.i2c mcu-codec-i2c)
-  val i2c-codec-pullups = add-open-drain-pullups(mcu-codec-i2c, VDDSYS)
-
-  require codec-pdm : PDM from codec
+  net (board-io.system-io.codec-i2c mcu.codec-i2c)
 
   ; not sure if this is supposed to be SPI or I3C or both?
    ; i3c interface
-  require qsen-i3c : i3c from qsensor
-  require mcu-i3c : i3c from mcu.mcu
-  net (qsen-i3c mcu-i3c)
-  val i2c-qsens-pullups = add-open-drain-pullups(mcu-i3c, VDDSYS)
+  net (board-io.system-io.qsen-i3c mcu.qsen-i3c)
 
  ; if SPI then uncomment the following lines
   ; require qsen-spi : spi([SPI-SDO SPI-SDI SPI-CS]) from qsensor
-  require mcu-spi  : spi([SPI-SDO SPI-SDI SPI-CS]) from mcu.mcu
-  ; since there is ambiguity on which interface is being used
-  ; need to add some no-pop resistors to preserve the ability
-  ; to switch interfaces post-fabrication
-  inst rs-sda : chip-resistor(0.0)
-  inst rs-scl : chip-resistor(0.0)
-  dnp(rs-sda)
-  dnp(rs-scl)
-  net (rs-sda.p[1] qsen-i3c.sda)
-  net (rs-scl.p[1] qsen-i3c.scl)
-  net (mcu-spi.sdo rs-sda.p[2])
-  net (mcu-spi.sck rs-scl.p[2])
-  net (mcu-spi.sdi qsensor.imu.SDO_SA0)
-  net (mcu-spi.cs  qsensor.imu.CS     )
+  net (board-io.system-io.qsen-spi mcu.qsen-spi)
 
   ; now connect mcu to haptic driver
-  net (hapdrv.intf mcu.haptic-intf)
+  net (board-io.system-io.haptic-intf mcu.haptic-intf)
 
   ; connect control/status pins to wireless power chip
   net (mcu.WPWR-CTRL wpwr.CMD)
 
-  net (flex-conn.connections.VDDMIC   codec.MICBIAS    )
-  net (flex-conn.connections.VDDVAD   VDD3P0           )
-  net (flex-conn.connections.VDDLED   VLED             )
-  net (flex-conn.connections.GND      GND              )
-  net (flex-conn.connections.MICCLK   codec-pdm.clk    )
-  net (flex-conn.connections.MICDATA  codec-pdm.data   )
-  net (flex-conn.connections.LEDR     mcu.LED[0]       )
-  net (flex-conn.connections.LEDG     mcu.LED[1]       )
-  net (flex-conn.connections.LEDB     mcu.LED[2]       )
-  net (flex-conn.connections.SPKP     codec.codec.SP_P )
-  net (flex-conn.connections.SPKN     codec.codec.SP_N )
-  net (flex-conn.connections.VADOUT   mcu.VADOUT       )
+  net (flex-conn.connections.VDDMIC   board-io.codec.MICBIAS       )
+  net (flex-conn.connections.VDDVAD   VDD3P0                       )
+  net (flex-conn.connections.VDDLED   VLED                         )
+  net (flex-conn.connections.GND      GND                          )
+  net (flex-conn.connections.MICPDM   board-io.system-io.codec-pdm )
+  net (flex-conn.connections.LEDR     mcu.LED[0]                   )
+  net (flex-conn.connections.LEDG     mcu.LED[1]                   )
+  net (flex-conn.connections.LEDB     mcu.LED[2]                   )
+  net (flex-conn.connections.SPKP     board-io.codec.codec.SP_P   )
+  net (flex-conn.connections.SPKN     board-io.codec.codec.SP_N   )
+  net (flex-conn.connections.VADOUT   mcu.VADOUT                   )
 
   net (flex-conn.connections flex)
 
@@ -142,13 +165,11 @@ pcb-module beeper-design :
 
 
   ; buttons (3) and placed per the mechanical design (subject to change)
-  require mcu-but : gpio[3] from mcu.mcu
-  for i in 0 to 3 do :
-    net (mcu-but[i].gpio button[i].A button[i].A1)
-    net (GND button[i].B button[i].B1)
+  net (board-io.system-io.button-io mcu.button-io)
+
   val x-delta = 10.000
   for i in 0 to 3 do :
-    place(button[i]) at loc(-31.020 + x-off + x-but-off + to-double(i) * 10.000,   5.610 + y-off + y-but-off, 90.0) on Top
+    place(board-io.button[i]) at loc(-31.020 + x-off + x-but-off + to-double(i) * 10.000,   5.610 + y-off + y-but-off, 90.0) on Top
 
   ; let's make prettier schematics
   symbol(GND) = ocdb/utils/symbols/ground-sym

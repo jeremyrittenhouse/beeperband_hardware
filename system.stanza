@@ -53,5 +53,6 @@ public pcb-module beeper-connector (board : bundles/board-type) :
     net (c.GND conn.p[13])
     net (c.GND conn.p[14])
 
+  place(conn) at loc(0.0, 0.0) on Top
   schematic-group(self) = sys-conn
   layout-group(self) = sys-conn

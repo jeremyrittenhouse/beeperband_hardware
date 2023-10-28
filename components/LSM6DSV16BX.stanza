@@ -50,14 +50,14 @@ pcb-landpattern lp :
   pad p[14] : rectangle-smd-pad-1 at loc(-0.5, 0.9249) on Top
 
   layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, W, loc(-1.5, 3.03210), "", TrueTypeFont, false, false)
-  layer(Finish(Top)) = Text(">VALUE", 1.0, W, loc(-1.5, 2.03210), "", TrueTypeFont, false, false)
+  layer(CustomLayer("Fab(Top)")) = Text(">VALUE", 1.0, W, loc(-1.5, 2.03210), "", TrueTypeFont, false, false)
   layer(Silkscreen("F-SilkS", Top)) = Polyline(0.152, [Point(0.8310, 1.32650), Point(1.5760, 1.32650), Point(1.5760, 1.0805)])
   layer(Silkscreen("F-SilkS", Top)) = Polyline(0.152, [Point(0.8310, -1.32650), Point(1.5760, -1.32650), Point(1.5760, -1.08050)])
   layer(Silkscreen("F-SilkS", Top)) = Polyline(0.152, [Point(-0.83, 1.32650), Point(-1.576, 1.32650), Point(-1.576, 1.0805)])
   layer(Silkscreen("F-SilkS", Top)) = Polyline(0.152, [Point(-0.83, -1.32650), Point(-1.576, -1.32650), Point(-1.576, -1.08050)])
   layer(Silkscreen("F-SilkS", Top)) = Polyline(0.15, [Arc(-1.778, 0.7615, 0.075, 0.0, -360.0)])
-  layer(Finish(Top)) = Polyline(0.15, [Arc(-1.651, 0.7615, 0.075, 0.0, -360.0)])
-  layer(Finish(Top)) = Polyline(0.06, [Arc(-1.5, 1.24950, 0.03, 0.0, -360.0)])
+  layer(CustomLayer("Fab(Top)")) = Polyline(0.15, [Arc(-1.651, 0.7615, 0.075, 0.0, -360.0)])
+  layer(CustomLayer("Fab(Top)")) = Polyline(0.06, [Arc(-1.5, 1.24950, 0.03, 0.0, -360.0)])
   layer(Courtyard(Top)) = Rectangle(3.152, 2.6530)
   model3d = Model3D("3d-models/LSM6DSV16BXTR.stp",
     Vec3D(0.0, 0.0, 0.0),

@@ -102,6 +102,7 @@ public pcb-module beeper-design :
 
   ; let's instance all of the major elements of the design at the top level
   inst flex-conn : beeper-connector(main-board)
+  place(flex-conn) at loc(19.0, 7.00) on Top
   inst board-io  : board-io
   inst mcu       : DA14705-00000HZ2/module
   inst wpwr      : BQ51003YFPR/module
@@ -145,19 +146,19 @@ public pcb-module beeper-design :
   ; connect control/status pins to wireless power chip
   net (mcu.WPWR-CTRL wpwr.CMD)
 
-  net (flex-conn.connections.VDDMIC   board-io.codec.MICBIAS       )
-  net (flex-conn.connections.VDDVAD   VDD3P0                       )
-  net (flex-conn.connections.VDDLED   VLED                         )
-  net (flex-conn.connections.GND      GND                          )
-  net (flex-conn.connections.MICPDM   board-io.system-io.codec-pdm )
-  net (flex-conn.connections.LEDR     mcu.LED[0]                   )
-  net (flex-conn.connections.LEDG     mcu.LED[1]                   )
-  net (flex-conn.connections.LEDB     mcu.LED[2]                   )
-  net (flex-conn.connections.SPKP     board-io.codec.codec.SP_P   )
-  net (flex-conn.connections.SPKN     board-io.codec.codec.SP_N   )
-  net (flex-conn.connections.VADOUT   mcu.VADOUT                   )
+  net (flex-conn.c.VDDMIC   board-io.codec.MICBIAS       )
+  net (flex-conn.c.VDDVAD   VDD3P0                       )
+  net (flex-conn.c.VDDLED   VLED                         )
+  net (flex-conn.c.GND      GND                          )
+  net (flex-conn.c.MICPDM   board-io.system-io.codec-pdm )
+  net (flex-conn.c.LEDR     mcu.LED[0]                   )
+  net (flex-conn.c.LEDG     mcu.LED[1]                   )
+  net (flex-conn.c.LEDB     mcu.LED[2]                   )
+  net (flex-conn.c.SPKP     board-io.codec.codec.SP_P   )
+  net (flex-conn.c.SPKN     board-io.codec.codec.SP_N   )
+  net (flex-conn.c.VADOUT   mcu.VADOUT                   )
 
-  net (flex-conn.connections flex)
+  net (flex-conn.c flex)
 
   ; if we want testpoints on the power supplies we can uncomment the following line
   ; for p in [mcu.V12  mcu.V14 mcu.V18  mcu.V18F mcu.V18P mcu.V30 mcu.VBAT mcu.VBUS mcu.VSYS] do :
@@ -213,5 +214,5 @@ set-main-module(beeper-design)
 
 ; View the results
 view-schematic()
-view-board()
+; view-board()
 view-design-explorer()

@@ -21,11 +21,11 @@ pcb-landpattern lp :
   pad B1 : rectangle-smd-pad at loc(1.5, -0.37950) on Top
 
   layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, W, loc(-1.5, 2.6051), "", TrueTypeFont, false, false)
-  layer(Finish(Top)) = Text(">VALUE", 1.0, W, loc(-1.5, 1.6051), "", TrueTypeFont, false, false)
-  layer(Finish(Top)) = Line(0.254, [Point(-1.016, 0.8005), Point(1.0160, 0.8005)])
-  layer(Finish(Top)) = Line(0.254, [Point(1.0160, 0.8005), Point(1.0160, -0.80050)])
-  layer(Finish(Top)) = Line(0.254, [Point(1.0160, -0.80050), Point(-1.016, -0.80050)])
-  layer(Finish(Top)) = Line(0.254, [Point(-1.016, -0.80050), Point(-1.016, 0.8005)])
+  layer(CustomLayer("Fab(Top)")) = Text(">VALUE", 1.0, W, loc(-1.5, 1.6051), "", TrueTypeFont, false, false)
+  layer(CustomLayer("Fab(Top)")) = Line(0.254, [Point(-1.016, 0.8005), Point(1.0160, 0.8005)])
+  layer(CustomLayer("Fab(Top)")) = Line(0.254, [Point(1.0160, 0.8005), Point(1.0160, -0.80050)])
+  layer(CustomLayer("Fab(Top)")) = Line(0.254, [Point(1.0160, -0.80050), Point(-1.016, -0.80050)])
+  layer(CustomLayer("Fab(Top)")) = Line(0.254, [Point(-1.016, -0.80050), Point(-1.016, 0.8005)])
   layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [Point(-1.300, 0.8995), Point(1.3000, 0.8995)])
   layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [Point(1.3000, -0.8995), Point(-1.300, -0.8995)])
   layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [Point(-0.254, 0.7615), Point(0.2540, 0.7615)])
@@ -33,7 +33,7 @@ pcb-landpattern lp :
   layer(Silkscreen("F-SilkS", Top)) = Polyline(0.254, [Arc(0.2540, -0.0005, 0.762, 90.0, -180.0)])
   layer(Silkscreen("F-SilkS", Top)) = Polyline(0.254, [Arc(-0.254, -0.0005, 0.762, 270.0, -180.0)])
   layer(Silkscreen("F-SilkS", Top)) = Polyline(0.254, [Arc(0.0, -0.0005, 0.381, 0.0, -360.0)])
-  layer(Finish(Top)) = Polyline(0.06, [Arc(-1.725, -1.02650, 0.03, 0.0, -360.0)])
+  layer(CustomLayer("Fab(Top)")) = Polyline(0.06, [Arc(-1.725, -1.02650, 0.03, 0.0, -360.0)])
   layer(Courtyard(Top)) = Rectangle(3.0, 1.799)
   model3d = Model3D("3d-models/EVP-BB4A9B000--3DModel-STEP-56544.STEP",
     Vec3D(0.0, 0.0, 0.0),

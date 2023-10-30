@@ -122,4 +122,4 @@ set-main-module(beeper-flex)
 ; View the results
 view-schematic()
 view-board()
-; view-design-explorer()
+view-design-explorer()

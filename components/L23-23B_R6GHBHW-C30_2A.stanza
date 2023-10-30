@@ -21,7 +21,7 @@ pcb-landpattern lp :
   pad p[4] : rectangle-smd-pad at loc(-1.450,  0.475) on Top
 
   layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, W, loc(-1.600, 1.500), "", TrueTypeFont, false, false)
-  layer(CustomLayer("Fab(Top)")) = Text(">VALUE", 1.0, W, loc(-1.500, 1.508), "", TrueTypeFont, false, false)
+  layer(CustomLayer("Fab", Top)) = Text(">VALUE", 1.0, W, loc(-1.500, 1.508), "", TrueTypeFont, false, false)
   layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [Point(-2.000, -0.125), Point(-2.000, -1.025)])
   layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [Point(-1.100, -1.025), Point(-2.000, -1.025)])
   layer(Silkscreen("F-SilkS", Top)) = Circle(-1.700, -1.300, 0.100)
@@ -32,38 +32,38 @@ pcb-landpattern lp :
   ; layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [Point(-0.615, -0.802), Point(-0.876, -0.206)])
   ; layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [Point( 0.655, -0.802), Point( 0.917, -0.206)])
   ; layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [Point( 0.655, -0.802), Point(-0.615, -0.802)])
-  ; layer(CustomLayer("Fab(Top)")) = Circle(-1.341, -0.727, 0.030)
-  ; layer(CustomLayer("Fab(Top)")) = Polygon([
+  ; layer(CustomLayer("Fab", Top)) = Circle(-1.341, -0.727, 0.030)
+  ; layer(CustomLayer("Fab", Top)) = Polygon([
   ;   Point(0.870, -0.338)
   ;   Point(0.770, -0.718)
   ;   Point(-0.730, -0.738)
   ;   Point(-0.890, -0.218)
   ;   Point(0.910, -0.218)])
-  ; layer(CustomLayer("Fab(Top)")) = Polygon([
+  ; layer(CustomLayer("Fab", Top)) = Polygon([
   ;   Point(-1.090, 0.272)
   ;   Point(-1.550, 0.272)
   ;   Point(-1.550, 0.372)
   ;   Point(-1.090, 0.372)
   ;   Point(-1.090, 0.352)])
-  ; layer(CustomLayer("Fab(Top)")) = Polygon([
+  ; layer(CustomLayer("Fab", Top)) = Polygon([
   ;   Point(-1.260, 0.582)
   ;   Point(-1.260, 0.122)
   ;   Point(-1.360, 0.122)
   ;   Point(-1.360, 0.582)
   ;   Point(-1.340, 0.582)])
-  ; layer(CustomLayer("Fab(Top)")) = Polygon([
+  ; layer(CustomLayer("Fab", Top)) = Polygon([
   ;   Point(-0.170, 0.692)
   ;   Point(-0.630, 0.692)
   ;   Point(-0.630, 0.792)
   ;   Point(-0.170, 0.792)
   ;   Point(-0.170, 0.772)])
-  ; layer(CustomLayer("Fab(Top)")) = Polygon([
+  ; layer(CustomLayer("Fab", Top)) = Polygon([
   ;   Point(0.680, 0.702)
   ;   Point(0.220, 0.702)
   ;   Point(0.220, 0.802)
   ;   Point(0.680, 0.802)
   ;   Point(0.680, 0.782)])
-  ; layer(CustomLayer("Fab(Top)")) = Polygon([
+  ; layer(CustomLayer("Fab", Top)) = Polygon([
   ;   Point(1.550, 0.302)
   ;   Point(1.090, 0.302)
   ;   Point(1.090, 0.402)

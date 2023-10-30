@@ -102,7 +102,7 @@ public pcb-module beeper-design :
 
   ; let's instance all of the major elements of the design at the top level
   inst flex-conn : beeper-connector(main-board)
-  place(flex-conn) at loc(19.0, 7.00) on Top
+  ; place(flex-conn) at loc(19.0, 7.00) on Top
   inst board-io  : board-io
   inst mcu       : DA14705-00000HZ2/module
   inst wpwr      : BQ51003YFPR/module

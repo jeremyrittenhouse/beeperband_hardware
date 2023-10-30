@@ -35,20 +35,6 @@ public pcb-module beeper-connector (board : bundles/board-type) :
   for (c in order-conns, i in 1 to false) do :
     net (c conn.p[i])
 
-
-  ; net (connections.VDDMIC      c.p[ 1])
-  ; net (connections.VDDVAD      c.p[ 2])
-  ; net (connections.VDDLED      c.p[ 3])
-  ; net (connections.GND         c.p[ 4])
-  ; net (connections.MICPDM.clk  c.p[ 5])
-  ; net (connections.MICPDM.data c.p[ 6])
-  ; net (connections.LEDR        c.p[ 7])
-  ; net (connections.LEDG        c.p[ 8])
-  ; net (connections.LEDB        c.p[ 9])
-  ; net (connections.SPKP        c.p[10])
-  ; net (connections.SPKN        c.p[11])
-  ; net (connections.VADOUT      c.p[12])
-
   if board == main-board :
     net (c.GND conn.p[13])
     net (c.GND conn.p[14])

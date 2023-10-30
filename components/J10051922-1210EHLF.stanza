@@ -45,7 +45,7 @@ pcb-landpattern lp :
   pad p[14] : mounting-smd-pad at loc( 4.450 - 0.95 / 2.0, 1.006 - 2.300) on Top
 
   layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, W, loc(-1.500, 4.138), "", TrueTypeFont, false, false)
-  layer(CustomLayer("Fab(Top)")) = Text(">VALUE", 1.0, W, loc(-1.500, 3.138), "", TrueTypeFont, false, false)
+  layer(CustomLayer("Fab", Top)) = Text(">VALUE", 1.0, W, loc(-1.500, 3.138), "", TrueTypeFont, false, false)
   layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [Point(-4.250, -0.563), Point(-4.250, 1.068)])
   layer(Silkscreen("F-SilkS", Top)) = Polyline(0.254, [
     Point(4.250, -1.975)
@@ -62,7 +62,7 @@ pcb-landpattern lp :
     Point(-3.679, 2.432)
     Point(-3.171, 1.924)
     Point(-3.679, 1.416)])
-  layer(CustomLayer("Fab(Top)")) = Polyline(0.100, [
+  layer(CustomLayer("Fab", Top)) = Polyline(0.100, [
     Arc(-4.275, 1.593, 0.050, 0.0, -360.000)])
   layer(Courtyard(Top)) = Rectangle(8.500, 4.864)
 
@@ -124,7 +124,7 @@ pcb-landpattern edge-lp :
   pad p[12] : edge-smd-pad at loc(-2.751, 0.000) on Top
   layer(Courtyard(Top)) = Rectangle(6.500, 2.500)
   layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, W, loc(-1.500, 1.500), "", TrueTypeFont, false, false)
-  layer(CustomLayer("Fab(Top)")) = Text(">VALUE", 1.0, W, loc(-1.500, 1.600), "", TrueTypeFont, false, false)
+  layer(CustomLayer("Fab", Top)) = Text(">VALUE", 1.0, W, loc(-1.500, 1.600), "", TrueTypeFont, false, false)
   layer(Silkscreen("F-SilkS", Top)) = Polyline(0.100, [
     Point( 2.750, -1.400)
     Point( 2.250, -1.900)
@@ -136,21 +136,20 @@ pcb-landpattern edge-lp :
   ;   Point( 3.250,  1.250)
   ;   Point( 3.250, -1.250)
   ;   ])
-  layer(CustomLayer("Fab(Top)")) = Polyline(0.100, [
+  layer(CustomLayer("Fab", Top)) = Polyline(0.100, [
     Point(-3.250, -1.250)
     Point(-3.250,  1.250)
     Point( 3.250,  1.250)
     Point( 3.250, -1.250)
     ])
-  layer(CustomLayer("Fab(Bot)")) = Polyline(0.100, [
+  layer(CustomLayer("Fab", Bottom)) = Polyline(0.100, [
     Point(-3.250, -1.250)
     Point(-3.250,  1.250)
     Point( 3.250,  1.250)
     Point( 3.250, -1.250)
     ])
 
-  layer(CustomLayer("stiffener")) = Rectangle(6.500, 3.000, loc(0.000, -0.250))
-
+  layer(CustomLayer("stiffener", Bottom)) = Rectangle(6.500, 3.000, loc(0.000, -0.250))
 
 public pcb-component flex-edge :
   name = "edge-J10051922-1210EHLF"

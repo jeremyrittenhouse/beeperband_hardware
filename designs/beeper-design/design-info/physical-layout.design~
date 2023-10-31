@@ -924,6 +924,14 @@
     {"operation":"unroute","delete":{"layer":0,"routes":["1aEpxnbEYb5919EfBdhq9"]}},
     {"operation":"unplace","unplace":["euSjByA1qc8K8tSUpCm3t"]},
     {"operation":"place","place":{"placements":[{"id":"BGijvL35me4jFaMnuSmcg6","pose":{"center":{"x":23.2,"y":-4.862},"angle":180,"flipx":false},"side":"top"}]}},
-    {"operation":"place","place":{"placements":[{"id":"BGijvL35me4jFaMnuSmcg6","pose":{"center":{"x":20.189436619718311,"y":8.395042253521126},"angle":180,"flipx":false},"side":"top"}]}}
+    {"operation":"place","place":{"placements":[{"id":"BGijvL35me4jFaMnuSmcg6","pose":{"center":{"x":20.189436619718311,"y":8.395042253521126},"angle":180,"flipx":false},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"BGijvL35me4jFaMnuSmcg6","pose":{"center":{"x":8.83943661971831,"y":12.620042253521126},"angle":180,"flipx":false},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"BGijvL35me4jFaMnuSmcg6","pose":{"center":{"x":9.0910196952300435,"y":13.858605086809664},"angle":180,"flipx":false},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"BGijvL35me4jFaMnuSmcg6","pose":{"center":{"x":9.0910196952300435,"y":13.858605086809664},"angle":180,"flipx":true},"side":"bottom"}]}},
+    {"operation":"place","place":{"placements":[{"id":"BGijvL35me4jFaMnuSmcg6","pose":{"center":{"x":9.0910196952300435,"y":13.858605086809664},"angle":180,"flipx":false},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"BGijvL35me4jFaMnuSmcg6","pose":{"center":{"x":9.0910196952300435,"y":13.858605086809664},"angle":180,"flipx":true},"side":"bottom"}]}},
+    {"operation":"place","place":{"placements":[{"id":"BGijvL35me4jFaMnuSmcg6","pose":{"center":{"x":9.0910196952300435,"y":13.858605086809664},"angle":180,"flipx":false},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"BGijvL35me4jFaMnuSmcg6","pose":{"center":{"x":9.0910196952300435,"y":13.858605086809664},"angle":180,"flipx":true},"side":"bottom"}]}},
+    {"operation":"place","place":{"placements":[{"id":"BGijvL35me4jFaMnuSmcg6","pose":{"center":{"x":9.0910196952300435,"y":13.858605086809664},"angle":180,"flipx":false},"side":"top"}]}}
   ]
 }

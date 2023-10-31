@@ -212,9 +212,7 @@ if true :
   view-schematic()
   view-board()
   view-design-explorer()
-
-
-if false :
+else:
   setup-design(
     "beeper-system", ; 
     ocdb/utils/defaults/default-board(ocdb/manufacturers/stackups/bay-area-circuits-4-layer-62-mil, board-shape)

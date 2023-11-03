@@ -112,16 +112,8 @@ public pcb-bundle wpwr-ctl :
 
 public pcb-bundle flex-signals :
   pin VDDMIC 
-  pin VDDVAD 
-  pin VDDLED 
   pin GND 
   port MICPDM : PDM
-  pin LEDR   
-  pin LEDG   
-  pin LEDB   
-  pin SPKP   
-  pin SPKN
-  pin VADOUT
 
 public pcb-bundle haptic-intf :
   port i2c : i2c
@@ -133,11 +125,15 @@ public pcb-bundle rgb :
   pin g
   pin b
 
+public pcb-bundle led-bundle :
+  port l : rgb
+  port pwr : power
+
 public pcb-bundle system-io :
-  ;
   port codec-pdm   : PDM
   port codec-i2c   : i2c
   port qsen-i3c    : i3c
   port qsen-spi    : spi([SPI-SDO SPI-SDI SPI-CS])
   port haptic-intf : haptic-intf
   port button-io   : gpio[3]
+  port led-io      : led-bundle

@@ -1,0 +1,102 @@
+; This file is generated based on the parts database query below:")
+;   database-part(["manufacturer" => "INGHAi", "mpn" => "GMA3526H10-B26"])
+#use-added-syntax(jitx)
+defpackage IM69D130V01XTSA1 :
+  import core
+  import jitx
+  import jitx/commands
+
+  import ocdb/utils/landpatterns
+  import ocdb/utils/box-symbol
+  import ocdb/utils/generic-components
+  import bundles
+
+
+pcb-pad rectangle-smd-pad :
+  name = "rectangle-smd-pad"
+  type = SMD
+  shape = Rectangle(0.480, 0.780)
+  layer(SolderMask(Top)) = Rectangle(0.460, 0.760)
+  layer(Paste(Top)) = RoundedRectangle(0.400, 0.800, 0.200)
+
+pcb-pad polygon-smd-pad :
+  name = "polygon-smd-pad"
+  type = SMD
+  val circ-shape = Polyline(0.450, [Arc(Point(0.000, 0.000), (0.580 + 0.225), 0.00, 360.00)])
+  shape = circ-shape
+  ; TODO! put this back in!
+  ; layer(SolderMask(Top)) = circ-shape
+  layer(Paste(Top)) = circ-shape
+
+pcb-landpattern lp :
+  pad p[1] : rectangle-smd-pad at loc(-1.500,  0.850) on Top
+  pad p[2] : rectangle-smd-pad at loc(-0.800,  0.850) on Top
+  pad p[3] : rectangle-smd-pad at loc(-1.500, -0.850) on Top
+  pad p[4] : rectangle-smd-pad at loc(-0.800, -0.850) on Top
+  pad p[5] : polygon-smd-pad   at loc( 0.680,  0.000) on Top
+
+  layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, W, loc(-1.500, 3.611), "", TrueTypeFont, false, false)
+  layer(CustomLayer("Fab", Top)) = Text(">VALUE", 1.0, W, loc(-1.500, 2.611), "", TrueTypeFont, false, false)
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.200, [
+    Point(-2.000, -1.500)
+    Point( 2.000, -1.500)
+    Point( 2.000,  1.500)
+    Point(-2.000,  1.500)
+    Point(-2.000, -1.500)
+    ])
+  ; layer(Silkscreen("F-SilkS", Top)) = Polyline(0.250, [
+  ;   Point(-1.397, -1.905)
+  ;   Point(1.524, -1.905)
+  ;   Point(1.524, 1.905)])
+  ; layer(Silkscreen("F-SilkS", Top)) = Line(0.250, [Point(1.325, 1.905), Point(-1.325, 1.905)])
+  ; layer(CustomLayer("Fab", Top)) = Polyline(0.060, [
+  ;   Arc(-1.649, 2.030, 0.030, 0.0, -360.000)])
+  ; TODO! put this back in!
+  ; layer(Cutout()) = Circle(0.680, 0.000, 0.400)
+  layer(CustomLayer("Fab", Top)) = Circle(0.680, 0.000, 0.400)
+  layer(Courtyard(Top)) = Rectangle(4.000, 3.000)
+
+
+public pcb-component component :
+  name = "IM69D130V01XTSA1"
+  description = "20 Hz ~ 20 kHz Digital, PDM Microphone MEMS (Silicon) 1.62 V ~ 3.6 V Omnidirectional (-36dB ±1dB @ 94dB SPL) Solder Pads"
+  manufacturer = "Infineon"
+  mpn = "IM69D130V01XTSA1"
+  datasheet = "https://www.mouser.com/datasheet/2/196/Infineon_IM69D130_DataSheet_v01_00_EN-3163920.pdf"
+  pin-properties :
+    [pin:Ref | pads:Ref ... | side:Dir | electrical-type:String | bank:Int]
+    [DATA    | p[1] | Right | "unspecified" | 0]
+    [VDD     | p[2] | Up    | "unspecified" | 0]
+    [CLOCK   | p[3] | Left  | "unspecified" | 0]
+    [SELECT  | p[4] | Left  | "unspecified" | 0]
+    [GND     | p[5] | Down  | "unspecified" | 0]
+
+  assign-landpattern(lp)
+  ; assign-symbol(sym)
+  make-box-symbol()
+
+  property(self.reference_prefix) = "MIC"
+  property(self.trust) = "low"
+  property(self.x) = 4.000
+  property(self.y) = 3.000
+  property(self.area) = 12.000
+
+public pcb-module module :
+  pin SELECT
+  pin VDD
+  pin GND
+  port PDM : PDM
+
+  public inst mic : IM69D130V01XTSA1/component
+  place(mic) at loc(0.00, 0.00) on Top
+  net (SELECT mic.SELECT)
+  net (GND mic.GND)
+  net (VDD mic.VDD)
+
+  net (PDM.data mic.DATA )
+  net (PDM.clk  mic.CLOCK)
+
+  bypass-cap-strap(mic.VDD, mic.GND, 0.100e-6)
+
+  schematic-group(self) = mic
+  layout-group(self) = mic

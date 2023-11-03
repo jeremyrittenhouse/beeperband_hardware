@@ -29,18 +29,32 @@ DESIGN-QUANTITY = 10
 ; DENSITY-LEVEL = 
 set-rules(my-flex-rules)
 
+val board-shape = PolygonWithArcs([Arc(Point(-6.19622096748629, 6.56987483258823), 1.00012516866276, 133.338886128606, -43.3360198355006),
+                   Point(2.86000000000001, 7.56999999999999),
+                   Point(2.86000000000001, 3.97),
+                   Point(-19.14, 3.97),
+                   Point(-19.14, 7.56999999999999),
+                   Arc(Point(-14.0836713484312, 6.57014583162532), 0.999854170036769, 90.0033036733489, -43.3483597683727),
+                   Arc(Point(-13.1400000400407, 7.57000004004016), 0.374999995892264, 226.658190639247, 176.68361872151),
+                   Arc(Point(-12.1399823116418, 8.51373632467858), 1.00001768838713, 223.341332756344, -43.3409130905978),
+                   Point(-13.14, 9.316372),
+                   Point(-7.13999999999999, 9.316372),
+                   Arc(Point(-8.13985416837373, 8.51367134843125), 0.99985417003584, 0.00330367334792914, -43.348359768409),
+                   Arc(Point(-7.13999995996006, 7.57000004004006), 0.374999995891959, 136.658190639154, 176.683618721691)])
+val signal-shape = PolygonWithArcs([Arc(Point(-6.19622096748629, 6.56987483258823), 1.00012516866276, 133.338886128606, -43.3360198355006),
+                   Point(2.86000000000001, 7.56999999999999),
+                   Point(2.86000000000001, 3.97),
+                   Point(-19.14, 3.97),
+                   Point(-19.14, 7.56999999999999),
+                   Arc(Point(-14.0836713484312, 6.57014583162532), 0.999854170036769, 90.0033036733489, -43.3483597683727),
+                   Arc(Point(-13.1400000400407, 7.57000004004016), 0.374999995892264, 226.658190639247, 176.68361872151),
+                   Arc(Point(-12.1399823116418, 8.51373632467858), 1.00001768838713, 223.341332756344, -43.3409130905978),
+                   Point(-13.14, 9.316372),
+                   Point(-7.13999999999999, 9.316372),
+                   Arc(Point(-8.13985416837373, 8.51367134843125), 0.99985417003584, 0.00330367334792914, -43.348359768409),
+                   Arc(Point(-7.13999995996006, 7.57000004004006), 0.374999995891959, 136.658190639154, 176.683618721691)])
 
-val board-shape = Polygon([
-                   Point( -3.250,  15.000),
-                   Point( -3.250, -15.000),
-                   Point(  3.250, -15.000),
-                   Point(  3.250,  15.000)]); Rectangle(26.0, 19.0)
 
-val signal-shape = Polygon([
-                   Point( -3.250,  15.000),
-                   Point( -3.250, -15.000),
-                   Point(  3.250, -15.000),
-                   Point(  3.250,  15.000)]); Rectangle(26.0, 19.0)
 
 
 ; Module to run as a design
@@ -49,50 +63,41 @@ public pcb-module beeper-flex :
   port main : flex-signals
 
   ; let's instance all of the major elements of the design on the flex
-  inst vad : PMM-3738-VM1000-R/module
-  inst mic : GMA3526H10-B26/module[2]
-  inst led : L23-23B_R6GHBHW-C30_2A/component
+  ; inst vad : PMM-3738-VM1000-R/module
+  inst mic : IM69D130V01XTSA1/module[2]
+  ; inst led : L23-23B_R6GHBHW-C30_2A/component
   inst conn : beeper-connector(flex-board)
 
-  place(conn) at loc(0.000, 15.000 - 1.250) on Top
+  ; place(conn) at loc(0.000, 15.000 - 1.250) on Top
+  place(mic[0]) at loc(-17.559 + 0.680, 5.695, 180.0) on Top
+  place(mic[1]) at loc(  1.279 - 0.680, 5.695,   0.0) on Top
  
   net (main conn.c)
+  layer(Cutout()) = Polyline(0.200, [
+    Arc(-17.559, 5.695, 0.270, 0.0, 360.000)])
+  layer(Cutout()) = Polyline(0.200, [
+    Arc(1.279, 5.695, 0.300, 0.0, 360.000)])
 
-  net VDDVAD (vad.VDD)
+  ; net VDDVAD (vad.VDD)
   net VDDMIC (mic[0].VDD mic[1].VDD mic[0].SELECT) ; output data from mic[0] on high CLK phase
-  net VDDLED (led.A)
-  net GND    (vad.GND mic[0].GND mic[1].GND mic[1].SELECT) ; output data from mic[1] on low CLK phase
+  ; net VDDLED (led.A)
+  net GND    (mic[0].GND mic[1].GND mic[1].SELECT) ; output data from mic[1] on low CLK phase
 
   ; combine PDM
   net MICPDM (mic[0].PDM mic[1].PDM)
 
-  net VADOUT (vad.OUT)
-
-  net LEDR (led.R)
-  net LEDG (led.G)
-  net LEDB (led.B)
-
-  net SPKN ()
-  net SPKP ()
 
   net (VDDMIC     conn.c.VDDMIC  )
-  net (VDDVAD     conn.c.VDDVAD  )
-  net (VDDLED     conn.c.VDDLED  )
   net (GND        conn.c.GND     )
   net (MICPDM     conn.c.MICPDM  )
-  net (LEDR       conn.c.LEDR    )
-  net (LEDG       conn.c.LEDG    )
-  net (LEDB       conn.c.LEDB    )
-  net (SPKP       conn.c.SPKP    )
-  net (SPKN       conn.c.SPKN    )
-  net (VADOUT     conn.c.VADOUT  )
 
 
 
 
   ; let's make prettier schematics
   symbol(GND) = ocdb/utils/symbols/ground-sym
-  for n_ in [VDDVAD VDDMIC VDDLED] do :
+  ; for n_ in [VDDVAD VDDMIC VDDLED] do :
+  for n_ in [ VDDMIC ] do :
     symbol(n_) = ocdb/utils/symbols/altium-power-bar-sym
 
   ; power planes (let's assume 2 layers for now...)

@@ -55,12 +55,17 @@ public pcb-module board-io :
   port system-io : system-io
   pin VDD ; some vdd's
   pin VDD1P8
+  pin VLED
   pin GND
 
   public inst codec     : DA7212-01UM2/module
   public inst qsensor   : LSM6DSV16BX/module
   public inst button    : EVPBB4A9B000/component[3]
   public inst hapdrv    : DRV2605YZFR/module
+
+  ; public inst led       : 
+  ; inst led : L23-23B_R6GHBHW-C30_2A/component
+
 
   net (GND codec.GND hapdrv.GND qsensor.GND)
   net (VDD codec.VDDSYS hapdrv.VDD qsensor.GND)
@@ -147,16 +152,14 @@ public pcb-module beeper-design :
   net (mcu.WPWR-CTRL wpwr.CMD)
 
   net (flex-conn.c.VDDMIC   board-io.codec.MICBIAS       )
-  net (flex-conn.c.VDDVAD   VDD3P0                       )
-  net (flex-conn.c.VDDLED   VLED                         )
+  ; net (flex-conn.c.VDDLED   VLED                         )
   net (flex-conn.c.GND      GND                          )
   net (flex-conn.c.MICPDM   board-io.system-io.codec-pdm )
-  net (flex-conn.c.LEDR     mcu.LED[0]                   )
-  net (flex-conn.c.LEDG     mcu.LED[1]                   )
-  net (flex-conn.c.LEDB     mcu.LED[2]                   )
-  net (flex-conn.c.SPKP     board-io.codec.codec.SP_P   )
-  net (flex-conn.c.SPKN     board-io.codec.codec.SP_N   )
-  net (flex-conn.c.VADOUT   mcu.VADOUT                   )
+  ; net (flex-conn.c.LEDR     mcu.LED[0]                   )
+  ; net (flex-conn.c.LEDG     mcu.LED[1]                   )
+  ; net (flex-conn.c.LEDB     mcu.LED[2]                   )
+  ; net (flex-conn.c.SPKP     board-io.codec.codec.SP_P   )
+  ; net (flex-conn.c.SPKN     board-io.codec.codec.SP_N   )
 
   net (flex-conn.c flex)
 

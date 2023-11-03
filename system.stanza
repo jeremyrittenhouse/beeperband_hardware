@@ -22,22 +22,19 @@ public pcb-module beeper-connector (board : bundles/board-type) :
   port c : flex-signals
   val connector = 
     switch(board) :
-      (flex-board) : J10051922-1210EHLF/flex-edge
-      (main-board) : J10051922-1210EHLF/component
+      (flex-board) : FH19C-4S-0p5SH-10-/flex-edge
+      (main-board) : FH19C-4S-0p5SH-10-/component
   inst conn : connector
   ; order of connections list
-  val order-conns = [c.LEDR c.LEDG c.LEDB c.VDDLED
-                     c.SPKP c.SPKN
-                     c.MICPDM.clk c.MICPDM.data 
-                     c.GND
-                     c.VADOUT c.VDDMIC c.VDDVAD]
+  val order-conns = [c.MICPDM.data 
+                     c.GND c.VDDMIC c.MICPDM.clk]
 
   for (c in order-conns, i in 1 to false) do :
     net (c conn.p[i])
 
   if board == main-board :
-    net (c.GND conn.p[13])
-    net (c.GND conn.p[14])
+    net (c.GND conn.p[5])
+    net (c.GND conn.p[6])
 
   place(conn) at loc(0.0, 0.0) on Top
   schematic-group(self) = sys-conn

@@ -20,6 +20,7 @@ pcb-pad circle-smd-pad :
   type = SMD
   shape = Circle(0.12)
   layer(SolderMask(Top)) = Circle(0.17)
+  layer(Paste(Top)) = Circle(0.12)
 
 pcb-landpattern lp :
   pad A1 : circle-smd-pad at loc(-0.5, -0.5005) on Top
@@ -43,96 +44,96 @@ pcb-landpattern lp :
   layer(CustomLayer("Fab", Top)) = Polyline(0.06, [Arc(-0.75, -0.7505, 0.03, 0.0, -360.0)])
   layer(CustomLayer("Fab", Top)) = Polyline(0.2, [Arc(-0.5, -0.599500000000035, 0.1, 0.0, -360.0)])
   layer(Silkscreen("F-SilkS", Top)) = Polyline(0.2, [Arc(-0.5, -1.22649999999999, 0.1, 0.0, -360.0)])
-  layer(Paste(Top)) = PolygonWithArcs([
-    Point(-0.65, -0.60550), 
-    Point(-0.65, -0.39550), 
-    Point(-0.605, -0.350501), 
-    Point(-0.395, -0.350501), 
-    Point(-0.35, -0.39550), 
-    Point(-0.35, -0.60550), 
-    Point(-0.395, -0.65050), 
-    Point(-0.605, -0.65050), 
-    Point(-0.65, -0.60550)])
-  layer(Paste(Top)) = PolygonWithArcs([
-    Point(-0.15, -0.60550), 
-    Point(-0.15, -0.39550), 
-    Point(-0.105, -0.350501), 
-    Point(0.105008, -0.350501), 
-    Point(0.150, -0.39550), 
-    Point(0.150, -0.60550), 
-    Point(0.105008, -0.65050), 
-    Point(-0.105, -0.65050), 
-    Point(-0.15, -0.60550)])
-  layer(Paste(Top)) = PolygonWithArcs([
-    Point(0.350, -0.60550), 
-    Point(0.350, -0.39550), 
-    Point(0.3950, -0.350501), 
-    Point(0.605008, -0.350501), 
-    Point(0.650, -0.39550), 
-    Point(0.650, -0.60550), 
-    Point(0.605008, -0.65050), 
-    Point(0.3950, -0.65050), 
-    Point(0.350, -0.60550)])
-  layer(Paste(Top)) = PolygonWithArcs([
-    Point(-0.65, -0.10550), 
-    Point(-0.65, 0.1045), 
-    Point(-0.605, 0.1495), 
-    Point(-0.395, 0.1495), 
-    Point(-0.35, 0.1045), 
-    Point(-0.35, -0.10550), 
-    Point(-0.395, -0.15050), 
-    Point(-0.605, -0.15050), 
-    Point(-0.65, -0.10550)])
-  layer(Paste(Top)) = PolygonWithArcs([
-    Point(-0.15, -0.10550), 
-    Point(-0.15, 0.1045), 
-    Point(-0.105, 0.1495), 
-    Point(0.105008, 0.1495), 
-    Point(0.150, 0.1045), 
-    Point(0.150, -0.10550), 
-    Point(0.105008, -0.15050), 
-    Point(-0.105, -0.15050), 
-    Point(-0.15, -0.10550)])
-  layer(Paste(Top)) = PolygonWithArcs([
-    Point(0.350, -0.10550), 
-    Point(0.350, 0.1045), 
-    Point(0.3950, 0.1495), 
-    Point(0.605008, 0.1495), 
-    Point(0.650, 0.1045), 
-    Point(0.650, -0.10550), 
-    Point(0.605008, -0.15050), 
-    Point(0.3950, -0.15050), 
-    Point(0.350, -0.10550)])
-  layer(Paste(Top)) = PolygonWithArcs([
-    Point(-0.65, 0.3945), 
-    Point(-0.65, 0.6045), 
-    Point(-0.605, 0.6495), 
-    Point(-0.395, 0.6495), 
-    Point(-0.35, 0.6045), 
-    Point(-0.35, 0.3945), 
-    Point(-0.395, 0.3495), 
-    Point(-0.605, 0.3495), 
-    Point(-0.65, 0.3945)])
-  layer(Paste(Top)) = PolygonWithArcs([
-    Point(-0.15, 0.3945), 
-    Point(-0.15, 0.6045), 
-    Point(-0.105, 0.6495), 
-    Point(0.105008, 0.6495), 
-    Point(0.150, 0.6045), 
-    Point(0.150, 0.3945), 
-    Point(0.105008, 0.3495), 
-    Point(-0.105, 0.3495), 
-    Point(-0.15, 0.3945)])
-  layer(Paste(Top)) = PolygonWithArcs([
-    Point(0.350, 0.3945), 
-    Point(0.350, 0.6045), 
-    Point(0.3950, 0.6495), 
-    Point(0.605008, 0.6495), 
-    Point(0.650, 0.6045), 
-    Point(0.650, 0.3945), 
-    Point(0.605008, 0.3495), 
-    Point(0.3950, 0.3495), 
-    Point(0.350, 0.3945)])
+  ; layer(Paste(Top)) = PolygonWithArcs([
+  ;   Point(-0.65, -0.60550), 
+  ;   Point(-0.65, -0.39550), 
+  ;   Point(-0.605, -0.350501), 
+  ;   Point(-0.395, -0.350501), 
+  ;   Point(-0.35, -0.39550), 
+  ;   Point(-0.35, -0.60550), 
+  ;   Point(-0.395, -0.65050), 
+  ;   Point(-0.605, -0.65050), 
+  ;   Point(-0.65, -0.60550)])
+  ; layer(Paste(Top)) = PolygonWithArcs([
+  ;   Point(-0.15, -0.60550), 
+  ;   Point(-0.15, -0.39550), 
+  ;   Point(-0.105, -0.350501), 
+  ;   Point(0.105008, -0.350501), 
+  ;   Point(0.150, -0.39550), 
+  ;   Point(0.150, -0.60550), 
+  ;   Point(0.105008, -0.65050), 
+  ;   Point(-0.105, -0.65050), 
+  ;   Point(-0.15, -0.60550)])
+  ; layer(Paste(Top)) = PolygonWithArcs([
+  ;   Point(0.350, -0.60550), 
+  ;   Point(0.350, -0.39550), 
+  ;   Point(0.3950, -0.350501), 
+  ;   Point(0.605008, -0.350501), 
+  ;   Point(0.650, -0.39550), 
+  ;   Point(0.650, -0.60550), 
+  ;   Point(0.605008, -0.65050), 
+  ;   Point(0.3950, -0.65050), 
+  ;   Point(0.350, -0.60550)])
+  ; layer(Paste(Top)) = PolygonWithArcs([
+  ;   Point(-0.65, -0.10550), 
+  ;   Point(-0.65, 0.1045), 
+  ;   Point(-0.605, 0.1495), 
+  ;   Point(-0.395, 0.1495), 
+  ;   Point(-0.35, 0.1045), 
+  ;   Point(-0.35, -0.10550), 
+  ;   Point(-0.395, -0.15050), 
+  ;   Point(-0.605, -0.15050), 
+  ;   Point(-0.65, -0.10550)])
+  ; layer(Paste(Top)) = PolygonWithArcs([
+  ;   Point(-0.15, -0.10550), 
+  ;   Point(-0.15, 0.1045), 
+  ;   Point(-0.105, 0.1495), 
+  ;   Point(0.105008, 0.1495), 
+  ;   Point(0.150, 0.1045), 
+  ;   Point(0.150, -0.10550), 
+  ;   Point(0.105008, -0.15050), 
+  ;   Point(-0.105, -0.15050), 
+  ;   Point(-0.15, -0.10550)])
+  ; layer(Paste(Top)) = PolygonWithArcs([
+  ;   Point(0.350, -0.10550), 
+  ;   Point(0.350, 0.1045), 
+  ;   Point(0.3950, 0.1495), 
+  ;   Point(0.605008, 0.1495), 
+  ;   Point(0.650, 0.1045), 
+  ;   Point(0.650, -0.10550), 
+  ;   Point(0.605008, -0.15050), 
+  ;   Point(0.3950, -0.15050), 
+  ;   Point(0.350, -0.10550)])
+  ; layer(Paste(Top)) = PolygonWithArcs([
+  ;   Point(-0.65, 0.3945), 
+  ;   Point(-0.65, 0.6045), 
+  ;   Point(-0.605, 0.6495), 
+  ;   Point(-0.395, 0.6495), 
+  ;   Point(-0.35, 0.6045), 
+  ;   Point(-0.35, 0.3945), 
+  ;   Point(-0.395, 0.3495), 
+  ;   Point(-0.605, 0.3495), 
+  ;   Point(-0.65, 0.3945)])
+  ; layer(Paste(Top)) = PolygonWithArcs([
+  ;   Point(-0.15, 0.3945), 
+  ;   Point(-0.15, 0.6045), 
+  ;   Point(-0.105, 0.6495), 
+  ;   Point(0.105008, 0.6495), 
+  ;   Point(0.150, 0.6045), 
+  ;   Point(0.150, 0.3945), 
+  ;   Point(0.105008, 0.3495), 
+  ;   Point(-0.105, 0.3495), 
+  ;   Point(-0.15, 0.3945)])
+  ; layer(Paste(Top)) = PolygonWithArcs([
+  ;   Point(0.350, 0.3945), 
+  ;   Point(0.350, 0.6045), 
+  ;   Point(0.3950, 0.6495), 
+  ;   Point(0.605008, 0.6495), 
+  ;   Point(0.650, 0.6045), 
+  ;   Point(0.650, 0.3945), 
+  ;   Point(0.605008, 0.3495), 
+  ;   Point(0.3950, 0.3495), 
+  ;   Point(0.350, 0.3945)])
   layer(Courtyard(Top)) = Rectangle(1.65199999999993, 1.65300000000002)
   model3d = Model3D("3d-models/DRV2605YZFR.STEP",
     Vec3D(0.0, 0.0, 0.0),

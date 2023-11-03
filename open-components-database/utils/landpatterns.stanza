@@ -2334,9 +2334,11 @@ pcb-pad bga-pad (typical-ball-diameter:Double,      ; the typical/nominal size o
   if not solder-mask-defined?:
     shape = Circle(0.5 * definition-diameter)
     layer(SolderMask(Top)) = Circle(0.5 * referenced-diameter)
+    layer(Paste(Top)) = Circle(0.5 * typical-ball-diameter)
   else:
     shape = Circle(0.5 * referenced-diameter)
     layer(SolderMask(Top)) = Circle(0.5 * definition-diameter)
+    layer(Paste(Top)) = Circle(0.5 * definition-diameter)
 
 defn bga-pad (typical-ball-diameter:Double, ; the typical/nominal size of the bga balls
               pad-type:BGAPadType) :

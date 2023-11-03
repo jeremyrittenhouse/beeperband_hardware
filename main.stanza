@@ -211,7 +211,7 @@ if true :
   ; View the results
   view-schematic()
   view-board()
-  view-design-explorer()
+  ; view-design-explorer()
 else:
   setup-design(
     "beeper-system", ; 
@@ -224,4 +224,4 @@ else:
   set-main-module(top-level)
   ; View the results
   view-schematic()
-  view-design-explorer()
+  ; view-design-explorer()

@@ -132,10 +132,10 @@ public pcb-module module :
   net QVAR2 (imu.AH2_QVAR2)
 
   geom(QVAR1) : 
-    copper-pour(LayerIndex(3), isolate = 2.0, rank = 2) = qvar-shape(1)
+    copper-pour(LayerIndex(3), isolate = 0.1, rank = 2) = qvar-shape(1)
 
   geom(QVAR2) : 
-    copper-pour(LayerIndex(3), isolate = 2.0, rank = 2) = qvar-shape(2)
+    copper-pour(LayerIndex(3), isolate = 0.1, rank = 2) = qvar-shape(2)
 
   schematic-group(self) = qvar
   layout-group(self) = qvar

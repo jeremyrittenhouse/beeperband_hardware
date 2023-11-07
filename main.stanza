@@ -55,16 +55,13 @@ public pcb-module board-io :
   port system-io : system-io
   pin VDD ; some vdd's
   pin VDD1P8
-  pin VLED
   pin GND
 
   public inst codec     : DA7212-01UM2/module
   public inst qsensor   : LSM6DSV16BX/module
   public inst button    : EVPBB4A9B000/component[3]
   public inst hapdrv    : DRV2605YZFR/module
-
-  ; public inst led       : 
-  ; inst led : L23-23B_R6GHBHW-C30_2A/component
+  public inst led       : L23-23B_R6GHBHW-C30_2A/component
 
 
   net (GND codec.GND hapdrv.GND qsensor.GND)
@@ -75,6 +72,11 @@ public pcb-module board-io :
   net (system-io.codec-pdm codec-pdm)
   val i2c-codec-pullups = add-open-drain-pullups(codec.i2c, VDD)
   net (system-io.codec-i2c codec.i2c)
+
+  ; speakers
+  inst spk-conn :  pin-header(2, 1.00)
+  net SP_P (codec.codec.SP_P spk-conn.p[1])
+  net SP_N (codec.codec.SP_N spk-conn.p[2])
 
   require qsen-i3c : i3c from qsensor
   net (system-io.qsen-i3c qsen-i3c)
@@ -99,6 +101,11 @@ public pcb-module board-io :
     net (system-io.button-io[i].gpio button[i].A button[i].A1)
     net (GND button[i].B button[i].B1)
 
+  require rgb : rgb from led
+  net (system-io.led-io.leds rgb)
+  net (system-io.led-io.pwr.vdd led.A)
+  net (system-io.led-io.pwr.gnd GND)
+
   schematic-group(self) = board-io
 
 ; Module to run as a design
@@ -115,15 +122,13 @@ public pcb-module beeper-design :
   net VDD1P8  ()
   net VDD3P0  ()
   net VDDSYS  ()
-  net VLED    ()
   net GND     ()
 
-  val supply-nets = [VDD1P8 VDD3P0 VDDSYS VLED]
+  val supply-nets = [VDD1P8 VDD3P0 VDDSYS]
   ; connect nets to pins of the mcu module
   net (VDD1P8  mcu.V18)
   net (VDD3P0  mcu.V30)
   net (VDDSYS  mcu.VSYS)
-  net (VLED    mcu.VLED)
 
   net (mcu.VBUSp wpwr.VBUSp)
 
@@ -148,11 +153,13 @@ public pcb-module beeper-design :
   ; now connect mcu to haptic driver
   net (board-io.system-io.haptic-intf mcu.haptic-intf)
 
+  ; now connect LEDs from MCU to LED chip
+  net (board-io.system-io.led-io mcu.led-io)
+
   ; connect control/status pins to wireless power chip
   net (mcu.WPWR-CTRL wpwr.CMD)
 
   net (flex-conn.c.VDDMIC   board-io.codec.MICBIAS       )
-  ; net (flex-conn.c.VDDLED   VLED                         )
   net (flex-conn.c.GND      GND                          )
   net (flex-conn.c.MICPDM   board-io.system-io.codec-pdm )
   ; net (flex-conn.c.LEDR     mcu.LED[0]                   )

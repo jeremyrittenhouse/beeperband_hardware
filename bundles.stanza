@@ -126,8 +126,8 @@ public pcb-bundle rgb :
   pin b
 
 public pcb-bundle led-bundle :
-  port l : rgb
-  port pwr : power
+  port leds : rgb
+  port pwr  : power
 
 public pcb-bundle system-io :
   port codec-pdm   : PDM

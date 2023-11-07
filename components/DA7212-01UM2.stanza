@@ -154,8 +154,6 @@ public pcb-module module :
 
   no-connect(codec.HP_L)
   no-connect(codec.HP_R)
-  ; no-connect(codec.SP_P)
-  ; no-connect(codec.SP_N)
-
+  
   schematic-group(self) = codec
   layout-group(self) = codec

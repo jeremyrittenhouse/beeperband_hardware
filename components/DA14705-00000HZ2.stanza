@@ -209,15 +209,13 @@ public pcb-module module :
   pin VBUS 
   pin VBUSp
   pin VSYS
-  pin VLED
-  port LED         : pin[3] ; RGB
-  pin VADOUT
   port WPWR-CTRL   : wpwr-ctl
   port haptic-intf : haptic-intf
   port button-io   : gpio[3]
   port qsen-spi    : spi([SPI-SDO SPI-SDI SPI-CS])
   port qsen-i3c    : i3c
   port codec-i2c   : i2c
+  port led-io      : led-bundle
 
   public inst mcu : DA14705-00000HZ2/component
   inst mem        : AT25FF321A-UUN-T/module
@@ -233,11 +231,11 @@ public pcb-module module :
   require mcu-mem : quad-spi from mcu
   net (mem.qspi mcu-mem)
 
-  net (LED[0] mcu.LED1)
-  net (LED[1] mcu.LED2)
-  net (LED[2] mcu.LED3)
-
-  net (VADOUT mcu.VAD)
+  net (led-io.leds.r mcu.LED1)
+  net (led-io.leds.g mcu.LED2)
+  net (led-io.leds.b mcu.LED3)
+  net (led-io.pwr.vdd mcu.VLED)
+  net (led-io.pwr.gnd GND)
 
   require c-i2c:i2c from mcu
   net (c-i2c codec-i2c)
@@ -325,7 +323,6 @@ public pcb-module module :
   net (V30   mcu.V30)
   net (VBAT mcu.VBAT)
   net (VBUS mcu.VBUS)
-  net (VLED mcu.VLED)
   net (VSYS mcu.VSYS)
   
   val ground-pins = [mcu.AVS1 mcu.AVS2 mcu.AVS3 mcu.VSSD1 mcu.VSSD2 mcu.VSSD3 mcu.VSSD4 mcu.VSSD5 
@@ -373,7 +370,6 @@ public pcb-module module :
   net (esd.VBUS usb.usb-2.vbus.vdd)
   no-connect(esd.NC)
   schematic-group([usb esd]) = usb
-
 
   ; public inst usb : usb2-on-a-usb-c-connector(ocdb/components/korean-hroparts-elec/TYPE-C-31-M-12/module(SinkDefault))
 

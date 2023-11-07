@@ -932,6 +932,19 @@
     {"operation":"place","place":{"placements":[{"id":"BGijvL35me4jFaMnuSmcg6","pose":{"center":{"x":9.0910196952300435,"y":13.858605086809664},"angle":180,"flipx":true},"side":"bottom"}]}},
     {"operation":"place","place":{"placements":[{"id":"BGijvL35me4jFaMnuSmcg6","pose":{"center":{"x":9.0910196952300435,"y":13.858605086809664},"angle":180,"flipx":false},"side":"top"}]}},
     {"operation":"place","place":{"placements":[{"id":"BGijvL35me4jFaMnuSmcg6","pose":{"center":{"x":9.0910196952300435,"y":13.858605086809664},"angle":180,"flipx":true},"side":"bottom"}]}},
-    {"operation":"place","place":{"placements":[{"id":"BGijvL35me4jFaMnuSmcg6","pose":{"center":{"x":9.0910196952300435,"y":13.858605086809664},"angle":180,"flipx":false},"side":"top"}]}}
+    {"operation":"place","place":{"placements":[{"id":"BGijvL35me4jFaMnuSmcg6","pose":{"center":{"x":9.0910196952300435,"y":13.858605086809664},"angle":180,"flipx":false},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"8WuzTPfDjPp4SRCFp1kKuU","pose":{"center":{"x":22.228199982643126,"y":-8.1},"angle":0,"flipx":false},"side":"top"},{"id":"DYK7NR6SXvkyUaYP9z6vS","pose":{"center":{"x":19.65,"y":-8.0000000953674313},"angle":0,"flipx":false},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"8WuzTPfDjPp4SRCFp1kKuU","pose":{"center":{"x":17.644866649309794,"y":1.5636546184738958},"angle":0,"flipx":false},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"DYK7NR6SXvkyUaYP9z6vS","pose":{"center":{"x":17.254794176706824,"y":-4.9559488905481546},"angle":0,"flipx":false},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"DYK7NR6SXvkyUaYP9z6vS","pose":{"center":{"x":12.920570382385668,"y":-6.3421195635067225},"angle":0,"flipx":false},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"BGijvL35me4jFaMnuSmcg6","pose":{"center":{"x":2.4920663507230563,"y":11.437687291783433},"angle":180,"flipx":false},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"8WuzTPfDjPp4SRCFp1kKuU","pose":{"center":{"x":11.211633717582888,"y":1.370381526104417},"angle":90,"flipx":false},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"3Cj4Wb9QkNUcTiFao922Ps","pose":{"center":{"x":17.101694000705074,"y":-0.0373818202912064},"angle":0,"flipx":false},"side":"top"},{"id":"F9wjWWpk5feDwHpaAeSZXf","pose":{"center":{"x":18.584893895133327,"y":-0.10488182505957777},"angle":180,"flipx":false},"side":"top"},{"id":"68FKrDaCUKNADinwRjDNwS","pose":{"center":{"x":17.851694000705074,"y":-0.10488182505957777},"angle":180,"flipx":false},"side":"top"},{"id":"974RhJor5arhhn4jofdEG2","pose":{"center":{"x":17.101694000705074,"y":-1.2005819006859513},"angle":0,"flipx":false},"side":"top"},{"id":"2zxrKzTNy4B5gHXvjAsLU4","pose":{"center":{"x":18.099194062693904,"y":-1.0855819006859511},"angle":270,"flipx":false},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"974RhJor5arhhn4jofdEG2","pose":{"center":{"x":-3.4175366652027463,"y":0.0098769968271648079},"angle":0,"flipx":false},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"3Cj4Wb9QkNUcTiFao922Ps","pose":{"center":{"x":-1.0747129925967158,"y":-8.7058294089335213},"angle":90,"flipx":false},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"3Cj4Wb9QkNUcTiFao922Ps","pose":{"center":{"x":-6.3070191947501852,"y":-1.8140231053507812},"angle":90,"flipx":false},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"2zxrKzTNy4B5gHXvjAsLU4","pose":{"center":{"x":11.441670126371768,"y":-8.0750058572939452},"angle":270,"flipx":false},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"68FKrDaCUKNADinwRjDNwS","pose":{"center":{"x":9.2418170038779088,"y":-8.61714116886149},"angle":270,"flipx":false},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"F9wjWWpk5feDwHpaAeSZXf","pose":{"center":{"x":11.41975816307988,"y":-4.3024409051453816},"angle":270,"flipx":false},"side":"top"}]}}
   ]
 }

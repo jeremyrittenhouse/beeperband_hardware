@@ -6,6 +6,8 @@ defpackage L23-23B_R6GHBHW-C30_2A :
   import jitx
   import jitx/commands
 
+  import bundles
+
 
 pcb-pad rectangle-smd-pad :
   name = "rectangle-smd-pad"
@@ -191,3 +193,8 @@ public pcb-component component :
   property(self.reference_prefix) = "LED"
   property(self.trust) = "low"
   property(self.\|vendor_part_numbers.lcsc|) = "C2922368"
+
+  supports rgb :
+    rgb.r => self.R
+    rgb.g => self.G
+    rgb.b => self.B

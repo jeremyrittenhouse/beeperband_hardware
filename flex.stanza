@@ -106,9 +106,7 @@ public pcb-module beeper-flex :
   layout-group(self) = flex-board
 
 
-
-
-public pcb-board my-board (-- stack:Stackup, outline:Shape, vias:Tuple<Via>) :
+public pcb-board my-flex-board (-- stack:Stackup, outline:Shape, vias:Tuple<Via>) :
   stackup = stack
   boundary = outline
   signal-boundary = outline
@@ -121,7 +119,7 @@ public pcb-board my-board (-- stack:Stackup, outline:Shape, vias:Tuple<Via>) :
 ;     [optional] quantity - Minimum stock quantity the vendor should carry (if not give default quantity will be used)
 setup-design(
   "beeper-flex",
-  my-board(stack = jlcpcb-flex-2-layer-110um, outline = board-shape, vias = [flex-via])
+  my-flex-board(stack = jlcpcb-flex-2-layer-110um, outline = board-shape, vias = [flex-via])
   quantity = DESIGN-QUANTITY
 )
 

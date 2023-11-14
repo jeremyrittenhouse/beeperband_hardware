@@ -206,7 +206,7 @@ pcb-module top-level :
 ;     [optional] vendors  - Strings or AuthorizedVendors (if not give default vendors will be used)
 ;     [optional] quantity - Minimum stock quantity the vendor should carry (if not give default quantity will be used)
 ; Creates a pcb-board with default stackup given the number of layers and board outline.
-public pcb-board my-board (-- stack:Stackup, outline:Shape, vias:Tuple<Via>) :
+public pcb-board beeper-board (-- stack:Stackup, outline:Shape, vias:Tuple<Via>) :
   stackup = stack
   boundary = outline
   signal-boundary = outline
@@ -215,7 +215,7 @@ public pcb-board my-board (-- stack:Stackup, outline:Shape, vias:Tuple<Via>) :
 if true :
   setup-design(
     "beeper-design"
-    my-board(stack = ocdb/manufacturers/stackups/jlcpcb-jlc2313, outline = board-shape, vias = [std-via vip-via])
+    beeper-board(stack = ocdb/manufacturers/stackups/jlcpcb-jlc2313, outline = board-shape, vias = [std-via vip-via])
     quantity = DESIGN-QUANTITY
   )
   ; Set the schematic sheet size

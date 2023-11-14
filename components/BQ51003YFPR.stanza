@@ -108,5 +108,4 @@ public pcb-module module :
   ; res-strap(VBUSp wpwr.AD, 0.0)
   bypass-cap-strap(VBUSp, GND, 4.7e-6)
 
-  schematic-group(self) = wireless-power
   layout-group(self) = wireless-power

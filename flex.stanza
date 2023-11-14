@@ -82,12 +82,12 @@ public pcb-module beeper-flex :
   net GND    (mic[0].GND mic[1].GND mic[1].SELECT) ; output data from mic[1] on low CLK phase
 
   ; combine PDM
-  net MICPDM (mic[0].PDM mic[1].PDM)
+  net PDM (mic[0].PDM mic[1].PDM)
 
 
   net (VDDMIC     conn.c.VDDMIC  )
   net (GND        conn.c.GND     )
-  net (MICPDM     conn.c.MICPDM  )
+  net (PDM     conn.c.PDM  )
 
   ; let's make prettier schematics
   symbol(GND) = ocdb/utils/symbols/ground-sym
@@ -96,11 +96,23 @@ public pcb-module beeper-flex :
     symbol(n_) = ocdb/utils/symbols/altium-power-bar-sym
 
   ; power planes (let's assume 2 layers for now...)
+  geom(VDDMIC) :
+    copper-pour(LayerIndex(0), isolate = 0.12, rank = 1) = signal-shape
+  
   geom(GND) :
-    copper-pour(LayerIndex(0), isolate = 0.08, rank = 1) = signal-shape
+    copper-pour(LayerIndex(1), isolate = 0.08, rank = 1) = signal-shape
 
   schematic-group(self) = flex-board
   layout-group(self) = flex-board
+
+
+
+
+public pcb-board my-board (-- stack:Stackup, outline:Shape, vias:Tuple<Via>) :
+  stackup = stack
+  boundary = outline
+  signal-boundary = outline
+  vias = (flex-via)
 
 ; Set the design name     - a directory with this name will be generated under the "designs" directory
 ;     the board           - a Board object
@@ -109,7 +121,7 @@ public pcb-module beeper-flex :
 ;     [optional] quantity - Minimum stock quantity the vendor should carry (if not give default quantity will be used)
 setup-design(
   "beeper-flex",
-  ocdb/utils/defaults/default-board(jlcpcb-flex-2-layer-110um, board-shape)
+  my-board(stack = jlcpcb-flex-2-layer-110um, outline = board-shape, vias = [flex-via])
   quantity = DESIGN-QUANTITY
 )
 

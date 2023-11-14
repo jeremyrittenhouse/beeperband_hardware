@@ -26,15 +26,14 @@ public pcb-module beeper-connector (board : bundles/board-type) :
       (main-board) : FH19C-6S-0p5SH-10-/component
   inst conn : connector
   ; order of connections list
-  val order-conns = [c.VDDMIC c.MICPDM.data c.MICPDM.clk 
-                     c.MICPDM.data c.MICPDM.clk c.GND]
+  val order-conns = [c.PDM.clk c.GND c.GND c.GND c.PDM.data  c.VDDMIC]
 
   for (c in order-conns, i in 1 to false) do :
     net (c conn.p[i])
 
   if board == main-board :
-    net (c.GND conn.p[7])
-    net (c.GND conn.p[8])
+    net (c.GND conn.p[length(order-conns) + 1])
+    net (c.GND conn.p[length(order-conns) + 2])
 
   place(conn) at loc(0.0, 0.0) on Top
   schematic-group(self) = sys-conn

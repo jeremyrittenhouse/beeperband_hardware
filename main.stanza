@@ -19,6 +19,7 @@ defpackage main :
   import rules
   import bundles
   import system
+  import stackups
 
   import flex
 
@@ -161,12 +162,7 @@ public pcb-module beeper-design :
 
   net (flex-conn.c.VDDMIC   board-io.codec.MICBIAS       )
   net (flex-conn.c.GND      GND                          )
-  net (flex-conn.c.MICPDM   board-io.system-io.codec-pdm )
-  ; net (flex-conn.c.LEDR     mcu.LED[0]                   )
-  ; net (flex-conn.c.LEDG     mcu.LED[1]                   )
-  ; net (flex-conn.c.LEDB     mcu.LED[2]                   )
-  ; net (flex-conn.c.SPKP     board-io.codec.codec.SP_P   )
-  ; net (flex-conn.c.SPKN     board-io.codec.codec.SP_N   )
+  net (flex-conn.c.PDM   board-io.system-io.codec-pdm )
 
   net (flex-conn.c flex)
 
@@ -188,6 +184,8 @@ public pcb-module beeper-design :
     symbol(n) = ocdb/utils/symbols/altium-power-bar-sym
 
   ; power planes (let's assume 4 layers for now...)
+;  geom(GND) :
+;     copper-pour(LayerIndex(0), isolate = 0.15, rank = 1) = signal-shape
   geom(GND) :
     copper-pour(LayerIndex(1), isolate = 0.1, rank = 1) = signal-shape
   geom(VDDSYS) :
@@ -207,11 +205,17 @@ pcb-module top-level :
 ;     [optional] rules    - the PCB design rules (if not given default rules will be used)
 ;     [optional] vendors  - Strings or AuthorizedVendors (if not give default vendors will be used)
 ;     [optional] quantity - Minimum stock quantity the vendor should carry (if not give default quantity will be used)
+; Creates a pcb-board with default stackup given the number of layers and board outline.
+public pcb-board my-board (-- stack:Stackup, outline:Shape, vias:Tuple<Via>) :
+  stackup = stack
+  boundary = outline
+  signal-boundary = outline
+  vias = (std-via vip-via)
 
 if true :
   setup-design(
     "beeper-design"
-    ocdb/utils/defaults/default-board(ocdb/manufacturers/stackups/bay-area-circuits-4-layer-62-mil, board-shape)
+    my-board(stack = ocdb/manufacturers/stackups/jlcpcb-jlc2313, outline = board-shape, vias = [std-via vip-via])
     quantity = DESIGN-QUANTITY
   )
   ; Set the schematic sheet size

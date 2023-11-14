@@ -5,7 +5,7 @@ defpackage ocdb/utils/landpatterns :
   import lang-utils
   import math
   import jitx
-  import jitx/fonts
+
   import jitx/commands with:
     prefix(pad) => def-
   import ocdb/utils/design-vars
@@ -599,10 +599,10 @@ public defn make-pin-grid (n-pin:Int, n-row:Int, pin-pitch:Double, row-pitch:Dou
   make-pin-grid(n-pin, n-row, pin-pitch, row-pitch, pad-ref, 0.0, 0.0)
 
 public defn make-pin-grid (n-pin:Int, n-row:Int, pin-pitch:Double, row-pitch:Double) :
-  make-pin-grid(n-pin, n-row, pin-pitch, row-pitch, pth-pad(0.25), 0.0, 0.0)
+  make-pin-grid(n-pin, n-row, pin-pitch, row-pitch, pth-pad(0.5), 0.0, 0.0)
 
 public defn make-pin-grid (n-pin:Int) :
-  make-pin-grid(n-pin, 1, 2.54, 2.54, pth-pad(0.25), 0.0, 0.0)
+  make-pin-grid(n-pin, 1, 2.54, 2.54, pth-pad(0.5), 0.0, 0.0)
 
 ;==================================================================================
 ; Create a testpad
@@ -2334,11 +2334,9 @@ pcb-pad bga-pad (typical-ball-diameter:Double,      ; the typical/nominal size o
   if not solder-mask-defined?:
     shape = Circle(0.5 * definition-diameter)
     layer(SolderMask(Top)) = Circle(0.5 * referenced-diameter)
-    layer(Paste(Top)) = Circle(0.5 * typical-ball-diameter)
   else:
     shape = Circle(0.5 * referenced-diameter)
     layer(SolderMask(Top)) = Circle(0.5 * definition-diameter)
-    layer(Paste(Top)) = Circle(0.5 * definition-diameter)
 
 defn bga-pad (typical-ball-diameter:Double, ; the typical/nominal size of the bga balls
               pad-type:BGAPadType) :

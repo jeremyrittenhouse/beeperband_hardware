@@ -262,7 +262,7 @@ public pcb-module module :
   net (WPWR-CTRL.CTRL mcu-wpwr[3].gpio)
 
   ; all dbg connections
-  inst dbg-m33-conn : ocdb/components/tag-connect/TC2030-IDC-NL/component
+  inst dbg-m33-conn : TC2030-IDC-NL/component
   dnp(dbg-m33-conn)
   require dbg-power-m33 : power from dbg-m33-conn
   require dbg-m33 : swd() from dbg-m33-conn

@@ -52,3 +52,58 @@ public pcb-stackup jlcpcb-flex-2-layer-110um :
   layer(0.0116, copper) ; 
   layer(0.0150, soldermask) ;
   layer(0.0500, stiffener) ; options: from 50um to 200um
+
+
+;Via's start, stop, diameter, hole-diameter, and type fields are mandatory.
+public pcb-via std-via :
+  name = "standard via"               ;This name appears in the UI. If not provided, 'my-via' is used instead.
+  ;Required fields...
+  start = LayerIndex(0, Top)
+  stop = LayerIndex(0, Bottom)
+  diameter = 0.400
+  hole-diameter = 0.200
+  type = MechanicalDrill
+  ;Optional fields...
+  ; antipad-diameter = 1.000
+  center = Point(0.0, 0.0)
+  filled = false
+  tented = false                  ;Top|Bottom|True|False with default false.
+  via-in-pad = false
+  ; backdrill = Backdrill(Bottom, LayerIndex(1, Bottom), 0.75, 1.5, 1.0, 2.0)
+  ; transit-time = 1.0
+
+  ;Via's start, stop, diameter, hole-diameter, and type fields are mandatory.
+public pcb-via vip-via :
+  name = "VIP via"               ;This name appears in the UI. If not provided, 'my-via' is used instead.
+  ;Required fields...
+  start = LayerIndex(0, Top)
+  stop = LayerIndex(0, Bottom)
+  diameter = 0.300
+  hole-diameter = 0.150
+  type = MechanicalDrill
+  ;Optional fields...
+  ; antipad-diameter = 1.5
+  ; center = Point(0.0, 0.0)
+  filled = true
+  tented = Top                  ;Top|Bottom|True|False with default false.
+  via-in-pad = true
+  ; backdrill = Backdrill(Bottom, LayerIndex(1, Bottom), 0.75, 1.5, 1.0, 2.0)
+  ; transit-time = 1.0
+
+  ;Via's start, stop, diameter, hole-diameter, and type fields are mandatory.
+public pcb-via flex-via :
+  name = "flex via"               ;This name appears in the UI. If not provided, 'my-via' is used instead.
+  ;Required fields...
+  start = LayerIndex(0, Top)
+  stop = LayerIndex(0, Bottom)
+  diameter = 0.400
+  hole-diameter = 0.200
+  type = MechanicalDrill
+  ;Optional fields...
+  ; antipad-diameter = 1.5
+  ; center = Point(0.0, 0.0)
+  ; filled = true
+  ; tented = Top                  ;Top|Bottom|True|False with default false.
+  ; via-in-pad = true
+  ; backdrill = Backdrill(Bottom, LayerIndex(1, Bottom), 0.75, 1.5, 1.0, 2.0)
+  ; transit-time = 1.0

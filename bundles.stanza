@@ -113,7 +113,7 @@ public pcb-bundle wpwr-ctl :
 public pcb-bundle flex-signals :
   pin VDDMIC 
   pin GND 
-  port MICPDM : PDM
+  port PDM : PDM
 
 public pcb-bundle haptic-intf :
   port i2c : i2c

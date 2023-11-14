@@ -45,17 +45,8 @@ public pcb-component component :
   landpattern = TC2030-IDC-NL-footprint(for i in 1 through 6 do : p[i] => TC2030-IDC-NL-footprint.p[i])
   reference-prefix = "J"
 
-  supports swd() :
-    swd().swdio  => self.p[2]
-    swd().swdclk => self.p[4]
-
-  supports power:
-    power.vdd => self.p[1]
-    power.gnd => self.p[5]
-
-  supports reset:
-    reset.reset => self.p[3]
-
-  supports uart():
-    uart().rx => self.p[3]
-    uart().tx => self.p[6]
+  supports swd([SWD-SWO, SWD-TRACESWO]) :
+    swd([SWD-SWO, SWD-TRACESWO]).swdio  => self.p[2]
+    swd([SWD-SWO, SWD-TRACESWO]).swdclk => self.p[4]
+    swd([SWD-SWO, SWD-TRACESWO]).swo => self.p[6]
+    swd([SWD-SWO, SWD-TRACESWO]).traceswo => self.p[1]

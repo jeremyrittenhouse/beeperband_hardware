@@ -1,0 +1,136 @@
+; This file is generated based on the parts database query below:")
+;   database-part(["manufacturer" => "Amphenol", "mpn" => "10051922-2210ELF"])
+#use-added-syntax(jitx)
+defpackage FH19C-xS-0p5SH-10- :
+  import core
+  import jitx
+  import jitx/commands
+  
+  import ocdb/utils/landpatterns
+  import ocdb/utils/box-symbol
+  import ocdb/utils/generic-components
+  import bundles
+
+
+pcb-pad rectangle-smd-pad :
+  name = "rectangle-smd-pad"
+  type = SMD
+  shape = Rectangle(0.300, 0.800)
+  layer(SolderMask(Top)) = Rectangle(0.300, 0.800)
+  layer(Paste(Top)) = Rectangle(0.300, 0.800)
+
+pcb-pad mounting-smd-pad :
+  name = "mounting-smd-pad"
+  type = SMD
+  shape = Rectangle(0.400, 0.800)
+  layer(SolderMask(Top)) = Rectangle(0.400, 0.800)
+  layer(Paste(Top)) = Rectangle(0.400, 0.800)
+
+
+pcb-landpattern lp (n:Int):
+
+  for (l in grid-locs(1, n, 0.0, -1.0 * to-double(n) / 2.0 * 0.500 + 0.250), i in 1 to false) do:
+    pad p[i] : rectangle-smd-pad at l on Top
+  val ml = to-double(n) * 0.5 + 1.100
+  pad p[i+1] : mounting-smd-pad at loc(-1.0 * ml / 2.0 - 0.200, 0.400 - 3.300) on Top
+  pad p[i+2] : mounting-smd-pad at loc(-1.0 * ml / 2.0 + 0.200, 0.400 - 3.300) on Top
+
+  layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, W, loc(-1.500, 1.138), "", TrueTypeFont, false, false)
+  layer(CustomLayer("Fab", Top)) = Text(">VALUE", 1.0, W, loc(-1.500, 0.438), "", TrueTypeFont, false, false)
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.180, [
+    Point( 2.000,  0.000)
+    Point( 2.000, -3.300)
+    Point(-2.000, -3.300)
+    Point(-2.000,  0.000)
+    Point( 2.000,  0.000)
+    ])
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.180, [
+    Point(-1.679, -0.884)
+    Point(-1.679,  0.132)
+    Point(-1.171, -0.424)
+    Point(-1.679, -0.884)])
+  layer(CustomLayer("Fab", Top)) = Polyline(0.100, [
+    Arc(-0.700, 0.400, 0.050, 0.0, -360.000)])
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.100, [
+    Arc(-0.700, 0.400, 0.050, 0.0, -360.000)])
+  layer(Courtyard(Top)) = Rectangle(4.0, 3.3, loc(0.000, -1.650))
+
+public pcb-component component :
+  name = "FH19C-4S-0.5SH(10)"
+  description = "4 Position FFC, FPC Connector Contacts, Bottom 0.020\" (0.50mm) Surface Mount, Right Angle"
+  manufacturer = "Hirose"
+  mpn = "FH19C-4S-0.5SH(10)"
+  datasheet = "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/822/FH19C_FH19SC_Series.pdf"
+  pin-properties :
+    [pin:Ref | pads:Ref ... | side:Dir | electrical-type:String | bank:Int]
+    [p[1] | p[1] | Left | "unspecified" | 0]
+    [p[2] | p[2] | Left | "unspecified" | 0]
+    [p[3] | p[3] | Left | "unspecified" | 0]
+    [p[4] | p[4] | Left | "unspecified" | 0]
+    [p[5] | p[5] | Left | "unspecified" | 0] ; mounting pad
+    [p[6] | p[6] | Left | "unspecified" | 0] ; mounting pad
+
+  assign-landpattern(lp)
+  make-box-symbol()
+  val valid-part-widths = [4,5,6,7,8,9,10,12,13,15,17,20,21,24,27,30,34,40,50]
+
+  property(self.category) = "connector"
+  property(self.reference_prefix) = "J"
+  property(self.trust) = "low"
+  property(self.case) = "SMD,P=0.5mm"
+  property(self.rated-temperature) = Toleranced(15.0, 70.0, 70.0)
+
+pcb-pad edge-smd-pad :
+  name = "rectangle-smd-pad"
+  type = SMD
+  shape = Rectangle(0.300, 2.500)
+
+pcb-landpattern edge-lp :
+  pad p[ 1] : edge-smd-pad at loc( 0.750, 0.000) on Top
+  pad p[ 2] : edge-smd-pad at loc( 0.250, 0.000) on Top
+  pad p[ 3] : edge-smd-pad at loc(-0.250, 0.000) on Top
+  pad p[ 4] : edge-smd-pad at loc(-0.750, 0.000) on Top
+  layer(Courtyard(Top)) = Rectangle(2.500, 2.500)
+  layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, W, loc(-1.500, 1.600), "", TrueTypeFont, false, false)
+  layer(CustomLayer("Fab", Top)) = Text(">VALUE", 1.0, W, loc(-1.500, 1.800), "", TrueTypeFont, false, false)
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.100, [
+    Point( 0.750, -1.400)
+    Point( 0.250, -1.900)
+    Point( 1.250, -1.900)
+    Point( 0.750, -1.400)])
+  ; layer(Cutout()) = Polyline(0.100, [
+  ;   Point(-1.250, -1.250)
+  ;   Point(-1.250,  1.250)
+  ;   Point( 1.250,  1.250)
+  ;   Point( 1.250, -1.250)
+  ;   ])
+  layer(CustomLayer("Fab", Top)) = Polyline(0.100, [
+    Point(-1.250, -1.250)
+    Point(-1.250,  1.250)
+    Point( 1.250,  1.250)
+    Point( 1.250, -1.250)
+    ])
+  layer(CustomLayer("Fab", Bottom)) = Polyline(0.100, [
+    Point(-1.250, -1.250)
+    Point(-1.250,  1.250)
+    Point( 1.250,  1.250)
+    Point( 1.250, -1.250)
+    ])
+  layer(CustomLayer("stiffener", Bottom)) = Rectangle(2.500, 3.500, loc(0.000, -0.250))
+
+public pcb-component flex-edge :
+  name = "edge-FH19C-4S-0.5SH(10)"
+  description = "Edge for 4 Position FFC, FPC Connector Contacts, Bottom 0.020\" (0.50mm) Surface Mount, Right Angle"
+  manufacturer = "Hirose"
+  mpn = "Edge-FH19C-4S-0.5SH(10)"
+  datasheet = "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/822/FH19C_FH19SC_Series.pdf"
+
+  pin-properties :
+    [pin:Ref | pads:Ref ... | side:Dir | electrical-type:String | bank:Int]
+    [p[1]  | p[1]  | Left | "unspecified" | 0]
+    [p[2]  | p[2]  | Left | "unspecified" | 0]
+    [p[3]  | p[3]  | Left | "unspecified" | 0]
+    [p[4]  | p[4]  | Left | "unspecified" | 0]
+
+  assign-landpattern(edge-lp)
+  make-box-symbol()

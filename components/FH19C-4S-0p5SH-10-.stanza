@@ -28,13 +28,12 @@ pcb-pad mounting-smd-pad :
 
 
 pcb-landpattern lp :
-
   pad p[ 1] : rectangle-smd-pad at loc(-0.750, -0.400) on Top
   pad p[ 2] : rectangle-smd-pad at loc(-0.250, -0.400) on Top
   pad p[ 3] : rectangle-smd-pad at loc( 0.250, -0.400) on Top
   pad p[ 4] : rectangle-smd-pad at loc( 0.750, -0.400) on Top
   pad p[ 5] : mounting-smd-pad at loc(-3.100 / 2.0 - 0.200, 0.400 - 3.300) on Top
-  pad p[ 6] : mounting-smd-pad at loc( 3.200 / 2.0 + 0.200, 0.400 - 3.300) on Top
+  pad p[ 6] : mounting-smd-pad at loc( 3.100 / 2.0 + 0.200, 0.400 - 3.300) on Top
 
   layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, W, loc(-1.500, 1.138), "", TrueTypeFont, false, false)
   layer(CustomLayer("Fab", Top)) = Text(">VALUE", 1.0, W, loc(-1.500, 0.438), "", TrueTypeFont, false, false)

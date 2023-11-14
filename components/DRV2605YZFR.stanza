@@ -23,27 +23,27 @@ pcb-pad circle-smd-pad :
   layer(Paste(Top)) = Circle(0.12)
 
 pcb-landpattern lp :
-  pad A1 : circle-smd-pad at loc(-0.5, -0.5005) on Top
-  pad A2 : circle-smd-pad at loc(-0.5, -0.0005177) on Top
-  pad A3 : circle-smd-pad at loc(-0.5, 0.49950) on Top
-  pad B1 : circle-smd-pad at loc(0.0, -0.5005) on Top
-  pad B2 : circle-smd-pad at loc(0.0, -0.0005177) on Top
-  pad B3 : circle-smd-pad at loc(0.0, 0.49950) on Top
-  pad C1 : circle-smd-pad at loc(0.5, -0.5005) on Top
-  pad C2 : circle-smd-pad at loc(0.5, -0.0005177) on Top
-  pad C3 : circle-smd-pad at loc(0.5, 0.49950) on Top
+  pad A1 : circle-smd-pad at loc(-0.5, -0.500) on Top
+  pad A2 : circle-smd-pad at loc(-0.5,  0.000) on Top
+  pad A3 : circle-smd-pad at loc(-0.5,  0.500) on Top
+  pad B1 : circle-smd-pad at loc( 0.0, -0.500) on Top
+  pad B2 : circle-smd-pad at loc( 0.0,  0.000) on Top
+  pad B3 : circle-smd-pad at loc( 0.0,  0.500) on Top
+  pad C1 : circle-smd-pad at loc( 0.5, -0.500) on Top
+  pad C2 : circle-smd-pad at loc( 0.5,  0.000) on Top
+  pad C3 : circle-smd-pad at loc( 0.5,  0.500) on Top
 
   layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, W, loc(-1.5, 2.5321), "", TrueTypeFont, false, false)
   layer(CustomLayer("Fab", Top)) = Text(">VALUE", 1.0, W, loc(-1.5, 1.5321), "", TrueTypeFont, false, false)
-  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.152, [
-    Point(-0.826, -0.82650), 
-    Point(-0.826, 0.82650), 
-    Point(0.8260, 0.82650), 
-    Point(0.8260, -0.82650), 
-    Point(-0.826, -0.82650)])
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.100, [
+    Point(-0.826,  -0.82650), 
+    Point(-0.826,   0.82650), 
+    Point( 0.8260,  0.82650), 
+    Point( 0.8260, -0.82650), 
+    Point(-0.826,  -0.82650)])
   layer(CustomLayer("Fab", Top)) = Polyline(0.06, [Arc(-0.75, -0.7505, 0.03, 0.0, -360.0)])
-  layer(CustomLayer("Fab", Top)) = Polyline(0.2, [Arc(-0.5, -0.599500000000035, 0.1, 0.0, -360.0)])
-  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.2, [Arc(-0.5, -1.22649999999999, 0.1, 0.0, -360.0)])
+  ; layer(CustomLayer("Fab", Top)) = Polyline(0.2, [Arc(-0.5, -0.599500000000035, 0.1, 0.0, -360.0)])
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.1, [Arc(-0.75, -1.000, 0.1, 0.0, -360.0)])
   ; layer(Paste(Top)) = PolygonWithArcs([
   ;   Point(-0.65, -0.60550), 
   ;   Point(-0.65, -0.39550), 
@@ -134,64 +134,11 @@ pcb-landpattern lp :
   ;   Point(0.605008, 0.3495), 
   ;   Point(0.3950, 0.3495), 
   ;   Point(0.350, 0.3945)])
-  layer(Courtyard(Top)) = Rectangle(1.65199999999993, 1.65300000000002)
+  layer(Courtyard(Top)) = Rectangle(1.653, 1.653)
   model3d = Model3D("3d-models/DRV2605YZFR.STEP",
     Vec3D(0.0, 0.0, 0.0),
     Vec3D(1.0, 1.0, 1.0),
     Vec3D(-90.0, 0.0, 0.0))
-
-pcb-symbol sym :
-  pin EN at Point(-7.62001524003048, 10.1600203200406) with :
-    direction = Left
-    length = 5.08001016002032
-    number-size = 1.0
-    name-size = 1.0
-  pin REG at Point(-7.62001524003048, 7.62001524003048) with :
-    direction = Left
-    length = 5.08001016002032
-    number-size = 1.0
-    name-size = 1.0
-  pin OUT+ at Point(-7.62001524003048, 5.08001016002032) with :
-    direction = Left
-    length = 5.08001016002032
-    number-size = 1.0
-    name-size = 1.0
-  pin IN_TRIG at Point(-7.62001524003048, 2.54000508001016) with :
-    direction = Left
-    length = 5.08001016002032
-    number-size = 1.0
-    name-size = 1.0
-  pin SDA at Point(-7.62001524003048, 0.0) with :
-    direction = Left
-    length = 5.08001016002032
-    number-size = 1.0
-    name-size = 1.0
-  pin GND at Point(-7.62001524003048, -2.54000508001016) with :
-    direction = Left
-    length = 5.08001016002032
-    number-size = 1.0
-    name-size = 1.0
-  pin SCL at Point(-7.62001524003048, -5.08001016002032) with :
-    direction = Left
-    length = 5.08001016002032
-    number-size = 1.0
-    name-size = 1.0
-  pin VDD at Point(-7.62001524003048, -7.62001524003048) with :
-    direction = Left
-    length = 5.08001016002032
-    number-size = 1.0
-    name-size = 1.0
-  pin OUT- at Point(-7.62001524003048, -10.1600203200406) with :
-    direction = Left
-    length = 5.08001016002032
-    number-size = 1.0
-    name-size = 1.0
-
-  layer("value") = Text(">VALUE", 0.7056, C, loc(0.0, 12.1600203200406), "", TrueTypeFont, false, false)
-  layer("reference") = Text(">REF", 0.7056, C, loc(0.0, 13.1600203200406), "", TrueTypeFont, false, false)
-  layer("foreground") = Rectangle(20.3200406400813, 25.9080518161036, loc(2.54000508001016, 0.254000508001016))
-  layer("foreground") = Circle(-6.3500127000254, 11.9380238760478, 0.381000762001524)
-  layer("foreground") = Circle(-6.3500127000254, 11.9380238760478, 0.381000762001524)
 
 public pcb-component component :
   name = "DRV2605YZFR"

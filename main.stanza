@@ -107,7 +107,6 @@ public pcb-module board-io :
   net (system-io.led-io.pwr.vdd led.A)
   net (system-io.led-io.pwr.gnd GND)
 
-  schematic-group(self) = board-io
 
 ; Module to run as a design
 public pcb-module beeper-design :
@@ -210,7 +209,7 @@ public pcb-board beeper-board (-- stack:Stackup, outline:Shape, vias:Tuple<Via>)
   stackup = stack
   boundary = outline
   signal-boundary = outline
-  vias = (std-via vip-via)
+  vias = vias
 
 if true :
   setup-design(

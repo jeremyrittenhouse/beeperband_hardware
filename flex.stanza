@@ -110,7 +110,7 @@ public pcb-board my-flex-board (-- stack:Stackup, outline:Shape, vias:Tuple<Via>
   stackup = stack
   boundary = outline
   signal-boundary = outline
-  vias = (flex-via)
+  vias = vias
 
 ; Set the design name     - a directory with this name will be generated under the "designs" directory
 ;     the board           - a Board object

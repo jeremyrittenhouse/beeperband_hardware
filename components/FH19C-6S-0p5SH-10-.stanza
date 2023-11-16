@@ -87,6 +87,7 @@ pcb-pad edge-smd-pad :
   name = "rectangle-smd-pad"
   type = SMD
   shape = Rectangle(0.300, 2.500)
+  layer(SolderMask(Top)) = Rectangle(0.300, 2.500)
 
 pcb-landpattern edge-lp :
   pad p[ 1] : edge-smd-pad at loc( 1.250, 0.000) on Top
@@ -96,7 +97,7 @@ pcb-landpattern edge-lp :
   pad p[ 5] : edge-smd-pad at loc(-0.750, 0.000) on Top
   pad p[ 6] : edge-smd-pad at loc(-1.250, 0.000) on Top
   layer(Courtyard(Top)) = Rectangle(3.500, 2.500)
-  layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, W, loc(-2.000, 1.600), "", TrueTypeFont, false, false)
+  layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, W, loc(-2.000, -2.000), "", TrueTypeFont, false, false)
   layer(CustomLayer("Fab", Top)) = Text(">VALUE", 1.0, W, loc(-2.000, 1.800), "", TrueTypeFont, false, false)
   layer(Silkscreen("F-SilkS", Top)) = Polyline(0.100, [
     Point( 1.250, -1.400)
@@ -131,13 +132,13 @@ public pcb-component flex-edge :
   datasheet = "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/822/FH19C_FH19SC_Series.pdf"
 
   pin-properties :
-    [pin:Ref | pads:Ref ... | side:Dir | electrical-type:String | bank:Int]
-    [p[1]  | p[1]  | Left | "unspecified" | 0]
-    [p[2]  | p[2]  | Left | "unspecified" | 0]
-    [p[3]  | p[3]  | Left | "unspecified" | 0]
-    [p[4]  | p[4]  | Left | "unspecified" | 0]
-    [p[5]  | p[5]  | Left | "unspecified" | 0]
-    [p[6]  | p[6]  | Left | "unspecified" | 0]
+    [pin:Ref | pads:Ref ... | side:Dir]
+    [p[1]  | p[1]  | Left ]
+    [p[2]  | p[2]  | Left ]
+    [p[3]  | p[3]  | Left ]
+    [p[4]  | p[4]  | Left ]
+    [p[5]  | p[5]  | Left ]
+    [p[6]  | p[6]  | Left ]
 
   assign-landpattern(edge-lp)
   make-box-symbol()

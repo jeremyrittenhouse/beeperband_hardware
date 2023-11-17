@@ -777,7 +777,7 @@ public pcb-module micro-usb-connector :
   ; RC filter connection for chassis gnd
   res-strap(con.SHIELD, con.GND, 100.0e3)
   cap-strap(con.SHIELD, con.GND, 0.1e-6)
-  net SHIELD (con.SHIELD)
+  ; net SHIELD (con.SHIELD)
   net D+ (usb-2.data.P con.D+)
   net D- (usb-2.data.N con.D-)
   net ID (usb-2.id con.ID)

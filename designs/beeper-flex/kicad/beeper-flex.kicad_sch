@@ -2,7 +2,7 @@
 (kicad_sch
   (version 20230121)
   (generator jitx)
-  (uuid c4d6727b-270c-5051-a819-123c9473e0ca)
+  (uuid 219df102-d28d-b743-245e-efc9439ef913)
   (paper "B")
   
   
@@ -331,20 +331,20 @@
 )
     )
 
-    (symbol "edge_FH19C_4S_0_5SH_10_" 
+    (symbol "edge_FH19C_6S_0_5SH_10_" 
       (in_bom yes) (on_board yes)
       
       (property "Reference" "U" (id 0) (at -8.89 10.252 0.0)
         (effects (font (size 0.3048 0.3048))  (justify left bottom )))
       
-      (property "Value" "edge_FH19C_4S_0_5SH_10_" (id 1) (at -8.89 9.19 0.0)
+      (property "Value" "edge_FH19C_6S_0_5SH_10_" (id 1) (at -8.89 9.19 0.0)
         (effects (font (size 0.3048 0.3048))  (justify left bottom )))
       (property "Footprint" "" (id 2) (at 0 0 0)
         (effects (font (size 0.635 0.635)) hide))
       (property "Datasheet" "~" (id 3) (at 0 0 0)
         (effects (font (size 0.635 0.635)) hide))
       
-(symbol "edge_FH19C_4S_0_5SH_10__1_0"
+(symbol "edge_FH19C_6S_0_5SH_10__1_0"
 
       (pin unspecified line (at -11.43 6.35 0) (length 2.54)
         (name "1" (effects (font (size 0.762 0.762))))
@@ -379,170 +379,93 @@
 )
     )
   )
-  (wire (pts (xy 67.31 208.28) (xy 67.31 207.01)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid d9707c7b-c283-e14f-da52-5b27ac7f15ed))
-  (wire (pts (xy 67.31 214.63) (xy 67.31 213.36)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid eb6b70d4-4895-49a9-768e-7ecc8c0458eb))
-  (wire (pts (xy 46.99 193.04) (xy 46.99 191.77)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 63d58bda-1dd7-ea72-5a32-81c924f13147))
-  (wire (pts (xy 35.56 204.47) (xy 38.1 204.47)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 4e84f4ca-4e20-08fb-0dfb-df3345bb5f1d))
-  (wire (pts (xy 35.56 204.47) (xy 35.56 200.66)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid b3987c16-9145-bb44-ba76-5f0968eb1d80))
-  (wire (pts (xy 46.99 214.63) (xy 46.99 213.36)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 3a584546-027d-5912-f93d-a9f5546cde73))
-  (wire (pts (xy 34.29 201.93) (xy 38.1 201.93)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 7b8fa1bd-2705-4637-364b-2570f877a17a))
-  (wire (pts (xy 55.88 203.2) (xy 57.15 203.2)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 5d9a4ae7-921d-ee4a-0e7d-7a5ad06cb80b))
-  (wire (pts (xy 111.76 209.55) (xy 111.76 208.28)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 3b629278-67da-a3b7-5768-e9cc834c20ed))
-  (wire (pts (xy 111.76 215.9) (xy 111.76 214.63)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 23eaa51d-4414-4f26-5967-48d0fccf0548))
-  (wire (pts (xy 91.44 190.5) (xy 91.44 189.23)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 35d81f2e-2783-f683-69b6-4b70b8b9bb8a))
-  (wire (pts (xy 81.28 201.93) (xy 82.55 201.93)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 1d282c3d-e1fe-163c-3e76-a3b53287425c))
-  (wire (pts (xy 81.28 212.09) (xy 81.28 201.93)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 36b4d687-84ab-b3b3-538b-29dad6a76053))
-  (wire (pts (xy 91.44 212.09) (xy 91.44 210.82)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid b279a130-1c72-0705-285b-2bbb093c0c51))
-  (wire (pts (xy 81.28 199.39) (xy 82.55 199.39)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 893ee505-a519-dc4b-b098-927603ebe8e8))
-  (wire (pts (xy 100.33 200.66) (xy 101.6 200.66)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 739456d7-5b38-1197-2fd1-bd6003e7a049))
-  (wire (pts (xy 128.27 208.28) (xy 130.81 208.28)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 2710b291-9114-02ff-2188-aa6637024598))
-  (wire (pts (xy 128.27 208.28) (xy 128.27 194.31)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid cd72d82c-bbc7-4f73-c929-3d719291a07b))
-  (wire (pts (xy 129.54 198.12) (xy 130.81 198.12)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 54a3e5c4-a7c6-4bb1-1b62-80d813ea74b7))
-  (wire (pts (xy 129.54 200.66) (xy 130.81 200.66)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 1ea09940-e562-effa-e892-fe5ad12e13ed))
-  (wire (pts (xy 129.54 203.2) (xy 130.81 203.2)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 64c0d931-6a3f-90ba-b8cb-d5b564c58953))
-  (wire (pts (xy 129.54 212.09) (xy 129.54 198.12)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 6577e4bd-4f8c-89ac-700e-f43d476d3d2d))
-  (wire (pts (xy 127.0 195.58) (xy 130.81 195.58)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 291d4833-1b03-f1ee-e86d-f77d48df4e94))
-  (wire (pts (xy 127.0 205.74) (xy 130.81 205.74)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 494145df-2e6d-0f0c-ebe0-97d0adba9bee))
-  (polyline (pts (xy 26.67 186.69) (xy 71.12 186.69)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 66d4c131-31d3-09df-ef20-c16ed572d5b2))
-  (polyline (pts (xy 26.67 219.71) (xy 71.12 219.71)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 489e5ae1-50ca-e184-45ea-4a962b97b2b2))
-  (polyline (pts (xy 26.67 219.71) (xy 26.67 186.69)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 873be419-575e-223e-dd23-061cc6525d8b))
-  (polyline (pts (xy 71.12 219.71) (xy 71.12 186.69)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 2c53c86b-2f71-7ff7-88a2-6d117e56c654))
-  (polyline (pts (xy 73.66 184.15) (xy 115.57 184.15)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid b1e64ff5-77c7-96e9-8dc5-d0646f6efa27))
-  (polyline (pts (xy 73.66 220.98) (xy 115.57 220.98)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 72b993db-2638-e0a8-9adf-6baf8ee160c8))
-  (polyline (pts (xy 73.66 220.98) (xy 73.66 184.15)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 670b72cf-67ef-f1a3-194d-80aadb79d309))
-  (polyline (pts (xy 115.57 220.98) (xy 115.57 184.15)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 85df7079-9a23-51bd-f263-7f4c1d4fa53e))
-  (polyline (pts (xy 118.11 189.23) (xy 153.67 189.23)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 8ffd43ac-6619-4bc3-70d1-32bb9e19bcf3))
-  (polyline (pts (xy 118.11 217.17) (xy 153.67 217.17)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid fb0dd6c2-06e5-8eec-6601-e86889114df2))
-  (polyline (pts (xy 118.11 217.17) (xy 118.11 189.23)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid dda76ac0-10c5-ad15-8d1f-706fe933c410))
-  (polyline (pts (xy 153.67 217.17) (xy 153.67 189.23)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 042cc238-85ec-8300-e122-287d90dace06))
-(junction (at 129.54 200.66) (diameter 0.762) (color 0 0 0 0 ) (uuid 1389c834-84ca-0b39-19be-946531520b9c))
-(junction (at 129.54 203.2) (diameter 0.762) (color 0 0 0 0 ) (uuid 9b3f248e-6d28-c8e5-b879-5039bcaad69e))
+  (wire (pts (xy 67.31 208.28) (xy 67.31 207.01)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 68ea4415-fc87-c777-5cd9-5a18556d2542))
+  (wire (pts (xy 67.31 214.63) (xy 67.31 213.36)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid f8c10b20-cbc7-2f25-0100-fa86a20e3491))
+  (wire (pts (xy 35.56 204.47) (xy 38.1 204.47)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 62e125b0-a100-8015-75f5-1f8c5648a939))
+  (wire (pts (xy 35.56 204.47) (xy 35.56 200.66)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 3f3077af-10d3-3f45-69f8-5a4ec4a3f964))
+  (wire (pts (xy 46.99 193.04) (xy 46.99 191.77)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 769e5753-ecff-ff7d-9bbd-16372ff6c879))
+  (wire (pts (xy 46.99 214.63) (xy 46.99 213.36)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 7821f7a4-2252-574c-ca60-454d6810d138))
+  (wire (pts (xy 34.29 201.93) (xy 38.1 201.93)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid eaa54a66-2ef3-f9f9-2de2-c2b1b388013e))
+  (wire (pts (xy 55.88 203.2) (xy 57.15 203.2)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 27564917-eb46-5190-1aa0-82aeb524e22f))
+  (wire (pts (xy 111.76 209.55) (xy 111.76 208.28)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 32b7c463-5369-230f-eac9-c2e9c843f497))
+  (wire (pts (xy 111.76 215.9) (xy 111.76 214.63)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 53811e8e-94da-3f94-4f74-68543406f5d1))
+  (wire (pts (xy 91.44 190.5) (xy 91.44 189.23)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 0028a3d3-dc29-2665-6960-d1081c2e160f))
+  (wire (pts (xy 81.28 201.93) (xy 82.55 201.93)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 946bb78e-67e3-a6d8-7389-fdd1affa711a))
+  (wire (pts (xy 81.28 212.09) (xy 81.28 201.93)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 2b82050b-3d81-13a1-2b08-cbb7a2459793))
+  (wire (pts (xy 91.44 212.09) (xy 91.44 210.82)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid dc2b5ec4-2ac5-053c-1694-b7f273fbb947))
+  (wire (pts (xy 81.28 199.39) (xy 82.55 199.39)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid d7441fd9-ed4a-242a-26d5-ffd378bc50a1))
+  (wire (pts (xy 100.33 200.66) (xy 101.6 200.66)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid abc48612-1ac1-03ab-6184-955945243d23))
+  (wire (pts (xy 128.27 208.28) (xy 130.81 208.28)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid fbc91465-1531-c176-c792-61d6b349ddfe))
+  (wire (pts (xy 128.27 208.28) (xy 128.27 194.31)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 4bb72a17-ee1b-95d1-05c0-359aef2aa898))
+  (wire (pts (xy 129.54 198.12) (xy 130.81 198.12)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid fed82206-8221-53f2-4dfb-c3d65e3bc691))
+  (wire (pts (xy 129.54 200.66) (xy 130.81 200.66)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid dcecd43d-0418-307d-0311-0e3522554b38))
+  (wire (pts (xy 129.54 203.2) (xy 130.81 203.2)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid a387c7ab-4203-205b-992b-8c7d252cf306))
+  (wire (pts (xy 129.54 212.09) (xy 129.54 198.12)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid d9011996-4958-b524-d437-da4fa7815390))
+  (wire (pts (xy 127.0 195.58) (xy 130.81 195.58)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 2445749e-755f-c3f1-38cd-f490e0dff169))
+  (wire (pts (xy 127.0 205.74) (xy 130.81 205.74)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 3f4aa8e9-a9e1-36e0-18d6-c64ae270bf14))
+  (polyline (pts (xy 26.67 186.69) (xy 71.12 186.69)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid e80c286b-57d7-f0e5-6295-c25ff68b9f90))
+  (polyline (pts (xy 26.67 219.71) (xy 71.12 219.71)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid ba897d8e-c2b8-1828-bf75-3123d117c394))
+  (polyline (pts (xy 26.67 219.71) (xy 26.67 186.69)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 84b227a1-5103-f0b3-1f0a-fce4e1896a29))
+  (polyline (pts (xy 71.12 219.71) (xy 71.12 186.69)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid e686d370-03a4-46a1-c993-2f5013a1562c))
+  (polyline (pts (xy 73.66 184.15) (xy 115.57 184.15)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 3d8d80ea-4324-1bab-ab0b-11bfed455210))
+  (polyline (pts (xy 73.66 220.98) (xy 115.57 220.98)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 0ed75bab-49b6-8b80-4585-9da0e89684e5))
+  (polyline (pts (xy 73.66 220.98) (xy 73.66 184.15)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 75a2b228-0e50-0e47-b01b-edd69816a69c))
+  (polyline (pts (xy 115.57 220.98) (xy 115.57 184.15)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 8da97ea9-6761-170a-232c-2979f96bde1b))
+  (polyline (pts (xy 118.11 189.23) (xy 153.67 189.23)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid ac23cde2-9bce-36d1-b9a7-a258fa4edd02))
+  (polyline (pts (xy 118.11 217.17) (xy 153.67 217.17)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid a41186df-5944-7854-7f00-47a614acc130))
+  (polyline (pts (xy 118.11 217.17) (xy 118.11 189.23)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 2c2366e1-2ec8-d4cb-63c1-31f076ea1e3b))
+  (polyline (pts (xy 153.67 217.17) (xy 153.67 189.23)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid ee57f4ff-c79b-51ad-c9cf-1a76e4e1906e))
+(junction (at 129.54 200.66) (diameter 0.762) (color 0 0 0 0 ) (uuid 37a79177-d3c8-f702-8602-b58b900e00fb))
+(junction (at 129.54 203.2) (diameter 0.762) (color 0 0 0 0 ) (uuid 2b7c7bdd-d60d-bcde-9fb0-2e8d8afae1de))
 
   (label "mic0_mic" (at 26.67 186.69 0)
     (effects (font (size 0.762 0.762)) (justify left bottom ))
-    (uuid 2fa001f2-7827-bfc1-e04d-2b9e5f8f7d0f)
+    (uuid 9f14226e-bee3-5144-dcec-31a1baf1b04f)
   )
 
   (label "mic1_mic" (at 73.66 184.15 0)
     (effects (font (size 0.762 0.762)) (justify left bottom ))
-    (uuid 4177fddd-9575-740c-fedf-0b73e81dc483)
+    (uuid c43cdffa-fe6e-b177-5b77-d87822296539)
   )
 
   (label "conn_beeper-connector" (at 118.11 189.23 0)
     (effects (font (size 0.762 0.762)) (justify left bottom ))
-    (uuid a29b4d81-295e-4e92-4a0b-d06942221206)
+    (uuid 935f5794-0c22-91be-1457-382ff89cdef5)
   )
 
   (label "PDM_clk" (at 34.29 201.93 180)
     (effects (font (size 0.762 0.762)) (justify right bottom ))
-    (uuid 1f25a63b-20b2-3948-04c7-09fdc491f99a)
+    (uuid 644476e5-0971-9107-e47c-b65e6328ec43)
   )
 
   (label "PDM_data" (at 57.15 203.2 0)
     (effects (font (size 0.762 0.762)) (justify left bottom ))
-    (uuid 4c496f28-8ee7-7d29-007d-4c6e00c7a66e)
+    (uuid 6b739fad-76c3-8a0d-5d32-f409b3b191a5)
   )
 
   (label "PDM_clk" (at 81.28 199.39 180)
     (effects (font (size 0.762 0.762)) (justify right bottom ))
-    (uuid 7516150d-34c4-20e4-be82-54c815f4af55)
+    (uuid 070aed4b-dc83-8c34-50c6-279c56a0a7b0)
   )
 
   (label "PDM_data" (at 101.6 200.66 0)
     (effects (font (size 0.762 0.762)) (justify left bottom ))
-    (uuid fd20812e-5642-b42e-3908-7db2cda52238)
+    (uuid ec9dd610-f2f7-a817-d7da-8a28ed873305)
   )
 
   (label "PDM_clk" (at 127.0 195.58 180)
     (effects (font (size 0.762 0.762)) (justify right bottom ))
-    (uuid 9b1e881c-736d-504e-7471-52130fb4c0c8)
+    (uuid e92e286b-1846-75d0-bddd-44c6ef0bd41e)
   )
 
   (label "PDM_data" (at 127.0 205.74 180)
     (effects (font (size 0.762 0.762)) (justify right bottom ))
-    (uuid 7102bd86-ed73-b45b-f520-ff195a302e78)
-  )
-
-  (symbol (lib_id "edge_FH19C_4S_0_5SH_10_") (at 142.24 201.93 0.0)  (unit 1)
-    (in_bom yes) (on_board yes) 
-    (uuid 64a15b41-3040-981f-97f8-0d4b5baeec2c)
-    (property "Reference" "U6" (id 0) (at 133.35 191.678 0.0) (effects (font (size 0.762 0.762)) (justify left bottom )))
-    (property "Value" "Edge-FH19C-4S-0.5SH(10)" (id 1) (at 133.35 192.74 0.0) (effects (font (size 0.762 0.762)) (justify left bottom )))
-    (property "Footprint" "beeper-flex:EDGE_LP" (id 2) (at 142.24 201.93 0.0) (effects (font (size 0.762 0.762)) hide))
-    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/822/FH19C_FH19SC_Series.pdf" (id 3) (at 142.24 201.93 0.0) (effects (font (size 0.762 0.762)) hide))
-      (property "Name" "conn_conn" (id 4) (at 142.24 201.93 0.0) (effects (font (size 0.762 0.762)) hide))
-      (property "Description" "Edge for 4 Position FFC, FPC Connector Contacts, Bottom 0.020\" (0.50mm) Surface Mount, Right Angle" (id 5) (at 142.24 201.93 0.0) (effects (font (size 0.762 0.762)) hide))
-      (property "Manufacturer" "Hirose" (id 6) (at 142.24 201.93 0.0) (effects (font (size 0.762 0.762)) hide))
-      (property "MPN" "Edge-FH19C-4S-0.5SH(10)" (id 7) (at 142.24 201.93 0.0) (effects (font (size 0.762 0.762)) hide))
-    
-    (pin "1" (uuid 0f5b2a63-cb88-2364-4d32-0a28568bb76f))
-    (pin "2" (uuid 60fc3220-9e63-4a90-c819-d160f02bf6bd))
-    (pin "3" (uuid db24da56-e232-427b-094c-4ee7513bada2))
-    (pin "4" (uuid 5adae525-9264-a18d-4bc0-6143cd566aaf))
-    (pin "5" (uuid d2a00d5f-0b55-3968-9b62-0535f471019c))
-    (pin "6" (uuid 3113e0f9-7419-c6b0-bd63-deeb0c67d58a))
-    (instances
-      (project "beeper-flex"
-        (path "/ca62056e-9935-efdd-f40b-25c727c3d615"
-          (reference "U6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "IM69D130V01XTSA1") (at 46.99 203.2 0.0)  (unit 1)
-    (in_bom yes) (on_board yes) 
-    (uuid 862f72dc-4727-9482-6f66-5aa810edab54)
-    (property "Reference" "U4" (id 0) (at 40.64 194.218 0.0) (effects (font (size 0.762 0.762)) (justify left bottom )))
-    (property "Value" "IM69D130V01XTSA1" (id 1) (at 40.64 195.28 0.0) (effects (font (size 0.762 0.762)) (justify left bottom )))
-    (property "Footprint" "beeper-flex:LP" (id 2) (at 46.99 203.2 0.0) (effects (font (size 0.762 0.762)) hide))
-    (property "Datasheet" "https://www.mouser.com/datasheet/2/196/Infineon_IM69D130_DataSheet_v01_00_EN-3163920.pdf" (id 3) (at 46.99 203.2 0.0) (effects (font (size 0.762 0.762)) hide))
-      (property "Name" "mic0_mic" (id 4) (at 46.99 203.2 0.0) (effects (font (size 0.762 0.762)) hide))
-      (property "Description" "20 Hz ~ 20 kHz Digital, PDM Microphone MEMS (Silicon) 1.62 V ~ 3.6 V Omnidirectional (-36dB ±1dB @ 94dB SPL) Solder Pads" (id 5) (at 46.99 203.2 0.0) (effects (font (size 0.762 0.762)) hide))
-      (property "Manufacturer" "Infineon" (id 6) (at 46.99 203.2 0.0) (effects (font (size 0.762 0.762)) hide))
-      (property "MPN" "IM69D130V01XTSA1" (id 7) (at 46.99 203.2 0.0) (effects (font (size 0.762 0.762)) hide))
-    
-    (pin "CLOCK" (uuid 72772a8f-3564-6961-842c-ba1cfb1122f9))
-    (pin "SELECT" (uuid 5a81d3d8-be70-b424-f6da-4f13acc604ec))
-    (pin "DATA" (uuid 8e8759fa-6463-2d59-2d8d-cf7b3e6671ce))
-    (pin "VDD" (uuid 5d417b4f-4c9e-f5fa-6f25-7afc72303842))
-    (pin "GND" (uuid 0024bd12-b39d-167c-7f9b-42ce0c8c02a1))
-    (instances
-      (project "beeper-flex"
-        (path "/ca62056e-9935-efdd-f40b-25c727c3d615"
-          (reference "U4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "my_capacitor") (at 111.76 212.09 180.0)  (unit 1)
-    (in_bom yes) (on_board yes) 
-    (uuid a080027b-12b2-1dda-44a2-710b9c5d3582)
-    (property "Reference" "C4" (id 0) (at 110.49 210.82 0.0) (effects (font (size 0.762 0.762)) (justify left )))
-    (property "Value" "100n" (id 1) (at 110.49 213.36 0.0) (effects (font (size 0.762 0.762)) (justify left )))
-    (property "Footprint" "beeper-flex:Pkg0201" (id 2) (at 111.76 212.09 0.0) (effects (font (size 0.762 0.762)) hide))
-    (property "Datasheet" "http://www.calchipelectronics.com/pdf/gmc_series.pdf" (id 3) (at 111.76 212.09 0.0) (effects (font (size 0.762 0.762)) hide))
-      (property "Name" "mic1_cap" (id 4) (at 111.76 212.09 180.0) (effects (font (size 0.762 0.762)) hide))
-      (property "Description" "10V 100nF X5R 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" (id 5) (at 111.76 212.09 180.0) (effects (font (size 0.762 0.762)) hide))
-      (property "Manufacturer" "Cal-Chip Electronics" (id 6) (at 111.76 212.09 180.0) (effects (font (size 0.762 0.762)) hide))
-      (property "MPN" "GMC02X5R104K10NT" (id 7) (at 111.76 212.09 180.0) (effects (font (size 0.762 0.762)) hide))
-      (property "Reference-prefix" "C" (id 8) (at 111.76 212.09 180.0) (effects (font (size 0.762 0.762)) hide))
-    
-    (pin "1" (uuid eadb4f32-4c46-8e75-b07b-54da6216851a))
-    (pin "2" (uuid 2ffcbd4e-4a1f-5c65-1f2d-4b139413a12a))
-    (instances
-      (project "beeper-flex"
-        (path "/ca62056e-9935-efdd-f40b-25c727c3d615"
-          (reference "C4") (unit 1)
-        )
-      )
-    )
+    (uuid 60a55d3e-eb92-c3db-75bf-2f14005ccd82)
   )
 
   (symbol (lib_id "IM69D130V01XTSA1") (at 91.44 200.66 0.0)  (unit 1)
     (in_bom yes) (on_board yes) 
-    (uuid c9c7e68b-e682-2d81-7062-b4855da7ce5f)
+    (uuid da197434-444f-4e70-9c26-2734578f4586)
     (property "Reference" "U3" (id 0) (at 85.09 191.678 0.0) (effects (font (size 0.762 0.762)) (justify left bottom )))
     (property "Value" "IM69D130V01XTSA1" (id 1) (at 85.09 192.74 0.0) (effects (font (size 0.762 0.762)) (justify left bottom )))
     (property "Footprint" "beeper-flex:LP" (id 2) (at 91.44 200.66 0.0) (effects (font (size 0.762 0.762)) hide))
@@ -552,15 +475,68 @@
       (property "Manufacturer" "Infineon" (id 6) (at 91.44 200.66 0.0) (effects (font (size 0.762 0.762)) hide))
       (property "MPN" "IM69D130V01XTSA1" (id 7) (at 91.44 200.66 0.0) (effects (font (size 0.762 0.762)) hide))
     
-    (pin "CLOCK" (uuid 4b9fe3ed-869e-a102-041d-1998ffedc129))
-    (pin "SELECT" (uuid beaf7c2b-49c2-292c-e5eb-5897baf64143))
-    (pin "DATA" (uuid 00b4fe70-aefc-6890-30a5-067522c7ddd6))
-    (pin "VDD" (uuid cf334f35-53f4-a515-a7f9-6f51ad9cc7f3))
-    (pin "GND" (uuid e621f6e3-2e23-e936-a876-b7ccab045b6f))
+    (pin "CLOCK" (uuid 542ae4d4-1cdc-74ca-94b9-4ec043e25773))
+    (pin "SELECT" (uuid 5a316fca-12eb-2f35-13b4-f78da20202a5))
+    (pin "DATA" (uuid 6270d4ff-f9ac-092e-3cf4-8ab8e1d98d06))
+    (pin "VDD" (uuid 94595696-c4f9-0961-3b77-8ae5a0faac45))
+    (pin "GND" (uuid 4602ee9b-adc5-3b8b-2ead-f51464ec05d2))
     (instances
       (project "beeper-flex"
-        (path "/ca62056e-9935-efdd-f40b-25c727c3d615"
+        (path "/31b347d8-a106-ce3a-a3a2-ea9c49315e1e"
           (reference "U3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "edge_FH19C_6S_0_5SH_10_") (at 142.24 201.93 0.0)  (unit 1)
+    (in_bom yes) (on_board yes) 
+    (uuid acf51cd6-f694-4cd3-fc2d-19c985d5a7ea)
+    (property "Reference" "U6" (id 0) (at 133.35 191.678 0.0) (effects (font (size 0.762 0.762)) (justify left bottom )))
+    (property "Value" "Edge-FH19C-6S-0.5SH(10)" (id 1) (at 133.35 192.74 0.0) (effects (font (size 0.762 0.762)) (justify left bottom )))
+    (property "Footprint" "beeper-flex:EDGE_LP" (id 2) (at 142.24 201.93 0.0) (effects (font (size 0.762 0.762)) hide))
+    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/822/FH19C_FH19SC_Series.pdf" (id 3) (at 142.24 201.93 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Name" "conn_conn" (id 4) (at 142.24 201.93 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Description" "Edge for 6 Position FFC, FPC Connector Contacts, Bottom 0.020\" (0.50mm) Surface Mount, Right Angle" (id 5) (at 142.24 201.93 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Manufacturer" "Hirose" (id 6) (at 142.24 201.93 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "MPN" "Edge-FH19C-6S-0.5SH(10)" (id 7) (at 142.24 201.93 0.0) (effects (font (size 0.762 0.762)) hide))
+    
+    (pin "1" (uuid 7c744de1-e0d9-842c-bf17-6bc37e39e76b))
+    (pin "2" (uuid b93b9119-be8a-52ea-84e4-879c39878e6c))
+    (pin "3" (uuid 5de36a13-56ae-1333-2d4c-a70a9f0837c6))
+    (pin "4" (uuid 1c112ab4-ea79-3f0c-600d-ad767cb2c14b))
+    (pin "5" (uuid 684da84c-cd24-fd6b-0944-776ece9ba5f6))
+    (pin "6" (uuid 616ee677-1649-3455-e105-aff1582c1c0f))
+    (instances
+      (project "beeper-flex"
+        (path "/31b347d8-a106-ce3a-a3a2-ea9c49315e1e"
+          (reference "U6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "IM69D130V01XTSA1") (at 46.99 203.2 0.0)  (unit 1)
+    (in_bom yes) (on_board yes) 
+    (uuid cd4bdb59-5663-5542-91c2-4b6541a7762c)
+    (property "Reference" "U4" (id 0) (at 40.64 194.218 0.0) (effects (font (size 0.762 0.762)) (justify left bottom )))
+    (property "Value" "IM69D130V01XTSA1" (id 1) (at 40.64 195.28 0.0) (effects (font (size 0.762 0.762)) (justify left bottom )))
+    (property "Footprint" "beeper-flex:LP" (id 2) (at 46.99 203.2 0.0) (effects (font (size 0.762 0.762)) hide))
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/196/Infineon_IM69D130_DataSheet_v01_00_EN-3163920.pdf" (id 3) (at 46.99 203.2 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Name" "mic0_mic" (id 4) (at 46.99 203.2 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Description" "20 Hz ~ 20 kHz Digital, PDM Microphone MEMS (Silicon) 1.62 V ~ 3.6 V Omnidirectional (-36dB ±1dB @ 94dB SPL) Solder Pads" (id 5) (at 46.99 203.2 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Manufacturer" "Infineon" (id 6) (at 46.99 203.2 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "MPN" "IM69D130V01XTSA1" (id 7) (at 46.99 203.2 0.0) (effects (font (size 0.762 0.762)) hide))
+    
+    (pin "CLOCK" (uuid 401b5d10-9ef9-1753-7df5-83510a6de0be))
+    (pin "SELECT" (uuid 178ec76e-341e-be1d-a926-aeb2d8da66db))
+    (pin "DATA" (uuid 42818a81-34ae-ac73-c880-d3b86b0c7513))
+    (pin "VDD" (uuid 14f257a3-ec02-2133-f8f8-c8351933dc14))
+    (pin "GND" (uuid 4966511e-2f30-7eeb-3f66-0dbbad6f3047))
+    (instances
+      (project "beeper-flex"
+        (path "/31b347d8-a106-ce3a-a3a2-ea9c49315e1e"
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -568,7 +544,7 @@
 
   (symbol (lib_id "my_capacitor") (at 67.31 210.82 180.0)  (unit 1)
     (in_bom yes) (on_board yes) 
-    (uuid 839c7f9a-a23a-faa5-5dc2-4b88a75fc24b)
+    (uuid 84b84e21-565a-81b9-62cc-da578359758e)
     (property "Reference" "C5" (id 0) (at 66.04 209.55 0.0) (effects (font (size 0.762 0.762)) (justify left )))
     (property "Value" "100n" (id 1) (at 66.04 212.09 0.0) (effects (font (size 0.762 0.762)) (justify left )))
     (property "Footprint" "beeper-flex:Pkg0201" (id 2) (at 67.31 210.82 0.0) (effects (font (size 0.762 0.762)) hide))
@@ -579,12 +555,36 @@
       (property "MPN" "GMC02X5R104K10NT" (id 7) (at 67.31 210.82 180.0) (effects (font (size 0.762 0.762)) hide))
       (property "Reference-prefix" "C" (id 8) (at 67.31 210.82 180.0) (effects (font (size 0.762 0.762)) hide))
     
-    (pin "1" (uuid 4fb10d47-f591-69cd-b1e5-9ae87c17434d))
-    (pin "2" (uuid eace0afa-dc52-f0a1-8b80-7dd15153e486))
+    (pin "1" (uuid 0bf39884-d41c-f268-9500-5b2baf5119f7))
+    (pin "2" (uuid c7c157be-ee67-9c05-859e-4e289981e30c))
     (instances
       (project "beeper-flex"
-        (path "/ca62056e-9935-efdd-f40b-25c727c3d615"
+        (path "/31b347d8-a106-ce3a-a3a2-ea9c49315e1e"
           (reference "C5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "my_capacitor") (at 111.76 212.09 180.0)  (unit 1)
+    (in_bom yes) (on_board yes) 
+    (uuid d89eba60-8f62-2fd6-8661-01169fc6491d)
+    (property "Reference" "C4" (id 0) (at 110.49 210.82 0.0) (effects (font (size 0.762 0.762)) (justify left )))
+    (property "Value" "100n" (id 1) (at 110.49 213.36 0.0) (effects (font (size 0.762 0.762)) (justify left )))
+    (property "Footprint" "beeper-flex:Pkg0201" (id 2) (at 111.76 212.09 0.0) (effects (font (size 0.762 0.762)) hide))
+    (property "Datasheet" "http://www.calchipelectronics.com/pdf/gmc_series.pdf" (id 3) (at 111.76 212.09 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Name" "mic1_cap" (id 4) (at 111.76 212.09 180.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Description" "10V 100nF X5R 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" (id 5) (at 111.76 212.09 180.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Manufacturer" "Cal-Chip Electronics" (id 6) (at 111.76 212.09 180.0) (effects (font (size 0.762 0.762)) hide))
+      (property "MPN" "GMC02X5R104K10NT" (id 7) (at 111.76 212.09 180.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Reference-prefix" "C" (id 8) (at 111.76 212.09 180.0) (effects (font (size 0.762 0.762)) hide))
+    
+    (pin "1" (uuid 33dc48af-0cbe-25b8-5d31-1ec0d3ef7c03))
+    (pin "2" (uuid 64b50317-2556-e185-f919-14b0fb436ef1))
+    (instances
+      (project "beeper-flex"
+        (path "/31b347d8-a106-ce3a-a3a2-ea9c49315e1e"
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -592,15 +592,15 @@
 
   (symbol (lib_id "VDDMIC") (at 67.31 207.01 90.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid 5ed5023d-001e-1be0-eb6a-eb0f0887d7c2)
+    (uuid 94afa124-c850-7c7a-3cff-49d423c5ec46)
     (property "Reference" "#PWR?" (id 0) (at 67.31 207.01 0) (effects hide))
     (property "Value" "VDDMIC" (id 1) (at 67.818 207.518 270.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid 64baa4c4-53d3-a822-b74d-a71ef658fc8a))
+    (pin "~" (uuid 62f82bc9-4e96-57bc-b1a4-cbdee4137b8c))
     (instances
       (project "beeper-flex"
-        (path "/ca62056e-9935-efdd-f40b-25c727c3d615"
+        (path "/31b347d8-a106-ce3a-a3a2-ea9c49315e1e"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -609,32 +609,15 @@
 
   (symbol (lib_id "GND") (at 67.31 214.63 0.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid 38ebbbe4-b84a-6d8c-1d2b-9d7562ea05dc)
+    (uuid 81a4dad4-fff6-574b-d50d-455ca0023ee7)
     (property "Reference" "#PWR?" (id 0) (at 67.31 214.63 0) (effects hide))
     (property "Value" "GND" (id 1) (at 64.77 217.17 0.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid 29efb483-dceb-fe85-868b-b3c6453df15d))
+    (pin "~" (uuid 9a903cc9-52a0-6602-68a6-fad8884283d2))
     (instances
       (project "beeper-flex"
-        (path "/ca62056e-9935-efdd-f40b-25c727c3d615"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "VDDMIC") (at 46.99 191.77 90.0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 38dcf934-6e02-1510-2a53-4a02d207642a)
-    (property "Reference" "#PWR?" (id 0) (at 46.99 191.77 0) (effects hide))
-    (property "Value" "VDDMIC" (id 1) (at 47.498 192.278 270.0) (effects (font (size 0.762 0.762))))
-    (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
-    (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid 746f63c0-fd71-6df6-e817-5da821f74467))
-    (instances
-      (project "beeper-flex"
-        (path "/ca62056e-9935-efdd-f40b-25c727c3d615"
+        (path "/31b347d8-a106-ce3a-a3a2-ea9c49315e1e"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -643,15 +626,32 @@
 
   (symbol (lib_id "VDDMIC") (at 35.56 200.66 90.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid 58fd8402-a7ae-c8c5-bfe7-32483b30113b)
+    (uuid 8db2114d-7c96-9496-ca19-11fbce72b741)
     (property "Reference" "#PWR?" (id 0) (at 35.56 200.66 0) (effects hide))
     (property "Value" "VDDMIC" (id 1) (at 36.068 201.168 270.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid 447a785a-7c82-f016-212d-72098550f79d))
+    (pin "~" (uuid 2ea109d8-bf86-9fcb-dac6-bd7d69faad7a))
     (instances
       (project "beeper-flex"
-        (path "/ca62056e-9935-efdd-f40b-25c727c3d615"
+        (path "/31b347d8-a106-ce3a-a3a2-ea9c49315e1e"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "VDDMIC") (at 46.99 191.77 90.0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid d2143240-d14c-0214-f8db-7f0b7149728f)
+    (property "Reference" "#PWR?" (id 0) (at 46.99 191.77 0) (effects hide))
+    (property "Value" "VDDMIC" (id 1) (at 47.498 192.278 270.0) (effects (font (size 0.762 0.762))))
+    (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
+    (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
+    (pin "~" (uuid 2ef225f4-8bbf-24b3-e790-a89e69ba1b10))
+    (instances
+      (project "beeper-flex"
+        (path "/31b347d8-a106-ce3a-a3a2-ea9c49315e1e"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -660,15 +660,15 @@
 
   (symbol (lib_id "GND") (at 46.99 214.63 0.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid 80356aa1-ffd9-b5e0-0e5d-68e053a8d07e)
+    (uuid 563e739f-233f-d878-3b53-039e109b8096)
     (property "Reference" "#PWR?" (id 0) (at 46.99 214.63 0) (effects hide))
     (property "Value" "GND" (id 1) (at 44.45 217.17 0.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid 7c6aef13-5e8d-d3fd-6af2-833c12746b73))
+    (pin "~" (uuid d6b8664c-98c3-84c5-34cc-867d6202da10))
     (instances
       (project "beeper-flex"
-        (path "/ca62056e-9935-efdd-f40b-25c727c3d615"
+        (path "/31b347d8-a106-ce3a-a3a2-ea9c49315e1e"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -677,15 +677,15 @@
 
   (symbol (lib_id "VDDMIC") (at 111.76 208.28 90.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid 65d97bd1-a9d1-c1a3-c040-202a3ce81a8d)
+    (uuid 3d4a288b-c27b-20ea-eeba-e018ecd7323e)
     (property "Reference" "#PWR?" (id 0) (at 111.76 208.28 0) (effects hide))
     (property "Value" "VDDMIC" (id 1) (at 112.268 208.788 270.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid 424266f4-c74f-571c-09b5-79aa8f4d1d49))
+    (pin "~" (uuid 65d5f996-569e-3649-6441-9002494dd854))
     (instances
       (project "beeper-flex"
-        (path "/ca62056e-9935-efdd-f40b-25c727c3d615"
+        (path "/31b347d8-a106-ce3a-a3a2-ea9c49315e1e"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -694,15 +694,15 @@
 
   (symbol (lib_id "GND") (at 111.76 215.9 0.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid ccd03a40-5820-dca4-d10f-820326dfcdc9)
+    (uuid fff44b48-653f-4eaa-ea47-34c8062970cd)
     (property "Reference" "#PWR?" (id 0) (at 111.76 215.9 0) (effects hide))
     (property "Value" "GND" (id 1) (at 109.22 218.44 0.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid 167bac6f-1567-170d-3ae3-d12b9c94ccfa))
+    (pin "~" (uuid b0520205-a0b3-d844-6465-08d72f29a616))
     (instances
       (project "beeper-flex"
-        (path "/ca62056e-9935-efdd-f40b-25c727c3d615"
+        (path "/31b347d8-a106-ce3a-a3a2-ea9c49315e1e"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -711,15 +711,15 @@
 
   (symbol (lib_id "VDDMIC") (at 91.44 189.23 90.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid cab5ce81-c7a1-f9d3-5ce3-9e6a18432d66)
+    (uuid e15b9077-b3ae-744d-0be4-8f31a545f13c)
     (property "Reference" "#PWR?" (id 0) (at 91.44 189.23 0) (effects hide))
     (property "Value" "VDDMIC" (id 1) (at 91.948 189.738 270.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid bb2eea9a-27b8-801a-dde3-0cdc1aa4657c))
+    (pin "~" (uuid f5f48572-76ad-8026-bb32-b14e853729f8))
     (instances
       (project "beeper-flex"
-        (path "/ca62056e-9935-efdd-f40b-25c727c3d615"
+        (path "/31b347d8-a106-ce3a-a3a2-ea9c49315e1e"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -728,15 +728,15 @@
 
   (symbol (lib_id "GND") (at 81.28 212.09 0.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid 9091a92e-7124-1a48-8a26-2482f0a574b8)
+    (uuid 7d33cf2d-9f6d-923e-58bd-cd7e8a40c6bc)
     (property "Reference" "#PWR?" (id 0) (at 81.28 212.09 0) (effects hide))
     (property "Value" "GND" (id 1) (at 78.74 214.63 0.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid 1f07936c-b5fc-353e-8286-930a7a2d66ef))
+    (pin "~" (uuid c8fa8d5e-8172-c9fc-d680-ee44e5dc0cc0))
     (instances
       (project "beeper-flex"
-        (path "/ca62056e-9935-efdd-f40b-25c727c3d615"
+        (path "/31b347d8-a106-ce3a-a3a2-ea9c49315e1e"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -745,15 +745,15 @@
 
   (symbol (lib_id "GND") (at 91.44 212.09 0.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid f6877967-9922-5fd3-fb21-3b5644113cf9)
+    (uuid 12b93713-6ac2-5f48-55a0-facf50353923)
     (property "Reference" "#PWR?" (id 0) (at 91.44 212.09 0) (effects hide))
     (property "Value" "GND" (id 1) (at 88.9 214.63 0.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid a3f42e40-71ee-087f-8dc4-7f5d3f1ef656))
+    (pin "~" (uuid 564929e8-13e1-8fa4-f241-7860ead95d4a))
     (instances
       (project "beeper-flex"
-        (path "/ca62056e-9935-efdd-f40b-25c727c3d615"
+        (path "/31b347d8-a106-ce3a-a3a2-ea9c49315e1e"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -762,15 +762,15 @@
 
   (symbol (lib_id "VDDMIC") (at 128.27 194.31 90.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid 5e338382-7605-03c7-555b-ec40f8c6591e)
+    (uuid 7d38f3f9-83ad-b850-abfd-10dd6f9f669f)
     (property "Reference" "#PWR?" (id 0) (at 128.27 194.31 0) (effects hide))
     (property "Value" "VDDMIC" (id 1) (at 128.778 194.818 270.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid 0d8c8ee9-d53d-6ec9-244d-9edcc864278b))
+    (pin "~" (uuid 6deb0713-28ab-4660-5ce3-8c724b3da3ba))
     (instances
       (project "beeper-flex"
-        (path "/ca62056e-9935-efdd-f40b-25c727c3d615"
+        (path "/31b347d8-a106-ce3a-a3a2-ea9c49315e1e"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -779,15 +779,15 @@
 
   (symbol (lib_id "GND") (at 129.54 212.09 0.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid 40c6a0c8-858a-c0f1-96a3-5e73f419d8f3)
+    (uuid 16630610-2461-fba9-4a82-085794c40bbb)
     (property "Reference" "#PWR?" (id 0) (at 129.54 212.09 0) (effects hide))
     (property "Value" "GND" (id 1) (at 127.0 214.63 0.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid 16a5904e-021a-0815-6e72-8c9c94eba279))
+    (pin "~" (uuid 06ae2fdf-28f7-ba7b-4747-b7471603fbf4))
     (instances
       (project "beeper-flex"
-        (path "/ca62056e-9935-efdd-f40b-25c727c3d615"
+        (path "/31b347d8-a106-ce3a-a3a2-ea9c49315e1e"
           (reference "#PWR?") (unit 1)
         )
       )

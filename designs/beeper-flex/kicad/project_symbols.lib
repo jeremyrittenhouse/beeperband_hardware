@@ -324,20 +324,20 @@
 )
     )
 
-    (symbol "edge_FH19C_4S_0_5SH_10_" 
+    (symbol "edge_FH19C_6S_0_5SH_10_" 
       (in_bom yes) (on_board yes)
       
       (property "Reference" "U" (id 0) (at -8.89 10.252 0.0)
         (effects (font (size 0.3048 0.3048))  (justify left bottom )))
       
-      (property "Value" "edge_FH19C_4S_0_5SH_10_" (id 1) (at -8.89 9.19 0.0)
+      (property "Value" "edge_FH19C_6S_0_5SH_10_" (id 1) (at -8.89 9.19 0.0)
         (effects (font (size 0.3048 0.3048))  (justify left bottom )))
       (property "Footprint" "" (id 2) (at 0 0 0)
         (effects (font (size 0.635 0.635)) hide))
       (property "Datasheet" "~" (id 3) (at 0 0 0)
         (effects (font (size 0.635 0.635)) hide))
       
-(symbol "edge_FH19C_4S_0_5SH_10__1_0"
+(symbol "edge_FH19C_6S_0_5SH_10__1_0"
 
       (pin unspecified line (at -11.43 6.35 0) (length 2.54)
         (name "1" (effects (font (size 0.762 0.762))))

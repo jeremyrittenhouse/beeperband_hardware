@@ -122,13 +122,19 @@ pcb-landpattern edge-lp :
     Point( 1.750,  1.250)
     Point( 1.750, -1.250)
     ])
+  layer(BoardEdge()) = Polyline(0.100, [
+    Point(-1.750, -1.250)
+    Point(-1.750,  1.250)
+    Point( 1.750,  1.250)
+    Point( 1.750, -1.250)
+    ])
   layer(CustomLayer("stiffener", Bottom)) = Rectangle(3.500, 3.500, loc(0.000, -0.250))
 
 public pcb-component flex-edge :
-  name = "edge-FH19C-4S-0.5SH(10)"
-  description = "Edge for 4 Position FFC, FPC Connector Contacts, Bottom 0.020\" (0.50mm) Surface Mount, Right Angle"
+  name = "edge-FH19C-6S-0.5SH(10)"
+  description = "Edge for 6 Position FFC, FPC Connector Contacts, Bottom 0.020\" (0.50mm) Surface Mount, Right Angle"
   manufacturer = "Hirose"
-  mpn = "Edge-FH19C-4S-0.5SH(10)"
+  mpn = "Edge-FH19C-6S-0.5SH(10)"
   datasheet = "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/822/FH19C_FH19SC_Series.pdf"
 
   pin-properties :

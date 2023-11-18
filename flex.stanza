@@ -97,10 +97,10 @@ public pcb-module beeper-flex :
 
   ; power planes (let's assume 2 layers for now...)
   geom(VDDMIC) :
-    copper-pour(LayerIndex(0), isolate = 0.10, rank = 1) = signal-shape
+    copper-pour(LayerIndex(0), isolate = 0.100, rank = 1) = signal-shape
   
   geom(GND) :
-    copper-pour(LayerIndex(1), isolate = 0.08, rank = 1) = signal-shape
+    copper-pour(LayerIndex(1), isolate = 0.080, rank = 1) = signal-shape
 
   schematic-group(self) = flex-board
   layout-group(self) = flex-board

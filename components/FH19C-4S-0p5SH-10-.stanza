@@ -83,7 +83,8 @@ pcb-pad edge-smd-pad :
   name = "rectangle-smd-pad"
   type = SMD
   shape = Rectangle(0.300, 2.500)
-
+  layer(SolderMask(Top)) = Rectangle(0.300, 2.500)
+  
 pcb-landpattern edge-lp :
   pad p[ 1] : edge-smd-pad at loc( 0.750, 0.000) on Top
   pad p[ 2] : edge-smd-pad at loc( 0.250, 0.000) on Top
@@ -110,6 +111,12 @@ pcb-landpattern edge-lp :
     Point( 1.250, -1.250)
     ])
   layer(CustomLayer("Fab", Bottom)) = Polyline(0.100, [
+    Point(-1.250, -1.250)
+    Point(-1.250,  1.250)
+    Point( 1.250,  1.250)
+    Point( 1.250, -1.250)
+    ])
+  layer(BoardEdge()) = Polyline(0.100, [
     Point(-1.250, -1.250)
     Point(-1.250,  1.250)
     Point( 1.250,  1.250)

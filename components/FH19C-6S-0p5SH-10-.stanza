@@ -122,12 +122,12 @@ pcb-landpattern edge-lp :
     Point( 1.750,  1.250)
     Point( 1.750, -1.250)
     ])
-  layer(BoardEdge()) = Polyline(0.100, [
-    Point(-1.750, -1.250)
-    Point(-1.750,  1.250)
-    Point( 1.750,  1.250)
-    Point( 1.750, -1.250)
-    ])
+  ; layer(BoardEdge()) = Polyline(0.100, [
+  ;   Point(-1.750, -1.250)
+  ;   Point(-1.750,  1.250)
+  ;   Point( 1.750,  1.250)
+  ;   Point( 1.750, -1.250)
+  ;   ])
   layer(CustomLayer("stiffener", Bottom)) = Rectangle(3.500, 3.500, loc(0.000, -0.500))
 
 public pcb-component flex-edge :

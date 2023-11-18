@@ -346,6 +346,7 @@
     (property "Sheetfile" "beeper-flex.kicad_sch")
     (property "Sheetname" "")
     (path "/acf51cd6-f694-4cd3-fc2d-19c985d5a7ea")
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "U6" (at -1.011441 2.236676) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify left))
       (tstamp 8fdd170a-1c56-604a-8bbf-107745e3573d)

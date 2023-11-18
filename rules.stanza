@@ -30,7 +30,7 @@ public pcb-rules my-flex-rules :
   min-copper-width = 0.080 
   min-copper-copper-space = 0.080 
   min-copper-hole-space = 0.200
-  min-copper-edge-space = 0.180
+  min-copper-edge-space = 0.150
   min-annular-ring = 0.100
   min-drill-diameter = 0.200
   min-silkscreen-width = 0.100
@@ -38,7 +38,7 @@ public pcb-rules my-flex-rules :
   min-pitch-bga = 0.300
   max-board-width = 234.0
   max-board-height = 490.0
-  min-silk-solder-mask-space = 0.127
+  min-silk-solder-mask-space = 0.150
   min-silkscreen-text-height = 0.700
   solder-mask-registration = 0.100
   min-th-pad-expand-outer = 0.2032

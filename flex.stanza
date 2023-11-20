@@ -71,11 +71,11 @@ public pcb-module beeper-flex :
   place(mic[1]) at loc(  1.279 - 0.680, 5.695,   0.0) on Top
  
   net (main conn.c)
-  layer(Cutout()) = Polyline(0.200, [
-    Arc(-17.559, 5.695, 0.270, 0.0, 360.000)])
-  layer(Cutout()) = Polyline(0.200, [
-    Arc(1.279, 5.695, 0.300, 0.0, 360.000)])
-
+  layer(Cutout()) = Circle(-17.559, 5.695, 0.340) ;   ; layer(Cutout()) = Circle(0.680, 0.000, 0.400)
+  layer(Cutout()) = Circle(  1.279, 5.695, 0.340) ;   ; layer(Cutout()) = Circle(0.680, 0.000, 0.400)
+  layer(SolderMask(Top)) = Polyline(0.450, [Arc(Point(-17.559, 5.695), (0.580 + 0.225), 0.00, 360.00)])
+  layer(SolderMask(Top)) = Polyline(0.450, [Arc(Point(  1.279, 5.695), (0.580 + 0.225), 0.00, 360.00)])
+  
   ; net VDDVAD (vad.VDD)
   net VDDMIC (mic[0].VDD mic[1].VDD mic[0].SELECT) ; output data from mic[0] on high CLK phase
   ; net VDDLED (led.A)

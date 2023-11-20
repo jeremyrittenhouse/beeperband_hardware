@@ -228,7 +228,7 @@ if true :
 else:
   setup-design(
     "beeper-system", ; 
-    ocdb/utils/defaults/default-board(ocdb/manufacturers/stackups/bay-area-circuits-4-layer-62-mil, board-shape)
+    beeper-board(stack = ocdb/manufacturers/stackups/jlcpcb-jlc2313, outline = board-shape, vias = [std-via vip-via])
     quantity = DESIGN-QUANTITY
   )
   ; Set the schematic sheet size

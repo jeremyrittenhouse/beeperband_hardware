@@ -71,8 +71,9 @@ public pcb-module beeper-flex :
   place(mic[1]) at loc(  1.279 - 0.680, 5.695,   0.0) on Top
  
   net (main conn.c)
-  layer(Cutout()) = Circle(-17.559, 5.695, 0.340) ;   ; layer(Cutout()) = Circle(0.680, 0.000, 0.400)
-  layer(Cutout()) = Circle(  1.279, 5.695, 0.340) ;   ; layer(Cutout()) = Circle(0.680, 0.000, 0.400)
+  layer(Cutout()) = Circle(-17.559, 5.695, 0.400) ;   ; layer(Cutout()) = Circle(0.680, 0.000, 0.400)
+  layer(Cutout()) = Circle(  1.279, 5.695, 0.400) ;   ; layer(Cutout()) = Circle(0.680, 0.000, 0.400)
+
   layer(SolderMask(Top)) = Polyline(0.450, [Arc(Point(-17.559, 5.695), (0.580 + 0.225), 0.00, 360.00)])
   layer(SolderMask(Top)) = Polyline(0.450, [Arc(Point(  1.279, 5.695), (0.580 + 0.225), 0.00, 360.00)])
   

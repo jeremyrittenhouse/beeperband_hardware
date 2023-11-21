@@ -24,7 +24,16 @@ defpackage main :
   import flex
 
 MIN-PKG = "0201"
-DESIGN-QUANTITY = 10
+DESIGN-QUANTITY = 20
+APPROVED-DISTRIBUTOR-LIST = [JLCPCB]
+set-bom-columns([
+  BOMColumn(BOMFieldDescription, "Comment", 10.0)
+  BOMColumn(BOMFieldInsts, "Designator", 10.0)
+  BOMColumn(BOMFieldSKU, "JLCPCB Part#", 10.0)
+  BOMColumn(BOMFieldMPN, "MPN", 10.0)
+  BOMColumn(BOMFieldDescription, "Description", 20.0)
+])
+
 ; max_height = 1.5
 ; DENSITY-LEVEL = 
 set-rules(my-std-rules)
@@ -215,6 +224,7 @@ if true :
   setup-design(
     "beeper-design"
     beeper-board(stack = ocdb/manufacturers/stackups/jlcpcb-jlc2313, outline = board-shape, vias = [std-via vip-via])
+    vendors = APPROVED-DISTRIBUTOR-LIST
     quantity = DESIGN-QUANTITY
   )
   ; Set the schematic sheet size
@@ -229,6 +239,7 @@ else:
   setup-design(
     "beeper-system", ; 
     beeper-board(stack = ocdb/manufacturers/stackups/jlcpcb-jlc2313, outline = board-shape, vias = [std-via vip-via])
+    vendors = APPROVED-DISTRIBUTOR-LIST
     quantity = DESIGN-QUANTITY
   )
   ; Set the schematic sheet size

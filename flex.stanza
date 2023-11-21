@@ -22,9 +22,17 @@ defpackage flex :
 
   import system
 
-
 MIN-PKG = "0201"
-DESIGN-QUANTITY = 10
+DESIGN-QUANTITY = 20
+APPROVED-DISTRIBUTOR-LIST = [JLCPCB]
+set-bom-columns([
+  BOMColumn(BOMFieldDescription, "Comment", 10.0)
+  BOMColumn(BOMFieldInsts, "Designator", 10.0)
+  BOMColumn(BOMFieldSKU, "JLCPCB Part#", 10.0)
+  BOMColumn(BOMFieldMPN, "MPN", 10.0)
+  BOMColumn(BOMFieldDescription, "Description", 20.0)
+])
+
 ; max_height = 1.5
 ; DENSITY-LEVEL = 
 set-rules(my-flex-rules)
@@ -121,6 +129,7 @@ public pcb-board my-flex-board (-- stack:Stackup, outline:Shape, vias:Tuple<Via>
 setup-design(
   "beeper-flex",
   my-flex-board(stack = jlcpcb-flex-2-layer-110um, outline = board-shape, vias = [flex-via])
+  vendors = APPROVED-DISTRIBUTOR-LIST
   quantity = DESIGN-QUANTITY
 )
 

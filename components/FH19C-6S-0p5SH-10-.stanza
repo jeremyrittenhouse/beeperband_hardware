@@ -99,7 +99,7 @@ pcb-landpattern edge-lp :
   layer(Courtyard(Top)) = Rectangle(3.500, 2.500)
   layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, W, loc(-2.000, -2.000), "", TrueTypeFont, false, false)
   layer(CustomLayer("Fab", Top)) = Text(">VALUE", 1.0, W, loc(-2.000, 1.800), "", TrueTypeFont, false, false)
-  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.100, [
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.090, [
     Point( 1.250, -1.400)
     Point( 0.750, -1.900)
     Point( 1.750, -1.900)
@@ -110,13 +110,13 @@ pcb-landpattern edge-lp :
   ;   Point( 1.250,  1.250)
   ;   Point( 1.250, -1.250)
   ;   ])
-  layer(CustomLayer("Fab", Top)) = Polyline(0.100, [
+  layer(CustomLayer("Fab", Top)) = Polyline(0.090, [
     Point(-1.750, -1.250)
     Point(-1.750,  1.250)
     Point( 1.750,  1.250)
     Point( 1.750, -1.250)
     ])
-  layer(CustomLayer("Fab", Bottom)) = Polyline(0.100, [
+  layer(CustomLayer("Fab", Bottom)) = Polyline(0.090, [
     Point(-1.750, -1.250)
     Point(-1.750,  1.250)
     Point( 1.750,  1.250)

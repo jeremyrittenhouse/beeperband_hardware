@@ -125,7 +125,7 @@ pcb-landpattern edge-lp :
   layer(BoardEdge()) = Line(0.0, [Point(-1.750, -1.250), Point(-1.750,  1.250)])
   layer(BoardEdge()) = Line(0.0, [Point(-1.750,  1.250), Point( 1.750,  1.250)])
   layer(BoardEdge()) = Line(0.0, [Point( 1.750,  1.250), Point( 1.750, -1.250)])
-  layer(CustomLayer("stiffener", Bottom)) = Rectangle(3.500, 3.500, loc(0.000, -0.500))
+  layer(CustomLayer("stiffener", Bottom)) = Rectangle(3.500, 2.500, loc(0.000, 0.000))
 
 public pcb-component flex-edge :
   name = "edge-FH19C-6S-0.5SH(10)"

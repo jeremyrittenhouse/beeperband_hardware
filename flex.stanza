@@ -24,14 +24,7 @@ defpackage flex :
 
 MIN-PKG = "0201"
 DESIGN-QUANTITY = 20
-APPROVED-DISTRIBUTOR-LIST = [JLCPCB]
-set-bom-columns([
-  BOMColumn(BOMFieldDescription, "Comment", 10.0)
-  BOMColumn(BOMFieldInsts, "Designator", 10.0)
-  BOMColumn(BOMFieldSKU, "JLCPCB Part#", 10.0)
-  BOMColumn(BOMFieldMPN, "MPN", 10.0)
-  BOMColumn(BOMFieldDescription, "Description", 20.0)
-])
+APPROVED-DISTRIBUTOR-LIST = [JLCPCB LCSC]
 
 ; max_height = 1.5
 ; DENSITY-LEVEL = 
@@ -139,4 +132,13 @@ set-main-module(beeper-flex)
 ; View the results
 view-schematic()
 view-board()
+
+set-bom-columns([
+  BOMColumn(BOMFieldDescription, "Comment", 10.0)
+  BOMColumn(BOMFieldInsts, "Designator", 10.0)
+  BOMColumn(BOMFieldSKU, "JLCPCB Part#", 10.0)
+  BOMColumn(BOMFieldMPN, "MPN", 10.0)
+  BOMColumn(BOMFieldDescription, "Description", 20.0)
+])
+view-bom(BOM-STD)
 ; view-design-explorer()

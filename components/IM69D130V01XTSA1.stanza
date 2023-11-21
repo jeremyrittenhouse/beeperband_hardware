@@ -80,6 +80,7 @@ public pcb-component component :
   property(self.x) = 4.000
   property(self.y) = 3.000
   property(self.area) = 12.000
+  property(self.\|vendor_part_numbers.lcsc|) = "C9900035948"
 
 public pcb-module module :
   pin SELECT

@@ -25,7 +25,7 @@ defpackage main :
 
 MIN-PKG = "0201"
 DESIGN-QUANTITY = 20
-APPROVED-DISTRIBUTOR-LIST = [JLCPCB]
+APPROVED-DISTRIBUTOR-LIST = [JLCPCB LCSC]
 set-bom-columns([
   BOMColumn(BOMFieldDescription, "Comment", 10.0)
   BOMColumn(BOMFieldInsts, "Designator", 10.0)

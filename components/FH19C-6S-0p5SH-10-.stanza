@@ -56,6 +56,10 @@ pcb-landpattern lp :
   layer(Silkscreen("F-SilkS", Top)) = Polyline(0.100, [
     Arc(-1.200, 0.400, 0.050, 0.0, -360.000)])
   layer(Courtyard(Top)) = Rectangle(5.0, 3.3, loc(0.000, -1.650))
+  model3d = Model3D("3d-models/FH19C-6S-0.5SH.stp",
+    Vec3D(-1.650, -0.750, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(-90.0, 0.0, -90.0))
 
 public pcb-component component :
   name = "FH19C-6S-0.5SH(10)"

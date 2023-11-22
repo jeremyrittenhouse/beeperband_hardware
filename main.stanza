@@ -66,7 +66,7 @@ public pcb-module board-io :
 
 
   net (GND codec.GND hapdrv.GND qsensor.GND)
-  net (VDD codec.VDDSYS hapdrv.VDD qsensor.GND)
+  net (VDD codec.VDDSYS hapdrv.VDD qsensor.VDD)
   net (VDD1P8 qsensor.VDD)
 
   require codec-pdm : PDM from codec ; does this go away with a port?

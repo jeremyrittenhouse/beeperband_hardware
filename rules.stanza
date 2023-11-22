@@ -8,7 +8,7 @@ defpackage rules :
 public pcb-rules my-std-rules :
   min-copper-width = 0.090 ; 3.54 mil
   min-copper-copper-space = 0.090 ; 3.54 mil
-  min-copper-hole-space = 0.080 ; 8mil
+  min-copper-hole-space = 0.080 ; 
   min-copper-edge-space = 0.180 ; 10mil outer, but 15mil inner
   min-annular-ring = 0.075 ;
   min-drill-diameter = 0.150 ;

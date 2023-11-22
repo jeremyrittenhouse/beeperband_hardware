@@ -17,7 +17,6 @@ defpackage system :
 
   import bundles
 
-
 public pcb-module beeper-connector (board : bundles/board-type) :
   port c : flex-signals
   val connector = 
@@ -37,3 +36,4 @@ public pcb-module beeper-connector (board : bundles/board-type) :
 
   place(conn) at loc(0.0, 0.0) on Top
   layout-group(self) = sys-conn
+

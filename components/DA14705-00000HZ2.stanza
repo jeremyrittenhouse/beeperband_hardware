@@ -282,24 +282,24 @@ public pcb-module module :
   ; net (dbg-power-snc.vdd VSYS)
   ; net (dbg-power-snc.gnd GND)
 
-  inst etm-conn : pin-header(6, 1.00)
-  dnp(etm-conn)
-  ; component-status(etm-conn) :
-  ;   bom-status = NotInBOM
+  inst etm-pin : smd-testpoint-cmp(1.0)[6]
+  for i in 0 to 6 do :
+    dnp(etm-pin[i])
 
   require mcu-etm : ETM from mcu
-  net (mcu-etm.clk etm-conn.p[1])
-  net (mcu-etm.data[0] etm-conn.p[2])
-  net (mcu-etm.data[1] etm-conn.p[3])
-  net (mcu-etm.data[2] etm-conn.p[4])
-  net (mcu-etm.data[3] etm-conn.p[5])
-  net (GND etm-conn.p[6])
+  net (mcu-etm.clk     etm-pin[0].p)
+  net (mcu-etm.data[0] etm-pin[1].p)
+  net (mcu-etm.data[1] etm-pin[2].p)
+  net (mcu-etm.data[2] etm-pin[3].p)
+  net (mcu-etm.data[3] etm-pin[4].p)
+  net (GND             etm-pin[5].p)
 
   ; placeholder for battery connector
-  inst bat-conn : pin-header(2, 1.00)
-  dnp(bat-conn)
-  net (bat-conn.p[1] VBAT)
-  net (bat-conn.p[2] GND)
+  inst bat-pin : smd-testpoint-cmp(1.0)[2]
+  dnp(bat-pin[0])
+  dnp(bat-pin[1])
+  net (bat-pin[0].p VBAT)
+  net (bat-pin[1].p GND)
 
   ; supply decoupling table using area optimized table 
   val supplies = kvs([

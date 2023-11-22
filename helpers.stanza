@@ -25,6 +25,13 @@ public defn setup-design (name:String, board:Board
   set-bom-vendors(vendors)
   set-bom-design-quantity(quantity)
   set-use-layout-groups()
+  set-bom-columns([
+    BOMColumn(BOMFieldDescription, "Comment", 10.0)
+    BOMColumn(BOMFieldInsts, "Designator", 10.0)
+    BOMColumn(BOMFieldSKU, "JLCPCB Part#", 10.0)
+    BOMColumn(BOMFieldMPN, "MPN", 10.0)
+    BOMColumn(BOMFieldDescription, "Description", 20.0)
+  ])
 
 ; =====================
 ; Run the design checks

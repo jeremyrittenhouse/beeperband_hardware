@@ -55,6 +55,10 @@ pcb-landpattern lp :
   ; layer(Cutout()) = Circle(0.680, 0.000, 0.400)
   layer(CustomLayer("Fab", Top)) = Circle(0.680, 0.000, 0.400)
   layer(Courtyard(Top)) = Rectangle(4.000, 3.000)
+  model3d = Model3D("3d-models/IM69D130V01XTSA1--3DModel-STEP-56544.STEP",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(-90.0, 0.0, -90.0))
 
 
 public pcb-component component :

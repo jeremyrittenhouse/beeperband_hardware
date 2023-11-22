@@ -60,8 +60,11 @@ public pcb-module module :
   port CMD : wpwr-ctl
 
   public inst wpwr : BQ51003YFPR/component
-  inst coil        : pin-header(2, 1.000)
-  dnp(coil)
+
+ ; speakers
+  inst coil-pin : smd-testpoint-cmp(1.0)[2]
+  dnp(coil-pin[0])
+  dnp(coil-pin[1])
 
   net (CMD.nCHG wpwr.nCHG)
   net (CMD.CTRL wpwr.TS-CTRL)
@@ -93,8 +96,8 @@ public pcb-module module :
 
   bypass-cap-strap(wpwr.AC1, wpwr.AC2, 270.0e-12)
 
-  bypass-cap-strap(wpwr.AC1 coil.p[1] 10.0e-9)
-  net (coil.p[2] wpwr.AC2)
+  bypass-cap-strap(wpwr.AC1 coil-pin[0].p 10.0e-9)
+  net (coil-pin[1].p wpwr.AC2)
 
   bypass-cap-strap(wpwr.RECT, GND, 10.0e-6)
   bypass-cap-strap(wpwr.RECT, GND, 4.7e-6)

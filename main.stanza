@@ -26,13 +26,6 @@ defpackage main :
 MIN-PKG = "0201"
 DESIGN-QUANTITY = 20
 APPROVED-DISTRIBUTOR-LIST = [JLCPCB LCSC]
-set-bom-columns([
-  BOMColumn(BOMFieldDescription, "Comment", 10.0)
-  BOMColumn(BOMFieldInsts, "Designator", 10.0)
-  BOMColumn(BOMFieldSKU, "JLCPCB Part#", 10.0)
-  BOMColumn(BOMFieldMPN, "MPN", 10.0)
-  BOMColumn(BOMFieldDescription, "Description", 20.0)
-])
 
 ; max_height = 1.5
 ; DENSITY-LEVEL = 
@@ -84,9 +77,12 @@ public pcb-module board-io :
   net (system-io.codec-i2c codec.i2c)
 
   ; speakers
-  inst spk-conn :  pin-header(2, 1.00)
-  net SP_P (codec.codec.SP_P spk-conn.p[1])
-  net SP_N (codec.codec.SP_N spk-conn.p[2])
+  inst sp-pin : smd-testpoint-cmp(1.0)[2]
+  dnp(sp-pin[0])
+  dnp(sp-pin[1])
+
+  net SP_P (codec.codec.SP_P sp-pin[0].p)
+  net SP_N (codec.codec.SP_N sp-pin[1].p)
 
   require qsen-i3c : i3c from qsensor
   net (system-io.qsen-i3c qsen-i3c)
@@ -124,6 +120,7 @@ public pcb-module beeper-design :
   ; let's instance all of the major elements of the design at the top level
   inst flex-conn : beeper-connector(main-board)
   ; place(flex-conn) at loc(19.0, 7.00) on Top
+  place(flex-conn) at loc(12.500 - 3.250, -9.500 + 2.500 + 0.850) on Top
   inst board-io  : board-io
   inst mcu       : DA14705-00000HZ2/module
   inst wpwr      : BQ51003YFPR/module

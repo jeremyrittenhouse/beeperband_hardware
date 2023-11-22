@@ -196,13 +196,12 @@ public pcb-module module :
   val i2c-hap-pu = add-open-drain-pullups(intf.i2c, VDD, 1.0e6, 10.0e-12)
 
   ; haptic output header (for now)
-  inst haptic-conn : pin-header(2, 1.00)
-  dnp(haptic-conn)
-  ; component-status(haptic) :
-  ;   bom-status = NotInBOM
+  inst haptic-pin : smd-testpoint-cmp(1.0)[2]
+  dnp(haptic-pin[0])
+  dnp(haptic-pin[1])
 
-  net (haptic-conn.p[1] drv.OUT+)
-  net (haptic-conn.p[2] drv.OUT-)
+  net (haptic-pin[0].p drv.OUT+)
+  net (haptic-pin[1].p drv.OUT-)
 
   schematic-group(self) = haptic
   layout-group(self) = haptic

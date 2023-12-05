@@ -107,3 +107,21 @@ public pcb-via flex-via :
   ; via-in-pad = true
   ; backdrill = Backdrill(Bottom, LayerIndex(1, Bottom), 0.75, 1.5, 1.0, 2.0)
   ; transit-time = 1.0
+
+  ;Via's start, stop, diameter, hole-diameter, and type fields are mandatory.
+public pcb-via micro01-via :
+  name = "micro01 via"               ;This name appears in the UI. If not provided, 'my-via' is used instead.
+  ;Required fields...
+  start = LayerIndex(0, Top)
+  stop  = LayerIndex(1, Top)
+  diameter = 0.280
+  hole-diameter = 0.100
+  type = LaserDrill
+  ;Optional fields...
+  ; antipad-diameter = 1.5
+  ; center = Point(0.0, 0.0)
+  filled = true
+  tented = Top                  ;Top|Bottom|True|False with default false.
+  via-in-pad = true
+  ; backdrill = Backdrill(Bottom, LayerIndex(1, Bottom), 0.75, 1.5, 1.0, 2.0)
+  ; transit-time = 1.0

@@ -66,16 +66,16 @@ public pcb-module beeper-flex :
   ; inst led : L23-23B_R6GHBHW-C30_2A/component
   inst conn : beeper-connector(flex-board)
 
-  place(conn)   at loc( -0.075, 8.70) on Top
-  place(mic[0]) at loc(-16.000 + 0.680, 4.160, 180.0) on Top
-  place(mic[1]) at loc(  2.610 - 0.680, 4.160,   0.0) on Top
+  place(conn)   at loc( -0.075, 8.70) on Bottom
+  place(mic[0]) at loc(-16.000 + 0.680, 4.160,   0.0) on Bottom
+  place(mic[1]) at loc(  2.610 - 0.680, 4.160, 180.0) on Bottom
  
   net (main conn.c)
   layer(Cutout()) = Circle(-16.000, 4.160, 0.400) ;   ; layer(Cutout()) = Circle(0.680, 0.000, 0.400)
   layer(Cutout()) = Circle(  2.610, 4.160, 0.400) ;   ; layer(Cutout()) = Circle(0.680, 0.000, 0.400)
 
-  layer(SolderMask(Top)) = Polyline(0.450, [Arc(Point(-16.000, 4.160), (0.580 + 0.225), 0.00, 360.00)])
-  layer(SolderMask(Top)) = Polyline(0.450, [Arc(Point(  2.610, 4.160), (0.580 + 0.225), 0.00, 360.00)])
+  layer(SolderMask(Bottom)) = Polyline(0.450, [Arc(Point(-16.000, 4.160), (0.580 + 0.225), 0.00, 360.00)])
+  layer(SolderMask(Bottom)) = Polyline(0.450, [Arc(Point(  2.610, 4.160), (0.580 + 0.225), 0.00, 360.00)])
   
   net VDDMIC (mic[0].VDD mic[1].VDD mic[0].SELECT) ; output data from mic[0] on high CLK phase
   net GND    (mic[0].GND mic[1].GND mic[1].SELECT) ; output data from mic[1] on low CLK phase
@@ -96,10 +96,10 @@ public pcb-module beeper-flex :
 
   ; power planes (let's assume 2 layers for now...)
   geom(VDDMIC) :
-    copper-pour(LayerIndex(0), isolate = 0.100, rank = 1) = signal-shape
+    copper-pour(LayerIndex(1), isolate = 0.100, rank = 1) = signal-shape
   
   geom(GND) :
-    copper-pour(LayerIndex(1), isolate = 0.080, rank = 1) = signal-shape
+    copper-pour(LayerIndex(0), isolate = 0.080, rank = 1) = signal-shape
 
   schematic-group(self) = flex-board
   layout-group(self) = flex-board

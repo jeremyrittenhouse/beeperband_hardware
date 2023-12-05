@@ -27,7 +27,7 @@ APPROVED-DISTRIBUTOR-LIST = [JLCPCB LCSC]
 
 ; max_height = 1.5
 ; DENSITY-LEVEL = 
-set-rules(my-std-rules)
+; set-rules(my-std-rules)
 
 ; Define the shape/size of the board
 val x-off = 17.270
@@ -211,7 +211,7 @@ public pcb-board beeper-board (-- stack:Stackup, outline:Shape, vias:Tuple<Via>)
 
 setup-design(
   "beeper-design"
-  beeper-board(stack = ocdb/manufacturers/stackups/jlcpcb-jlc2313, outline = board-shape, vias = [std-via vip-via])
+  beeper-board(stack = ocdb/manufacturers/stackups/jlcpcb-jlc2313, outline = board-shape, vias = [std-via vip-via micro01-via])
   vendors = APPROVED-DISTRIBUTOR-LIST
   quantity = DESIGN-QUANTITY
 )

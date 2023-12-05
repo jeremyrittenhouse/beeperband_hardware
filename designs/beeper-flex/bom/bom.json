@@ -88,8 +88,8 @@
 				}
 			}, {
 				"status":	{
-					"code":	2,
-					"name":	"No Matching Part"
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
 				},
 				"description":	"Edge for 6 Position FFC, FPC Connector Contacts, Bottom 0.020\" (0.50mm) Surface Mount, Right Angle",
 				"insts":	[{

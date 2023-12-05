@@ -41,7 +41,7 @@ pcb-landpattern lp :
   make-bga-landpattern(12, ; the number of rows of package
                        12, ; the number of columns of the package
                        0.450, ; the pitch of the solder bumps
-                       0.250, ; the nominal/typical diameter of the solder balls
+                       0.200, ; the nominal/typical diameter of the solder pad not ball width (80%)
                        SolderMaskDefined, ; whether the pads will be "solder mask defined" or not
                        min-typ-max(5.930, 6.000, 6.070), ; the length of the package
                        min-typ-max(6.130, 6.200, 6.270), ; the width of the package

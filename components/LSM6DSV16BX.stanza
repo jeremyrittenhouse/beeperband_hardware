@@ -17,7 +17,7 @@ defpackage LSM6DSV16BX :
 
 
 defn qvar-shape (ver : Int) :
-  Rectangle(13.0, 18.0, loc(to-double(2 * ver - 3) * 6.5, 0.0))
+  Rectangle(12.7, 18.0, loc(to-double(2 * ver - 3) * 13.0 / 2.0, 0.0))
 
 pcb-pad rectangle-smd-pad :
   name = "rectangle-smd-pad"

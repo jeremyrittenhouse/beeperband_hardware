@@ -1,0 +1,202 @@
+; This file is generated based on the parts database query below:")
+;   database-part(["manufacturer" => "HongliTronic", "mpn" => "HL-PCF-1617S39FU70GH203BC-A"])
+#use-added-syntax(jitx)
+defpackage HL-PCF-1617S39FU70GH203BC-A :
+  import core
+  import jitx
+  import jitx/commands
+  
+  import bundles
+
+
+pcb-pad rectangle-smd-pad :
+  name = "rectangle-smd-pad"
+  type = SMD
+  shape = Rectangle(1.000, 0.720)
+  layer(SolderMask(Top)) = Rectangle(1.102, 0.822)
+  layer(Paste(Top)) = Rectangle(1.000, 0.720)
+
+pcb-landpattern lp :
+  pad p[1] : rectangle-smd-pad at loc(0.800, -0.590, 180.000) on Top
+  pad p[2] : rectangle-smd-pad at loc(-0.800, -0.590, 180.000) on Top
+  pad p[3] : rectangle-smd-pad at loc(-0.800, 0.590, 180.000) on Top
+  pad p[4] : rectangle-smd-pad at loc(0.800, 0.590, 180.000) on Top
+
+  layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 0.5, W, loc(-0.750, 2.722), "", TrueTypeFont, false, false)
+  layer(Finish(Top)) = Text(">VALUE", 0.5, W, loc(-0.750, 1.722), "", TrueTypeFont, false, false)
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.100, [
+    Point(0.127, -0.254)
+    Point(0.127, 0.254)
+    Point(-0.127, 0.0)
+    Point(0.127, -0.254)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.100, [Point(-0.122, 1.016), Point(0.122, 1.016)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.100, [Point(0.122, -1.016), Point(-0.122, -1.016)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.100, [Point(-1.270, 0.011), Point(-1.270, -0.010)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.100, [Point(1.270, 0.011), Point(1.270, -0.010)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.100, [Point(1.270, 0.080), Point(1.270, -0.080)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.100, [Point(-1.270, 0.080), Point(-1.270, -0.080)])
+  layer(Finish(Top)) = Polyline(0.060, [
+    Arc(0.800, -0.800, 0.030, 0.0, -360.000)])
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.100, [
+    Arc(1.651, -0.889, 0.127, 0.0, -360.000)])
+  layer(Finish(Top)) = PolygonWithArcs([
+    Point(-0.127, 0.0)
+    Point(0.127, -0.254)
+    Point(0.127, 0.254)
+    Point(0.127, 0.254)
+    Point(-0.127, 0.0)])
+  layer(Finish(Top)) = PolygonWithArcs([
+    Point(-1.270, -0.508)
+    Point(-0.635, -0.508)
+    Point(-0.635, -0.635)
+    Point(-1.270, -0.635)
+    Point(-1.270, -0.508)])
+  layer(Finish(Top)) = PolygonWithArcs([
+    Point(-0.889, -0.635)
+    Point(-0.889, -0.254)
+    Point(-1.016, -0.254)
+    Point(-1.016, -0.889)
+    Point(-0.889, -0.889)
+    Point(-0.889, -0.635)])
+  layer(Courtyard(Top)) = Rectangle(2.540, 2.032)
+
+  model3d = Model3D("3d-models/jitx-64d15fd0b789d8dc4b7ddb35.stp",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.000, 1.000, 1.000),
+    Vec3D(0.0, 0.0, 0.0),
+    [],
+    )
+
+pcb-symbol sym-HL-PCF-1617S39FU70GH203BC-A :
+  pin p[2] at Point(5.080, 2.540) with :
+    direction = Right
+    length = 5.080
+    number-size = 1.000
+    name-size = 1.000
+  pin p[1] at Point(-5.080, 2.540) with :
+    direction = Left
+    length = 5.080
+    number-size = 1.000
+    name-size = 1.000
+  pin p[4] at Point(-5.080, -5.080) with :
+    direction = Left
+    length = 5.080
+    number-size = 1.000
+    name-size = 1.000
+  pin p[3] at Point(5.080, -5.080) with :
+    direction = Right
+    length = 5.080
+    number-size = 1.000
+    name-size = 1.000
+
+  layer("value") = Text(">VALUE", 0.7056, C, loc(0.0, 6.080), "", TrueTypeFont, false, false)
+  layer("reference") = Text(">REF", 0.7056, C, loc(0.0, 7.080), "", TrueTypeFont, false, false)
+  layer("foreground") = Text("+", 2.28600457200914, W, loc(3.604, -0.155), "", TrueTypeFont, false, false)
+  layer("foreground") = Polyline(0.254, [
+    Point(2.540, -5.080)
+    Point(0.508, -5.080)
+    Point(0.508, 2.540)])
+  layer("foreground") = Polyline(0.254, [
+    Point(-2.540, -5.080)
+    Point(0.0, -5.080)
+    Point(0.0, 2.540)])
+  layer("foreground") = Polyline(0.254, [
+    Point(5.080, -7.620)
+    Point(5.080, -2.540)])
+  layer("foreground") = Polyline(0.254, [
+    Point(5.080, -8.636)
+    Point(6.858, -10.414)])
+  layer("foreground") = Polyline(0.254, [
+    Point(6.096, -7.620)
+    Point(7.874, -9.398)])
+  layer("foreground") = Polyline(0.254, [
+    Point(-5.080, -7.620)
+    Point(-5.080, -2.540)])
+  layer("foreground") = Polyline(0.254, [
+    Point(-5.080, -8.636)
+    Point(-6.858, -10.414)])
+  layer("foreground") = Polyline(0.254, [
+    Point(-6.096, -7.620)
+    Point(-7.874, -9.398)])
+  layer("foreground") = Polyline(0.254, [
+    Point(-2.540, 2.540)
+    Point(5.080, 2.540)])
+  layer("foreground") = Polyline(0.254, [
+    Point(-5.080, 0.0)
+    Point(-5.080, 5.080)])
+  layer("foreground") = Polyline(0.254, [
+    Point(-5.080, -1.016)
+    Point(-6.858, -2.794)])
+  layer("foreground") = Polyline(0.254, [
+    Point(-6.096, 0.0)
+    Point(-7.874, -1.778)])
+  layer("foreground") = Polygon([
+    Point(6.858, -10.414)
+    Point(5.842, -9.906)
+    Point(6.350, -9.398)])
+  layer("foreground") = Polygon([
+    Point(7.874, -9.398)
+    Point(6.858, -8.890)
+    Point(7.366, -8.382)])
+  layer("foreground") = Polygon([
+    Point(2.540, -2.540)
+    Point(5.080, -5.080)
+    Point(2.540, -7.620)])
+  layer("foreground") = Polygon([
+    Point(-6.858, -10.414)
+    Point(-5.842, -9.906)
+    Point(-6.350, -9.398)])
+  layer("foreground") = Polygon([
+    Point(-7.874, -9.398)
+    Point(-6.858, -8.890)
+    Point(-7.366, -8.382)])
+  layer("foreground") = Polygon([
+    Point(-2.540, -2.540)
+    Point(-5.080, -5.080)
+    Point(-2.540, -7.620)])
+  layer("foreground") = Polygon([
+    Point(-6.858, -2.794)
+    Point(-5.842, -2.286)
+    Point(-6.350, -1.778)])
+  layer("foreground") = Polygon([
+    Point(-7.874, -1.778)
+    Point(-6.858, -1.270)
+    Point(-7.366, -0.762)])
+  layer("foreground") = Polygon([
+    Point(-2.540, 5.080)
+    Point(-5.080, 2.540)
+    Point(-2.540, 0.0)])
+
+public pcb-component component :
+  name = "C513368"
+  description = "Colorless transparence -40℃~+85℃ Positive post RGB 120° SMD,1.6x1.7mm  Light Emitting Diodes (LED) ROHS"
+  manufacturer = "HongliTronic"
+  mpn = "HL-PCF-1617S39FU70GH203BC-A"
+  datasheet = "https://datasheet.lcsc.com/lcsc/2005041205_HONGLITRONIC-Hongli-Zhihui--HONGLITRONIC-HL-PCF-1617S39FU70GH203BC-A_C513368.pdf"
+  reference-prefix = "D"
+  pin-properties :
+    [pin:Ref | pads:Ref ... | side:Dir | electrical-type:String | bank:Int]
+    [p[2] | p[2] | Right | "unspecified" | 0]
+    [p[1] | p[1] | Left | "unspecified" | 0]
+    [p[4] | p[4] | Left | "unspecified" | 0]
+    [p[3] | p[3] | Right | "unspecified" | 0]
+
+  assign-landpattern(lp)
+  assign-symbol(sym-HL-PCF-1617S39FU70GH203BC-A)
+
+  property(self.category) = "diode"
+  property(self.manufacturer_aliases) = ["HONGLITRONIC(Hongli Zhihui (HONGLITRONIC))"]
+  property(self.mpn_aliases) = ["HL-PCF-1617S39FU70GH203BC-A"]
+  property(self.cofactr_id) = "XX2021ZAPXC4"
+  property(self.reference_prefix) = "D"
+  property(self.trust) = "low"
+  property(self.x) = 2.540
+  property(self.y) = 2.032
+  property(self.area) = 5.161
+  property(self.case) = "SMD,1.6x1.7mm"
+  property(self.rated-temperature) = Toleranced(22.5, 62.5, 62.5)
+
+  supports rgb :
+    rgb.r => self.p[1]
+    rgb.g => self.p[3]
+    rgb.b => self.p[4]

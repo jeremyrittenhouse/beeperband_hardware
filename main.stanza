@@ -62,7 +62,7 @@ public pcb-module board-io :
   public inst qsensor   : LSM6DSV16BX/module
   public inst button    : EVPBB4A9B000/component[3]
   public inst hapdrv    : DRV2605YZFR/module
-  public inst led       : L23-23B_R6GHBHW-C30_2A/component
+  public inst led       : HL-PCF-1617S39FU70GH203BC-A/component
 
 
   net (GND codec.GND hapdrv.GND qsensor.GND)
@@ -107,7 +107,7 @@ public pcb-module board-io :
 
   require rgb : rgb from led
   net (system-io.led-io.leds rgb)
-  net (system-io.led-io.pwr.vdd led.A)
+  net (system-io.led-io.pwr.vdd led.p[2])
   net (system-io.led-io.pwr.gnd GND)
 
 
@@ -117,7 +117,6 @@ public pcb-module beeper-design :
 
   ; let's instance all of the major elements of the design at the top level
   inst flex-conn : beeper-connector(main-board)
-  ; place(flex-conn) at loc(19.0, 7.00) on Top
   place(flex-conn) at loc(12.500 - 3.250, -9.500 + 2.500 + 1.350) on Top
   inst board-io  : board-io
   inst mcu       : DA14705-00000HZ2/module

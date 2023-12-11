@@ -16,7 +16,7 @@ defpackage helpers :
 ; ============
 public defn setup-design (name:String, board:Board
                           --
-                          rules:Rules = my-std-rules
+                          rules:Rules = fs-tech-rules
                           vendors:Tuple<String|AuthorizedVendor> = ocdb/utils/design-vars/APPROVED-DISTRIBUTOR-LIST
                           quantity:Int = ocdb/utils/design-vars/DESIGN-QUANTITY) :
   set-current-design(name)
@@ -25,13 +25,13 @@ public defn setup-design (name:String, board:Board
   set-bom-vendors(vendors)
   set-bom-design-quantity(quantity)
   set-use-layout-groups()
-  set-bom-columns([
-    BOMColumn(BOMFieldDescription, "Comment", 10.0)
-    BOMColumn(BOMFieldInsts, "Designator", 10.0)
-    BOMColumn(BOMFieldSKU, "JLCPCB Part#", 10.0)
-    BOMColumn(BOMFieldMPN, "MPN", 10.0)
-    BOMColumn(BOMFieldDescription, "Description", 20.0)
-  ])
+  ; set-bom-columns([
+  ;   BOMColumn(BOMFieldDescription, "Comment", 10.0)
+  ;   BOMColumn(BOMFieldInsts, "Designator", 10.0)
+  ;   BOMColumn(BOMFieldSKU, "JLCPCB Part#", 10.0)
+  ;   BOMColumn(BOMFieldMPN, "MPN", 10.0)
+  ;   BOMColumn(BOMFieldDescription, "Description", 20.0)
+  ; ])
 
 ; =====================
 ; Run the design checks

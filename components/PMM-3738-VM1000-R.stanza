@@ -72,5 +72,5 @@ public pcb-module module :
   res-strap(fb.p[2] GND 47.0e3)
   bypass-cap-strap(fb.p[2] OUT 1.0e-6)
 
-  schematic-group(self) = mic
+  ; schematic-group(self) = mic
   layout-group(self) = mic

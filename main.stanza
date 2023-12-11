@@ -23,7 +23,7 @@ defpackage main :
 
 MIN-PKG = "0201"
 DESIGN-QUANTITY = 20
-APPROVED-DISTRIBUTOR-LIST = [JLCPCB LCSC]
+; APPROVED-DISTRIBUTOR-LIST = [JLCPCB LCSC]
 
 ; max_height = 1.5
 ; DENSITY-LEVEL = 
@@ -192,7 +192,11 @@ public pcb-module beeper-design :
     copper-pour(LayerIndex(1), isolate = 0.1, rank = 1) = signal-shape
   geom(VDDSYS) :
     copper-pour(LayerIndex(2), isolate = 0.1, rank = 1) = signal-shape
-  
+  ; geom(VDD1P8) :
+  ;   copper-pour(LayerIndex(3), isolate = 0.1, rank = 1) = signal-shape
+  ; geom(GND) :
+  ;   copper-pour(LayerIndex(4), isolate = 0.1, rank = 1) = signal-shape
+
   schematic-group(self) = main-board
   layout-group(self) = main-board
 
@@ -210,7 +214,7 @@ public pcb-board beeper-board (-- stack:Stackup, outline:Shape, vias:Tuple<Via>)
 
 setup-design(
   "beeper-design"
-  beeper-board(stack = ocdb/manufacturers/stackups/jlcpcb-jlc2313, outline = board-shape, vias = [std-via vip-via micro01-via])
+  beeper-board(stack = FS-Tech-4-layer-62-mil, outline = board-shape, vias = [std-via vip-via])
   vendors = APPROVED-DISTRIBUTOR-LIST
   quantity = DESIGN-QUANTITY
 )

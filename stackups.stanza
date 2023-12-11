@@ -9,6 +9,11 @@ pcb-material copper :
   type = Conductor
   name = "Copper"
 
+pcb-material prepreg :
+  type = Dielectric
+  dielectric-coefficient = 4.26
+  name = "FR4 Prepreg 2113/2116"
+
 pcb-material polyimide :
   type = Dielectric
   dielectric-coefficient = 4.26
@@ -37,15 +42,6 @@ pcb-material core :
 
 public pcb-stackup jlcpcb-flex-2-layer-110um :
   name = "JLCPCB 2 layer flex 0.110mm"
-;   layer(0.0125, polyimide) ; 
-;   layer(0.0150, adhesive) ; 
-;   layer(0.0116, copper) ; 
-;   layer(0.0250, polyimide)
-;   layer(0.0116, copper) ; 
-;   layer(0.0150, adhesive) ;
-;   layer(0.0125, polyimide) ; 
-;   layer(0.0500, stiffener) ; options: from 50um to 200um
-
   layer(0.0125, soldermask) ; 
   layer(0.0116, copper) ; 
   layer(0.0250, core)
@@ -53,75 +49,73 @@ public pcb-stackup jlcpcb-flex-2-layer-110um :
   layer(0.0150, soldermask) ;
   layer(0.0500, stiffener) ; options: from 50um to 200um
 
+public pcb-stackup FS-Tech-4-layer-62-mil :
+  name = "FS Tech 6-layer 0.062in"
+  layer(0.01778, soldermask) ; 7mil over conductor
+  layer(0.01778, copper)     ; 0.5oz/foot
+  layer(0.127, prepreg)      ; 5 mil
+  layer(0.01185, copper)     ; 0.333oz/foot
+  layer(1.01600, core)
+  layer(0.01185, copper)     ; 0.333oz/foot
+  layer(0.127, prepreg)      ; 5 mil
+  layer(0.01778, copper)     ; 0.5oz/foot
+  layer(0.01778, soldermask) ; 7mil over conductor
+
+public pcb-stackup FS-Tech-6-layer-62-mil :
+  name = "FS Tech 6-layer 0.062in"
+  layer(0.01778, soldermask) ; 7mil over conductor
+  layer(0.01778, copper)     ; 0.5oz/foot
+  layer(0.127, prepreg)      ; 5 mil
+  layer(0.01185, copper)     ; 0.333oz/foot
+  layer(0.127, prepreg)      ; 5 mil
+  layer(0.01185, copper)     ; 0.333oz/foot
+  layer(1.01600, core)
+  layer(0.01185, copper)     ; 0.333oz/foot
+  layer(0.127, prepreg)      ; 5 mil
+  layer(0.01185, copper)     ; 0.333oz/foot
+  layer(0.127, prepreg)      ; 5 mil
+  layer(0.01778, copper)     ; 0.5oz/foot
+  layer(0.01778, soldermask) ; 7mil over conductor
 
 ;Via's start, stop, diameter, hole-diameter, and type fields are mandatory.
 public pcb-via std-via :
-  name = "standard via"               ;This name appears in the UI. If not provided, 'my-via' is used instead.
-  ;Required fields...
+  name = "standard"               ;This name appears in the UI. If not provided, 'my-via' is used instead.
   start = LayerIndex(0, Top)
   stop = LayerIndex(0, Bottom)
   diameter = 0.400
   hole-diameter = 0.200
   type = MechanicalDrill
-  ;Optional fields...
-  ; antipad-diameter = 1.000
   center = Point(0.0, 0.0)
   filled = false
   tented = false                  ;Top|Bottom|True|False with default false.
   via-in-pad = false
-  ; backdrill = Backdrill(Bottom, LayerIndex(1, Bottom), 0.75, 1.5, 1.0, 2.0)
-  ; transit-time = 1.0
 
-  ;Via's start, stop, diameter, hole-diameter, and type fields are mandatory.
 public pcb-via vip-via :
-  name = "VIP via"               ;This name appears in the UI. If not provided, 'my-via' is used instead.
-  ;Required fields...
+  name = "VIP"               ;This name appears in the UI. If not provided, 'my-via' is used instead.
   start = LayerIndex(0, Top)
   stop = LayerIndex(0, Bottom)
-  diameter = 0.300
+  diameter = 0.250
   hole-diameter = 0.150
   type = MechanicalDrill
-  ;Optional fields...
-  ; antipad-diameter = 1.5
-  ; center = Point(0.0, 0.0)
   filled = true
   tented = Top                  ;Top|Bottom|True|False with default false.
   via-in-pad = true
-  ; backdrill = Backdrill(Bottom, LayerIndex(1, Bottom), 0.75, 1.5, 1.0, 2.0)
-  ; transit-time = 1.0
 
-  ;Via's start, stop, diameter, hole-diameter, and type fields are mandatory.
 public pcb-via flex-via :
-  name = "flex via"               ;This name appears in the UI. If not provided, 'my-via' is used instead.
-  ;Required fields...
+  name = "flex"               ;This name appears in the UI. If not provided, 'my-via' is used instead.
   start = LayerIndex(0, Top)
   stop = LayerIndex(0, Bottom)
   diameter = 0.400
   hole-diameter = 0.200
   type = MechanicalDrill
-  ;Optional fields...
-  ; antipad-diameter = 1.5
-  ; center = Point(0.0, 0.0)
-  ; filled = true
-  ; tented = Top                  ;Top|Bottom|True|False with default false.
-  ; via-in-pad = true
-  ; backdrill = Backdrill(Bottom, LayerIndex(1, Bottom), 0.75, 1.5, 1.0, 2.0)
-  ; transit-time = 1.0
 
-  ;Via's start, stop, diameter, hole-diameter, and type fields are mandatory.
-public pcb-via micro01-via :
-  name = "micro01 via"               ;This name appears in the UI. If not provided, 'my-via' is used instead.
-  ;Required fields...
-  start = LayerIndex(0, Top)
-  stop  = LayerIndex(1, Top)
-  diameter = 0.280
-  hole-diameter = 0.100
-  type = LaserDrill
-  ;Optional fields...
-  ; antipad-diameter = 1.5
-  ; center = Point(0.0, 0.0)
-  filled = true
-  tented = Top                  ;Top|Bottom|True|False with default false.
-  via-in-pad = true
-  ; backdrill = Backdrill(Bottom, LayerIndex(1, Bottom), 0.75, 1.5, 1.0, 2.0)
-  ; transit-time = 1.0
+; public pcb-via micro01-via :
+;   name = "micro01"               ;This name appears in the UI. If not provided, 'my-via' is used instead.
+;   start = LayerIndex(0, Top)
+;   stop  = LayerIndex(1, Top)
+;   diameter = 0.280
+;   hole-diameter = 0.100
+;   type = LaserDrill
+;   filled = true
+;   tented = Top                  ;Top|Bottom|True|False with default false.
+;   via-in-pad = true

@@ -33,7 +33,7 @@ pcb-module top-level :
 
 setup-design(
   "beeper-system", ; 
-  beeper-board(stack = ocdb/manufacturers/stackups/jlcpcb-jlc2313, outline = board-shape, vias = [std-via vip-via flex-via micro01-via])
+  beeper-board(stack = FS-Tech-4-layer-62-mil, outline = board-shape, vias = [std-via vip-via flex-via])
   vendors = APPROVED-DISTRIBUTOR-LIST
   quantity = DESIGN-QUANTITY
 )

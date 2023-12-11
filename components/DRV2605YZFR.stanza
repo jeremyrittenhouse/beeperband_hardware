@@ -203,5 +203,5 @@ public pcb-module module :
   net (haptic-pin[0].p drv.OUT+)
   net (haptic-pin[1].p drv.OUT-)
 
-  schematic-group(self) = haptic
+  ; schematic-group(self) = haptic
   layout-group(self) = haptic

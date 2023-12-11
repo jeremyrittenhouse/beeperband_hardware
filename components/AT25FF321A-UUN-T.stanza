@@ -82,5 +82,5 @@ public pcb-module module :
   net (VDD m.Vcc)
   net (GND m.GND)
   bypass-cap-strap(VDD, GND, 1.0e-6)
-  schematic-group(self) = memory
+  ; schematic-group(self) = memory
   layout-group(self) = memory

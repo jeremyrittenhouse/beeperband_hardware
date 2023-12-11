@@ -316,8 +316,9 @@ public pcb-module module :
     mcu.VSYS  => 10.0e-6 ])
 
   for [pin_, cap_] in supplies do:
-    val bypc = bypass-cap-strap(pin_, GND, cap_)
-    schematic-group(bypc) = bypasses
+    bypass-cap-strap(pin_, GND, cap_)
+    ; val bypc = bypass-cap-strap(pin_, GND, cap_)
+    ; schematic-group(bypc) = bypasses
 
   net (V18   mcu.V18)
   net (V30   mcu.V30)
@@ -374,7 +375,7 @@ public pcb-module module :
   net (esd.GND usb.usb-2.vbus.gnd)
   net (esd.VBUS usb.usb-2.vbus.vdd)
   no-connect(esd.NC)
-  schematic-group([usb esd]) = usb
+  ; schematic-group([usb esd]) = usb
 
   ; public inst usb : usb2-on-a-usb-c-connector(ocdb/components/korean-hroparts-elec/TYPE-C-31-M-12/module(SinkDefault))
 
@@ -386,14 +387,14 @@ public pcb-module module :
   ; net (VBUSp protected-usb.usb-out.vbus.vdd usb.usb-2.vbus.vdd)
   ; net (usb-data protected-usb.usb-out.data)
 
-  schematic-group(mcu, 0) = bank0
-  schematic-group(mcu, 1) = bank1
-  schematic-group(xtal-32M) = bank1
-  schematic-group(mcu, 2) = bank2
-  schematic-group(mcu, 3) = bank3
-  schematic-group(mcu, 4) = bank4
-  schematic-group(mcu, 5) = bank5
-  schematic-group(mcu, 6) = bank6
+  ; schematic-group(mcu, 0) = bank0
+  ; schematic-group(mcu, 1) = bank1
+  ; schematic-group(xtal-32M) = bank1
+  ; schematic-group(mcu, 2) = bank2
+  ; schematic-group(mcu, 3) = bank3
+  ; schematic-group(mcu, 4) = bank4
+  ; schematic-group(mcu, 5) = bank5
+  ; schematic-group(mcu, 6) = bank6
 
   layout-group(self) = mcu
 

@@ -129,5 +129,5 @@ public pcb-module module :
 
   bypass-cap-strap(mic.VDD, mic.GROUND, 0.100e-6)
 
-  schematic-group(self) = mic
+  ; schematic-group(self) = mic
   layout-group(self) = mic

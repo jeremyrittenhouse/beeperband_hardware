@@ -128,8 +128,9 @@ public pcb-module module :
     codec.VREF     => 1.0e-6
     ])
   for [pin_, cap_] in cap-table do:
-    val bypc = bypass-cap-strap(pin_, GND, cap_)
-    schematic-group(bypc) = codec-bypass
+    bypass-cap-strap(pin_, GND, cap_)
+    ; val bypc = bypass-cap-strap(pin_, GND, cap_)
+    ; schematic-group(bypc) = codec-bypass
 
   bypass-cap-strap(codec.HPCFN codec.HPCSN 1.0e-6)
 
@@ -155,5 +156,5 @@ public pcb-module module :
   no-connect(codec.HP_L)
   no-connect(codec.HP_R)
   
-  schematic-group(self) = codec
+  ; schematic-group(self) = codec
   layout-group(self) = codec

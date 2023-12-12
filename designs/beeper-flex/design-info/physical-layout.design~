@@ -589,6 +589,7 @@
     {"operation":"via-update","update":[{"via":"56wSbquBmPPgy7JafzaHom/6tozAhyYmgyqcDXEFFKCVB","def-layers":[0,1],"relative":{"x":-5.9574052991366759,"y":-0.95923772023655118}}]},
     {"operation":"via-update","update":[{"via":"56wSbquBmPPgy7JafzaHom/B2vMewdYb2PwLLJrEp23t5","def-layers":[0,1],"relative":{"x":-5.4824029448901719,"y":-1.0595047798152484}}]},
     {"operation":"via-update","update":[{"via":"56wSbquBmPPgy7JafzaHom/B6NpraFwYrdqAmVhiytXTg","def-layers":[0,1],"relative":{"x":0.56040444703121528,"y":-1.2970111406627423}}]},
-    {"operation":"via-update","update":[{"via":"AUz7L7cs1HrokDBxNvPmeZ/CWu7yGTDwYNwjL81V4LbTK","def-layers":[0,1],"relative":{"x":0.33049424062647326,"y":1.2293525280677393}}]}
+    {"operation":"via-update","update":[{"via":"AUz7L7cs1HrokDBxNvPmeZ/CWu7yGTDwYNwjL81V4LbTK","def-layers":[0,1],"relative":{"x":0.33049424062647326,"y":1.2293525280677393}}]},
+    {"operation":"place","place":{"placements":[{"id":"hV27NzpaXUpc54ypc6yKt","pose":{"center":{"x":2.8360499284262519,"y":0.49542696945226505},"angle":0,"flipx":false},"side":"top"}]}}
   ]
 }

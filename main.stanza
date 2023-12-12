@@ -186,8 +186,8 @@ public pcb-module beeper-design :
     symbol(n) = ocdb/utils/symbols/altium-power-bar-sym
 
   ; power planes (let's assume 4 layers for now...)
-;  geom(GND) :
-;     copper-pour(LayerIndex(0), isolate = 0.15, rank = 1) = signal-shape
+  geom(GND) :
+    copper-pour(LayerIndex(0), isolate = 0.15, rank = 1) = signal-shape
   geom(GND) :
     copper-pour(LayerIndex(1), isolate = 0.1, rank = 1) = signal-shape
   geom(VDDSYS) :

@@ -98,7 +98,7 @@ public pcb-via vip-via :
   hole-diameter = 0.150
   type = MechanicalDrill
   filled = true
-  tented = Top                  ;Top|Bottom|True|False with default false.
+  tented = false                  ;Top|Bottom|True|False with default false.
   via-in-pad = true
 
 public pcb-via flex-via :

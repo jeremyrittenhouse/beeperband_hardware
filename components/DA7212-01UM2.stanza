@@ -123,16 +123,12 @@ public pcb-module module :
     codec.VMID     => 1.0e-6
     codec.DACREF   => 1.0e-6
     codec.VDD_MIC  => 1.0e-6
-    codec.HPCSP    => 1.0e-6
-    codec.HPCFP    => 1.0e-6
     codec.VREF     => 1.0e-6
     ])
   for [pin_, cap_] in cap-table do:
     bypass-cap-strap(pin_, GND, cap_)
     ; val bypc = bypass-cap-strap(pin_, GND, cap_)
     ; schematic-group(bypc) = codec-bypass
-
-  bypass-cap-strap(codec.HPCFN codec.HPCSN 1.0e-6)
 
   net (i2c.scl codec.SCL)
   net (i2c.sda codec.SDA)

@@ -263,7 +263,7 @@ public pcb-module module :
 
   ; all dbg connections
   inst dbg-m33-conn : TC2030-IDC-NL/component
-  dnp(dbg-m33-conn)
+  ; dnp(dbg-m33-conn)
   require dbg-power-m33 : power from dbg-m33-conn
   require dbg-m33 : swd() from dbg-m33-conn
   require mcu-dbg-m33 : swd() from mcu
@@ -284,7 +284,8 @@ public pcb-module module :
 
   inst etm-pin : smd-testpoint-cmp(1.0)[6]
   for i in 0 to 6 do :
-    dnp(etm-pin[i])
+    component-status(bat-pin[i]) :
+      bom-status = NotInBOM
 
   require mcu-etm : ETM from mcu
   net (mcu-etm.clk     etm-pin[0].p)
@@ -296,8 +297,12 @@ public pcb-module module :
 
   ; placeholder for battery connector
   inst bat-pin : smd-testpoint-cmp(1.0)[2]
-  dnp(bat-pin[0])
-  dnp(bat-pin[1])
+  ; dnp(bat-pin[0])
+  ; dnp(bat-pin[1])
+  component-status(bat-pin[0]) :
+    bom-status = NotInBOM
+  component-status(bat-pin[1]) :
+    bom-status = NotInBOM
   net (bat-pin[0].p VBAT)
   net (bat-pin[1].p GND)
 

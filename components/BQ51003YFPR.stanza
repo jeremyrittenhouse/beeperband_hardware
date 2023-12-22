@@ -63,8 +63,12 @@ public pcb-module module :
 
  ; speakers
   inst coil-pin : smd-testpoint-cmp(1.0)[2]
-  dnp(coil-pin[0])
-  dnp(coil-pin[1])
+  ; dnp(coil-pin[0])
+  ; dnp(coil-pin[1])
+  component-status(coil-pin[0]) :
+    bom-status = NotInBOM
+  component-status(coil-pin[1]) :
+    bom-status = NotInBOM
 
   net (CMD.nCHG wpwr.nCHG)
   net (CMD.CTRL wpwr.TS-CTRL)

@@ -197,8 +197,12 @@ public pcb-module module :
 
   ; haptic output header (for now)
   inst haptic-pin : smd-testpoint-cmp(1.0)[2]
-  dnp(haptic-pin[0])
-  dnp(haptic-pin[1])
+  ; dnp(haptic-pin[0])
+  ; dnp(haptic-pin[1])
+  component-status(haptic-pin[0]) :
+    bom-status = NotInBOM
+  component-status(haptic-pin[1]) :
+    bom-status = NotInBOM
 
   net (haptic-pin[0].p drv.OUT+)
   net (haptic-pin[1].p drv.OUT-)

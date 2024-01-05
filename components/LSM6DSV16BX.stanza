@@ -15,10 +15,36 @@ defpackage LSM6DSV16BX :
 
   import bundles
 
+; val board-shape = loc(x-off, y-off) * PolygonWithArcs([
+;                    Point( -4.770,   5.610),
+;                    Point(-31.020,   5.610),
+;                    Point(-31.020,  24.610),
+;                    Point( -3.520,  24.610),
+;                    Point( -3.520,   7.110),
+;                    Arc(Point(-3.770, 6.110), 1.000, 90.00, 90.00)])
+
+val x-off = 17.270
+val y-off = -15.110
 
 defn qvar-shape (ver : Int) :
-  Rectangle(12.7, 18.0, loc(to-double(2 * ver - 3) * 13.0 / 2.0, 0.0))
-
+  switch(ver) :
+    1 : loc(x-off, y-off) * Polygon([
+      Point(-17.420,  6.110)
+      Point(-26.270,  6.110)
+      Point(-26.270, 12.310)
+      Point(-30.520, 12.310)
+      Point(-30.520, 24.110)
+      Point(-17.420, 24.110)
+      Point(-17.420,  6.110)
+      ])
+    2 : loc(x-off, y-off) * PolygonWithArcs([
+      Point(-17.110,  6.110)
+      Point(-17.110, 24.110)
+      Point( -4.020, 24.110)
+      Point( -4.020,  6.610)
+      Arc(Point(-3.770, 6.110), 1.00, 90.0, 90.0)
+      Point(-4.770,  6.110)
+    ])
 pcb-pad rectangle-smd-pad :
   name = "rectangle-smd-pad"
   type = SMD

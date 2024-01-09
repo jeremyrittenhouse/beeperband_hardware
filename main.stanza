@@ -248,6 +248,7 @@ setup-design(
 )
 ; Set the schematic sheet size
 set-paper(ANSI-B)
+set-export-backend(`kicad)
 ; Set the top level module (the module to be compile into a schematic and PCB)
 set-main-module(beeper-design) ; Treat the provided module as a design, and compile it.
 val beeper-module = ocdb/utils/generator-utils/run-final-passes(beeper-design) ; Analyze design with a pass

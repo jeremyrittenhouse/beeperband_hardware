@@ -27707,8 +27707,8 @@
 							"y2":	179
 						},
 						"origin":	{
-							"x":	0,
-							"y":	0
+							"x":	-1,
+							"y":	-34
 						},
 						"partial-island-nets":	[[{
 									"parent-net-id":	500037,
@@ -31784,8 +31784,8 @@
 							"y2":	186
 						},
 						"origin":	{
-							"x":	0,
-							"y":	0
+							"x":	-6,
+							"y":	-12
 						},
 						"partial-island-nets":	[[{
 									"parent-net-id":	500023,
@@ -32302,8 +32302,8 @@
 							"y2":	130
 						},
 						"origin":	{
-							"x":	0,
-							"y":	0
+							"x":	7,
+							"y":	-55
 						},
 						"partial-island-nets":	[[{
 									"parent-net-id":	500032,

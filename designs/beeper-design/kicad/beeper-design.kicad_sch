@@ -2,35 +2,11 @@
 (kicad_sch
   (version 20230121)
   (generator jitx)
-  (uuid c289d14f-4e9b-37a2-a5f8-21d24bc6e644)
+  (uuid 219df102-d28d-b743-245e-efc9439ef913)
   (paper "B")
   
   
   (lib_symbols 
-
-    (symbol "VDD1P8" (power)
-      (in_bom yes) (on_board yes)
-      
-      (property "Reference" "#PWR" (id 0) (at 35.0 60.0 0.0)
-        (effects (font (size 5.0 5.0))  (justify left bottom )))
-      
-      (property "Value" "VDD1P8" (id 1) (at 0.508 0.508 0.0)
-        (effects (font (size 0.28224 0.28224))  (justify left )))
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      
-(symbol "VDD1P8_1_0"
-
-      (pin power_in line (at 0.0 0.0 0) (length 0.0)
-        (name "VDD1P8" (effects (font (size 0.0 0.0))))
-        (number "~" (effects (font (size 0.0 0.0))))
-      )
-      (polyline (pts (xy 0.0 0.0) (xy 2.54 0.0)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
-      (polyline (pts (xy 2.54 1.27) (xy 2.54 -1.27)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
-)
-    )
 
     (symbol "VDD3P0" (power)
       (in_bom yes) (on_board yes)
@@ -79,6 +55,30 @@
       (polyline (pts (xy -1.27 -1.27) (xy 1.27 -1.27)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
       (polyline (pts (xy -0.762 -1.778) (xy 0.762 -1.778)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
       (polyline (pts (xy -0.254 -2.286) (xy 0.254 -2.286)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
+    (symbol "VDDSYS" (power)
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "#PWR" (id 0) (at 35.0 60.0 0.0)
+        (effects (font (size 5.0 5.0))  (justify left bottom )))
+      
+      (property "Value" "VDDSYS" (id 1) (at 0.508 0.508 0.0)
+        (effects (font (size 0.28224 0.28224))  (justify left )))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "VDDSYS_1_0"
+
+      (pin power_in line (at 0.0 0.0 0) (length 0.0)
+        (name "VDDSYS" (effects (font (size 0.0 0.0))))
+        (number "~" (effects (font (size 0.0 0.0))))
+      )
+      (polyline (pts (xy 0.0 0.0) (xy 2.54 0.0)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy 2.54 1.27) (xy 2.54 -1.27)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
 )
     )
 
@@ -667,6 +667,36 @@
         (number "~" (effects (font (size 0.0 0.0))))
       )
       (rectangle (start -7.62 -12.7) (end 7.62 12.7) (stroke (width 0.0) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
+    (symbol "Johanson2450AT18D0100_STD_R" 
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "U" (id 0) (at -3.8735 5.4435 0.0)
+        (effects (font (size 0.3048 0.3048))  ))
+      
+      (property "Value" "Johanson2450AT18D0100_STD_R" (id 1) (at 0.0 0.0 0.0)
+        (effects (font (size 10.0 10.0)) hide ))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "Johanson2450AT18D0100_STD_R_1_0"
+
+      (pin unspecified line (at 8.89 -3.81 180) (length 2.54)
+        (name "GND" (effects (font (size 0.0 0.0))))
+        (number "~" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 0.0 -3.81 90) (length 3.81)
+        (name "ANT" (effects (font (size 0.0 0.0))))
+        (number "~" (effects (font (size 0.0 0.0))))
+      )
+      (polyline (pts (xy 0.0 0.0) (xy 3.81 3.81)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy 0.0 0.0) (xy -3.81 3.81)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy 0.0 0.0) (xy 0.0 5.08)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
 )
     )
 
@@ -1314,36 +1344,6 @@
       (polyline (pts (xy -1.27 0.508) (xy 1.27 0.508)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
       (polyline (pts (xy 0.0 -0.508) (xy 0.0 -2.54)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
       (polyline (pts (xy -1.27 -0.508) (xy 1.27 -0.508)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
-)
-    )
-
-    (symbol "Johanson2450AT18D0100_STD_R" 
-      (in_bom yes) (on_board yes)
-      
-      (property "Reference" "U" (id 0) (at -3.8735 5.4435 0.0)
-        (effects (font (size 0.3048 0.3048))  ))
-      
-      (property "Value" "Johanson2450AT18D0100_STD_R" (id 1) (at 0.0 0.0 0.0)
-        (effects (font (size 10.0 10.0)) hide ))
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      
-(symbol "Johanson2450AT18D0100_STD_R_1_0"
-
-      (pin unspecified line (at 8.89 -3.81 180) (length 2.54)
-        (name "GND" (effects (font (size 0.0 0.0))))
-        (number "~" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin unspecified line (at 0.0 -3.81 90) (length 3.81)
-        (name "ANT" (effects (font (size 0.0 0.0))))
-        (number "~" (effects (font (size 0.0 0.0))))
-      )
-      (polyline (pts (xy 0.0 0.0) (xy 3.81 3.81)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
-      (polyline (pts (xy 0.0 0.0) (xy -3.81 3.81)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
-      (polyline (pts (xy 0.0 0.0) (xy 0.0 5.08)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
 )
     )
 
@@ -3927,54 +3927,6 @@
 )
     )
 
-    (symbol "component" 
-      (in_bom yes) (on_board yes)
-      
-      (property "Reference" "J" (id 0) (at -2.54 5.08 0.0)
-        (effects (font (size 0.28224 0.28224))  (justify left )))
-      
-      (property "Value" "component" (id 1) (at -2.54 4.445 0.0)
-        (effects (font (size 0.28224 0.28224))  (justify left )))
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      
-(symbol "component_1_0"
-
-      (pin unspecified line (at -5.08 2.54 0) (length 2.54)
-        (name "1" (effects (font (size 0.762 0.762))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 5.08 2.54 180) (length 2.54)
-        (name "2" (effects (font (size 0.762 0.762))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at -5.08 0.0 0) (length 2.54)
-        (name "3" (effects (font (size 0.762 0.762))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 5.08 0.0 180) (length 2.54)
-        (name "4" (effects (font (size 0.762 0.762))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at -5.08 -2.54 0) (length 2.54)
-        (name "5" (effects (font (size 0.762 0.762))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 5.08 -2.54 180) (length 2.54)
-        (name "6" (effects (font (size 0.762 0.762))))
-        (number "6" (effects (font (size 0.762 0.762))))
-      )
-      (rectangle (start -2.54 -3.81) (end 2.54 3.81) (stroke (width 0.0) (type solid) (color 0 0 0 0)) (fill (type background)))
-)
-    )
-
     (symbol "C105225_1" 
       (in_bom yes) (on_board yes)
       
@@ -4098,6 +4050,54 @@
 )
     )
 
+    (symbol "component" 
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "J" (id 0) (at -2.54 5.08 0.0)
+        (effects (font (size 0.28224 0.28224))  (justify left )))
+      
+      (property "Value" "component" (id 1) (at -2.54 4.445 0.0)
+        (effects (font (size 0.28224 0.28224))  (justify left )))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "component_1_0"
+
+      (pin unspecified line (at -5.08 2.54 0) (length 2.54)
+        (name "1" (effects (font (size 0.762 0.762))))
+        (number "1" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 5.08 2.54 180) (length 2.54)
+        (name "2" (effects (font (size 0.762 0.762))))
+        (number "2" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at -5.08 0.0 0) (length 2.54)
+        (name "3" (effects (font (size 0.762 0.762))))
+        (number "3" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 5.08 0.0 180) (length 2.54)
+        (name "4" (effects (font (size 0.762 0.762))))
+        (number "4" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at -5.08 -2.54 0) (length 2.54)
+        (name "5" (effects (font (size 0.762 0.762))))
+        (number "5" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 5.08 -2.54 180) (length 2.54)
+        (name "6" (effects (font (size 0.762 0.762))))
+        (number "6" (effects (font (size 0.762 0.762))))
+      )
+      (rectangle (start -2.54 -3.81) (end 2.54 3.81) (stroke (width 0.0) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
     (symbol "my_capacitor_3" 
       (in_bom yes) (on_board yes)
       
@@ -4126,6 +4126,84 @@
       (polyline (pts (xy -1.27 0.508) (xy 1.27 0.508)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
       (polyline (pts (xy 0.0 -0.508) (xy 0.0 -2.54)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
       (polyline (pts (xy -1.27 -0.508) (xy 1.27 -0.508)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
+    (symbol "AT25FF321A_UUN_T" 
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "U" (id 0) (at -6.35 10.252 0.0)
+        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
+      
+      (property "Value" "AT25FF321A_UUN_T" (id 1) (at -6.35 9.19 0.0)
+        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "AT25FF321A_UUN_T_1_0"
+
+      (pin unspecified line (at -8.89 2.54 0) (length 2.54)
+        (name "CSn" (effects (font (size 0.762 0.762))))
+        (number "B4" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at -8.89 0.0 0) (length 2.54)
+        (name "SI" (effects (font (size 0.762 0.762))))
+        (number "E3" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at -8.89 -2.54 0) (length 2.54)
+        (name "SCK" (effects (font (size 0.762 0.762))))
+        (number "F2" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 8.89 2.54 180) (length 2.54)
+        (name "SO" (effects (font (size 0.762 0.762))))
+        (number "D4" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 8.89 0.0 180) (length 2.54)
+        (name "HRn" (effects (font (size 0.762 0.762))))
+        (number "D2" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 8.89 -2.54 180) (length 2.54)
+        (name "WPn" (effects (font (size 0.762 0.762))))
+        (number "F4" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 0.0 11.43 270) (length 2.54)
+        (name "Vcc" (effects (font (size 0.762 0.762))))
+        (number "B2" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin no_connect line (at -1.27 -11.43 90) (length 2.54)
+        (name "NC" (effects (font (size 0.762 0.762))))
+        (number "G5" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin no_connect line (at -1.27 -11.43 90) (length 0.0)
+        (name "NC" (effects (font (size 0.0 0.0))))
+        (number "G1" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin no_connect line (at -1.27 -11.43 90) (length 0.0)
+        (name "NC" (effects (font (size 0.0 0.0))))
+        (number "A1" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin no_connect line (at -1.27 -11.43 90) (length 0.0)
+        (name "NC" (effects (font (size 0.0 0.0))))
+        (number "A5" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 1.27 -11.43 90) (length 2.54)
+        (name "GND" (effects (font (size 0.762 0.762))))
+        (number "C3" (effects (font (size 0.762 0.762))))
+      )
+      (rectangle (start -6.35 -8.89) (end 6.35 8.89) (stroke (width 0.0) (type solid) (color 0 0 0 0)) (fill (type background)))
 )
     )
 
@@ -4309,84 +4387,6 @@
       (polyline (pts (xy 0.0 -2.54) (xy 0.0 -1.5875)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
       (polyline (pts (xy 0.0 -1.5875) (xy -0.762 -1.27)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))       (polyline (pts (xy -0.762 -1.27) (xy 0.762 -0.635)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))       (polyline (pts (xy 0.762 -0.635) (xy -0.762 0.0)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))       (polyline (pts (xy -0.762 0.0) (xy 0.762 0.635)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))       (polyline (pts (xy 0.762 0.635) (xy -0.762 1.27)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))       (polyline (pts (xy -0.762 1.27) (xy 0.0 1.5875)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
       (polyline (pts (xy 0.0 1.5875) (xy 0.0 2.54)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
-)
-    )
-
-    (symbol "AT25FF321A_UUN_T" 
-      (in_bom yes) (on_board yes)
-      
-      (property "Reference" "U" (id 0) (at -6.35 10.252 0.0)
-        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
-      
-      (property "Value" "AT25FF321A_UUN_T" (id 1) (at -6.35 9.19 0.0)
-        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      
-(symbol "AT25FF321A_UUN_T_1_0"
-
-      (pin unspecified line (at -8.89 2.54 0) (length 2.54)
-        (name "CSn" (effects (font (size 0.762 0.762))))
-        (number "B4" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at -8.89 0.0 0) (length 2.54)
-        (name "SI" (effects (font (size 0.762 0.762))))
-        (number "E3" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at -8.89 -2.54 0) (length 2.54)
-        (name "SCK" (effects (font (size 0.762 0.762))))
-        (number "F2" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 8.89 2.54 180) (length 2.54)
-        (name "SO" (effects (font (size 0.762 0.762))))
-        (number "D4" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 8.89 0.0 180) (length 2.54)
-        (name "HRn" (effects (font (size 0.762 0.762))))
-        (number "D2" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 8.89 -2.54 180) (length 2.54)
-        (name "WPn" (effects (font (size 0.762 0.762))))
-        (number "F4" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 0.0 11.43 270) (length 2.54)
-        (name "Vcc" (effects (font (size 0.762 0.762))))
-        (number "B2" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin no_connect line (at -1.27 -11.43 90) (length 2.54)
-        (name "NC" (effects (font (size 0.762 0.762))))
-        (number "G5" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin no_connect line (at -1.27 -11.43 90) (length 0.0)
-        (name "NC" (effects (font (size 0.0 0.0))))
-        (number "G1" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin no_connect line (at -1.27 -11.43 90) (length 0.0)
-        (name "NC" (effects (font (size 0.0 0.0))))
-        (number "A1" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin no_connect line (at -1.27 -11.43 90) (length 0.0)
-        (name "NC" (effects (font (size 0.0 0.0))))
-        (number "A5" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin unspecified line (at 1.27 -11.43 90) (length 2.54)
-        (name "GND" (effects (font (size 0.762 0.762))))
-        (number "C3" (effects (font (size 0.762 0.762))))
-      )
-      (rectangle (start -6.35 -8.89) (end 6.35 8.89) (stroke (width 0.0) (type solid) (color 0 0 0 0)) (fill (type background)))
 )
     )
 
@@ -5861,89 +5861,6 @@
 )
     )
 
-    (symbol "AMPHENOL_10103594_0001LF" 
-      (in_bom yes) (on_board yes)
-      
-      (property "Reference" "J" (id 0) (at -3.81 14.062 0.0)
-        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
-      
-      (property "Value" "AMPHENOL_10103594_0001LF" (id 1) (at -3.81 13.0 0.0)
-        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      
-(symbol "AMPHENOL_10103594_0001LF_1_0"
-
-      (pin unspecified line (at 6.35 3.81 180) (length 2.54)
-        (name "VCC" (effects (font (size 0.762 0.762))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 6.35 1.27 180) (length 2.54)
-        (name "D+" (effects (font (size 0.762 0.762))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 6.35 -1.27 180) (length 2.54)
-        (name "D-" (effects (font (size 0.762 0.762))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 6.35 -3.81 180) (length 2.54)
-        (name "ID" (effects (font (size 0.762 0.762))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at -1.27 -15.24 90) (length 2.54)
-        (name "GND" (effects (font (size 0.762 0.762))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 1.27 -15.24 90) (length 2.54)
-        (name "SHIELD" (effects (font (size 0.762 0.762))))
-        (number "14" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
-        (name "SHIELD" (effects (font (size 0.0 0.0))))
-        (number "13" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
-        (name "SHIELD" (effects (font (size 0.0 0.0))))
-        (number "11" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
-        (name "SHIELD" (effects (font (size 0.0 0.0))))
-        (number "10" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
-        (name "SHIELD" (effects (font (size 0.0 0.0))))
-        (number "9" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
-        (name "SHIELD" (effects (font (size 0.0 0.0))))
-        (number "8" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
-        (name "SHIELD" (effects (font (size 0.0 0.0))))
-        (number "7" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
-        (name "SHIELD" (effects (font (size 0.0 0.0))))
-        (number "6" (effects (font (size 0.0 0.0))))
-      )
-      (rectangle (start -3.81 -12.7) (end 3.81 12.7) (stroke (width 0.0) (type solid) (color 0 0 0 0)) (fill (type background)))
-)
-    )
-
     (symbol "C76935_7" 
       (in_bom yes) (on_board yes)
       
@@ -7124,6 +7041,89 @@
 )
     )
 
+    (symbol "AMPHENOL_10103594_0001LF" 
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "J" (id 0) (at -3.81 14.062 0.0)
+        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
+      
+      (property "Value" "AMPHENOL_10103594_0001LF" (id 1) (at -3.81 13.0 0.0)
+        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "AMPHENOL_10103594_0001LF_1_0"
+
+      (pin unspecified line (at 6.35 3.81 180) (length 2.54)
+        (name "VCC" (effects (font (size 0.762 0.762))))
+        (number "1" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 6.35 1.27 180) (length 2.54)
+        (name "D+" (effects (font (size 0.762 0.762))))
+        (number "3" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 6.35 -1.27 180) (length 2.54)
+        (name "D-" (effects (font (size 0.762 0.762))))
+        (number "2" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 6.35 -3.81 180) (length 2.54)
+        (name "ID" (effects (font (size 0.762 0.762))))
+        (number "4" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at -1.27 -15.24 90) (length 2.54)
+        (name "GND" (effects (font (size 0.762 0.762))))
+        (number "5" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 1.27 -15.24 90) (length 2.54)
+        (name "SHIELD" (effects (font (size 0.762 0.762))))
+        (number "14" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
+        (name "SHIELD" (effects (font (size 0.0 0.0))))
+        (number "13" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
+        (name "SHIELD" (effects (font (size 0.0 0.0))))
+        (number "11" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
+        (name "SHIELD" (effects (font (size 0.0 0.0))))
+        (number "10" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
+        (name "SHIELD" (effects (font (size 0.0 0.0))))
+        (number "9" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
+        (name "SHIELD" (effects (font (size 0.0 0.0))))
+        (number "8" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
+        (name "SHIELD" (effects (font (size 0.0 0.0))))
+        (number "7" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
+        (name "SHIELD" (effects (font (size 0.0 0.0))))
+        (number "6" (effects (font (size 0.0 0.0))))
+      )
+      (rectangle (start -3.81 -12.7) (end 3.81 12.7) (stroke (width 0.0) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
     (symbol "C96506" 
       (in_bom yes) (on_board yes)
       
@@ -7296,213 +7296,222 @@
 )
     )
   )
-  (wire (pts (xy 242.57 133.35) (xy 242.57 127.0)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 8207c858-8e89-c54b-1c36-c34f8eb6ae5d))
-  (wire (pts (xy 226.06 133.35) (xy 226.06 127.0)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 4a735106-a57e-d9b5-5bee-a7976b2ebe71))
-  (wire (pts (xy 210.82 129.54) (xy 210.82 127.0)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 3ff632f6-2dd3-bb78-2352-3b4323902bcb))
-  (wire (pts (xy 189.23 129.54) (xy 189.23 127.0)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid a8e0087f-5f30-2ce1-7063-792a9bfbbdf5))
-  (wire (pts (xy 210.82 114.3) (xy 210.82 109.22)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 437a3033-261c-42e8-b594-74fda134a139))
-  (wire (pts (xy 242.57 114.3) (xy 242.57 111.76)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid c0558d8a-ca00-cd9b-96fc-8344add5e713))
-  (wire (pts (xy 226.06 114.3) (xy 226.06 111.76)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 26887991-1986-caeb-0243-d8346dcabeb0))
-  (wire (pts (xy 198.12 120.65) (xy 204.47 120.65)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid e3731ff0-892d-907d-6307-76e9b7dcf29d))
-  (wire (pts (xy 200.66 124.46) (xy 200.66 120.65)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 3dce19ce-d179-f9a6-6c13-6277291d575b))
-  (wire (pts (xy 232.41 120.65) (xy 236.22 120.65)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid c818cc12-34c9-3c5b-4977-803f43f9ee92))
-  (wire (pts (xy 217.17 120.65) (xy 219.71 120.65)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 9bd3ca49-a202-e5cd-1d00-82d03204321e))
-(junction (at 200.66 120.65) (diameter 0.762) (color 0 0 0 0 ) (uuid 722bd599-bb0d-dcfe-5815-78a32be8a525))
-(junction (at 200.66 120.65) (diameter 0.762) (color 0 0 0 0 ) (uuid 722bd599-bb0d-dcfe-5815-78a32be8a525))
+  (wire (pts (xy 241.3 138.43) (xy 241.3 132.08)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 62e125b0-a100-8015-75f5-1f8c5648a939))
+  (wire (pts (xy 224.79 138.43) (xy 224.79 132.08)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 3f3077af-10d3-3f45-69f8-5a4ec4a3f964))
+  (wire (pts (xy 209.55 134.62) (xy 209.55 132.08)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 769e5753-ecff-ff7d-9bbd-16372ff6c879))
+  (wire (pts (xy 187.96 134.62) (xy 187.96 132.08)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 7821f7a4-2252-574c-ca60-454d6810d138))
+  (wire (pts (xy 209.55 119.38) (xy 209.55 114.3)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid eaa54a66-2ef3-f9f9-2de2-c2b1b388013e))
+  (wire (pts (xy 241.3 119.38) (xy 241.3 116.84)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 27564917-eb46-5190-1aa0-82aeb524e22f))
+  (wire (pts (xy 224.79 119.38) (xy 224.79 116.84)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 32b7c463-5369-230f-eac9-c2e9c843f497))
+  (wire (pts (xy 201.93 110.49) (xy 232.41 110.49)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 53811e8e-94da-3f94-4f74-68543406f5d1))
+  (wire (pts (xy 201.93 121.92) (xy 203.2 121.92)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 0028a3d3-dc29-2665-6960-d1081c2e160f))
+  (wire (pts (xy 231.14 125.73) (xy 232.41 125.73)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 946bb78e-67e3-a6d8-7389-fdd1affa711a))
+  (wire (pts (xy 201.93 121.92) (xy 201.93 110.49)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 2b82050b-3d81-13a1-2b08-cbb7a2459793))
+  (wire (pts (xy 232.41 125.73) (xy 232.41 110.49)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid dc2b5ec4-2ac5-053c-1694-b7f273fbb947))
+  (wire (pts (xy 196.85 125.73) (xy 199.39 125.73)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid d7441fd9-ed4a-242a-26d5-ffd378bc50a1))
+  (wire (pts (xy 199.39 128.27) (xy 203.2 128.27)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid abc48612-1ac1-03ab-6184-955945243d23))
+  (wire (pts (xy 199.39 128.27) (xy 199.39 124.46)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid fbc91465-1531-c176-c792-61d6b349ddfe))
+  (wire (pts (xy 217.17 113.03) (xy 248.92 113.03)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 4bb72a17-ee1b-95d1-05c0-359aef2aa898))
+  (wire (pts (xy 247.65 125.73) (xy 248.92 125.73)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid fed82206-8221-53f2-4dfb-c3d65e3bc691))
+  (wire (pts (xy 217.17 125.73) (xy 218.44 125.73)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid dcecd43d-0418-307d-0311-0e3522554b38))
+  (wire (pts (xy 217.17 125.73) (xy 217.17 113.03)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid a387c7ab-4203-205b-992b-8c7d252cf306))
+  (wire (pts (xy 248.92 125.73) (xy 248.92 113.03)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid d9011996-4958-b524-d437-da4fa7815390))
+(junction (at 199.39 125.73) (diameter 0.762) (color 0 0 0 0 ) (uuid 2445749e-755f-c3f1-38cd-f490e0dff169))
+(junction (at 199.39 125.73) (diameter 0.762) (color 0 0 0 0 ) (uuid 2445749e-755f-c3f1-38cd-f490e0dff169))
 
-  (label "MICBIAS1\ncodec-pdm-net.{clk,data}" (at 200.66 124.46 270)
-    (effects (font (size 0.762 0.762)) (justify right bottom ))
-    (uuid ef163fc4-66dc-71b9-c902-43b76b7d2538)
+  (label "MICBIAS1\ncodec-pdm-net.{clk,data}" (at 199.39 124.46 90)
+    (effects (font (size 0.762 0.762)) (justify left bottom ))
+    (uuid 3f4aa8e9-a9e1-36e0-18d6-c64ae270bf14)
   )
 
-  (symbol (lib_id "GND") (at 242.57 133.35 0.0) (unit 1)
+  (symbol (lib_id "GND") (at 241.3 138.43 0.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid e5bba2fc-3d9f-ae5a-c410-12e3dbcecfbe)
-    (property "Reference" "#PWR?" (id 0) (at 242.57 133.35 0) (effects hide))
-    (property "Value" "GND" (id 1) (at 240.03 135.89 0.0) (effects (font (size 0.762 0.762))))
+    (uuid e80c286b-57d7-f0e5-6295-c25ff68b9f90)
+    (property "Reference" "#PWR?" (id 0) (at 241.3 138.43 0) (effects hide))
+    (property "Value" "GND" (id 1) (at 238.76 140.97 0.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid da54d970-c008-742a-b349-0326ab70b146))
+    (pin "~" (uuid ba897d8e-c2b8-1828-bf75-3123d117c394))
     (instances
       (project "beeper-design"
-        (path "/c289d14f-4e9b-37a2-a5f8-21d24bc6e644"
+        (path "/219df102-d28d-b743-245e-efc9439ef913"
           (reference "#PWR?") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "GND") (at 226.06 133.35 0.0) (unit 1)
+  (symbol (lib_id "GND") (at 224.79 138.43 0.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid ed28ecb2-bbff-bb47-5fa7-4dd074b9d722)
-    (property "Reference" "#PWR?" (id 0) (at 226.06 133.35 0) (effects hide))
-    (property "Value" "GND" (id 1) (at 223.52 135.89 0.0) (effects (font (size 0.762 0.762))))
+    (uuid 84b227a1-5103-f0b3-1f0a-fce4e1896a29)
+    (property "Reference" "#PWR?" (id 0) (at 224.79 138.43 0) (effects hide))
+    (property "Value" "GND" (id 1) (at 222.25 140.97 0.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid dd8b0644-4f7c-3214-9670-ba4c62d58582))
+    (pin "~" (uuid e686d370-03a4-46a1-c993-2f5013a1562c))
     (instances
       (project "beeper-design"
-        (path "/c289d14f-4e9b-37a2-a5f8-21d24bc6e644"
+        (path "/219df102-d28d-b743-245e-efc9439ef913"
           (reference "#PWR?") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "GND") (at 210.82 129.54 0.0) (unit 1)
+  (symbol (lib_id "GND") (at 209.55 134.62 0.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid 213f3a36-b053-9efe-2fdc-2fce16ca3925)
-    (property "Reference" "#PWR?" (id 0) (at 210.82 129.54 0) (effects hide))
-    (property "Value" "GND" (id 1) (at 208.28 132.08 0.0) (effects (font (size 0.762 0.762))))
+    (uuid 3d8d80ea-4324-1bab-ab0b-11bfed455210)
+    (property "Reference" "#PWR?" (id 0) (at 209.55 134.62 0) (effects hide))
+    (property "Value" "GND" (id 1) (at 207.01 137.16 0.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid 982718e6-ffe9-392a-2339-6aefcbd01067))
+    (pin "~" (uuid 0ed75bab-49b6-8b80-4585-9da0e89684e5))
     (instances
       (project "beeper-design"
-        (path "/c289d14f-4e9b-37a2-a5f8-21d24bc6e644"
+        (path "/219df102-d28d-b743-245e-efc9439ef913"
           (reference "#PWR?") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "GND") (at 189.23 129.54 0.0) (unit 1)
+  (symbol (lib_id "GND") (at 187.96 134.62 0.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid ef2bdf94-4ad3-cf38-91a6-8a5214a50e4f)
-    (property "Reference" "#PWR?" (id 0) (at 189.23 129.54 0) (effects hide))
-    (property "Value" "GND" (id 1) (at 186.69 132.08 0.0) (effects (font (size 0.762 0.762))))
+    (uuid 75a2b228-0e50-0e47-b01b-edd69816a69c)
+    (property "Reference" "#PWR?" (id 0) (at 187.96 134.62 0) (effects hide))
+    (property "Value" "GND" (id 1) (at 185.42 137.16 0.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid 86d0b05b-e684-cfbf-1895-8bc78ba07e57))
+    (pin "~" (uuid 8da97ea9-6761-170a-232c-2979f96bde1b))
     (instances
       (project "beeper-design"
-        (path "/c289d14f-4e9b-37a2-a5f8-21d24bc6e644"
+        (path "/219df102-d28d-b743-245e-efc9439ef913"
           (reference "#PWR?") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "VDD1P8") (at 210.82 109.22 90.0) (unit 1)
+  (symbol (lib_id "VDDSYS") (at 209.55 114.3 90.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid 4f9f7785-11ca-44ac-d967-7fe656ec3e59)
-    (property "Reference" "#PWR?" (id 0) (at 210.82 109.22 0) (effects hide))
-    (property "Value" "VDD1P8" (id 1) (at 211.328 109.728 270.0) (effects (font (size 0.762 0.762))))
+    (uuid ac23cde2-9bce-36d1-b9a7-a258fa4edd02)
+    (property "Reference" "#PWR?" (id 0) (at 209.55 114.3 0) (effects hide))
+    (property "Value" "VDDSYS" (id 1) (at 210.058 114.808 270.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid 2a07ec7d-50cc-3b7b-3237-2c335cf1aca6))
+    (pin "~" (uuid a41186df-5944-7854-7f00-47a614acc130))
     (instances
       (project "beeper-design"
-        (path "/c289d14f-4e9b-37a2-a5f8-21d24bc6e644"
+        (path "/219df102-d28d-b743-245e-efc9439ef913"
           (reference "#PWR?") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "VDD1P8") (at 242.57 111.76 90.0) (unit 1)
+  (symbol (lib_id "VDDSYS") (at 241.3 116.84 90.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid e36992ed-072d-d798-4667-5009b7180008)
-    (property "Reference" "#PWR?" (id 0) (at 242.57 111.76 0) (effects hide))
-    (property "Value" "VDD1P8" (id 1) (at 243.078 112.268 270.0) (effects (font (size 0.762 0.762))))
+    (uuid 2c2366e1-2ec8-d4cb-63c1-31f076ea1e3b)
+    (property "Reference" "#PWR?" (id 0) (at 241.3 116.84 0) (effects hide))
+    (property "Value" "VDDSYS" (id 1) (at 241.808 117.348 270.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid 9703d025-d47f-cf4b-f0ef-8fe4cd6954e0))
+    (pin "~" (uuid ee57f4ff-c79b-51ad-c9cf-1a76e4e1906e))
     (instances
       (project "beeper-design"
-        (path "/c289d14f-4e9b-37a2-a5f8-21d24bc6e644"
+        (path "/219df102-d28d-b743-245e-efc9439ef913"
           (reference "#PWR?") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "VDD1P8") (at 226.06 111.76 90.0) (unit 1)
+  (symbol (lib_id "VDDSYS") (at 224.79 116.84 90.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid 0d91613d-8950-a678-0e71-cae7fc37f7f9)
-    (property "Reference" "#PWR?" (id 0) (at 226.06 111.76 0) (effects hide))
-    (property "Value" "VDD1P8" (id 1) (at 226.568 112.268 270.0) (effects (font (size 0.762 0.762))))
+    (uuid 37a79177-d3c8-f702-8602-b58b900e00fb)
+    (property "Reference" "#PWR?" (id 0) (at 224.79 116.84 0) (effects hide))
+    (property "Value" "VDDSYS" (id 1) (at 225.298 117.348 270.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid 30bf9bcb-b4c0-bc62-b64c-f76f805afaa6))
+    (pin "~" (uuid 2b7c7bdd-d60d-bcde-9fb0-2e8d8afae1de))
     (instances
       (project "beeper-design"
-        (path "/c289d14f-4e9b-37a2-a5f8-21d24bc6e644"
+        (path "/219df102-d28d-b743-245e-efc9439ef913"
           (reference "#PWR?") (unit 1)
         )
       )
     )
   )
 
-  (sheet (at 204.47 114.3) (size 12.7 12.7)
+  (sheet (at 218.44 119.38) (size 12.7 12.7)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
-    (uuid 8764c08c-872f-c50a-23a4-4463e37f6171)
-    (pin " " passive (at 204.47 120.65 180) (effects hide))
-    (pin " " passive (at 210.82 114.3 90) (effects hide))
-    (pin " " passive (at 217.17 120.65 0) (effects hide))
-    (pin " " passive (at 210.82 127.0 270) (effects hide))
-    (property "Sheet name" "board-io" (id 0) (at 210.82 120.65 0)
+    (uuid 9f14226e-bee3-5144-dcec-31a1baf1b04f)
+    (pin " " passive (at 218.44 125.73 180) (effects hide))
+    (pin " " passive (at 224.79 119.38 90) (effects hide))
+    (pin " " passive (at 231.14 125.73 0) (effects hide))
+    (pin " " passive (at 224.79 132.08 270) (effects hide))
+    (property "Sheet name" "mcu" (id 0) (at 224.79 125.73 0)
       (effects (font (size 0.635 0.635))))
-    (property "Sheet file" "beeper-design-2.kicad_sch" (id 1) (at 204.47 127.3175 0)
+    (property "Sheet file" "beeper-design-2.kicad_sch" (id 1) (at 218.44 132.3975 0)
       (effects (font (size 0.635 0.635)) (justify left top)))
     (instances
       (project "beeper-design"
-        (path "/c289d14f-4e9b-37a2-a5f8-21d24bc6e644" (page "2"))
+        (path "/219df102-d28d-b743-245e-efc9439ef913" (page "2"))
       )
     )
   )
 
-  (sheet (at 236.22 114.3) (size 12.7 12.7)
+  (sheet (at 181.61 119.38) (size 16.51 12.7)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
-    (uuid 8c942c7a-aeb0-be5c-a372-5dcd92c91cea)
-    (pin " " passive (at 236.22 120.65 180) (effects hide))
-    (pin " " passive (at 242.57 114.3 90) (effects hide))
-    (pin " " passive (at 242.57 127.0 270) (effects hide))
-    (property "Sheet name" "board-io.hapdrv\nwpwr.module" (id 0) (at 242.57 120.65 0)
+    (uuid c43cdffa-fe6e-b177-5b77-d87822296539)
+    (pin " " passive (at 196.85 125.73 0) (effects hide))
+    (pin " " passive (at 187.96 132.08 270) (effects hide))
+    (property "Sheet name" "flex-conn.beeper-connector" (id 0) (at 189.865 125.73 0)
       (effects (font (size 0.635 0.635))))
-    (property "Sheet file" "beeper-design-3.kicad_sch" (id 1) (at 236.22 127.3175 0)
+    (property "Sheet file" "beeper-design-3.kicad_sch" (id 1) (at 181.61 132.3975 0)
       (effects (font (size 0.635 0.635)) (justify left top)))
     (instances
       (project "beeper-design"
-        (path "/c289d14f-4e9b-37a2-a5f8-21d24bc6e644" (page "3"))
+        (path "/219df102-d28d-b743-245e-efc9439ef913" (page "3"))
       )
     )
   )
 
-  (sheet (at 219.71 114.3) (size 12.7 12.7)
+  (sheet (at 203.2 119.38) (size 12.7 12.7)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
-    (uuid 870bfd48-92c1-24a6-1718-181a416e7977)
-    (pin " " passive (at 219.71 120.65 180) (effects hide))
-    (pin " " passive (at 226.06 114.3 90) (effects hide))
-    (pin " " passive (at 232.41 120.65 0) (effects hide))
-    (pin " " passive (at 226.06 127.0 270) (effects hide))
-    (property "Sheet name" "mcu" (id 0) (at 226.06 120.65 0)
+    (uuid 935f5794-0c22-91be-1457-382ff89cdef5)
+    (pin " " passive (at 203.2 128.27 180) (effects hide))
+    (pin " " passive (at 203.2 121.92 180) (effects hide))
+    (pin " " passive (at 209.55 119.38 90) (effects hide))
+    (pin " " passive (at 209.55 132.08 270) (effects hide))
+    (property "Sheet name" "board-io" (id 0) (at 209.55 125.73 0)
       (effects (font (size 0.635 0.635))))
-    (property "Sheet file" "beeper-design-4.kicad_sch" (id 1) (at 219.71 127.3175 0)
+    (property "Sheet file" "beeper-design-4.kicad_sch" (id 1) (at 203.2 132.3975 0)
       (effects (font (size 0.635 0.635)) (justify left top)))
     (instances
       (project "beeper-design"
-        (path "/c289d14f-4e9b-37a2-a5f8-21d24bc6e644" (page "4"))
+        (path "/219df102-d28d-b743-245e-efc9439ef913" (page "4"))
       )
     )
   )
 
-  (sheet (at 182.88 114.3) (size 16.51 12.7)
+  (sheet (at 234.95 119.38) (size 12.7 12.7)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
-    (uuid 8e582a48-32e3-c5bf-77b4-7ca97fa7bff7)
-    (pin " " passive (at 198.12 120.65 0) (effects hide))
-    (pin " " passive (at 189.23 127.0 270) (effects hide))
-    (property "Sheet name" "flex-conn.beeper-connector" (id 0) (at 191.135 120.65 0)
+    (uuid 644476e5-0971-9107-e47c-b65e6328ec43)
+    (pin " " passive (at 241.3 119.38 90) (effects hide))
+    (pin " " passive (at 247.65 125.73 0) (effects hide))
+    (pin " " passive (at 241.3 132.08 270) (effects hide))
+    (property "Sheet name" "board-io.hapdrv\nwpwr.module" (id 0) (at 241.3 125.73 0)
       (effects (font (size 0.635 0.635))))
-    (property "Sheet file" "beeper-design-5.kicad_sch" (id 1) (at 182.88 127.3175 0)
+    (property "Sheet file" "beeper-design-5.kicad_sch" (id 1) (at 234.95 132.3975 0)
       (effects (font (size 0.635 0.635)) (justify left top)))
     (instances
       (project "beeper-design"
-        (path "/c289d14f-4e9b-37a2-a5f8-21d24bc6e644" (page "5"))
+        (path "/219df102-d28d-b743-245e-efc9439ef913" (page "5"))
       )
     )
   )

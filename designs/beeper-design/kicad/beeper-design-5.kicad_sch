@@ -2,35 +2,11 @@
 (kicad_sch
   (version 20230121)
   (generator jitx)
-  (uuid 52405720-3470-030a-7798-b59f5ba3de15)
+  (uuid 22fe76f7-c3e3-19de-5cb8-6e1c9e719fda)
   (paper "B")
   
   
   (lib_symbols 
-
-    (symbol "VDD1P8" (power)
-      (in_bom yes) (on_board yes)
-      
-      (property "Reference" "#PWR" (id 0) (at 35.0 60.0 0.0)
-        (effects (font (size 5.0 5.0))  (justify left bottom )))
-      
-      (property "Value" "VDD1P8" (id 1) (at 0.508 0.508 0.0)
-        (effects (font (size 0.28224 0.28224))  (justify left )))
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      
-(symbol "VDD1P8_1_0"
-
-      (pin power_in line (at 0.0 0.0 0) (length 0.0)
-        (name "VDD1P8" (effects (font (size 0.0 0.0))))
-        (number "~" (effects (font (size 0.0 0.0))))
-      )
-      (polyline (pts (xy 0.0 0.0) (xy 2.54 0.0)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
-      (polyline (pts (xy 2.54 1.27) (xy 2.54 -1.27)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
-)
-    )
 
     (symbol "VDD3P0" (power)
       (in_bom yes) (on_board yes)
@@ -79,6 +55,30 @@
       (polyline (pts (xy -1.27 -1.27) (xy 1.27 -1.27)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
       (polyline (pts (xy -0.762 -1.778) (xy 0.762 -1.778)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
       (polyline (pts (xy -0.254 -2.286) (xy 0.254 -2.286)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
+    (symbol "VDDSYS" (power)
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "#PWR" (id 0) (at 35.0 60.0 0.0)
+        (effects (font (size 5.0 5.0))  (justify left bottom )))
+      
+      (property "Value" "VDDSYS" (id 1) (at 0.508 0.508 0.0)
+        (effects (font (size 0.28224 0.28224))  (justify left )))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "VDDSYS_1_0"
+
+      (pin power_in line (at 0.0 0.0 0) (length 0.0)
+        (name "VDDSYS" (effects (font (size 0.0 0.0))))
+        (number "~" (effects (font (size 0.0 0.0))))
+      )
+      (polyline (pts (xy 0.0 0.0) (xy 2.54 0.0)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy 2.54 1.27) (xy 2.54 -1.27)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
 )
     )
 
@@ -667,6 +667,36 @@
         (number "~" (effects (font (size 0.0 0.0))))
       )
       (rectangle (start -7.62 -12.7) (end 7.62 12.7) (stroke (width 0.0) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
+    (symbol "Johanson2450AT18D0100_STD_R" 
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "U" (id 0) (at -3.8735 5.4435 0.0)
+        (effects (font (size 0.3048 0.3048))  ))
+      
+      (property "Value" "Johanson2450AT18D0100_STD_R" (id 1) (at 0.0 0.0 0.0)
+        (effects (font (size 10.0 10.0)) hide ))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "Johanson2450AT18D0100_STD_R_1_0"
+
+      (pin unspecified line (at 8.89 -3.81 180) (length 2.54)
+        (name "GND" (effects (font (size 0.0 0.0))))
+        (number "~" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 0.0 -3.81 90) (length 3.81)
+        (name "ANT" (effects (font (size 0.0 0.0))))
+        (number "~" (effects (font (size 0.0 0.0))))
+      )
+      (polyline (pts (xy 0.0 0.0) (xy 3.81 3.81)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy 0.0 0.0) (xy -3.81 3.81)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy 0.0 0.0) (xy 0.0 5.08)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
 )
     )
 
@@ -1314,36 +1344,6 @@
       (polyline (pts (xy -1.27 0.508) (xy 1.27 0.508)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
       (polyline (pts (xy 0.0 -0.508) (xy 0.0 -2.54)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
       (polyline (pts (xy -1.27 -0.508) (xy 1.27 -0.508)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
-)
-    )
-
-    (symbol "Johanson2450AT18D0100_STD_R" 
-      (in_bom yes) (on_board yes)
-      
-      (property "Reference" "U" (id 0) (at -3.8735 5.4435 0.0)
-        (effects (font (size 0.3048 0.3048))  ))
-      
-      (property "Value" "Johanson2450AT18D0100_STD_R" (id 1) (at 0.0 0.0 0.0)
-        (effects (font (size 10.0 10.0)) hide ))
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      
-(symbol "Johanson2450AT18D0100_STD_R_1_0"
-
-      (pin unspecified line (at 8.89 -3.81 180) (length 2.54)
-        (name "GND" (effects (font (size 0.0 0.0))))
-        (number "~" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin unspecified line (at 0.0 -3.81 90) (length 3.81)
-        (name "ANT" (effects (font (size 0.0 0.0))))
-        (number "~" (effects (font (size 0.0 0.0))))
-      )
-      (polyline (pts (xy 0.0 0.0) (xy 3.81 3.81)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
-      (polyline (pts (xy 0.0 0.0) (xy -3.81 3.81)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
-      (polyline (pts (xy 0.0 0.0) (xy 0.0 5.08)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
 )
     )
 
@@ -3927,54 +3927,6 @@
 )
     )
 
-    (symbol "component" 
-      (in_bom yes) (on_board yes)
-      
-      (property "Reference" "J" (id 0) (at -2.54 5.08 0.0)
-        (effects (font (size 0.28224 0.28224))  (justify left )))
-      
-      (property "Value" "component" (id 1) (at -2.54 4.445 0.0)
-        (effects (font (size 0.28224 0.28224))  (justify left )))
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      
-(symbol "component_1_0"
-
-      (pin unspecified line (at -5.08 2.54 0) (length 2.54)
-        (name "1" (effects (font (size 0.762 0.762))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 5.08 2.54 180) (length 2.54)
-        (name "2" (effects (font (size 0.762 0.762))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at -5.08 0.0 0) (length 2.54)
-        (name "3" (effects (font (size 0.762 0.762))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 5.08 0.0 180) (length 2.54)
-        (name "4" (effects (font (size 0.762 0.762))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at -5.08 -2.54 0) (length 2.54)
-        (name "5" (effects (font (size 0.762 0.762))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 5.08 -2.54 180) (length 2.54)
-        (name "6" (effects (font (size 0.762 0.762))))
-        (number "6" (effects (font (size 0.762 0.762))))
-      )
-      (rectangle (start -2.54 -3.81) (end 2.54 3.81) (stroke (width 0.0) (type solid) (color 0 0 0 0)) (fill (type background)))
-)
-    )
-
     (symbol "C105225_1" 
       (in_bom yes) (on_board yes)
       
@@ -4098,6 +4050,54 @@
 )
     )
 
+    (symbol "component" 
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "J" (id 0) (at -2.54 5.08 0.0)
+        (effects (font (size 0.28224 0.28224))  (justify left )))
+      
+      (property "Value" "component" (id 1) (at -2.54 4.445 0.0)
+        (effects (font (size 0.28224 0.28224))  (justify left )))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "component_1_0"
+
+      (pin unspecified line (at -5.08 2.54 0) (length 2.54)
+        (name "1" (effects (font (size 0.762 0.762))))
+        (number "1" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 5.08 2.54 180) (length 2.54)
+        (name "2" (effects (font (size 0.762 0.762))))
+        (number "2" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at -5.08 0.0 0) (length 2.54)
+        (name "3" (effects (font (size 0.762 0.762))))
+        (number "3" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 5.08 0.0 180) (length 2.54)
+        (name "4" (effects (font (size 0.762 0.762))))
+        (number "4" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at -5.08 -2.54 0) (length 2.54)
+        (name "5" (effects (font (size 0.762 0.762))))
+        (number "5" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 5.08 -2.54 180) (length 2.54)
+        (name "6" (effects (font (size 0.762 0.762))))
+        (number "6" (effects (font (size 0.762 0.762))))
+      )
+      (rectangle (start -2.54 -3.81) (end 2.54 3.81) (stroke (width 0.0) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
     (symbol "my_capacitor_3" 
       (in_bom yes) (on_board yes)
       
@@ -4126,6 +4126,84 @@
       (polyline (pts (xy -1.27 0.508) (xy 1.27 0.508)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
       (polyline (pts (xy 0.0 -0.508) (xy 0.0 -2.54)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
       (polyline (pts (xy -1.27 -0.508) (xy 1.27 -0.508)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
+    (symbol "AT25FF321A_UUN_T" 
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "U" (id 0) (at -6.35 10.252 0.0)
+        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
+      
+      (property "Value" "AT25FF321A_UUN_T" (id 1) (at -6.35 9.19 0.0)
+        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "AT25FF321A_UUN_T_1_0"
+
+      (pin unspecified line (at -8.89 2.54 0) (length 2.54)
+        (name "CSn" (effects (font (size 0.762 0.762))))
+        (number "B4" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at -8.89 0.0 0) (length 2.54)
+        (name "SI" (effects (font (size 0.762 0.762))))
+        (number "E3" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at -8.89 -2.54 0) (length 2.54)
+        (name "SCK" (effects (font (size 0.762 0.762))))
+        (number "F2" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 8.89 2.54 180) (length 2.54)
+        (name "SO" (effects (font (size 0.762 0.762))))
+        (number "D4" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 8.89 0.0 180) (length 2.54)
+        (name "HRn" (effects (font (size 0.762 0.762))))
+        (number "D2" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 8.89 -2.54 180) (length 2.54)
+        (name "WPn" (effects (font (size 0.762 0.762))))
+        (number "F4" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 0.0 11.43 270) (length 2.54)
+        (name "Vcc" (effects (font (size 0.762 0.762))))
+        (number "B2" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin no_connect line (at -1.27 -11.43 90) (length 2.54)
+        (name "NC" (effects (font (size 0.762 0.762))))
+        (number "G5" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin no_connect line (at -1.27 -11.43 90) (length 0.0)
+        (name "NC" (effects (font (size 0.0 0.0))))
+        (number "G1" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin no_connect line (at -1.27 -11.43 90) (length 0.0)
+        (name "NC" (effects (font (size 0.0 0.0))))
+        (number "A1" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin no_connect line (at -1.27 -11.43 90) (length 0.0)
+        (name "NC" (effects (font (size 0.0 0.0))))
+        (number "A5" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 1.27 -11.43 90) (length 2.54)
+        (name "GND" (effects (font (size 0.762 0.762))))
+        (number "C3" (effects (font (size 0.762 0.762))))
+      )
+      (rectangle (start -6.35 -8.89) (end 6.35 8.89) (stroke (width 0.0) (type solid) (color 0 0 0 0)) (fill (type background)))
 )
     )
 
@@ -4309,84 +4387,6 @@
       (polyline (pts (xy 0.0 -2.54) (xy 0.0 -1.5875)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
       (polyline (pts (xy 0.0 -1.5875) (xy -0.762 -1.27)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))       (polyline (pts (xy -0.762 -1.27) (xy 0.762 -0.635)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))       (polyline (pts (xy 0.762 -0.635) (xy -0.762 0.0)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))       (polyline (pts (xy -0.762 0.0) (xy 0.762 0.635)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))       (polyline (pts (xy 0.762 0.635) (xy -0.762 1.27)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))       (polyline (pts (xy -0.762 1.27) (xy 0.0 1.5875)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
       (polyline (pts (xy 0.0 1.5875) (xy 0.0 2.54)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
-)
-    )
-
-    (symbol "AT25FF321A_UUN_T" 
-      (in_bom yes) (on_board yes)
-      
-      (property "Reference" "U" (id 0) (at -6.35 10.252 0.0)
-        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
-      
-      (property "Value" "AT25FF321A_UUN_T" (id 1) (at -6.35 9.19 0.0)
-        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      
-(symbol "AT25FF321A_UUN_T_1_0"
-
-      (pin unspecified line (at -8.89 2.54 0) (length 2.54)
-        (name "CSn" (effects (font (size 0.762 0.762))))
-        (number "B4" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at -8.89 0.0 0) (length 2.54)
-        (name "SI" (effects (font (size 0.762 0.762))))
-        (number "E3" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at -8.89 -2.54 0) (length 2.54)
-        (name "SCK" (effects (font (size 0.762 0.762))))
-        (number "F2" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 8.89 2.54 180) (length 2.54)
-        (name "SO" (effects (font (size 0.762 0.762))))
-        (number "D4" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 8.89 0.0 180) (length 2.54)
-        (name "HRn" (effects (font (size 0.762 0.762))))
-        (number "D2" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 8.89 -2.54 180) (length 2.54)
-        (name "WPn" (effects (font (size 0.762 0.762))))
-        (number "F4" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 0.0 11.43 270) (length 2.54)
-        (name "Vcc" (effects (font (size 0.762 0.762))))
-        (number "B2" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin no_connect line (at -1.27 -11.43 90) (length 2.54)
-        (name "NC" (effects (font (size 0.762 0.762))))
-        (number "G5" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin no_connect line (at -1.27 -11.43 90) (length 0.0)
-        (name "NC" (effects (font (size 0.0 0.0))))
-        (number "G1" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin no_connect line (at -1.27 -11.43 90) (length 0.0)
-        (name "NC" (effects (font (size 0.0 0.0))))
-        (number "A1" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin no_connect line (at -1.27 -11.43 90) (length 0.0)
-        (name "NC" (effects (font (size 0.0 0.0))))
-        (number "A5" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin unspecified line (at 1.27 -11.43 90) (length 2.54)
-        (name "GND" (effects (font (size 0.762 0.762))))
-        (number "C3" (effects (font (size 0.762 0.762))))
-      )
-      (rectangle (start -6.35 -8.89) (end 6.35 8.89) (stroke (width 0.0) (type solid) (color 0 0 0 0)) (fill (type background)))
 )
     )
 
@@ -5861,89 +5861,6 @@
 )
     )
 
-    (symbol "AMPHENOL_10103594_0001LF" 
-      (in_bom yes) (on_board yes)
-      
-      (property "Reference" "J" (id 0) (at -3.81 14.062 0.0)
-        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
-      
-      (property "Value" "AMPHENOL_10103594_0001LF" (id 1) (at -3.81 13.0 0.0)
-        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 0.635 0.635)) hide))
-      
-(symbol "AMPHENOL_10103594_0001LF_1_0"
-
-      (pin unspecified line (at 6.35 3.81 180) (length 2.54)
-        (name "VCC" (effects (font (size 0.762 0.762))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 6.35 1.27 180) (length 2.54)
-        (name "D+" (effects (font (size 0.762 0.762))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 6.35 -1.27 180) (length 2.54)
-        (name "D-" (effects (font (size 0.762 0.762))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 6.35 -3.81 180) (length 2.54)
-        (name "ID" (effects (font (size 0.762 0.762))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at -1.27 -15.24 90) (length 2.54)
-        (name "GND" (effects (font (size 0.762 0.762))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 1.27 -15.24 90) (length 2.54)
-        (name "SHIELD" (effects (font (size 0.762 0.762))))
-        (number "14" (effects (font (size 0.762 0.762))))
-      )
-
-      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
-        (name "SHIELD" (effects (font (size 0.0 0.0))))
-        (number "13" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
-        (name "SHIELD" (effects (font (size 0.0 0.0))))
-        (number "11" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
-        (name "SHIELD" (effects (font (size 0.0 0.0))))
-        (number "10" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
-        (name "SHIELD" (effects (font (size 0.0 0.0))))
-        (number "9" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
-        (name "SHIELD" (effects (font (size 0.0 0.0))))
-        (number "8" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
-        (name "SHIELD" (effects (font (size 0.0 0.0))))
-        (number "7" (effects (font (size 0.0 0.0))))
-      )
-
-      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
-        (name "SHIELD" (effects (font (size 0.0 0.0))))
-        (number "6" (effects (font (size 0.0 0.0))))
-      )
-      (rectangle (start -3.81 -12.7) (end 3.81 12.7) (stroke (width 0.0) (type solid) (color 0 0 0 0)) (fill (type background)))
-)
-    )
-
     (symbol "C76935_7" 
       (in_bom yes) (on_board yes)
       
@@ -7124,6 +7041,89 @@
 )
     )
 
+    (symbol "AMPHENOL_10103594_0001LF" 
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "J" (id 0) (at -3.81 14.062 0.0)
+        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
+      
+      (property "Value" "AMPHENOL_10103594_0001LF" (id 1) (at -3.81 13.0 0.0)
+        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "AMPHENOL_10103594_0001LF_1_0"
+
+      (pin unspecified line (at 6.35 3.81 180) (length 2.54)
+        (name "VCC" (effects (font (size 0.762 0.762))))
+        (number "1" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 6.35 1.27 180) (length 2.54)
+        (name "D+" (effects (font (size 0.762 0.762))))
+        (number "3" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 6.35 -1.27 180) (length 2.54)
+        (name "D-" (effects (font (size 0.762 0.762))))
+        (number "2" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 6.35 -3.81 180) (length 2.54)
+        (name "ID" (effects (font (size 0.762 0.762))))
+        (number "4" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at -1.27 -15.24 90) (length 2.54)
+        (name "GND" (effects (font (size 0.762 0.762))))
+        (number "5" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 1.27 -15.24 90) (length 2.54)
+        (name "SHIELD" (effects (font (size 0.762 0.762))))
+        (number "14" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
+        (name "SHIELD" (effects (font (size 0.0 0.0))))
+        (number "13" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
+        (name "SHIELD" (effects (font (size 0.0 0.0))))
+        (number "11" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
+        (name "SHIELD" (effects (font (size 0.0 0.0))))
+        (number "10" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
+        (name "SHIELD" (effects (font (size 0.0 0.0))))
+        (number "9" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
+        (name "SHIELD" (effects (font (size 0.0 0.0))))
+        (number "8" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
+        (name "SHIELD" (effects (font (size 0.0 0.0))))
+        (number "7" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 1.27 -15.24 90) (length 0.0)
+        (name "SHIELD" (effects (font (size 0.0 0.0))))
+        (number "6" (effects (font (size 0.0 0.0))))
+      )
+      (rectangle (start -3.81 -12.7) (end 3.81 12.7) (stroke (width 0.0) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
     (symbol "C96506" 
       (in_bom yes) (on_board yes)
       
@@ -7296,47 +7296,47 @@
 )
     )
   )
-  (wire (pts (xy 199.39 128.27) (xy 214.63 128.27)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 19564de8-dba6-9f76-f9fe-bada7a7ed645))
-  (wire (pts (xy 199.39 130.81) (xy 214.63 130.81)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 04b72a1c-c3c8-3311-1c9b-d4973b9f0f49))
-  (wire (pts (xy 199.39 115.57) (xy 214.63 115.57)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 8f55830e-7703-a035-93cf-9f5df840fa9c))
-  (wire (pts (xy 199.39 118.11) (xy 214.63 118.11)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid ed27b76d-b94e-1d29-1608-6a808858846a))
-  (wire (pts (xy 199.39 120.65) (xy 214.63 120.65)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid adddda12-f00d-db24-2245-07a1ee701fde))
-  (wire (pts (xy 199.39 134.62) (xy 199.39 115.57)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid aef31ae3-4346-ac9c-f270-a2174674f6c8))
-  (wire (pts (xy 213.36 123.19) (xy 214.63 123.19)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid f49d210f-d349-c0a3-baa9-87191361c9fc))
-  (wire (pts (xy 213.36 113.03) (xy 214.63 113.03)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 1c1fd386-6ef1-2256-dccc-a9add71838f5))
-  (wire (pts (xy 213.36 125.73) (xy 214.63 125.73)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 624ea09d-8cc0-79ac-b3bd-e3b44342730d))
-  (polyline (pts (xy 195.58 107.95) (xy 234.95 107.95)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 0ac3943f-2292-2f2e-1132-8aa5571441f1))
-  (polyline (pts (xy 195.58 139.7) (xy 234.95 139.7)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid e8b0ba03-8335-c7c0-eefc-63fc0afb3f33))
-  (polyline (pts (xy 195.58 139.7) (xy 195.58 107.95)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 612f923c-edb3-3301-1c13-718754bbc51e))
-  (polyline (pts (xy 234.95 139.7) (xy 234.95 107.95)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid f0994504-2472-6031-db0b-d860115bd835))
-(junction (at 199.39 128.27) (diameter 0.762) (color 0 0 0 0 ) (uuid cbde62d7-0383-8454-05c1-d07d2b8beb00))
-(junction (at 199.39 130.81) (diameter 0.762) (color 0 0 0 0 ) (uuid d7648733-512d-48e6-f015-131e38e5fd8d))
-(junction (at 199.39 118.11) (diameter 0.762) (color 0 0 0 0 ) (uuid c2c64ccb-d5c3-3daa-a328-a5a6524de8fc))
-(junction (at 199.39 120.65) (diameter 0.762) (color 0 0 0 0 ) (uuid 9f69bd42-05eb-36d2-476b-c3fd5d2bf984))
+  (wire (pts (xy 199.39 128.27) (xy 214.63 128.27)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 01192832-7818-4e95-58b3-3809769327b2))
+  (wire (pts (xy 199.39 130.81) (xy 214.63 130.81)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid fac8a65a-12b1-76e1-72ad-77d32283e5ad))
+  (wire (pts (xy 199.39 115.57) (xy 214.63 115.57)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 04ff6ba4-b644-e3cc-23bb-00668fbe8262))
+  (wire (pts (xy 199.39 118.11) (xy 214.63 118.11)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 8efb9c2c-784d-4aa0-59be-03e471d2a5e6))
+  (wire (pts (xy 199.39 120.65) (xy 214.63 120.65)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 900c5fef-f87b-d29b-d85e-487224a57a6f))
+  (wire (pts (xy 199.39 134.62) (xy 199.39 115.57)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 15fbf3ef-5e37-0628-76f7-91eb4e6268d6))
+  (wire (pts (xy 213.36 123.19) (xy 214.63 123.19)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid ae37a45f-3a9f-6418-f5f4-c7a698766693))
+  (wire (pts (xy 213.36 113.03) (xy 214.63 113.03)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 8072ab48-7779-73c2-e6d2-48681c3b19f5))
+  (wire (pts (xy 213.36 125.73) (xy 214.63 125.73)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 9adef20c-26fb-992f-a21c-011bda97e326))
+  (polyline (pts (xy 195.58 107.95) (xy 234.95 107.95)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid c1e3eb44-aaea-bf58-9fe8-761d0cf1a9cf))
+  (polyline (pts (xy 195.58 139.7) (xy 234.95 139.7)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 559c8bfe-b593-4005-25e4-2d8eaeecd5f1))
+  (polyline (pts (xy 195.58 139.7) (xy 195.58 107.95)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 906c8e25-e625-aab9-4c2d-043a9e935ed0))
+  (polyline (pts (xy 234.95 139.7) (xy 234.95 107.95)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid de28412a-e217-9b11-b449-0d49032d9936))
+(junction (at 199.39 128.27) (diameter 0.762) (color 0 0 0 0 ) (uuid cf61cbaf-dd05-e044-3007-46011a0e843b))
+(junction (at 199.39 130.81) (diameter 0.762) (color 0 0 0 0 ) (uuid 883ff2ec-69b7-678a-e537-d5b5cde7030e))
+(junction (at 199.39 118.11) (diameter 0.762) (color 0 0 0 0 ) (uuid 1df904de-f7c1-7e99-95db-9d79708935ad))
+(junction (at 199.39 120.65) (diameter 0.762) (color 0 0 0 0 ) (uuid 3ab0b961-82bc-4134-7bd9-f701815187a8))
 
   (label "flex-conn_beeper-connector" (at 195.58 107.95 0)
     (effects (font (size 0.762 0.762)) (justify left bottom ))
-    (uuid db49af07-006b-808c-acd9-cb2092ab278b)
+    (uuid c0823a5c-ed4d-eaba-7a82-d6b70f9517e2)
   )
 
   (global_label "codec-pdm-net_data" (shape passive) (at 213.36 123.19 180)
     (effects (font (size 0.762 0.762)) (justify right ))
-    (uuid a8e7943f-d21e-0808-bedc-68ba578f9056)
+    (uuid 17c2d159-b2b8-370c-7ae4-14ba36167aae)
   )
 
   (global_label "codec-pdm-net_clk" (shape passive) (at 213.36 113.03 180)
     (effects (font (size 0.762 0.762)) (justify right ))
-    (uuid aa460009-bcc5-7018-07bc-bcd44fb324b7)
+    (uuid 2fb783c9-fda8-fef2-e9b9-b9dc452e8d0d)
   )
 
   (global_label "MICBIAS1" (shape passive) (at 213.36 125.73 180)
     (effects (font (size 0.762 0.762)) (justify right ))
-    (uuid e15e4091-168b-0a0b-b05e-395412481567)
+    (uuid 00585541-c880-ab8d-3a9d-05dd370b32bb)
   )
 
   (symbol (lib_id "FH19C_6S_0_5SH_10_") (at 224.79 121.92 0.0)  (unit 1)
     (in_bom yes) (on_board yes) 
-    (uuid f1a2fba3-e34a-385e-3c8d-1ca675b83bc6)
+    (uuid f46b663d-add0-88b0-95c7-8aa509988c19)
     (property "Reference" "U5" (id 0) (at 217.17 109.128 0.0) (effects (font (size 0.762 0.762)) (justify left bottom )))
     (property "Value" "FH19C-6S-0.5SH(10)" (id 1) (at 217.17 110.19 0.0) (effects (font (size 0.762 0.762)) (justify left bottom )))
     (property "Footprint" "beeper-design:LP_4" (id 2) (at 224.79 121.92 0.0) (effects (font (size 0.762 0.762)) hide))
@@ -7346,17 +7346,17 @@
       (property "Manufacturer" "Hirose" (id 6) (at 224.79 121.92 0.0) (effects (font (size 0.762 0.762)) hide))
       (property "MPN" "FH19C-6S-0.5SH(10)" (id 7) (at 224.79 121.92 0.0) (effects (font (size 0.762 0.762)) hide))
     
-    (pin "1" (uuid 76609beb-3e64-4a9a-f35e-bd28c5184c38))
-    (pin "2" (uuid 9b2e7364-645f-fd33-b7ac-a3a29e0cdd6d))
-    (pin "3" (uuid b980143c-2ade-4f0b-a982-04506d6a01f4))
-    (pin "4" (uuid e0bd3504-d8e1-c57a-1e0f-3f95cab09412))
-    (pin "5" (uuid c0675cee-9006-f123-fd1e-3a6ad53e2c2f))
-    (pin "6" (uuid 69b890da-f748-ccae-fc3a-c6a88d3e8413))
-    (pin "7" (uuid 1f98f633-80fb-0086-284a-7b917d043ecb))
-    (pin "8" (uuid 6a3b14e1-819e-6302-3e98-8ffaf2f71623))
+    (pin "1" (uuid 250cc11c-107a-b906-8b1b-03533f6a37b3))
+    (pin "2" (uuid e976e073-361a-652e-2223-4e28000666b5))
+    (pin "3" (uuid a5e1d526-e190-200e-fde4-8c858a6728ed))
+    (pin "4" (uuid db8684d9-64a4-a1bb-8034-037883eaed28))
+    (pin "5" (uuid 6a42039a-8b90-afbf-b5f9-df49e6c8b2c0))
+    (pin "6" (uuid 0d3fdbb6-a78a-1aa7-776d-d505400060c6))
+    (pin "7" (uuid f8cb1a9a-08d4-73bd-9021-b3ea20a844c1))
+    (pin "8" (uuid a128938b-62d8-1638-b529-c5fd25e6be6d))
     (instances
       (project "beeper-design"
-        (path "/c289d14f-4e9b-37a2-a5f8-21d24bc6e644"
+        (path "/219df102-d28d-b743-245e-efc9439ef913"
           (reference "U5") (unit 1)
         )
       )
@@ -7365,15 +7365,15 @@
 
   (symbol (lib_id "GND") (at 199.39 134.62 0.0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid af6f95aa-61e6-3d00-543e-68fad1da94d3)
+    (uuid c80c410d-6611-e9db-eb7c-58ec49df90c1)
     (property "Reference" "#PWR?" (id 0) (at 199.39 134.62 0) (effects hide))
     (property "Value" "GND" (id 1) (at 196.85 137.16 0.0) (effects (font (size 0.762 0.762))))
     (property "Footprint" "" (id 2) (effects (font (size 0.762 0.762)) hide))
     (property "Datasheet" "" (id 3) (effects (font (size 0.762 0.762)) hide))
-    (pin "~" (uuid d9d3cdc9-811e-023d-fbad-8987ca3096a4))
+    (pin "~" (uuid 92d40f8e-9c05-8252-2571-e1e79c724265))
     (instances
       (project "beeper-design"
-        (path "/c289d14f-4e9b-37a2-a5f8-21d24bc6e644"
+        (path "/219df102-d28d-b743-245e-efc9439ef913"
           (reference "#PWR?") (unit 1)
         )
       )

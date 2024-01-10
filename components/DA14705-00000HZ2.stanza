@@ -363,7 +363,7 @@ public pcb-module module :
   net (GND cpi1.p[2] cpi2.p[2] ant.GND)
 
   ; Set up RF netclass
-  val rf-net-class = NetClass(`RF, [`min-trace => 0.37467])
+  val rf-net-class = NetClass(`RF, [`min-trace => 0.221435])
   for n in [RF1 RF2 RF3] do :
     property(n.net-class) = rf-net-class
 

@@ -236,7 +236,7 @@
         "name": "RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3493,
+        "track_width": 0.37467,
         "via_diameter": 0.015,
         "via_drill": 0.15,
         "wire_width": 6
@@ -282,7 +282,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "mcu_dbg-m33_swdio"
+        "pattern": "mcu_mcu-dbg-m33_swdio"
       },
       {
         "netclass": "Default",
@@ -450,7 +450,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "cap_cap_p1"
+        "pattern": "rid_p1"
       },
       {
         "netclass": "Default",
@@ -538,7 +538,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "VDD_MIC"
+        "pattern": "VDD_A"
       },
       {
         "netclass": "Default",
@@ -602,7 +602,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "VDD1P8"
+        "pattern": "VDDSYS"
       },
       {
         "netclass": "Default",

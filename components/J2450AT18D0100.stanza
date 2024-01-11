@@ -138,6 +138,6 @@ public pcb-component component (-- mirror-y:True|False = false):
   property(self.\|Pad Count|) = "4"
   property(self.\|Supplier 1|) = "Digi-Key"
   property(self.\|Supplier 2|) = "Mouser"
-  property(self.\|Supplier Part Number 1|) = "2450AT18D0100E"
+  property(self.\|Supplier Part Number 1|) = "712-2450AT18D0100001ECT-ND"
   property(self.\|Supplier Part Number 2|) = "609-2450AT18D0100E"
   property(self.Value) = "2450AT18D0100"

@@ -120,11 +120,11 @@ public pcb-symbol Johanson2450AT18D0100_STD-R :
   layer("foreground") = Line(0.127, [Point(0.0, 0.0), Point(0.0, 5.08)])
 
 public pcb-component component (-- mirror-y:True|False = false):
-  manufacturer = "Johanson Technology"
-  mpn = "2450AT18D0100"
-  name = "2450AT18D0100"
-  description = "2.4GHz Chip RF Antenna 2.4GHz ~ 2.5GHz 1.5dBi Solder Surface Mount"
-  datasheet = "http://www.johansontechnology.com/datasheets/antennas/2450AT18D0100.pdf"
+  manufacturer = "Johanson"
+  mpn = "2450AT18D0100001E"
+  name = "2450AT18D0100001E"
+  description = "2.45 GHz SMD Antenna, EIA 1206, Detuning resilient, Edge Mount Design"
+  datasheet = "https://www.johansontechnology.com/datasheets/2450AT18D0100/2450AT18D0100.pdf"
   pin-properties :
     [pin:Ref | pads:Ref ... | side:Dir]
     [GND | p[2] p[3] p[4] | Down]
@@ -133,21 +133,9 @@ public pcb-component component (-- mirror-y:True|False = false):
   assign-landpattern(_2450AT18D0100_STD-R-1(mirror-y))
   assign-symbol(Johanson2450AT18D0100_STD-R)
 
-  property(self.\|Artikkelnr Noca|) = "53059035"
   property(self.\|Component Class|) = "Antennas"
-  property(self.ComponentLink1Description) = "Datasheet"
-  property(self.ComponentLink1URL) = "N.A."
-  property(self.ComponentLink2Description) = "Supplier link"
-  property(self.ComponentLink2URL) = "N.A."
-  property(self.\|Footprint Doc|) = "2450AT18D0100"
   property(self.HelpURL) = "http://www.johansontechnology.com/datasheets/antennas/2450AT18D0100.pdf"
-  property(self.LatestRevisionDate) = "2016-06-02"
-  property(self.Note) = "N.A."
   property(self.\|Pad Count|) = "4"
-  property(self.\|Part Number|) = "Johanson 2450AT18D0100_STD-R"
-  property(self.\|Part number IPS|) = "00000001415"
-  property(self.PartId) = "100700005"
-  property(self.Published) = "2016-01-12"
   property(self.\|Supplier 1|) = "Digi-Key"
   property(self.\|Supplier 2|) = "Mouser"
   property(self.\|Supplier Part Number 1|) = "2450AT18D0100E"

@@ -29,6 +29,9 @@ APPROVED-DISTRIBUTOR-LIST  = [
   Mouser
   Newark
   Arrow
+  Future
+  "Easev"
+  "iodParts"
 ]
 ; Define the shape/size of the board
 val x-off = 17.270

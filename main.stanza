@@ -23,34 +23,13 @@ defpackage main :
 
 MIN-PKG = "0201"
 DESIGN-QUANTITY = 20
-; APPROVED-DISTRIBUTOR-LIST = [JLCPCB LCSC]
-val bga-net-class = NetClass(`BGA, [`min-trace => 0.075, `min-space => 0.065])
-
-; given a module and a pin that exists within that module, find the named net which that pin is connected to
-public defn get-named-net (my-module: Instantiable|Self, my-pin:JITXObject) -> Net|False :
-  ; for every connected item in the module, check if any of its pins are the pins we're looking for. If so, look at every net that pin is connected to, and return the first named net
-  all-connected-items(my-module) $> find!{contains?{component-pins(_), my-pin}, _}
-                                           $> find!{{ref?(_) is Ref}, nets(_)}
-
-defn apply-netclass-to-pins (my-module: Instantiable|Self, my-inst:JITXObject -- nc:NetClass = bga-net-class) :
-  inside pcb-module :
-    eval-when true : ; PROPAGATION-FINISHED :
-      for my-pin in pins(my-inst) do :
-        println("Pin (%_)" % [ref(my-pin)])
-        if connected?(my-pin) :
-          val my-net = get-named-net(my-module, my-pin)
-          match(my-net:Net) :
-            println("Info: Applying net-class to net (%_) connected to pin %_"  % [ref(my-net) ref(my-pin)])
-            property(my-net.net-class) = nc
-          else :
-            println("Warning: No good net connected to pin %_"  % [ref(my-pin)])
-        else :
-          println("Warning: No nets connected to pin %_"  % [ref(my-pin)])
-
-; max_height = 1.5
-; DENSITY-LEVEL = 
-; set-rules(my-std-rules)
-
+OPERATING-TEMPERATURE = min-typ-max(0.0, 32.0 40.0)
+APPROVED-DISTRIBUTOR-LIST  = [
+  DigiKey
+  Mouser
+  Newark
+  Arrow
+]
 ; Define the shape/size of the board
 val x-off = 17.270
 val y-off = -15.110
@@ -220,10 +199,6 @@ public pcb-module beeper-design :
     copper-pour(LayerIndex(1), isolate = 0.1, rank = 1) = signal-shape
   geom(VDDSYS) :
     copper-pour(LayerIndex(2), isolate = 0.1, rank = 1) = signal-shape
-  ; geom(VDD1P8) :
-  ;   copper-pour(LayerIndex(3), isolate = 0.1, rank = 1) = signal-shape
-  ; geom(GND) :
-  ;   copper-pour(LayerIndex(4), isolate = 0.1, rank = 1) = signal-shape
 
   schematic-group(self) = main-board
   layout-group(self) = main-board
@@ -257,4 +232,5 @@ set-main-module(beeper-module) ; Treat the provided module as a design, and comp
 ; View the results
 view-schematic()
 view-board()
-; view-design-explorer()
+view-design-explorer()
+view-bom(BOM-STD)

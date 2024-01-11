@@ -263,6 +263,9 @@ public pcb-module module :
 
   ; all dbg connections
   inst dbg-m33-conn : TC2030-IDC-NL/component
+  component-status(dbg-m33-conn) :
+    bom-status = NotInBOM
+
   ; dnp(dbg-m33-conn)
   require dbg-power-m33 : power from dbg-m33-conn
   require dbg-m33 : swd() from dbg-m33-conn

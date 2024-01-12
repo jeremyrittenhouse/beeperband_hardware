@@ -28,7 +28,6 @@ APPROVED-DISTRIBUTOR-LIST = [JLCPCB LCSC]
 
 ; max_height = 1.5
 ; DENSITY-LEVEL = 
-set-rules(my-flex-rules)
 
 val board-shape = PolygonWithArcs([Arc(Point(1.52997945293385, 9.806351452932), 0.150020548475078, 89.9921526738328, -89.9843053469635),
                    Arc(Point(0.680145831626057, 7.60367134843203), 0.999854170036044, 0.00330367330329241, -43.3483597683887),
@@ -125,6 +124,7 @@ setup-design(
   vendors = APPROVED-DISTRIBUTOR-LIST
   quantity = DESIGN-QUANTITY
 )
+set-rules(my-flex-rules)
 
 ; Set the schematic sheet size
 set-paper(ANSI-B)

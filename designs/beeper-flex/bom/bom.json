@@ -223,36 +223,6 @@
 					"code":	5,
 					"name":	"Potential Alternate Vendors"
 				},
-				"description":	"Edge for 6 Position FFC, FPC Connector Contacts, Bottom 0.020\" (0.50mm) Surface Mount, Right Angle",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"conn"
-							},
-							"field":	{
-								"name":	"conn"
-							}
-						},
-						"ref":	"U6",
-						"fileinfo":	{
-							"filename":	"system.stanza",
-							"line":	26,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/822/FH19C_FH19SC_Series.pdf",
-				"manufacturer":	"Hirose",
-				"mpn":	"Edge-FH19C-6S-0.5SH(10)",
-				"vendor":	null,
-				"sku":	null,
-				"price":	null,
-				"preferred":	false,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	5,
-					"name":	"Potential Alternate Vendors"
-				},
 				"description":	"20 Hz ~ 20 kHz Digital, PDM Microphone MEMS (Silicon) 1.62 V ~ 3.6 V Omnidirectional (-36dB ±1dB @ 94dB SPL) Solder Pads",
 				"insts":	[{
 						"inst":	{
@@ -301,7 +271,6 @@
 				"query_properties":	null
 			}],
 		"entries":	[{
-			}, {
 			}, {
 			}]
 	}

@@ -388,10 +388,10 @@
   (wire (pts (xy 208.28 101.6) (xy 209.55 101.6)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid eaa54a66-2ef3-f9f9-2de2-c2b1b388013e))
   (wire (pts (xy 267.97 142.24) (xy 267.97 85.09)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 27564917-eb46-5190-1aa0-82aeb524e22f))
   (wire (pts (xy 208.28 101.6) (xy 208.28 83.82)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 32b7c463-5369-230f-eac9-c2e9c843f497))
-  (wire (pts (xy 171.45 151.13) (xy 172.72 151.13)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 53811e8e-94da-3f94-4f74-68543406f5d1))
-  (wire (pts (xy 171.45 129.54) (xy 224.79 129.54)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 0028a3d3-dc29-2665-6960-d1081c2e160f))
-  (wire (pts (xy 171.45 151.13) (xy 171.45 129.54)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 946bb78e-67e3-a6d8-7389-fdd1affa711a))
-  (wire (pts (xy 168.91 140.97) (xy 171.45 140.97)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 2b82050b-3d81-13a1-2b08-cbb7a2459793))
+  (wire (pts (xy 168.91 140.97) (xy 171.45 140.97)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 53811e8e-94da-3f94-4f74-68543406f5d1))
+  (wire (pts (xy 171.45 151.13) (xy 172.72 151.13)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 0028a3d3-dc29-2665-6960-d1081c2e160f))
+  (wire (pts (xy 171.45 129.54) (xy 224.79 129.54)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 946bb78e-67e3-a6d8-7389-fdd1affa711a))
+  (wire (pts (xy 171.45 151.13) (xy 171.45 129.54)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 2b82050b-3d81-13a1-2b08-cbb7a2459793))
   (wire (pts (xy 262.89 130.81) (xy 264.16 130.81)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid dc2b5ec4-2ac5-053c-1694-b7f273fbb947))
   (wire (pts (xy 217.17 152.4) (xy 264.16 152.4)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid d7441fd9-ed4a-242a-26d5-ffd378bc50a1))
   (wire (pts (xy 264.16 152.4) (xy 264.16 130.81)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid abc48612-1ac1-03ab-6184-955945243d23))
@@ -486,6 +486,7 @@
       (property "Description" "20 Hz ~ 20 kHz Digital, PDM Microphone MEMS (Silicon) 1.62 V ~ 3.6 V Omnidirectional (-36dB ±1dB @ 94dB SPL) Solder Pads" (id 5) (at 238.76 130.81 0.0) (effects (font (size 0.762 0.762)) hide))
       (property "Manufacturer" "Infineon" (id 6) (at 238.76 130.81 0.0) (effects (font (size 0.762 0.762)) hide))
       (property "MPN" "IM69D130V01XTSA1" (id 7) (at 238.76 130.81 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "LCSC" "C9900035948" (id 8) (at 238.76 130.81 0.0) (effects (font (size 0.762 0.762)) hide))
     
     (pin "CLOCK" (uuid 64b50317-2556-e185-f919-14b0fb436ef1))
     (pin "SELECT" (uuid d89eba60-8f62-2fd6-8661-01169fc6491d))
@@ -513,6 +514,7 @@
       (property "Manufacturer" "YAGEO" (id 6) (at 213.36 160.02 180.0) (effects (font (size 0.762 0.762)) hide))
       (property "MPN" "CC0201MRX5R6BB104" (id 7) (at 213.36 160.02 180.0) (effects (font (size 0.762 0.762)) hide))
       (property "Reference-prefix" "C" (id 8) (at 213.36 160.02 180.0) (effects (font (size 0.762 0.762)) hide))
+      (property "LCSC" "C1853386" (id 9) (at 213.36 160.02 180.0) (effects (font (size 0.762 0.762)) hide))
     
     (pin "1" (uuid 2ea109d8-bf86-9fcb-dac6-bd7d69faad7a))
     (pin "2" (uuid d2143240-d14c-0214-f8db-7f0b7149728f))
@@ -526,7 +528,7 @@
   )
 
   (symbol (lib_id "edge_FH19C_6S_0_5SH_10_") (at 228.6 97.79 0.0)  (unit 1)
-    (in_bom yes) (on_board yes) 
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid e15b9077-b3ae-744d-0be4-8f31a545f13c)
     (property "Reference" "U6" (id 0) (at 219.71 87.538 0.0) (effects (font (size 0.762 0.762)) (justify left bottom )))
     (property "Value" "Edge-FH19C-6S-0.5SH(10)" (id 1) (at 219.71 88.6 0.0) (effects (font (size 0.762 0.762)) (justify left bottom )))
@@ -564,6 +566,7 @@
       (property "Manufacturer" "YAGEO" (id 6) (at 259.08 142.24 180.0) (effects (font (size 0.762 0.762)) hide))
       (property "MPN" "CC0201MRX5R6BB104" (id 7) (at 259.08 142.24 180.0) (effects (font (size 0.762 0.762)) hide))
       (property "Reference-prefix" "C" (id 8) (at 259.08 142.24 180.0) (effects (font (size 0.762 0.762)) hide))
+      (property "LCSC" "C1853386" (id 9) (at 259.08 142.24 180.0) (effects (font (size 0.762 0.762)) hide))
     
     (pin "1" (uuid f5f48572-76ad-8026-bb32-b14e853729f8))
     (pin "2" (uuid 7d33cf2d-9f6d-923e-58bd-cd7e8a40c6bc))
@@ -587,6 +590,7 @@
       (property "Description" "20 Hz ~ 20 kHz Digital, PDM Microphone MEMS (Silicon) 1.62 V ~ 3.6 V Omnidirectional (-36dB ±1dB @ 94dB SPL) Solder Pads" (id 5) (at 186.69 152.4 0.0) (effects (font (size 0.762 0.762)) hide))
       (property "Manufacturer" "Infineon" (id 6) (at 186.69 152.4 0.0) (effects (font (size 0.762 0.762)) hide))
       (property "MPN" "IM69D130V01XTSA1" (id 7) (at 186.69 152.4 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "LCSC" "C9900035948" (id 8) (at 186.69 152.4 0.0) (effects (font (size 0.762 0.762)) hide))
     
     (pin "CLOCK" (uuid 12b93713-6ac2-5f48-55a0-facf50353923))
     (pin "SELECT" (uuid 564929e8-13e1-8fa4-f241-7860ead95d4a))

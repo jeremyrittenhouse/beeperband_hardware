@@ -47,6 +47,13 @@ public defn run-check-on-design (circuit:Instantiable) :
 public defn export-to-cad () :
   export-cad()
 
+
+; flex export with extra property handling
+public defn export-cad-flex () :
+  export-cad([
+    "vendor_part_numbers.lcsc" => "LCSC"
+  ])
+
 ; ====================
 ; Export design to CAD
 ; ====================

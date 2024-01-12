@@ -46,16 +46,10 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.15
+          "min_clearance": 0.09999999999999999
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -114,7 +108,7 @@
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
-        "max_error": 0.001,
+        "max_error": 0.005,
         "min_clearance": 0.0625,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.18,
@@ -129,7 +123,7 @@
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.075,
         "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.25,
+        "min_via_diameter": 0.39999999999999997,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -173,15 +167,8 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -191,217 +178,6 @@
   "boards": [],
   "cvpcb": {
     "equivalence_files": []
-  },
-  "erc": {
-    "erc_exclusions": [],
-    "meta": {
-      "version": 0
-    },
-    "pin_map": [
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
-        2
-      ],
-      [
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        2,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        1,
-        2,
-        0,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        2,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        1,
-        1,
-        0,
-        0,
-        1,
-        0,
-        2,
-        0,
-        0,
-        2
-      ],
-      [
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ]
-    ],
-    "rule_severities": {
-      "bus_definition_conflict": "error",
-      "bus_entry_needed": "error",
-      "bus_to_bus_conflict": "error",
-      "bus_to_net_conflict": "error",
-      "conflicting_netclasses": "error",
-      "different_unit_footprint": "error",
-      "different_unit_net": "error",
-      "duplicate_reference": "error",
-      "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
-      "extra_units": "error",
-      "global_label_dangling": "warning",
-      "hier_label_mismatch": "error",
-      "label_dangling": "error",
-      "lib_symbol_issues": "warning",
-      "missing_bidi_pin": "warning",
-      "missing_input_pin": "warning",
-      "missing_power_pin": "error",
-      "missing_unit": "warning",
-      "multiple_net_names": "warning",
-      "net_not_bus_member": "warning",
-      "no_connect_connected": "warning",
-      "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
-      "similar_labels": "warning",
-      "simulation_model_issue": "ignore",
-      "unannotated": "error",
-      "unit_value_mismatch": "error",
-      "unresolved_variable": "error",
-      "wire_dangling": "error"
-    }
   },
   "libraries": {
     "pinned_footprint_libs": [],
@@ -460,7 +236,7 @@
         "name": "RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.37467,
+        "track_width": 0.221435,
         "via_diameter": 0.015,
         "via_drill": 0.15,
         "wire_width": 6
@@ -506,7 +282,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "mcu_mcu-dbg-m33_swdio"
+        "pattern": "mcu_dbg-m33_swdio"
       },
       {
         "netclass": "Default",
@@ -534,7 +310,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "mcu_mcu-dbg-m33_swdclk"
+        "pattern": "mcu_dbg-m33_swdclk"
       },
       {
         "netclass": "Default",
@@ -650,7 +426,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "board-io_qsen-i3c_sda"
+        "pattern": "mcu_q-i3c_sda"
       },
       {
         "netclass": "Default",
@@ -674,7 +450,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "rid_p1"
+        "pattern": "SHIELD"
       },
       {
         "netclass": "Default",
@@ -698,7 +474,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "V14"
+        "pattern": "V14RF"
       },
       {
         "netclass": "Default",
@@ -762,11 +538,11 @@
       },
       {
         "netclass": "Default",
-        "pattern": "VDD_A"
+        "pattern": "VDD_IO"
       },
       {
         "netclass": "Default",
-        "pattern": "mcu_conn-uart_rx"
+        "pattern": "mcu_mcu-uart_rx"
       },
       {
         "netclass": "Default",
@@ -826,7 +602,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "VDDSYS"
+        "pattern": "VDD1P8"
       },
       {
         "netclass": "Default",
@@ -880,10 +656,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
-      "dashed_lines_dash_length_ratio": 12.0,
-      "dashed_lines_gap_length_ratio": 3.0,
-      "default_line_thickness": 6.0,
-      "default_text_size": 50.0,
+      "default_line_thickness": 6,
+      "default_text_size": 50,
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
@@ -892,7 +666,7 @@
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.25,
-      "pin_symbol_size": 0.0,
+      "pin_symbol_size": 0,
       "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
@@ -913,11 +687,7 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
-    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },

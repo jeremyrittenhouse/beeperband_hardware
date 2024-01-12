@@ -1,0 +1,22 @@
+### Footprint positions - created on 2024 January 11, Thursday 19:34:46 ###
+### Printed by KiCad version 7.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                        PosX       PosY       Rot  Side
+J1        ~         TC2030_IDC_NL_FOOTPRINT    129.6664  -102.5455  -90.0000  bottom
+J6        ~         AMPHENOL_10103594_0001LF   137.1442  -100.4554  180.0000  bottom
+TP1       ~         SMD_TESTPT                 131.4762  -106.1703  180.0000  bottom
+TP2       ~         SMD_TESTPT                 131.4762  -104.9671    0.0000  bottom
+TP3       ~         SMD_TESTPT                 150.0798  -109.0999  180.0000  bottom
+TP4       ~         SMD_TESTPT                 151.2830  -109.0999  180.0000  bottom
+TP5       ~         SMD_TESTPT                 136.5405  -106.1822   90.0000  bottom
+TP6       ~         SMD_TESTPT                 137.7438  -106.1822  -90.0000  bottom
+TP7       ~         SMD_TESTPT                 137.7438  -107.3854   90.0000  bottom
+TP8       ~         SMD_TESTPT                 138.9469  -107.3854  180.0000  bottom
+TP9       ~         SMD_TESTPT                 136.5405  -107.3854  -90.0000  bottom
+TP10      ~         SMD_TESTPT                 138.9469  -106.1822  180.0000  bottom
+TP11      ~         SMD_TESTPT                 140.2824  -104.8820   90.0000  bottom
+TP12      ~         SMD_TESTPT                 141.4856  -104.8820   90.0000  bottom
+TP13      ~         SMD_TESTPT                 150.1819  -101.5884   90.0000  bottom
+TP14      ~         SMD_TESTPT                 150.1819  -100.3852   90.0000  bottom
+## End

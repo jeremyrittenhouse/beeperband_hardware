@@ -23,7 +23,7 @@ public pcb-module beeper-connector (board : bundles/board-type) :
     switch(board) :
       (flex-board) : FH19C-6S-0p5SH-10-/flex-edge
       (main-board) : FH19C-6S-0p5SH-10-/component
-  inst conn : connector
+  public inst conn : connector
   ; order of connections list
   val order-conns = [c.PDM.clk c.GND c.GND c.GND c.PDM.data  c.VDDMIC]
 

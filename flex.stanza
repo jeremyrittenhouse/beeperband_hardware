@@ -65,6 +65,8 @@ public pcb-module beeper-flex :
   inst mic : IM69D130V01XTSA1/module[2]
   ; inst led : L23-23B_R6GHBHW-C30_2A/component
   inst conn : beeper-connector(flex-board)
+  component-status(conn.conn) :
+    bom-status = NotInBOM
 
   place(conn)   at loc( -0.075, 8.70) on Bottom
   place(mic[0]) at loc(-16.000 + 0.680, 4.160,   0.0) on Bottom
@@ -133,6 +135,7 @@ set-main-module(beeper-flex)
 ; View the results
 view-schematic()
 view-board()
+view-design-explorer()
 
 set-bom-columns([
   BOMColumn(BOMFieldDescription, "Comment", 10.0)

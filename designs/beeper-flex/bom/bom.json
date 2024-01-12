@@ -91,6 +91,138 @@
 					"code":	5,
 					"name":	"Potential Alternate Vendors"
 				},
+				"description":	"20 Hz ~ 20 kHz Digital, PDM Microphone MEMS (Silicon) 1.62 V ~ 3.6 V Omnidirectional (-36dB ±1dB @ 94dB SPL) Solder Pads",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"mic"
+								},
+								"index":	1
+							},
+							"field":	{
+								"name":	"mic"
+							}
+						},
+						"ref":	"U3",
+						"fileinfo":	{
+							"filename":	"components/IM69D130V01XTSA1.stanza",
+							"line":	95,
+							"column":	2
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"mic"
+								},
+								"index":	0
+							},
+							"field":	{
+								"name":	"mic"
+							}
+						},
+						"ref":	"U4",
+						"fileinfo":	{
+							"filename":	"components/IM69D130V01XTSA1.stanza",
+							"line":	95,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://www.mouser.com/datasheet/2/196/Infineon_IM69D130_DataSheet_v01_00_EN-3163920.pdf",
+				"manufacturer":	"Infineon",
+				"mpn":	"IM69D130V01XTSA1",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}],
+		"entries":	[{
+			}, {
+			}]
+	},
+	"metrics":	[{
+			"name":	"Line Items",
+			"value":	2
+		}, {
+			"name":	"Components",
+			"value":	4
+		}, {
+			"name":	"Cost",
+			"value":	"$0.00"
+		}],
+	"is_update":	false,
+	"old_bom":	{
+		"rows":	[{
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 100nF X5R ±20% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"mic"
+								},
+								"index":	1
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C4",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"mic"
+								},
+								"index":	0
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C5",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2202151130_YAGEO-CC0201MRX5R6BB104_C1853386.pdf",
+				"manufacturer":	"YAGEO",
+				"mpn":	"CC0201MRX5R6BB104",
+				"vendor":	"JLCPCB",
+				"sku":	"CC0201MRX5R6BB104",
+				"price":	0.001014085,
+				"preferred":	false,
+				"query_properties":	{
+					"min-rated-temperature.max":	25,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"capacitance":	1e-07,
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["JLCPCB", "LCSC"],
+					"_stock":	20,
+					"type":	"ceramic",
+					"min-rated-voltage":	10,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
 				"description":	"Edge for 6 Position FFC, FPC Connector Contacts, Bottom 0.020\" (0.50mm) Surface Mount, Right Angle",
 				"insts":	[{
 						"inst":	{
@@ -160,169 +292,6 @@
 						}
 					}],
 				"datasheet":	"https://www.mouser.com/datasheet/2/196/Infineon_IM69D130_DataSheet_v01_00_EN-3163920.pdf",
-				"manufacturer":	"Infineon",
-				"mpn":	"IM69D130V01XTSA1",
-				"vendor":	null,
-				"sku":	null,
-				"price":	null,
-				"preferred":	false,
-				"query_properties":	null
-			}],
-		"entries":	[{
-			}, {
-			}, {
-			}]
-	},
-	"metrics":	[{
-			"name":	"Line Items",
-			"value":	3
-		}, {
-			"name":	"Components",
-			"value":	5
-		}, {
-			"name":	"Cost",
-			"value":	"$0.00"
-		}],
-	"is_update":	false,
-	"old_bom":	{
-		"rows":	[{
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"10V 100nF X5R ±20% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"mic"
-								},
-								"index":	1
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C4",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	660,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"mic"
-								},
-								"index":	0
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C5",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	660,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2202151130_YAGEO-CC0201MRX5R6BB104_C1853386.pdf",
-				"manufacturer":	"YAGEO",
-				"mpn":	"CC0201MRX5R6BB104",
-				"vendor":	"JLCPCB",
-				"sku":	"CC0201MRX5R6BB104",
-				"price":	0.001014085,
-				"preferred":	false,
-				"query_properties":	{
-					"min-rated-temperature.max":	25,
-					"max-rated-temperature.min":	0,
-					"mounting":	"smd",
-					"capacitance":	1e-07,
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["JLCPCB", "LCSC"],
-					"_stock":	20,
-					"type":	"ceramic",
-					"min-rated-voltage":	10,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"capacitor"
-				}
-			}, {
-				"status":	{
-					"code":	5,
-					"name":	"Potential Alternate Vendors"
-				},
-				"description":	"Edge for 6 Position FFC, FPC Connector Contacts, Bottom 0.020\" (0.50mm) Surface Mount, Right Angle",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"conn"
-							},
-							"field":	{
-								"name":	"conn"
-							}
-						},
-						"ref":	"U6",
-						"fileinfo":	{
-							"filename":	"system.stanza",
-							"line":	26,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/822/FH19C_FH19SC_Series.pdf",
-				"manufacturer":	"Hirose",
-				"mpn":	"Edge-FH19C-6S-0.5SH(10)",
-				"vendor":	null,
-				"sku":	null,
-				"price":	null,
-				"preferred":	false,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	4,
-					"name":	"Not Enough Stock"
-				},
-				"description":	"20 Hz ~ 20 kHz Digital, PDM Microphone MEMS (Silicon) 1.62 V ~ 3.6 V Omnidirectional (-36dB ±1dB @ 94dB SPL) Solder Pads",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"mic"
-								},
-								"index":	1
-							},
-							"field":	{
-								"name":	"mic"
-							}
-						},
-						"ref":	"U3",
-						"fileinfo":	{
-							"filename":	"components/IM69D130V01XTSA1.stanza",
-							"line":	95,
-							"column":	2
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"mic"
-								},
-								"index":	0
-							},
-							"field":	{
-								"name":	"mic"
-							}
-						},
-						"ref":	"U4",
-						"fileinfo":	{
-							"filename":	"components/IM69D130V01XTSA1.stanza",
-							"line":	95,
-							"column":	2
-						}
-					}],
-				"datasheet":	"",
 				"manufacturer":	"Infineon",
 				"mpn":	"IM69D130V01XTSA1",
 				"vendor":	null,

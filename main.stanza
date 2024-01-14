@@ -58,8 +58,10 @@ val signal-shape = loc(x-off, y-off) * PolygonWithArcs([
 
 public pcb-module board-io :
   port system-io : system-io
-  pin VDD ; some vdd's
+  pin VDDSYS ; some vdd's
   pin VDD1P8
+  pin VDD1P8P
+  pin VDD3P0
   pin GND
 
   public inst codec     : DA7212-01UM2/module
@@ -69,14 +71,16 @@ public pcb-module board-io :
   public inst led       : HL-PCF-1617S39FU70GH203BC-A/component
 
 
-  net (GND codec.GND hapdrv.GND qsensor.GND)
-  net (VDD codec.VDDSYS hapdrv.VDD qsensor.VDD)
-  net (VDD1P8 qsensor.VDD)
+  net (GND     codec.GND hapdrv.GND qsensor.GND)
+  net (VDDSYS  codec.VDDSYS hapdrv.VDD)
+  net (VDD1P8P codec.VDD1P8P)
+  net (VDD1P8  qsensor.VDD)
+  net (VDD3P0  codec.VDD3P0)
 
   require codec-pdm : PDM from codec ; does this go away with a port?
   net codec-pdm-net (system-io.codec-pdm codec-pdm)
   property(codec-pdm-net.net-class) = bga-net-class
-  val i2c-codec-pullups = add-open-drain-pullups(codec.i2c, VDD)
+  val i2c-codec-pullups = add-open-drain-pullups(codec.i2c, VDD1P8P)
   net codec-i2c-net (system-io.codec-i2c codec.i2c)
   property(codec-i2c-net.net-class) = bga-net-class
 
@@ -94,14 +98,16 @@ public pcb-module board-io :
 
   require qsen-i3c : i3c from qsensor
   net (system-io.qsen-i3c qsen-i3c)
-  val i2c-qsens-pullups = add-open-drain-pullups(qsen-i3c, VDD)
+  val i2c-qsens-pullups = add-open-drain-pullups(qsen-i3c, VDD1P8)
   ; since there is ambiguity on which interface is being used
   ; need to add some no-pop resistors to preserve the ability
   ; to switch interfaces post-fabrication
   inst rs-sda : chip-resistor(0.0)
   inst rs-scl : chip-resistor(0.0)
-  dnp(rs-sda)
-  dnp(rs-scl)
+  component-status(rs-sda) :
+    bom-status = NotInBOM
+  component-status(rs-scl) :
+    bom-status = NotInBOM
   net (rs-sda.p[1] qsen-i3c.sda)
   net (rs-scl.p[1] qsen-i3c.scl)
   net (system-io.qsen-spi.sdo rs-sda.p[2])
@@ -133,23 +139,26 @@ public pcb-module beeper-design :
   inst wpwr      : BQ51003YFPR/module
   ; setup some nets by default
   net VDD1P8  ()
+  net VDD1P8P ()
   net VDD3P0  ()
   net VDDSYS  ()
+  net VBUS    ()
+  net VBUSP   ()
   net GND     ()
 
-  val supply-nets = [VDD1P8 VDD3P0 VDDSYS]
+  val supply-nets = [VDD1P8 VDD3P0 VDDSYS VBUS VDD1P8P VBUSP]
   ; connect nets to pins of the mcu module
-  net (VDD1P8  mcu.V18)
-  net (VDD3P0  mcu.V30)
-  net (VDDSYS  mcu.VSYS)
-
-  net (mcu.VBUSp wpwr.VBUSp)
+  net (VDD1P8  mcu.V18 )
+  net (VDD1P8P mcu.V18P board-io.VDD1P8P)
+  net (VDD3P0  mcu.V30 board-io.VDD3P0)
+  net (VDDSYS  mcu.VSYS board-io.VDDSYS)
+  net (VBUS    mcu.VBUS wpwr.VBUS)
+  net (VBUSP   mcu.VBUSP wpwr.VBUSP)
 
   ; connect all of our grounds
   net (GND mcu.GND wpwr.GND board-io.GND)
 
   ; connect the power supplies at the top level for those components
-  net (VDDSYS wpwr.VBUS board-io.VDD)
   net (VDD1P8 board-io.VDD1P8)
 
   ; connect i2c from codec to mcu

@@ -55,7 +55,7 @@ public pcb-component component :
 
 public pcb-module module :
   pin VBUS
-  pin VBUSp
+  pin VBUSP
   pin GND
   port CMD : wpwr-ctl
 
@@ -70,15 +70,14 @@ public pcb-module module :
   component-status(coil-pin[1]) :
     bom-status = NotInBOM
 
-  net (CMD.nCHG wpwr.nCHG)
+  net (CMD.nCHG wpwr.nCHG   )
   net (CMD.CTRL wpwr.TS-CTRL)
-  net (CMD.EN1  wpwr.EN1)
-  net (CMD.EN2  wpwr.EN2)
-  net (VBUS wpwr.OUT)
-  net (GND wpwr.PGND)
+  net (CMD.EN1  wpwr.EN1    )
+  net (CMD.EN2  wpwr.EN2    )
+  net (VBUS     wpwr.OUT    )
+  net (GND      wpwr.PGND   )
 
   bypass-cap-strap(wpwr.OUT GND 2.2e-6)
-
 
   res-strap(wpwr.ILIM wpwr.FOD 845.0)
   res-strap(wpwr.FOD GND 196.0)
@@ -108,11 +107,11 @@ public pcb-module module :
 
   inst q1 : CSD75207W15/component  ; database-part(["mpn" => "CSD75207W15", "manufacturer" => "Texas Instruments"])
 
-  net (VBUSp q1.G1 q1.D10 q1.D11)
+  net (VBUSP q1.G1 q1.D10 q1.D11)
   net (VBUS q1.D20 q1.D21 q1.D22)
   net (wpwr.nAD-EN q1.D12 q1.S2)
 
   ; res-strap(VBUSp wpwr.AD, 0.0)
-  bypass-cap-strap(VBUSp, GND, 4.7e-6)
+  bypass-cap-strap(VBUSP, GND, 4.7e-6)
 
   layout-group(self) = wireless-power

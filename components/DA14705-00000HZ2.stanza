@@ -204,10 +204,11 @@ public pcb-component component :
 public pcb-module module :
   pin GND
   pin V18  
+  pin V18P
   pin V30  
   pin VBAT 
   pin VBUS 
-  pin VBUSp
+  pin VBUSP
   pin VSYS
   port WPWR-CTRL   : wpwr-ctl
   port haptic-intf : haptic-intf
@@ -225,7 +226,9 @@ public pcb-module module :
   net (xtal-32M.p[1] mcu.XTAL32Mp)
   net (xtal-32M.p[3] mcu.XTAL32Mm)
   net (GND xtal-32M.GND0 xtal-32M.GND1 mem.GND)
-  net (VSYS mem.VDD)
+
+  ; memory connection to 1.8v of MCU
+  net (V18 mem.VDD)
 
 ; connect quad spi from memory to mcu
   require mcu-mem : quad-spi from mcu
@@ -298,10 +301,8 @@ public pcb-module module :
   net (mcu-etm.data[3] etm-pin[4].p)
   net (GND             etm-pin[5].p)
 
-  ; placeholder for battery connector
+  ; test points for battery connector
   inst bat-pin : smd-testpoint-cmp(1.0)[2]
-  ; dnp(bat-pin[0])
-  ; dnp(bat-pin[1])
   component-status(bat-pin[0]) :
     bom-status = NotInBOM
   component-status(bat-pin[1]) :
@@ -328,11 +329,12 @@ public pcb-module module :
     ; val bypc = bypass-cap-strap(pin_, GND, cap_)
     ; schematic-group(bypc) = bypasses
 
-  net (V18   mcu.V18)
-  net (V30   mcu.V30)
-  net (VBAT mcu.VBAT)
-  net (VBUS mcu.VBUS)
-  net (VSYS mcu.VSYS)
+  net (V18   mcu.V18 )
+  net (V18P  mcu.V18P)
+  net (V30   mcu.V30 )
+  net (VBAT  mcu.VBAT)
+  net (VBUS  mcu.VBUS)
+  net (VSYS  mcu.VSYS)
   
   val ground-pins = [mcu.AVS1 mcu.AVS2 mcu.AVS3 mcu.VSSD1 mcu.VSSD2 mcu.VSSD3 mcu.VSSD4 mcu.VSSD5 
                      mcu.VSSIOQQ mcu.PSUB mcu.PSUBRF mcu.RFIOM1 mcu.RFIOM2 mcu.GND_BOOST mcu.GND_BUCK 
@@ -374,8 +376,7 @@ public pcb-module module :
   inst esd :  database-part(["mpn" => "TPD4S012DRYR", "manufacturer" => "Texas Instruments"])
 
   require mcu-usb : usb-2-data from mcu
-  ; net (usb usb-conn.usb-c.data)
-  net (usb.usb-2.vbus.vdd VBUSp)
+  net (usb.usb-2.vbus.vdd VBUSP)
   net (usb.usb-2.vbus.gnd GND)
   net (usb.usb-2.data mcu-usb)
   net (esd.D+ usb.usb-2.data.P)

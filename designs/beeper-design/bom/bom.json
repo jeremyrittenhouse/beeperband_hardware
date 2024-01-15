@@ -271,6 +271,2202 @@
 						"ref":	"D1",
 						"fileinfo":	{
 							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
+							"line":	73,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2005041205_HONGLITRONIC-Hongli-Zhihui--HONGLITRONIC-HL-PCF-1617S39FU70GH203BC-A_C513368.pdf",
+				"manufacturer":	"HongliTronic",
+				"mpn":	"HL-PCF-1617S39FU70GH203BC-A",
+				"vendor":	"iodParts",
+				"sku":	"HL-PCF-1617S39FU70GH203BC-A",
+				"price":	0.08837,
+				"preferred":	true,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"mcu"
+								},
+								"field":	{
+									"name":	"usb"
+								}
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C36",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C5",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"qsensor"
+								}
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C43",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"qsensor"
+								}
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C42",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"codec"
+								}
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C27",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_Walsin-Tech-Corp-0201X104K160CT_C384822.pdf",
+				"manufacturer":	"Walsin Technology Corporation",
+				"mpn":	"0201X104K160CT",
+				"vendor":	"DigiKey",
+				"sku":	"0201X104K160CT",
+				"price":	0.00228,
+				"preferred":	true,
+				"query_properties":	{
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"capacitance":	1e-07,
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"_stock":	20,
+					"type":	"ceramic",
+					"min-rated-voltage":	10,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"50mW Thick Film Resistors ±5% ±200ppm/℃ 20kΩ 0201  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"rid"
+							}
+						},
+						"ref":	"R4",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	727,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://www.meritekusa.com/wp-content/uploads/2018/06/Standard-Chip-Resistor-CR-Series.pdf",
+				"manufacturer":	"Meritek",
+				"mpn":	"CR25203J",
+				"vendor":	"DigiKey",
+				"sku":	"CR25203J",
+				"price":	0.00178,
+				"preferred":	true,
+				"query_properties":	{
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"_stock":	20,
+					"mounting":	"smd",
+					"resistance":	20000,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"resistor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"6V Unidirectional 5.5V SON-6(1x1.5)  ESD Protection Devices ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"esd"
+							}
+						},
+						"ref":	"U7",
+						"fileinfo":	{
+							"filename":	"components/DA14705-00000HZ2.stanza",
+							"line":	379,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/1809050016_Texas-Instruments-TPD4S012DRYR_C96506.pdf",
+				"manufacturer":	"Texas Instruments",
+				"mpn":	"TPD4S012DRYR",
+				"vendor":	"DigiKey",
+				"sku":	"TPD4S012DRYR",
+				"price":	0.19513,
+				"preferred":	true,
+				"query_properties":	{
+					"manufacturer":	"Texas Instruments",
+					"mpn":	"TPD4S012DRYR"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"Highly Integrated Advanced Bluetooth® 5.2 SoC",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"mcu"
+							}
+						},
+						"ref":	"U1",
+						"fileinfo":	{
+							"filename":	"components/DA14705-00000HZ2.stanza",
+							"line":	220,
+							"column":	2
+						}
+					}],
+				"datasheet":	"",
+				"manufacturer":	"RENESAS",
+				"mpn":	"DA14705-00000HZ2",
+				"vendor":	"Easev",
+				"sku":	"DA14705-00000HZ2",
+				"price":	12.32,
+				"preferred":	true,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"50mW Thick Film Resistors ±5% ±200ppm/℃ 1kΩ 0201  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"rid"
+							}
+						},
+						"ref":	"R8",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	727,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://page.venkel.com/hubfs/Resources/Datasheets/CR-Series.pdf",
+				"manufacturer":	"Venkel",
+				"mpn":	"CR0201-20W-102JT",
+				"vendor":	"DigiKey",
+				"sku":	"CR0201-20W-102JT",
+				"price":	0.00161,
+				"preferred":	true,
+				"query_properties":	{
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"_stock":	20,
+					"mounting":	"smd",
+					"resistance":	1000,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"resistor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 47uF ±20% 0805  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C6",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C4",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us",
+				"manufacturer":	"MURATA",
+				"mpn":	"GRM21BR61A476ME15K",
+				"vendor":	"DigiKey",
+				"sku":	"GRM21BR61A476ME15K",
+				"price":	0.15357,
+				"preferred":	true,
+				"query_properties":	{
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"capacitance":	4.7e-05,
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"_stock":	20,
+					"type":	"ceramic",
+					"min-rated-voltage":	10,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"50mW Thick Film Resistors ±1% ±200ppm/℃ 196Ω 0201  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"rid"
+							}
+						},
+						"ref":	"R6",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	727,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0201FR-07196RL_C138167.pdf",
+				"manufacturer":	"YAGEO",
+				"mpn":	"RC0201FR-07196RL",
+				"vendor":	"DigiKey",
+				"sku":	"RC0201FR-07196RL",
+				"price":	0.00558,
+				"preferred":	true,
+				"query_properties":	{
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"_stock":	20,
+					"mounting":	"smd",
+					"resistance":	196,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"resistor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"FLASH - NOR Memory IC 32Mbit SPI - Quad I/O 104 MHz 12-WLCSP (2.39x1.77)",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"mcu"
+								},
+								"field":	{
+									"name":	"mem"
+								}
+							},
+							"field":	{
+								"name":	"m"
+							}
+						},
+						"ref":	"U2",
+						"fileinfo":	{
+							"filename":	"components/AT25FF321A-UUN-T.stanza",
+							"line":	74,
+							"column":	2
+						}
+					}],
+				"datasheet":	"",
+				"manufacturer":	"RENESAS",
+				"mpn":	"AT25FF321A-UUN-T",
+				"vendor":	"Easev",
+				"sku":	"AT25FF321A-UUN-T",
+				"price":	0.7595,
+				"preferred":	true,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"cpi2"
+							}
+						},
+						"ref":	"C50",
+						"fileinfo":	{
+							"filename":	"components/DA14705-00000HZ2.stanza",
+							"line":	365,
+							"column":	2
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"cpi1"
+							}
+						},
+						"ref":	"C49",
+						"fileinfo":	{
+							"filename":	"components/DA14705-00000HZ2.stanza",
+							"line":	363,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000",
+				"manufacturer":	"MURATA",
+				"mpn":	"GRM0335C1E1R0BA01J",
+				"vendor":	"DigiKey",
+				"sku":	"GRM0335C1E1R0BA01J",
+				"price":	0.1,
+				"preferred":	true,
+				"query_properties":	{
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"capacitance":	1e-12,
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"_stock":	20,
+					"type":	"ceramic",
+					"min-rated-voltage":	10,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"Audio codec and driver",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"codec"
+								}
+							},
+							"field":	{
+								"name":	"codec"
+							}
+						},
+						"ref":	"U4",
+						"fileinfo":	{
+							"filename":	"components/DA7212-01UM2.stanza",
+							"line":	105,
+							"column":	2
+						}
+					}],
+				"datasheet":	"",
+				"manufacturer":	"RENESAS",
+				"mpn":	"DA7212-01UM2",
+				"vendor":	"DigiKey",
+				"sku":	"DA7212-01UM2",
+				"price":	2.51,
+				"preferred":	true,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"50mW Thick Film Resistors ±5% ±200ppm/℃ 10kΩ 0201  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"rid"
+							}
+						},
+						"ref":	"R7",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	727,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"rid"
+							}
+						},
+						"ref":	"R3",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	727,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"rid"
+							}
+						},
+						"ref":	"R5",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	727,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2210241101_CAL-CHIP-ELECTRONICS--INC--RM02J103CT_C4084817.pdf",
+				"manufacturer":	"CAL-CHIP ELECTRONICS, INC.",
+				"mpn":	"RM02J103CT",
+				"vendor":	"DigiKey",
+				"sku":	"RM02J103CT",
+				"price":	0.0015,
+				"preferred":	true,
+				"query_properties":	{
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"_stock":	20,
+					"mounting":	"smd",
+					"resistance":	10000,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"resistor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"50mW Thick Film Resistors ±1% ±200ppm/℃ 845Ω 0201  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"rid"
+							}
+						},
+						"ref":	"R2",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	727,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf",
+				"manufacturer":	"YAGEO",
+				"mpn":	"RC0201FR-07845RL",
+				"vendor":	"DigiKey",
+				"sku":	"RC0201FR-07845RL",
+				"price":	0.00558,
+				"preferred":	true,
+				"query_properties":	{
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"_stock":	20,
+					"mounting":	"smd",
+					"resistance":	845,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"resistor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"2.45 GHz SMD Antenna, EIA 1206, Detuning resilient, Edge Mount Design",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"ant"
+							}
+						},
+						"ref":	"U17",
+						"fileinfo":	{
+							"filename":	"components/DA14705-00000HZ2.stanza",
+							"line":	361,
+							"column":	2
+						}
+					}],
+				"datasheet":	"",
+				"manufacturer":	"Johanson",
+				"mpn":	"2450AT18D0100001E",
+				"vendor":	"DigiKey",
+				"sku":	"2450AT18D0100001E",
+				"price":	0.68,
+				"preferred":	true,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"50mW Thick Film Resistors ±5% ±200ppm/℃ 8.2kΩ 0201  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"board-io"
+									},
+									"field":	{
+										"name":	"rs"
+									}
+								},
+								"field":	{
+									"name":	"r"
+								}
+							},
+							"index":	1
+						},
+						"ref":	"R15",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generator-utils.stanza",
+							"line":	43,
+							"column":	6
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"board-io"
+									},
+									"field":	{
+										"name":	"rs"
+									}
+								},
+								"field":	{
+									"name":	"r"
+								}
+							},
+							"index":	0
+						},
+						"ref":	"R14",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generator-utils.stanza",
+							"line":	43,
+							"column":	6
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"board-io"
+									},
+									"field":	{
+										"name":	"rs"
+									}
+								},
+								"field":	{
+									"name":	"r"
+								}
+							},
+							"index":	1
+						},
+						"ref":	"R13",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generator-utils.stanza",
+							"line":	43,
+							"column":	6
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"board-io"
+									},
+									"field":	{
+										"name":	"rs"
+									}
+								},
+								"field":	{
+									"name":	"r"
+								}
+							},
+							"index":	0
+						},
+						"ref":	"R12",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generator-utils.stanza",
+							"line":	43,
+							"column":	6
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"board-io"
+										},
+										"field":	{
+											"name":	"hapdrv"
+										}
+									},
+									"field":	{
+										"name":	"rs"
+									}
+								},
+								"field":	{
+									"name":	"r"
+								}
+							},
+							"index":	1
+						},
+						"ref":	"R17",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generator-utils.stanza",
+							"line":	43,
+							"column":	6
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"board-io"
+										},
+										"field":	{
+											"name":	"hapdrv"
+										}
+									},
+									"field":	{
+										"name":	"rs"
+									}
+								},
+								"field":	{
+									"name":	"r"
+								}
+							},
+							"index":	0
+						},
+						"ref":	"R16",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generator-utils.stanza",
+							"line":	43,
+							"column":	6
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2210311700_CAL-CHIP-ELECTRONICS--INC--RM02J822CT_C4265167.pdf",
+				"manufacturer":	"CAL-CHIP ELECTRONICS, INC.",
+				"mpn":	"RM02J822CT",
+				"vendor":	"DigiKey",
+				"sku":	"RM02J822CT",
+				"price":	0.0015,
+				"preferred":	true,
+				"query_properties":	{
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"_stock":	20,
+					"mounting":	"smd",
+					"resistance":	8200,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"resistor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"50mA 470nH ±3% 16.5Ω -  Inductors (SMD) ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"lm"
+							}
+						},
+						"ref":	"L4",
+						"fileinfo":	{
+							"filename":	"components/DA14705-00000HZ2.stanza",
+							"line":	366,
+							"column":	2
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"lpi"
+							}
+						},
+						"ref":	"L3",
+						"fileinfo":	{
+							"filename":	"components/DA14705-00000HZ2.stanza",
+							"line":	364,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://page.venkel.com/hubfs/Resources/Datasheets/LMCI-Series.pdf",
+				"manufacturer":	"Venkel",
+				"mpn":	"LMCI0201-1N0ST",
+				"vendor":	"DigiKey",
+				"sku":	"LMCI0201-1N0ST",
+				"price":	0.00473,
+				"preferred":	true,
+				"query_properties":	{
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"inductance":	1e-09,
+					"_stock":	20,
+					"mounting":	"smd",
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"inductor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"IC WIRELESS PWR RCVR 28DSBGA",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"wpwr"
+							}
+						},
+						"ref":	"U3",
+						"fileinfo":	{
+							"filename":	"components/BQ51003YFPR.stanza",
+							"line":	61,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/1810010230_Texas-Instruments-BQ51003YFPR_C134093.pdf",
+				"manufacturer":	"Texas Instruments",
+				"mpn":	"BQ51003YFPR",
+				"vendor":	"DigiKey",
+				"sku":	"BQ51003YFPR",
+				"price":	0.67883,
+				"preferred":	true,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C23",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C11",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C12",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C9",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C8",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C7",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/1806121533_Samsung-Electro-Mechanics-CL05A106MP5NUNC_C105225.pdf",
+				"manufacturer":	"Samsung Electro-Mechanics",
+				"mpn":	"CL05A106MP5NUNC",
+				"vendor":	"DigiKey",
+				"sku":	"CL05A106MP5NUNC",
+				"price":	0.03063,
+				"preferred":	true,
+				"query_properties":	{
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"capacitance":	1e-05,
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"_stock":	20,
+					"type":	"ceramic",
+					"min-rated-voltage":	10,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"2.5V~5.5V I2C BGA-9  Motor Driver ICs ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"hapdrv"
+								}
+							},
+							"field":	{
+								"name":	"drv"
+							}
+						},
+						"ref":	"U12",
+						"fileinfo":	{
+							"filename":	"components/DRV2605YZFR.stanza",
+							"line":	184,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/1806151241_Texas-Instruments-DRV2605YZFR_C81079.pdf",
+				"manufacturer":	"Texas Instruments",
+				"mpn":	"DRV2605YZFR",
+				"vendor":	"DigiKey",
+				"sku":	"DRV2605YZFR",
+				"price":	1.15488,
+				"preferred":	true,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"32MHz 6pF ±10ppm SMD2016-4P  Crystals ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"xtal-32M"
+							}
+						},
+						"ref":	"XTAL1",
+						"fileinfo":	{
+							"filename":	"components/DA14705-00000HZ2.stanza",
+							"line":	223,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2201242130_Murata-Electronics-XRCGB32M000F1H00R0_C880116.pdf",
+				"manufacturer":	"MURATA",
+				"mpn":	"XRCGB32M000F1H00R0",
+				"vendor":	"Arrow",
+				"sku":	"XRCGB32M000F1H00R0",
+				"price":	0.2943,
+				"preferred":	true,
+				"query_properties":	{
+					"manufacturer":	"Murata",
+					"mpn":	"XRCGB32M000F1H00R0"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C21",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2105241313_Murata-Electronics-GRM033R71E271KA01D_C668345.pdf",
+				"manufacturer":	"MURATA",
+				"mpn":	"GRM033R71E271KA01D",
+				"vendor":	"DigiKey",
+				"sku":	"GRM033R71E271KA01D",
+				"price":	0.00185,
+				"preferred":	true,
+				"query_properties":	{
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"capacitance":	2.7e-10,
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"_stock":	20,
+					"type":	"ceramic",
+					"min-rated-voltage":	10,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"mcu"
+								},
+								"field":	{
+									"name":	"mem"
+								}
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C13",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"hapdrv"
+								}
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C48",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"hapdrv"
+								}
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C47",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"codec"
+								}
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C39",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"codec"
+								}
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C26",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"codec"
+								}
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C31",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"codec"
+								}
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C30",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"codec"
+								}
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C38",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"codec"
+								}
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C37",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"codec"
+								}
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C29",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"codec"
+								}
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C32",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"codec"
+								}
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C28",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheets.avx.com/cx5r.pdf",
+				"manufacturer":	"AVX Corporation",
+				"mpn":	"0201ZD105MAT2A",
+				"vendor":	"DigiKey",
+				"sku":	"0201ZD105MAT2A",
+				"price":	0.04637,
+				"preferred":	true,
+				"query_properties":	{
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"capacitance":	1e-06,
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"_stock":	20,
+					"type":	"ceramic",
+					"min-rated-voltage":	10,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C25",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C24",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf",
+				"manufacturer":	"Samsung Electro-Mechanics",
+				"mpn":	"CL05A475MP5NRNC",
+				"vendor":	"DigiKey",
+				"sku":	"CL05A475MP5NRNC",
+				"price":	0.0129,
+				"preferred":	true,
+				"query_properties":	{
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"capacitance":	4.7e-06,
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"_stock":	20,
+					"type":	"ceramic",
+					"min-rated-voltage":	10,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C18",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C17",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2003312210_YAGEO-CC0201KRX5R8BB223_C505472.pdf",
+				"manufacturer":	"YAGEO",
+				"mpn":	"CC0201KRX5R8BB223",
+				"vendor":	"DigiKey",
+				"sku":	"CC0201KRX5R8BB223",
+				"price":	0.032,
+				"preferred":	true,
+				"query_properties":	{
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"capacitance":	2.2e-08,
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"_stock":	20,
+					"type":	"ceramic",
+					"min-rated-voltage":	10,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"IP67 20mA 2.6mm 50MΩ 500000 2.4N 15V -40℃~+85℃ 1.6mm 0.55mm Round Button Brick nogging SPST SMD,1.6x2.6mm  Tactile Switches ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"button"
+								}
+							},
+							"index":	2
+						},
+						"ref":	"U16",
+						"fileinfo":	{
+							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
+							"line":	71,
+							"column":	2
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"button"
+								}
+							},
+							"index":	1
+						},
+						"ref":	"U15",
+						"fileinfo":	{
+							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
+							"line":	71,
+							"column":	2
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"button"
+								}
+							},
+							"index":	0
+						},
+						"ref":	"U14",
+						"fileinfo":	{
+							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
+							"line":	71,
+							"column":	2
+						}
+					}],
+				"datasheet":	"",
+				"manufacturer":	"Panasonic",
+				"mpn":	"EVPBB4A9B000",
+				"vendor":	"Mouser",
+				"sku":	"EVPBB4A9B000",
+				"price":	0.55,
+				"preferred":	true,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"50mA 470nH ±3% 16.5Ω -  Inductors (SMD) ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"ind"
+							}
+						},
+						"ref":	"L2",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	759,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2006191007_TDK-MLZ1005M1R0WT000_C531288.pdf",
+				"manufacturer":	"TDK Corporation",
+				"mpn":	"MLZ1005M1R0WT000",
+				"vendor":	"DigiKey",
+				"sku":	"MLZ1005M1R0WT000",
+				"price":	0.08652,
+				"preferred":	true,
+				"query_properties":	{
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"inductance":	1e-06,
+					"_stock":	20,
+					"mounting":	"smd",
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"inductor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"50mW Thick Film Resistors ±5% ±200ppm/℃ 100kΩ 0201  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"mcu"
+								},
+								"field":	{
+									"name":	"usb"
+								}
+							},
+							"field":	{
+								"name":	"rid"
+							}
+						},
+						"ref":	"R18",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	727,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2210171730_CAL-CHIP-ELECTRONICS--INC--RM02J104CT_C3929885.pdf",
+				"manufacturer":	"CAL-CHIP ELECTRONICS, INC.",
+				"mpn":	"RM02J104CT",
+				"vendor":	"DigiKey",
+				"sku":	"RM02J104CT",
+				"price":	0.0015,
+				"preferred":	true,
+				"query_properties":	{
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"_stock":	20,
+					"mounting":	"smd",
+					"resistance":	100000,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"resistor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"MEMS MODULE 3D GYROSCOPE/ACCELEROMETER LGA",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"qsensor"
+								}
+							},
+							"field":	{
+								"name":	"imu"
+							}
+						},
+						"ref":	"U9",
+						"fileinfo":	{
+							"filename":	"components/LSM6DSV16BX.stanza",
+							"line":	135,
+							"column":	2
+						}
+					}],
+				"datasheet":	"",
+				"manufacturer":	"STMicroelectronics",
+				"mpn":	"LSM6DSOXTR",
+				"vendor":	"DigiKey",
+				"sku":	"LSM6DSOXTR",
+				"price":	3.15568,
+				"preferred":	true,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C16",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C15",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2309051421_Taiyo-Yuden-LMK063BC6474MPLF_C2169728.pdf",
+				"manufacturer":	"Taiyo Yuden",
+				"mpn":	"LMK063BC6474MPLF",
+				"vendor":	"DigiKey",
+				"sku":	"LMK063BC6474MPLF",
+				"price":	0.02476,
+				"preferred":	true,
+				"query_properties":	{
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"capacitance":	4.7e-07,
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"_stock":	20,
+					"type":	"ceramic",
+					"min-rated-voltage":	10,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C22",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C20",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C19",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2202040300_Murata-Electronics-GRM033R61E103MA12D_C2168386.pdf",
+				"manufacturer":	"MURATA",
+				"mpn":	"GRM033R61E103MA12D",
+				"vendor":	"DigiKey",
+				"sku":	"GRM033R61E103MA12D",
+				"price":	0.00185,
+				"preferred":	true,
+				"query_properties":	{
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"capacitance":	1e-08,
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"_stock":	20,
+					"type":	"ceramic",
+					"min-rated-voltage":	10,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"6 Position FFC, FPC Connector Contacts, Bottom 0.020\" (0.50mm) Surface Mount, Right Angle",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"flex-conn"
+							},
+							"field":	{
+								"name":	"conn"
+							}
+						},
+						"ref":	"U5",
+						"fileinfo":	{
+							"filename":	"system.stanza",
+							"line":	26,
+							"column":	2
+						}
+					}],
+				"datasheet":	"",
+				"manufacturer":	"Hirose",
+				"mpn":	"FH19C-6S-0.5SH(10)",
+				"vendor":	"DigiKey",
+				"sku":	"FH19C-6S-0.5SH(10)",
+				"price":	0.55146,
+				"preferred":	true,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"RES SMD 0 OHM JUMPER 1/20W 0201",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"board-io"
+								},
+								"field":	{
+									"name":	"codec"
+								}
+							},
+							"field":	{
+								"name":	"rvdd-mic"
+							}
+						},
+						"ref":	"R11",
+						"fileinfo":	{
+							"filename":	"components/DA7212-01UM2.stanza",
+							"line":	109,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf",
+				"manufacturer":	"BOURNS",
+				"mpn":	"CR0201-J/-000GLF",
+				"vendor":	"DigiKey",
+				"sku":	"CR0201-J/-000GLF",
+				"price":	0.1,
+				"preferred":	false,
+				"query_properties":	{
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"_stock":	20,
+					"mounting":	"smd",
+					"resistance":	0,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"resistor"
+				}
+			}],
+		"entries":	[{
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}]
+	},
+	"metrics":	[{
+			"name":	"Line Items",
+			"value":	36
+		}, {
+			"name":	"Components",
+			"value":	76
+		}, {
+			"name":	"Cost",
+			"value":	"$26.66"
+		}],
+	"is_update":	false,
+	"old_bom":	{
+		"rows":	[{
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 22uF X5R ±20% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C3",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C2",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C1",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A226MP8NUNE_C86295.pdf",
+				"manufacturer":	"Samsung Electro-Mechanics",
+				"mpn":	"CL10A226MP8NUNE",
+				"vendor":	"DigiKey",
+				"sku":	"CL10A226MP8NUNE",
+				"price":	0.03247,
+				"preferred":	true,
+				"query_properties":	{
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"capacitance":	2.2e-05,
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"_stock":	20,
+					"type":	"ceramic",
+					"min-rated-voltage":	10,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C14",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C10",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_Murata-Electronics-GRM033R61A225KE47D_C335106.pdf",
+				"manufacturer":	"MURATA",
+				"mpn":	"GRM033R61A225KE47D",
+				"vendor":	"DigiKey",
+				"sku":	"GRM033R61A225KE47D",
+				"price":	0.04487,
+				"preferred":	true,
+				"query_properties":	{
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"capacitance":	2.2e-06,
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"_stock":	20,
+					"type":	"ceramic",
+					"min-rated-voltage":	10,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"mcu"
+								},
+								"field":	{
+									"name":	"usb"
+								}
+							},
+							"field":	{
+								"name":	"con"
+							}
+						},
+						"ref":	"J6",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	857,
+							"column":	2
+						}
+					}],
+				"datasheet":	"",
+				"manufacturer":	"",
+				"mpn":	"10103594-0001LF",
+				"vendor":	"DigiKey",
+				"sku":	"10103594-0001LF",
+				"price":	0.72,
+				"preferred":	true,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"50mA 470nH ±3% 16.5Ω -  Inductors (SMD) ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"ind"
+							}
+						},
+						"ref":	"L1",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	759,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_Murata-Electronics-LQP03HQR47H02D_C1857921.pdf",
+				"manufacturer":	"MURATA",
+				"mpn":	"LQP03HQR47H02D",
+				"vendor":	"DigiKey",
+				"sku":	"LQP03HQR47H02D",
+				"price":	0.08652,
+				"preferred":	true,
+				"query_properties":	{
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"inductance":	4.7e-07,
+					"_stock":	20,
+					"mounting":	"smd",
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"inductor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"Colorless transparence -40℃~+85℃ Positive post RGB 120° SMD,1.6x1.7mm  Light Emitting Diodes (LED) ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"board-io"
+							},
+							"field":	{
+								"name":	"led"
+							}
+						},
+						"ref":	"D1",
+						"fileinfo":	{
+							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
 							"line":	71,
 							"column":	2
 						}
@@ -2147,2228 +4343,6 @@
 				"query_properties":	null
 			}],
 		"entries":	[{
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}, {
-			}]
-	},
-	"metrics":	[{
-			"name":	"Line Items",
-			"value":	35
-		}, {
-			"name":	"Components",
-			"value":	75
-		}, {
-			"name":	"Cost",
-			"value":	"$26.56"
-		}],
-	"is_update":	false,
-	"old_bom":	{
-		"rows":	[{
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"10V 22uF X5R ±20% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C3",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C2",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C1",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A226MP8NUNE_C86295.pdf",
-				"manufacturer":	"Samsung Electro-Mechanics",
-				"mpn":	"CL10A226MP8NUNE",
-				"vendor":	"DigiKey",
-				"sku":	"CL10A226MP8NUNE",
-				"price":	0.03247,
-				"preferred":	true,
-				"query_properties":	{
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"mounting":	"smd",
-					"capacitance":	2.2e-05,
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"_stock":	20,
-					"type":	"ceramic",
-					"min-rated-voltage":	10,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"capacitor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C14",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C10",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_Murata-Electronics-GRM033R61A225KE47D_C335106.pdf",
-				"manufacturer":	"MURATA",
-				"mpn":	"GRM033R61A225KE47D",
-				"vendor":	"DigiKey",
-				"sku":	"GRM033R61A225KE47D",
-				"price":	0.04487,
-				"preferred":	true,
-				"query_properties":	{
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"mounting":	"smd",
-					"capacitance":	2.2e-06,
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"_stock":	20,
-					"type":	"ceramic",
-					"min-rated-voltage":	10,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"capacitor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"mcu"
-								},
-								"field":	{
-									"name":	"usb"
-								}
-							},
-							"field":	{
-								"name":	"con"
-							}
-						},
-						"ref":	"J6",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	857,
-							"column":	2
-						}
-					}],
-				"datasheet":	"",
-				"manufacturer":	"",
-				"mpn":	"10103594-0001LF",
-				"vendor":	"DigiKey",
-				"sku":	"10103594-0001LF",
-				"price":	0.72,
-				"preferred":	true,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"50mA 470nH ±3% 16.5Ω -  Inductors (SMD) ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"ind"
-							}
-						},
-						"ref":	"L1",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	759,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_Murata-Electronics-LQP03HQR47H02D_C1857921.pdf",
-				"manufacturer":	"MURATA",
-				"mpn":	"LQP03HQR47H02D",
-				"vendor":	"DigiKey",
-				"sku":	"LQP03HQR47H02D",
-				"price":	0.08652,
-				"preferred":	true,
-				"query_properties":	{
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"inductance":	4.7e-07,
-					"_stock":	20,
-					"mounting":	"smd",
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"inductor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"Colorless transparence -40℃~+85℃ Positive post RGB 120° SMD,1.6x1.7mm  Light Emitting Diodes (LED) ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"board-io"
-							},
-							"field":	{
-								"name":	"led"
-							}
-						},
-						"ref":	"D1",
-						"fileinfo":	{
-							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	71,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2005041205_HONGLITRONIC-Hongli-Zhihui--HONGLITRONIC-HL-PCF-1617S39FU70GH203BC-A_C513368.pdf",
-				"manufacturer":	"HongliTronic",
-				"mpn":	"HL-PCF-1617S39FU70GH203BC-A",
-				"vendor":	"iodParts",
-				"sku":	"HL-PCF-1617S39FU70GH203BC-A",
-				"price":	0.08837,
-				"preferred":	true,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"mcu"
-								},
-								"field":	{
-									"name":	"usb"
-								}
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C36",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C5",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"qsensor"
-								}
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C43",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"qsensor"
-								}
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C42",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"codec"
-								}
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C27",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_Walsin-Tech-Corp-0201X104K160CT_C384822.pdf",
-				"manufacturer":	"Walsin Technology Corporation",
-				"mpn":	"0201X104K160CT",
-				"vendor":	"DigiKey",
-				"sku":	"0201X104K160CT",
-				"price":	0.00228,
-				"preferred":	true,
-				"query_properties":	{
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"mounting":	"smd",
-					"capacitance":	1e-07,
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"_stock":	20,
-					"type":	"ceramic",
-					"min-rated-voltage":	10,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"capacitor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"50mW Thick Film Resistors ±5% ±200ppm/℃ 20kΩ 0201  Chip Resistor - Surface Mount ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"rid"
-							}
-						},
-						"ref":	"R4",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	727,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://www.meritekusa.com/wp-content/uploads/2018/06/Standard-Chip-Resistor-CR-Series.pdf",
-				"manufacturer":	"Meritek",
-				"mpn":	"CR25203J",
-				"vendor":	"DigiKey",
-				"sku":	"CR25203J",
-				"price":	0.00178,
-				"preferred":	true,
-				"query_properties":	{
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"_stock":	20,
-					"mounting":	"smd",
-					"resistance":	20000,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"resistor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"6V Unidirectional 5.5V SON-6(1x1.5)  ESD Protection Devices ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"esd"
-							}
-						},
-						"ref":	"U7",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	376,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/1809050016_Texas-Instruments-TPD4S012DRYR_C96506.pdf",
-				"manufacturer":	"Texas Instruments",
-				"mpn":	"TPD4S012DRYR",
-				"vendor":	"DigiKey",
-				"sku":	"TPD4S012DRYR",
-				"price":	0.19513,
-				"preferred":	true,
-				"query_properties":	{
-					"manufacturer":	"Texas Instruments",
-					"mpn":	"TPD4S012DRYR"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"Highly Integrated Advanced Bluetooth® 5.2 SoC",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"mcu"
-							}
-						},
-						"ref":	"U1",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	221,
-							"column":	2
-						}
-					}],
-				"datasheet":	"",
-				"manufacturer":	"RENESAS",
-				"mpn":	"DA14705-00000HZ2",
-				"vendor":	"Easev",
-				"sku":	"DA14705-00000HZ2",
-				"price":	12.32,
-				"preferred":	true,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"50mW Thick Film Resistors ±5% ±200ppm/℃ 1kΩ 0201  Chip Resistor - Surface Mount ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"rid"
-							}
-						},
-						"ref":	"R8",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	727,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://page.venkel.com/hubfs/Resources/Datasheets/CR-Series.pdf",
-				"manufacturer":	"Venkel",
-				"mpn":	"CR0201-20W-102JT",
-				"vendor":	"DigiKey",
-				"sku":	"CR0201-20W-102JT",
-				"price":	0.00161,
-				"preferred":	true,
-				"query_properties":	{
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"_stock":	20,
-					"mounting":	"smd",
-					"resistance":	1000,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"resistor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"10V 47uF ±20% 0805  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C6",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C4",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us",
-				"manufacturer":	"MURATA",
-				"mpn":	"GRM21BR61A476ME15K",
-				"vendor":	"DigiKey",
-				"sku":	"GRM21BR61A476ME15K",
-				"price":	0.15357,
-				"preferred":	true,
-				"query_properties":	{
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"mounting":	"smd",
-					"capacitance":	4.7e-05,
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"_stock":	20,
-					"type":	"ceramic",
-					"min-rated-voltage":	10,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"capacitor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"50mW Thick Film Resistors ±1% ±200ppm/℃ 196Ω 0201  Chip Resistor - Surface Mount ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"rid"
-							}
-						},
-						"ref":	"R6",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	727,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0201FR-07196RL_C138167.pdf",
-				"manufacturer":	"YAGEO",
-				"mpn":	"RC0201FR-07196RL",
-				"vendor":	"DigiKey",
-				"sku":	"RC0201FR-07196RL",
-				"price":	0.00558,
-				"preferred":	true,
-				"query_properties":	{
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"_stock":	20,
-					"mounting":	"smd",
-					"resistance":	196,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"resistor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"FLASH - NOR Memory IC 32Mbit SPI - Quad I/O 104 MHz 12-WLCSP (2.39x1.77)",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"mcu"
-								},
-								"field":	{
-									"name":	"mem"
-								}
-							},
-							"field":	{
-								"name":	"m"
-							}
-						},
-						"ref":	"U2",
-						"fileinfo":	{
-							"filename":	"components/AT25FF321A-UUN-T.stanza",
-							"line":	74,
-							"column":	2
-						}
-					}],
-				"datasheet":	"",
-				"manufacturer":	"RENESAS",
-				"mpn":	"AT25FF321A-UUN-T",
-				"vendor":	"Easev",
-				"sku":	"AT25FF321A-UUN-T",
-				"price":	0.7595,
-				"preferred":	true,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"cpi2"
-							}
-						},
-						"ref":	"C50",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	362,
-							"column":	2
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"cpi1"
-							}
-						},
-						"ref":	"C49",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	360,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000",
-				"manufacturer":	"MURATA",
-				"mpn":	"GRM0335C1E1R0BA01J",
-				"vendor":	"DigiKey",
-				"sku":	"GRM0335C1E1R0BA01J",
-				"price":	0.1,
-				"preferred":	true,
-				"query_properties":	{
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"mounting":	"smd",
-					"capacitance":	1e-12,
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"_stock":	20,
-					"type":	"ceramic",
-					"min-rated-voltage":	10,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"capacitor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"Audio codec and driver",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"codec"
-								}
-							},
-							"field":	{
-								"name":	"codec"
-							}
-						},
-						"ref":	"U4",
-						"fileinfo":	{
-							"filename":	"components/DA7212-01UM2.stanza",
-							"line":	105,
-							"column":	2
-						}
-					}],
-				"datasheet":	"",
-				"manufacturer":	"RENESAS",
-				"mpn":	"DA7212-01UM2",
-				"vendor":	"DigiKey",
-				"sku":	"DA7212-01UM2",
-				"price":	2.51,
-				"preferred":	true,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"50mW Thick Film Resistors ±5% ±200ppm/℃ 10kΩ 0201  Chip Resistor - Surface Mount ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"rid"
-							}
-						},
-						"ref":	"R7",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	727,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"rid"
-							}
-						},
-						"ref":	"R3",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	727,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"rid"
-							}
-						},
-						"ref":	"R5",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	727,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2210241101_CAL-CHIP-ELECTRONICS--INC--RM02J103CT_C4084817.pdf",
-				"manufacturer":	"CAL-CHIP ELECTRONICS, INC.",
-				"mpn":	"RM02J103CT",
-				"vendor":	"DigiKey",
-				"sku":	"RM02J103CT",
-				"price":	0.0015,
-				"preferred":	true,
-				"query_properties":	{
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"_stock":	20,
-					"mounting":	"smd",
-					"resistance":	10000,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"resistor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"50mW Thick Film Resistors ±1% ±200ppm/℃ 845Ω 0201  Chip Resistor - Surface Mount ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"rid"
-							}
-						},
-						"ref":	"R2",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	727,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf",
-				"manufacturer":	"YAGEO",
-				"mpn":	"RC0201FR-07845RL",
-				"vendor":	"DigiKey",
-				"sku":	"RC0201FR-07845RL",
-				"price":	0.00558,
-				"preferred":	true,
-				"query_properties":	{
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"_stock":	20,
-					"mounting":	"smd",
-					"resistance":	845,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"resistor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"2.45 GHz SMD Antenna, EIA 1206, Detuning resilient, Edge Mount Design",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"ant"
-							}
-						},
-						"ref":	"U17",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	358,
-							"column":	2
-						}
-					}],
-				"datasheet":	"",
-				"manufacturer":	"Johanson",
-				"mpn":	"2450AT18D0100001E",
-				"vendor":	"DigiKey",
-				"sku":	"2450AT18D0100001E",
-				"price":	0.68,
-				"preferred":	true,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"50mW Thick Film Resistors ±5% ±200ppm/℃ 8.2kΩ 0201  Chip Resistor - Surface Mount ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"name":	"board-io"
-									},
-									"field":	{
-										"name":	"rs"
-									}
-								},
-								"field":	{
-									"name":	"r"
-								}
-							},
-							"index":	1
-						},
-						"ref":	"R15",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generator-utils.stanza",
-							"line":	43,
-							"column":	6
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"name":	"board-io"
-									},
-									"field":	{
-										"name":	"rs"
-									}
-								},
-								"field":	{
-									"name":	"r"
-								}
-							},
-							"index":	0
-						},
-						"ref":	"R14",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generator-utils.stanza",
-							"line":	43,
-							"column":	6
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"name":	"board-io"
-									},
-									"field":	{
-										"name":	"rs"
-									}
-								},
-								"field":	{
-									"name":	"r"
-								}
-							},
-							"index":	1
-						},
-						"ref":	"R13",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generator-utils.stanza",
-							"line":	43,
-							"column":	6
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"name":	"board-io"
-									},
-									"field":	{
-										"name":	"rs"
-									}
-								},
-								"field":	{
-									"name":	"r"
-								}
-							},
-							"index":	0
-						},
-						"ref":	"R12",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generator-utils.stanza",
-							"line":	43,
-							"column":	6
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"ref":	{
-											"name":	"board-io"
-										},
-										"field":	{
-											"name":	"hapdrv"
-										}
-									},
-									"field":	{
-										"name":	"rs"
-									}
-								},
-								"field":	{
-									"name":	"r"
-								}
-							},
-							"index":	1
-						},
-						"ref":	"R17",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generator-utils.stanza",
-							"line":	43,
-							"column":	6
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"ref":	{
-											"name":	"board-io"
-										},
-										"field":	{
-											"name":	"hapdrv"
-										}
-									},
-									"field":	{
-										"name":	"rs"
-									}
-								},
-								"field":	{
-									"name":	"r"
-								}
-							},
-							"index":	0
-						},
-						"ref":	"R16",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generator-utils.stanza",
-							"line":	43,
-							"column":	6
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2210311700_CAL-CHIP-ELECTRONICS--INC--RM02J822CT_C4265167.pdf",
-				"manufacturer":	"CAL-CHIP ELECTRONICS, INC.",
-				"mpn":	"RM02J822CT",
-				"vendor":	"DigiKey",
-				"sku":	"RM02J822CT",
-				"price":	0.0015,
-				"preferred":	true,
-				"query_properties":	{
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"_stock":	20,
-					"mounting":	"smd",
-					"resistance":	8200,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"resistor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"50mA 470nH ±3% 16.5Ω -  Inductors (SMD) ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"lm"
-							}
-						},
-						"ref":	"L4",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	363,
-							"column":	2
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"lpi"
-							}
-						},
-						"ref":	"L3",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	361,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://page.venkel.com/hubfs/Resources/Datasheets/LMCI-Series.pdf",
-				"manufacturer":	"Venkel",
-				"mpn":	"LMCI0201-1N0ST",
-				"vendor":	"DigiKey",
-				"sku":	"LMCI0201-1N0ST",
-				"price":	0.00473,
-				"preferred":	true,
-				"query_properties":	{
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"inductance":	1e-09,
-					"_stock":	20,
-					"mounting":	"smd",
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"inductor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"IC WIRELESS PWR RCVR 28DSBGA",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"wpwr"
-							}
-						},
-						"ref":	"U3",
-						"fileinfo":	{
-							"filename":	"components/BQ51003YFPR.stanza",
-							"line":	62,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/1810010230_Texas-Instruments-BQ51003YFPR_C134093.pdf",
-				"manufacturer":	"Texas Instruments",
-				"mpn":	"BQ51003YFPR",
-				"vendor":	"DigiKey",
-				"sku":	"BQ51003YFPR",
-				"price":	0.67883,
-				"preferred":	true,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C23",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C11",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C12",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C9",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C8",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C7",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/1806121533_Samsung-Electro-Mechanics-CL05A106MP5NUNC_C105225.pdf",
-				"manufacturer":	"Samsung Electro-Mechanics",
-				"mpn":	"CL05A106MP5NUNC",
-				"vendor":	"DigiKey",
-				"sku":	"CL05A106MP5NUNC",
-				"price":	0.03063,
-				"preferred":	true,
-				"query_properties":	{
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"mounting":	"smd",
-					"capacitance":	1e-05,
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"_stock":	20,
-					"type":	"ceramic",
-					"min-rated-voltage":	10,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"capacitor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"2.5V~5.5V I2C BGA-9  Motor Driver ICs ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"hapdrv"
-								}
-							},
-							"field":	{
-								"name":	"drv"
-							}
-						},
-						"ref":	"U12",
-						"fileinfo":	{
-							"filename":	"components/DRV2605YZFR.stanza",
-							"line":	184,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/1806151241_Texas-Instruments-DRV2605YZFR_C81079.pdf",
-				"manufacturer":	"Texas Instruments",
-				"mpn":	"DRV2605YZFR",
-				"vendor":	"DigiKey",
-				"sku":	"DRV2605YZFR",
-				"price":	1.15488,
-				"preferred":	true,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"32MHz 6pF ±10ppm SMD2016-4P  Crystals ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"xtal-32M"
-							}
-						},
-						"ref":	"XTAL1",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	224,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2201242130_Murata-Electronics-XRCGB32M000F1H00R0_C880116.pdf",
-				"manufacturer":	"MURATA",
-				"mpn":	"XRCGB32M000F1H00R0",
-				"vendor":	"Arrow",
-				"sku":	"XRCGB32M000F1H00R0",
-				"price":	0.2943,
-				"preferred":	true,
-				"query_properties":	{
-					"manufacturer":	"Murata",
-					"mpn":	"XRCGB32M000F1H00R0"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C21",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2105241313_Murata-Electronics-GRM033R71E271KA01D_C668345.pdf",
-				"manufacturer":	"MURATA",
-				"mpn":	"GRM033R71E271KA01D",
-				"vendor":	"DigiKey",
-				"sku":	"GRM033R71E271KA01D",
-				"price":	0.00185,
-				"preferred":	true,
-				"query_properties":	{
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"mounting":	"smd",
-					"capacitance":	2.7e-10,
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"_stock":	20,
-					"type":	"ceramic",
-					"min-rated-voltage":	10,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"capacitor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"3.9A 162mΩ@1.8V,1A 700mW 2 P-Channel BGA-9  MOSFETs ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"q1"
-							}
-						},
-						"ref":	"U13",
-						"fileinfo":	{
-							"filename":	"components/BQ51003YFPR.stanza",
-							"line":	108,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/1806122238_Texas-Instruments-CSD75207W15_C201968.pdf",
-				"manufacturer":	"Texas Instruments",
-				"mpn":	"CSD75207W15",
-				"vendor":	"DigiKey",
-				"sku":	"CSD75207W15",
-				"price":	0.2444,
-				"preferred":	true,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"mcu"
-								},
-								"field":	{
-									"name":	"mem"
-								}
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C13",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"hapdrv"
-								}
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C48",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"hapdrv"
-								}
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C47",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"codec"
-								}
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C39",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"codec"
-								}
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C26",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"codec"
-								}
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C31",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"codec"
-								}
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C30",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"codec"
-								}
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C38",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"codec"
-								}
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C37",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"codec"
-								}
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C29",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"codec"
-								}
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C32",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"codec"
-								}
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C28",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://datasheets.avx.com/cx5r.pdf",
-				"manufacturer":	"AVX Corporation",
-				"mpn":	"0201ZD105MAT2A",
-				"vendor":	"DigiKey",
-				"sku":	"0201ZD105MAT2A",
-				"price":	0.04637,
-				"preferred":	true,
-				"query_properties":	{
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"mounting":	"smd",
-					"capacitance":	1e-06,
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"_stock":	20,
-					"type":	"ceramic",
-					"min-rated-voltage":	10,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"capacitor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C25",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C24",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf",
-				"manufacturer":	"Samsung Electro-Mechanics",
-				"mpn":	"CL05A475MP5NRNC",
-				"vendor":	"DigiKey",
-				"sku":	"CL05A475MP5NRNC",
-				"price":	0.0129,
-				"preferred":	true,
-				"query_properties":	{
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"mounting":	"smd",
-					"capacitance":	4.7e-06,
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"_stock":	20,
-					"type":	"ceramic",
-					"min-rated-voltage":	10,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"capacitor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C18",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C17",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2003312210_YAGEO-CC0201KRX5R8BB223_C505472.pdf",
-				"manufacturer":	"YAGEO",
-				"mpn":	"CC0201KRX5R8BB223",
-				"vendor":	"DigiKey",
-				"sku":	"CC0201KRX5R8BB223",
-				"price":	0.032,
-				"preferred":	true,
-				"query_properties":	{
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"mounting":	"smd",
-					"capacitance":	2.2e-08,
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"_stock":	20,
-					"type":	"ceramic",
-					"min-rated-voltage":	10,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"capacitor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"IP67 20mA 2.6mm 50MΩ 500000 2.4N 15V -40℃~+85℃ 1.6mm 0.55mm Round Button Brick nogging SPST SMD,1.6x2.6mm  Tactile Switches ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"button"
-								}
-							},
-							"index":	2
-						},
-						"ref":	"U16",
-						"fileinfo":	{
-							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	69,
-							"column":	2
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"button"
-								}
-							},
-							"index":	1
-						},
-						"ref":	"U15",
-						"fileinfo":	{
-							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	69,
-							"column":	2
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"button"
-								}
-							},
-							"index":	0
-						},
-						"ref":	"U14",
-						"fileinfo":	{
-							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	69,
-							"column":	2
-						}
-					}],
-				"datasheet":	"",
-				"manufacturer":	"Panasonic",
-				"mpn":	"EVPBB4A9B000",
-				"vendor":	"Mouser",
-				"sku":	"EVPBB4A9B000",
-				"price":	0.55,
-				"preferred":	true,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"50mA 470nH ±3% 16.5Ω -  Inductors (SMD) ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"ind"
-							}
-						},
-						"ref":	"L2",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	759,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2006191007_TDK-MLZ1005M1R0WT000_C531288.pdf",
-				"manufacturer":	"TDK Corporation",
-				"mpn":	"MLZ1005M1R0WT000",
-				"vendor":	"DigiKey",
-				"sku":	"MLZ1005M1R0WT000",
-				"price":	0.08652,
-				"preferred":	true,
-				"query_properties":	{
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"inductance":	1e-06,
-					"_stock":	20,
-					"mounting":	"smd",
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"inductor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"50mW Thick Film Resistors ±5% ±200ppm/℃ 100kΩ 0201  Chip Resistor - Surface Mount ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"mcu"
-								},
-								"field":	{
-									"name":	"usb"
-								}
-							},
-							"field":	{
-								"name":	"rid"
-							}
-						},
-						"ref":	"R18",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	727,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2210171730_CAL-CHIP-ELECTRONICS--INC--RM02J104CT_C3929885.pdf",
-				"manufacturer":	"CAL-CHIP ELECTRONICS, INC.",
-				"mpn":	"RM02J104CT",
-				"vendor":	"DigiKey",
-				"sku":	"RM02J104CT",
-				"price":	0.0015,
-				"preferred":	true,
-				"query_properties":	{
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"_stock":	20,
-					"mounting":	"smd",
-					"resistance":	100000,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"resistor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"MEMS MODULE 3D GYROSCOPE/ACCELEROMETER LGA",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"qsensor"
-								}
-							},
-							"field":	{
-								"name":	"imu"
-							}
-						},
-						"ref":	"U9",
-						"fileinfo":	{
-							"filename":	"components/LSM6DSV16BX.stanza",
-							"line":	135,
-							"column":	2
-						}
-					}],
-				"datasheet":	"",
-				"manufacturer":	"STMicroelectronics",
-				"mpn":	"LSM6DSOXTR",
-				"vendor":	"DigiKey",
-				"sku":	"LSM6DSOXTR",
-				"price":	3.15568,
-				"preferred":	true,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C16",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C15",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2309051421_Taiyo-Yuden-LMK063BC6474MPLF_C2169728.pdf",
-				"manufacturer":	"Taiyo Yuden",
-				"mpn":	"LMK063BC6474MPLF",
-				"vendor":	"DigiKey",
-				"sku":	"LMK063BC6474MPLF",
-				"price":	0.02476,
-				"preferred":	true,
-				"query_properties":	{
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"mounting":	"smd",
-					"capacitance":	4.7e-07,
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"_stock":	20,
-					"type":	"ceramic",
-					"min-rated-voltage":	10,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"capacitor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C22",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C20",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"wpwr"
-							},
-							"field":	{
-								"name":	"cap"
-							}
-						},
-						"ref":	"C19",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	743,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2202040300_Murata-Electronics-GRM033R61E103MA12D_C2168386.pdf",
-				"manufacturer":	"MURATA",
-				"mpn":	"GRM033R61E103MA12D",
-				"vendor":	"DigiKey",
-				"sku":	"GRM033R61E103MA12D",
-				"price":	0.00185,
-				"preferred":	true,
-				"query_properties":	{
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"mounting":	"smd",
-					"capacitance":	1e-08,
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"_stock":	20,
-					"type":	"ceramic",
-					"min-rated-voltage":	10,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"capacitor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"6 Position FFC, FPC Connector Contacts, Bottom 0.020\" (0.50mm) Surface Mount, Right Angle",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"flex-conn"
-							},
-							"field":	{
-								"name":	"conn"
-							}
-						},
-						"ref":	"U5",
-						"fileinfo":	{
-							"filename":	"system.stanza",
-							"line":	26,
-							"column":	2
-						}
-					}],
-				"datasheet":	"",
-				"manufacturer":	"Hirose",
-				"mpn":	"FH19C-6S-0.5SH(10)",
-				"vendor":	"DigiKey",
-				"sku":	"FH19C-6S-0.5SH(10)",
-				"price":	0.55146,
-				"preferred":	true,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"RES SMD 0 OHM JUMPER 1/20W 0201",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"rid"
-							}
-						},
-						"ref":	"R1",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	727,
-							"column":	4
-						}
-					}],
-				"datasheet":	"https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf",
-				"manufacturer":	"BOURNS",
-				"mpn":	"CR0201-J/-000GLF",
-				"vendor":	"DigiKey",
-				"sku":	"CR0201-J/-000GLF",
-				"price":	0.1,
-				"preferred":	true,
-				"query_properties":	{
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"_stock":	20,
-					"mounting":	"smd",
-					"resistance":	0,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"resistor"
-				}
-			}],
-		"entries":	[{
-			}, {
-			}, {
 			}, {
 			}, {
 			}, {

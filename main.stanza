@@ -21,6 +21,8 @@ defpackage main :
   import system
   import stackups
 
+enable-spy()
+
 MIN-PKG = "0201"
 DESIGN-QUANTITY = 20
 OPERATING-TEMPERATURE = min-typ-max(0.0, 32.0 40.0)

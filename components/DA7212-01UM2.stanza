@@ -108,7 +108,7 @@ public pcb-module module :
   net (VDD1P8P codec.VDD_A codec.VDD_IO)
   inst rvdd-mic : chip-resistor(0.0)
   component-status(rvdd-mic) :
-    bom-status = NotInBOM
+    bom-status = InBOM
   net (VDD3P0 rvdd-mic.p[1])
   net (codec.VDD_MIC rvdd-mic.p[2])
 

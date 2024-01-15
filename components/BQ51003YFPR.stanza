@@ -55,7 +55,6 @@ public pcb-component component :
 
 public pcb-module module :
   pin VBUS
-  pin VBUSP
   pin GND
   port CMD : wpwr-ctl
 
@@ -105,18 +104,18 @@ public pcb-module module :
   bypass-cap-strap(wpwr.RECT, GND, 10.0e-6)
   bypass-cap-strap(wpwr.RECT, GND, 4.7e-6)
 
-  inst q1 : CSD75207W15/component  ; database-part(["mpn" => "CSD75207W15", "manufacturer" => "Texas Instruments"])
+  ; inst q1 : CSD75207W15/component  ; database-part(["mpn" => "CSD75207W15", "manufacturer" => "Texas Instruments"])
 
-  net (VBUSP q1.G1 q1.D10 q1.D11)
-  net (VBUS q1.D20 q1.D21 q1.D22)
-  net (wpwr.nAD-EN q1.D12 q1.S2)
+  ; net (VBUSP q1.G1 q1.D10 q1.D11)
+  ; net (VBUS q1.D20 q1.D21 q1.D22)
+  ; net (wpwr.nAD-EN q1.D12 q1.S2)
 
   ; res-strap(VBUSp wpwr.AD, 0.0)
-  inst rvbus-ad : chip-resistor(0.0)
-  component-status(rvbus-ad) : 
-    bom-status = NotInBOM
-  net (rvbus-ad.p[1] VBUSP)
-  net (rvbus-ad.p[2] wpwr.AD)
-  bypass-cap-strap(VBUSP, GND, 4.7e-6)
+  ; inst rvbus-ad : chip-resistor(0.0)
+  ; component-status(rvbus-ad) : 
+  ;   bom-status = NotInBOM
+  ; net (rvbus-ad.p[1] VBUSP)
+  ; net (rvbus-ad.p[2] wpwr.AD)
+  bypass-cap-strap(VBUS, GND, 4.7e-6)
 
   layout-group(self) = wireless-power

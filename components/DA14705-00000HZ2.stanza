@@ -208,7 +208,6 @@ public pcb-module module :
   pin V30  
   pin VBAT 
   pin VBUS 
-  pin VBUSP
   pin VSYS
   port WPWR-CTRL   : wpwr-ctl
   port haptic-intf : haptic-intf
@@ -228,7 +227,7 @@ public pcb-module module :
   net (GND xtal-32M.GND0 xtal-32M.GND1 mem.GND)
 
   ; memory connection to 1.8v of MCU
-  net (V18 mem.VDD)
+  net (mcu.V18F mem.VDD)
 
 ; connect quad spi from memory to mcu
   require mcu-mem : quad-spi from mcu
@@ -277,7 +276,7 @@ public pcb-module module :
   require mcu-uart : uart() from mcu
   net (dbg-m33 mcu-dbg-m33)
   net (conn-uart mcu-uart) ; ok to make this tx -> tx, rx -> rx as the connector has the same expectation
-  net (dbg-power-m33.vdd VSYS)
+  net (dbg-power-m33.vdd VBUS)
   net (dbg-power-m33.gnd GND)
 
   ; inst dbg-snc-conn : ocdb/components/tag-connect/TC2030-IDC-NL/component
@@ -344,7 +343,11 @@ public pcb-module module :
     net (GND gp)
   
   net (mcu.V14 mcu.V14RF)
-  res-strap(mcu.V18F, mcu.V18P, 0.0)
+  inst rv18fp : chip-resistor(0.0)
+  net (rv18fp.p[1] mcu.V18F)
+  net (rv18fp.p[2] mcu.V18P)
+  component-status(rv18fp) :
+    bom-status = NotInBOM
   
   ; inductors for onboard switching supply setup
   val l1 = ind-strap(mcu.LX mcu.LY 470.0e-9)
@@ -376,7 +379,7 @@ public pcb-module module :
   inst esd :  database-part(["mpn" => "TPD4S012DRYR", "manufacturer" => "Texas Instruments"])
 
   require mcu-usb : usb-2-data from mcu
-  net (usb.usb-2.vbus.vdd VBUSP)
+  net (usb.usb-2.vbus.vdd VBUS)
   net (usb.usb-2.vbus.gnd GND)
   net (usb.usb-2.data mcu-usb)
   net (esd.D+ usb.usb-2.data.P)
@@ -384,27 +387,4 @@ public pcb-module module :
   net (esd.GND usb.usb-2.vbus.gnd)
   net (esd.VBUS usb.usb-2.vbus.vdd)
   no-connect(esd.NC)
-  ; schematic-group([usb esd]) = usb
-
-  ; public inst usb : usb2-on-a-usb-c-connector(ocdb/components/korean-hroparts-elec/TYPE-C-31-M-12/module(SinkDefault))
-
-  ; ; Define ground net and assign symbol
-  ; net (GND usb.usb-2.vbus.gnd)
-
-  ; ; Create a protected power and data interface for USB-2
-  ; val protected-usb = ocdb/modules/protection/esd-clamp(usb.usb-2, GND)
-  ; net (VBUSp protected-usb.usb-out.vbus.vdd usb.usb-2.vbus.vdd)
-  ; net (usb-data protected-usb.usb-out.data)
-
-  ; schematic-group(mcu, 0) = bank0
-  ; schematic-group(mcu, 1) = bank1
-  ; schematic-group(xtal-32M) = bank1
-  ; schematic-group(mcu, 2) = bank2
-  ; schematic-group(mcu, 3) = bank3
-  ; schematic-group(mcu, 4) = bank4
-  ; schematic-group(mcu, 5) = bank5
-  ; schematic-group(mcu, 6) = bank6
-
   layout-group(self) = mcu
-
-; view(component)

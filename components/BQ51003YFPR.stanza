@@ -112,6 +112,11 @@ public pcb-module module :
   net (wpwr.nAD-EN q1.D12 q1.S2)
 
   ; res-strap(VBUSp wpwr.AD, 0.0)
+  inst rvbus-ad : chip-resistor(0.0)
+  component-status(rvbus-ad) : 
+    bom-status = NotInBOM
+  net (rvbus-ad.p[1] VBUSP)
+  net (rvbus-ad.p[2] wpwr.AD)
   bypass-cap-strap(VBUSP, GND, 4.7e-6)
 
   layout-group(self) = wireless-power

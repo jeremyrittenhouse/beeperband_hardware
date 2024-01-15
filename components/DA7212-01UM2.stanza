@@ -106,7 +106,12 @@ public pcb-module module :
 
   net (GND codec.GND_A codec.GND_CP)
   net (VDD1P8P codec.VDD_A codec.VDD_IO)
-  net (VDD3P0 codec.VDD_MIC)
+  inst rvdd-mic : chip-resistor(0.0)
+  component-status(rvdd-mic) :
+    bom-status = NotInBOM
+  net (VDD3P0 rvdd-mic.p[1])
+  net (codec.VDD_MIC rvdd-mic.p[2])
+
   net (VDDSYS codec.VDD_SP)
 
   net (MICBIAS codec.MICBIAS1)

@@ -148,7 +148,7 @@ public pcb-module beeper-design :
 
   val supply-nets = [VDD1P8 VDD3P0 VDDSYS VBUS VDD1P8P VBUSP]
   ; connect nets to pins of the mcu module
-  net (VDD1P8  mcu.V18 )
+  net (VDD1P8  mcu.V18 board-io.VDD1P8)
   net (VDD1P8P mcu.V18P board-io.VDD1P8P)
   net (VDD3P0  mcu.V30 board-io.VDD3P0)
   net (VDDSYS  mcu.VSYS board-io.VDDSYS)
@@ -157,9 +157,6 @@ public pcb-module beeper-design :
 
   ; connect all of our grounds
   net (GND mcu.GND wpwr.GND board-io.GND)
-
-  ; connect the power supplies at the top level for those components
-  net (VDD1P8 board-io.VDD1P8)
 
   ; connect i2c from codec to mcu
   net (board-io.system-io.codec-i2c mcu.codec-i2c)

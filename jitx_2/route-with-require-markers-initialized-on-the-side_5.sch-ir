@@ -1,0 +1,349 @@
+box layout input (320, 175) 0.8 :
+  box 1113219 from (-8, -12) to (8, 12):
+    port 1113209 at (-8, 2) facing Left
+    port 1113210 at (-8, 0) facing Left
+    port 1113211 at (-8, -2) facing Left
+    port 1113212 at (8, 2) facing Right
+    port 1113213 at (8, 0) facing Right
+    port 1113214 at (8, -2) facing Right
+    port 1113215 at (0, 12) facing Up
+    port 1113216 at (-2, -12) facing Down
+    port 1113217 at (0, -12) facing Down
+    port 1113218 at (2, -12) facing Down
+  box 1113156 from (-1, -2) to (1, 2):
+    port 1113154 at (0, 2) facing Up
+    port 1113155 at (0, -2) facing Down
+  box 1113221 from (-7, -2) to (5, 2):
+    port 1113220 at (-7, 0) facing Left
+  box 1113159 from (-1, -2) to (1, 2):
+    port 1113157 at (0, 2) facing Up
+    port 1113158 at (0, -2) facing Down
+  box 1113287 from (-7, -17) to (7, 17):
+    port 1113255 at (-7, 15) facing Left
+    port 1113256 at (-7, 13) facing Left
+    port 1113257 at (-7, 11) facing Left
+    port 1113258 at (-7, 9) facing Left
+    port 1113259 at (-7, 7) facing Left
+    port 1113260 at (-7, 5) facing Left
+    port 1113261 at (-7, 3) facing Left
+    port 1113262 at (-7, 1) facing Left
+    port 1113263 at (-7, -1) facing Left
+    port 1113264 at (-7, -3) facing Left
+    port 1113265 at (-7, -5) facing Left
+    port 1113266 at (-7, -7) facing Left
+    port 1113267 at (-7, -9) facing Left
+    port 1113268 at (-7, -11) facing Left
+    port 1113269 at (-7, -13) facing Left
+    port 1113270 at (-7, -15) facing Left
+    port 1113271 at (7, 15) facing Right
+    port 1113272 at (7, 13) facing Right
+    port 1113273 at (7, 11) facing Right
+    port 1113274 at (7, 9) facing Right
+    port 1113275 at (7, 7) facing Right
+    port 1113276 at (7, 5) facing Right
+    port 1113277 at (7, 3) facing Right
+    port 1113278 at (7, 1) facing Right
+    port 1113279 at (7, -1) facing Right
+    port 1113280 at (7, -3) facing Right
+    port 1113281 at (7, -5) facing Right
+    port 1113282 at (7, -7) facing Right
+    port 1113283 at (7, -9) facing Right
+    port 1113284 at (7, -11) facing Right
+    port 1113285 at (7, -13) facing Right
+    port 1113286 at (7, -15) facing Right
+  box 1113415 from (-1, -2) to (1, 2):
+    port 1113413 at (0, 2) facing Up
+    port 1113414 at (0, -2) facing Down
+  box 1113544 from (-1, -2) to (1, 2):
+    port 1113542 at (0, 2) facing Up
+    port 1113543 at (0, -2) facing Down
+  box 1113546 from (-2, -1) to (2, 1):
+    port 1113545 at (2, 0) facing Right
+  box 1113555 from (-1, -2) to (1, 2):
+    port 1113553 at (0, 2) facing Up
+    port 1113554 at (0, -2) facing Down
+  box 1113493 from (-7, -5) to (7, 5):
+    port 1113487 at (-7, 2) facing Left
+    port 1113488 at (-7, 0) facing Left
+    port 1113489 at (-7, -2) facing Left
+    port 1113490 at (7, -2) facing Right
+    port 1113491 at (7, 0) facing Right
+    port 1113492 at (7, 2) facing Right
+  box 1113175 from (-1, -2) to (1, 2):
+    port 1113173 at (0, 2) facing Up
+    port 1113174 at (0, -2) facing Down
+  box 1113303 from (-7, -16) to (5, 16):
+    port 1113288 at (-7, 14) facing Left
+    port 1113289 at (-7, 12) facing Left
+    port 1113290 at (-7, 10) facing Left
+    port 1113291 at (-7, 8) facing Left
+    port 1113292 at (-7, 6) facing Left
+    port 1113293 at (-7, 4) facing Left
+    port 1113294 at (-7, 2) facing Left
+    port 1113295 at (-7, 0) facing Left
+    port 1113296 at (-7, -2) facing Left
+    port 1113297 at (-7, -4) facing Left
+    port 1113298 at (-7, -6) facing Left
+    port 1113299 at (-7, -8) facing Left
+    port 1113300 at (-7, -10) facing Left
+    port 1113301 at (-7, -12) facing Left
+    port 1113302 at (-7, -14) facing Left
+  box 1113178 from (-1, -2) to (1, 2):
+    port 1113176 at (0, 2) facing Up
+    port 1113177 at (0, -2) facing Down
+  box 1113564 from (-1, -2) to (1, 2):
+    port 1113562 at (0, 2) facing Up
+    port 1113563 at (0, -2) facing Down
+  box 1113312 from (-8, -9) to (10, 7):
+    port 1113304 at (10, 0) facing Right
+    port 1113305 at (-6, -9) facing Down
+    port 1113306 at (-4, -9) facing Down
+    port 1113307 at (-2, -9) facing Down
+    port 1113308 at (0, -9) facing Down
+    port 1113309 at (2, -9) facing Down
+    port 1113310 at (4, -9) facing Down
+    port 1113311 at (6, -9) facing Down
+  box 1113185 from (-4, -3) to (4, 3):
+    port 1113179 at (-4, 2) facing Left
+    port 1113180 at (4, 2) facing Right
+    port 1113181 at (-4, 0) facing Left
+    port 1113182 at (4, 0) facing Right
+    port 1113183 at (-4, -2) facing Left
+    port 1113184 at (4, -2) facing Right
+  box 1113505 from (-1, -2) to (1, 2):
+    port 1113503 at (0, 2) facing Up
+    port 1113504 at (0, -2) facing Down
+  box 1113188 from (-3, -3) to (7, 4):
+    port 1113186 at (7, -3) facing Right
+    port 1113187 at (0, -3) facing Down
+  box 1113573 from (-1, -2) to (1, 2):
+    port 1113571 at (0, 2) facing Up
+    port 1113572 at (0, -2) facing Down
+  box 1113126 from (-1, -2) to (1, 0):
+    port 1113125 at (0, 0) facing Up
+  box 1113254 from (-7, -17) to (7, 17):
+    port 1113222 at (-7, 15) facing Left
+    port 1113223 at (-7, 13) facing Left
+    port 1113224 at (-7, 11) facing Left
+    port 1113225 at (-7, 9) facing Left
+    port 1113226 at (-7, 7) facing Left
+    port 1113227 at (-7, 5) facing Left
+    port 1113228 at (-7, 3) facing Left
+    port 1113229 at (-7, 1) facing Left
+    port 1113230 at (-7, -1) facing Left
+    port 1113231 at (-7, -3) facing Left
+    port 1113232 at (-7, -5) facing Left
+    port 1113233 at (-7, -7) facing Left
+    port 1113234 at (-7, -9) facing Left
+    port 1113235 at (-7, -11) facing Left
+    port 1113236 at (-7, -13) facing Left
+    port 1113237 at (-7, -15) facing Left
+    port 1113238 at (7, 15) facing Right
+    port 1113239 at (7, 13) facing Right
+    port 1113240 at (7, 11) facing Right
+    port 1113241 at (7, 9) facing Right
+    port 1113242 at (7, 7) facing Right
+    port 1113243 at (7, 5) facing Right
+    port 1113244 at (7, 3) facing Right
+    port 1113245 at (7, 1) facing Right
+    port 1113246 at (7, -1) facing Right
+    port 1113247 at (7, -3) facing Right
+    port 1113248 at (7, -5) facing Right
+    port 1113249 at (7, -7) facing Right
+    port 1113250 at (7, -9) facing Right
+    port 1113251 at (7, -11) facing Right
+    port 1113252 at (7, -13) facing Right
+    port 1113253 at (7, -15) facing Right
+  box 1113448 from (-1, -2) to (1, 2):
+    port 1113446 at (0, 2) facing Up
+    port 1113447 at (0, -2) facing Down
+  box 1113514 from (-1, -2) to (1, 2):
+    port 1113512 at (0, 2) facing Up
+    port 1113513 at (0, -2) facing Down
+  box 1113132 from (-1, -2) to (1, 2):
+    port 1113130 at (0, 2) facing Up
+    port 1113131 at (0, -2) facing Down
+  box 1113453 from (-6, -5) to (6, 5):
+    port 1113449 at (-6, -2) facing Left
+    port 1113450 at (6, 2) facing Right
+    port 1113451 at (-6, 2) facing Left
+    port 1113452 at (6, -2) facing Right
+  box 1113582 from (-1, -2) to (1, 2):
+    port 1113580 at (0, 2) facing Up
+    port 1113581 at (0, -2) facing Down
+  box 1113456 from (-1, -2) to (1, 2):
+    port 1113454 at (0, 2) facing Up
+    port 1113455 at (0, -2) facing Down
+  box 1112946 from (0, -1) to (2, 1):
+    port 1112945 at (0, 0) facing Left
+  box 1113523 from (-1, -2) to (1, 2):
+    port 1113521 at (0, 2) facing Up
+    port 1113522 at (0, -2) facing Down
+  box 1113141 from (-1, -2) to (1, 2):
+    port 1113139 at (0, 2) facing Up
+    port 1113140 at (0, -2) facing Down
+  box 1113398 from (-1, -2) to (1, 2):
+    port 1113396 at (0, 2) facing Up
+    port 1113397 at (0, -2) facing Down
+  box 1113208 from (-5, -7) to (7, 7):
+    port 1113202 at (7, 5) facing Right
+    port 1113203 at (7, 3) facing Right
+    port 1113204 at (7, 1) facing Right
+    port 1113205 at (7, -1) facing Right
+    port 1113206 at (7, -3) facing Right
+    port 1113207 at (7, -5) facing Right
+  box 1113340 from (-25, -11) to (25, 11):
+    port 1113313 at (-14, 11) facing Up
+    port 1113314 at (-12, 11) facing Up
+    port 1113315 at (-10, 11) facing Up
+    port 1113316 at (-8, 11) facing Up
+    port 1113317 at (-6, 11) facing Up
+    port 1113318 at (-4, 11) facing Up
+    port 1113319 at (-2, 11) facing Up
+    port 1113320 at (0, 11) facing Up
+    port 1113321 at (2, 11) facing Up
+    port 1113322 at (4, 11) facing Up
+    port 1113323 at (6, 11) facing Up
+    port 1113324 at (8, 11) facing Up
+    port 1113325 at (10, 11) facing Up
+    port 1113326 at (12, 11) facing Up
+    port 1113327 at (-12, -11) facing Down
+    port 1113328 at (-10, -11) facing Down
+    port 1113329 at (-8, -11) facing Down
+    port 1113330 at (-6, -11) facing Down
+    port 1113331 at (-4, -11) facing Down
+    port 1113332 at (-2, -11) facing Down
+    port 1113333 at (0, -11) facing Down
+    port 1113334 at (2, -11) facing Down
+    port 1113335 at (4, -11) facing Down
+    port 1113336 at (6, -11) facing Down
+    port 1113337 at (8, -11) facing Down
+    port 1113338 at (10, -11) facing Down
+    port 1113339 at (12, -11) facing Down
+  box 1113535 from (-1, -2) to (1, 2):
+    port 1113533 at (0, 2) facing Up
+    port 1113534 at (0, -2) facing Down
+  inst 1113663 of box 1113493 (group mcu.module)
+  inst 1113659 of box 1113456 (group mcu.module)
+  inst 1113658 of box 1113448 (group mcu.module)
+  inst 1113657 of box 1113415 (group mcu.module)
+  inst 1113656 of box 1113398 (group mcu.module)
+  inst 1113655 of box 1113188 (group mcu.module)
+  inst 1113654 of box 1113178 (group mcu.module)
+  inst 1113653 of box 1113175 (group mcu.module)
+  inst 1113652 of box 1113159 (group mcu.module)
+  inst 1113651 of box 1113156 (group mcu.module)
+  inst 1113650 of box 1113141 (group mcu.module)
+  inst 1113649 of box 1113132 (group mcu.module)
+  inst 1113648 of box 1113582 (group mcu.module)
+  inst 1113647 of box 1113573 (group mcu.module)
+  inst 1113646 of box 1113564 (group mcu.module)
+  inst 1113645 of box 1113555 (group mcu.module)
+  inst 1113644 of box 1113544 (group mcu.module)
+  inst 1113643 of box 1113535 (group mcu.module)
+  inst 1113642 of box 1113523 (group mcu.module)
+  inst 1113641 of box 1113514 (group mcu.module)
+  inst 1113640 of box 1113505 (group mcu.module)
+  inst 1113639 of box 1113546 (group mcu.module)
+  inst 1113638 of box 1113546 (group mcu.module)
+  inst 1113637 of box 1113546 (group mcu.module)
+  inst 1113636 of box 1113546 (group mcu.module)
+  inst 1113635 of box 1113546 (group mcu.module)
+  inst 1113634 of box 1113546 (group mcu.module)
+  inst 1113633 of box 1113546 (group mcu.module)
+  inst 1113632 of box 1113546 (group mcu.module)
+  inst 1113631 of box 1113185 (group mcu.module)
+  inst 1113630 of box 1113453 (group mcu.module)
+  inst 1113627 of box 1113340 (group mcu.module)
+  inst 1113626 of box 1113312 (group mcu.module)
+  inst 1113625 of box 1113303 (group mcu.module)
+  inst 1113624 of box 1113287 (group mcu.module)
+  inst 1113623 of box 1113254 (group mcu.module)
+  inst 1113622 of box 1113221 (group mcu.module)
+  inst 1113621 of box 1113219 (group mcu.module)
+  inst 1113620 of box 1113208 (group mcu.module)
+  net 1113920 VLED (B1113627.P1113325, B1113649.P1113131) (labeled) 
+  net 1113815 RF2 (B1113658.P1113446, B1113659.P1113454, B1113657.P1113414) (labeled) 
+  net 1113814 RF3 (B1113659.P1113455, B1113655.P1113187) (labeled) 
+  net 1113810 mcu.dbg-m33.swdio (B1113631.P1113180, B1113623.P1113222) (unlabeled) (require 1113811 mcu.dbg-m33.swdio) (require 1113812 mcu.mcu-dbg-m33.swdio)
+  net 1113918 D- (B1113625.P1113299, B1113663.P1113488) (labeled) (require 1113809 mcu.mcu-usb.N)
+  net 1113807 XTAL32Mp (B1113630.P1113449, B1113621.P1113210) (unlabeled) 
+  net 1113916 board-io.rgb.b (B1113621.P1113214) (labeled) (require 1113806 board-io.rgb.b)
+  net 1113802 mcu.mcu-dbg-m33.swdclk (B1113631.P1113182, B1113623.P1113223) (unlabeled) (require 1113803 mcu.mcu-dbg-m33.swdclk) (require 1113804 mcu.dbg-m33.swdclk)
+  net 1113800 LZ (B1113627.P1113315, B1113653.P1113173) (unlabeled) 
+  net 1113914 V18F (B1113627.P1113320, B1113644.P1113543, B1113651.P1113154) (labeled) 
+  net 1113795 RF1 (B1113657.P1113413, B1113656.P1113396, B1113626.P1113304) (labeled) 
+  net 1113792 mcu.mcu-etm.data[2] (B1113624.P1113286, B1113635.P1113545) (unlabeled) (require 1113793 mcu.mcu-etm.data[2])
+  net 1113911 mcu.mcu-wpwr[0].gpio (B1113624.P1113255) (labeled) 
+  net 1113908 mcu.mcu-button[2].gpio (B1113624.P1113281) (labeled) 
+  net 1113907 mcu.hap-i2c.scl (B1113623.P1113230) (labeled) 
+  net 1113903 mcu.mcu-mem.sdio[0] (B1113624.P1113270) (labeled) (require 1113781 mcu.mcu-mem.sdio[0])
+  net 1113901 mcu.mcu-mem.cs (B1113624.P1113279) (labeled) (require 1113778 mcu.mcu-mem.cs)
+  net 1113899 mcu.mcu-mem.sck (B1113624.P1113274) (labeled) (require 1113776 mcu.mcu-mem.sck)
+  net 1113897 board-io.rgb.g (B1113621.P1113213) (labeled) (require 1113774 board-io.rgb.g)
+  net 1113894 mcu.hap-gpio[1].gpio (B1113623.P1113245) (labeled) 
+  net 1113891 mcu.q-spi.sck (B1113625.P1113296) (labeled) (require 1113766 mcu.q-spi.sck)
+  net 1113890 codec-i2c-net.sda (B1113623.P1113244) (labeled) 
+  net 1113885 board-io.qsen-i3c.sda (B1113624.P1113266) (labeled) 
+  net 1113882 mcu.q-spi.sdo (B1113623.P1113249) (labeled) (require 1113758 mcu.q-spi.sdo)
+  net 1113880 mcu.mcu-mem.sdio[2] (B1113624.P1113268) (labeled) (require 1113756 mcu.mcu-mem.sdio[2])
+  net 1113754 VBAT (B1113647.P1113572, B1113627.P1113323, B1113638.P1113545) (unlabeled) 
+  net 1113752 mcu.mcu-etm.data[0] (B1113624.P1113285, B1113633.P1113545) (unlabeled) (require 1113753 mcu.mcu-etm.data[0])
+  net 1113878 mcu.mcu-mem.sdio[1] (B1113624.P1113269) (labeled) (require 1113749 mcu.mcu-mem.sdio[1])
+  net 1113875 mcu.mcu-wpwr[1].gpio (B1113624.P1113264) (labeled) 
+  net 1113873 codec-i2c-net.scl (B1113625.P1113292) (labeled) 
+  net 1113741 V14RF (B1113642.P1113522, B1113627.P1113317, B1113627.P1113318, B1113641.P1113513) (unlabeled) 
+  net 1113869 mcu.mcu-button[1].gpio (B1113624.P1113261) (labeled) 
+  net 1113737 mcu.mcu-etm.data[1] (B1113624.P1113277, B1113634.P1113545) (unlabeled) (require 1113738 mcu.mcu-etm.data[1])
+  net 1113868 mcu.mcu-wpwr[3].gpio (B1113624.P1113280) (labeled) 
+  net 1113865 D+ (B1113625.P1113298, B1113663.P1113487) (labeled) (require 1113734 mcu.mcu-usb.P)
+  net 1113864 mcu.mcu-wpwr[2].gpio (B1113624.P1113262) (labeled) 
+  net 1113862 mcu.hap-i2c.sda (B1113624.P1113260) (labeled) 
+  net 1113728 V12 (B1113627.P1113316, B1113640.P1113504) (unlabeled) 
+  net 1113858 mcu.mcu-button[0].gpio (B1113623.P1113250) (labeled) 
+  net 1113725 XTAL32Mm (B1113630.P1113450, B1113621.P1113209) (unlabeled) 
+  net 1113855 mcu.q-i3c.scl (B1113624.P1113267) (labeled) 
+  net 1113721 LY (B1113627.P1113314, B1113652.P1113158) (unlabeled) 
+  net 1113852 mcu.q-spi.sdi (B1113623.P1113252) (labeled) (require 1113720 mcu.q-spi.sdi)
+  net 1113850 board-io.rgb.r (B1113621.P1113212) (labeled) (require 1113718 board-io.rgb.r)
+  net 1070798 VDD3P0 (B1113646.P1113563) (symbol 1112946) 
+  net 1070797 VDD3P0 (B1113627.P1113322) (symbol 1112946) 
+  net 194607 mcu.mcu-uart.rx (B1113623.P1113238) (labeled) (require 1113713 mcu.conn-uart.rx)
+  net 194606 mcu.mcu-uart.rx (B1113631.P1113181) (labeled) (require 1113712 mcu.mcu-uart.rx)
+  net 1113709 mcu.mcu-etm.clk (B1113632.P1113545, B1113623.P1113253) (unlabeled) (require 1113710 mcu.mcu-etm.clk)
+  net 1113705 mcu.conn-uart.tx (B1113631.P1113184, B1113623.P1113232) (unlabeled) (require 1113706 mcu.conn-uart.tx) (require 1113707 mcu.mcu-uart.tx)
+  net 1113846 mcu.mcu-mem.sdio[3] (B1113624.P1113275) (labeled) (require 1113704 mcu.mcu-mem.sdio[3])
+  net 1113702 LX (B1113627.P1113313, B1113652.P1113157) (unlabeled) 
+  net 1113844 mcu.q-spi.cs (B1113625.P1113297) (labeled) (require 1113701 mcu.q-spi.cs)
+  net 157212 VDDSYS (B1113653.P1113174) (symbol 1112946) 
+  net 157211 VDDSYS (B1113650.P1113140, B1113654.P1113177) (symbol 1112946) 
+  net 207201 VDDSYS (B1113627.P1113326) (symbol 1112946) 
+  net 1113838 VBUS (B1113663.P1113492, B1113631.P1113179, B1113627.P1113324, B1113648.P1113581) (symbol 1112946) (require 1113695 mcu.dbg-power-m33.vdd)
+  net 1113836 VDD1P8P (B1113627.P1113321, B1113651.P1113155, B1113645.P1113554) (symbol 1112946) 
+  net 1113691 mcu.mcu-etm.data[3] (B1113624.P1113278, B1113636.P1113545) (unlabeled) (require 1113692 mcu.mcu-etm.data[3])
+  net 1058256 VDD1P8 (B1113627.P1113319) (symbol 1112946) 
+  net 1058255 VDD1P8 (B1113643.P1113534) (symbol 1112946) 
+  net 1113830 mcu.hap-gpio[0].gpio (B1113625.P1113289) (labeled) 
+  net 157208 GND (B1113644.P1113542) (symbol 1113126) 
+  net 157207 GND (B1113621.P1113216, B1113621.P1113217, B1113621.P1113218) (symbol 1113126) 
+  net 157206 GND (B1113658.P1113447) (symbol 1113126) 
+  net 157205 GND (B1113643.P1113533, B1113650.P1113139, B1113654.P1113176) (symbol 1113126) 
+  net 157204 GND (B1113640.P1113503) (symbol 1113126) 
+  net 157203 GND (B1113639.P1113545) (symbol 1113126) 
+  net 157202 GND (B1113649.P1113130) (symbol 1113126) 
+  net 157201 GND (B1113648.P1113580) (symbol 1113126) 
+  net 157200 GND (B1113645.P1113553) (symbol 1113126) 
+  net 157199 GND (B1113656.P1113397) (symbol 1113126) 
+  net 157198 GND (B1113647.P1113571) (symbol 1113126) 
+  net 157197 GND (B1113655.P1113186) (symbol 1113126) 
+  net 157196 GND (B1113646.P1113562) (symbol 1113126) 
+  net 157195 GND (B1113631.P1113183) (symbol 1113126) 
+  net 157194 GND (B1113637.P1113545) (symbol 1113126) 
+  net 157193 GND (B1113626.P1113305, B1113626.P1113306, B1113626.P1113307, B1113626.P1113308, B1113626.P1113309, B1113626.P1113310, B1113626.P1113311) (symbol 1113126) 
+  net 157192 GND (B1113663.P1113490) (symbol 1113126) 
+  net 157191 GND (B1113630.P1113452) (symbol 1113126) 
+  net 1091064 GND (B1113642.P1113521) (symbol 1113126) 
+  net 1091065 GND (B1113641.P1113512) (symbol 1113126) 
+  net 157189 GND (B1113627.P1113327, B1113627.P1113328, B1113627.P1113329, B1113627.P1113330, B1113627.P1113331, B1113627.P1113332, B1113627.P1113333, B1113627.P1113334, B1113627.P1113335, B1113627.P1113336, B1113627.P1113337, B1113627.P1113338, B1113627.P1113339) (symbol 1113126) (require 1113687 mcu.dbg-power-m33.gnd)
+  net 157188 GND (B1113630.P1113451) (symbol 1113126) 
+  order ()

@@ -1,0 +1,520 @@
+DesignGroup:
+  box layout input (320, 175) 0.8 :
+    box 1111552 from (-2, -1) to (2, 1):
+      port 1111551 at (2, 0) facing Right
+    box 1111936 from (-1, -2) to (1, 2):
+      port 1111934 at (0, 2) facing Up
+      port 1111935 at (0, -2) facing Down
+    box 1111585 from (-1, -2) to (1, 2):
+      port 1111583 at (0, 2) facing Up
+      port 1111584 at (0, -2) facing Down
+    box 1111492 from (-1, -2) to (1, 2):
+      port 1111490 at (0, 2) facing Up
+      port 1111491 at (0, -2) facing Down
+    box 1111558 from (-1, -2) to (1, 2):
+      port 1111556 at (0, 2) facing Up
+      port 1111557 at (0, -2) facing Down
+    box 1111942 from (-1, -2) to (1, 2):
+      port 1111940 at (0, 2) facing Up
+      port 1111941 at (0, -2) facing Down
+    box 1111529 from (-1, -2) to (1, 2):
+      port 1111527 at (0, 2) facing Up
+      port 1111528 at (0, -2) facing Down
+    box 1111594 from (-1, -2) to (1, 2):
+      port 1111592 at (0, 2) facing Up
+      port 1111593 at (0, -2) facing Down
+    box 1111948 from (-1, -2) to (1, 2):
+      port 1111946 at (0, 2) facing Up
+      port 1111947 at (0, -2) facing Down
+    box 1111502 from (-1, -2) to (1, 2):
+      port 1111500 at (0, 2) facing Up
+      port 1111501 at (0, -2) facing Down
+    box 1111567 from (-1, -2) to (1, 2):
+      port 1111565 at (0, 2) facing Up
+      port 1111566 at (0, -2) facing Down
+    box 1111951 from (-1, -2) to (1, 2):
+      port 1111949 at (0, 2) facing Up
+      port 1111950 at (0, -2) facing Down
+    box 1111505 from (-1, -2) to (1, 2):
+      port 1111503 at (0, 2) facing Up
+      port 1111504 at (0, -2) facing Down
+    box 1111538 from (-1, -2) to (1, 2):
+      port 1111536 at (0, 2) facing Up
+      port 1111537 at (0, -2) facing Down
+    box 1111603 from (-1, -2) to (1, 2):
+      port 1111601 at (0, 2) facing Up
+      port 1111602 at (0, -2) facing Down
+    box 1111508 from (-1, -2) to (1, 2):
+      port 1111506 at (0, 2) facing Up
+      port 1111507 at (0, -2) facing Down
+    box 1111062 from (-1, -2) to (1, 0):
+      port 1111061 at (0, 0) facing Up
+    box 1111382 from (0, -1) to (2, 1):
+      port 1111381 at (0, 0) facing Left
+    box 1111576 from (-1, -2) to (1, 2):
+      port 1111574 at (0, 2) facing Up
+      port 1111575 at (0, -2) facing Down
+    box 1111897 from (-11, -16) to (11, 16):
+      port 1111878 at (-11, 5) facing Left
+      port 1111879 at (-11, 3) facing Left
+      port 1111880 at (-11, 1) facing Left
+      port 1111881 at (-11, -1) facing Left
+      port 1111882 at (-11, -3) facing Left
+      port 1111883 at (-11, -5) facing Left
+      port 1111884 at (11, 8) facing Right
+      port 1111885 at (11, 6) facing Right
+      port 1111886 at (11, 4) facing Right
+      port 1111887 at (11, 2) facing Right
+      port 1111888 at (11, 0) facing Right
+      port 1111889 at (11, -2) facing Right
+      port 1111890 at (11, -4) facing Right
+      port 1111891 at (11, -6) facing Right
+      port 1111892 at (11, -8) facing Right
+      port 1111893 at (-1, 16) facing Up
+      port 1111894 at (1, 16) facing Up
+      port 1111895 at (-1, -16) facing Down
+      port 1111896 at (1, -16) facing Down
+    box 1111930 from (-1, -2) to (1, 2):
+      port 1111928 at (0, 2) facing Up
+      port 1111929 at (0, -2) facing Down
+    box 1111547 from (-1, -2) to (1, 2):
+      port 1111545 at (0, 2) facing Up
+      port 1111546 at (0, -2) facing Down
+    box 1111517 from (-1, -2) to (1, 2):
+      port 1111515 at (0, 2) facing Up
+      port 1111516 at (0, -2) facing Down
+    inst 1112052 of box 1111603 (group wpwr.module)
+    inst 1112051 of box 1111594 (group wpwr.module)
+    inst 1112050 of box 1111585 (group wpwr.module)
+    inst 1112049 of box 1111576 (group wpwr.module)
+    inst 1112048 of box 1111567 (group wpwr.module)
+    inst 1112047 of box 1111558 (group wpwr.module)
+    inst 1112046 of box 1111547 (group wpwr.module)
+    inst 1112045 of box 1111538 (group wpwr.module)
+    inst 1112044 of box 1111529 (group wpwr.module)
+    inst 1112043 of box 1111517 (group wpwr.module)
+    inst 1112042 of box 1111508 (group wpwr.module)
+    inst 1112041 of box 1111505 (group wpwr.module)
+    inst 1112040 of box 1111502 (group wpwr.module)
+    inst 1112039 of box 1111492 (group wpwr.module)
+    inst 1112038 of box 1111951 (group wpwr.module)
+    inst 1112037 of box 1111948 (group wpwr.module)
+    inst 1112036 of box 1111942 (group wpwr.module)
+    inst 1112035 of box 1111936 (group wpwr.module)
+    inst 1112034 of box 1111930 (group wpwr.module)
+    inst 1112033 of box 1111552 (group wpwr.module)
+    inst 1112032 of box 1111552 (group wpwr.module)
+    inst 1112031 of box 1111897 (group wpwr.module)
+    net 1112183 COMM1 (B1112044.P1111528, B1112031.P1111890) (unlabeled) 
+    net 1112169 BOOT1 (B1112046.P1111546, B1112031.P1111893) (unlabeled) 
+    net 1112166 COMM2 (B1112045.P1111537, B1112031.P1111891) (unlabeled) 
+    net 1112276 mcu.mcu-wpwr[0].gpio (B1112031.P1111879, B1112038.P1111949) (labeled) (require 1112160 mcu.mcu-wpwr[0].gpio)
+    net 1112157 CLAMP2 (B1112043.P1111516, B1112031.P1111889) (unlabeled) 
+    net 1112154 ILIM (B1112031.P1111882, B1112035.P1111934) (unlabeled) 
+    net 1112139 BOOT2 (B1112031.P1111894, B1112047.P1111557) (unlabeled) 
+    net 1112128 AC1 (B1112048.P1111566, B1112046.P1111545, B1112042.P1111506, B1112049.P1111575, B1112031.P1111884, B1112044.P1111527) (unlabeled) 
+    net 1112114 CLAMP1 (B1112031.P1111888, B1112042.P1111507) (unlabeled) 
+    net 1112240 mcu.mcu-wpwr[1].gpio (B1112031.P1111880, B1112039.P1111490) (labeled) (require 1112113 mcu.mcu-wpwr[1].gpio)
+    net 1112233 mcu.mcu-wpwr[3].gpio (B1112031.P1111883, B1112040.P1111500) (labeled) (require 1112104 mcu.mcu-wpwr[3].gpio)
+    net 1112229 mcu.mcu-wpwr[2].gpio (B1112031.P1111887) (labeled) (require 1112100 mcu.mcu-wpwr[2].gpio)
+    net 1112084 RECT (B1112050.P1111584, B1112051.P1111593, B1112031.P1111896, B1112037.P1111947) (unlabeled) 
+    net 1112077 cap.p[1] (B1112032.P1111551, B1112049.P1111574) (unlabeled) 
+    net 1112067 FOD (B1112035.P1111935, B1112036.P1111941, B1112031.P1111881, B1112037.P1111946) (unlabeled) 
+    net 1112065 AC2 (B1112048.P1111565, B1112047.P1111556, B1112033.P1111551, B1112031.P1111885, B1112045.P1111536, B1112043.P1111515) (unlabeled) 
+    net 1112064 AD (B1112041.P1111503, B1112031.P1111878) (unlabeled) 
+    net 1112205 VBUS (B1112031.P1111892, B1112052.P1111602, B1112034.P1111929) (symbol 1111382) (require 1112063 mcu.dbg-power-m33.vdd)
+    net 1112193 GND (B1112038.P1111950, B1112036.P1111940, B1112041.P1111504, B1112051.P1111592, B1112039.P1111491, B1112050.P1111583, B1112034.P1111928, B1112031.P1111895, B1112040.P1111501, B1112052.P1111601) (symbol 1111062) 
+    order ()
+  SchematicGroupOutput 157964:
+    ref: wpwr.module
+    origin: (0, 0)
+    border: (132, 22) to (246, 89)
+    box layout output :
+      inst 1112050 at loc((189, 44), 180, false)
+      inst 1112051 at loc((192, 44), 180, false)
+      inst 1112052 at loc((242, 39), 180, false)
+      inst 1112031 at loc((191, 67), 0, false)
+      inst 1112032 at loc((215, 27), 90, false)
+      inst 1112033 at loc((221, 43), 270, false)
+      inst 1112034 at loc((238, 39), 180, false)
+      inst 1112035 at loc((179, 48), 0, false)
+      inst 1112036 at loc((182, 44), 0, false)
+      inst 1112037 at loc((179, 42), 0, false)
+      inst 1112038 at loc((155, 67), 0, false)
+      inst 1112039 at loc((159, 45), 180, false)
+      inst 1112040 at loc((175, 52), 0, false)
+      inst 1112041 at loc((148, 49), 0, false)
+      inst 1112042 at loc((208, 36), 270, false)
+      inst 1112043 at loc((207, 40), 270, false)
+      inst 1112044 at loc((219, 30), 270, false)
+      inst 1112045 at loc((213, 38), 270, false)
+      inst 1112046 at loc((218, 86), 270, false)
+      inst 1112047 at loc((212, 84), 270, false)
+      inst 1112048 at loc((223, 33), 0, false)
+      inst 1112049 at loc((225, 27), 180, false)
+      layout net 1112183 :
+        wire (216, 30) to (217, 30)
+        wire (202, 63) to (216, 63)
+        wire (216, 30) to (216, 63)
+      layout net 1112169 :
+        wire (190, 86) to (216, 86)
+        wire (190, 83) to (190, 86)
+      layout net 1112166 :
+        wire (202, 61) to (210, 61)
+        wire (210, 38) to (211, 38)
+        wire (210, 38) to (210, 61)
+      layout net 1112276 :
+        wire (147, 70) to (180, 70)
+        wire (145, 52) to (147, 52)
+        wire (147, 52) to (147, 70)
+        wire (155, 69) to (155, 70)
+        wire (146, 52) to (146, 53)
+        label 438608 at loc((146, 53), 90, false)
+        require marker 1112160 at loc((145, 52), 180, false)
+      layout net 1112157 :
+        wire (202, 65) to (203, 65)
+        wire (203, 40) to (205, 40)
+        wire (203, 40) to (203, 65)
+      layout net 1112154 :
+        wire (179, 64) to (180, 64)
+        wire (179, 50) to (179, 64)
+      layout net 1112139 :
+        wire (192, 84) to (210, 84)
+        wire (192, 83) to (192, 84)
+      layout net 1112128 :
+        wire (210, 36) to (225, 36)
+        wire (202, 75) to (225, 75)
+        wire (220, 86) to (244, 86)
+        wire (221, 30) to (225, 30)
+        wire (225, 29) to (225, 75)
+        wire (244, 31) to (244, 86)
+        wire (223, 30) to (223, 31)
+        wire (225, 31) to (244, 31)
+      layout net 1112114 :
+        wire (204, 36) to (206, 36)
+        wire (202, 67) to (204, 67)
+        wire (204, 36) to (204, 67)
+      layout net 1112240 :
+        wire (161, 68) to (180, 68)
+        wire (159, 42) to (161, 42)
+        wire (160, 54) to (161, 54)
+        wire (161, 42) to (161, 68)
+        wire (162, 52) to (162, 53)
+        wire (159, 42) to (159, 43)
+        wire (161, 53) to (162, 53)
+        label 1032402 at loc((162, 52), 270, false)
+        require marker 1112113 at loc((160, 54), 180, false)
+      layout net 1112233 :
+        wire (176, 62) to (180, 62)
+        wire (173, 55) to (176, 55)
+        wire (176, 55) to (176, 62)
+        wire (175, 54) to (175, 55)
+        wire (174, 55) to (174, 56)
+        label 916846 at loc((174, 56), 90, false)
+        require marker 1112104 at loc((173, 55), 180, false)
+      layout net 1112229 :
+        wire (202, 69) to (222, 69)
+        wire (222, 46) to (228, 46)
+        wire (222, 46) to (222, 69)
+        wire (227, 46) to (227, 47)
+        label 684674 at loc((227, 47), 90, false)
+        require marker 1112100 at loc((228, 46), 0, false)
+      layout net 1112084 :
+        wire (179, 38) to (187, 38)
+        wire (187, 47) to (192, 47)
+        wire (192, 46) to (192, 51)
+        wire (187, 38) to (187, 47)
+        wire (189, 46) to (189, 47)
+        wire (179, 38) to (179, 40)
+      layout net 1112077 :
+        wire (213, 30) to (215, 30)
+        wire (213, 24) to (225, 24)
+        wire (215, 29) to (215, 30)
+        wire (213, 24) to (213, 30)
+        wire (225, 24) to (225, 25)
+      layout net 1112067 :
+        wire (177, 66) to (180, 66)
+        wire (177, 45) to (179, 45)
+        wire (177, 39) to (182, 39)
+        wire (182, 39) to (182, 42)
+        wire (179, 44) to (179, 46)
+        wire (177, 39) to (177, 66)
+      layout net 1112065 :
+        wire (209, 40) to (223, 40)
+        wire (202, 73) to (223, 73)
+        wire (214, 84) to (223, 84)
+        wire (215, 38) to (223, 38)
+        wire (223, 35) to (223, 84)
+        wire (221, 40) to (221, 41)
+      layout net 1112064 :
+        wire (148, 72) to (180, 72)
+        wire (148, 51) to (148, 72)
+      layout net 1112205 :
+        wire (238, 42) to (242, 42)
+        wire (202, 59) to (240, 59)
+        wire (242, 41) to (242, 43)
+        wire (238, 41) to (238, 43)
+        wire (240, 42) to (240, 59)
+        label 1058126 at loc((238, 43), 90, false)
+        require marker 1112063 at loc((242, 43), 90, false)
+      layout net 157854 :
+        wire (175, 49) to (175, 50)
+        label 157912 at loc((175, 49), 0, false)
+      layout net 157853 :
+        wire (155, 64) to (155, 65)
+        label 157910 at loc((155, 64), 0, false)
+      layout net 157852 :
+        wire (238, 36) to (238, 37)
+        label 157915 at loc((238, 36), 0, false)
+      layout net 157851 :
+        wire (189, 41) to (192, 41)
+        wire (192, 41) to (192, 42)
+        wire (189, 40) to (189, 42)
+        label 157894 at loc((189, 40), 0, false)
+      layout net 157850 :
+        wire (242, 36) to (242, 37)
+        label 157909 at loc((242, 36), 0, false)
+      layout net 157849 :
+        wire (157, 48) to (159, 48)
+        wire (159, 47) to (159, 48)
+        wire (157, 42) to (157, 48)
+        label 157908 at loc((157, 42), 0, false)
+      layout net 157848 :
+        wire (190, 50) to (190, 51)
+        label 157907 at loc((190, 50), 0, false)
+      layout net 157847 :
+        wire (182, 47) to (184, 47)
+        wire (184, 41) to (184, 47)
+        wire (182, 46) to (182, 47)
+        label 157911 at loc((184, 41), 0, false)
+      layout net 157846 :
+        wire (148, 46) to (148, 47)
+        label 157913 at loc((148, 46), 0, false)
+    partial-island-nets :
+      net 157846 = partial-net (parent = 1112193) (B1112041.P1111504)
+      net 157847 = partial-net (parent = 1112193) (B1112036.P1111940)
+      net 157848 = partial-net (parent = 1112193) (B1112031.P1111895)
+      net 157849 = partial-net (parent = 1112193) (B1112039.P1111491)
+      net 157850 = partial-net (parent = 1112193) (B1112052.P1111601)
+      net 157851 = partial-net (parent = 1112193) (B1112050.P1111583, B1112051.P1111592)
+      net 157852 = partial-net (parent = 1112193) (B1112034.P1111928)
+      net 157853 = partial-net (parent = 1112193) (B1112038.P1111950)
+      net 157854 = partial-net (parent = 1112193) (B1112040.P1111501)
+    wire-splits :
+      WireSplit (net-id = 1112183, wire-idx = 0):
+        chunk 54733 from (216, 30) to (217, 30)
+      WireSplit (net-id = 1112183, wire-idx = 1):
+        chunk 54734 from (202, 63) to (216, 63)
+      WireSplit (net-id = 1112183, wire-idx = 2):
+        chunk 54735 from (216, 30) to (216, 63)
+      WireSplit (net-id = 1112169, wire-idx = 0):
+        chunk 54736 from (190, 86) to (216, 86)
+      WireSplit (net-id = 1112169, wire-idx = 1):
+        chunk 54737 from (190, 83) to (190, 86)
+      WireSplit (net-id = 1112166, wire-idx = 0):
+        chunk 54738 from (202, 61) to (210, 61)
+      WireSplit (net-id = 1112166, wire-idx = 1):
+        chunk 54739 from (210, 38) to (211, 38)
+      WireSplit (net-id = 1112166, wire-idx = 2):
+        chunk 54740 from (210, 38) to (210, 61)
+      WireSplit (net-id = 1112276, wire-idx = 0):
+        chunk 54741 from (147, 70) to (155, 70)
+        chunk 54742 from (155, 70) to (180, 70)
+      WireSplit (net-id = 1112276, wire-idx = 1):
+        chunk 54743 from (145, 52) to (146, 52)
+        chunk 54744 from (146, 52) to (147, 52)
+      WireSplit (net-id = 1112276, wire-idx = 2):
+        chunk 54745 from (147, 52) to (147, 70)
+      WireSplit (net-id = 1112276, wire-idx = 3):
+        chunk 54746 from (155, 69) to (155, 70)
+      WireSplit (net-id = 1112276, wire-idx = 4):
+        chunk 54747 from (146, 52) to (146, 53)
+      WireSplit (net-id = 1112157, wire-idx = 0):
+        chunk 54748 from (202, 65) to (203, 65)
+      WireSplit (net-id = 1112157, wire-idx = 1):
+        chunk 54749 from (203, 40) to (205, 40)
+      WireSplit (net-id = 1112157, wire-idx = 2):
+        chunk 54750 from (203, 40) to (203, 65)
+      WireSplit (net-id = 1112154, wire-idx = 0):
+        chunk 54751 from (179, 64) to (180, 64)
+      WireSplit (net-id = 1112154, wire-idx = 1):
+        chunk 54752 from (179, 50) to (179, 64)
+      WireSplit (net-id = 1112139, wire-idx = 0):
+        chunk 54753 from (192, 84) to (210, 84)
+      WireSplit (net-id = 1112139, wire-idx = 1):
+        chunk 54754 from (192, 83) to (192, 84)
+      WireSplit (net-id = 1112128, wire-idx = 0):
+        chunk 54755 from (210, 36) to (225, 36)
+      WireSplit (net-id = 1112128, wire-idx = 1):
+        chunk 54756 from (202, 75) to (225, 75)
+      WireSplit (net-id = 1112128, wire-idx = 2):
+        chunk 54757 from (220, 86) to (244, 86)
+      WireSplit (net-id = 1112128, wire-idx = 3):
+        chunk 54758 from (221, 30) to (223, 30)
+        chunk 54759 from (223, 30) to (225, 30)
+      WireSplit (net-id = 1112128, wire-idx = 7):
+        chunk 54760 from (225, 31) to (244, 31)
+      WireSplit (net-id = 1112128, wire-idx = 4):
+        chunk 54761 from (225, 29) to (225, 30)
+        chunk 54762 from (225, 30) to (225, 31)
+        chunk 54763 from (225, 31) to (225, 36)
+        chunk 54764 from (225, 36) to (225, 75)
+      WireSplit (net-id = 1112128, wire-idx = 5):
+        chunk 54765 from (244, 31) to (244, 86)
+      WireSplit (net-id = 1112128, wire-idx = 6):
+        chunk 54766 from (223, 30) to (223, 31)
+      WireSplit (net-id = 1112114, wire-idx = 0):
+        chunk 54767 from (204, 36) to (206, 36)
+      WireSplit (net-id = 1112114, wire-idx = 1):
+        chunk 54768 from (202, 67) to (204, 67)
+      WireSplit (net-id = 1112114, wire-idx = 2):
+        chunk 54769 from (204, 36) to (204, 67)
+      WireSplit (net-id = 1112240, wire-idx = 0):
+        chunk 54770 from (161, 68) to (180, 68)
+      WireSplit (net-id = 1112240, wire-idx = 1):
+        chunk 54771 from (159, 42) to (161, 42)
+      WireSplit (net-id = 1112240, wire-idx = 2):
+        chunk 54772 from (160, 54) to (161, 54)
+      WireSplit (net-id = 1112240, wire-idx = 6):
+        chunk 54773 from (161, 53) to (162, 53)
+      WireSplit (net-id = 1112240, wire-idx = 3):
+        chunk 54774 from (161, 42) to (161, 53)
+        chunk 54775 from (161, 53) to (161, 54)
+        chunk 54776 from (161, 54) to (161, 68)
+      WireSplit (net-id = 1112240, wire-idx = 4):
+        chunk 54777 from (162, 52) to (162, 53)
+      WireSplit (net-id = 1112240, wire-idx = 5):
+        chunk 54778 from (159, 42) to (159, 43)
+      WireSplit (net-id = 1112233, wire-idx = 0):
+        chunk 54779 from (176, 62) to (180, 62)
+      WireSplit (net-id = 1112233, wire-idx = 1):
+        chunk 54780 from (173, 55) to (174, 55)
+        chunk 54781 from (174, 55) to (175, 55)
+        chunk 54782 from (175, 55) to (176, 55)
+      WireSplit (net-id = 1112233, wire-idx = 2):
+        chunk 54783 from (176, 55) to (176, 62)
+      WireSplit (net-id = 1112233, wire-idx = 3):
+        chunk 54784 from (175, 54) to (175, 55)
+      WireSplit (net-id = 1112233, wire-idx = 4):
+        chunk 54785 from (174, 55) to (174, 56)
+      WireSplit (net-id = 1112229, wire-idx = 0):
+        chunk 54786 from (202, 69) to (222, 69)
+      WireSplit (net-id = 1112229, wire-idx = 1):
+        chunk 54787 from (222, 46) to (227, 46)
+        chunk 54788 from (227, 46) to (228, 46)
+      WireSplit (net-id = 1112229, wire-idx = 2):
+        chunk 54789 from (222, 46) to (222, 69)
+      WireSplit (net-id = 1112229, wire-idx = 3):
+        chunk 54790 from (227, 46) to (227, 47)
+      WireSplit (net-id = 1112084, wire-idx = 0):
+        chunk 54791 from (179, 38) to (187, 38)
+      WireSplit (net-id = 1112084, wire-idx = 1):
+        chunk 54792 from (187, 47) to (189, 47)
+        chunk 54793 from (189, 47) to (192, 47)
+      WireSplit (net-id = 1112084, wire-idx = 2):
+        chunk 54794 from (192, 46) to (192, 47)
+        chunk 54795 from (192, 47) to (192, 51)
+      WireSplit (net-id = 1112084, wire-idx = 3):
+        chunk 54796 from (187, 38) to (187, 47)
+      WireSplit (net-id = 1112084, wire-idx = 4):
+        chunk 54797 from (189, 46) to (189, 47)
+      WireSplit (net-id = 1112084, wire-idx = 5):
+        chunk 54798 from (179, 38) to (179, 40)
+      WireSplit (net-id = 1112077, wire-idx = 0):
+        chunk 54799 from (213, 30) to (215, 30)
+      WireSplit (net-id = 1112077, wire-idx = 1):
+        chunk 54800 from (213, 24) to (225, 24)
+      WireSplit (net-id = 1112077, wire-idx = 2):
+        chunk 54801 from (215, 29) to (215, 30)
+      WireSplit (net-id = 1112077, wire-idx = 3):
+        chunk 54802 from (213, 24) to (213, 30)
+      WireSplit (net-id = 1112077, wire-idx = 4):
+        chunk 54803 from (225, 24) to (225, 25)
+      WireSplit (net-id = 1112067, wire-idx = 0):
+        chunk 54804 from (177, 66) to (180, 66)
+      WireSplit (net-id = 1112067, wire-idx = 1):
+        chunk 54805 from (177, 45) to (179, 45)
+      WireSplit (net-id = 1112067, wire-idx = 2):
+        chunk 54806 from (177, 39) to (182, 39)
+      WireSplit (net-id = 1112067, wire-idx = 3):
+        chunk 54807 from (182, 39) to (182, 42)
+      WireSplit (net-id = 1112067, wire-idx = 4):
+        chunk 54808 from (179, 44) to (179, 45)
+        chunk 54809 from (179, 45) to (179, 46)
+      WireSplit (net-id = 1112067, wire-idx = 5):
+        chunk 54810 from (177, 39) to (177, 45)
+        chunk 54811 from (177, 45) to (177, 66)
+      WireSplit (net-id = 1112065, wire-idx = 0):
+        chunk 54812 from (209, 40) to (221, 40)
+        chunk 54813 from (221, 40) to (223, 40)
+      WireSplit (net-id = 1112065, wire-idx = 1):
+        chunk 54814 from (202, 73) to (223, 73)
+      WireSplit (net-id = 1112065, wire-idx = 2):
+        chunk 54815 from (214, 84) to (223, 84)
+      WireSplit (net-id = 1112065, wire-idx = 3):
+        chunk 54816 from (215, 38) to (223, 38)
+      WireSplit (net-id = 1112065, wire-idx = 4):
+        chunk 54817 from (223, 35) to (223, 38)
+        chunk 54818 from (223, 38) to (223, 40)
+        chunk 54819 from (223, 40) to (223, 73)
+        chunk 54820 from (223, 73) to (223, 84)
+      WireSplit (net-id = 1112065, wire-idx = 5):
+        chunk 54821 from (221, 40) to (221, 41)
+      WireSplit (net-id = 1112064, wire-idx = 0):
+        chunk 54822 from (148, 72) to (180, 72)
+      WireSplit (net-id = 1112064, wire-idx = 1):
+        chunk 54823 from (148, 51) to (148, 72)
+      WireSplit (net-id = 1112205, wire-idx = 0):
+        chunk 54824 from (238, 42) to (240, 42)
+        chunk 54825 from (240, 42) to (242, 42)
+      WireSplit (net-id = 1112205, wire-idx = 1):
+        chunk 54826 from (202, 59) to (240, 59)
+      WireSplit (net-id = 1112205, wire-idx = 2):
+        chunk 54827 from (242, 41) to (242, 42)
+        chunk 54828 from (242, 42) to (242, 43)
+      WireSplit (net-id = 1112205, wire-idx = 3):
+        chunk 54829 from (238, 41) to (238, 42)
+        chunk 54830 from (238, 42) to (238, 43)
+      WireSplit (net-id = 1112205, wire-idx = 4):
+        chunk 54831 from (240, 42) to (240, 59)
+      WireSplit (net-id = 157854, wire-idx = 0):
+        chunk 54832 from (175, 49) to (175, 50)
+      WireSplit (net-id = 157853, wire-idx = 0):
+        chunk 54833 from (155, 64) to (155, 65)
+      WireSplit (net-id = 157852, wire-idx = 0):
+        chunk 54834 from (238, 36) to (238, 37)
+      WireSplit (net-id = 157851, wire-idx = 0):
+        chunk 54835 from (189, 41) to (192, 41)
+      WireSplit (net-id = 157851, wire-idx = 1):
+        chunk 54836 from (192, 41) to (192, 42)
+      WireSplit (net-id = 157851, wire-idx = 2):
+        chunk 54837 from (189, 40) to (189, 41)
+        chunk 54838 from (189, 41) to (189, 42)
+      WireSplit (net-id = 157850, wire-idx = 0):
+        chunk 54839 from (242, 36) to (242, 37)
+      WireSplit (net-id = 157849, wire-idx = 0):
+        chunk 54840 from (157, 48) to (159, 48)
+      WireSplit (net-id = 157849, wire-idx = 1):
+        chunk 54841 from (159, 47) to (159, 48)
+      WireSplit (net-id = 157849, wire-idx = 2):
+        chunk 54842 from (157, 42) to (157, 48)
+      WireSplit (net-id = 157848, wire-idx = 0):
+        chunk 54843 from (190, 50) to (190, 51)
+      WireSplit (net-id = 157847, wire-idx = 0):
+        chunk 54844 from (182, 47) to (184, 47)
+      WireSplit (net-id = 157847, wire-idx = 1):
+        chunk 54845 from (184, 41) to (184, 47)
+      WireSplit (net-id = 157847, wire-idx = 2):
+        chunk 54846 from (182, 46) to (182, 47)
+      WireSplit (net-id = 157846, wire-idx = 0):
+        chunk 54847 from (148, 46) to (148, 47)
+    children : ()
+    external-ports-by-net-id : ()
+    high-level-nets : ()
+  partial-group-nets :
+    PartialNet(1112103, [B1112031.P1111883 B1112040.P1111500], [RequireMarker(id = 1112104, name = mcu.mcu-wpwr[3].gpio)]) => 1112233
+    PartialNet(1112099, [B1112031.P1111887], [RequireMarker(id = 1112100, name = mcu.mcu-wpwr[2].gpio)]) => 1112229
+    PartialNet(1112112, [B1112031.P1111880 B1112039.P1111490], [RequireMarker(id = 1112113, name = mcu.mcu-wpwr[1].gpio)]) => 1112240
+    PartialNet(1112062, [B1112031.P1111892 B1112034.P1111929 B1112052.P1111602], [RequireMarker(id = 1112063, name = mcu.dbg-power-m33.vdd)]) => 1112205
+    PartialNet(1112053, [B1112031.P1111895 B1112034.P1111928 B1112036.P1111940 B1112038.P1111950 B1112039.P1111491 B1112040.P1111501 B1112041.P1111504 B1112050.P1111583 B1112051.P1111592 B1112052.P1111601], []) => 1112193
+    PartialNet(1112159, [B1112031.P1111879 B1112038.P1111949], [RequireMarker(id = 1112160, name = mcu.mcu-wpwr[0].gpio)]) => 1112276

@@ -1,0 +1,53 @@
+box layout input 0.8 :
+  box 1115549 from (0, 0) to (12, 10):
+    port 1115527 at (0, 5) facing Left
+    port 1115506 at (2, 10) facing Up
+    port 1115508 at (5, 10) facing Up
+    port 1115531 at (8, 10) facing Up
+    port 1115516 at (11, 10) facing Up
+    port 1115543 at (12, 5) facing Right
+    port 1115497 at (6, 0) facing Down
+  box 1115550 from (0, 0) to (10, 10):
+    port 1115545 at (0, 5) facing Left
+    port 1115512 at (3, 10) facing Up
+    port 1115517 at (8, 10) facing Up
+    port 1115498 at (5, 0) facing Down
+  box 1115551 from (0, 0) to (15, 10):
+    port 1115542 at (0, 5) facing Left
+    port 1115511 at (2, 10) facing Up
+    port 1115505 at (5, 10) facing Up
+    port 1115507 at (8, 10) facing Up
+    port 1115530 at (11, 10) facing Up
+    port 1115515 at (14, 10) facing Up
+    port 1115544 at (15, 5) facing Right
+    port 1115495 at (7, 0) facing Down
+  box 1115552 from (0, 0) to (13, 10):
+    port 1115526 at (13, 5) facing Right
+    port 1115496 at (6, 0) facing Down
+  box 1113126 from (-1, -2) to (1, 0):
+    port 1113125 at (0, 0) facing Up
+  box 1112946 from (0, -1) to (2, 1):
+    port 1112945 at (0, 0) facing Left
+  inst 1115475 of box 1115549
+  inst 1115476 of box 1115550
+  inst 1115477 of box 1115551
+  inst 1115478 of box 1115552
+  net 158559 GND (B1115478.P1115496) (symbol 1113126) 
+  net 158561 GND (B1115475.P1115497) (symbol 1113126) 
+  net 158562 GND (B1115477.P1115495) (symbol 1113126) 
+  net 158563 GND (B1115476.P1115498) (symbol 1113126) 
+  net 1059109 VDD1P8 (B1115475.P1115506) (symbol 1112946) 
+  net 1059108 VDD1P8 (B1115477.P1115505) (symbol 1112946) 
+  net 1059111 VDD1P8P (B1115475.P1115508) (symbol 1112946) 
+  net 1059110 VDD1P8P (B1115477.P1115507) (symbol 1112946) 
+  net 1059105 VBUS (B1115477.P1115511) (symbol 1112946) 
+  net 1059104 VBUS (B1115476.P1115512) (symbol 1112946) 
+  net 158554 VDDSYS (B1115477.P1115515) (symbol 1112946) 
+  net 158557 VDDSYS (B1115476.P1115517) (symbol 1112946) 
+  net 158558 VDDSYS (B1115475.P1115516) (symbol 1112946) 
+  net 1071653 VDD3P0 (B1115477.P1115530) (symbol 1112946) 
+  net 1071652 VDD3P0 (B1115475.P1115531) (symbol 1112946) 
+  net 1115546 G91887__________________ (B1115478.P1115526, B1115475.P1115527) (labeled) 
+  net 1115547 G91888_______________________________________ (B1115477.P1115544, B1115476.P1115545) (unlabeled) 
+  net 1115548 G91889____________________________________________________________________ (B1115477.P1115542, B1115475.P1115543) (unlabeled) 
+  order ()

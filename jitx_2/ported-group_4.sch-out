@@ -1,0 +1,21 @@
+box layout output :
+  inst 1113608 at loc((90, 119), 0, false)
+  inst 1113607 at loc((104, 119), 0, false)
+  layout net 156773 :
+    wire (90, 116) to (100, 116)
+    wire (100, 116) to (100, 124)
+    wire (90, 116) to (90, 117)
+    label 156779 at loc((100, 124), 90, false)
+  layout net 156772 :
+    wire (104, 116) to (114, 116)
+    wire (114, 116) to (114, 124)
+    wire (104, 116) to (104, 117)
+    label 156785 at loc((114, 124), 90, false)
+  layout net 1113905 :
+    wire (90, 121) to (90, 123)
+    wire (90, 122) to (117, 122)
+    require marker 1113783 at loc((90, 123), 90, false)
+  layout net 1113860 :
+    wire (104, 123) to (117, 123)
+    wire (104, 121) to (104, 124)
+    require marker 1113730 at loc((104, 124), 90, false)

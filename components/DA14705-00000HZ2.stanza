@@ -361,13 +361,20 @@ public pcb-module module :
   inst ant : J2450AT18D0100/component(mirror-y = true)
   ; rf pi-network matching placeholder
   inst cpi1 : ceramic-cap(1.0e-12)
-  inst lpi : smd-inductor(1.0e-9)
+  ; inst lpi : smd-inductor(1.0e-9)
+  inst rpi : chip-resistor(0.0)
   inst cpi2 : ceramic-cap(1.0e-12)
-  inst lm : smd-inductor(1.0e-9)
+  ; inst lm : smd-inductor(1.0e-9)
+  inst rm : chip-resistor(0.0)
 
-  net RF1 (mcu.RFIOP cpi1.p[1] lpi.p[1])
-  net RF2 (lpi.p[2] cpi2.p[1] lm.p[1])
-  net RF3 (lm.p[2] ant.ANT)
+  component-status(cpi1) :
+    bom-status = NotInBOM
+  component-status(cpi2) :
+    bom-status = NotInBOM
+
+  net RF1 (mcu.RFIOP cpi1.p[1] rpi.p[1])
+  net RF2 (rpi.p[2] cpi2.p[1] rm.p[1])
+  net RF3 (rm.p[2] ant.ANT)
   net (GND cpi1.p[2] cpi2.p[2] ant.GND)
 
   ; Set up RF netclass
@@ -377,6 +384,10 @@ public pcb-module module :
 
   inst usb : micro-usb-connector
   inst esd :  database-part(["mpn" => "TPD4S012DRYR", "manufacturer" => "Texas Instruments"])
+  component-status(usb.con) :
+    bom-status = NotInBOM
+  component-status(esd) :
+    bom-status = NotInBOM
 
   require mcu-usb : usb-2-data from mcu
   net (usb.usb-2.vbus.vdd VBUS)

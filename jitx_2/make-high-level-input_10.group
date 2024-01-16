@@ -1,0 +1,56 @@
+SchematicGroupOutput 156798:
+  ref: board-io.hapdrv.rs.collector
+  origin: (0, 0)
+  border: (87, 114) to (117, 128)
+  box layout output :
+    inst 1113608 at loc((90, 119), 0, false)
+    inst 1113607 at loc((104, 119), 0, false)
+    layout net 156773 :
+      wire (90, 116) to (100, 116)
+      wire (100, 116) to (100, 124)
+      wire (90, 116) to (90, 117)
+      label 156779 at loc((100, 124), 90, false)
+    layout net 156772 :
+      wire (104, 116) to (114, 116)
+      wire (114, 116) to (114, 124)
+      wire (104, 116) to (104, 117)
+      label 156785 at loc((114, 124), 90, false)
+    layout net 1113905 :
+      wire (90, 121) to (90, 123)
+      wire (90, 122) to (117, 122)
+      require marker 1113783 at loc((90, 123), 90, false)
+    layout net 1113860 :
+      wire (104, 123) to (117, 123)
+      wire (104, 121) to (104, 124)
+      require marker 1113730 at loc((104, 124), 90, false)
+  partial-island-nets :
+    net 156772 = partial-net (parent = 1113840) (B1113607.P1113528)
+    net 156773 = partial-net (parent = 1113840) (B1113608.P1113528)
+  wire-splits :
+    WireSplit (net-id = 156773, wire-idx = 0):
+      chunk 63565 from (90, 116) to (100, 116)
+    WireSplit (net-id = 156773, wire-idx = 1):
+      chunk 63566 from (100, 116) to (100, 124)
+    WireSplit (net-id = 156773, wire-idx = 2):
+      chunk 63567 from (90, 116) to (90, 117)
+    WireSplit (net-id = 156772, wire-idx = 0):
+      chunk 63568 from (104, 116) to (114, 116)
+    WireSplit (net-id = 156772, wire-idx = 1):
+      chunk 63569 from (114, 116) to (114, 124)
+    WireSplit (net-id = 156772, wire-idx = 2):
+      chunk 63570 from (104, 116) to (104, 117)
+    WireSplit (net-id = 1113905, wire-idx = 1):
+      chunk 63571 from (90, 122) to (117, 122)
+    WireSplit (net-id = 1113905, wire-idx = 0):
+      chunk 63572 from (90, 121) to (90, 122)
+      chunk 63573 from (90, 122) to (90, 123)
+    WireSplit (net-id = 1113860, wire-idx = 0):
+      chunk 63574 from (104, 123) to (117, 123)
+    WireSplit (net-id = 1113860, wire-idx = 1):
+      chunk 63575 from (104, 121) to (104, 123)
+      chunk 63576 from (104, 123) to (104, 124)
+  children : ()
+  external-ports-by-net-id :
+    1113905 => [port 158060 at (117, 122) facing Right]
+    1113860 => [port 158061 at (117, 123) facing Right]
+  high-level-nets : ()

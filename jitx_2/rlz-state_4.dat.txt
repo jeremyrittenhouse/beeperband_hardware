@@ -1,0 +1,4169 @@
+RealizationState:
+  board-edge: [2002 => V2d(13.5, -8.0) 2558 => V2d(13.3683475024126, -8.0) 2166 => V2d(13.1140144073824, -8.06814834742186) 2516 => V2d(12.8859855926176, -8.19980084500926) 2489 => V2d(12.6998008450093, -8.38598559261765) 1995 => V2d(12.5681483474219, -8.61401440738235) 2185 => V2d(12.5, -8.8683475024126) 2033 => V2d(12.5, -9.0) 2309 => V2d(12.5, -9.5) 2177 => V2d(10.859375, -9.5) 2221 => V2d(9.21875, -9.5) 2072 => V2d(7.578125, -9.5) 1983 => V2d(5.9375, -9.5) 2235 => V2d(4.296875, -9.5) 2536 => V2d(2.65625, -9.5) 2505 => V2d(1.015625, -9.5) 2341 => V2d(-0.625, -9.5) 2314 => V2d(-2.265625, -9.5) 2114 => V2d(-3.90625, -9.5) 2047 => V2d(-5.546875, -9.5) 2348 => V2d(-7.1875, -9.5) 2227 => V2d(-8.828125, -9.5) 2325 => V2d(-10.46875, -9.5) 2123 => V2d(-12.109375, -9.5) 2418 => V2d(-13.75, -9.5) 2029 => V2d(-13.75, -8.3125) 2171 => V2d(-13.75, -7.125) 2147 => V2d(-13.75, -5.9375) 2511 => V2d(-13.75, -4.75) 2009 => V2d(-13.75, -3.5625) 2397 => V2d(-13.75, -2.375) 2422 => V2d(-13.75, -1.1875) 2528 => V2d(-13.75, 0.0) 2481 => V2d(-13.75, 1.1875) 2356 => V2d(-13.75, 2.375) 2542 => V2d(-13.75, 3.5625) 2130 => V2d(-13.75, 4.75) 2262 => V2d(-13.75, 5.9375) 2432 => V2d(-13.75, 7.125) 2278 => V2d(-13.75, 8.3125) 2090 => V2d(-13.75, 9.5) 2498 => V2d(-12.03125, 9.5) 2213 => V2d(-10.3125, 9.5) 2407 => V2d(-8.59375, 9.5) 2249 => V2d(-6.875, 9.5) 2445 => V2d(-5.15625, 9.5) 2242 => V2d(-3.4375, 9.5) 1925 => V2d(-1.71875, 9.5) 2439 => V2d(0.0, 9.5) 1953 => V2d(1.71875, 9.5) 2271 => V2d(3.4375, 9.5) 2038 => V2d(5.15625, 9.5) 2376 => V2d(6.875, 9.5) 2368 => V2d(8.59375, 9.5) 2522 => V2d(10.3125, 9.5) 1974 => V2d(12.03125, 9.5) 2256 => V2d(13.75, 9.5) 2562 => V2d(13.75, 8.40625) 2189 => V2d(13.75, 7.3125) 1961 => V2d(13.75, 6.21875) 2390 => V2d(13.75, 5.125) 2475 => V2d(13.75, 4.03125) 2332 => V2d(13.75, 2.9375) 2197 => V2d(13.75, 1.84375) 2451 => V2d(13.75, 0.75) 2549 => V2d(13.75, -0.343749999999999) 2286 => V2d(13.75, -1.4375) 2106 => V2d(13.75, -2.53125) 1936 => V2d(13.75, -3.625) 2412 => V2d(13.75, -4.71875) 2063 => V2d(13.75, -5.8125) 2206 => V2d(13.75, -6.90625) 2383 => V2d(13.75, -8.0)]
+  board-edge-trait: trait : [no copper] [edge]
+    net-group : []
+    hole-inset : false
+    soldermask-outset : false
+    edge : true
+  vertices: PTable:
+    256 => Vertex:
+      id: 256
+      center: V2d(10.6819230138484, 6.41162771304827)
+      shape: Disk(center = V2d(10.6819230138484, 6.41162771304827), radius = 0.5)
+      features :
+        id : [2Jhgegt6ZwZKMMe8xXu9xn/CD3Defxwo8oC9oQeoJ9Ktq]
+      status: ToBeAdded
+    1824 => Vertex:
+      id: 1824
+      center: V2d(-13.2469743206463, -1.46751219932507)
+      shape: Disk(center = V2d(-13.2469743206463, -1.46751219932507), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/CJnYagxEEpXATv3iSRxV2N]
+      status: ToBeAdded
+    1072 => Vertex:
+      id: 1072
+      center: V2d(-1.15134251822758, 2.27541927430855)
+      shape: Disk(center = V2d(-1.15134251822758, 2.27541927430855), radius = 0.2)
+      features :
+        id : [7wzCdfxdqJqMnQz2zB4r6g/GDnXA7ubKPjjGZdzFfVPuy]
+      status: ToBeAdded
+    64 => Vertex:
+      id: 64
+      center: V2d(13.2119113605877, -3.78476585301818)
+      shape: Disk(center = V2d(13.2119113605877, -3.78476585301818), radius = 0.2)
+      features :
+        id : [2zxrKzTNy4B5gHXvjAsLU4/BpnczCmauXvT8NX7r69yap]
+      status: ToBeAdded
+    1344 => Vertex:
+      id: 1344
+      center: V2d(-3.36743555135059, -5.11080316659347)
+      shape: Disk(center = V2d(-3.36743555135059, -5.11080316659347), radius = 0.2)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/Bhz7EifdDHSmcFzVGLJyfn]
+      status: ToBeAdded
+    1856 => Vertex:
+      id: 1856
+      center: V2d(-13.2532243208947, 1.68248792584468)
+      shape: Disk(center = V2d(-13.2532243208947, 1.68248792584468), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/ecLEnW7yMGREkrrpuAfY2]
+      status: ToBeAdded
+    1136 => Vertex:
+      id: 1136
+      center: V2d(-1.51755976974471, -1.24161685541634)
+      shape: Disk(center = V2d(-1.51755976974471, -1.24161685541634), radius = 0.2)
+      features :
+        id : [2GsNjSksumtQT61RdtXJZa/8gPUoiPAHyQdhnR8h2xPn6]
+      status: ToBeAdded
+    1904 => Vertex:
+      id: 1904
+      center: V2d(-13.259474321143, -0.423762157850174)
+      shape: Disk(center = V2d(-13.259474321143, -0.423762157850174), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/64TxQawnncCJKeYA6zkADA]
+      status: ToBeAdded
+    1168 => Vertex:
+      id: 1168
+      center: V2d(-1.74233520428917, -6.96758584718827)
+      shape: Disk(center = V2d(-1.74233520428917, -6.96758584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/AGEi4UBXR4haKXwjzXqCdq]
+      status: ToBeAdded
+    1728 => Vertex:
+      id: 1728
+      center: V2d(-11.909406588789, 4.05180087457312)
+      shape: Disk(center = V2d(-11.909406588789, 4.05180087457312), radius = 0.2)
+      features :
+        id : [DXxxXc11GMaGHnTF1YF2f3/PWDmRsyDT3ppN4YfA4vSD]
+      status: ToBeAdded
+    480 => Vertex:
+      id: 480
+      center: V2d(5.62672335098289, -5.95018272720824)
+      shape: Disk(center = V2d(5.62672335098289, -5.95018272720824), radius = 0.2)
+      features :
+        id : [BnWuVf5xLR8DdyzULDWhAV/D6Gq5nGyne2CS7VTQyrW99]
+      status: ToBeAdded
+    736 => Vertex:
+      id: 736
+      center: V2d(1.25516479571083, -4.51008584718828)
+      shape: Disk(center = V2d(1.25516479571083, -4.51008584718828), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/6pEEpekW64d7gviegcQJvm]
+      status: ToBeAdded
+    496 => Vertex:
+      id: 496
+      center: V2d(5.18147262991928, -0.94467519612461)
+      shape: Disk(center = V2d(5.18147262991928, -0.94467519612461), radius = 0.2)
+      features :
+        id : [9SSh4BComEEC2cugXXifVe/CpVtYfHhUnwZvZCrHpQ3x8]
+      status: ToBeAdded
+    1537 => Vertex:
+      id: 1537
+      center: V2d(-7.43384020658461, 1.1938623671111)
+      shape: Disk(center = V2d(-7.43384020658461, 1.1938623671111), radius = 0.2)
+      features :
+        id : [A3Azc5QG2J2WkFD2K3xoUW/34NVfqihadJSkfS5RbmvKu]
+      status: ToBeAdded
+    17 => Vertex:
+      id: 17
+      center: V2d(13.272248112217, 4.48807033777121)
+      shape: Disk(center = V2d(13.272248112217, 4.48807033777121), radius = 0.2)
+      features :
+        id : [C1dUGNQ2HKgwiCR6fqkqoE/4ZDFm5UvK9E2HkiVrjJA2Y]
+      status: ToBeAdded
+    289 => Vertex:
+      id: 289
+      center: V2d(10.0755706968094, 2.8915292090503)
+      shape: Disk(center = V2d(10.0755706968094, 2.8915292090503), radius = 0.2)
+      features :
+        id : [6p2ocdEtJ8ctriHDmNrKsp/7HZPpyL3XHdLgXBdddeVSM]
+      status: ToBeAdded
+    833 => Vertex:
+      id: 833
+      center: V2d(0.35516479571083, -4.06008584718827)
+      shape: Disk(center = V2d(0.35516479571083, -4.06008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/DohuEZWrreVUkafvhVrUJ]
+      status: ToBeAdded
+    1361 => Vertex:
+      id: 1361
+      center: V2d(-3.65582443379488, 4.71958634013404)
+      shape: Polygon([
+        V2d(-3.85582443379488, 3.84458634013404), 
+        V2d(-3.45582443379488, 3.84458634013404), 
+        V2d(-3.45582443379488, 5.59458634013404), 
+        V2d(-3.85582443379488, 5.59458634013404)])
+      features :
+        id : [3pC5XRFfGntJ8odwTDzGkf/2FxCzWUQW6YrTB48KMAHjo]
+      status: ToBeAdded
+    641 => Vertex:
+      id: 641
+      center: V2d(2.90555013257352, -4.1188910847837)
+      shape: Disk(center = V2d(2.90555013257352, -4.1188910847837), radius = 0.2)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/CdjYQiqRvdskDWx2piYpZi]
+      status: ToBeAdded
+    657 => Vertex:
+      id: 657
+      center: V2d(2.80646524324374, -6.00833574974765)
+      shape: Disk(center = V2d(2.80646524324374, -6.00833574974765), radius = 0.2)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/GjHg9DWUnAUT2rimyJrvF2]
+      status: ToBeAdded
+    673 => Vertex:
+      id: 673
+      center: V2d(2.15516479571083, -3.61008584718827)
+      shape: Disk(center = V2d(2.15516479571083, -3.61008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/7EVq7gfmZvbc6VX43WKgS4]
+      status: ToBeAdded
+    177 => Vertex:
+      id: 177
+      center: V2d(11.8544755986441, 1.58490295036776)
+      shape: Disk(center = V2d(11.8544755986441, 1.58490295036776), radius = 0.125)
+      features :
+        id : [8gZnRd8Cb2X7FzBJcjKiwN/BGYzaejpB48dtRCDoNeciZ]
+      status: ToBeAdded
+    961 => Vertex:
+      id: 961
+      center: V2d(-0.54483520428917, -2.71008584718827)
+      shape: Disk(center = V2d(-0.54483520428917, -2.71008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/eQZCvSX5rLL9dvRhw6cvz]
+      status: ToBeAdded
+    465 => Vertex:
+      id: 465
+      center: V2d(5.8763817681595, 5.6488315177838)
+      shape: Disk(center = V2d(5.8763817681595, 5.6488315177838), radius = 0.2)
+      features :
+        id : [A4AgD9AzJ2nRBHW9y6299T/CqkLDx8oeWRErF2bG1K9pg]
+      status: ToBeAdded
+    721 => Vertex:
+      id: 721
+      center: V2d(1.25516479571083, -3.16008584718827)
+      shape: Disk(center = V2d(1.25516479571083, -3.16008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/2xjigfFNJEmXdrQv8cgZ9n]
+      status: ToBeAdded
+    1745 => Vertex:
+      id: 1745
+      center: V2d(-13.2195379011515, 2.72837450442224)
+      shape: Disk(center = V2d(-13.2195379011515, 2.72837450442224), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/AvvXdGYPPg1D1LxpTfbQcN]
+      status: ToBeAdded
+    1521 => Vertex:
+      id: 1521
+      center: V2d(-7.17163035372049, 0.499107697188495)
+      shape: Disk(center = V2d(-7.17163035372049, 0.499107697188495), radius = 0.2)
+      features :
+        id : [6HKsGtiqajrMnb1JFcCFGk/F2x7zH5Xj4rkVXosRWThWo]
+      status: ToBeAdded
+    2 => Vertex:
+      id: 2
+      center: V2d(13.334748112217, 8.74432033777121)
+      shape: Disk(center = V2d(13.334748112217, 8.74432033777121), radius = 0.2)
+      features :
+        id : [C1dUGNQ2HKgwiCR6fqkqoE/2Ff4TMVQb7yWXx8TbUei4u]
+      status: ToBeAdded
+    1282 => Vertex:
+      id: 1282
+      center: V2d(-2.95945004436263, 0.61456222327996)
+      shape: Disk(center = V2d(-2.95945004436263, 0.61456222327996), radius = 0.5)
+      features :
+        id : [EeJR95yWP2NH9dczDVYpfr/CD3Defxwo8oC9oQeoJ9Ktq]
+      status: ToBeAdded
+    1042 => Vertex:
+      id: 1042
+      center: V2d(-0.99483520428917, -2.26008584718827)
+      shape: Disk(center = V2d(-0.99483520428917, -2.26008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/6CPPqN375SyX5yat3HFf1i]
+      status: ToBeAdded
+    1810 => Vertex:
+      id: 1810
+      center: V2d(-13.2469743206463, 2.20123794645795)
+      shape: Disk(center = V2d(-13.2469743206463, 2.20123794645795), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/2SyhTi4rC68h9928XNi11P]
+      status: ToBeAdded
+    546 => Vertex:
+      id: 546
+      center: V2d(4.35434303974333, -3.61693385773458)
+      shape: Disk(center = V2d(4.35434303974333, -3.61693385773458), radius = 0.2)
+      features :
+        id : [Bkdsb5yH2HtXHhfP5Gnmjo/Bx1suGqVxTMAPRTpC4fgtT]
+      status: ToBeAdded
+    1314 => Vertex:
+      id: 1314
+      center: V2d(-3.09233520428917, -6.06758584718827)
+      shape: Disk(center = V2d(-3.09233520428917, -6.06758584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/By3jKJMT7kBBAyyjBpzf6J]
+      status: ToBeAdded
+    850 => Vertex:
+      id: 850
+      center: V2d(0.35516479571083, -3.16008584718827)
+      shape: Disk(center = V2d(0.35516479571083, -3.16008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/2dzMsyp9Dt6UkUeBraMZBb]
+      status: ToBeAdded
+    1106 => Vertex:
+      id: 1106
+      center: V2d(-1.44483520428917, -3.16008584718827)
+      shape: Disk(center = V2d(-1.44483520428917, -3.16008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/9PfVZq95CpwAKFYYBE12L9]
+      status: ToBeAdded
+    98 => Vertex:
+      id: 98
+      center: V2d(13.1942336910581, -6.40989977817323)
+      shape: Disk(center = V2d(13.1942336910581, -6.40989977817323), radius = 0.2)
+      features :
+        id : [2zxrKzTNy4B5gHXvjAsLU4/BUD1TjKwCsK5Js3msLg5rB]
+      status: ToBeAdded
+    1122 => Vertex:
+      id: 1122
+      center: V2d(-1.44483520428917, -4.06008584718827)
+      shape: Disk(center = V2d(-1.44483520428917, -4.06008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/BTbj4LyAUoxLL2TFjiYJN7]
+      status: ToBeAdded
+    626 => Vertex:
+      id: 626
+      center: V2d(3.1946695200513, -4.84326172919714)
+      shape: Disk(center = V2d(3.1946695200513, -4.84326172919714), radius = 0.2)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/6knwMMgLtQcagFSsSPpL7V]
+      status: ToBeAdded
+    1650 => Vertex:
+      id: 1650
+      center: V2d(-9.5296565122107, -2.29689870517842)
+      shape: Disk(center = V2d(-9.5296565122107, -2.29689870517842), radius = 0.2)
+      features :
+        id : [6HKsGtiqajrMnb1JFcCFGk/9vHuCzGkRhuhyuK7U7FPcp]
+      status: ToBeAdded
+    1410 => Vertex:
+      id: 1410
+      center: V2d(-4.25418878739698, 2.91562109990861)
+      shape: Disk(center = V2d(-4.25418878739698, 2.91562109990861), radius = 0.2)
+      features :
+        id : [BFm46vTbqDZxYp3mLsXYYq/6CfPzTS98UABi65GP2veWE]
+      status: ToBeAdded
+    402 => Vertex:
+      id: 402
+      center: V2d(7.06323553430746, 6.30031271445651)
+      shape: Disk(center = V2d(7.06323553430746, 6.30031271445651), radius = 0.125)
+      features :
+        id : [A4AgD9AzJ2nRBHW9y6299T/CCcjU4XqNJZjZJwyWyzPQA]
+      status: ToBeAdded
+    1266 => Vertex:
+      id: 1266
+      center: V2d(-2.79483520428917, -4.96008584718827)
+      shape: Disk(center = V2d(-2.79483520428917, -4.96008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/G49vTYbA3sC1JETfrBx9LL]
+      status: ToBeAdded
+    3 => Vertex:
+      id: 3
+      center: V2d(13.315998112217, 8.21932033777121)
+      shape: Disk(center = V2d(13.315998112217, 8.21932033777121), radius = 0.2)
+      features :
+        id : [C1dUGNQ2HKgwiCR6fqkqoE/Er1wCVNatWTaRo9JBsFnBg]
+      status: ToBeAdded
+    771 => Vertex:
+      id: 771
+      center: V2d(0.80516479571083, -4.51008584718828)
+      shape: Disk(center = V2d(0.80516479571083, -4.51008584718828), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/7Vs1MFBpEAEgkebixvs5RT]
+      status: ToBeAdded
+    1795 => Vertex:
+      id: 1795
+      center: V2d(-13.2464985803415, 6.04908531449407)
+      shape: Disk(center = V2d(-13.2464985803415, 6.04908531449407), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/8RrK5Tj6ceh5nxfvhRG9Zz]
+      status: ToBeAdded
+    1299 => Vertex:
+      id: 1299
+      center: V2d(-3.00582443379488, 4.71958634013404)
+      shape: Polygon([
+        V2d(-3.20582443379488, 3.84458634013404), 
+        V2d(-2.80582443379488, 3.84458634013404), 
+        V2d(-2.80582443379488, 5.59458634013404), 
+        V2d(-3.20582443379488, 5.59458634013404)])
+      features :
+        id : [3pC5XRFfGntJ8odwTDzGkf/bLfaqfiiMxSNhu9wMHgqG]
+      status: ToBeAdded
+    35 => Vertex:
+      id: 35
+      center: V2d(13.272248112217, 5.54432033777121)
+      shape: Disk(center = V2d(13.272248112217, 5.54432033777121), radius = 0.2)
+      features :
+        id : [C1dUGNQ2HKgwiCR6fqkqoE/Dwjv6aaKiXpVsNx8iibC9M]
+      status: ToBeAdded
+    803 => Vertex:
+      id: 803
+      center: V2d(0.705109674832937, 0.756422205459355)
+      shape: Disk(center = V2d(0.705109674832937, 0.756422205459355), radius = 0.2)
+      features :
+        id : [FRTDevdX5F4aJ2kcP8idVN/9UpB16Kb4MYHkNcoMS5j5n]
+      status: ToBeAdded
+    563 => Vertex:
+      id: 563
+      center: V2d(4.31256788876175, -7.06883638387173)
+      shape: Disk(center = V2d(4.31256788876175, -7.06883638387173), radius = 0.125)
+      features :
+        id : [FinPpnUzaoQQjvsjdctnp1/oe8QwngFaxBuMDMcwdXxU]
+      status: ToBeAdded
+    579 => Vertex:
+      id: 579
+      center: V2d(4.0439403803948, -0.319721376296616)
+      shape: Disk(center = V2d(4.0439403803948, -0.319721376296616), radius = 0.2)
+      features :
+        id : [BrFFsRwzrFSZBVWAXoUnWs/CwvxhUUpdZ6YZG1FskFEE5]
+      status: ToBeAdded
+    83 => Vertex:
+      id: 83
+      center: V2d(13.2030725258229, -2.61803966406037)
+      shape: Disk(center = V2d(13.2030725258229, -2.61803966406037), radius = 0.2)
+      features :
+        id : [2zxrKzTNy4B5gHXvjAsLU4/EBziZd5jJfHR3MC9atStFm]
+      status: ToBeAdded
+    867 => Vertex:
+      id: 867
+      center: V2d(0.0701732127314371, -0.951199737490723)
+      shape: Disk(center = V2d(0.0701732127314371, -0.951199737490723), radius = 0.2)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/A6wYHRuKD1MXuRT96Sn9GC]
+      status: ToBeAdded
+    1379 => Vertex:
+      id: 1379
+      center: V2d(-4.03820524837666, -9.00568825662924)
+      shape: Disk(center = V2d(-4.03820524837666, -9.00568825662924), radius = 0.2)
+      features :
+        id : [7hk7sc8Q6fzZ8XzmMiUS5M/3fEZRD4et35wg2obVcE6cJ]
+      status: ToBeAdded
+    371 => Vertex:
+      id: 371
+      center: V2d(7.81682712334417, -1.07243358799437)
+      shape: Disk(center = V2d(7.81682712334417, -1.07243358799437), radius = 0.2)
+      features :
+        id : [9SSh4BComEEC2cugXXifVe/3jmKxUMUUk5ArHd4ZCphHf]
+      status: ToBeAdded
+    1699 => Vertex:
+      id: 1699
+      center: V2d(-10.849606665053, 7.99447515945258)
+      shape: Disk(center = V2d(-10.849606665053, 7.99447515945258), radius = 0.4955)
+      features :
+        id : [DXxxXc11GMaGHnTF1YF2f3/97qBi5Fvn5oRZcEPyrrqLw]
+      status: ToBeAdded
+    435 => Vertex:
+      id: 435
+      center: V2d(6.66323553430746, 6.30031271445651)
+      shape: Disk(center = V2d(6.66323553430746, 6.30031271445651), radius = 0.125)
+      features :
+        id : [A4AgD9AzJ2nRBHW9y6299T/3t31zGEAHFiwRzggMYnHYt]
+      status: ToBeAdded
+    1715 => Vertex:
+      id: 1715
+      center: V2d(-11.2137238597473, 4.16789156240825)
+      shape: Disk(center = V2d(-11.2137238597473, 4.16789156240825), radius = 0.2)
+      features :
+        id : [DXxxXc11GMaGHnTF1YF2f3/67iwcbRqyNUUBKecwaxhiE]
+      status: ToBeAdded
+    979 => Vertex:
+      id: 979
+      center: V2d(-0.553049959867085, 0.61456222327996)
+      shape: Disk(center = V2d(-0.553049959867085, 0.61456222327996), radius = 0.5)
+      features :
+        id : [94VNEw5PraYSGbbDtKsPoy/CD3Defxwo8oC9oQeoJ9Ktq]
+      status: ToBeAdded
+    1507 => Vertex:
+      id: 1507
+      center: V2d(-6.62722181017056, -9.00233393995507)
+      shape: Disk(center = V2d(-6.62722181017056, -9.00233393995507), radius = 0.2)
+      features :
+        id : [7hk7sc8Q6fzZ8XzmMiUS5M/GaKohdeca9114JVXuS14ak]
+      status: ToBeAdded
+    1011 => Vertex:
+      id: 1011
+      center: V2d(-0.994835204289169, -6.76008584718828)
+      shape: Disk(center = V2d(-0.994835204289169, -6.76008584718828), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/9c7hsTLSRueRUiMJASquMh]
+      status: ToBeAdded
+    1779 => Vertex:
+      id: 1779
+      center: V2d(-13.2464985803415, 7.10533535646567)
+      shape: Disk(center = V2d(-13.2464985803415, 7.10533535646567), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/6A3Z4fCkturJp53xpovNfY]
+      status: ToBeAdded
+    4 => Vertex:
+      id: 4
+      center: V2d(13.303498112217, 7.68807033777121)
+      shape: Disk(center = V2d(13.303498112217, 7.68807033777121), radius = 0.2)
+      features :
+        id : [C1dUGNQ2HKgwiCR6fqkqoE/DKzAZEnFty4ZvweDw2aH5F]
+      status: ToBeAdded
+    532 => Vertex:
+      id: 532
+      center: V2d(4.66873681722388, -6.86937078847962)
+      shape: Disk(center = V2d(4.66873681722388, -6.86937078847962), radius = 0.2)
+      features :
+        id : [FinPpnUzaoQQjvsjdctnp1/DYpQ9ebAgpnoDymNiVX5WN]
+      status: ToBeAdded
+    1588 => Vertex:
+      id: 1588
+      center: V2d(-8.69575377405024, -8.97983198811312)
+      shape: Disk(center = V2d(-8.69575377405024, -8.97983198811312), radius = 0.2)
+      features :
+        id : [7hk7sc8Q6fzZ8XzmMiUS5M/4SXYHch5CAoR2DWpTxrtqA]
+      status: ToBeAdded
+    1844 => Vertex:
+      id: 1844
+      center: V2d(-13.2527485805898, 4.99908527277082)
+      shape: Disk(center = V2d(-13.2527485805898, 4.99908527277082), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/DH8AL9jdcr9WaTDDRnNx37]
+      status: ToBeAdded
+    324 => Vertex:
+      id: 324
+      center: V2d(9.66103437242491, -0.872388946276017)
+      shape: Disk(center = V2d(9.66103437242491, -0.872388946276017), radius = 0.2)
+      features :
+        id : [GQGaeXFaL8HCKA8PaJSdeg/EyZQ2fo9oiPJq23Nv9qAMn]
+      status: ToBeAdded
+    1604 => Vertex:
+      id: 1604
+      center: V2d(-8.72626169669953, -0.610381752212052)
+      shape: Disk(center = V2d(-8.72626169669953, -0.610381752212052), radius = 0.2)
+      features :
+        id : [6HKsGtiqajrMnb1JFcCFGk/Ch27SHUFRur8Zhju9eMy5p]
+      status: ToBeAdded
+    1876 => Vertex:
+      id: 1876
+      center: V2d(-13.2532243208947, -0.942512178463446)
+      shape: Disk(center = V2d(-13.2532243208947, -0.942512178463446), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/FYhBSZu6kXcpop3Jy8DxNq]
+      status: ToBeAdded
+    116 => Vertex:
+      id: 116
+      center: V2d(12.7052824324955, 1.34603966043023)
+      shape: Disk(center = V2d(12.7052824324955, 1.34603966043023), radius = 0.2)
+      features :
+        id : [8gZnRd8Cb2X7FzBJcjKiwN/13irYS6WsRtWLbGfDtriXC]
+      status: ToBeAdded
+    1668 => Vertex:
+      id: 1668
+      center: V2d(-9.83360666505302, 2.91447515945258)
+      shape: Disk(center = V2d(-9.83360666505302, 2.91447515945258), radius = 0.4955)
+      features :
+        id : [DXxxXc11GMaGHnTF1YF2f3/51wNcztc4v6qnZcgLVqQsw]
+      status: ToBeAdded
+    420 => Vertex:
+      id: 420
+      center: V2d(6.67013176815949, 7.7175815177838)
+      shape: Disk(center = V2d(6.67013176815949, 7.7175815177838), radius = 0.2)
+      features :
+        id : [A4AgD9AzJ2nRBHW9y6299T/FqM3twJXgUCkDciBGS3td1]
+      status: ToBeAdded
+    948 => Vertex:
+      id: 948
+      center: V2d(-0.54483520428917, -4.06008584718827)
+      shape: Disk(center = V2d(-0.54483520428917, -4.06008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/7Yv9kVVXhizKiVtuUJkqy7]
+      status: ToBeAdded
+    1204 => Vertex:
+      id: 1204
+      center: V2d(-2.32938634638481, 3.46214109161876)
+      shape: Disk(center = V2d(-2.32938634638481, 3.46214109161876), radius = 0.2)
+      features :
+        id : [3pC5XRFfGntJ8odwTDzGkf/Ef9P7juRMsoZoxN52UKXgF]
+      status: ToBeAdded
+    452 => Vertex:
+      id: 452
+      center: V2d(6.23658346131659, -3.16997692423501)
+      shape: Disk(center = V2d(6.23658346131659, -3.16997692423501), radius = 0.2)
+      features :
+        id : [7zWkzSL9dsanvNrd3J4Jfp/6TttgA2wEWvHJ7nvQb2EcZ]
+      status: ToBeAdded
+    756 => Vertex:
+      id: 756
+      center: V2d(0.80516479571083, -3.16008584718827)
+      shape: Disk(center = V2d(0.80516479571083, -3.16008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/4uR8FLsDARzw4Cj5Mk3Wqw]
+      status: ToBeAdded
+    1029 => Vertex:
+      id: 1029
+      center: V2d(-0.994835204289169, -4.06008584718827)
+      shape: Disk(center = V2d(-0.994835204289169, -4.06008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/A4QbihCAed9TnCdZE6rnuK]
+      status: ToBeAdded
+    309 => Vertex:
+      id: 309
+      center: V2d(9.74319527150949, 1.76457777653424)
+      shape: Disk(center = V2d(9.74319527150949, 1.76457777653424), radius = 0.2)
+      features :
+        id : [DY7fGrFX9zneLycCkiL1ou/2otQvWb1Fr1Y2MpbGgY37t]
+      status: ToBeAdded
+    1893 => Vertex:
+      id: 1893
+      center: V2d(-13.259474321143, 0.626237883873075)
+      shape: Disk(center = V2d(-13.259474321143, 0.626237883873075), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/DZ2q9TCiYuhaqn14cDzgLb]
+      status: ToBeAdded
+    1157 => Vertex:
+      id: 1157
+      center: V2d(-1.74233520428917, -6.51758584718827)
+      shape: Disk(center = V2d(-1.74233520428917, -6.51758584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/FRn3hnEhnjXutCJcbn7jRk]
+      status: ToBeAdded
+    1173 => Vertex:
+      id: 1173
+      center: V2d(-1.75625018092879, 1.81776232513238)
+      shape: Disk(center = V2d(-1.75625018092879, 1.81776232513238), radius = 0.5)
+      features :
+        id : [Deh2WBRXHCSePZo4R1W7k1/CD3Defxwo8oC9oQeoJ9Ktq]
+      status: ToBeAdded
+    1429 => Vertex:
+      id: 1429
+      center: V2d(-5.08082443379488, 7.54458634013404)
+      shape: Polygon([
+        V2d(-5.68082443379488, 6.94458634013404), 
+        V2d(-5.67705175973082, 6.87740765447206), 
+        V2d(-5.66578118110397, 6.81107377976025), 
+        V2d(-5.6471544319799, 6.74641890296094), 
+        V2d(-5.62140575453633, 6.68425609666351), 
+        V2d(-5.58885895333185, 6.62536709422484), 
+        V2d(-5.5499233232757, 6.5704924590188), 
+        V2d(-5.50508850250681, 6.52032227142211), 
+        V2d(-5.45491831491012, 6.47548745065322), 
+        V2d(-5.40004367970408, 6.43655182059707), 
+        V2d(-5.34115467726541, 6.40400501939259), 
+        V2d(-5.27899187096798, 6.37825634194902), 
+        V2d(-5.21433699416867, 6.35962959282495), 
+        V2d(-5.14800311945686, 6.3483590141981), 
+        V2d(-5.08082443379488, 6.34458634013404), 
+        V2d(-5.01364574813289, 6.3483590141981), 
+        V2d(-4.94731187342109, 6.35962959282495), 
+        V2d(-4.88265699662178, 6.37825634194902), 
+        V2d(-4.82049419032434, 6.40400501939259), 
+        V2d(-4.76160518788568, 6.43655182059707), 
+        V2d(-4.70673055267964, 6.47548745065322), 
+        V2d(-4.65656036508295, 6.52032227142211), 
+        V2d(-4.61172554431406, 6.5704924590188), 
+        V2d(-4.57278991425791, 6.62536709422484), 
+        V2d(-4.54024311305343, 6.68425609666351), 
+        V2d(-4.51449443560986, 6.74641890296094), 
+        V2d(-4.49586768648579, 6.81107377976025), 
+        V2d(-4.48459710785893, 6.87740765447206), 
+        V2d(-4.48082443379488, 6.94458634013404), 
+        V2d(-4.48082443379488, 8.14458634013404), 
+        V2d(-4.48459710785893, 8.21176502579602), 
+        V2d(-4.49586768648578, 8.27809890050783), 
+        V2d(-4.51449443560986, 8.34275377730714), 
+        V2d(-4.54024311305343, 8.40491658360457), 
+        V2d(-4.57278991425791, 8.46380558604324), 
+        V2d(-4.61172554431406, 8.51868022124928), 
+        V2d(-4.65656036508295, 8.56885040884597), 
+        V2d(-4.70673055267964, 8.61368522961486), 
+        V2d(-4.76160518788568, 8.65262085967101), 
+        V2d(-4.82049419032434, 8.68516766087549), 
+        V2d(-4.88265699662178, 8.71091633831906), 
+        V2d(-4.94731187342109, 8.72954308744314), 
+        V2d(-5.01364574813289, 8.74081366606999), 
+        V2d(-5.08082443379488, 8.74458634013404), 
+        V2d(-5.14800311945686, 8.74081366606999), 
+        V2d(-5.21433699416867, 8.72954308744314), 
+        V2d(-5.27899187096798, 8.71091633831906), 
+        V2d(-5.34115467726541, 8.68516766087549), 
+        V2d(-5.40004367970408, 8.65262085967101), 
+        V2d(-5.45491831491012, 8.61368522961486), 
+        V2d(-5.50508850250681, 8.56885040884597), 
+        V2d(-5.5499233232757, 8.51868022124928), 
+        V2d(-5.58885895333185, 8.46380558604324), 
+        V2d(-5.62140575453633, 8.40491658360457), 
+        V2d(-5.6471544319799, 8.34275377730714), 
+        V2d(-5.66578118110397, 8.27809890050783), 
+        V2d(-5.67705175973082, 8.21176502579602), 
+        V2d(-5.68082443379488, 8.14458634013404)])
+      features :
+        id : [3pC5XRFfGntJ8odwTDzGkf/12nfdyF3WrnLmm8gWKZQV1]
+      status: ToBeAdded
+    165 => Vertex:
+      id: 165
+      center: V2d(11.8544755986441, 3.58490295036776)
+      shape: Disk(center = V2d(11.8544755986441, 3.58490295036776), radius = 0.125)
+      features :
+        id : [8gZnRd8Cb2X7FzBJcjKiwN/BVD4XFLRKVdYNJKyr1TAgg]
+      status: ToBeAdded
+    1445 => Vertex:
+      id: 1445
+      center: V2d(-5.1656322254909, 2.3673199177346)
+      shape: Disk(center = V2d(-5.1656322254909, 2.3673199177346), radius = 0.2)
+      features :
+        id : [A3Azc5QG2J2WkFD2K3xoUW/7K679mSUnubbBWPHgvN8n4]
+      status: ToBeAdded
+    1493 => Vertex:
+      id: 1493
+      center: V2d(-6.11239847887328, -9.0000210620104)
+      shape: Disk(center = V2d(-6.11239847887328, -9.0000210620104), radius = 0.2)
+      features :
+        id : [7hk7sc8Q6fzZ8XzmMiUS5M/FwzSNbMgJFsM2Ej7cwja76]
+      status: ToBeAdded
+    1765 => Vertex:
+      id: 1765
+      center: V2d(-13.2402485800931, 3.9053352293091)
+      shape: Disk(center = V2d(-13.2402485800931, 3.9053352293091), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/GgXjd4jLY2v8ZkHUofes5g]
+      status: ToBeAdded
+    245 => Vertex:
+      id: 245
+      center: V2d(10.6819230138484, 7.61482781490069)
+      shape: Disk(center = V2d(10.6819230138484, 7.61482781490069), radius = 0.5)
+      features :
+        id : [ZL1X45zKggbwYLhubuL31/CD3Defxwo8oC9oQeoJ9Ktq]
+      status: ToBeAdded
+    22 => Vertex:
+      id: 22
+      center: V2d(13.272248112217, 6.63182033777121)
+      shape: Disk(center = V2d(13.272248112217, 6.63182033777121), radius = 0.2)
+      features :
+        id : [C1dUGNQ2HKgwiCR6fqkqoE/2kVVxE6wNweCT1mXn4xfct]
+      status: ToBeAdded
+    1558 => Vertex:
+      id: 1558
+      center: V2d(-8.02375735679926, 1.8296697734858)
+      shape: Disk(center = V2d(-8.02375735679926, 1.8296697734858), radius = 0.5)
+      features :
+        id : [6yMeTT4bvLvn8Teq5hts2k/CD3Defxwo8oC9oQeoJ9Ktq]
+      status: ToBeAdded
+    1062 => Vertex:
+      id: 1062
+      center: V2d(-1.05582443379488, 4.71958634013404)
+      shape: Polygon([
+        V2d(-1.25582443379488, 3.84458634013404), 
+        V2d(-0.855824433794879, 3.84458634013404), 
+        V2d(-0.855824433794879, 5.59458634013404), 
+        V2d(-1.25582443379488, 5.59458634013404)])
+      features :
+        id : [3pC5XRFfGntJ8odwTDzGkf/53fXhjD8bbT5myMvjb9wTK]
+      status: ToBeAdded
+    1574 => Vertex:
+      id: 1574
+      center: V2d(-8.1748032471628, -9.00387585858485)
+      shape: Disk(center = V2d(-8.1748032471628, -9.00387585858485), radius = 0.2)
+      features :
+        id : [7hk7sc8Q6fzZ8XzmMiUS5M/2ek7qxqNjFA7d8YQrrNMbe]
+      status: ToBeAdded
+    1830 => Vertex:
+      id: 1830
+      center: V2d(-13.250635486027, 8.6649074765161)
+      shape: Disk(center = V2d(-13.250635486027, 8.6649074765161), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/D6eRPfYnJHJbpVNTco3Lr2]
+      status: ToBeAdded
+    54 => Vertex:
+      id: 54
+      center: V2d(13.2119113605877, -7.12584539412461)
+      shape: Disk(center = V2d(13.2119113605877, -7.12584539412461), radius = 0.2)
+      features :
+        id : [2zxrKzTNy4B5gHXvjAsLU4/AQEQoivHgiCKrVSgxv76Kx]
+      status: ToBeAdded
+    70 => Vertex:
+      id: 70
+      center: V2d(13.2119113605877, -4.42116195608607)
+      shape: Disk(center = V2d(13.2119113605877, -4.42116195608607), radius = 0.2)
+      features :
+        id : [2zxrKzTNy4B5gHXvjAsLU4/XrhkRo34xdssk3rQzp4iq]
+      status: ToBeAdded
+    342 => Vertex:
+      id: 342
+      center: V2d(9.1055478868768, 5.69427526081409)
+      shape: Disk(center = V2d(9.1055478868768, 5.69427526081409), radius = 0.2)
+      features :
+        id : [A4AgD9AzJ2nRBHW9y6299T/CWBPrNKd5DGrK4XGntBi3Y]
+      status: ToBeAdded
+    102 => Vertex:
+      id: 102
+      center: V2d(13.0361673170516, 0.962130638496421)
+      shape: Disk(center = V2d(13.0361673170516, 0.962130638496421), radius = 0.2)
+      features :
+        id : [9uJyW2UHvtFfc5xnJzbWB8/44gKK3dNMWx5DCyFvBB1MQ]
+      status: ToBeAdded
+    886 => Vertex:
+      id: 886
+      center: V2d(-0.0948352042891696, -4.06008584718827)
+      shape: Disk(center = V2d(-0.0948352042891696, -4.06008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/GGcWt1x97Mcapdv6M6UfSM]
+      status: ToBeAdded
+    150 => Vertex:
+      id: 150
+      center: V2d(12.1944755986441, 0.834902950367756)
+      shape: Disk(center = V2d(12.1944755986441, 0.834902950367756), radius = 0.125)
+      features :
+        id : [8gZnRd8Cb2X7FzBJcjKiwN/8TT8Rpjefk2E9DTRtYW7LE]
+      status: ToBeAdded
+    918 => Vertex:
+      id: 918
+      center: V2d(-0.113320516518016, -8.59589087802543)
+      shape: Disk(center = V2d(-0.113320516518016, -8.59589087802543), radius = 0.2)
+      features :
+        id : [ErxJqA2VcyJbqmz1KnUzK1/AoyAjiGMYChCin4hGGFzxi]
+      status: ToBeAdded
+    1686 => Vertex:
+      id: 1686
+      center: V2d(-10.468606665053, 5.45447515945258)
+      shape: Disk(center = V2d(-10.468606665053, 5.45447515945258), radius = 0.3935)
+      features :
+        id : [DXxxXc11GMaGHnTF1YF2f3/tPv9DYqFP9tm1g2JqpiB2]
+      status: ToBeAdded
+    1462 => Vertex:
+      id: 1462
+      center: V2d(-5.60235096317739, -9.00568825662924)
+      shape: Disk(center = V2d(-5.60235096317739, -9.00568825662924), radius = 0.2)
+      features :
+        id : [7hk7sc8Q6fzZ8XzmMiUS5M/FNXdRL666jmTwAKqAuwFMs]
+      status: ToBeAdded
+    1238 => Vertex:
+      id: 1238
+      center: V2d(-2.66997731016558, 2.99336670423801)
+      shape: Disk(center = V2d(-2.66997731016558, 2.99336670423801), radius = 0.2)
+      features :
+        id : [DMVhQV65iUgLDFcCQwfT3f/4UaiEsthwtC2G7VjE9CXPJ]
+      status: ToBeAdded
+    519 => Vertex:
+      id: 519
+      center: V2d(5.01256788876175, -7.46883638387173)
+      shape: Disk(center = V2d(5.01256788876175, -7.46883638387173), radius = 0.125)
+      features :
+        id : [FinPpnUzaoQQjvsjdctnp1/dy54wsBrxVNgfBKHgBFCr]
+      status: ToBeAdded
+    1543 => Vertex:
+      id: 1543
+      center: V2d(-7.65865123080003, -9.00516753726449)
+      shape: Disk(center = V2d(-7.65865123080003, -9.00516753726449), radius = 0.2)
+      features :
+        id : [7hk7sc8Q6fzZ8XzmMiUS5M/9GvyvtYnQceJxhmgDnv9eR]
+      status: ToBeAdded
+    1319 => Vertex:
+      id: 1319
+      center: V2d(-3.09233520428917, -6.96758584718827)
+      shape: Disk(center = V2d(-3.09233520428917, -6.96758584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/2jJJVXzzVfEWFWhVCgHj5Q]
+      status: ToBeAdded
+    823 => Vertex:
+      id: 823
+      center: V2d(0.35516479571083, -4.51008584718828)
+      shape: Disk(center = V2d(0.35516479571083, -4.51008584718828), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/GohCH36QFxkVHbcobGvRiW]
+      status: ToBeAdded
+    1863 => Vertex:
+      id: 1863
+      center: V2d(-13.2532243208947, 1.16373790523141)
+      shape: Disk(center = V2d(-13.2532243208947, 1.16373790523141), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/BVsyTzZiwTyeqsTovphLh]
+      status: ToBeAdded
+    1623 => Vertex:
+      id: 1623
+      center: V2d(-9.19860666505302, 6.72447515945258)
+      shape: Disk(center = V2d(-9.19860666505302, 6.72447515945258), radius = 0.3935)
+      features :
+        id : [DXxxXc11GMaGHnTF1YF2f3/GD1E3KhkfZfv4qw4ksvJbX]
+      status: ToBeAdded
+    359 => Vertex:
+      id: 359
+      center: V2d(7.9321921738866, 7.61151204114748)
+      shape: Disk(center = V2d(7.9321921738866, 7.61151204114748), radius = 0.2)
+      features :
+        id : [A4AgD9AzJ2nRBHW9y6299T/3CSPdXi9NAaF7rJAvaMt9o]
+      status: ToBeAdded
+    1127 => Vertex:
+      id: 1127
+      center: V2d(-1.44483520428917, -2.26008584718827)
+      shape: Disk(center = V2d(-1.44483520428917, -2.26008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/C8EtLLY2CM291nphRHp4Gf]
+      status: ToBeAdded
+    1399 => Vertex:
+      id: 1399
+      center: V2d(-4.24634020658461, 1.8313623671111)
+      shape: Disk(center = V2d(-4.24634020658461, 1.8313623671111), radius = 0.2)
+      features :
+        id : [2GsNjSksumtQT61RdtXJZa/33Kob44NSP1JkSYrE2o6RE]
+      status: ToBeAdded
+    1911 => Vertex:
+      id: 1911
+      center: V2d(-13.259474321143, -1.9925122201867)
+      shape: Disk(center = V2d(-13.259474321143, -1.9925122201867), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/9FbdgG3pNuqD7CFansYgtY]
+      status: ToBeAdded
+    903 => Vertex:
+      id: 903
+      center: V2d(-0.0948352042891697, -3.16008584718827)
+      shape: Disk(center = V2d(-0.0948352042891697, -3.16008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/4F2src8vY8RjWowhPYJUxV]
+      status: ToBeAdded
+    695 => Vertex:
+      id: 695
+      center: V2d(1.70516479571083, -2.71008584718827)
+      shape: Disk(center = V2d(1.70516479571083, -2.71008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/6Si9Ctqwq4DqkeZZeYJ4NS]
+      status: ToBeAdded
+    487 => Vertex:
+      id: 487
+      center: V2d(5.60289237420085, 0.179153619063191)
+      shape: Disk(center = V2d(5.60289237420085, 0.179153619063191), radius = 0.2)
+      features :
+        id : [gih6ZVCSfC5hyeVGXtrML/94fwnTtfWALUgRwA9k55W1]
+      status: ToBeAdded
+    999 => Vertex:
+      id: 999
+      center: V2d(-0.889906855786113, -0.833958761628438)
+      shape: Disk(center = V2d(-0.889906855786113, -0.833958761628438), radius = 0.2)
+      features :
+        id : [BoxJVQDokFs2S8avTkodvT/GhQeN3vVKps2EjsAbUqFe9]
+      status: ToBeAdded
+    8 => Vertex:
+      id: 8
+      center: V2d(13.290998112217, 7.15682033777121)
+      shape: Disk(center = V2d(13.290998112217, 7.15682033777121), radius = 0.2)
+      features :
+        id : [C1dUGNQ2HKgwiCR6fqkqoE/C4NEhr2DDNSGQTMw8d5rWv]
+      status: ToBeAdded
+    1304 => Vertex:
+      id: 1304
+      center: V2d(-3.09233520428917, -5.61758584718828)
+      shape: Disk(center = V2d(-3.09233520428917, -5.61758584718828), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/FzXPeEHo9LF8dfreuAq1bg]
+      status: ToBeAdded
+    40 => Vertex:
+      id: 40
+      center: V2d(13.2294022044539, -7.64382522883402)
+      shape: Disk(center = V2d(13.2294022044539, -7.64382522883402), radius = 0.2)
+      features :
+        id : [2zxrKzTNy4B5gHXvjAsLU4/41SaEnnwm2Lu28N3jqKUxE]
+      status: ToBeAdded
+    296 => Vertex:
+      id: 296
+      center: V2d(9.95101608311837, 6.16156479474414)
+      shape: Disk(center = V2d(9.95101608311837, 6.16156479474414), radius = 0.2)
+      features :
+        id : [Ac82Q5cnyuDbVJki1ZLriv/5X8u1Bn6BLMFZ7kNqhS1d1]
+      status: ToBeAdded
+    1336 => Vertex:
+      id: 1336
+      center: V2d(-3.31832443379488, 7.79458634013404)
+      shape: Polygon([
+        V2d(-2.60582443379488, 9.04458634013404), 
+        V2d(-4.03082443379488, 9.04458634013404), 
+        V2d(-4.03082443379488, 6.54458634013404), 
+        V2d(-2.60582443379488, 6.54458634013404)])
+      features :
+        id : [3pC5XRFfGntJ8odwTDzGkf/EN2eREF6NnLqTHXnTaG4nW]
+        id : [v66atuRhTUmQ9wbKoDkC7/Fngy7KTopKCJKh7mrTwq8q]
+      status: ToBeAdded
+    1096 => Vertex:
+      id: 1096
+      center: V2d(-1.39332443379488, 7.79458634013404)
+      shape: Polygon([
+        V2d(-0.680824433794879, 9.04458634013404), 
+        V2d(-2.10582443379488, 9.04458634013404), 
+        V2d(-2.10582443379488, 6.54458634013404), 
+        V2d(-0.680824433794879, 6.54458634013404)])
+      features :
+        id : [3pC5XRFfGntJ8odwTDzGkf/4VTnquBubJzYbe3pD2HY6r]
+        id : [v66atuRhTUmQ9wbKoDkC7/A9LsYx5UiVCpQ3VkSmezbz]
+      status: ToBeAdded
+    600 => Vertex:
+      id: 600
+      center: V2d(3.4920664281817, 6.51168456144769)
+      shape: Disk(center = V2d(3.4920664281817, 6.51168456144769), radius = 0.2)
+      features :
+        id : [FQkoXjMW9mhR3tcP1RGPUK/CAreEFfbxT9CdYVTj4EexW]
+      status: ToBeAdded
+    616 => Vertex:
+      id: 616
+      center: V2d(3.3005399557588, -6.33065151326702)
+      shape: Disk(center = V2d(3.3005399557588, -6.33065151326702), radius = 0.2)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/7L6GvQifAieGomGnJZQWQz]
+      status: ToBeAdded
+    664 => Vertex:
+      id: 664
+      center: V2d(2.20041952001784, 0.682176923661114)
+      shape: Disk(center = V2d(2.20041952001784, 0.682176923661114), radius = 0.2)
+      features :
+        id : [3xjQ7S8VpSYPuLLEJVkQAV/G4zAo8Febc8Hmnv1zrbJ7g]
+      status: ToBeAdded
+    680 => Vertex:
+      id: 680
+      center: V2d(2.15516479571083, -1.81008584718827)
+      shape: Disk(center = V2d(2.15516479571083, -1.81008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/BPEhaHL9zgxfvnHA28Ek7n]
+      status: ToBeAdded
+    1192 => Vertex:
+      id: 1192
+      center: V2d(-1.89483520428917, -4.06008584718827)
+      shape: Disk(center = V2d(-1.89483520428917, -4.06008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/6c7AULUfS7XfVGsE2QH2Ld]
+      status: ToBeAdded
+    712 => Vertex:
+      id: 712
+      center: V2d(1.6153027311821, -8.77314832929462)
+      shape: Disk(center = V2d(1.6153027311821, -8.77314832929462), radius = 0.2)
+      features :
+        id : [6HKsGtiqajrMnb1JFcCFGk/21zZRkSsffjHVRDoq5viXA]
+      status: ToBeAdded
+    968 => Vertex:
+      id: 968
+      center: V2d(-0.553049959867085, 1.81776232513238)
+      shape: Disk(center = V2d(-0.553049959867085, 1.81776232513238), radius = 0.5)
+      features :
+        id : [7wzCdfxdqJqMnQz2zB4r6g/CD3Defxwo8oC9oQeoJ9Ktq]
+      status: ToBeAdded
+    1224 => Vertex:
+      id: 1224
+      center: V2d(-2.35582443379488, 4.71958634013404)
+      shape: Polygon([
+        V2d(-2.55582443379488, 3.84458634013404), 
+        V2d(-2.15582443379488, 3.84458634013404), 
+        V2d(-2.15582443379488, 5.59458634013404), 
+        V2d(-2.55582443379488, 5.59458634013404)])
+      features :
+        id : [3pC5XRFfGntJ8odwTDzGkf/AebGEk7XoJS7aZkAesxjMd]
+      status: ToBeAdded
+    1736 => Vertex:
+      id: 1736
+      center: V2d(-12.4509921173225, 4.60252303826735)
+      shape: Disk(center = V2d(-12.4509921173225, 4.60252303826735), radius = 0.2)
+      features :
+        id : [DXxxXc11GMaGHnTF1YF2f3/7S6nnBVkos9nwTK49ziM1U]
+      status: ToBeAdded
+    744 => Vertex:
+      id: 744
+      center: V2d(1.25516479571083, -1.81008584718827)
+      shape: Disk(center = V2d(1.25516479571083, -1.81008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/8y5naAe6F4FK381a2KkFj6]
+      status: ToBeAdded
+    1256 => Vertex:
+      id: 1256
+      center: V2d(-2.79483520428917, -4.06008584718827)
+      shape: Disk(center = V2d(-2.79483520428917, -4.06008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/EP6W4i5HNsL795qwEk9hoZ]
+      status: ToBeAdded
+    504 => Vertex:
+      id: 504
+      center: V2d(5.17263379515444, -0.471797536206106)
+      shape: Disk(center = V2d(5.17263379515444, -0.471797536206106), radius = 0.2)
+      features :
+        id : [9SSh4BComEEC2cugXXifVe/AsVwVBnby5x4LXeBDfpoAa]
+      status: ToBeAdded
+    1272 => Vertex:
+      id: 1272
+      center: V2d(-2.95945004436263, 1.81776232513238)
+      shape: Disk(center = V2d(-2.95945004436263, 1.81776232513238), radius = 0.5)
+      features :
+        id : [Fk4KVTWQNebJjtDMk9Q5mY/CD3Defxwo8oC9oQeoJ9Ktq]
+      status: ToBeAdded
+    777 => Vertex:
+      id: 777
+      center: V2d(0.80516479571083, -2.71008584718827)
+      shape: Disk(center = V2d(0.80516479571083, -2.71008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/D2b1P15pAhenJjjAQPjg3Z]
+      status: ToBeAdded
+    281 => Vertex:
+      id: 281
+      center: V2d(10.2753186451653, -0.0834968900605917)
+      shape: Disk(center = V2d(10.2753186451653, -0.0834968900605917), radius = 0.2)
+      features :
+        id : [7moLqAbuekQe6TpRwzoTMu/DcJH6WWFZZ2RWD3donfDrY]
+      status: ToBeAdded
+    793 => Vertex:
+      id: 793
+      center: V2d(0.773039038786132, 2.27557991343882)
+      shape: Disk(center = V2d(0.773039038786132, 2.27557991343882), radius = 0.2)
+      features :
+        id : [8XcoftfePPzJsUD6RH6DdS/3HWYCUDParLDRKzEzPtQWx]
+      status: ToBeAdded
+    1049 => Vertex:
+      id: 1049
+      center: V2d(-1.03486858035941, 3.47033424203664)
+      shape: Disk(center = V2d(-1.03486858035941, 3.47033424203664), radius = 0.2)
+      features :
+        id : [3pC5XRFfGntJ8odwTDzGkf/F9waL5yP1yBi8qcr5EtX3n]
+      status: ToBeAdded
+    569 => Vertex:
+      id: 569
+      center: V2d(4.31256788876175, -7.46883638387173)
+      shape: Disk(center = V2d(4.31256788876175, -7.46883638387173), radius = 0.125)
+      features :
+        id : [FinPpnUzaoQQjvsjdctnp1/35u98mS8TXgyA8G8kyVcBX]
+      status: ToBeAdded
+    1353 => Vertex:
+      id: 1353
+      center: V2d(-3.41445807327635, -2.94658916104267)
+      shape: Disk(center = V2d(-3.41445807327635, -2.94658916104267), radius = 0.2)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/47smoF8Dp2f8rtWuo4b3GG]
+      status: ToBeAdded
+    857 => Vertex:
+      id: 857
+      center: V2d(0.146339850678411, 2.49718211385117)
+      shape: Disk(center = V2d(0.146339850678411, 2.49718211385117), radius = 0.2)
+      features :
+        id : [3HXkBAHTNULm45sZfhwZ5m/2pWLPuqH6CGkqukZ3Qjcrs]
+      status: ToBeAdded
+    1881 => Vertex:
+      id: 1881
+      center: V2d(-13.255054903585, 8.14341620466882)
+      shape: Disk(center = V2d(-13.255054903585, 8.14341620466882), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/D2dKLQctQJsA745sXMHucr]
+      status: ToBeAdded
+    1641 => Vertex:
+      id: 1641
+      center: V2d(-9.19860666505302, 4.18447515945258)
+      shape: Disk(center = V2d(-9.19860666505302, 4.18447515945258), radius = 0.3935)
+      features :
+        id : [DXxxXc11GMaGHnTF1YF2f3/BkVJTz9sTQ6ZJ5oK8Wu5Q1]
+      status: ToBeAdded
+    633 => Vertex:
+      id: 633
+      center: V2d(3.14739758829545, -2.81014171027765)
+      shape: Disk(center = V2d(3.14739758829545, -2.81014171027765), radius = 0.2)
+      features :
+        id : [GAzxAf9ycAYuPGE1qCFe9K/9AXAf4TTKivtzq9Q1hLob4]
+      status: ToBeAdded
+    649 => Vertex:
+      id: 649
+      center: V2d(2.82914884557911, 3.11938407386481)
+      shape: Disk(center = V2d(2.82914884557911, 3.11938407386481), radius = 0.2)
+      features :
+        id : [ALCcC4NqAPpAXZez4bfCiJ/Fg2LhyZArKGdzo2PXZXuyC]
+      status: ToBeAdded
+    473 => Vertex:
+      id: 473
+      center: V2d(5.74559591162117, 7.65121986145184)
+      shape: Disk(center = V2d(5.74559591162117, 7.65121986145184), radius = 0.2)
+      features :
+        id : [FSgABi9pPsSZezWdFHSez5/3euSwonXtd6SEHFEShZZHP]
+      status: ToBeAdded
+    1753 => Vertex:
+      id: 1753
+      center: V2d(-13.2277485795964, 3.34908520720572)
+      shape: Disk(center = V2d(-13.2277485795964, 3.34908520720572), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/8hSJaBA9szcwuSGGeSc8Tm]
+      status: ToBeAdded
+    266 => Vertex:
+      id: 266
+      center: V2d(10.5797978289501, -1.09992950867306)
+      shape: Disk(center = V2d(10.5797978289501, -1.09992950867306), radius = 0.5)
+      features :
+        id : [6vQBoE1GsGHZZ6JY8capXG/CD3Defxwo8oC9oQeoJ9Ktq]
+      status: ToBeAdded
+    1290 => Vertex:
+      id: 1290
+      center: V2d(-3.00122468065115, 3.50310684370817)
+      shape: Disk(center = V2d(-3.00122468065115, 3.50310684370817), radius = 0.2)
+      features :
+        id : [3pC5XRFfGntJ8odwTDzGkf/AeMajD9arCT8QKtpAuRn75]
+      status: ToBeAdded
+    58 => Vertex:
+      id: 58
+      center: V2d(13.2119113605877, -3.19256392377444)
+      shape: Disk(center = V2d(13.2119113605877, -3.19256392377444), radius = 0.2)
+      features :
+        id : [2zxrKzTNy4B5gHXvjAsLU4/2nKBSiCrHh1jzD1UR1SGVj]
+      status: ToBeAdded
+    1594 => Vertex:
+      id: 1594
+      center: V2d(-8.71517566036733, -1.11546990599754)
+      shape: Disk(center = V2d(-8.71517566036733, -1.11546990599754), radius = 0.2)
+      features :
+        id : [6HKsGtiqajrMnb1JFcCFGk/7mSew3hRRavUnAe1fDQXSs]
+      status: ToBeAdded
+    842 => Vertex:
+      id: 842
+      center: V2d(0.35516479571083, -2.71008584718827)
+      shape: Disk(center = V2d(0.35516479571083, -2.71008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/Fq7VzGpiuJqXaX393yiST1]
+      status: ToBeAdded
+    138 => Vertex:
+      id: 138
+      center: V2d(12.6697832430252, 4.45608533618353)
+      shape: Disk(center = V2d(12.6697832430252, 4.45608533618353), radius = 0.2)
+      features :
+        id : [C1dUGNQ2HKgwiCR6fqkqoE/7eGBogPT99yjUKSnEWmJ8Z]
+      status: ToBeAdded
+    410 => Vertex:
+      id: 410
+      center: V2d(6.99865469473511, -5.49835125874509)
+      shape: Disk(center = V2d(6.99865469473511, -5.49835125874509), radius = 0.2)
+      features :
+        id : [Bkdsb5yH2HtXHhfP5Gnmjo/CWxaBesXVoN5sKBdHo43q1]
+      status: ToBeAdded
+    442 => Vertex:
+      id: 442
+      center: V2d(6.56249651399819, 5.47110349171166)
+      shape: Disk(center = V2d(6.56249651399819, 5.47110349171166), radius = 0.2)
+      features :
+        id : [A4AgD9AzJ2nRBHW9y6299T/DrUYkeSCaDMjj3ptoGrs4K]
+      status: ToBeAdded
+    954 => Vertex:
+      id: 954
+      center: V2d(-0.54483520428917, -3.16008584718827)
+      shape: Disk(center = V2d(-0.54483520428917, -3.16008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/2f51Kvryq6aqryJFEacdui]
+      status: ToBeAdded
+    1722 => Vertex:
+      id: 1722
+      center: V2d(-11.2489086074951, 6.77156289575056)
+      shape: Disk(center = V2d(-11.2489086074951, 6.77156289575056), radius = 0.2)
+      features :
+        id : [DXxxXc11GMaGHnTF1YF2f3/2g3xBqsajSEVy5vt3Zx5bG]
+      status: ToBeAdded
+    458 => Vertex:
+      id: 458
+      center: V2d(5.89513176815949, 6.9910190177838)
+      shape: Disk(center = V2d(5.89513176815949, 6.9910190177838), radius = 0.2)
+      features :
+        id : [A4AgD9AzJ2nRBHW9y6299T/CyeqdSjysmxeUnteEtusoy]
+      status: ToBeAdded
+    1482 => Vertex:
+      id: 1482
+      center: V2d(-5.7413084157869, -1.14989687849149)
+      shape: Disk(center = V2d(-5.7413084157869, -1.14989687849149), radius = 0.2)
+      features :
+        id : [GBYAZYDfjtAXwHnAGQ11ut/2yhyyJKUKcLvsM5Zg9eTaj]
+      status: ToBeAdded
+    218 => Vertex:
+      id: 218
+      center: V2d(11.7829979308026, -1.09992950867306)
+      shape: Disk(center = V2d(11.7829979308026, -1.09992950867306), radius = 0.5)
+      features :
+        id : [7TbnJEzqBwKcSRcyURrjEX/CD3Defxwo8oC9oQeoJ9Ktq]
+      status: ToBeAdded
+    730 => Vertex:
+      id: 730
+      center: V2d(1.25516479571083, -3.61008584718827)
+      shape: Disk(center = V2d(1.25516479571083, -3.61008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/4uKCmYR1DJYVjgSyy2E9ga]
+      status: ToBeAdded
+    1514 => Vertex:
+      id: 1514
+      center: V2d(-7.14577011779471, -9.00233393995507)
+      shape: Disk(center = V2d(-7.14577011779471, -9.00233393995507), radius = 0.2)
+      features :
+        id : [7hk7sc8Q6fzZ8XzmMiUS5M/DCEQXK45RmsXT8QTVwE2vR]
+      status: ToBeAdded
+    1530 => Vertex:
+      id: 1530
+      center: V2d(-7.42134020658461, 2.4501123671111)
+      shape: Disk(center = V2d(-7.42134020658461, 2.4501123671111), radius = 0.2)
+      features :
+        id : [25aokwRNHTKt4dJj4jEJoJ/72SSr23w12gP7ndhQFneGa]
+      status: ToBeAdded
+    1035 => Vertex:
+      id: 1035
+      center: V2d(-0.99483520428917, -3.16008584718827)
+      shape: Disk(center = V2d(-0.99483520428917, -3.16008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/4PQP5XTR9s1EHH2aiYZzzn]
+      status: ToBeAdded
+    1803 => Vertex:
+      id: 1803
+      center: V2d(-13.2464985803415, 5.54908529462586)
+      shape: Disk(center = V2d(-13.2464985803415, 5.54908529462586), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/F9tRRWetVkWWggAcQbQbef]
+      status: ToBeAdded
+    555 => Vertex:
+      id: 555
+      center: V2d(4.32291689607589, 6.48516805715319)
+      shape: Disk(center = V2d(4.32291689607589, 6.48516805715319), radius = 0.2)
+      features :
+        id : [FQkoXjMW9mhR3tcP1RGPUK/K1NkGDubGiMdXSLaZTa3B]
+      status: ToBeAdded
+    1371 => Vertex:
+      id: 1371
+      center: V2d(-3.80279659754265, -3.9492333972975)
+      shape: Disk(center = V2d(-3.80279659754265, -3.9492333972975), radius = 0.2)
+      features :
+        id : [A2u7NdnDnE6XFt3TyNKLHp/25HBwcWn93G6iTGhWRh6VX]
+      status: ToBeAdded
+    1659 => Vertex:
+      id: 1659
+      center: V2d(-9.78630190536571, -1.60146803859727)
+      shape: Disk(center = V2d(-9.78630190536571, -1.60146803859727), radius = 0.2)
+      features :
+        id : [6HKsGtiqajrMnb1JFcCFGk/5t52eTc3NMDbB6zUzbYekH]
+      status: ToBeAdded
+    395 => Vertex:
+      id: 395
+      center: V2d(7.06323553430746, 6.70031271445651)
+      shape: Disk(center = V2d(7.06323553430746, 6.70031271445651), radius = 0.125)
+      features :
+        id : [A4AgD9AzJ2nRBHW9y6299T/47ZoAXqekwSo7sXi6j5pYi]
+      status: ToBeAdded
+    1419 => Vertex:
+      id: 1419
+      center: V2d(-4.56525434792908, -9.01702264586693)
+      shape: Disk(center = V2d(-4.56525434792908, -9.01702264586693), radius = 0.2)
+      features :
+        id : [7hk7sc8Q6fzZ8XzmMiUS5M/E6G4rhjw9JQajjivXXSPP3]
+      status: ToBeAdded
+    427 => Vertex:
+      id: 427
+      center: V2d(6.66323553430746, 6.70031271445651)
+      shape: Disk(center = V2d(6.66323553430746, 6.70031271445651), radius = 0.125)
+      features :
+        id : [A4AgD9AzJ2nRBHW9y6299T/F7DDJZM1tej41cptXdCc4M]
+      status: ToBeAdded
+    939 => Vertex:
+      id: 939
+      center: V2d(-0.54483520428917, -3.61008584718827)
+      shape: Disk(center = V2d(-0.54483520428917, -3.61008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/GbDuXiUoE6dWLnnxrbCBFU]
+      status: ToBeAdded
+    1707 => Vertex:
+      id: 1707
+      center: V2d(-11.1925805721988, 5.45775552940921)
+      shape: Disk(center = V2d(-11.1925805721988, 5.45775552940921), radius = 0.2)
+      features :
+        id : [DXxxXc11GMaGHnTF1YF2f3/DyubpMBVDMKMthSbos1ezo]
+      status: ToBeAdded
+    203 => Vertex:
+      id: 203
+      center: V2d(11.8544755986441, 0.584902950367756)
+      shape: Disk(center = V2d(11.8544755986441, 0.584902950367756), radius = 0.125)
+      features :
+        id : [8gZnRd8Cb2X7FzBJcjKiwN/FXWyEa2rQ3YtKL4J8wnba9]
+      status: ToBeAdded
+    1499 => Vertex:
+      id: 1499
+      center: V2d(-6.32642588470327, 3.09050874257073)
+      shape: Disk(center = V2d(-6.32642588470327, 3.09050874257073), radius = 0.2)
+      features :
+        id : [5vtR75BZWkWGZ8CiqMSp3w/Ah71qTzPvxJkr9ugdK1euk]
+      status: ToBeAdded
+    1787 => Vertex:
+      id: 1787
+      center: V2d(-13.2464985803415, 6.56783533510735)
+      shape: Disk(center = V2d(-13.2464985803415, 6.56783533510735), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/2ZHFVNkdPBidkyy66toRMZ]
+      status: ToBeAdded
+    12 => Vertex:
+      id: 12
+      center: V2d(13.278498112217, 5.01307033777121)
+      shape: Disk(center = V2d(13.278498112217, 5.01307033777121), radius = 0.2)
+      features :
+        id : [C1dUGNQ2HKgwiCR6fqkqoE/5794ifGAcCQwWtdivWPRaf]
+      status: ToBeAdded
+    1324 => Vertex:
+      id: 1324
+      center: V2d(-3.25043108318014, -1.36579135047821)
+      shape: Disk(center = V2d(-3.25043108318014, -1.36579135047821), radius = 0.2)
+      features :
+        id : [94VNEw5PraYSGbbDtKsPoy/CGEZGWEttWXq2b7PAUPJWm]
+      status: ToBeAdded
+    1580 => Vertex:
+      id: 1580
+      center: V2d(-8.40040500783345, 6.73514758922009)
+      shape: Disk(center = V2d(-8.40040500783345, 6.73514758922009), radius = 0.2)
+      features :
+        id : [DXxxXc11GMaGHnTF1YF2f3/B91kMhNVHBsZ5esJtWqURC]
+      status: ToBeAdded
+    316 => Vertex:
+      id: 316
+      center: V2d(9.66510626344705, 1.08417275260514)
+      shape: Disk(center = V2d(9.66510626344705, 1.08417275260514), radius = 0.2)
+      features :
+        id : [7moLqAbuekQe6TpRwzoTMu/9F9ftCfDv9NeGpwBuy39oX]
+      status: ToBeAdded
+    76 => Vertex:
+      id: 76
+      center: V2d(13.2030725258229, -5.07523572868362)
+      shape: Disk(center = V2d(13.2030725258229, -5.07523572868362), radius = 0.2)
+      features :
+        id : [2zxrKzTNy4B5gHXvjAsLU4/DGZSmWDFmTowA4PGt9RvGR]
+      status: ToBeAdded
+    1116 => Vertex:
+      id: 1116
+      center: V2d(-1.44483520428917, -3.61008584718827)
+      shape: Disk(center = V2d(-1.44483520428917, -3.61008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/DTgno4dfGwJCZdrAAxeTcX]
+      status: ToBeAdded
+    876 => Vertex:
+      id: 876
+      center: V2d(-0.0948352042891695, -4.51008584718828)
+      shape: Disk(center = V2d(-0.0948352042891695, -4.51008584718828), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/5SkJ9Dqqnrom1GG89D74Ud]
+      status: ToBeAdded
+    1148 => Vertex:
+      id: 1148
+      center: V2d(-1.70582443379488, 4.71958634013404)
+      shape: Polygon([
+        V2d(-1.90582443379488, 3.84458634013404), 
+        V2d(-1.50582443379488, 3.84458634013404), 
+        V2d(-1.50582443379488, 5.59458634013404), 
+        V2d(-1.90582443379488, 5.59458634013404)])
+      features :
+        id : [3pC5XRFfGntJ8odwTDzGkf/D4YRvfGWhXj1Bcnnsnx3xa]
+      status: ToBeAdded
+    1436 => Vertex:
+      id: 1436
+      center: V2d(-5.08096905824381, -9.02268984048577)
+      shape: Disk(center = V2d(-5.08096905824381, -9.02268984048577), radius = 0.2)
+      features :
+        id : [7hk7sc8Q6fzZ8XzmMiUS5M/89ZF1HBMSsdbAwWnd5ga4F]
+      status: ToBeAdded
+    188 => Vertex:
+      id: 188
+      center: V2d(11.8544755986441, 1.08490295036776)
+      shape: Disk(center = V2d(11.8544755986441, 1.08490295036776), radius = 0.125)
+      features :
+        id : [8gZnRd8Cb2X7FzBJcjKiwN/17B455oY9MqwkEnEjiJHN3]
+      status: ToBeAdded
+    988 => Vertex:
+      id: 988
+      center: V2d(-0.72362043821399, -1.30981179194977)
+      shape: Disk(center = V2d(-0.72362043821399, -1.30981179194977), radius = 0.2)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/FCPzotrsBHKmzaLk2LcfET]
+      status: ToBeAdded
+    236 => Vertex:
+      id: 236
+      center: V2d(11.1744755986441, 1.58490295036776)
+      shape: Disk(center = V2d(11.1744755986441, 1.58490295036776), radius = 0.125)
+      features :
+        id : [8gZnRd8Cb2X7FzBJcjKiwN/77Gw91fh4gedzYQpkt6RZt]
+      status: ToBeAdded
+    1772 => Vertex:
+      id: 1772
+      center: V2d(-13.2417966509109, 7.62634435037957)
+      shape: Disk(center = V2d(-13.2417966509109, 7.62634435037957), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/PTUQg4marmgZxRT2hvQVm]
+      status: ToBeAdded
+    1020 => Vertex:
+      id: 1020
+      center: V2d(-0.994835204289169, -3.61008584718827)
+      shape: Disk(center = V2d(-0.994835204289169, -3.61008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/6uT6PGYCcPB3JW12ojDxBJ]
+      status: ToBeAdded
+    29 => Vertex:
+      id: 29
+      center: V2d(13.272248112217, 6.08807033777121)
+      shape: Disk(center = V2d(13.272248112217, 6.08807033777121), radius = 0.2)
+      features :
+        id : [C1dUGNQ2HKgwiCR6fqkqoE/9Vo8kvgFzxXuH5YWoftEwq]
+      status: ToBeAdded
+    541 => Vertex:
+      id: 541
+      center: V2d(4.66256788876175, -7.66883638387173)
+      shape: Disk(center = V2d(4.66256788876175, -7.66883638387173), radius = 0.125)
+      features :
+        id : [FinPpnUzaoQQjvsjdctnp1/4Er56WDLc62PuQN3gQ6WQW]
+      status: ToBeAdded
+    1565 => Vertex:
+      id: 1565
+      center: V2d(-8.09812111255475, 0.860460303826892)
+      shape: Disk(center = V2d(-8.09812111255475, 0.860460303826892), radius = 0.2)
+      features :
+        id : [4S2WaewMQhK9uzpNtGXNKa/8WQZMazwhuZ3G5z3B8jKgf]
+      status: ToBeAdded
+    813 => Vertex:
+      id: 813
+      center: V2d(0.369175566205121, 7.54458634013404)
+      shape: Polygon([
+        V2d(-0.230824433794879, 6.94458634013404), 
+        V2d(-0.227051759730825, 6.87740765447206), 
+        V2d(-0.215781181103973, 6.81107377976025), 
+        V2d(-0.1971544319799, 6.74641890296094), 
+        V2d(-0.171405754536331, 6.68425609666351), 
+        V2d(-0.13885895333185, 6.62536709422484), 
+        V2d(-0.0999233232756971, 6.5704924590188), 
+        V2d(-0.0550885025068078, 6.52032227142211), 
+        V2d(-0.0049183149101194, 6.47548745065322), 
+        V2d(0.0499563202959187, 6.43655182059707), 
+        V2d(0.108845322734586, 6.40400501939259), 
+        V2d(0.171008129032021, 6.37825634194902), 
+        V2d(0.235663005831332, 6.35962959282495), 
+        V2d(0.301996880543136, 6.3483590141981), 
+        V2d(0.369175566205121, 6.34458634013404), 
+        V2d(0.436354251867105, 6.3483590141981), 
+        V2d(0.502688126578909, 6.35962959282495), 
+        V2d(0.567343003378221, 6.37825634194902), 
+        V2d(0.629505809675656, 6.40400501939259), 
+        V2d(0.688394812114323, 6.43655182059707), 
+        V2d(0.743269447320361, 6.47548745065322), 
+        V2d(0.793439634917049, 6.52032227142211), 
+        V2d(0.838274455685939, 6.5704924590188), 
+        V2d(0.877210085742091, 6.62536709422484), 
+        V2d(0.909756886946572, 6.68425609666351), 
+        V2d(0.935505564390141, 6.74641890296094), 
+        V2d(0.954132313514215, 6.81107377976025), 
+        V2d(0.965402892141066, 6.87740765447206), 
+        V2d(0.969175566205121, 6.94458634013404), 
+        V2d(0.969175566205121, 8.14458634013404), 
+        V2d(0.965402892141066, 8.21176502579602), 
+        V2d(0.954132313514215, 8.27809890050783), 
+        V2d(0.935505564390141, 8.34275377730714), 
+        V2d(0.909756886946572, 8.40491658360457), 
+        V2d(0.877210085742091, 8.46380558604324), 
+        V2d(0.838274455685939, 8.51868022124928), 
+        V2d(0.793439634917049, 8.56885040884597), 
+        V2d(0.743269447320361, 8.61368522961486), 
+        V2d(0.688394812114323, 8.65262085967101), 
+        V2d(0.629505809675656, 8.68516766087549), 
+        V2d(0.567343003378221, 8.71091633831906), 
+        V2d(0.502688126578909, 8.72954308744314), 
+        V2d(0.436354251867105, 8.74081366606999), 
+        V2d(0.369175566205121, 8.74458634013404), 
+        V2d(0.301996880543136, 8.74081366606999), 
+        V2d(0.235663005831332, 8.72954308744314), 
+        V2d(0.171008129032021, 8.71091633831906), 
+        V2d(0.108845322734586, 8.68516766087549), 
+        V2d(0.049956320295919, 8.65262085967101), 
+        V2d(-0.00491831491011918, 8.61368522961486), 
+        V2d(-0.0550885025068076, 8.56885040884597), 
+        V2d(-0.0999233232756969, 8.51868022124928), 
+        V2d(-0.13885895333185, 8.46380558604324), 
+        V2d(-0.171405754536331, 8.40491658360457), 
+        V2d(-0.1971544319799, 8.34275377730714), 
+        V2d(-0.215781181103973, 8.27809890050783), 
+        V2d(-0.227051759730825, 8.21176502579602), 
+        V2d(-0.230824433794879, 8.14458634013404)])
+      features :
+        id : [3pC5XRFfGntJ8odwTDzGkf/E5gUATaq2nEKVuGK51xQEm]
+      status: ToBeAdded
+    1085 => Vertex:
+      id: 1085
+      center: V2d(-1.16855024490441, 1.18426912786282)
+      shape: Disk(center = V2d(-1.16855024490441, 1.18426912786282), radius = 0.2)
+      features :
+        id : [94VNEw5PraYSGbbDtKsPoy/5c8GVvr5RCG9VBqjLSR3RQ]
+      status: ToBeAdded
+    1613 => Vertex:
+      id: 1613
+      center: V2d(-8.81760666505302, 7.99447515945258)
+      shape: Disk(center = V2d(-8.81760666505302, 7.99447515945258), radius = 0.4955)
+      features :
+        id : [DXxxXc11GMaGHnTF1YF2f3/3wuQmJhpmHanDWBqsy9sKm]
+      status: ToBeAdded
+    93 => Vertex:
+      id: 93
+      center: V2d(13.1942336910581, -5.72047066651635)
+      shape: Disk(center = V2d(13.1942336910581, -5.72047066651635), radius = 0.2)
+      features :
+        id : [2zxrKzTNy4B5gHXvjAsLU4/9qjxDDa8a5bryMKQM9mP8d]
+      status: ToBeAdded
+    365 => Vertex:
+      id: 365
+      center: V2d(7.86323553430746, 6.70031271445651)
+      shape: Disk(center = V2d(7.86323553430746, 6.70031271445651), radius = 0.125)
+      features :
+        id : [A4AgD9AzJ2nRBHW9y6299T/Coqz7NfNDLyPc93XUuYxbv]
+      status: ToBeAdded
+    1389 => Vertex:
+      id: 1389
+      center: V2d(-4.19240298600215, 5.8360169136713)
+      shape: Disk(center = V2d(-4.19240298600215, 5.8360169136713), radius = 0.2)
+      features :
+        id : [3pC5XRFfGntJ8odwTDzGkf/C5G7LQFqTVzFJYTaBcP9Cd]
+      status: ToBeAdded
+    1693 => Vertex:
+      id: 1693
+      center: V2d(-10.468606665053, 4.18447515945258)
+      shape: Disk(center = V2d(-10.468606665053, 4.18447515945258), radius = 0.3935)
+      features :
+        id : [DXxxXc11GMaGHnTF1YF2f3/2A5sQCdSjhdb84C3zQeb54]
+      status: ToBeAdded
+    765 => Vertex:
+      id: 765
+      center: V2d(0.80516479571083, -3.61008584718827)
+      shape: Disk(center = V2d(0.80516479571083, -3.61008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/7nmSvcLZBg4wKh8VzzfGeS]
+      status: ToBeAdded
+    302 => Vertex:
+      id: 302
+      center: V2d(9.86102241467827, 7.53701709563355)
+      shape: Disk(center = V2d(9.86102241467827, 7.53701709563355), radius = 0.2)
+      features :
+        id : [74WpyX2rn35s8zr3ZuMDgU/Kf1pnMwsa4jjDg3NYVxSd]
+      status: ToBeAdded
+    574 => Vertex:
+      id: 574
+      center: V2d(4.31256788876175, -7.86883638387173)
+      shape: Disk(center = V2d(4.31256788876175, -7.86883638387173), radius = 0.125)
+      features :
+        id : [FinPpnUzaoQQjvsjdctnp1/8EzgzVGb5UqcasGLdMgn34]
+      status: ToBeAdded
+    334 => Vertex:
+      id: 334
+      center: V2d(9.60399965583057, 2.56650578288942)
+      shape: Disk(center = V2d(9.60399965583057, 2.56650578288942), radius = 0.2)
+      features :
+        id : [6p2ocdEtJ8ctriHDmNrKsp/EJvCBDrGQJUpQuaQX6QW5K]
+      status: ToBeAdded
+    590 => Vertex:
+      id: 590
+      center: V2d(3.95261159134381, -1.78987408877847)
+      shape: Disk(center = V2d(3.95261159134381, -1.78987408877847), radius = 0.2)
+      features :
+        id : [GAzxAf9ycAYuPGE1qCFe9K/9gkDUoDMBqipivP7e99LMk]
+      status: ToBeAdded
+    1870 => Vertex:
+      id: 1870
+      center: V2d(-13.2532243208947, 0.0949878627630982)
+      shape: Disk(center = V2d(-13.2532243208947, 0.0949878627630982), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/D22eRjTRLfcjjDvhi2k6SJ]
+      status: ToBeAdded
+    350 => Vertex:
+      id: 350
+      center: V2d(8.0387528626235, 3.74049538759744)
+      shape: Disk(center = V2d(8.0387528626235, 3.74049538759744), radius = 0.2)
+      features :
+        id : [A4AgD9AzJ2nRBHW9y6299T/DmCc5NPSPhapD1w3AABLcH]
+      status: ToBeAdded
+    894 => Vertex:
+      id: 894
+      center: V2d(-0.0948352042891696, -3.61008584718827)
+      shape: Disk(center = V2d(-0.0948352042891696, -3.61008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/7TcYpEATxKxtXrruyYxxdY]
+      status: ToBeAdded
+    910 => Vertex:
+      id: 910
+      center: V2d(-0.0948352042891697, -2.71008584718827)
+      shape: Disk(center = V2d(-0.0948352042891697, -2.71008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/5pmjN8ohthApjkrGC5MTZH]
+      status: ToBeAdded
+    1678 => Vertex:
+      id: 1678
+      center: V2d(-10.468606665053, 6.72447515945258)
+      shape: Disk(center = V2d(-10.468606665053, 6.72447515945258), radius = 0.3935)
+      features :
+        id : [DXxxXc11GMaGHnTF1YF2f3/43prucKBe67F7SVtCZrY64]
+      status: ToBeAdded
+    1182 => Vertex:
+      id: 1182
+      center: V2d(-1.75625018092879, 0.61456222327996)
+      shape: Disk(center = V2d(-1.75625018092879, 0.61456222327996), radius = 0.5)
+      features :
+        id : [BoxJVQDokFs2S8avTkodvT/CD3Defxwo8oC9oQeoJ9Ktq]
+      status: ToBeAdded
+    1454 => Vertex:
+      id: 1454
+      center: V2d(-5.52301826513844, 3.25411805969031)
+      shape: Disk(center = V2d(-5.52301826513844, 3.25411805969031), radius = 0.2)
+      features :
+        id : [BFm46vTbqDZxYp3mLsXYYq/81DkCEPie8neu9kiJ2nytJ]
+      status: ToBeAdded
+    1214 => Vertex:
+      id: 1214
+      center: V2d(-2.34483520428917, -4.96008584718827)
+      shape: Disk(center = V2d(-2.34483520428917, -4.96008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/8iaeL4cgcmr6xCUjS4dTZL]
+      status: ToBeAdded
+    1230 => Vertex:
+      id: 1230
+      center: V2d(-2.64233520428917, -6.96758584718827)
+      shape: Disk(center = V2d(-2.64233520428917, -6.96758584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/CL2KjVx4rYTSXNRWuAW19P]
+      status: ToBeAdded
+    510 => Vertex:
+      id: 510
+      center: V2d(5.10075870742921, 5.22197904147752)
+      shape: Disk(center = V2d(5.10075870742921, 5.22197904147752), radius = 0.2)
+      features :
+        id : [BUL6JmbRyqBANBMtPpoW2o/CFFxfkVD37Xe6KXwWwHw1j]
+      status: ToBeAdded
+    527 => Vertex:
+      id: 527
+      center: V2d(5.01256788876175, -7.86883638387173)
+      shape: Disk(center = V2d(5.01256788876175, -7.86883638387173), radius = 0.125)
+      features :
+        id : [FinPpnUzaoQQjvsjdctnp1/4W9fFEnq7Ysd6qZNWtLMd7]
+      status: ToBeAdded
+    783 => Vertex:
+      id: 783
+      center: V2d(0.782412105470458, 3.11804862806386)
+      shape: Disk(center = V2d(0.782412105470458, 3.11804862806386), radius = 0.5)
+      features :
+        id : [8XcoftfePPzJsUD6RH6DdS/CD3Defxwo8oC9oQeoJ9Ktq]
+      status: ToBeAdded
+    1551 => Vertex:
+      id: 1551
+      center: V2d(-8.02375735679926, 3.03286987533822)
+      shape: Disk(center = V2d(-8.02375735679926, 3.03286987533822), radius = 0.5)
+      features :
+        id : [25aokwRNHTKt4dJj4jEJoJ/CD3Defxwo8oC9oQeoJ9Ktq]
+      status: ToBeAdded
+    47 => Vertex:
+      id: 47
+      center: V2d(13.2207501953526, -2.05235423911114)
+      shape: Disk(center = V2d(13.2207501953526, -2.05235423911114), radius = 0.2)
+      features :
+        id : [2zxrKzTNy4B5gHXvjAsLU4/DfMfBwwQ7nSJx65RbMjGqG]
+      status: ToBeAdded
+    607 => Vertex:
+      id: 607
+      center: V2d(3.39906678763273, 3.63332913320667)
+      shape: Disk(center = V2d(3.39906678763273, 3.63332913320667), radius = 0.2)
+      features :
+        id : [CNPi64G5tDVrRKw2uewDLu/7aVUigwTmcgKz1tymLmCJk]
+      status: ToBeAdded
+    1631 => Vertex:
+      id: 1631
+      center: V2d(-9.19860666505302, 5.45447515945258)
+      shape: Disk(center = V2d(-9.19860666505302, 5.45447515945258), radius = 0.3935)
+      features :
+        id : [DXxxXc11GMaGHnTF1YF2f3/FzT3gKjuRn7wsAsdRLx948]
+      status: ToBeAdded
+    383 => Vertex:
+      id: 383
+      center: V2d(7.80689916580093, -3.63823392821029)
+      shape: Disk(center = V2d(7.80689916580093, -3.63823392821029), radius = 0.2)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/6Wf6wp8FutRXkHs41x4SKH]
+      status: ToBeAdded
+    1919 => Vertex:
+      id: 1919
+      center: V2d(-13.259474321143, -2.51751224104832)
+      shape: Disk(center = V2d(-13.259474321143, -2.51751224104832), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/DxjJyGzpGLvCb6UKfmb2YC]
+      status: ToBeAdded
+    927 => Vertex:
+      id: 927
+      center: V2d(-0.464555742922876, -0.369074722631971)
+      shape: Disk(center = V2d(-0.464555742922876, -0.369074722631971), radius = 0.2)
+      features :
+        id : [A7E7JQGJi76Q379kmQsfXo/BBAdxH8XmySMXYwMeRf2NS]
+      status: ToBeAdded
+    687 => Vertex:
+      id: 687
+      center: V2d(1.98561220732288, 3.11804862806386)
+      shape: Disk(center = V2d(1.98561220732288, 3.11804862806386), radius = 0.5)
+      features :
+        id : [ALCcC4NqAPpAXZez4bfCiJ/CD3Defxwo8oC9oQeoJ9Ktq]
+      status: ToBeAdded
+    703 => Vertex:
+      id: 703
+      center: V2d(1.69143423452775, -5.86771697009515)
+      shape: Disk(center = V2d(1.69143423452775, -5.86771697009515), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/FWad1M9GFW5fTggo34mYtf]
+      status: ToBeAdded
+    1471 => Vertex:
+      id: 1471
+      center: V2d(-5.60904659754265, -4.65604041724435)
+      shape: Disk(center = V2d(-5.60904659754265, -4.65604041724435), radius = 0.2)
+      features :
+        id : [A2u7NdnDnE6XFt3TyNKLHp/GLjq7SAYZaayUnj9h11Tpx]
+      status: ToBeAdded
+    1247 => Vertex:
+      id: 1247
+      center: V2d(-2.68618774726431, 2.53115077609503)
+      shape: Disk(center = V2d(-2.68618774726431, 2.53115077609503), radius = 0.2)
+      features :
+        id : [Fk4KVTWQNebJjtDMk9Q5mY/28EVVLkETLcgYNv12a8KpK]
+      status: ToBeAdded
+    1759 => Vertex:
+      id: 1759
+      center: V2d(-13.2402485800931, 4.46158525141249)
+      shape: Disk(center = V2d(-13.2402485800931, 4.46158525141249), radius = 0.2)
+      features :
+        id : [7Kp2x9kdAtzt3zYzXnStUw/7DUbtGzExv2D1fcSrTru75]
+      status: ToBeAdded
+    751 => Vertex:
+      id: 751
+      center: V2d(1.25516479571083, -2.71008584718827)
+      shape: Disk(center = V2d(1.25516479571083, -2.71008584718827), radius = 0.125)
+      features :
+        id : [F1P9sLfUJXXSMvevxq52FN/BVDQK7WT77a3tp4kaqCsjg]
+      status: ToBeAdded
+  vertex-groups: PTable:
+    0 => VertexGroup:
+      id: 0
+      vertices :
+        2
+      shape: Disk(center = V2d(13.334748112217, 8.74432033777121), radius = 0.2)
+      status: ToBeAdded
+    16 => VertexGroup:
+      id: 16
+      vertices :
+        83
+      shape: Disk(center = V2d(13.2030725258229, -2.61803966406037), radius = 0.2)
+      status: ToBeAdded
+    32 => VertexGroup:
+      id: 32
+      vertices :
+        281
+      shape: Disk(center = V2d(10.2753186451653, -0.0834968900605917), radius = 0.2)
+      status: ToBeAdded
+    48 => VertexGroup:
+      id: 48
+      vertices :
+        410
+      shape: Disk(center = V2d(6.99865469473511, -5.49835125874509), radius = 0.2)
+      status: ToBeAdded
+    64 => VertexGroup:
+      id: 64
+      vertices :
+        532
+      shape: Disk(center = V2d(4.66873681722388, -6.86937078847962), radius = 0.2)
+      status: ToBeAdded
+    80 => VertexGroup:
+      id: 80
+      vertices :
+        657
+      shape: Disk(center = V2d(2.80646524324374, -6.00833574974765), radius = 0.2)
+      status: ToBeAdded
+    96 => VertexGroup:
+      id: 96
+      vertices :
+        777
+      shape: Disk(center = V2d(0.80516479571083, -2.71008584718827), radius = 0.125)
+      status: ToBeAdded
+    112 => VertexGroup:
+      id: 112
+      vertices :
+        918
+      shape: Disk(center = V2d(-0.113320516518016, -8.59589087802543), radius = 0.2)
+      status: ToBeAdded
+    128 => VertexGroup:
+      id: 128
+      vertices :
+        1062
+      shape: PolygonWithHoles(
+        Polygon([
+          V2d(-1.25582443379488, 3.84458634013404), 
+          V2d(-0.855824433794879, 3.84458634013404), 
+          V2d(-0.855824433794879, 5.59458634013404), 
+          V2d(-1.25582443379488, 5.59458634013404)]),
+        [])
+      status: ToBeAdded
+    144 => VertexGroup:
+      id: 144
+      vertices :
+        1214
+      shape: Disk(center = V2d(-2.34483520428917, -4.96008584718827), radius = 0.125)
+      status: ToBeAdded
+    160 => VertexGroup:
+      id: 160
+      vertices :
+        1344
+      shape: Disk(center = V2d(-3.36743555135059, -5.11080316659347), radius = 0.2)
+      status: ToBeAdded
+    176 => VertexGroup:
+      id: 176
+      vertices :
+        1493
+      shape: Disk(center = V2d(-6.11239847887328, -9.0000210620104), radius = 0.2)
+      status: ToBeAdded
+    192 => VertexGroup:
+      id: 192
+      vertices :
+        1613
+      shape: Disk(center = V2d(-8.81760666505302, 7.99447515945258), radius = 0.4955)
+      status: ToBeAdded
+    208 => VertexGroup:
+      id: 208
+      vertices :
+        1745
+      shape: Disk(center = V2d(-13.2195379011515, 2.72837450442224), radius = 0.2)
+      status: ToBeAdded
+    224 => VertexGroup:
+      id: 224
+      vertices :
+        1876
+      shape: Disk(center = V2d(-13.2532243208947, -0.942512178463446), radius = 0.2)
+      status: ToBeAdded
+    1 => VertexGroup:
+      id: 1
+      vertices :
+        3
+      shape: Disk(center = V2d(13.315998112217, 8.21932033777121), radius = 0.2)
+      status: ToBeAdded
+    17 => VertexGroup:
+      id: 17
+      vertices :
+        93
+      shape: Disk(center = V2d(13.1942336910581, -5.72047066651635), radius = 0.2)
+      status: ToBeAdded
+    33 => VertexGroup:
+      id: 33
+      vertices :
+        289
+      shape: Disk(center = V2d(10.0755706968094, 2.8915292090503), radius = 0.2)
+      status: ToBeAdded
+    49 => VertexGroup:
+      id: 49
+      vertices :
+        420
+      shape: Disk(center = V2d(6.67013176815949, 7.7175815177838), radius = 0.2)
+      status: ToBeAdded
+    65 => VertexGroup:
+      id: 65
+      vertices :
+        541
+      shape: Disk(center = V2d(4.66256788876175, -7.66883638387173), radius = 0.125)
+      status: ToBeAdded
+    81 => VertexGroup:
+      id: 81
+      vertices :
+        664
+      shape: Disk(center = V2d(2.20041952001784, 0.682176923661114), radius = 0.2)
+      status: ToBeAdded
+    97 => VertexGroup:
+      id: 97
+      vertices :
+        783
+      shape: Disk(center = V2d(0.782412105470458, 3.11804862806386), radius = 0.5)
+      status: ToBeAdded
+    113 => VertexGroup:
+      id: 113
+      vertices :
+        927
+      shape: Disk(center = V2d(-0.464555742922876, -0.369074722631971), radius = 0.2)
+      status: ToBeAdded
+    129 => VertexGroup:
+      id: 129
+      vertices :
+        1072
+      shape: Disk(center = V2d(-1.15134251822758, 2.27541927430855), radius = 0.2)
+      status: ToBeAdded
+    145 => VertexGroup:
+      id: 145
+      vertices :
+        1224
+      shape: PolygonWithHoles(
+        Polygon([
+          V2d(-2.55582443379488, 3.84458634013404), 
+          V2d(-2.15582443379488, 3.84458634013404), 
+          V2d(-2.15582443379488, 5.59458634013404), 
+          V2d(-2.55582443379488, 5.59458634013404)]),
+        [])
+      status: ToBeAdded
+    161 => VertexGroup:
+      id: 161
+      vertices :
+        1353
+      shape: Disk(center = V2d(-3.41445807327635, -2.94658916104267), radius = 0.2)
+      status: ToBeAdded
+    177 => VertexGroup:
+      id: 177
+      vertices :
+        1499
+      shape: Disk(center = V2d(-6.32642588470327, 3.09050874257073), radius = 0.2)
+      status: ToBeAdded
+    193 => VertexGroup:
+      id: 193
+      vertices :
+        1623
+      shape: Disk(center = V2d(-9.19860666505302, 6.72447515945258), radius = 0.3935)
+      status: ToBeAdded
+    209 => VertexGroup:
+      id: 209
+      vertices :
+        1753
+      shape: Disk(center = V2d(-13.2277485795964, 3.34908520720572), radius = 0.2)
+      status: ToBeAdded
+    225 => VertexGroup:
+      id: 225
+      vertices :
+        1881
+      shape: Disk(center = V2d(-13.255054903585, 8.14341620466882), radius = 0.2)
+      status: ToBeAdded
+    2 => VertexGroup:
+      id: 2
+      vertices :
+        4
+      shape: Disk(center = V2d(13.303498112217, 7.68807033777121), radius = 0.2)
+      status: ToBeAdded
+    18 => VertexGroup:
+      id: 18
+      vertices :
+        98
+      shape: Disk(center = V2d(13.1942336910581, -6.40989977817323), radius = 0.2)
+      status: ToBeAdded
+    34 => VertexGroup:
+      id: 34
+      vertices :
+        296
+      shape: Disk(center = V2d(9.95101608311837, 6.16156479474414), radius = 0.2)
+      status: ToBeAdded
+    50 => VertexGroup:
+      id: 50
+      vertices :
+        427
+      shape: Disk(center = V2d(6.66323553430746, 6.70031271445651), radius = 0.125)
+      status: ToBeAdded
+    66 => VertexGroup:
+      id: 66
+      vertices :
+        546
+      shape: Disk(center = V2d(4.35434303974333, -3.61693385773458), radius = 0.2)
+      status: ToBeAdded
+    82 => VertexGroup:
+      id: 82
+      vertices :
+        673
+      shape: Disk(center = V2d(2.15516479571083, -3.61008584718827), radius = 0.125)
+      status: ToBeAdded
+    98 => VertexGroup:
+      id: 98
+      vertices :
+        793
+      shape: Disk(center = V2d(0.773039038786132, 2.27557991343882), radius = 0.2)
+      status: ToBeAdded
+    114 => VertexGroup:
+      id: 114
+      vertices :
+        939
+      shape: Disk(center = V2d(-0.54483520428917, -3.61008584718827), radius = 0.125)
+      status: ToBeAdded
+    130 => VertexGroup:
+      id: 130
+      vertices :
+        1085
+      shape: Disk(center = V2d(-1.16855024490441, 1.18426912786282), radius = 0.2)
+      status: ToBeAdded
+    146 => VertexGroup:
+      id: 146
+      vertices :
+        1230
+      shape: Disk(center = V2d(-2.64233520428917, -6.96758584718827), radius = 0.125)
+      status: ToBeAdded
+    162 => VertexGroup:
+      id: 162
+      vertices :
+        1361
+      shape: PolygonWithHoles(
+        Polygon([
+          V2d(-3.85582443379488, 3.84458634013404), 
+          V2d(-3.45582443379488, 3.84458634013404), 
+          V2d(-3.45582443379488, 5.59458634013404), 
+          V2d(-3.85582443379488, 5.59458634013404)]),
+        [])
+      status: ToBeAdded
+    178 => VertexGroup:
+      id: 178
+      vertices :
+        1507
+      shape: Disk(center = V2d(-6.62722181017056, -9.00233393995507), radius = 0.2)
+      status: ToBeAdded
+    194 => VertexGroup:
+      id: 194
+      vertices :
+        1631
+      shape: Disk(center = V2d(-9.19860666505302, 5.45447515945258), radius = 0.3935)
+      status: ToBeAdded
+    210 => VertexGroup:
+      id: 210
+      vertices :
+        1759
+      shape: Disk(center = V2d(-13.2402485800931, 4.46158525141249), radius = 0.2)
+      status: ToBeAdded
+    226 => VertexGroup:
+      id: 226
+      vertices :
+        1893
+      shape: Disk(center = V2d(-13.259474321143, 0.626237883873075), radius = 0.2)
+      status: ToBeAdded
+    3 => VertexGroup:
+      id: 3
+      vertices :
+        8
+      shape: Disk(center = V2d(13.290998112217, 7.15682033777121), radius = 0.2)
+      status: ToBeAdded
+    19 => VertexGroup:
+      id: 19
+      vertices :
+        102
+      shape: Disk(center = V2d(13.0361673170516, 0.962130638496421), radius = 0.2)
+      status: ToBeAdded
+    35 => VertexGroup:
+      id: 35
+      vertices :
+        302
+      shape: Disk(center = V2d(9.86102241467827, 7.53701709563355), radius = 0.2)
+      status: ToBeAdded
+    51 => VertexGroup:
+      id: 51
+      vertices :
+        435
+      shape: Disk(center = V2d(6.66323553430746, 6.30031271445651), radius = 0.125)
+      status: ToBeAdded
+    67 => VertexGroup:
+      id: 67
+      vertices :
+        555
+      shape: Disk(center = V2d(4.32291689607589, 6.48516805715319), radius = 0.2)
+      status: ToBeAdded
+    83 => VertexGroup:
+      id: 83
+      vertices :
+        680
+      shape: Disk(center = V2d(2.15516479571083, -1.81008584718827), radius = 0.125)
+      status: ToBeAdded
+    99 => VertexGroup:
+      id: 99
+      vertices :
+        803
+      shape: Disk(center = V2d(0.705109674832937, 0.756422205459355), radius = 0.2)
+      status: ToBeAdded
+    115 => VertexGroup:
+      id: 115
+      vertices :
+        948
+      shape: Disk(center = V2d(-0.54483520428917, -4.06008584718827), radius = 0.125)
+      status: ToBeAdded
+    131 => VertexGroup:
+      id: 131
+      vertices :
+        1096
+      shape: PolygonWithHoles(
+        Polygon([
+          V2d(-0.680824433794879, 9.04458634013404), 
+          V2d(-2.10582443379488, 9.04458634013404), 
+          V2d(-2.10582443379488, 6.54458634013404), 
+          V2d(-0.680824433794879, 6.54458634013404)]),
+        [])
+      status: ToBeAdded
+    147 => VertexGroup:
+      id: 147
+      vertices :
+        1238
+      shape: Disk(center = V2d(-2.66997731016558, 2.99336670423801), radius = 0.2)
+      status: ToBeAdded
+    163 => VertexGroup:
+      id: 163
+      vertices :
+        1371
+      shape: Disk(center = V2d(-3.80279659754265, -3.9492333972975), radius = 0.2)
+      status: ToBeAdded
+    179 => VertexGroup:
+      id: 179
+      vertices :
+        1514
+      shape: Disk(center = V2d(-7.14577011779471, -9.00233393995507), radius = 0.2)
+      status: ToBeAdded
+    195 => VertexGroup:
+      id: 195
+      vertices :
+        1641
+      shape: Disk(center = V2d(-9.19860666505302, 4.18447515945258), radius = 0.3935)
+      status: ToBeAdded
+    211 => VertexGroup:
+      id: 211
+      vertices :
+        1765
+      shape: Disk(center = V2d(-13.2402485800931, 3.9053352293091), radius = 0.2)
+      status: ToBeAdded
+    227 => VertexGroup:
+      id: 227
+      vertices :
+        1904
+      shape: Disk(center = V2d(-13.259474321143, -0.423762157850174), radius = 0.2)
+      status: ToBeAdded
+    4 => VertexGroup:
+      id: 4
+      vertices :
+        12
+      shape: Disk(center = V2d(13.278498112217, 5.01307033777121), radius = 0.2)
+      status: ToBeAdded
+    20 => VertexGroup:
+      id: 20
+      vertices :
+        116
+      shape: Disk(center = V2d(12.7052824324955, 1.34603966043023), radius = 0.2)
+      status: ToBeAdded
+    36 => VertexGroup:
+      id: 36
+      vertices :
+        309
+      shape: Disk(center = V2d(9.74319527150949, 1.76457777653424), radius = 0.2)
+      status: ToBeAdded
+    52 => VertexGroup:
+      id: 52
+      vertices :
+        442
+      shape: Disk(center = V2d(6.56249651399819, 5.47110349171166), radius = 0.2)
+      status: ToBeAdded
+    68 => VertexGroup:
+      id: 68
+      vertices :
+        563
+      shape: Disk(center = V2d(4.31256788876175, -7.06883638387173), radius = 0.125)
+      status: ToBeAdded
+    84 => VertexGroup:
+      id: 84
+      vertices :
+        687
+      shape: Disk(center = V2d(1.98561220732288, 3.11804862806386), radius = 0.5)
+      status: ToBeAdded
+    100 => VertexGroup:
+      id: 100
+      vertices :
+        813
+      shape: PolygonWithHoles(
+        Polygon([
+          V2d(-0.230824433794879, 6.94458634013404), 
+          V2d(-0.227051759730825, 6.87740765447206), 
+          V2d(-0.215781181103973, 6.81107377976025), 
+          V2d(-0.1971544319799, 6.74641890296094), 
+          V2d(-0.171405754536331, 6.68425609666351), 
+          V2d(-0.13885895333185, 6.62536709422484), 
+          V2d(-0.0999233232756971, 6.5704924590188), 
+          V2d(-0.0550885025068078, 6.52032227142211), 
+          V2d(-0.0049183149101194, 6.47548745065322), 
+          V2d(0.0499563202959187, 6.43655182059707), 
+          V2d(0.108845322734586, 6.40400501939259), 
+          V2d(0.171008129032021, 6.37825634194902), 
+          V2d(0.235663005831332, 6.35962959282495), 
+          V2d(0.301996880543136, 6.3483590141981), 
+          V2d(0.369175566205121, 6.34458634013404), 
+          V2d(0.436354251867105, 6.3483590141981), 
+          V2d(0.502688126578909, 6.35962959282495), 
+          V2d(0.567343003378221, 6.37825634194902), 
+          V2d(0.629505809675656, 6.40400501939259), 
+          V2d(0.688394812114323, 6.43655182059707), 
+          V2d(0.743269447320361, 6.47548745065322), 
+          V2d(0.793439634917049, 6.52032227142211), 
+          V2d(0.838274455685939, 6.5704924590188), 
+          V2d(0.877210085742091, 6.62536709422484), 
+          V2d(0.909756886946572, 6.68425609666351), 
+          V2d(0.935505564390141, 6.74641890296094), 
+          V2d(0.954132313514215, 6.81107377976025), 
+          V2d(0.965402892141066, 6.87740765447206), 
+          V2d(0.969175566205121, 6.94458634013404), 
+          V2d(0.969175566205121, 8.14458634013404), 
+          V2d(0.965402892141066, 8.21176502579602), 
+          V2d(0.954132313514215, 8.27809890050783), 
+          V2d(0.935505564390141, 8.34275377730714), 
+          V2d(0.909756886946572, 8.40491658360457), 
+          V2d(0.877210085742091, 8.46380558604324), 
+          V2d(0.838274455685939, 8.51868022124928), 
+          V2d(0.793439634917049, 8.56885040884597), 
+          V2d(0.743269447320361, 8.61368522961486), 
+          V2d(0.688394812114323, 8.65262085967101), 
+          V2d(0.629505809675656, 8.68516766087549), 
+          V2d(0.567343003378221, 8.71091633831906), 
+          V2d(0.502688126578909, 8.72954308744314), 
+          V2d(0.436354251867105, 8.74081366606999), 
+          V2d(0.369175566205121, 8.74458634013404), 
+          V2d(0.301996880543136, 8.74081366606999), 
+          V2d(0.235663005831332, 8.72954308744314), 
+          V2d(0.171008129032021, 8.71091633831906), 
+          V2d(0.108845322734586, 8.68516766087549), 
+          V2d(0.049956320295919, 8.65262085967101), 
+          V2d(-0.00491831491011918, 8.61368522961486), 
+          V2d(-0.0550885025068076, 8.56885040884597), 
+          V2d(-0.0999233232756969, 8.51868022124928), 
+          V2d(-0.13885895333185, 8.46380558604324), 
+          V2d(-0.171405754536331, 8.40491658360457), 
+          V2d(-0.1971544319799, 8.34275377730714), 
+          V2d(-0.215781181103973, 8.27809890050783), 
+          V2d(-0.227051759730825, 8.21176502579602), 
+          V2d(-0.230824433794879, 8.14458634013404)]),
+        [])
+      status: ToBeAdded
+    116 => VertexGroup:
+      id: 116
+      vertices :
+        954
+      shape: Disk(center = V2d(-0.54483520428917, -3.16008584718827), radius = 0.125)
+      status: ToBeAdded
+    132 => VertexGroup:
+      id: 132
+      vertices :
+        1106
+      shape: Disk(center = V2d(-1.44483520428917, -3.16008584718827), radius = 0.125)
+      status: ToBeAdded
+    148 => VertexGroup:
+      id: 148
+      vertices :
+        1247
+      shape: Disk(center = V2d(-2.68618774726431, 2.53115077609503), radius = 0.2)
+      status: ToBeAdded
+    164 => VertexGroup:
+      id: 164
+      vertices :
+        1379
+      shape: Disk(center = V2d(-4.03820524837666, -9.00568825662924), radius = 0.2)
+      status: ToBeAdded
+    180 => VertexGroup:
+      id: 180
+      vertices :
+        1521
+      shape: Disk(center = V2d(-7.17163035372049, 0.499107697188495), radius = 0.2)
+      status: ToBeAdded
+    196 => VertexGroup:
+      id: 196
+      vertices :
+        1650
+      shape: Disk(center = V2d(-9.5296565122107, -2.29689870517842), radius = 0.2)
+      status: ToBeAdded
+    212 => VertexGroup:
+      id: 212
+      vertices :
+        1772
+      shape: Disk(center = V2d(-13.2417966509109, 7.62634435037957), radius = 0.2)
+      status: ToBeAdded
+    228 => VertexGroup:
+      id: 228
+      vertices :
+        1911
+      shape: Disk(center = V2d(-13.259474321143, -1.9925122201867), radius = 0.2)
+      status: ToBeAdded
+    5 => VertexGroup:
+      id: 5
+      vertices :
+        17
+      shape: Disk(center = V2d(13.272248112217, 4.48807033777121), radius = 0.2)
+      status: ToBeAdded
+    21 => VertexGroup:
+      id: 21
+      vertices :
+        138
+      shape: Disk(center = V2d(12.6697832430252, 4.45608533618353), radius = 0.2)
+      status: ToBeAdded
+    37 => VertexGroup:
+      id: 37
+      vertices :
+        316
+      shape: Disk(center = V2d(9.66510626344705, 1.08417275260514), radius = 0.2)
+      status: ToBeAdded
+    53 => VertexGroup:
+      id: 53
+      vertices :
+        452
+      shape: Disk(center = V2d(6.23658346131659, -3.16997692423501), radius = 0.2)
+      status: ToBeAdded
+    69 => VertexGroup:
+      id: 69
+      vertices :
+        569
+      shape: Disk(center = V2d(4.31256788876175, -7.46883638387173), radius = 0.125)
+      status: ToBeAdded
+    85 => VertexGroup:
+      id: 85
+      vertices :
+        695
+      shape: Disk(center = V2d(1.70516479571083, -2.71008584718827), radius = 0.125)
+      status: ToBeAdded
+    101 => VertexGroup:
+      id: 101
+      vertices :
+        823
+      shape: Disk(center = V2d(0.35516479571083, -4.51008584718828), radius = 0.125)
+      status: ToBeAdded
+    117 => VertexGroup:
+      id: 117
+      vertices :
+        961
+      shape: Disk(center = V2d(-0.54483520428917, -2.71008584718827), radius = 0.125)
+      status: ToBeAdded
+    133 => VertexGroup:
+      id: 133
+      vertices :
+        1116
+      shape: Disk(center = V2d(-1.44483520428917, -3.61008584718827), radius = 0.125)
+      status: ToBeAdded
+    149 => VertexGroup:
+      id: 149
+      vertices :
+        1256
+      shape: Disk(center = V2d(-2.79483520428917, -4.06008584718827), radius = 0.125)
+      status: ToBeAdded
+    165 => VertexGroup:
+      id: 165
+      vertices :
+        1389
+      shape: Disk(center = V2d(-4.19240298600215, 5.8360169136713), radius = 0.2)
+      status: ToBeAdded
+    181 => VertexGroup:
+      id: 181
+      vertices :
+        1530
+      shape: Disk(center = V2d(-7.42134020658461, 2.4501123671111), radius = 0.2)
+      status: ToBeAdded
+    197 => VertexGroup:
+      id: 197
+      vertices :
+        1659
+      shape: Disk(center = V2d(-9.78630190536571, -1.60146803859727), radius = 0.2)
+      status: ToBeAdded
+    213 => VertexGroup:
+      id: 213
+      vertices :
+        1779
+      shape: Disk(center = V2d(-13.2464985803415, 7.10533535646567), radius = 0.2)
+      status: ToBeAdded
+    229 => VertexGroup:
+      id: 229
+      vertices :
+        1919
+      shape: Disk(center = V2d(-13.259474321143, -2.51751224104832), radius = 0.2)
+      status: ToBeAdded
+    6 => VertexGroup:
+      id: 6
+      vertices :
+        22
+      shape: Disk(center = V2d(13.272248112217, 6.63182033777121), radius = 0.2)
+      status: ToBeAdded
+    22 => VertexGroup:
+      id: 22
+      vertices :
+        150
+      shape: Disk(center = V2d(12.1944755986441, 0.834902950367756), radius = 0.125)
+      status: ToBeAdded
+    38 => VertexGroup:
+      id: 38
+      vertices :
+        324
+      shape: Disk(center = V2d(9.66103437242491, -0.872388946276017), radius = 0.2)
+      status: ToBeAdded
+    54 => VertexGroup:
+      id: 54
+      vertices :
+        458
+      shape: Disk(center = V2d(5.89513176815949, 6.9910190177838), radius = 0.2)
+      status: ToBeAdded
+    70 => VertexGroup:
+      id: 70
+      vertices :
+        574
+      shape: Disk(center = V2d(4.31256788876175, -7.86883638387173), radius = 0.125)
+      status: ToBeAdded
+    86 => VertexGroup:
+      id: 86
+      vertices :
+        703
+      shape: Disk(center = V2d(1.69143423452775, -5.86771697009515), radius = 0.125)
+      status: ToBeAdded
+    102 => VertexGroup:
+      id: 102
+      vertices :
+        833
+      shape: Disk(center = V2d(0.35516479571083, -4.06008584718827), radius = 0.125)
+      status: ToBeAdded
+    118 => VertexGroup:
+      id: 118
+      vertices :
+        968
+      shape: Disk(center = V2d(-0.553049959867085, 1.81776232513238), radius = 0.5)
+      status: ToBeAdded
+    134 => VertexGroup:
+      id: 134
+      vertices :
+        1122
+      shape: Disk(center = V2d(-1.44483520428917, -4.06008584718827), radius = 0.125)
+      status: ToBeAdded
+    150 => VertexGroup:
+      id: 150
+      vertices :
+        1266
+      shape: Disk(center = V2d(-2.79483520428917, -4.96008584718827), radius = 0.125)
+      status: ToBeAdded
+    166 => VertexGroup:
+      id: 166
+      vertices :
+        1399
+      shape: Disk(center = V2d(-4.24634020658461, 1.8313623671111), radius = 0.2)
+      status: ToBeAdded
+    182 => VertexGroup:
+      id: 182
+      vertices :
+        1537
+      shape: Disk(center = V2d(-7.43384020658461, 1.1938623671111), radius = 0.2)
+      status: ToBeAdded
+    198 => VertexGroup:
+      id: 198
+      vertices :
+        1668
+      shape: Disk(center = V2d(-9.83360666505302, 2.91447515945258), radius = 0.4955)
+      status: ToBeAdded
+    214 => VertexGroup:
+      id: 214
+      vertices :
+        1787
+      shape: Disk(center = V2d(-13.2464985803415, 6.56783533510735), radius = 0.2)
+      status: ToBeAdded
+    7 => VertexGroup:
+      id: 7
+      vertices :
+        29
+      shape: Disk(center = V2d(13.272248112217, 6.08807033777121), radius = 0.2)
+      status: ToBeAdded
+    23 => VertexGroup:
+      id: 23
+      vertices :
+        165
+      shape: Disk(center = V2d(11.8544755986441, 3.58490295036776), radius = 0.125)
+      status: ToBeAdded
+    39 => VertexGroup:
+      id: 39
+      vertices :
+        334
+      shape: Disk(center = V2d(9.60399965583057, 2.56650578288942), radius = 0.2)
+      status: ToBeAdded
+    55 => VertexGroup:
+      id: 55
+      vertices :
+        465
+      shape: Disk(center = V2d(5.8763817681595, 5.6488315177838), radius = 0.2)
+      status: ToBeAdded
+    71 => VertexGroup:
+      id: 71
+      vertices :
+        579
+      shape: Disk(center = V2d(4.0439403803948, -0.319721376296616), radius = 0.2)
+      status: ToBeAdded
+    87 => VertexGroup:
+      id: 87
+      vertices :
+        712
+      shape: Disk(center = V2d(1.6153027311821, -8.77314832929462), radius = 0.2)
+      status: ToBeAdded
+    103 => VertexGroup:
+      id: 103
+      vertices :
+        842
+      shape: Disk(center = V2d(0.35516479571083, -2.71008584718827), radius = 0.125)
+      status: ToBeAdded
+    119 => VertexGroup:
+      id: 119
+      vertices :
+        979
+      shape: Disk(center = V2d(-0.553049959867085, 0.61456222327996), radius = 0.5)
+      status: ToBeAdded
+    135 => VertexGroup:
+      id: 135
+      vertices :
+        1127
+      shape: Disk(center = V2d(-1.44483520428917, -2.26008584718827), radius = 0.125)
+      status: ToBeAdded
+    151 => VertexGroup:
+      id: 151
+      vertices :
+        1272
+      shape: Disk(center = V2d(-2.95945004436263, 1.81776232513238), radius = 0.5)
+      status: ToBeAdded
+    167 => VertexGroup:
+      id: 167
+      vertices :
+        1410
+      shape: Disk(center = V2d(-4.25418878739698, 2.91562109990861), radius = 0.2)
+      status: ToBeAdded
+    183 => VertexGroup:
+      id: 183
+      vertices :
+        1543
+      shape: Disk(center = V2d(-7.65865123080003, -9.00516753726449), radius = 0.2)
+      status: ToBeAdded
+    199 => VertexGroup:
+      id: 199
+      vertices :
+        1678
+      shape: Disk(center = V2d(-10.468606665053, 6.72447515945258), radius = 0.3935)
+      status: ToBeAdded
+    215 => VertexGroup:
+      id: 215
+      vertices :
+        1795
+      shape: Disk(center = V2d(-13.2464985803415, 6.04908531449407), radius = 0.2)
+      status: ToBeAdded
+    8 => VertexGroup:
+      id: 8
+      vertices :
+        35
+      shape: Disk(center = V2d(13.272248112217, 5.54432033777121), radius = 0.2)
+      status: ToBeAdded
+    24 => VertexGroup:
+      id: 24
+      vertices :
+        177
+      shape: Disk(center = V2d(11.8544755986441, 1.58490295036776), radius = 0.125)
+      status: ToBeAdded
+    40 => VertexGroup:
+      id: 40
+      vertices :
+        342
+      shape: Disk(center = V2d(9.1055478868768, 5.69427526081409), radius = 0.2)
+      status: ToBeAdded
+    56 => VertexGroup:
+      id: 56
+      vertices :
+        473
+      shape: Disk(center = V2d(5.74559591162117, 7.65121986145184), radius = 0.2)
+      status: ToBeAdded
+    72 => VertexGroup:
+      id: 72
+      vertices :
+        590
+      shape: Disk(center = V2d(3.95261159134381, -1.78987408877847), radius = 0.2)
+      status: ToBeAdded
+    88 => VertexGroup:
+      id: 88
+      vertices :
+        721
+      shape: Disk(center = V2d(1.25516479571083, -3.16008584718827), radius = 0.125)
+      status: ToBeAdded
+    104 => VertexGroup:
+      id: 104
+      vertices :
+        850
+      shape: Disk(center = V2d(0.35516479571083, -3.16008584718827), radius = 0.125)
+      status: ToBeAdded
+    120 => VertexGroup:
+      id: 120
+      vertices :
+        988
+      shape: Disk(center = V2d(-0.72362043821399, -1.30981179194977), radius = 0.2)
+      status: ToBeAdded
+    136 => VertexGroup:
+      id: 136
+      vertices :
+        1136
+      shape: Disk(center = V2d(-1.51755976974471, -1.24161685541634), radius = 0.2)
+      status: ToBeAdded
+    152 => VertexGroup:
+      id: 152
+      vertices :
+        1282
+      shape: Disk(center = V2d(-2.95945004436263, 0.61456222327996), radius = 0.5)
+      status: ToBeAdded
+    168 => VertexGroup:
+      id: 168
+      vertices :
+        1419
+      shape: Disk(center = V2d(-4.56525434792908, -9.01702264586693), radius = 0.2)
+      status: ToBeAdded
+    184 => VertexGroup:
+      id: 184
+      vertices :
+        1551
+      shape: Disk(center = V2d(-8.02375735679926, 3.03286987533822), radius = 0.5)
+      status: ToBeAdded
+    200 => VertexGroup:
+      id: 200
+      vertices :
+        1686
+      shape: Disk(center = V2d(-10.468606665053, 5.45447515945258), radius = 0.3935)
+      status: ToBeAdded
+    216 => VertexGroup:
+      id: 216
+      vertices :
+        1803
+      shape: Disk(center = V2d(-13.2464985803415, 5.54908529462586), radius = 0.2)
+      status: ToBeAdded
+    9 => VertexGroup:
+      id: 9
+      vertices :
+        40
+      shape: Disk(center = V2d(13.2294022044539, -7.64382522883402), radius = 0.2)
+      status: ToBeAdded
+    25 => VertexGroup:
+      id: 25
+      vertices :
+        188
+      shape: Disk(center = V2d(11.8544755986441, 1.08490295036776), radius = 0.125)
+      status: ToBeAdded
+    41 => VertexGroup:
+      id: 41
+      vertices :
+        350
+      shape: Disk(center = V2d(8.0387528626235, 3.74049538759744), radius = 0.2)
+      status: ToBeAdded
+    57 => VertexGroup:
+      id: 57
+      vertices :
+        480
+      shape: Disk(center = V2d(5.62672335098289, -5.95018272720824), radius = 0.2)
+      status: ToBeAdded
+    73 => VertexGroup:
+      id: 73
+      vertices :
+        600
+      shape: Disk(center = V2d(3.4920664281817, 6.51168456144769), radius = 0.2)
+      status: ToBeAdded
+    89 => VertexGroup:
+      id: 89
+      vertices :
+        730
+      shape: Disk(center = V2d(1.25516479571083, -3.61008584718827), radius = 0.125)
+      status: ToBeAdded
+    105 => VertexGroup:
+      id: 105
+      vertices :
+        857
+      shape: Disk(center = V2d(0.146339850678411, 2.49718211385117), radius = 0.2)
+      status: ToBeAdded
+    121 => VertexGroup:
+      id: 121
+      vertices :
+        999
+      shape: Disk(center = V2d(-0.889906855786113, -0.833958761628438), radius = 0.2)
+      status: ToBeAdded
+    137 => VertexGroup:
+      id: 137
+      vertices :
+        1148
+      shape: PolygonWithHoles(
+        Polygon([
+          V2d(-1.90582443379488, 3.84458634013404), 
+          V2d(-1.50582443379488, 3.84458634013404), 
+          V2d(-1.50582443379488, 5.59458634013404), 
+          V2d(-1.90582443379488, 5.59458634013404)]),
+        [])
+      status: ToBeAdded
+    153 => VertexGroup:
+      id: 153
+      vertices :
+        1290
+      shape: Disk(center = V2d(-3.00122468065115, 3.50310684370817), radius = 0.2)
+      status: ToBeAdded
+    169 => VertexGroup:
+      id: 169
+      vertices :
+        1429
+      shape: PolygonWithHoles(
+        Polygon([
+          V2d(-5.68082443379488, 6.94458634013404), 
+          V2d(-5.67705175973082, 6.87740765447206), 
+          V2d(-5.66578118110397, 6.81107377976025), 
+          V2d(-5.6471544319799, 6.74641890296094), 
+          V2d(-5.62140575453633, 6.68425609666351), 
+          V2d(-5.58885895333185, 6.62536709422484), 
+          V2d(-5.5499233232757, 6.5704924590188), 
+          V2d(-5.50508850250681, 6.52032227142211), 
+          V2d(-5.45491831491012, 6.47548745065322), 
+          V2d(-5.40004367970408, 6.43655182059707), 
+          V2d(-5.34115467726541, 6.40400501939259), 
+          V2d(-5.27899187096798, 6.37825634194902), 
+          V2d(-5.21433699416867, 6.35962959282495), 
+          V2d(-5.14800311945686, 6.3483590141981), 
+          V2d(-5.08082443379488, 6.34458634013404), 
+          V2d(-5.01364574813289, 6.3483590141981), 
+          V2d(-4.94731187342109, 6.35962959282495), 
+          V2d(-4.88265699662178, 6.37825634194902), 
+          V2d(-4.82049419032434, 6.40400501939259), 
+          V2d(-4.76160518788568, 6.43655182059707), 
+          V2d(-4.70673055267964, 6.47548745065322), 
+          V2d(-4.65656036508295, 6.52032227142211), 
+          V2d(-4.61172554431406, 6.5704924590188), 
+          V2d(-4.57278991425791, 6.62536709422484), 
+          V2d(-4.54024311305343, 6.68425609666351), 
+          V2d(-4.51449443560986, 6.74641890296094), 
+          V2d(-4.49586768648579, 6.81107377976025), 
+          V2d(-4.48459710785893, 6.87740765447206), 
+          V2d(-4.48082443379488, 6.94458634013404), 
+          V2d(-4.48082443379488, 8.14458634013404), 
+          V2d(-4.48459710785893, 8.21176502579602), 
+          V2d(-4.49586768648578, 8.27809890050783), 
+          V2d(-4.51449443560986, 8.34275377730714), 
+          V2d(-4.54024311305343, 8.40491658360457), 
+          V2d(-4.57278991425791, 8.46380558604324), 
+          V2d(-4.61172554431406, 8.51868022124928), 
+          V2d(-4.65656036508295, 8.56885040884597), 
+          V2d(-4.70673055267964, 8.61368522961486), 
+          V2d(-4.76160518788568, 8.65262085967101), 
+          V2d(-4.82049419032434, 8.68516766087549), 
+          V2d(-4.88265699662178, 8.71091633831906), 
+          V2d(-4.94731187342109, 8.72954308744314), 
+          V2d(-5.01364574813289, 8.74081366606999), 
+          V2d(-5.08082443379488, 8.74458634013404), 
+          V2d(-5.14800311945686, 8.74081366606999), 
+          V2d(-5.21433699416867, 8.72954308744314), 
+          V2d(-5.27899187096798, 8.71091633831906), 
+          V2d(-5.34115467726541, 8.68516766087549), 
+          V2d(-5.40004367970408, 8.65262085967101), 
+          V2d(-5.45491831491012, 8.61368522961486), 
+          V2d(-5.50508850250681, 8.56885040884597), 
+          V2d(-5.5499233232757, 8.51868022124928), 
+          V2d(-5.58885895333185, 8.46380558604324), 
+          V2d(-5.62140575453633, 8.40491658360457), 
+          V2d(-5.6471544319799, 8.34275377730714), 
+          V2d(-5.66578118110397, 8.27809890050783), 
+          V2d(-5.67705175973082, 8.21176502579602), 
+          V2d(-5.68082443379488, 8.14458634013404)]),
+        [])
+      status: ToBeAdded
+    185 => VertexGroup:
+      id: 185
+      vertices :
+        1558
+      shape: Disk(center = V2d(-8.02375735679926, 1.8296697734858), radius = 0.5)
+      status: ToBeAdded
+    201 => VertexGroup:
+      id: 201
+      vertices :
+        1693
+      shape: Disk(center = V2d(-10.468606665053, 4.18447515945258), radius = 0.3935)
+      status: ToBeAdded
+    217 => VertexGroup:
+      id: 217
+      vertices :
+        1810
+      shape: Disk(center = V2d(-13.2469743206463, 2.20123794645795), radius = 0.2)
+      status: ToBeAdded
+    10 => VertexGroup:
+      id: 10
+      vertices :
+        47
+      shape: Disk(center = V2d(13.2207501953526, -2.05235423911114), radius = 0.2)
+      status: ToBeAdded
+    26 => VertexGroup:
+      id: 26
+      vertices :
+        203
+      shape: Disk(center = V2d(11.8544755986441, 0.584902950367756), radius = 0.125)
+      status: ToBeAdded
+    42 => VertexGroup:
+      id: 42
+      vertices :
+        359
+      shape: Disk(center = V2d(7.9321921738866, 7.61151204114748), radius = 0.2)
+      status: ToBeAdded
+    58 => VertexGroup:
+      id: 58
+      vertices :
+        487
+      shape: Disk(center = V2d(5.60289237420085, 0.179153619063191), radius = 0.2)
+      status: ToBeAdded
+    74 => VertexGroup:
+      id: 74
+      vertices :
+        607
+      shape: Disk(center = V2d(3.39906678763273, 3.63332913320667), radius = 0.2)
+      status: ToBeAdded
+    90 => VertexGroup:
+      id: 90
+      vertices :
+        736
+      shape: Disk(center = V2d(1.25516479571083, -4.51008584718828), radius = 0.125)
+      status: ToBeAdded
+    106 => VertexGroup:
+      id: 106
+      vertices :
+        867
+      shape: Disk(center = V2d(0.0701732127314371, -0.951199737490723), radius = 0.2)
+      status: ToBeAdded
+    122 => VertexGroup:
+      id: 122
+      vertices :
+        1011
+      shape: Disk(center = V2d(-0.994835204289169, -6.76008584718828), radius = 0.125)
+      status: ToBeAdded
+    138 => VertexGroup:
+      id: 138
+      vertices :
+        1157
+      shape: Disk(center = V2d(-1.74233520428917, -6.51758584718827), radius = 0.125)
+      status: ToBeAdded
+    154 => VertexGroup:
+      id: 154
+      vertices :
+        1299
+      shape: PolygonWithHoles(
+        Polygon([
+          V2d(-3.20582443379488, 3.84458634013404), 
+          V2d(-2.80582443379488, 3.84458634013404), 
+          V2d(-2.80582443379488, 5.59458634013404), 
+          V2d(-3.20582443379488, 5.59458634013404)]),
+        [])
+      status: ToBeAdded
+    170 => VertexGroup:
+      id: 170
+      vertices :
+        1436
+      shape: Disk(center = V2d(-5.08096905824381, -9.02268984048577), radius = 0.2)
+      status: ToBeAdded
+    186 => VertexGroup:
+      id: 186
+      vertices :
+        1565
+      shape: Disk(center = V2d(-8.09812111255475, 0.860460303826892), radius = 0.2)
+      status: ToBeAdded
+    202 => VertexGroup:
+      id: 202
+      vertices :
+        1699
+      shape: Disk(center = V2d(-10.849606665053, 7.99447515945258), radius = 0.4955)
+      status: ToBeAdded
+    218 => VertexGroup:
+      id: 218
+      vertices :
+        1824
+      shape: Disk(center = V2d(-13.2469743206463, -1.46751219932507), radius = 0.2)
+      status: ToBeAdded
+    11 => VertexGroup:
+      id: 11
+      vertices :
+        54
+      shape: Disk(center = V2d(13.2119113605877, -7.12584539412461), radius = 0.2)
+      status: ToBeAdded
+    27 => VertexGroup:
+      id: 27
+      vertices :
+        218
+      shape: Disk(center = V2d(11.7829979308026, -1.09992950867306), radius = 0.5)
+      status: ToBeAdded
+    43 => VertexGroup:
+      id: 43
+      vertices :
+        365
+      shape: Disk(center = V2d(7.86323553430746, 6.70031271445651), radius = 0.125)
+      status: ToBeAdded
+    59 => VertexGroup:
+      id: 59
+      vertices :
+        496
+      shape: Disk(center = V2d(5.18147262991928, -0.94467519612461), radius = 0.2)
+      status: ToBeAdded
+    75 => VertexGroup:
+      id: 75
+      vertices :
+        616
+      shape: Disk(center = V2d(3.3005399557588, -6.33065151326702), radius = 0.2)
+      status: ToBeAdded
+    91 => VertexGroup:
+      id: 91
+      vertices :
+        744
+      shape: Disk(center = V2d(1.25516479571083, -1.81008584718827), radius = 0.125)
+      status: ToBeAdded
+    107 => VertexGroup:
+      id: 107
+      vertices :
+        876
+      shape: Disk(center = V2d(-0.0948352042891695, -4.51008584718828), radius = 0.125)
+      status: ToBeAdded
+    123 => VertexGroup:
+      id: 123
+      vertices :
+        1020
+      shape: Disk(center = V2d(-0.994835204289169, -3.61008584718827), radius = 0.125)
+      status: ToBeAdded
+    139 => VertexGroup:
+      id: 139
+      vertices :
+        1168
+      shape: Disk(center = V2d(-1.74233520428917, -6.96758584718827), radius = 0.125)
+      status: ToBeAdded
+    155 => VertexGroup:
+      id: 155
+      vertices :
+        1304
+      shape: Disk(center = V2d(-3.09233520428917, -5.61758584718828), radius = 0.125)
+      status: ToBeAdded
+    171 => VertexGroup:
+      id: 171
+      vertices :
+        1445
+      shape: Disk(center = V2d(-5.1656322254909, 2.3673199177346), radius = 0.2)
+      status: ToBeAdded
+    187 => VertexGroup:
+      id: 187
+      vertices :
+        1574
+      shape: Disk(center = V2d(-8.1748032471628, -9.00387585858485), radius = 0.2)
+      status: ToBeAdded
+    203 => VertexGroup:
+      id: 203
+      vertices :
+        1707
+      shape: Disk(center = V2d(-11.1925805721988, 5.45775552940921), radius = 0.2)
+      status: ToBeAdded
+    219 => VertexGroup:
+      id: 219
+      vertices :
+        1830
+      shape: Disk(center = V2d(-13.250635486027, 8.6649074765161), radius = 0.2)
+      status: ToBeAdded
+    12 => VertexGroup:
+      id: 12
+      vertices :
+        58
+      shape: Disk(center = V2d(13.2119113605877, -3.19256392377444), radius = 0.2)
+      status: ToBeAdded
+    28 => VertexGroup:
+      id: 28
+      vertices :
+        236
+      shape: Disk(center = V2d(11.1744755986441, 1.58490295036776), radius = 0.125)
+      status: ToBeAdded
+    44 => VertexGroup:
+      id: 44
+      vertices :
+        371
+      shape: Disk(center = V2d(7.81682712334417, -1.07243358799437), radius = 0.2)
+      status: ToBeAdded
+    60 => VertexGroup:
+      id: 60
+      vertices :
+        504
+      shape: Disk(center = V2d(5.17263379515444, -0.471797536206106), radius = 0.2)
+      status: ToBeAdded
+    76 => VertexGroup:
+      id: 76
+      vertices :
+        626
+      shape: Disk(center = V2d(3.1946695200513, -4.84326172919714), radius = 0.2)
+      status: ToBeAdded
+    92 => VertexGroup:
+      id: 92
+      vertices :
+        751
+      shape: Disk(center = V2d(1.25516479571083, -2.71008584718827), radius = 0.125)
+      status: ToBeAdded
+    108 => VertexGroup:
+      id: 108
+      vertices :
+        886
+      shape: Disk(center = V2d(-0.0948352042891696, -4.06008584718827), radius = 0.125)
+      status: ToBeAdded
+    124 => VertexGroup:
+      id: 124
+      vertices :
+        1029
+      shape: Disk(center = V2d(-0.994835204289169, -4.06008584718827), radius = 0.125)
+      status: ToBeAdded
+    140 => VertexGroup:
+      id: 140
+      vertices :
+        1173
+      shape: Disk(center = V2d(-1.75625018092879, 1.81776232513238), radius = 0.5)
+      status: ToBeAdded
+    156 => VertexGroup:
+      id: 156
+      vertices :
+        1314
+      shape: Disk(center = V2d(-3.09233520428917, -6.06758584718827), radius = 0.125)
+      status: ToBeAdded
+    172 => VertexGroup:
+      id: 172
+      vertices :
+        1454
+      shape: Disk(center = V2d(-5.52301826513844, 3.25411805969031), radius = 0.2)
+      status: ToBeAdded
+    188 => VertexGroup:
+      id: 188
+      vertices :
+        1580
+      shape: Disk(center = V2d(-8.40040500783345, 6.73514758922009), radius = 0.2)
+      status: ToBeAdded
+    204 => VertexGroup:
+      id: 204
+      vertices :
+        1715
+      shape: Disk(center = V2d(-11.2137238597473, 4.16789156240825), radius = 0.2)
+      status: ToBeAdded
+    220 => VertexGroup:
+      id: 220
+      vertices :
+        1844
+      shape: Disk(center = V2d(-13.2527485805898, 4.99908527277082), radius = 0.2)
+      status: ToBeAdded
+    13 => VertexGroup:
+      id: 13
+      vertices :
+        64
+      shape: Disk(center = V2d(13.2119113605877, -3.78476585301818), radius = 0.2)
+      status: ToBeAdded
+    29 => VertexGroup:
+      id: 29
+      vertices :
+        245
+      shape: Disk(center = V2d(10.6819230138484, 7.61482781490069), radius = 0.5)
+      status: ToBeAdded
+    45 => VertexGroup:
+      id: 45
+      vertices :
+        383
+      shape: Disk(center = V2d(7.80689916580093, -3.63823392821029), radius = 0.2)
+      status: ToBeAdded
+    61 => VertexGroup:
+      id: 61
+      vertices :
+        510
+      shape: Disk(center = V2d(5.10075870742921, 5.22197904147752), radius = 0.2)
+      status: ToBeAdded
+    77 => VertexGroup:
+      id: 77
+      vertices :
+        633
+      shape: Disk(center = V2d(3.14739758829545, -2.81014171027765), radius = 0.2)
+      status: ToBeAdded
+    93 => VertexGroup:
+      id: 93
+      vertices :
+        756
+      shape: Disk(center = V2d(0.80516479571083, -3.16008584718827), radius = 0.125)
+      status: ToBeAdded
+    109 => VertexGroup:
+      id: 109
+      vertices :
+        894
+      shape: Disk(center = V2d(-0.0948352042891696, -3.61008584718827), radius = 0.125)
+      status: ToBeAdded
+    125 => VertexGroup:
+      id: 125
+      vertices :
+        1035
+      shape: Disk(center = V2d(-0.99483520428917, -3.16008584718827), radius = 0.125)
+      status: ToBeAdded
+    141 => VertexGroup:
+      id: 141
+      vertices :
+        1182
+      shape: Disk(center = V2d(-1.75625018092879, 0.61456222327996), radius = 0.5)
+      status: ToBeAdded
+    157 => VertexGroup:
+      id: 157
+      vertices :
+        1319
+      shape: Disk(center = V2d(-3.09233520428917, -6.96758584718827), radius = 0.125)
+      status: ToBeAdded
+    173 => VertexGroup:
+      id: 173
+      vertices :
+        1462
+      shape: Disk(center = V2d(-5.60235096317739, -9.00568825662924), radius = 0.2)
+      status: ToBeAdded
+    189 => VertexGroup:
+      id: 189
+      vertices :
+        1588
+      shape: Disk(center = V2d(-8.69575377405024, -8.97983198811312), radius = 0.2)
+      status: ToBeAdded
+    205 => VertexGroup:
+      id: 205
+      vertices :
+        1722
+      shape: Disk(center = V2d(-11.2489086074951, 6.77156289575056), radius = 0.2)
+      status: ToBeAdded
+    221 => VertexGroup:
+      id: 221
+      vertices :
+        1856
+      shape: Disk(center = V2d(-13.2532243208947, 1.68248792584468), radius = 0.2)
+      status: ToBeAdded
+    14 => VertexGroup:
+      id: 14
+      vertices :
+        70
+      shape: Disk(center = V2d(13.2119113605877, -4.42116195608607), radius = 0.2)
+      status: ToBeAdded
+    30 => VertexGroup:
+      id: 30
+      vertices :
+        256
+      shape: Disk(center = V2d(10.6819230138484, 6.41162771304827), radius = 0.5)
+      status: ToBeAdded
+    46 => VertexGroup:
+      id: 46
+      vertices :
+        395
+      shape: Disk(center = V2d(7.06323553430746, 6.70031271445651), radius = 0.125)
+      status: ToBeAdded
+    62 => VertexGroup:
+      id: 62
+      vertices :
+        519
+      shape: Disk(center = V2d(5.01256788876175, -7.46883638387173), radius = 0.125)
+      status: ToBeAdded
+    78 => VertexGroup:
+      id: 78
+      vertices :
+        641
+      shape: Disk(center = V2d(2.90555013257352, -4.1188910847837), radius = 0.2)
+      status: ToBeAdded
+    94 => VertexGroup:
+      id: 94
+      vertices :
+        765
+      shape: Disk(center = V2d(0.80516479571083, -3.61008584718827), radius = 0.125)
+      status: ToBeAdded
+    110 => VertexGroup:
+      id: 110
+      vertices :
+        903
+      shape: Disk(center = V2d(-0.0948352042891697, -3.16008584718827), radius = 0.125)
+      status: ToBeAdded
+    126 => VertexGroup:
+      id: 126
+      vertices :
+        1042
+      shape: Disk(center = V2d(-0.99483520428917, -2.26008584718827), radius = 0.125)
+      status: ToBeAdded
+    142 => VertexGroup:
+      id: 142
+      vertices :
+        1192
+      shape: Disk(center = V2d(-1.89483520428917, -4.06008584718827), radius = 0.125)
+      status: ToBeAdded
+    158 => VertexGroup:
+      id: 158
+      vertices :
+        1324
+      shape: Disk(center = V2d(-3.25043108318014, -1.36579135047821), radius = 0.2)
+      status: ToBeAdded
+    174 => VertexGroup:
+      id: 174
+      vertices :
+        1471
+      shape: Disk(center = V2d(-5.60904659754265, -4.65604041724435), radius = 0.2)
+      status: ToBeAdded
+    190 => VertexGroup:
+      id: 190
+      vertices :
+        1594
+      shape: Disk(center = V2d(-8.71517566036733, -1.11546990599754), radius = 0.2)
+      status: ToBeAdded
+    206 => VertexGroup:
+      id: 206
+      vertices :
+        1728
+      shape: Disk(center = V2d(-11.909406588789, 4.05180087457312), radius = 0.2)
+      status: ToBeAdded
+    222 => VertexGroup:
+      id: 222
+      vertices :
+        1863
+      shape: Disk(center = V2d(-13.2532243208947, 1.16373790523141), radius = 0.2)
+      status: ToBeAdded
+    15 => VertexGroup:
+      id: 15
+      vertices :
+        76
+      shape: Disk(center = V2d(13.2030725258229, -5.07523572868362), radius = 0.2)
+      status: ToBeAdded
+    31 => VertexGroup:
+      id: 31
+      vertices :
+        266
+      shape: Disk(center = V2d(10.5797978289501, -1.09992950867306), radius = 0.5)
+      status: ToBeAdded
+    47 => VertexGroup:
+      id: 47
+      vertices :
+        402
+      shape: Disk(center = V2d(7.06323553430746, 6.30031271445651), radius = 0.125)
+      status: ToBeAdded
+    63 => VertexGroup:
+      id: 63
+      vertices :
+        527
+      shape: Disk(center = V2d(5.01256788876175, -7.86883638387173), radius = 0.125)
+      status: ToBeAdded
+    79 => VertexGroup:
+      id: 79
+      vertices :
+        649
+      shape: Disk(center = V2d(2.82914884557911, 3.11938407386481), radius = 0.2)
+      status: ToBeAdded
+    95 => VertexGroup:
+      id: 95
+      vertices :
+        771
+      shape: Disk(center = V2d(0.80516479571083, -4.51008584718828), radius = 0.125)
+      status: ToBeAdded
+    111 => VertexGroup:
+      id: 111
+      vertices :
+        910
+      shape: Disk(center = V2d(-0.0948352042891697, -2.71008584718827), radius = 0.125)
+      status: ToBeAdded
+    127 => VertexGroup:
+      id: 127
+      vertices :
+        1049
+      shape: Disk(center = V2d(-1.03486858035941, 3.47033424203664), radius = 0.2)
+      status: ToBeAdded
+    143 => VertexGroup:
+      id: 143
+      vertices :
+        1204
+      shape: Disk(center = V2d(-2.32938634638481, 3.46214109161876), radius = 0.2)
+      status: ToBeAdded
+    159 => VertexGroup:
+      id: 159
+      vertices :
+        1336
+      shape: PolygonWithHoles(
+        Polygon([
+          V2d(-2.60582443379488, 9.04458634013404), 
+          V2d(-4.03082443379488, 9.04458634013404), 
+          V2d(-4.03082443379488, 6.54458634013404), 
+          V2d(-2.60582443379488, 6.54458634013404)]),
+        [])
+      status: ToBeAdded
+    175 => VertexGroup:
+      id: 175
+      vertices :
+        1482
+      shape: Disk(center = V2d(-5.7413084157869, -1.14989687849149), radius = 0.2)
+      status: ToBeAdded
+    191 => VertexGroup:
+      id: 191
+      vertices :
+        1604
+      shape: Disk(center = V2d(-8.72626169669953, -0.610381752212052), radius = 0.2)
+      status: ToBeAdded
+    207 => VertexGroup:
+      id: 207
+      vertices :
+        1736
+      shape: Disk(center = V2d(-12.4509921173225, 4.60252303826735), radius = 0.2)
+      status: ToBeAdded
+    223 => VertexGroup:
+      id: 223
+      vertices :
+        1870
+      shape: Disk(center = V2d(-13.2532243208947, 0.0949878627630982), radius = 0.2)
+      status: ToBeAdded
+  routes: PTable:
+    2304 => Route:
+      id: P2304
+      origin: RouteEnd:
+        feature: id : [8XcoftfePPzJsUD6RH6DdS/CD3Defxwo8oC9oQeoJ9Ktq]
+        vertex: 783
+        vertex-group: 97
+        target-shape: TargetShape:
+          rep-point: V2d(0.782412105470458, 3.11804862806386)
+          shape: Disk(center = V2d(0.782412105470458, 3.11804862806386), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [8XcoftfePPzJsUD6RH6DdS/3HWYCUDParLDRKzEzPtQWx]
+        vertex: 793
+        vertex-group: 98
+        target-shape: TargetShape:
+          rep-point: V2d(0.773039038786132, 2.27557991343882)
+          shape: Disk(center = V2d(0.773039038786132, 2.27557991343882), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : [33563]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2320 => Route:
+      id: P2320
+      origin: RouteEnd:
+        feature: id : [Fk4KVTWQNebJjtDMk9Q5mY/CD3Defxwo8oC9oQeoJ9Ktq]
+        vertex: 1272
+        vertex-group: 151
+        target-shape: TargetShape:
+          rep-point: V2d(-2.95945004436263, 1.81776232513238)
+          shape: Disk(center = V2d(-2.95945004436263, 1.81776232513238), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [Fk4KVTWQNebJjtDMk9Q5mY/28EVVLkETLcgYNv12a8KpK]
+        vertex: 1247
+        vertex-group: 148
+        target-shape: TargetShape:
+          rep-point: V2d(-2.68618774726431, 2.53115077609503)
+          shape: Disk(center = V2d(-2.68618774726431, 2.53115077609503), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : [33552]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2352 => Route:
+      id: P2352
+      origin: RouteEnd:
+        feature: id : [F1P9sLfUJXXSMvevxq52FN/4uKCmYR1DJYVjgSyy2E9ga]
+        vertex: 730
+        vertex-group: 89
+        target-shape: TargetShape:
+          rep-point: V2d(1.25516479571083, -3.61008584718827)
+          shape: Disk(center = V2d(1.25516479571083, -3.61008584718827), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [F1P9sLfUJXXSMvevxq52FN/6knwMMgLtQcagFSsSPpL7V]
+        vertex: 626
+        vertex-group: 76
+        target-shape: TargetShape:
+          rep-point: V2d(3.1946695200513, -4.84326172919714)
+          shape: Disk(center = V2d(3.1946695200513, -4.84326172919714), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : []
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    1872 => Route:
+      id: P1872
+      origin: RouteEnd:
+        feature: id : [2Jhgegt6ZwZKMMe8xXu9xn/CD3Defxwo8oC9oQeoJ9Ktq]
+        vertex: 256
+        vertex-group: 30
+        target-shape: TargetShape:
+          rep-point: V2d(10.6819230138484, 6.41162771304827)
+          shape: Disk(center = V2d(10.6819230138484, 6.41162771304827), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [Ac82Q5cnyuDbVJki1ZLriv/5X8u1Bn6BLMFZ7kNqhS1d1]
+        vertex: 296
+        vertex-group: 34
+        target-shape: TargetShape:
+          rep-point: V2d(9.95101608311837, 6.16156479474414)
+          shape: Disk(center = V2d(9.95101608311837, 6.16156479474414), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : [33571]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2224 => Route:
+      id: P2224
+      origin: RouteEnd:
+        feature: id : [DXxxXc11GMaGHnTF1YF2f3/tPv9DYqFP9tm1g2JqpiB2]
+        vertex: 1686
+        vertex-group: 200
+        target-shape: TargetShape:
+          rep-point: V2d(-10.468606665053, 5.45447515945258)
+          shape: Disk(center = V2d(-10.468606665053, 5.45447515945258), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [DXxxXc11GMaGHnTF1YF2f3/DyubpMBVDMKMthSbos1ezo]
+        vertex: 1707
+        vertex-group: 203
+        target-shape: TargetShape:
+          rep-point: V2d(-11.1925805721988, 5.45775552940921)
+          shape: Disk(center = V2d(-11.1925805721988, 5.45775552940921), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : []
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2032 => Route:
+      id: P2032
+      origin: RouteEnd:
+        feature: id : [FinPpnUzaoQQjvsjdctnp1/8EzgzVGb5UqcasGLdMgn34]
+        vertex: 574
+        vertex-group: 70
+        target-shape: TargetShape:
+          rep-point: V2d(4.31256788876175, -7.86883638387173)
+          shape: Disk(center = V2d(4.31256788876175, -7.86883638387173), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [F1P9sLfUJXXSMvevxq52FN/7nmSvcLZBg4wKh8VzzfGeS]
+        vertex: 765
+        vertex-group: 94
+        target-shape: TargetShape:
+          rep-point: V2d(0.80516479571083, -3.61008584718827)
+          shape: Disk(center = V2d(0.80516479571083, -3.61008584718827), radius = 0.0375)
+      turns :
+        Turn:
+          id: 1
+          vertex: 527
+          direction: CCW
+          inner-neighbors : ()
+          outer-neighbors : ()
+        Turn:
+          id: 2
+          vertex: 519
+          direction: CCW
+          inner-neighbors : ()
+          outer-neighbors : ()
+        Turn:
+          id: 3
+          vertex: 532
+          direction: CCW
+          inner-neighbors :
+            0
+          outer-neighbors : ()
+      trait: trait :
+        net-group : [33594]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2354 => Route:
+      id: P2354
+      origin: RouteEnd:
+        feature: id : [F1P9sLfUJXXSMvevxq52FN/2xjigfFNJEmXdrQv8cgZ9n]
+        vertex: 721
+        vertex-group: 88
+        target-shape: TargetShape:
+          rep-point: V2d(1.25516479571083, -3.16008584718827)
+          shape: Disk(center = V2d(1.25516479571083, -3.16008584718827), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [FinPpnUzaoQQjvsjdctnp1/oe8QwngFaxBuMDMcwdXxU]
+        vertex: 563
+        vertex-group: 68
+        target-shape: TargetShape:
+          rep-point: V2d(4.31256788876175, -7.06883638387173)
+          shape: Disk(center = V2d(4.31256788876175, -7.06883638387173), radius = 0.0375)
+      turns :
+        Turn:
+          id: 10
+          vertex: 626
+          direction: CW
+          inner-neighbors : ()
+          outer-neighbors : ()
+        Turn:
+          id: 11
+          vertex: 532
+          direction: CW
+          inner-neighbors :
+            3
+          outer-neighbors : ()
+        Turn:
+          id: 12
+          vertex: 519
+          direction: CW
+          inner-neighbors :
+            2
+          outer-neighbors : ()
+        Turn:
+          id: 13
+          vertex: 527
+          direction: CW
+          inner-neighbors :
+            1
+          outer-neighbors : ()
+        Turn:
+          id: 14
+          vertex: 574
+          direction: CW
+          inner-neighbors : ()
+          outer-neighbors : ()
+        Turn:
+          id: 15
+          vertex: 569
+          direction: CW
+          inner-neighbors : ()
+          outer-neighbors : ()
+      trait: trait :
+        net-group : [33589]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2178 => Route:
+      id: P2178
+      origin: RouteEnd:
+        feature: id : [3pC5XRFfGntJ8odwTDzGkf/2FxCzWUQW6YrTB48KMAHjo]
+        vertex: 1361
+        vertex-group: 162
+        target-shape: TargetShape:
+          rep-point: V2d(-3.65582443379488, 4.71958634013404)
+          shape: Disk(center = V2d(-3.65582443379488, 4.71958634013404), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [3pC5XRFfGntJ8odwTDzGkf/C5G7LQFqTVzFJYTaBcP9Cd]
+        vertex: 1389
+        vertex-group: 165
+        target-shape: TargetShape:
+          rep-point: V2d(-4.19240298600215, 5.8360169136713)
+          shape: Disk(center = V2d(-4.19240298600215, 5.8360169136713), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : [33550]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2210 => Route:
+      id: P2210
+      origin: RouteEnd:
+        feature: id : [DXxxXc11GMaGHnTF1YF2f3/FzT3gKjuRn7wsAsdRLx948]
+        vertex: 1631
+        vertex-group: 194
+        target-shape: TargetShape:
+          rep-point: V2d(-9.19860666505302, 5.45447515945258)
+          shape: Disk(center = V2d(-9.19860666505302, 5.45447515945258), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [DXxxXc11GMaGHnTF1YF2f3/7S6nnBVkos9nwTK49ziM1U]
+        vertex: 1736
+        vertex-group: 207
+        target-shape: TargetShape:
+          rep-point: V2d(-12.4509921173225, 4.60252303826735)
+          shape: Disk(center = V2d(-12.4509921173225, 4.60252303826735), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : []
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    1970 => Route:
+      id: P1970
+      origin: RouteEnd:
+        feature: id : [DXxxXc11GMaGHnTF1YF2f3/43prucKBe67F7SVtCZrY64]
+        vertex: 1678
+        vertex-group: 199
+        target-shape: TargetShape:
+          rep-point: V2d(-10.468606665053, 6.72447515945258)
+          shape: Disk(center = V2d(-10.468606665053, 6.72447515945258), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [DXxxXc11GMaGHnTF1YF2f3/2g3xBqsajSEVy5vt3Zx5bG]
+        vertex: 1722
+        vertex-group: 205
+        target-shape: TargetShape:
+          rep-point: V2d(-11.2489086074951, 6.77156289575056)
+          shape: Disk(center = V2d(-11.2489086074951, 6.77156289575056), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : []
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2242 => Route:
+      id: P2242
+      origin: RouteEnd:
+        feature: id : [7wzCdfxdqJqMnQz2zB4r6g/CD3Defxwo8oC9oQeoJ9Ktq]
+        vertex: 968
+        vertex-group: 118
+        target-shape: TargetShape:
+          rep-point: V2d(-0.553049959867085, 1.81776232513238)
+          shape: Disk(center = V2d(-0.553049959867085, 1.81776232513238), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [7wzCdfxdqJqMnQz2zB4r6g/GDnXA7ubKPjjGZdzFfVPuy]
+        vertex: 1072
+        vertex-group: 129
+        target-shape: TargetShape:
+          rep-point: V2d(-1.15134251822758, 2.27541927430855)
+          shape: Disk(center = V2d(-1.15134251822758, 2.27541927430855), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : [33599]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    1860 => Route:
+      id: P1860
+      origin: RouteEnd:
+        feature: id : [74WpyX2rn35s8zr3ZuMDgU/Kf1pnMwsa4jjDg3NYVxSd]
+        vertex: 302
+        vertex-group: 35
+        target-shape: TargetShape:
+          rep-point: V2d(9.86102241467827, 7.53701709563355)
+          shape: Disk(center = V2d(9.86102241467827, 7.53701709563355), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [ZL1X45zKggbwYLhubuL31/CD3Defxwo8oC9oQeoJ9Ktq]
+        vertex: 245
+        vertex-group: 29
+        target-shape: TargetShape:
+          rep-point: V2d(10.6819230138484, 7.61482781490069)
+          shape: Disk(center = V2d(10.6819230138484, 7.61482781490069), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : [33560]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2164 => Route:
+      id: P2164
+      origin: RouteEnd:
+        feature: id : [3pC5XRFfGntJ8odwTDzGkf/53fXhjD8bbT5myMvjb9wTK]
+        vertex: 1062
+        vertex-group: 128
+        target-shape: TargetShape:
+          rep-point: V2d(-1.05582443379488, 4.71958634013404)
+          shape: Disk(center = V2d(-1.05582443379488, 4.71958634013404), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [3pC5XRFfGntJ8odwTDzGkf/F9waL5yP1yBi8qcr5EtX3n]
+        vertex: 1049
+        vertex-group: 127
+        target-shape: TargetShape:
+          rep-point: V2d(-1.03486858035941, 3.47033424203664)
+          shape: Disk(center = V2d(-1.03486858035941, 3.47033424203664), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : [33599]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2228 => Route:
+      id: P2228
+      origin: RouteEnd:
+        feature: id : [DXxxXc11GMaGHnTF1YF2f3/GD1E3KhkfZfv4qw4ksvJbX]
+        vertex: 1623
+        vertex-group: 193
+        target-shape: TargetShape:
+          rep-point: V2d(-9.19860666505302, 6.72447515945258)
+          shape: Disk(center = V2d(-9.19860666505302, 6.72447515945258), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [DXxxXc11GMaGHnTF1YF2f3/B91kMhNVHBsZ5esJtWqURC]
+        vertex: 1580
+        vertex-group: 188
+        target-shape: TargetShape:
+          rep-point: V2d(-8.40040500783345, 6.73514758922009)
+          shape: Disk(center = V2d(-8.40040500783345, 6.73514758922009), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : []
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2502 => Route:
+      id: P2502
+      origin: RouteEnd:
+        feature: id : [94VNEw5PraYSGbbDtKsPoy/CD3Defxwo8oC9oQeoJ9Ktq]
+        vertex: 979
+        vertex-group: 119
+        target-shape: TargetShape:
+          rep-point: V2d(-0.553049959867085, 0.61456222327996)
+          shape: Disk(center = V2d(-0.553049959867085, 0.61456222327996), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [94VNEw5PraYSGbbDtKsPoy/5c8GVvr5RCG9VBqjLSR3RQ]
+        vertex: 1085
+        vertex-group: 130
+        target-shape: TargetShape:
+          rep-point: V2d(-1.16855024490441, 1.18426912786282)
+          shape: Disk(center = V2d(-1.16855024490441, 1.18426912786282), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : [33559]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    1896 => Route:
+      id: P1896
+      origin: RouteEnd:
+        feature: id : [6vQBoE1GsGHZZ6JY8capXG/CD3Defxwo8oC9oQeoJ9Ktq]
+        vertex: 266
+        vertex-group: 31
+        target-shape: TargetShape:
+          rep-point: V2d(10.5797978289501, -1.09992950867306)
+          shape: Disk(center = V2d(10.5797978289501, -1.09992950867306), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [8gZnRd8Cb2X7FzBJcjKiwN/17B455oY9MqwkEnEjiJHN3]
+        vertex: 188
+        vertex-group: 25
+        target-shape: TargetShape:
+          rep-point: V2d(11.8544755986441, 1.08490295036776)
+          shape: Disk(center = V2d(11.8544755986441, 1.08490295036776), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : [33570]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2264 => Route:
+      id: P2264
+      origin: RouteEnd:
+        feature: id : [ALCcC4NqAPpAXZez4bfCiJ/CD3Defxwo8oC9oQeoJ9Ktq]
+        vertex: 687
+        vertex-group: 84
+        target-shape: TargetShape:
+          rep-point: V2d(1.98561220732288, 3.11804862806386)
+          shape: Disk(center = V2d(1.98561220732288, 3.11804862806386), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [ALCcC4NqAPpAXZez4bfCiJ/Fg2LhyZArKGdzo2PXZXuyC]
+        vertex: 649
+        vertex-group: 79
+        target-shape: TargetShape:
+          rep-point: V2d(2.82914884557911, 3.11938407386481)
+          shape: Disk(center = V2d(2.82914884557911, 3.11938407386481), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : [33599]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2280 => Route:
+      id: P2280
+      origin: RouteEnd:
+        feature: id : [BoxJVQDokFs2S8avTkodvT/CD3Defxwo8oC9oQeoJ9Ktq]
+        vertex: 1182
+        vertex-group: 141
+        target-shape: TargetShape:
+          rep-point: V2d(-1.75625018092879, 0.61456222327996)
+          shape: Disk(center = V2d(-1.75625018092879, 0.61456222327996), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [BoxJVQDokFs2S8avTkodvT/GhQeN3vVKps2EjsAbUqFe9]
+        vertex: 999
+        vertex-group: 121
+        target-shape: TargetShape:
+          rep-point: V2d(-0.889906855786113, -0.833958761628438)
+          shape: Disk(center = V2d(-0.889906855786113, -0.833958761628438), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : [33557]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    1850 => Route:
+      id: P1850
+      origin: RouteEnd:
+        feature: id : [6yMeTT4bvLvn8Teq5hts2k/CD3Defxwo8oC9oQeoJ9Ktq]
+        vertex: 1558
+        vertex-group: 185
+        target-shape: TargetShape:
+          rep-point: V2d(-8.02375735679926, 1.8296697734858)
+          shape: Disk(center = V2d(-8.02375735679926, 1.8296697734858), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [A3Azc5QG2J2WkFD2K3xoUW/34NVfqihadJSkfS5RbmvKu]
+        vertex: 1537
+        vertex-group: 182
+        target-shape: TargetShape:
+          rep-point: V2d(-7.43384020658461, 1.1938623671111)
+          shape: Disk(center = V2d(-7.43384020658461, 1.1938623671111), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : [33553]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2122 => Route:
+      id: P2122
+      origin: RouteEnd:
+        feature: id : [FinPpnUzaoQQjvsjdctnp1/4W9fFEnq7Ysd6qZNWtLMd7]
+        vertex: 527
+        vertex-group: 63
+        target-shape: TargetShape:
+          rep-point: V2d(5.01256788876175, -7.86883638387173)
+          shape: Disk(center = V2d(5.01256788876175, -7.86883638387173), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [F1P9sLfUJXXSMvevxq52FN/7Vs1MFBpEAEgkebixvs5RT]
+        vertex: 771
+        vertex-group: 95
+        target-shape: TargetShape:
+          rep-point: V2d(0.80516479571083, -4.51008584718828)
+          shape: Disk(center = V2d(0.80516479571083, -4.51008584718828), radius = 0.0375)
+      turns :
+        Turn:
+          id: 4
+          vertex: 519
+          direction: CCW
+          inner-neighbors : ()
+          outer-neighbors :
+            2
+        Turn:
+          id: 5
+          vertex: 532
+          direction: CCW
+          inner-neighbors :
+            0
+          outer-neighbors :
+            3
+        Turn:
+          id: 6
+          vertex: 736
+          direction: CCW
+          inner-neighbors : ()
+          outer-neighbors : ()
+      trait: trait :
+        net-group : [33587]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2154 => Route:
+      id: P2154
+      origin: RouteEnd:
+        feature: id : [3pC5XRFfGntJ8odwTDzGkf/AebGEk7XoJS7aZkAesxjMd]
+        vertex: 1224
+        vertex-group: 145
+        target-shape: TargetShape:
+          rep-point: V2d(-2.35582443379488, 4.71958634013404)
+          shape: Disk(center = V2d(-2.35582443379488, 4.71958634013404), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [3pC5XRFfGntJ8odwTDzGkf/Ef9P7juRMsoZoxN52UKXgF]
+        vertex: 1204
+        vertex-group: 143
+        target-shape: TargetShape:
+          rep-point: V2d(-2.32938634638481, 3.46214109161876)
+          shape: Disk(center = V2d(-2.32938634638481, 3.46214109161876), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : [33616]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2588 => Route:
+      id: P2588
+      origin: RouteEnd:
+        feature: id : [F1P9sLfUJXXSMvevxq52FN/5pmjN8ohthApjkrGC5MTZH]
+        vertex: 910
+        vertex-group: 111
+        target-shape: TargetShape:
+          rep-point: V2d(-0.0948352042891697, -2.71008584718827)
+          shape: Disk(center = V2d(-0.0948352042891697, -2.71008584718827), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [EeJR95yWP2NH9dczDVYpfr/CD3Defxwo8oC9oQeoJ9Ktq]
+        vertex: 1282
+        vertex-group: 152
+        target-shape: TargetShape:
+          rep-point: V2d(-2.95945004436263, 0.61456222327996)
+          shape: Disk(center = V2d(-2.95945004436263, 0.61456222327996), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : [33561]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    1836 => Route:
+      id: P1836
+      origin: RouteEnd:
+        feature: id : [25aokwRNHTKt4dJj4jEJoJ/CD3Defxwo8oC9oQeoJ9Ktq]
+        vertex: 1551
+        vertex-group: 184
+        target-shape: TargetShape:
+          rep-point: V2d(-8.02375735679926, 3.03286987533822)
+          shape: Disk(center = V2d(-8.02375735679926, 3.03286987533822), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [25aokwRNHTKt4dJj4jEJoJ/72SSr23w12gP7ndhQFneGa]
+        vertex: 1530
+        vertex-group: 181
+        target-shape: TargetShape:
+          rep-point: V2d(-7.42134020658461, 2.4501123671111)
+          shape: Disk(center = V2d(-7.42134020658461, 2.4501123671111), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : [33556]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2124 => Route:
+      id: P2124
+      origin: RouteEnd:
+        feature: id : [FinPpnUzaoQQjvsjdctnp1/4Er56WDLc62PuQN3gQ6WQW]
+        vertex: 541
+        vertex-group: 65
+        target-shape: TargetShape:
+          rep-point: V2d(4.66256788876175, -7.66883638387173)
+          shape: Disk(center = V2d(4.66256788876175, -7.66883638387173), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [F1P9sLfUJXXSMvevxq52FN/4F2src8vY8RjWowhPYJUxV]
+        vertex: 903
+        vertex-group: 110
+        target-shape: TargetShape:
+          rep-point: V2d(-0.0948352042891697, -3.16008584718827)
+          shape: Disk(center = V2d(-0.0948352042891697, -3.16008584718827), radius = 0.0375)
+      turns :
+        Turn:
+          id: 7
+          vertex: 527
+          direction: CCW
+          inner-neighbors : ()
+          outer-neighbors :
+            1
+        Turn:
+          id: 8
+          vertex: 519
+          direction: CCW
+          inner-neighbors :
+            4
+          outer-neighbors :
+            2
+        Turn:
+          id: 9
+          vertex: 532
+          direction: CCW
+          inner-neighbors :
+            5
+          outer-neighbors :
+            3
+      trait: trait :
+        net-group : [33591]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2412 => Route:
+      id: P2412
+      origin: RouteEnd:
+        feature: id : [Fk4KVTWQNebJjtDMk9Q5mY/28EVVLkETLcgYNv12a8KpK]
+        vertex: 1247
+        vertex-group: 148
+        target-shape: TargetShape:
+          rep-point: V2d(-2.68618774726431, 2.53115077609503)
+          shape: Disk(center = V2d(-2.68618774726431, 2.53115077609503), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [F1P9sLfUJXXSMvevxq52FN/Fq7VzGpiuJqXaX393yiST1]
+        vertex: 842
+        vertex-group: 103
+        target-shape: TargetShape:
+          rep-point: V2d(0.35516479571083, -2.71008584718827)
+          shape: Disk(center = V2d(0.35516479571083, -2.71008584718827), radius = 0.0375)
+      turns :
+        Turn:
+          id: 16
+          vertex: 1072
+          direction: CW
+          inner-neighbors : ()
+          outer-neighbors : ()
+        Turn:
+          id: 17
+          vertex: 968
+          direction: CW
+          inner-neighbors : ()
+          outer-neighbors : ()
+      trait: trait :
+        net-group : [33552]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    1916 => Route:
+      id: P1916
+      origin: RouteEnd:
+        feature: id : [7TbnJEzqBwKcSRcyURrjEX/CD3Defxwo8oC9oQeoJ9Ktq]
+        vertex: 218
+        vertex-group: 27
+        target-shape: TargetShape:
+          rep-point: V2d(11.7829979308026, -1.09992950867306)
+          shape: Disk(center = V2d(11.7829979308026, -1.09992950867306), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [8gZnRd8Cb2X7FzBJcjKiwN/8TT8Rpjefk2E9DTRtYW7LE]
+        vertex: 150
+        vertex-group: 22
+        target-shape: TargetShape:
+          rep-point: V2d(12.1944755986441, 0.834902950367756)
+          shape: Disk(center = V2d(12.1944755986441, 0.834902950367756), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : [33572]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    1948 => Route:
+      id: P1948
+      origin: RouteEnd:
+        feature: id : [DXxxXc11GMaGHnTF1YF2f3/2A5sQCdSjhdb84C3zQeb54]
+        vertex: 1693
+        vertex-group: 201
+        target-shape: TargetShape:
+          rep-point: V2d(-10.468606665053, 4.18447515945258)
+          shape: Disk(center = V2d(-10.468606665053, 4.18447515945258), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [DXxxXc11GMaGHnTF1YF2f3/67iwcbRqyNUUBKecwaxhiE]
+        vertex: 1715
+        vertex-group: 204
+        target-shape: TargetShape:
+          rep-point: V2d(-11.2137238597473, 4.16789156240825)
+          shape: Disk(center = V2d(-11.2137238597473, 4.16789156240825), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : []
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2204 => Route:
+      id: P2204
+      origin: RouteEnd:
+        feature: id : [DXxxXc11GMaGHnTF1YF2f3/BkVJTz9sTQ6ZJ5oK8Wu5Q1]
+        vertex: 1641
+        vertex-group: 195
+        target-shape: TargetShape:
+          rep-point: V2d(-9.19860666505302, 4.18447515945258)
+          shape: Disk(center = V2d(-9.19860666505302, 4.18447515945258), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [DXxxXc11GMaGHnTF1YF2f3/PWDmRsyDT3ppN4YfA4vSD]
+        vertex: 1728
+        vertex-group: 206
+        target-shape: TargetShape:
+          rep-point: V2d(-11.909406588789, 4.05180087457312)
+          shape: Disk(center = V2d(-11.909406588789, 4.05180087457312), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : []
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2142 => Route:
+      id: P2142
+      origin: RouteEnd:
+        feature: id : [3pC5XRFfGntJ8odwTDzGkf/bLfaqfiiMxSNhu9wMHgqG]
+        vertex: 1299
+        vertex-group: 154
+        target-shape: TargetShape:
+          rep-point: V2d(-3.00582443379488, 4.71958634013404)
+          shape: Disk(center = V2d(-3.00582443379488, 4.71958634013404), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [3pC5XRFfGntJ8odwTDzGkf/AeMajD9arCT8QKtpAuRn75]
+        vertex: 1290
+        vertex-group: 153
+        target-shape: TargetShape:
+          rep-point: V2d(-3.00122468065115, 3.50310684370817)
+          shape: Disk(center = V2d(-3.00122468065115, 3.50310684370817), radius = 0.0375)
+      turns : ()
+      trait: trait :
+        net-group : [33618]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    1982 => Route:
+      id: P1982
+      origin: RouteEnd:
+        feature: id : [F1P9sLfUJXXSMvevxq52FN/6pEEpekW64d7gviegcQJvm]
+        vertex: 736
+        vertex-group: 90
+        target-shape: TargetShape:
+          rep-point: V2d(1.25516479571083, -4.51008584718828)
+          shape: Disk(center = V2d(1.25516479571083, -4.51008584718828), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [FinPpnUzaoQQjvsjdctnp1/dy54wsBrxVNgfBKHgBFCr]
+        vertex: 519
+        vertex-group: 62
+        target-shape: TargetShape:
+          rep-point: V2d(5.01256788876175, -7.46883638387173)
+          shape: Disk(center = V2d(5.01256788876175, -7.46883638387173), radius = 0.0375)
+      turns :
+        Turn:
+          id: 0
+          vertex: 532
+          direction: CW
+          inner-neighbors : ()
+          outer-neighbors : ()
+      trait: trait :
+        net-group : [33595]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+    2510 => Route:
+      id: P2510
+      origin: RouteEnd:
+        feature: id : [Deh2WBRXHCSePZo4R1W7k1/CD3Defxwo8oC9oQeoJ9Ktq]
+        vertex: 1173
+        vertex-group: 140
+        target-shape: TargetShape:
+          rep-point: V2d(-1.75625018092879, 1.81776232513238)
+          shape: Disk(center = V2d(-1.75625018092879, 1.81776232513238), radius = 0.0375)
+      dest: RouteEnd:
+        feature: id : [F1P9sLfUJXXSMvevxq52FN/4PQP5XTR9s1EHH2aiYZzzn]
+        vertex: 1035
+        vertex-group: 125
+        target-shape: TargetShape:
+          rep-point: V2d(-0.99483520428917, -3.16008584718827)
+          shape: Disk(center = V2d(-0.99483520428917, -3.16008584718827), radius = 0.0375)
+      turns :
+        Turn:
+          id: 18
+          vertex: 1282
+          direction: CCW
+          inner-neighbors : ()
+          outer-neighbors : ()
+      trait: trait :
+        net-group : [33554]
+        hole-inset : false
+        soldermask-outset : false
+        edge : false
+      status: ToBeAdded
+  turn-inners: PTable:
+    0 => -1
+    16 => -1
+    1 => 7
+    17 => -1
+    2 => 8
+    18 => -1
+    3 => 9
+    4 => -1
+    5 => 0
+    6 => -1
+    7 => -1
+    8 => 4
+    9 => 5
+    10 => -1
+    11 => 3
+    12 => 2
+    13 => 1
+    14 => -1
+    15 => -1
+  state-rec: false
+  state-id-map: []

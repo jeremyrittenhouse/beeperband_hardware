@@ -182,41 +182,6 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"mcu"
-								},
-								"field":	{
-									"name":	"usb"
-								}
-							},
-							"field":	{
-								"name":	"con"
-							}
-						},
-						"ref":	"J6",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	857,
-							"column":	2
-						}
-					}],
-				"datasheet":	"",
-				"manufacturer":	"",
-				"mpn":	"10103594-0001LF",
-				"vendor":	"DigiKey",
-				"sku":	"10103594-0001LF",
-				"price":	0.72,
-				"preferred":	true,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
 				"description":	"50mA 470nH ±3% 16.5Ω -  Inductors (SMD) ROHS",
 				"insts":	[{
 						"inst":	{
@@ -452,39 +417,6 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"6V Unidirectional 5.5V SON-6(1x1.5)  ESD Protection Devices ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"esd"
-							}
-						},
-						"ref":	"U7",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	379,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/1809050016_Texas-Instruments-TPD4S012DRYR_C96506.pdf",
-				"manufacturer":	"Texas Instruments",
-				"mpn":	"TPD4S012DRYR",
-				"vendor":	"DigiKey",
-				"sku":	"TPD4S012DRYR",
-				"price":	0.19513,
-				"preferred":	true,
-				"query_properties":	{
-					"manufacturer":	"Texas Instruments",
-					"mpn":	"TPD4S012DRYR"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
 				"description":	"Highly Integrated Advanced Bluetooth® 5.2 SoC",
 				"insts":	[{
 						"inst":	{
@@ -685,64 +617,6 @@
 				"price":	0.7595,
 				"preferred":	true,
 				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"cpi2"
-							}
-						},
-						"ref":	"C50",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	365,
-							"column":	2
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"cpi1"
-							}
-						},
-						"ref":	"C49",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	363,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000",
-				"manufacturer":	"MURATA",
-				"mpn":	"GRM0335C1E1R0BA01J",
-				"vendor":	"DigiKey",
-				"sku":	"GRM0335C1E1R0BA01J",
-				"price":	0.1,
-				"preferred":	true,
-				"query_properties":	{
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"mounting":	"smd",
-					"capacitance":	1e-12,
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"_stock":	20,
-					"type":	"ceramic",
-					"min-rated-voltage":	10,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"capacitor"
-				}
 			}, {
 				"status":	{
 					"code":	1,
@@ -1093,62 +967,6 @@
 					"min-stock":	100,
 					"_sort":	["area"],
 					"category":	"resistor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"50mA 470nH ±3% 16.5Ω -  Inductors (SMD) ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"lm"
-							}
-						},
-						"ref":	"L4",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	366,
-							"column":	2
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"lpi"
-							}
-						},
-						"ref":	"L3",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	364,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://page.venkel.com/hubfs/Resources/Datasheets/LMCI-Series.pdf",
-				"manufacturer":	"Venkel",
-				"mpn":	"LMCI0201-1N0ST",
-				"vendor":	"DigiKey",
-				"sku":	"LMCI0201-1N0ST",
-				"price":	0.00473,
-				"preferred":	true,
-				"query_properties":	{
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"inductance":	1e-09,
-					"_stock":	20,
-					"mounting":	"smd",
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"inductor"
 				}
 			}, {
 				"status":	{
@@ -2154,21 +1972,31 @@
 				"insts":	[{
 						"inst":	{
 							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"codec"
-								}
+								"name":	"mcu"
 							},
 							"field":	{
-								"name":	"rvdd-mic"
+								"name":	"rm"
+							}
+						},
+						"ref":	"R19",
+						"fileinfo":	{
+							"filename":	"components/DA14705-00000HZ2.stanza",
+							"line":	368,
+							"column":	2
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"rpi"
 							}
 						},
 						"ref":	"R11",
 						"fileinfo":	{
-							"filename":	"components/DA7212-01UM2.stanza",
-							"line":	109,
+							"filename":	"components/DA14705-00000HZ2.stanza",
+							"line":	365,
 							"column":	2
 						}
 					}],
@@ -2177,7 +2005,7 @@
 				"mpn":	"CR0201-J/-000GLF",
 				"vendor":	"DigiKey",
 				"sku":	"CR0201-J/-000GLF",
-				"price":	0.1,
+				"price":	0.19,
 				"preferred":	false,
 				"query_properties":	{
 					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
@@ -2224,21 +2052,17 @@
 			}, {
 			}, {
 			}, {
-			}, {
-			}, {
-			}, {
-			}, {
 			}]
 	},
 	"metrics":	[{
 			"name":	"Line Items",
-			"value":	36
+			"value":	32
 		}, {
 			"name":	"Components",
-			"value":	76
+			"value":	71
 		}, {
 			"name":	"Cost",
-			"value":	"$26.66"
+			"value":	"$25.82"
 		}],
 	"is_update":	false,
 	"old_bom":	{
@@ -2378,41 +2202,6 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"mcu"
-								},
-								"field":	{
-									"name":	"usb"
-								}
-							},
-							"field":	{
-								"name":	"con"
-							}
-						},
-						"ref":	"J6",
-						"fileinfo":	{
-							"filename":	"open-components-database/utils/generic-components.stanza",
-							"line":	857,
-							"column":	2
-						}
-					}],
-				"datasheet":	"",
-				"manufacturer":	"",
-				"mpn":	"10103594-0001LF",
-				"vendor":	"DigiKey",
-				"sku":	"10103594-0001LF",
-				"price":	0.72,
-				"preferred":	true,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
 				"description":	"50mA 470nH ±3% 16.5Ω -  Inductors (SMD) ROHS",
 				"insts":	[{
 						"inst":	{
@@ -2648,39 +2437,6 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"6V Unidirectional 5.5V SON-6(1x1.5)  ESD Protection Devices ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"esd"
-							}
-						},
-						"ref":	"U7",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	379,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/1809050016_Texas-Instruments-TPD4S012DRYR_C96506.pdf",
-				"manufacturer":	"Texas Instruments",
-				"mpn":	"TPD4S012DRYR",
-				"vendor":	"DigiKey",
-				"sku":	"TPD4S012DRYR",
-				"price":	0.19513,
-				"preferred":	true,
-				"query_properties":	{
-					"manufacturer":	"Texas Instruments",
-					"mpn":	"TPD4S012DRYR"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
 				"description":	"Highly Integrated Advanced Bluetooth® 5.2 SoC",
 				"insts":	[{
 						"inst":	{
@@ -2881,64 +2637,6 @@
 				"price":	0.7595,
 				"preferred":	true,
 				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"cpi2"
-							}
-						},
-						"ref":	"C50",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	365,
-							"column":	2
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"cpi1"
-							}
-						},
-						"ref":	"C49",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	363,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000",
-				"manufacturer":	"MURATA",
-				"mpn":	"GRM0335C1E1R0BA01J",
-				"vendor":	"DigiKey",
-				"sku":	"GRM0335C1E1R0BA01J",
-				"price":	0.1,
-				"preferred":	true,
-				"query_properties":	{
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"mounting":	"smd",
-					"capacitance":	1e-12,
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"_stock":	20,
-					"type":	"ceramic",
-					"min-rated-voltage":	10,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"capacitor"
-				}
 			}, {
 				"status":	{
 					"code":	1,
@@ -3289,62 +2987,6 @@
 					"min-stock":	100,
 					"_sort":	["area"],
 					"category":	"resistor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"50mA 470nH ±3% 16.5Ω -  Inductors (SMD) ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"lm"
-							}
-						},
-						"ref":	"L4",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	366,
-							"column":	2
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"lpi"
-							}
-						},
-						"ref":	"L3",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	364,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://page.venkel.com/hubfs/Resources/Datasheets/LMCI-Series.pdf",
-				"manufacturer":	"Venkel",
-				"mpn":	"LMCI0201-1N0ST",
-				"vendor":	"DigiKey",
-				"sku":	"LMCI0201-1N0ST",
-				"price":	0.00473,
-				"preferred":	true,
-				"query_properties":	{
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"inductance":	1e-09,
-					"_stock":	20,
-					"mounting":	"smd",
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"inductor"
 				}
 			}, {
 				"status":	{
@@ -4350,21 +3992,31 @@
 				"insts":	[{
 						"inst":	{
 							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"codec"
-								}
+								"name":	"mcu"
 							},
 							"field":	{
-								"name":	"rvdd-mic"
+								"name":	"rm"
+							}
+						},
+						"ref":	"R19",
+						"fileinfo":	{
+							"filename":	"components/DA14705-00000HZ2.stanza",
+							"line":	368,
+							"column":	2
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"rpi"
 							}
 						},
 						"ref":	"R11",
 						"fileinfo":	{
-							"filename":	"components/DA7212-01UM2.stanza",
-							"line":	109,
+							"filename":	"components/DA14705-00000HZ2.stanza",
+							"line":	365,
 							"column":	2
 						}
 					}],
@@ -4373,7 +4025,7 @@
 				"mpn":	"CR0201-J/-000GLF",
 				"vendor":	"DigiKey",
 				"sku":	"CR0201-J/-000GLF",
-				"price":	0.1,
+				"price":	0.19,
 				"preferred":	false,
 				"query_properties":	{
 					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
@@ -4389,10 +4041,6 @@
 				}
 			}],
 		"entries":	[{
-			}, {
-			}, {
-			}, {
-			}, {
 			}, {
 			}, {
 			}, {

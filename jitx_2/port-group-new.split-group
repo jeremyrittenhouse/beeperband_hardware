@@ -1,0 +1,12 @@
+SplitGroup(name = board-io.rs.collector[0], input = box layout input (320, 175) 0.8 :
+  box 1113144 from (-1, -2) to (1, 2):
+    port 1113142 at (0, 2) facing Up
+    port 1113143 at (0, -2) facing Down
+  box 1112946 from (0, -1) to (2, 1):
+    port 1112945 at (0, 0) facing Left
+  inst 1113613 of box 1113144 (group board-io.rs.collector[0])
+  inst 1113612 of box 1113144 (group board-io.rs.collector[0])
+  net 1113888 codec-i2c-net.sda (B1113612.P1113142) (labeled) (require 1113764 mcu.c-i2c.sda)
+  net 1113871 codec-i2c-net.scl (B1113613.P1113142) (labeled) (require 1113743 mcu.c-i2c.scl)
+  net 1113834 VDD1P8P (B1113612.P1113143, B1113613.P1113143) (symbol 1112946) 
+  order (), partial-nets = [PartialNet(1113742, [B1113613.P1113142], [RequireMarker(id = 1113743, name = mcu.c-i2c.scl)]) => 1113871 PartialNet(1113693, [B1113612.P1113143 B1113613.P1113143], []) => 1113834 PartialNet(1113763, [B1113612.P1113142], [RequireMarker(id = 1113764, name = mcu.c-i2c.sda)]) => 1113888])

@@ -1,0 +1,1078 @@
+box layout input (320, 175) 0.8 :
+  box 1113355 from (-11, -16) to (11, 16):
+    port 1113341 at (-11, 1) facing Left
+    port 1113342 at (-11, -1) facing Left
+    port 1113343 at (11, 8) facing Right
+    port 1113344 at (11, 6) facing Right
+    port 1113345 at (11, 4) facing Right
+    port 1113346 at (11, 2) facing Right
+    port 1113347 at (11, 0) facing Right
+    port 1113348 at (11, -2) facing Right
+    port 1113349 at (11, -4) facing Right
+    port 1113350 at (11, -6) facing Right
+    port 1113351 at (11, -8) facing Right
+    port 1113352 at (-1, 16) facing Up
+    port 1113353 at (1, 16) facing Up
+    port 1113354 at (0, -16) facing Down
+  box 1112844 from (-7, -16) to (5, 16):
+    port 1112829 at (-7, 14) facing Left
+    port 1112830 at (-7, 12) facing Left
+    port 1112831 at (-7, 10) facing Left
+    port 1112832 at (-7, 8) facing Left
+    port 1112833 at (-7, 6) facing Left
+    port 1112834 at (-7, 4) facing Left
+    port 1112835 at (-7, 2) facing Left
+    port 1112836 at (-7, 0) facing Left
+    port 1112837 at (-7, -2) facing Left
+    port 1112838 at (-7, -4) facing Left
+    port 1112839 at (-7, -6) facing Left
+    port 1112840 at (-7, -8) facing Left
+    port 1112841 at (-7, -10) facing Left
+    port 1112842 at (-7, -12) facing Left
+    port 1112843 at (-7, -14) facing Left
+  box 1112847 from (-1, -2) to (1, 2):
+    port 1112845 at (0, 2) facing Up
+    port 1112846 at (0, -2) facing Down
+  box 1113104 from (-11, -16) to (11, 16):
+    port 1113085 at (-11, 5) facing Left
+    port 1113086 at (-11, 3) facing Left
+    port 1113087 at (-11, 1) facing Left
+    port 1113088 at (-11, -1) facing Left
+    port 1113089 at (-11, -3) facing Left
+    port 1113090 at (-11, -5) facing Left
+    port 1113091 at (11, 8) facing Right
+    port 1113092 at (11, 6) facing Right
+    port 1113093 at (11, 4) facing Right
+    port 1113094 at (11, 2) facing Right
+    port 1113095 at (11, 0) facing Right
+    port 1113096 at (11, -2) facing Right
+    port 1113097 at (11, -4) facing Right
+    port 1113098 at (11, -6) facing Right
+    port 1113099 at (11, -8) facing Right
+    port 1113100 at (-1, 16) facing Up
+    port 1113101 at (1, 16) facing Up
+    port 1113102 at (-1, -16) facing Down
+    port 1113103 at (1, -16) facing Down
+  box 1113360 from (-6, -3) to (6, 1):
+    port 1113356 at (-6, -3) facing Left
+    port 1113357 at (-6, 1) facing Left
+    port 1113358 at (6, -3) facing Right
+    port 1113359 at (6, 1) facing Right
+  box 1112850 from (-1, -2) to (1, 2):
+    port 1112848 at (0, 2) facing Up
+    port 1112849 at (0, -2) facing Down
+  box 1113107 from (-1, -2) to (1, 2):
+    port 1113105 at (0, 2) facing Up
+    port 1113106 at (0, -2) facing Down
+  box 1112860 from (-7, -9) to (7, 9):
+    port 1112851 at (-7, 2) facing Left
+    port 1112852 at (-7, 0) facing Left
+    port 1112853 at (-7, -2) facing Left
+    port 1112854 at (7, 2) facing Right
+    port 1112855 at (7, 0) facing Right
+    port 1112856 at (7, -2) facing Right
+    port 1112857 at (0, 9) facing Up
+    port 1112858 at (-1, -9) facing Down
+    port 1112859 at (1, -9) facing Down
+  box 1113116 from (-8, -9) to (6, 9):
+    port 1113108 at (-8, 7) facing Left
+    port 1113109 at (-8, 5) facing Left
+    port 1113110 at (-8, 3) facing Left
+    port 1113111 at (-8, 1) facing Left
+    port 1113112 at (-8, -1) facing Left
+    port 1113113 at (-8, -3) facing Left
+    port 1113114 at (-8, -5) facing Left
+    port 1113115 at (-8, -7) facing Left
+  box 1112863 from (-1, -2) to (1, 2):
+    port 1112861 at (0, 2) facing Up
+    port 1112862 at (0, -2) facing Down
+  box 1113119 from (-1, -2) to (1, 2):
+    port 1113117 at (0, 2) facing Up
+    port 1113118 at (0, -2) facing Down
+  box 1112866 from (-1, -2) to (1, 2):
+    port 1112864 at (0, 2) facing Up
+    port 1112865 at (0, -2) facing Down
+  box 1113124 from (-6, -5) to (6, 5):
+    port 1113120 at (-6, -2) facing Left
+    port 1113121 at (6, 2) facing Right
+    port 1113122 at (-6, 2) facing Left
+    port 1113123 at (6, -2) facing Right
+  box 1112869 from (-1, -2) to (1, 2):
+    port 1112867 at (0, 2) facing Up
+    port 1112868 at (0, -2) facing Down
+  box 1113126 from (-1, -2) to (1, 0):
+    port 1113125 at (0, 0) facing Up
+  box 1113129 from (-1, -2) to (1, 2):
+    port 1113127 at (0, 2) facing Up
+    port 1113128 at (0, -2) facing Down
+  box 1113132 from (-1, -2) to (1, 2):
+    port 1113130 at (0, 2) facing Up
+    port 1113131 at (0, -2) facing Down
+  box 1112879 from (-11, -10) to (11, 10):
+    port 1112870 at (-11, 3) facing Left
+    port 1112871 at (-11, 1) facing Left
+    port 1112872 at (-11, -1) facing Left
+    port 1112873 at (-11, -3) facing Left
+    port 1112874 at (11, 1) facing Right
+    port 1112875 at (11, -1) facing Right
+    port 1112876 at (-1, 10) facing Up
+    port 1112877 at (1, 10) facing Up
+    port 1112878 at (0, -10) facing Down
+  box 1113135 from (-1, -2) to (1, 2):
+    port 1113133 at (0, 2) facing Up
+    port 1113134 at (0, -2) facing Down
+  box 1112881 from (0, -2) to (4, 2):
+    port 1112880 at (0, 0) facing Left
+  box 1113138 from (-1, -2) to (1, 2):
+    port 1113136 at (0, 2) facing Up
+    port 1113137 at (0, -2) facing Down
+  box 1113395 from (-21, -22) to (21, 22):
+    port 1113361 at (-21, 7) facing Left
+    port 1113362 at (-21, 5) facing Left
+    port 1113363 at (-21, 3) facing Left
+    port 1113364 at (-21, 1) facing Left
+    port 1113365 at (-21, -1) facing Left
+    port 1113366 at (-21, -3) facing Left
+    port 1113367 at (-21, -5) facing Left
+    port 1113368 at (-21, -7) facing Left
+    port 1113369 at (21, 11) facing Right
+    port 1113370 at (21, 9) facing Right
+    port 1113371 at (21, 7) facing Right
+    port 1113372 at (21, 5) facing Right
+    port 1113373 at (21, 3) facing Right
+    port 1113374 at (21, 1) facing Right
+    port 1113375 at (21, -1) facing Right
+    port 1113376 at (21, -3) facing Right
+    port 1113377 at (21, -5) facing Right
+    port 1113378 at (21, -7) facing Right
+    port 1113379 at (21, -9) facing Right
+    port 1113380 at (21, -11) facing Right
+    port 1113381 at (-10, 22) facing Up
+    port 1113382 at (-8, 22) facing Up
+    port 1113383 at (-6, 22) facing Up
+    port 1113384 at (-4, 22) facing Up
+    port 1113385 at (-2, 22) facing Up
+    port 1113386 at (0, 22) facing Up
+    port 1113387 at (2, 22) facing Up
+    port 1113388 at (4, 22) facing Up
+    port 1113389 at (6, 22) facing Up
+    port 1113390 at (8, 22) facing Up
+    port 1113391 at (10, 22) facing Up
+    port 1113392 at (-2, -22) facing Down
+    port 1113393 at (0, -22) facing Down
+    port 1113394 at (2, -22) facing Down
+  box 1112884 from (-1, -2) to (1, 2):
+    port 1112882 at (0, 2) facing Up
+    port 1112883 at (0, -2) facing Down
+  box 1113141 from (-1, -2) to (1, 2):
+    port 1113139 at (0, 2) facing Up
+    port 1113140 at (0, -2) facing Down
+  box 1113398 from (-1, -2) to (1, 2):
+    port 1113396 at (0, 2) facing Up
+    port 1113397 at (0, -2) facing Down
+  box 1112887 from (-1, -2) to (1, 2):
+    port 1112885 at (0, 2) facing Up
+    port 1112886 at (0, -2) facing Down
+  box 1113144 from (-1, -2) to (1, 2):
+    port 1113142 at (0, 2) facing Up
+    port 1113143 at (0, -2) facing Down
+  box 1112890 from (-1, -2) to (1, 2):
+    port 1112888 at (0, 2) facing Up
+    port 1112889 at (0, -2) facing Down
+  box 1113147 from (-1, -2) to (1, 2):
+    port 1113145 at (0, 2) facing Up
+    port 1113146 at (0, -2) facing Down
+  box 1112892 from (-2, -1) to (2, 1):
+    port 1112891 at (2, 0) facing Right
+  box 1113150 from (-1, -2) to (1, 2):
+    port 1113148 at (0, 2) facing Up
+    port 1113149 at (0, -2) facing Down
+  box 1112895 from (-1, -2) to (1, 2):
+    port 1112893 at (0, 2) facing Up
+    port 1112894 at (0, -2) facing Down
+  box 1113407 from (-8, -9) to (6, 9):
+    port 1113399 at (-8, 7) facing Left
+    port 1113400 at (-8, 5) facing Left
+    port 1113401 at (-8, 3) facing Left
+    port 1113402 at (-8, 1) facing Left
+    port 1113403 at (-8, -1) facing Left
+    port 1113404 at (-8, -3) facing Left
+    port 1113405 at (-8, -5) facing Left
+    port 1113406 at (-8, -7) facing Left
+  box 1113153 from (-1, -2) to (1, 2):
+    port 1113151 at (0, 2) facing Up
+    port 1113152 at (0, -2) facing Down
+  box 1112898 from (-1, -2) to (1, 2):
+    port 1112896 at (0, 2) facing Up
+    port 1112897 at (0, -2) facing Down
+  box 1113156 from (-1, -2) to (1, 2):
+    port 1113154 at (0, 2) facing Up
+    port 1113155 at (0, -2) facing Down
+  box 1113412 from (-8, -9) to (8, 4):
+    port 1113408 at (8, 2) facing Right
+    port 1113409 at (-8, 2) facing Left
+    port 1113410 at (-8, -4) facing Left
+    port 1113411 at (8, -4) facing Right
+  box 1112901 from (-1, -2) to (1, 2):
+    port 1112899 at (0, 2) facing Up
+    port 1112900 at (0, -2) facing Down
+  box 1113159 from (-1, -2) to (1, 2):
+    port 1113157 at (0, 2) facing Up
+    port 1113158 at (0, -2) facing Down
+  box 1113415 from (-1, -2) to (1, 2):
+    port 1113413 at (0, 2) facing Up
+    port 1113414 at (0, -2) facing Down
+  box 1112904 from (-1, -2) to (1, 2):
+    port 1112902 at (0, 2) facing Up
+    port 1112903 at (0, -2) facing Down
+  box 1113166 from (-3, -12) to (5, 10):
+    port 1113160 at (5, 3) facing Right
+    port 1113161 at (5, 1) facing Right
+    port 1113162 at (5, -1) facing Right
+    port 1113163 at (5, -3) facing Right
+    port 1113164 at (-1, -12) facing Down
+    port 1113165 at (1, -12) facing Down
+  box 1112911 from (-7, -5) to (7, 5):
+    port 1112905 at (-7, 2) facing Left
+    port 1112906 at (-7, 0) facing Left
+    port 1112907 at (-7, -2) facing Left
+    port 1112908 at (7, -2) facing Right
+    port 1112909 at (7, 0) facing Right
+    port 1112910 at (7, 2) facing Right
+  box 1113169 from (-1, -2) to (1, 2):
+    port 1113167 at (0, 2) facing Up
+    port 1113168 at (0, -2) facing Down
+  box 1112914 from (-1, -2) to (1, 2):
+    port 1112912 at (0, 2) facing Up
+    port 1112913 at (0, -2) facing Down
+  box 1113172 from (-1, -2) to (1, 2):
+    port 1113170 at (0, 2) facing Up
+    port 1113171 at (0, -2) facing Down
+  box 1112917 from (-1, -2) to (1, 2):
+    port 1112915 at (0, 2) facing Up
+    port 1112916 at (0, -2) facing Down
+  box 1113175 from (-1, -2) to (1, 2):
+    port 1113173 at (0, 2) facing Up
+    port 1113174 at (0, -2) facing Down
+  box 1112920 from (-1, -2) to (1, 2):
+    port 1112918 at (0, 2) facing Up
+    port 1112919 at (0, -2) facing Down
+  box 1113178 from (-1, -2) to (1, 2):
+    port 1113176 at (0, 2) facing Up
+    port 1113177 at (0, -2) facing Down
+  box 1112923 from (-1, -2) to (1, 2):
+    port 1112921 at (0, 2) facing Up
+    port 1112922 at (0, -2) facing Down
+  box 1113435 from (-11, -16) to (11, 16):
+    port 1113416 at (-11, 5) facing Left
+    port 1113417 at (-11, 3) facing Left
+    port 1113418 at (-11, 1) facing Left
+    port 1113419 at (-11, -1) facing Left
+    port 1113420 at (-11, -3) facing Left
+    port 1113421 at (-11, -5) facing Left
+    port 1113422 at (11, 8) facing Right
+    port 1113423 at (11, 6) facing Right
+    port 1113424 at (11, 4) facing Right
+    port 1113425 at (11, 2) facing Right
+    port 1113426 at (11, 0) facing Right
+    port 1113427 at (11, -2) facing Right
+    port 1113428 at (11, -4) facing Right
+    port 1113429 at (11, -6) facing Right
+    port 1113430 at (11, -8) facing Right
+    port 1113431 at (-1, 16) facing Up
+    port 1113432 at (1, 16) facing Up
+    port 1113433 at (-1, -16) facing Down
+    port 1113434 at (1, -16) facing Down
+  box 1112926 from (-1, -2) to (1, 2):
+    port 1112924 at (0, 2) facing Up
+    port 1112925 at (0, -2) facing Down
+  box 1112929 from (-1, -2) to (1, 2):
+    port 1112927 at (0, 2) facing Up
+    port 1112928 at (0, -2) facing Down
+  box 1113185 from (-4, -3) to (4, 3):
+    port 1113179 at (-4, 2) facing Left
+    port 1113180 at (4, 2) facing Right
+    port 1113181 at (-4, 0) facing Left
+    port 1113182 at (4, 0) facing Right
+    port 1113183 at (-4, -2) facing Left
+    port 1113184 at (4, -2) facing Right
+  box 1112932 from (-1, -2) to (1, 2):
+    port 1112930 at (0, 2) facing Up
+    port 1112931 at (0, -2) facing Down
+  box 1113188 from (-3, -3) to (7, 4):
+    port 1113186 at (7, -3) facing Right
+    port 1113187 at (0, -3) facing Down
+  box 1113445 from (-11, -10) to (11, 10):
+    port 1113436 at (-11, 3) facing Left
+    port 1113437 at (-11, 1) facing Left
+    port 1113438 at (-11, -1) facing Left
+    port 1113439 at (-11, -3) facing Left
+    port 1113440 at (11, 1) facing Right
+    port 1113441 at (11, -1) facing Right
+    port 1113442 at (-1, 10) facing Up
+    port 1113443 at (1, 10) facing Up
+    port 1113444 at (0, -10) facing Down
+  box 1112935 from (-1, -2) to (1, 2):
+    port 1112933 at (0, 2) facing Up
+    port 1112934 at (0, -2) facing Down
+  box 1113448 from (-1, -2) to (1, 2):
+    port 1113446 at (0, 2) facing Up
+    port 1113447 at (0, -2) facing Down
+  box 1112938 from (-1, -2) to (1, 2):
+    port 1112936 at (0, 2) facing Up
+    port 1112937 at (0, -2) facing Down
+  box 1112941 from (-1, -2) to (1, 2):
+    port 1112939 at (0, 2) facing Up
+    port 1112940 at (0, -2) facing Down
+  box 1113453 from (-6, -5) to (6, 5):
+    port 1113449 at (-6, -2) facing Left
+    port 1113450 at (6, 2) facing Right
+    port 1113451 at (-6, 2) facing Left
+    port 1113452 at (6, -2) facing Right
+  box 1113198 from (-7, -9) to (7, 9):
+    port 1113189 at (-7, 2) facing Left
+    port 1113190 at (-7, 0) facing Left
+    port 1113191 at (-7, -2) facing Left
+    port 1113192 at (7, 2) facing Right
+    port 1113193 at (7, 0) facing Right
+    port 1113194 at (7, -2) facing Right
+    port 1113195 at (0, 9) facing Up
+    port 1113196 at (-1, -9) facing Down
+    port 1113197 at (1, -9) facing Down
+  box 1112944 from (-1, -2) to (1, 2):
+    port 1112942 at (0, 2) facing Up
+    port 1112943 at (0, -2) facing Down
+  box 1113456 from (-1, -2) to (1, 2):
+    port 1113454 at (0, 2) facing Up
+    port 1113455 at (0, -2) facing Down
+  box 1113201 from (-1, -2) to (1, 2):
+    port 1113199 at (0, 2) facing Up
+    port 1113200 at (0, -2) facing Down
+  box 1112946 from (0, -1) to (2, 1):
+    port 1112945 at (0, 0) facing Left
+  box 1113459 from (-1, -2) to (1, 2):
+    port 1113457 at (0, 2) facing Up
+    port 1113458 at (0, -2) facing Down
+  box 1113462 from (-1, -2) to (1, 2):
+    port 1113460 at (0, 2) facing Up
+    port 1113461 at (0, -2) facing Down
+  box 1113208 from (-5, -7) to (7, 7):
+    port 1113202 at (7, 5) facing Right
+    port 1113203 at (7, 3) facing Right
+    port 1113204 at (7, 1) facing Right
+    port 1113205 at (7, -1) facing Right
+    port 1113206 at (7, -3) facing Right
+    port 1113207 at (7, -5) facing Right
+  box 1112697 from (-1, -2) to (1, 2):
+    port 1112695 at (0, 2) facing Up
+    port 1112696 at (0, -2) facing Down
+  box 1112953 from (-4, -3) to (4, 3):
+    port 1112947 at (-4, 2) facing Left
+    port 1112948 at (4, 2) facing Right
+    port 1112949 at (-4, 0) facing Left
+    port 1112950 at (4, 0) facing Right
+    port 1112951 at (-4, -2) facing Left
+    port 1112952 at (4, -2) facing Right
+  box 1113465 from (-1, -2) to (1, 2):
+    port 1113463 at (0, 2) facing Up
+    port 1113464 at (0, -2) facing Down
+  box 1112956 from (-1, -2) to (1, 2):
+    port 1112954 at (0, 2) facing Up
+    port 1112955 at (0, -2) facing Down
+  box 1113468 from (-1, -2) to (1, 2):
+    port 1113466 at (0, 2) facing Up
+    port 1113467 at (0, -2) facing Down
+  box 1112959 from (-1, -2) to (1, 2):
+    port 1112957 at (0, 2) facing Up
+    port 1112958 at (0, -2) facing Down
+  box 1113471 from (-1, -2) to (1, 2):
+    port 1113469 at (0, 2) facing Up
+    port 1113470 at (0, -2) facing Down
+  box 1113474 from (-1, -2) to (1, 2):
+    port 1113472 at (0, 2) facing Up
+    port 1113473 at (0, -2) facing Down
+  box 1113219 from (-8, -12) to (8, 12):
+    port 1113209 at (-8, 2) facing Left
+    port 1113210 at (-8, 0) facing Left
+    port 1113211 at (-8, -2) facing Left
+    port 1113212 at (8, 2) facing Right
+    port 1113213 at (8, 0) facing Right
+    port 1113214 at (8, -2) facing Right
+    port 1113215 at (0, 12) facing Up
+    port 1113216 at (-2, -12) facing Down
+    port 1113217 at (0, -12) facing Down
+    port 1113218 at (2, -12) facing Down
+  box 1113221 from (-7, -2) to (5, 2):
+    port 1113220 at (-7, 0) facing Left
+  box 1113477 from (-1, -2) to (1, 2):
+    port 1113475 at (0, 2) facing Up
+    port 1113476 at (0, -2) facing Down
+  box 1112966 from (-5, -7) to (7, 7):
+    port 1112960 at (7, 5) facing Right
+    port 1112961 at (7, 3) facing Right
+    port 1112962 at (7, 1) facing Right
+    port 1112963 at (7, -1) facing Right
+    port 1112964 at (7, -3) facing Right
+    port 1112965 at (7, -5) facing Right
+  box 1113480 from (-1, -2) to (1, 2):
+    port 1113478 at (0, 2) facing Up
+    port 1113479 at (0, -2) facing Down
+  box 1112969 from (-1, -2) to (1, 2):
+    port 1112967 at (0, 2) facing Up
+    port 1112968 at (0, -2) facing Down
+  box 1113483 from (-1, -2) to (1, 2):
+    port 1113481 at (0, 2) facing Up
+    port 1113482 at (0, -2) facing Down
+  box 1112972 from (-1, -2) to (1, 2):
+    port 1112970 at (0, 2) facing Up
+    port 1112971 at (0, -2) facing Down
+  box 1113486 from (-1, -2) to (1, 2):
+    port 1113484 at (0, 2) facing Up
+    port 1113485 at (0, -2) facing Down
+  box 1112977 from (-6, -3) to (6, 1):
+    port 1112973 at (-6, -3) facing Left
+    port 1112974 at (-6, 1) facing Left
+    port 1112975 at (6, -3) facing Right
+    port 1112976 at (6, 1) facing Right
+  box 1112980 from (-1, -2) to (1, 2):
+    port 1112978 at (0, 2) facing Up
+    port 1112979 at (0, -2) facing Down
+  box 1112725 from (-25, -11) to (25, 11):
+    port 1112698 at (-14, 11) facing Up
+    port 1112699 at (-12, 11) facing Up
+    port 1112700 at (-10, 11) facing Up
+    port 1112701 at (-8, 11) facing Up
+    port 1112702 at (-6, 11) facing Up
+    port 1112703 at (-4, 11) facing Up
+    port 1112704 at (-2, 11) facing Up
+    port 1112705 at (0, 11) facing Up
+    port 1112706 at (2, 11) facing Up
+    port 1112707 at (4, 11) facing Up
+    port 1112708 at (6, 11) facing Up
+    port 1112709 at (8, 11) facing Up
+    port 1112710 at (10, 11) facing Up
+    port 1112711 at (12, 11) facing Up
+    port 1112712 at (-12, -11) facing Down
+    port 1112713 at (-10, -11) facing Down
+    port 1112714 at (-8, -11) facing Down
+    port 1112715 at (-6, -11) facing Down
+    port 1112716 at (-4, -11) facing Down
+    port 1112717 at (-2, -11) facing Down
+    port 1112718 at (0, -11) facing Down
+    port 1112719 at (2, -11) facing Down
+    port 1112720 at (4, -11) facing Down
+    port 1112721 at (6, -11) facing Down
+    port 1112722 at (8, -11) facing Down
+    port 1112723 at (10, -11) facing Down
+    port 1112724 at (12, -11) facing Down
+  box 1113493 from (-7, -5) to (7, 5):
+    port 1113487 at (-7, 2) facing Left
+    port 1113488 at (-7, 0) facing Left
+    port 1113489 at (-7, -2) facing Left
+    port 1113490 at (7, -2) facing Right
+    port 1113491 at (7, 0) facing Right
+    port 1113492 at (7, 2) facing Right
+  box 1112728 from (-1, -2) to (1, 2):
+    port 1112726 at (0, 2) facing Up
+    port 1112727 at (0, -2) facing Down
+  box 1113496 from (-1, -2) to (1, 2):
+    port 1113494 at (0, 2) facing Up
+    port 1113495 at (0, -2) facing Down
+  box 1112731 from (-1, -2) to (1, 2):
+    port 1112729 at (0, 2) facing Up
+    port 1112730 at (0, -2) facing Down
+  box 1113499 from (-1, -2) to (1, 2):
+    port 1113497 at (0, 2) facing Up
+    port 1113498 at (0, -2) facing Down
+  box 1112989 from (-8, -9) to (10, 7):
+    port 1112981 at (10, 0) facing Right
+    port 1112982 at (-6, -9) facing Down
+    port 1112983 at (-4, -9) facing Down
+    port 1112984 at (-2, -9) facing Down
+    port 1112985 at (0, -9) facing Down
+    port 1112986 at (2, -9) facing Down
+    port 1112987 at (4, -9) facing Down
+    port 1112988 at (6, -9) facing Down
+  box 1112734 from (-1, -2) to (1, 2):
+    port 1112732 at (0, 2) facing Up
+    port 1112733 at (0, -2) facing Down
+  box 1113502 from (-1, -2) to (1, 2):
+    port 1113500 at (0, 2) facing Up
+    port 1113501 at (0, -2) facing Down
+  box 1112992 from (-1, -2) to (1, 2):
+    port 1112990 at (0, 2) facing Up
+    port 1112991 at (0, -2) facing Down
+  box 1112737 from (-1, -2) to (1, 2):
+    port 1112735 at (0, 2) facing Up
+    port 1112736 at (0, -2) facing Down
+  box 1113505 from (-1, -2) to (1, 2):
+    port 1113503 at (0, 2) facing Up
+    port 1113504 at (0, -2) facing Down
+  box 1112739 from (-7, -2) to (5, 2):
+    port 1112738 at (-7, 0) facing Left
+  box 1113508 from (-1, -2) to (1, 2):
+    port 1113506 at (0, 2) facing Up
+    port 1113507 at (0, -2) facing Down
+  box 1112742 from (-1, -2) to (1, 2):
+    port 1112740 at (0, 2) facing Up
+    port 1112741 at (0, -2) facing Down
+  box 1113254 from (-7, -17) to (7, 17):
+    port 1113222 at (-7, 15) facing Left
+    port 1113223 at (-7, 13) facing Left
+    port 1113224 at (-7, 11) facing Left
+    port 1113225 at (-7, 9) facing Left
+    port 1113226 at (-7, 7) facing Left
+    port 1113227 at (-7, 5) facing Left
+    port 1113228 at (-7, 3) facing Left
+    port 1113229 at (-7, 1) facing Left
+    port 1113230 at (-7, -1) facing Left
+    port 1113231 at (-7, -3) facing Left
+    port 1113232 at (-7, -5) facing Left
+    port 1113233 at (-7, -7) facing Left
+    port 1113234 at (-7, -9) facing Left
+    port 1113235 at (-7, -11) facing Left
+    port 1113236 at (-7, -13) facing Left
+    port 1113237 at (-7, -15) facing Left
+    port 1113238 at (7, 15) facing Right
+    port 1113239 at (7, 13) facing Right
+    port 1113240 at (7, 11) facing Right
+    port 1113241 at (7, 9) facing Right
+    port 1113242 at (7, 7) facing Right
+    port 1113243 at (7, 5) facing Right
+    port 1113244 at (7, 3) facing Right
+    port 1113245 at (7, 1) facing Right
+    port 1113246 at (7, -1) facing Right
+    port 1113247 at (7, -3) facing Right
+    port 1113248 at (7, -5) facing Right
+    port 1113249 at (7, -7) facing Right
+    port 1113250 at (7, -9) facing Right
+    port 1113251 at (7, -11) facing Right
+    port 1113252 at (7, -13) facing Right
+    port 1113253 at (7, -15) facing Right
+  box 1113511 from (-1, -2) to (1, 2):
+    port 1113509 at (0, 2) facing Up
+    port 1113510 at (0, -2) facing Down
+  box 1113514 from (-1, -2) to (1, 2):
+    port 1113512 at (0, 2) facing Up
+    port 1113513 at (0, -2) facing Down
+  box 1113517 from (-1, -2) to (1, 2):
+    port 1113515 at (0, 2) facing Up
+    port 1113516 at (0, -2) facing Down
+  box 1113520 from (-1, -2) to (1, 2):
+    port 1113518 at (0, 2) facing Up
+    port 1113519 at (0, -2) facing Down
+  box 1113523 from (-1, -2) to (1, 2):
+    port 1113521 at (0, 2) facing Up
+    port 1113522 at (0, -2) facing Down
+  box 1112757 from (-11, -16) to (11, 16):
+    port 1112743 at (-11, 1) facing Left
+    port 1112744 at (-11, -1) facing Left
+    port 1112745 at (11, 8) facing Right
+    port 1112746 at (11, 6) facing Right
+    port 1112747 at (11, 4) facing Right
+    port 1112748 at (11, 2) facing Right
+    port 1112749 at (11, 0) facing Right
+    port 1112750 at (11, -2) facing Right
+    port 1112751 at (11, -4) facing Right
+    port 1112752 at (11, -6) facing Right
+    port 1112753 at (11, -8) facing Right
+    port 1112754 at (-1, 16) facing Up
+    port 1112755 at (1, 16) facing Up
+    port 1112756 at (0, -16) facing Down
+  box 1113526 from (-1, -2) to (1, 2):
+    port 1113524 at (0, 2) facing Up
+    port 1113525 at (0, -2) facing Down
+  box 1112760 from (-1, -2) to (1, 2):
+    port 1112758 at (0, 2) facing Up
+    port 1112759 at (0, -2) facing Down
+  box 1113529 from (-1, -2) to (1, 2):
+    port 1113527 at (0, 2) facing Up
+    port 1113528 at (0, -2) facing Down
+  box 1112763 from (-3, -3) to (7, 4):
+    port 1112761 at (7, -3) facing Right
+    port 1112762 at (0, -3) facing Down
+  box 1113532 from (-1, -2) to (1, 2):
+    port 1113530 at (0, 2) facing Up
+    port 1113531 at (0, -2) facing Down
+  box 1112766 from (-1, -2) to (1, 2):
+    port 1112764 at (0, 2) facing Up
+    port 1112765 at (0, -2) facing Down
+  box 1113535 from (-1, -2) to (1, 2):
+    port 1113533 at (0, 2) facing Up
+    port 1113534 at (0, -2) facing Down
+  box 1112769 from (-1, -2) to (1, 2):
+    port 1112767 at (0, 2) facing Up
+    port 1112768 at (0, -2) facing Down
+  box 1113025 from (-7, -17) to (7, 17):
+    port 1112993 at (-7, 15) facing Left
+    port 1112994 at (-7, 13) facing Left
+    port 1112995 at (-7, 11) facing Left
+    port 1112996 at (-7, 9) facing Left
+    port 1112997 at (-7, 7) facing Left
+    port 1112998 at (-7, 5) facing Left
+    port 1112999 at (-7, 3) facing Left
+    port 1113000 at (-7, 1) facing Left
+    port 1113001 at (-7, -1) facing Left
+    port 1113002 at (-7, -3) facing Left
+    port 1113003 at (-7, -5) facing Left
+    port 1113004 at (-7, -7) facing Left
+    port 1113005 at (-7, -9) facing Left
+    port 1113006 at (-7, -11) facing Left
+    port 1113007 at (-7, -13) facing Left
+    port 1113008 at (-7, -15) facing Left
+    port 1113009 at (7, 15) facing Right
+    port 1113010 at (7, 13) facing Right
+    port 1113011 at (7, 11) facing Right
+    port 1113012 at (7, 9) facing Right
+    port 1113013 at (7, 7) facing Right
+    port 1113014 at (7, 5) facing Right
+    port 1113015 at (7, 3) facing Right
+    port 1113016 at (7, 1) facing Right
+    port 1113017 at (7, -1) facing Right
+    port 1113018 at (7, -3) facing Right
+    port 1113019 at (7, -5) facing Right
+    port 1113020 at (7, -7) facing Right
+    port 1113021 at (7, -9) facing Right
+    port 1113022 at (7, -11) facing Right
+    port 1113023 at (7, -13) facing Right
+    port 1113024 at (7, -15) facing Right
+  box 1113538 from (-1, -2) to (1, 2):
+    port 1113536 at (0, 2) facing Up
+    port 1113537 at (0, -2) facing Down
+  box 1112772 from (-1, -2) to (1, 2):
+    port 1112770 at (0, 2) facing Up
+    port 1112771 at (0, -2) facing Down
+  box 1113028 from (-1, -2) to (1, 2):
+    port 1113026 at (0, 2) facing Up
+    port 1113027 at (0, -2) facing Down
+  box 1113541 from (-1, -2) to (1, 2):
+    port 1113539 at (0, 2) facing Up
+    port 1113540 at (0, -2) facing Down
+  box 1112775 from (-1, -2) to (1, 2):
+    port 1112773 at (0, 2) facing Up
+    port 1112774 at (0, -2) facing Down
+  box 1113031 from (-1, -2) to (1, 2):
+    port 1113029 at (0, 2) facing Up
+    port 1113030 at (0, -2) facing Down
+  box 1113287 from (-7, -17) to (7, 17):
+    port 1113255 at (-7, 15) facing Left
+    port 1113256 at (-7, 13) facing Left
+    port 1113257 at (-7, 11) facing Left
+    port 1113258 at (-7, 9) facing Left
+    port 1113259 at (-7, 7) facing Left
+    port 1113260 at (-7, 5) facing Left
+    port 1113261 at (-7, 3) facing Left
+    port 1113262 at (-7, 1) facing Left
+    port 1113263 at (-7, -1) facing Left
+    port 1113264 at (-7, -3) facing Left
+    port 1113265 at (-7, -5) facing Left
+    port 1113266 at (-7, -7) facing Left
+    port 1113267 at (-7, -9) facing Left
+    port 1113268 at (-7, -11) facing Left
+    port 1113269 at (-7, -13) facing Left
+    port 1113270 at (-7, -15) facing Left
+    port 1113271 at (7, 15) facing Right
+    port 1113272 at (7, 13) facing Right
+    port 1113273 at (7, 11) facing Right
+    port 1113274 at (7, 9) facing Right
+    port 1113275 at (7, 7) facing Right
+    port 1113276 at (7, 5) facing Right
+    port 1113277 at (7, 3) facing Right
+    port 1113278 at (7, 1) facing Right
+    port 1113279 at (7, -1) facing Right
+    port 1113280 at (7, -3) facing Right
+    port 1113281 at (7, -5) facing Right
+    port 1113282 at (7, -7) facing Right
+    port 1113283 at (7, -9) facing Right
+    port 1113284 at (7, -11) facing Right
+    port 1113285 at (7, -13) facing Right
+    port 1113286 at (7, -15) facing Right
+  box 1113544 from (-1, -2) to (1, 2):
+    port 1113542 at (0, 2) facing Up
+    port 1113543 at (0, -2) facing Down
+  box 1113034 from (-1, -2) to (1, 2):
+    port 1113032 at (0, 2) facing Up
+    port 1113033 at (0, -2) facing Down
+  box 1113546 from (-2, -1) to (2, 1):
+    port 1113545 at (2, 0) facing Right
+  box 1112780 from (-8, -9) to (8, 4):
+    port 1112776 at (8, 2) facing Right
+    port 1112777 at (-8, 2) facing Left
+    port 1112778 at (-8, -4) facing Left
+    port 1112779 at (8, -4) facing Right
+  box 1113037 from (-1, -2) to (1, 2):
+    port 1113035 at (0, 2) facing Up
+    port 1113036 at (0, -2) facing Down
+  box 1113549 from (-1, -2) to (1, 2):
+    port 1113547 at (0, 2) facing Up
+    port 1113548 at (0, -2) facing Down
+  box 1113040 from (-1, -2) to (1, 2):
+    port 1113038 at (0, 2) facing Up
+    port 1113039 at (0, -2) facing Down
+  box 1113552 from (-1, -2) to (1, 2):
+    port 1113550 at (0, 2) facing Up
+    port 1113551 at (0, -2) facing Down
+  box 1112787 from (-3, -12) to (5, 10):
+    port 1112781 at (5, 3) facing Right
+    port 1112782 at (5, 1) facing Right
+    port 1112783 at (5, -1) facing Right
+    port 1112784 at (5, -3) facing Right
+    port 1112785 at (-1, -12) facing Down
+    port 1112786 at (1, -12) facing Down
+  box 1113043 from (-1, -2) to (1, 2):
+    port 1113041 at (0, 2) facing Up
+    port 1113042 at (0, -2) facing Down
+  box 1113555 from (-1, -2) to (1, 2):
+    port 1113553 at (0, 2) facing Up
+    port 1113554 at (0, -2) facing Down
+  box 1112790 from (-1, -2) to (1, 2):
+    port 1112788 at (0, 2) facing Up
+    port 1112789 at (0, -2) facing Down
+  box 1113046 from (-1, -2) to (1, 2):
+    port 1113044 at (0, 2) facing Up
+    port 1113045 at (0, -2) facing Down
+  box 1113558 from (-1, -2) to (1, 2):
+    port 1113556 at (0, 2) facing Up
+    port 1113557 at (0, -2) facing Down
+  box 1113303 from (-7, -16) to (5, 16):
+    port 1113288 at (-7, 14) facing Left
+    port 1113289 at (-7, 12) facing Left
+    port 1113290 at (-7, 10) facing Left
+    port 1113291 at (-7, 8) facing Left
+    port 1113292 at (-7, 6) facing Left
+    port 1113293 at (-7, 4) facing Left
+    port 1113294 at (-7, 2) facing Left
+    port 1113295 at (-7, 0) facing Left
+    port 1113296 at (-7, -2) facing Left
+    port 1113297 at (-7, -4) facing Left
+    port 1113298 at (-7, -6) facing Left
+    port 1113299 at (-7, -8) facing Left
+    port 1113300 at (-7, -10) facing Left
+    port 1113301 at (-7, -12) facing Left
+    port 1113302 at (-7, -14) facing Left
+  box 1112793 from (-1, -2) to (1, 2):
+    port 1112791 at (0, 2) facing Up
+    port 1112792 at (0, -2) facing Down
+  box 1113561 from (-1, -2) to (1, 2):
+    port 1113559 at (0, 2) facing Up
+    port 1113560 at (0, -2) facing Down
+  box 1112796 from (-1, -2) to (1, 2):
+    port 1112794 at (0, 2) facing Up
+    port 1112795 at (0, -2) facing Down
+  box 1113564 from (-1, -2) to (1, 2):
+    port 1113562 at (0, 2) facing Up
+    port 1113563 at (0, -2) facing Down
+  box 1112799 from (-1, -2) to (1, 2):
+    port 1112797 at (0, 2) facing Up
+    port 1112798 at (0, -2) facing Down
+  box 1113567 from (-1, -2) to (1, 2):
+    port 1113565 at (0, 2) facing Up
+    port 1113566 at (0, -2) facing Down
+  box 1113312 from (-8, -9) to (10, 7):
+    port 1113304 at (10, 0) facing Right
+    port 1113305 at (-6, -9) facing Down
+    port 1113306 at (-4, -9) facing Down
+    port 1113307 at (-2, -9) facing Down
+    port 1113308 at (0, -9) facing Down
+    port 1113309 at (2, -9) facing Down
+    port 1113310 at (4, -9) facing Down
+    port 1113311 at (6, -9) facing Down
+  box 1112802 from (-1, -2) to (1, 2):
+    port 1112800 at (0, 2) facing Up
+    port 1112801 at (0, -2) facing Down
+  box 1113570 from (-1, -2) to (1, 2):
+    port 1113568 at (0, 2) facing Up
+    port 1113569 at (0, -2) facing Down
+  box 1112805 from (-1, -2) to (1, 2):
+    port 1112803 at (0, 2) facing Up
+    port 1112804 at (0, -2) facing Down
+  box 1113573 from (-1, -2) to (1, 2):
+    port 1113571 at (0, 2) facing Up
+    port 1113572 at (0, -2) facing Down
+  box 1113576 from (-1, -2) to (1, 2):
+    port 1113574 at (0, 2) facing Up
+    port 1113575 at (0, -2) facing Down
+  box 1113579 from (-1, -2) to (1, 2):
+    port 1113577 at (0, 2) facing Up
+    port 1113578 at (0, -2) facing Down
+  box 1113582 from (-1, -2) to (1, 2):
+    port 1113580 at (0, 2) facing Up
+    port 1113581 at (0, -2) facing Down
+  box 1112816 from (-8, -12) to (8, 12):
+    port 1112806 at (-8, 2) facing Left
+    port 1112807 at (-8, 0) facing Left
+    port 1112808 at (-8, -2) facing Left
+    port 1112809 at (8, 2) facing Right
+    port 1112810 at (8, 0) facing Right
+    port 1112811 at (8, -2) facing Right
+    port 1112812 at (0, 12) facing Up
+    port 1112813 at (-2, -12) facing Down
+    port 1112814 at (0, -12) facing Down
+    port 1112815 at (2, -12) facing Down
+  box 1113585 from (-1, -2) to (1, 2):
+    port 1113583 at (0, 2) facing Up
+    port 1113584 at (0, -2) facing Down
+  box 1112819 from (-1, -2) to (1, 2):
+    port 1112817 at (0, 2) facing Up
+    port 1112818 at (0, -2) facing Down
+  box 1112822 from (-1, -2) to (1, 2):
+    port 1112820 at (0, 2) facing Up
+    port 1112821 at (0, -2) facing Down
+  box 1112825 from (-1, -2) to (1, 2):
+    port 1112823 at (0, 2) facing Up
+    port 1112824 at (0, -2) facing Down
+  box 1113081 from (-21, -22) to (21, 22):
+    port 1113047 at (-21, 7) facing Left
+    port 1113048 at (-21, 5) facing Left
+    port 1113049 at (-21, 3) facing Left
+    port 1113050 at (-21, 1) facing Left
+    port 1113051 at (-21, -1) facing Left
+    port 1113052 at (-21, -3) facing Left
+    port 1113053 at (-21, -5) facing Left
+    port 1113054 at (-21, -7) facing Left
+    port 1113055 at (21, 11) facing Right
+    port 1113056 at (21, 9) facing Right
+    port 1113057 at (21, 7) facing Right
+    port 1113058 at (21, 5) facing Right
+    port 1113059 at (21, 3) facing Right
+    port 1113060 at (21, 1) facing Right
+    port 1113061 at (21, -1) facing Right
+    port 1113062 at (21, -3) facing Right
+    port 1113063 at (21, -5) facing Right
+    port 1113064 at (21, -7) facing Right
+    port 1113065 at (21, -9) facing Right
+    port 1113066 at (21, -11) facing Right
+    port 1113067 at (-10, 22) facing Up
+    port 1113068 at (-8, 22) facing Up
+    port 1113069 at (-6, 22) facing Up
+    port 1113070 at (-4, 22) facing Up
+    port 1113071 at (-2, 22) facing Up
+    port 1113072 at (0, 22) facing Up
+    port 1113073 at (2, 22) facing Up
+    port 1113074 at (4, 22) facing Up
+    port 1113075 at (6, 22) facing Up
+    port 1113076 at (8, 22) facing Up
+    port 1113077 at (10, 22) facing Up
+    port 1113078 at (-2, -22) facing Down
+    port 1113079 at (0, -22) facing Down
+    port 1113080 at (2, -22) facing Down
+  box 1112828 from (-1, -2) to (1, 2):
+    port 1112826 at (0, 2) facing Up
+    port 1112827 at (0, -2) facing Down
+  box 1113084 from (-1, -2) to (1, 2):
+    port 1113082 at (0, 2) facing Up
+    port 1113083 at (0, -2) facing Down
+  box 1113340 from (-25, -11) to (25, 11):
+    port 1113313 at (-14, 11) facing Up
+    port 1113314 at (-12, 11) facing Up
+    port 1113315 at (-10, 11) facing Up
+    port 1113316 at (-8, 11) facing Up
+    port 1113317 at (-6, 11) facing Up
+    port 1113318 at (-4, 11) facing Up
+    port 1113319 at (-2, 11) facing Up
+    port 1113320 at (0, 11) facing Up
+    port 1113321 at (2, 11) facing Up
+    port 1113322 at (4, 11) facing Up
+    port 1113323 at (6, 11) facing Up
+    port 1113324 at (8, 11) facing Up
+    port 1113325 at (10, 11) facing Up
+    port 1113326 at (12, 11) facing Up
+    port 1113327 at (-12, -11) facing Down
+    port 1113328 at (-10, -11) facing Down
+    port 1113329 at (-8, -11) facing Down
+    port 1113330 at (-6, -11) facing Down
+    port 1113331 at (-4, -11) facing Down
+    port 1113332 at (-2, -11) facing Down
+    port 1113333 at (0, -11) facing Down
+    port 1113334 at (2, -11) facing Down
+    port 1113335 at (4, -11) facing Down
+    port 1113336 at (6, -11) facing Down
+    port 1113337 at (8, -11) facing Down
+    port 1113338 at (10, -11) facing Down
+    port 1113339 at (12, -11) facing Down
+  inst 1113586 of box 1113407 (group flex-conn.beeper-connector)
+  inst 1113587 of box 1113395 (group board-io.codec.module)
+  inst 1113588 of box 1113532 (group board-io.codec.module)
+  inst 1113589 of box 1113541 (group board-io.codec.module)
+  inst 1113590 of box 1113552 (group board-io.codec.module)
+  inst 1113591 of box 1113561 (group board-io.codec.module)
+  inst 1113592 of box 1113570 (group board-io.codec.module)
+  inst 1113593 of box 1113579 (group board-io.codec.module)
+  inst 1113594 of box 1113129 (group board-io.codec.module)
+  inst 1113595 of box 1113138 (group board-io.codec.module)
+  inst 1113596 of box 1113147 (group board-io.codec.module)
+  inst 1113597 of box 1113150 (group board-io.codec.module)
+  inst 1113598 of box 1113355 (group board-io.qsensor.module)
+  inst 1113599 of box 1113459 (group board-io.qsensor.module)
+  inst 1113600 of box 1113465 (group board-io.qsensor.module)
+  inst 1113601 of box 1113360 (group board-io)
+  inst 1113602 of box 1113360 (group board-io)
+  inst 1113603 of box 1113360 (group board-io)
+  inst 1113604 of box 1113445 (group board-io.hapdrv.module)
+  inst 1113605 of box 1113508 (group board-io.hapdrv.module)
+  inst 1113606 of box 1113517 (group board-io.hapdrv.module)
+  inst 1113607 of box 1113529 (group board-io.hapdrv.rs.collector)
+  inst 1113608 of box 1113529 (group board-io.hapdrv.rs.collector)
+  inst 1113609 of box 1113546 (group board-io.hapdrv.module)
+  inst 1113610 of box 1113546 (group board-io.hapdrv.module)
+  inst 1113611 of box 1113412 (group board-io)
+  inst 1113612 of box 1113144 (group board-io.rs.collector[0])
+  inst 1113613 of box 1113144 (group board-io.rs.collector[0])
+  inst 1113614 of box 1113546 (group board-io)
+  inst 1113615 of box 1113546 (group board-io)
+  inst 1113616 of box 1113153 (group board-io.rs.collector[1])
+  inst 1113617 of box 1113153 (group board-io.rs.collector[1])
+  inst 1113618 of box 1113169 (group board-io)
+  inst 1113619 of box 1113172 (group board-io)
+  inst 1113620 of box 1113208 (group mcu.module)
+  inst 1113621 of box 1113219 (group mcu.module)
+  inst 1113622 of box 1113221 (group mcu.module)
+  inst 1113623 of box 1113254 (group mcu.module)
+  inst 1113624 of box 1113287 (group mcu.module)
+  inst 1113625 of box 1113303 (group mcu.module)
+  inst 1113626 of box 1113312 (group mcu.module)
+  inst 1113627 of box 1113340 (group mcu.module)
+  inst 1113628 of box 1113198 (group mcu.mem.module)
+  inst 1113629 of box 1113201 (group mcu.mem.module)
+  inst 1113630 of box 1113453 (group mcu.module)
+  inst 1113631 of box 1113185 (group mcu.module)
+  inst 1113632 of box 1113546 (group mcu.module)
+  inst 1113633 of box 1113546 (group mcu.module)
+  inst 1113634 of box 1113546 (group mcu.module)
+  inst 1113635 of box 1113546 (group mcu.module)
+  inst 1113636 of box 1113546 (group mcu.module)
+  inst 1113637 of box 1113546 (group mcu.module)
+  inst 1113638 of box 1113546 (group mcu.module)
+  inst 1113639 of box 1113546 (group mcu.module)
+  inst 1113640 of box 1113505 (group mcu.module)
+  inst 1113641 of box 1113514 (group mcu.module)
+  inst 1113642 of box 1113523 (group mcu.module)
+  inst 1113643 of box 1113535 (group mcu.module)
+  inst 1113644 of box 1113544 (group mcu.module)
+  inst 1113645 of box 1113555 (group mcu.module)
+  inst 1113646 of box 1113564 (group mcu.module)
+  inst 1113647 of box 1113573 (group mcu.module)
+  inst 1113648 of box 1113582 (group mcu.module)
+  inst 1113649 of box 1113132 (group mcu.module)
+  inst 1113650 of box 1113141 (group mcu.module)
+  inst 1113651 of box 1113156 (group mcu.module)
+  inst 1113652 of box 1113159 (group mcu.module)
+  inst 1113653 of box 1113175 (group mcu.module)
+  inst 1113654 of box 1113178 (group mcu.module)
+  inst 1113655 of box 1113188 (group mcu.module)
+  inst 1113656 of box 1113398 (group mcu.module)
+  inst 1113657 of box 1113415 (group mcu.module)
+  inst 1113658 of box 1113448 (group mcu.module)
+  inst 1113659 of box 1113456 (group mcu.module)
+  inst 1113660 of box 1113166 (group mcu.usb.micro-usb)
+  inst 1113661 of box 1113471 (group mcu.usb.micro-usb)
+  inst 1113662 of box 1113477 (group mcu.usb.micro-usb)
+  inst 1113663 of box 1113493 (group mcu.module)
+  inst 1113664 of box 1113435 (group wpwr.module)
+  inst 1113665 of box 1113546 (group wpwr.module)
+  inst 1113666 of box 1113546 (group wpwr.module)
+  inst 1113667 of box 1113462 (group wpwr.module)
+  inst 1113668 of box 1113468 (group wpwr.module)
+  inst 1113669 of box 1113474 (group wpwr.module)
+  inst 1113670 of box 1113480 (group wpwr.module)
+  inst 1113671 of box 1113483 (group wpwr.module)
+  inst 1113672 of box 1113486 (group wpwr.module)
+  inst 1113673 of box 1113496 (group wpwr.module)
+  inst 1113674 of box 1113499 (group wpwr.module)
+  inst 1113675 of box 1113502 (group wpwr.module)
+  inst 1113676 of box 1113511 (group wpwr.module)
+  inst 1113677 of box 1113520 (group wpwr.module)
+  inst 1113678 of box 1113526 (group wpwr.module)
+  inst 1113679 of box 1113538 (group wpwr.module)
+  inst 1113680 of box 1113549 (group wpwr.module)
+  inst 1113681 of box 1113558 (group wpwr.module)
+  inst 1113682 of box 1113567 (group wpwr.module)
+  inst 1113683 of box 1113576 (group wpwr.module)
+  inst 1113684 of box 1113585 (group wpwr.module)
+  inst 1113685 of box 1113135 (group wpwr.module)
+  net 1113686 GND (B1113627.P1113339, B1113606.P1113515, B1113593.P1113577, B1113626.P1113309, B1113626.P1113311, B1113685.P1113133, B1113600.P1113463, B1113603.P1113359, B1113648.P1113580, B1113627.P1113334, B1113630.P1113451, B1113661.P1113470, B1113587.P1113394, B1113626.P1113305, B1113647.P1113571, B1113594.P1113127, B1113662.P1113476, B1113590.P1113550, B1113640.P1113503, B1113639.P1113545, B1113673.P1113495, B1113586.P1113405, B1113586.P1113406, B1113595.P1113136, B1113630.P1113452, B1113644.P1113542, B1113586.P1113401, B1113627.P1113330, B1113664.P1113433, B1113627.P1113335, B1113667.P1113460, B1113654.P1113176, B1113643.P1113533, B1113627.P1113337, B1113655.P1113186, B1113604.P1113444, B1113649.P1113130, B1113605.P1113506, B1113683.P1113574, B1113672.P1113485, B1113656.P1113397, B1113587.P1113393, B1113602.P1113358, B1113650.P1113139, B1113599.P1113457, B1113684.P1113583, B1113588.P1113530, B1113626.P1113308, B1113627.P1113329, B1113631.P1113183, B1113674.P1113498, B1113621.P1113217, B1113627.P1113332, B1113669.P1113472, B1113627.P1113327, B1113601.P1113358, B1113637.P1113545, B1113658.P1113447, B1113641.P1113512, B1113646.P1113562, B1113626.P1113306, B1113645.P1113553, B1113598.P1113354, B1113586.P1113400, B1113601.P1113359, B1113627.P1113328, B1113589.P1113539, B1113627.P1113336, B1113642.P1113521, B1113627.P1113331, B1113586.P1113402, B1113596.P1113145, B1113602.P1113359, B1113627.P1113338, B1113627.P1113333, B1113629.P1113199, B1113671.P1113482, B1113626.P1113307, B1113663.P1113490, B1113597.P1113148, B1113621.P1113218, B1113628.P1113197, B1113621.P1113216, B1113591.P1113559, B1113660.P1113164, B1113626.P1113310, B1113603.P1113358, B1113592.P1113568) (symbol 1113126) (require 1113687 mcu.dbg-power-m33.gnd)
+  net 1113688 mcu.hap-gpio[0].gpio (B1113625.P1113289, B1113604.P1113436) (unlabeled) (require 1113689 mcu.hap-gpio[0].gpio)
+  net 1113690 VDD1P8 (B1113600.P1113464, B1113617.P1113152, B1113627.P1113319, B1113599.P1113458, B1113643.P1113534, B1113616.P1113152, B1113598.P1113352, B1113598.P1113353) (symbol 1112946) 
+  net 1113691 mcu.mcu-etm.data[3] (B1113624.P1113278, B1113636.P1113545) (unlabeled) (require 1113692 mcu.mcu-etm.data[3])
+  net 1113693 VDD1P8P (B1113645.P1113554, B1113651.P1113155, B1113627.P1113321, B1113588.P1113531, B1113587.P1113387, B1113613.P1113143, B1113612.P1113143) (symbol 1112946) 
+  net 1113694 VBUS (B1113667.P1113461, B1113660.P1113160, B1113648.P1113581, B1113685.P1113134, B1113627.P1113324, B1113631.P1113179, B1113663.P1113492, B1113664.P1113430) (symbol 1112946) (require 1113695 mcu.dbg-power-m33.vdd)
+  net 1113696 AD (B1113674.P1113497, B1113664.P1113416) (unlabeled) 
+  net 1113697 AC2 (B1113681.P1113556, B1113680.P1113547, B1113666.P1113545, B1113664.P1113423, B1113678.P1113524, B1113676.P1113509) (unlabeled) 
+  net 1113698 VDDSYS (B1113653.P1113174, B1113627.P1113326, B1113650.P1113140, B1113608.P1113528, B1113607.P1113528, B1113591.P1113560, B1113604.P1113443, B1113587.P1113389, B1113654.P1113177, B1113606.P1113516) (symbol 1112946) 
+  net 1113699 FOD (B1113668.P1113467, B1113669.P1113473, B1113664.P1113419, B1113670.P1113478) (unlabeled) 
+  net 1113700 mcu.q-spi.cs (B1113625.P1113297, B1113598.P1113349) (unlabeled) (require 1113701 mcu.q-spi.cs)
+  net 1113702 LX (B1113627.P1113313, B1113652.P1113157) (unlabeled) 
+  net 1113703 mcu.mcu-mem.sdio[3] (B1113628.P1113193, B1113624.P1113275) (unlabeled) (require 1113704 mcu.mcu-mem.sdio[3])
+  net 1113705 mcu.conn-uart.tx (B1113631.P1113184, B1113623.P1113232) (unlabeled) (require 1113706 mcu.conn-uart.tx) (require 1113707 mcu.mcu-uart.tx)
+  net 1113708 cap.p[1] (B1113665.P1113545, B1113682.P1113565) (unlabeled) 
+  net 1113709 mcu.mcu-etm.clk (B1113632.P1113545, B1113623.P1113253) (unlabeled) (require 1113710 mcu.mcu-etm.clk)
+  net 1113711 mcu.mcu-uart.rx (B1113631.P1113181, B1113623.P1113238) (unlabeled) (require 1113712 mcu.mcu-uart.rx) (require 1113713 mcu.conn-uart.rx)
+  net 1113714 VDD3P0 (B1113627.P1113322, B1113587.P1113388, B1113596.P1113146, B1113646.P1113563, B1113587.P1113390, B1113590.P1113551) (symbol 1112946) 
+  net 1113715 OUT- (B1113610.P1113545, B1113604.P1113441) (unlabeled) 
+  net 1113716 RECT (B1113683.P1113575, B1113684.P1113584, B1113664.P1113434, B1113670.P1113479) (unlabeled) 
+  net 1113717 board-io.rgb.r (B1113621.P1113212, B1113611.P1113409) (unlabeled) (require 1113718 board-io.rgb.r)
+  net 1113719 mcu.q-spi.sdi (B1113623.P1113252, B1113598.P1113343) (unlabeled) (require 1113720 mcu.q-spi.sdi)
+  net 1113721 LY (B1113627.P1113314, B1113652.P1113158) (unlabeled) 
+  net 1113722 mcu.q-i3c.scl (B1113617.P1113151, B1113598.P1113350, B1113624.P1113267, B1113619.P1113170) (unlabeled) (require 1113723 mcu.q-i3c.scl) (require 1113724 board-io.qsen-i3c.scl)
+  net 1113725 XTAL32Mm (B1113630.P1113450, B1113621.P1113209) (unlabeled) 
+  net 1113726 mcu.mcu-button[0].gpio (B1113601.P1113356, B1113623.P1113250, B1113601.P1113357) (unlabeled) (require 1113727 mcu.mcu-button[0].gpio)
+  net 1113728 V12 (B1113627.P1113316, B1113640.P1113504) (unlabeled) 
+  net 1113729 mcu.hap-i2c.sda (B1113624.P1113260, B1113604.P1113438, B1113607.P1113527) (unlabeled) (require 1113730 mcu.hap-i2c.sda)
+  net 1113731 mcu.mcu-wpwr[2].gpio (B1113664.P1113425, B1113624.P1113262) (unlabeled) (require 1113732 mcu.mcu-wpwr[2].gpio)
+  net 1113733 D+ (B1113663.P1113487, B1113625.P1113298, B1113660.P1113161) (labeled) (require 1113734 mcu.mcu-usb.P)
+  net 1113735 mcu.mcu-wpwr[3].gpio (B1113673.P1113494, B1113624.P1113280, B1113664.P1113421) (unlabeled) (require 1113736 mcu.mcu-wpwr[3].gpio)
+  net 1113737 mcu.mcu-etm.data[1] (B1113624.P1113277, B1113634.P1113545) (unlabeled) (require 1113738 mcu.mcu-etm.data[1])
+  net 1113739 mcu.mcu-button[1].gpio (B1113602.P1113356, B1113602.P1113357, B1113624.P1113261) (unlabeled) (require 1113740 mcu.mcu-button[1].gpio)
+  net 1113741 V14RF (B1113642.P1113522, B1113627.P1113317, B1113627.P1113318, B1113641.P1113513) (unlabeled) 
+  net 1113742 codec-i2c-net.scl (B1113587.P1113376, B1113625.P1113292, B1113613.P1113142) (labeled) (require 1113743 mcu.c-i2c.scl)
+  net 1113744 mcu.mcu-wpwr[1].gpio (B1113672.P1113484, B1113624.P1113264, B1113664.P1113418) (unlabeled) (require 1113745 mcu.mcu-wpwr[1].gpio)
+  net 1113746 CLAMP1 (B1113664.P1113426, B1113675.P1113501) (unlabeled) 
+  net 1113747 MICBIAS1 (B1113587.P1113369, B1113592.P1113569, B1113586.P1113404) (unlabeled) 
+  net 1113748 mcu.mcu-mem.sdio[1] (B1113624.P1113269, B1113628.P1113192) (unlabeled) (require 1113749 mcu.mcu-mem.sdio[1])
+  net 1113750 VDIG (B1113589.P1113540, B1113587.P1113391) (unlabeled) 
+  net 1113751 SHIELD (B1113661.P1113469, B1113660.P1113165, B1113662.P1113475) (labeled) 
+  net 1113752 mcu.mcu-etm.data[0] (B1113624.P1113285, B1113633.P1113545) (unlabeled) (require 1113753 mcu.mcu-etm.data[0])
+  net 1113754 VBAT (B1113647.P1113572, B1113627.P1113323, B1113638.P1113545) (unlabeled) 
+  net 1113755 mcu.mcu-mem.sdio[2] (B1113628.P1113194, B1113624.P1113268) (unlabeled) (require 1113756 mcu.mcu-mem.sdio[2])
+  net 1113757 mcu.q-spi.sdo (B1113623.P1113249, B1113618.P1113168) (unlabeled) (require 1113758 mcu.q-spi.sdo)
+  net 1113759 AC1 (B1113681.P1113557, B1113679.P1113536, B1113675.P1113500, B1113682.P1113566, B1113664.P1113422, B1113677.P1113518) (unlabeled) 
+  net 1113760 board-io.qsen-i3c.sda (B1113624.P1113266, B1113616.P1113151, B1113618.P1113167, B1113598.P1113351) (unlabeled) (require 1113761 board-io.qsen-i3c.sda) (require 1113762 mcu.q-i3c.sda)
+  net 1113763 codec-i2c-net.sda (B1113612.P1113142, B1113587.P1113375, B1113623.P1113244) (labeled) (require 1113764 mcu.c-i2c.sda)
+  net 1113765 mcu.q-spi.sck (B1113619.P1113171, B1113625.P1113296) (unlabeled) (require 1113766 mcu.q-spi.sck)
+  net 1113767 mcu.hap-gpio[1].gpio (B1113604.P1113437, B1113623.P1113245) (unlabeled) (require 1113768 mcu.hap-gpio[1].gpio)
+  net 1113769 OUT+ (B1113604.P1113440, B1113609.P1113545) (unlabeled) 
+  net 1113770 BOOT2 (B1113664.P1113432, B1113680.P1113548) (unlabeled) 
+  net 1113771 codec-pdm-net.clk (B1113587.P1113361, B1113586.P1113399) (labeled) (require 1113772 board-io.codec-pdm.clk)
+  net 1113773 board-io.rgb.g (B1113611.P1113411, B1113621.P1113213) (unlabeled) (require 1113774 board-io.rgb.g)
+  net 1113775 mcu.mcu-mem.sck (B1113624.P1113274, B1113628.P1113191) (unlabeled) (require 1113776 mcu.mcu-mem.sck)
+  net 1113777 mcu.mcu-mem.cs (B1113624.P1113279, B1113628.P1113189) (unlabeled) (require 1113778 mcu.mcu-mem.cs)
+  net 1113779 VREF (B1113587.P1113386, B1113597.P1113149) (unlabeled) 
+  net 1113780 mcu.mcu-mem.sdio[0] (B1113624.P1113270, B1113628.P1113190) (unlabeled) (require 1113781 mcu.mcu-mem.sdio[0])
+  net 1113782 mcu.hap-i2c.scl (B1113623.P1113230, B1113608.P1113527, B1113604.P1113439) (unlabeled) (require 1113783 mcu.hap-i2c.scl)
+  net 1113784 VMID (B1113594.P1113128, B1113587.P1113385) (unlabeled) 
+  net 1113785 ILIM (B1113664.P1113420, B1113668.P1113466) (unlabeled) 
+  net 1113786 mcu.mcu-button[2].gpio (B1113624.P1113281, B1113603.P1113357, B1113603.P1113356) (unlabeled) (require 1113787 mcu.mcu-button[2].gpio)
+  net 1113788 CLAMP2 (B1113676.P1113510, B1113664.P1113427) (unlabeled) 
+  net 1113789 DACREF (B1113595.P1113137, B1113587.P1113368) (unlabeled) 
+  net 1113790 mcu.mcu-wpwr[0].gpio (B1113624.P1113255, B1113671.P1113481, B1113664.P1113417) (unlabeled) (require 1113791 mcu.mcu-wpwr[0].gpio)
+  net 1113792 mcu.mcu-etm.data[2] (B1113624.P1113286, B1113635.P1113545) (unlabeled) (require 1113793 mcu.mcu-etm.data[2])
+  net 1113794 SP_P (B1113587.P1113373, B1113614.P1113545) (labeled) 
+  net 1113795 RF1 (B1113657.P1113413, B1113656.P1113396, B1113626.P1113304) (labeled) 
+  net 1113796 REG (B1113605.P1113507, B1113604.P1113442) (unlabeled) 
+  net 1113797 COMM2 (B1113678.P1113525, B1113664.P1113429) (unlabeled) 
+  net 1113798 V18F (B1113651.P1113154, B1113644.P1113543, B1113627.P1113320, B1113628.P1113195, B1113629.P1113200) (unlabeled) 
+  net 1113799 BOOT1 (B1113679.P1113537, B1113664.P1113431) (unlabeled) 
+  net 1113800 LZ (B1113627.P1113315, B1113653.P1113173) (unlabeled) 
+  net 1113801 MICBIAS2 (B1113593.P1113578, B1113587.P1113370) (unlabeled) 
+  net 1113802 mcu.mcu-dbg-m33.swdclk (B1113631.P1113182, B1113623.P1113223) (unlabeled) (require 1113803 mcu.mcu-dbg-m33.swdclk) (require 1113804 mcu.dbg-m33.swdclk)
+  net 1113805 board-io.rgb.b (B1113611.P1113410, B1113621.P1113214) (unlabeled) (require 1113806 board-io.rgb.b)
+  net 1113807 XTAL32Mp (B1113630.P1113449, B1113621.P1113210) (unlabeled) 
+  net 1113808 D- (B1113663.P1113488, B1113625.P1113299, B1113660.P1113162) (labeled) (require 1113809 mcu.mcu-usb.N)
+  net 1113810 mcu.dbg-m33.swdio (B1113631.P1113180, B1113623.P1113222) (unlabeled) (require 1113811 mcu.dbg-m33.swdio) (require 1113812 mcu.mcu-dbg-m33.swdio)
+  net 1113813 COMM1 (B1113677.P1113519, B1113664.P1113428) (unlabeled) 
+  net 1113814 RF3 (B1113659.P1113455, B1113655.P1113187) (labeled) 
+  net 1113815 RF2 (B1113658.P1113446, B1113659.P1113454, B1113657.P1113414) (labeled) 
+  net 1113816 VLED (B1113611.P1113408, B1113649.P1113131, B1113627.P1113325) (unlabeled) 
+  net 1113817 codec-pdm-net.data (B1113587.P1113362, B1113586.P1113403) (labeled) (require 1113818 board-io.codec-pdm.data)
+  net 1113819 SP_N (B1113587.P1113374, B1113615.P1113545) (labeled) 
+  order ()

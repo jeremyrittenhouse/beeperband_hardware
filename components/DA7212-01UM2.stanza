@@ -105,12 +105,8 @@ public pcb-module module :
   public inst codec : DA7212-01UM2/component
 
   net (GND codec.GND_A codec.GND_CP)
-  net (VDD1P8P codec.VDD_A codec.VDD_IO)
-  inst rvdd-mic : chip-resistor(0.0)
-  component-status(rvdd-mic) :
-    bom-status = InBOM
-  net (VDD3P0 rvdd-mic.p[1])
-  net (codec.VDD_MIC rvdd-mic.p[2])
+  net (VDD1P8P codec.VDD_A)
+  net (VDD3P0 codec.VDD_MIC codec.VDD_IO)
 
   net (VDDSYS codec.VDD_SP)
 

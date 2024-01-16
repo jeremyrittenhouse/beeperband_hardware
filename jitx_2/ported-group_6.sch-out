@@ -1,0 +1,28 @@
+box layout output :
+  inst 1113660 at loc((297, 86), 0, false)
+  inst 1113661 at loc((295, 67), 0, false)
+  inst 1113662 at loc((298, 67), 0, false)
+  layout net 1113919 :
+    wire (302, 85) to (305, 85)
+    label 157822 at loc((305, 85), 0, false)
+  layout net 1113751 :
+    wire (298, 71) to (299, 71)
+    wire (295, 70) to (298, 70)
+    wire (295, 69) to (295, 70)
+    wire (298, 69) to (298, 74)
+    label 765028 at loc((299, 71), 0, false)
+  layout net 1113866 :
+    wire (302, 87) to (305, 87)
+    label 157824 at loc((305, 87), 0, false)
+  layout net 1113839 :
+    wire (302, 89) to (303, 89)
+    wire (303, 89) to (303, 97)
+    label 1078815 at loc((303, 97), 90, false)
+  layout net 157818 :
+    wire (296, 73) to (296, 74)
+    label 157821 at loc((296, 73), 0, false)
+  layout net 157819 :
+    wire (295, 64) to (298, 64)
+    wire (295, 64) to (295, 65)
+    wire (298, 63) to (298, 65)
+    label 157820 at loc((298, 63), 0, false)

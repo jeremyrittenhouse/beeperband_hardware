@@ -88,8 +88,6 @@ public pcb-module board-io :
 
   ; speakers
   inst sp-pin : smd-testpoint-cmp(1.0)[2]
-  ; dnp(sp-pin[0])
-  ; dnp(sp-pin[1])
   component-status(sp-pin[0]) :
     bom-status = NotInBOM
   component-status(sp-pin[1]) :

@@ -1,0 +1,18 @@
+box layout input (320, 175) 0.8 :
+  box 1114530 from (121, 110) to (192, 148):
+    port 503241 at (121, 122) facing Left
+    port 503242 at (121, 124) facing Left
+  box 1114531 from (87, 114) to (117, 128):
+    port 158060 at (117, 122) facing Right
+    port 158061 at (117, 123) facing Right
+  box 1114532 from (0, 0) to (8, 1):
+    port 1114533 at (0, 0) facing Left
+  box 1114535 from (0, 0) to (8, 1):
+    port 1114536 at (0, 0) facing Left
+  inst 156749 of box 1114530
+  inst 156798 of box 1114531
+  inst 1114534 of box 1114532
+  inst 1114537 of box 1114535
+  net 1114528 mcu.hap-i2c.scl (B156798.P158060, B156749.P503241, B1114534.P1114533) (unlabeled) 
+  net 1114529 mcu.hap-i2c.sda (B156798.P158061, B156749.P503242, B1114537.P1114536) (unlabeled) 
+  order ()

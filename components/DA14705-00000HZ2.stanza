@@ -14,7 +14,7 @@ defpackage DA14705-00000HZ2 :
   import ocdb/utils/bundles
   import ocdb/utils/generator-utils
   import ocdb/utils/generic-components
-
+  import ocdb/utils/property-structs
   import bundles
 
 defn MyBgaModifier () -> BGAModifier:
@@ -382,7 +382,7 @@ public pcb-module module :
   for n in [RF1 RF2 RF3] do :
     property(n.net-class) = rf-net-class
 
-  inst usb : micro-usb-connector
+  inst usb : micro-usb-conn
   inst esd :  database-part(["mpn" => "TPD4S012DRYR", "manufacturer" => "Texas Instruments"])
   component-status(usb.con) :
     bom-status = NotInBOM
@@ -399,3 +399,20 @@ public pcb-module module :
   net (esd.VBUS usb.usb-2.vbus.vdd)
   no-connect(esd.NC)
   layout-group(self) = mcu
+
+; USB2 device connection via USBA MicroB
+public pcb-module micro-usb-conn :
+  port usb-2 : usb-2
+  public inst con : USB3100-XX-X_REVB/component
+  net VBUS (usb-2.vbus.vdd con.VBUS)
+  net (usb-2.vbus.gnd con.GND)
+  ; RC filter connection for chassis gnd
+  res-strap(con.SHIELD, con.GND, 100.0e3)
+  cap-strap(con.SHIELD, con.GND, 0.1e-6)
+  net SHIELD (con.SHIELD)
+  net D+ (usb-2.data.P con.D+)
+  net D- (usb-2.data.N con.D-)
+  net ID (usb-2.id con.ID)
+  property(con.VBUS.power-supply-pin) = PowerSupplyPin(typ(5.0), 0.5)
+
+  schematic-group(self) = micro-usb

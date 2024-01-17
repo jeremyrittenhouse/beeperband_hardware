@@ -21,7 +21,7 @@ defpackage main :
   import system
   import stackups
 
-enable-spy()
+; enable-spy()
 
 MIN-PKG = "0201"
 DESIGN-QUANTITY = 20

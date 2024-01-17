@@ -1,0 +1,3167 @@
+PTable:
+  id : [7hk7sc8Q6fzZ8XzmMiUS5M/4SXYHch5CAoR2DWpTxrtqA] => VIA at V2d(-8.69575377405024, -8.97983198811312) : [7hk7sc8Q6fzZ8XzmMiUS5M/4SXYHch5CAoR2DWpTxrtqA]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-8.69575377405024, -8.97983198811312), radius = 0.2)
+    local-shape : Disk(center = V2d(-2.47274987583888, 0.794637033853242), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7hk7sc8Q6fzZ8XzmMiUS5M]
+  id : [2zxrKzTNy4B5gHXvjAsLU4/XrhkRo34xdssk3rQzp4iq] => VIA at V2d(13.2119113605877, -4.42116195608607) : [2zxrKzTNy4B5gHXvjAsLU4/XrhkRo34xdssk3rQzp4iq]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.2119113605877, -4.42116195608607), radius = 0.2)
+    local-shape : Disk(center = V2d(3.02905959051943, 0.407206265371818), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [2zxrKzTNy4B5gHXvjAsLU4]
+  id : [/1111111111X6PYENDe] => OBSTACLE at V2d(-5.15625, 9.5) : [/1111111111X6PYENDe]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-5.15625, 9.5), V2d(-6.875, 9.5))
+    local-shape : Segment(V2d(-5.15625, 9.5), V2d(-6.875, 9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [9SSh4BComEEC2cugXXifVe/AsVwVBnby5x4LXeBDfpoAa] => VIA at V2d(5.17263379515444, -0.471797536206106) : [9SSh4BComEEC2cugXXifVe/AsVwVBnby5x4LXeBDfpoAa]
+    trait : trait :
+      net-group : [72128]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(5.17263379515444, -0.471797536206106), radius = 0.2)
+    local-shape : Disk(center = V2d(-1.43026951043419, -0.93484318371037), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [9SSh4BComEEC2cugXXifVe]
+  id : [A4AgD9AzJ2nRBHW9y6299T/3CSPdXi9NAaF7rJAvaMt9o] => VIA at V2d(7.9321921738866, 7.61151204114748) : [A4AgD9AzJ2nRBHW9y6299T/3CSPdXi9NAaF7rJAvaMt9o]
+    trait : trait :
+      net-group : [72145]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(7.9321921738866, 7.61151204114748), radius = 0.2)
+    local-shape : Disk(center = V2d(-1.11119932669097, 0.468956639579133), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [A4AgD9AzJ2nRBHW9y6299T]
+  id : [gih6ZVCSfC5hyeVGXtrML/94fwnTtfWALUgRwA9k55W1] => VIA at V2d(6.21799101598748, 0.205897038271305) : [gih6ZVCSfC5hyeVGXtrML/94fwnTtfWALUgRwA9k55W1]
+    trait : trait :
+      net-group : [72141]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(6.21799101598748, 0.205897038271305), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.811734892836489, 0.0417970347435066), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [gih6ZVCSfC5hyeVGXtrML]
+  id : [A4AgD9AzJ2nRBHW9y6299T/47ZoAXqekwSo7sXi6j5pYi] => VIA at V2d(7.06323553430746, 6.70031271445651) : [A4AgD9AzJ2nRBHW9y6299T/47ZoAXqekwSo7sXi6j5pYi]
+    trait : trait :
+      net-group : [72163]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(7.06323553430746, 6.70031271445651), radius = 0.125)
+    local-shape : Disk(center = V2d(-0.199999999999999, -0.400000000000001), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [A4AgD9AzJ2nRBHW9y6299T]
+  id : [/1111111111X8PhMfHu] => OBSTACLE at V2d(-13.75, -5.9375) : [/1111111111X8PhMfHu]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-13.75, -5.9375), V2d(-13.75, -7.125))
+    local-shape : Segment(V2d(-13.75, -5.9375), V2d(-13.75, -7.125))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [7Kp2x9kdAtzt3zYzXnStUw/BVsyTzZiwTyeqsTovphLh] => VIA at V2d(-13.2532243208947, 1.16373790523141) : [7Kp2x9kdAtzt3zYzXnStUw/BVsyTzZiwTyeqsTovphLh]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.2532243208947, 1.16373790523141), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.0862620947685944, 1.55322432089466), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [8gZnRd8Cb2X7FzBJcjKiwN/BGYzaejpB48dtRCDoNeciZ] => VIA at V2d(11.8544755986441, 1.58490295036776) : [8gZnRd8Cb2X7FzBJcjKiwN/BGYzaejpB48dtRCDoNeciZ]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(11.8544755986441, 1.58490295036776), radius = 0.125)
+    local-shape : Disk(center = V2d(0.25, 0.17), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [8gZnRd8Cb2X7FzBJcjKiwN]
+  id : [/1111111111XBE5eFep] => OBSTACLE at V2d(13.1140144073824, -8.06814834742186) : [/1111111111XBE5eFep]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.1140144073824, -8.06814834742186), V2d(13.3683475024126, -8.0))
+    local-shape : Segment(V2d(13.1140144073824, -8.06814834742186), V2d(13.3683475024126, -8.0))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [DXxxXc11GMaGHnTF1YF2f3/67iwcbRqyNUUBKecwaxhiE] => VIA at V2d(-11.2137238597473, 4.16789156240825) : [DXxxXc11GMaGHnTF1YF2f3/67iwcbRqyNUUBKecwaxhiE]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-11.2137238597473, 4.16789156240825), radius = 0.2)
+    local-shape : Disk(center = V2d(-1.28658359704433, -1.38011719469424), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [DXxxXc11GMaGHnTF1YF2f3]
+  id : [DXxxXc11GMaGHnTF1YF2f3/DyubpMBVDMKMthSbos1ezo] => VIA at V2d(-11.1925805721988, 5.45775552940921) : [DXxxXc11GMaGHnTF1YF2f3/DyubpMBVDMKMthSbos1ezo]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-11.1925805721988, 5.45775552940921), radius = 0.2)
+    local-shape : Disk(center = V2d(0.00328036995662906, -1.35897390714579), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [DXxxXc11GMaGHnTF1YF2f3]
+  id : [7hk7sc8Q6fzZ8XzmMiUS5M/2ek7qxqNjFA7d8YQrrNMbe] => VIA at V2d(-8.1748032471628, -9.00387585858485) : [7hk7sc8Q6fzZ8XzmMiUS5M/2ek7qxqNjFA7d8YQrrNMbe]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-8.1748032471628, -9.00387585858485), radius = 0.2)
+    local-shape : Disk(center = V2d(-2.99370040272632, 0.818680904324969), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7hk7sc8Q6fzZ8XzmMiUS5M]
+  id : [F1P9sLfUJXXSMvevxq52FN/Enapqg3UTSevp8dJ2DCmkJ] => VIA at V2d(2.80955302281048, -5.83407310510558) : [F1P9sLfUJXXSMvevxq52FN/Enapqg3UTSevp8dJ2DCmkJ]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(2.80955302281048, -5.83407310510558), radius = 0.2)
+    local-shape : Disk(center = V2d(-3.12938822709965, 1.5489872579173), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [A4AgD9AzJ2nRBHW9y6299T/DmCc5NPSPhapD1w3AABLcH] => VIA at V2d(8.0387528626235, 3.74049538759744) : [A4AgD9AzJ2nRBHW9y6299T/DmCc5NPSPhapD1w3AABLcH]
+    trait : trait :
+      net-group : [72159]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(8.0387528626235, 3.74049538759744), radius = 0.2)
+    local-shape : Disk(center = V2d(2.75981732685907, 0.575517328316041), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [A4AgD9AzJ2nRBHW9y6299T]
+  id : [9SSh4BComEEC2cugXXifVe/CpVtYfHhUnwZvZCrHpQ3x8] => VIA at V2d(5.18147262991928, -0.94467519612461) : [9SSh4BComEEC2cugXXifVe/CpVtYfHhUnwZvZCrHpQ3x8]
+    trait : trait :
+      net-group : [72128]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(5.18147262991928, -0.94467519612461), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.957391850515687, -0.926004348945538), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [9SSh4BComEEC2cugXXifVe]
+  id : [7Kp2x9kdAtzt3zYzXnStUw/ecLEnW7yMGREkrrpuAfY2] => VIA at V2d(-13.2532243208947, 1.68248792584468) : [7Kp2x9kdAtzt3zYzXnStUw/ecLEnW7yMGREkrrpuAfY2]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.2532243208947, 1.68248792584468), radius = 0.2)
+    local-shape : Disk(center = V2d(0.432487925844678, 1.55322432089466), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [7Kp2x9kdAtzt3zYzXnStUw/2ZHFVNkdPBidkyy66toRMZ] => VIA at V2d(-13.2464985803415, 6.56783533510735) : [7Kp2x9kdAtzt3zYzXnStUw/2ZHFVNkdPBidkyy66toRMZ]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.2464985803415, 6.56783533510735), radius = 0.2)
+    local-shape : Disk(center = V2d(5.31783533510735, 1.54649858034147), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [BUL6JmbRyqBANBMtPpoW2o/CFFxfkVD37Xe6KXwWwHw1j] => VIA at V2d(5.10075870742921, 5.22197904147752) : [BUL6JmbRyqBANBMtPpoW2o/CFFxfkVD37Xe6KXwWwHw1j]
+    trait : trait :
+      net-group : [72131]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(5.10075870742921, 5.22197904147752), radius = 0.2)
+    local-shape : Disk(center = V2d(0.670587685572885, 0.139382331504426), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [BUL6JmbRyqBANBMtPpoW2o]
+  id : [F1P9sLfUJXXSMvevxq52FN/FCPzotrsBHKmzaLk2LcfET] => VIA at V2d(-0.72362043821399, -1.30981179194977) : [F1P9sLfUJXXSMvevxq52FN/FCPzotrsBHKmzaLk2LcfET]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-0.72362043821399, -1.30981179194977), radius = 0.2)
+    local-shape : Disk(center = V2d(0.40378523392482, -2.97527405523851), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [FinPpnUzaoQQjvsjdctnp1/dy54wsBrxVNgfBKHgBFCr] => VIA at V2d(5.01256788876175, -7.46883638387173) : [FinPpnUzaoQQjvsjdctnp1/dy54wsBrxVNgfBKHgBFCr]
+    trait : trait :
+      net-group : [72100]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(5.01256788876175, -7.46883638387173), radius = 0.125)
+    local-shape : Disk(center = V2d(0.35, 0.0), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [FinPpnUzaoQQjvsjdctnp1]
+  id : [/1111111111X75iuCv9] => OBSTACLE at V2d(-13.75, 8.3125) : [/1111111111X75iuCv9]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-13.75, 8.3125), V2d(-13.75, 7.125))
+    local-shape : Segment(V2d(-13.75, 8.3125), V2d(-13.75, 7.125))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [A4AgD9AzJ2nRBHW9y6299T/F7DDJZM1tej41cptXdCc4M] => VIA at V2d(6.66323553430746, 6.70031271445651) : [A4AgD9AzJ2nRBHW9y6299T/F7DDJZM1tej41cptXdCc4M]
+    trait : trait :
+      net-group : [72140]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(6.66323553430746, 6.70031271445651), radius = 0.125)
+    local-shape : Disk(center = V2d(-0.199999999999999, -0.8), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [A4AgD9AzJ2nRBHW9y6299T]
+  id : [/1111111111X5gQ3Tta] => OBSTACLE at V2d(5.15625, 9.5) : [/1111111111X5gQ3Tta]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(5.15625, 9.5), V2d(3.4375, 9.5))
+    local-shape : Segment(V2d(5.15625, 9.5), V2d(3.4375, 9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [7Kp2x9kdAtzt3zYzXnStUw/DxjJyGzpGLvCb6UKfmb2YC] => VIA at V2d(-13.259474321143, -2.51751224104832) : [7Kp2x9kdAtzt3zYzXnStUw/DxjJyGzpGLvCb6UKfmb2YC]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.259474321143, -2.51751224104832), radius = 0.2)
+    local-shape : Disk(center = V2d(-3.76751224104832, 1.55947432114302), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [7Kp2x9kdAtzt3zYzXnStUw/F9tRRWetVkWWggAcQbQbef] => VIA at V2d(-13.2464985803415, 5.54908529462586) : [7Kp2x9kdAtzt3zYzXnStUw/F9tRRWetVkWWggAcQbQbef]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.2464985803415, 5.54908529462586), radius = 0.2)
+    local-shape : Disk(center = V2d(4.29908529462586, 1.54649858034147), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [/1111111111X8kZFMSo] => OBSTACLE at V2d(-13.75, -9.5) : [/1111111111X8kZFMSo]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-13.75, -9.5), V2d(-12.109375, -9.5))
+    local-shape : Segment(V2d(-13.75, -9.5), V2d(-12.109375, -9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [F1P9sLfUJXXSMvevxq52FN/eQZCvSX5rLL9dvRhw6cvz] => VIA at V2d(-0.54483520428917, -2.71008584718827) : [F1P9sLfUJXXSMvevxq52FN/eQZCvSX5rLL9dvRhw6cvz]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-0.54483520428917, -2.71008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(0.225, -1.575), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [F1P9sLfUJXXSMvevxq52FN/7Vs1MFBpEAEgkebixvs5RT] => VIA at V2d(0.80516479571083, -4.51008584718828) : [F1P9sLfUJXXSMvevxq52FN/7Vs1MFBpEAEgkebixvs5RT]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(0.80516479571083, -4.51008584718828), radius = 0.125)
+    local-shape : Disk(center = V2d(-1.125, 0.225000000000001), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111X4aDgUem] => OBSTACLE at V2d(13.75, 4.03125) : [/1111111111X4aDgUem]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.75, 4.03125), V2d(13.75, 5.125))
+    local-shape : Segment(V2d(13.75, 4.03125), V2d(13.75, 5.125))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [/1111111111X85LeBwV] => OBSTACLE at V2d(-13.75, -2.375) : [/1111111111X85LeBwV]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-13.75, -2.375), V2d(-13.75, -3.5625))
+    local-shape : Segment(V2d(-13.75, -2.375), V2d(-13.75, -3.5625))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [/1111111111X3K1LNs4] => OBSTACLE at V2d(13.75, -8.0) : [/1111111111X3K1LNs4]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.75, -8.0), V2d(13.75, -6.90625))
+    local-shape : Segment(V2d(13.75, -8.0), V2d(13.75, -6.90625))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [3pC5XRFfGntJ8odwTDzGkf/E5gUATaq2nEKVuGK51xQEm] => PAD at V2d(0.369175566205121, 7.54458634013404) : [3pC5XRFfGntJ8odwTDzGkf/E5gUATaq2nEKVuGK51xQEm]
+    trait : trait :
+      net-group : [72116]
+      hole-inset : 0.251
+      soldermask-outset : -0.001
+      edge : false
+    shape : PolygonWithArcs([Arc(V2d(0.369175566205121, 8.14458634013404), 0.6, 0.0, 3.14159265358979), Arc(V2d(0.369175566205121, 6.94458634013404), 0.6, 3.14159265358979, 3.14159265358979)])
+    local-shape : PolygonWithArcs([Arc(V2d(2.725, 0.6), 0.6, 0.0, 3.14159265358979), Arc(V2d(2.725, -0.6), 0.6, 3.14159265358979, 3.14159265358979)])
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [3pC5XRFfGntJ8odwTDzGkf]
+  id : [F1P9sLfUJXXSMvevxq52FN/4F2src8vY8RjWowhPYJUxV] => VIA at V2d(-0.0948352042891697, -3.16008584718827) : [F1P9sLfUJXXSMvevxq52FN/4F2src8vY8RjWowhPYJUxV]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-0.0948352042891697, -3.16008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(-0.225, -1.125), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111X59iV2Ni] => OBSTACLE at V2d(13.75, 9.5) : [/1111111111X59iV2Ni]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.75, 9.5), V2d(12.03125, 9.5))
+    local-shape : Segment(V2d(13.75, 9.5), V2d(12.03125, 9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [7Kp2x9kdAtzt3zYzXnStUw/D6eRPfYnJHJbpVNTco3Lr2] => VIA at V2d(-13.250635486027, 8.6649074765161) : [7Kp2x9kdAtzt3zYzXnStUw/D6eRPfYnJHJbpVNTco3Lr2]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.250635486027, 8.6649074765161), radius = 0.2)
+    local-shape : Disk(center = V2d(7.4149074765161, 1.55063548602696), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [/1111111111XBL6xhwj] => OBSTACLE at V2d(13.3683475024126, -8.0) : [/1111111111XBL6xhwj]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.3683475024126, -8.0), V2d(13.5, -8.0))
+    local-shape : Segment(V2d(13.3683475024126, -8.0), V2d(13.5, -8.0))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [/1111111111X6W3VATP] => OBSTACLE at V2d(-6.875, 9.5) : [/1111111111X6W3VATP]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-6.875, 9.5), V2d(-8.59375, 9.5))
+    local-shape : Segment(V2d(-6.875, 9.5), V2d(-8.59375, 9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [/1111111111X5VxFk28] => OBSTACLE at V2d(8.59375, 9.5) : [/1111111111X5VxFk28]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(8.59375, 9.5), V2d(6.875, 9.5))
+    local-shape : Segment(V2d(8.59375, 9.5), V2d(6.875, 9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [74WpyX2rn35s8zr3ZuMDgU/Kf1pnMwsa4jjDg3NYVxSd] => VIA at V2d(9.86102241467827, 7.53701709563355) : [74WpyX2rn35s8zr3ZuMDgU/Kf1pnMwsa4jjDg3NYVxSd]
+    trait : trait :
+      net-group : [72161]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(9.86102241467827, 7.53701709563355), radius = 0.2)
+    local-shape : Disk(center = V2d(0.617952741389013, 0.0638141397382097), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [74WpyX2rn35s8zr3ZuMDgU]
+  id : [C1dUGNQ2HKgwiCR6fqkqoE/2kVVxE6wNweCT1mXn4xfct] => VIA at V2d(13.272248112217, 6.63182033777121) : [C1dUGNQ2HKgwiCR6fqkqoE/2kVVxE6wNweCT1mXn4xfct]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.272248112217, 6.63182033777121), radius = 0.2)
+    local-shape : Disk(center = V2d(-2.70718366302446, 0.22797184424149), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [C1dUGNQ2HKgwiCR6fqkqoE]
+  id : [3pC5XRFfGntJ8odwTDzGkf/12nfdyF3WrnLmm8gWKZQV1] => PAD at V2d(-5.08082443379488, 7.54458634013404) : [3pC5XRFfGntJ8odwTDzGkf/12nfdyF3WrnLmm8gWKZQV1]
+    trait : trait :
+      net-group : [72116]
+      hole-inset : 0.251
+      soldermask-outset : -0.001
+      edge : false
+    shape : PolygonWithArcs([Arc(V2d(-5.08082443379488, 8.14458634013404), 0.6, 0.0, 3.14159265358979), Arc(V2d(-5.08082443379488, 6.94458634013404), 0.6, 3.14159265358979, 3.14159265358979)])
+    local-shape : PolygonWithArcs([Arc(V2d(-2.725, 0.6), 0.6, 0.0, 3.14159265358979), Arc(V2d(-2.725, -0.6), 0.6, 3.14159265358979, 3.14159265358979)])
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [3pC5XRFfGntJ8odwTDzGkf]
+  id : [F1P9sLfUJXXSMvevxq52FN/DTgno4dfGwJCZdrAAxeTcX] => VIA at V2d(-1.44483520428917, -3.61008584718827) : [F1P9sLfUJXXSMvevxq52FN/DTgno4dfGwJCZdrAAxeTcX]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-1.44483520428917, -3.61008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(1.125, -0.675), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111X3kuu3gK] => OBSTACLE at V2d(13.75, -3.625) : [/1111111111X3kuu3gK]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.75, -3.625), V2d(13.75, -2.53125))
+    local-shape : Segment(V2d(13.75, -3.625), V2d(13.75, -2.53125))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [/1111111111X35obaP2] => BOUNDS at V2d(15.75, 11.5) : [/1111111111X35obaP2]
+    trait : trait : [no copper]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : false
+    shape : Segment(V2d(15.75, 11.5), V2d(15.75, -11.5))
+    local-shape : Segment(V2d(15.75, 11.5), V2d(15.75, -11.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [7Kp2x9kdAtzt3zYzXnStUw/DZ2q9TCiYuhaqn14cDzgLb] => VIA at V2d(-13.259474321143, 0.626237883873075) : [7Kp2x9kdAtzt3zYzXnStUw/DZ2q9TCiYuhaqn14cDzgLb]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.259474321143, 0.626237883873075), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.623762116126925, 1.55947432114302), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [F1P9sLfUJXXSMvevxq52FN/8y5naAe6F4FK381a2KkFj6] => VIA at V2d(1.25516479571083, -1.81008584718827) : [F1P9sLfUJXXSMvevxq52FN/8y5naAe6F4FK381a2KkFj6]
+    trait : trait :
+      net-group : [72141]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(1.25516479571083, -1.81008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(-1.575, -2.475), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111X8GbjaKK] => OBSTACLE at V2d(-13.75, -4.75) : [/1111111111X8GbjaKK]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-13.75, -4.75), V2d(-13.75, -5.9375))
+    local-shape : Segment(V2d(-13.75, -4.75), V2d(-13.75, -5.9375))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [/1111111111XAKAKWiL] => OBSTACLE at V2d(9.21875, -9.5) : [/1111111111XAKAKWiL]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(9.21875, -9.5), V2d(10.859375, -9.5))
+    local-shape : Segment(V2d(9.21875, -9.5), V2d(10.859375, -9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [F1P9sLfUJXXSMvevxq52FN/GbDuXiUoE6dWLnnxrbCBFU] => VIA at V2d(-0.54483520428917, -3.61008584718827) : [F1P9sLfUJXXSMvevxq52FN/GbDuXiUoE6dWLnnxrbCBFU]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-0.54483520428917, -3.61008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(0.225, -0.675), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [FinPpnUzaoQQjvsjdctnp1/oe8QwngFaxBuMDMcwdXxU] => VIA at V2d(4.31256788876175, -7.06883638387173) : [FinPpnUzaoQQjvsjdctnp1/oe8QwngFaxBuMDMcwdXxU]
+    trait : trait :
+      net-group : [72094]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(4.31256788876175, -7.06883638387173), radius = 0.125)
+    local-shape : Disk(center = V2d(-0.35, 0.4), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [FinPpnUzaoQQjvsjdctnp1]
+  id : [7Kp2x9kdAtzt3zYzXnStUw/AvvXdGYPPg1D1LxpTfbQcN] => VIA at V2d(-13.2195379011515, 2.72837450442224) : [7Kp2x9kdAtzt3zYzXnStUw/AvvXdGYPPg1D1LxpTfbQcN]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.2195379011515, 2.72837450442224), radius = 0.2)
+    local-shape : Disk(center = V2d(1.47837450442223, 1.5195379011515), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [2zxrKzTNy4B5gHXvjAsLU4/41SaEnnwm2Lu28N3jqKUxE] => VIA at V2d(13.2294022044539, -7.64382522883402) : [2zxrKzTNy4B5gHXvjAsLU4/41SaEnnwm2Lu28N3jqKUxE]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.2294022044539, -7.64382522883402), radius = 0.2)
+    local-shape : Disk(center = V2d(6.25172286326738, 0.424697109237971), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [2zxrKzTNy4B5gHXvjAsLU4]
+  id : [3HXkBAHTNULm45sZfhwZ5m/3JjHsG7JRe4q8fPu1bM8jW] => VIA at V2d(2.32550510752938, 6.79409319580274) : [3HXkBAHTNULm45sZfhwZ5m/3JjHsG7JRe4q8fPu1bM8jW]
+    trait : trait :
+      net-group : [72151]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(2.32550510752938, 6.79409319580274), radius = 0.2)
+    local-shape : Disk(center = V2d(2.02516287548289, 4.95159003966008), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [3HXkBAHTNULm45sZfhwZ5m]
+  id : [CNPi64G5tDVrRKw2uewDLu/7aVUigwTmcgKz1tymLmCJk] => VIA at V2d(3.39906678763273, 3.63332913320667) : [CNPi64G5tDVrRKw2uewDLu/7aVUigwTmcgKz1tymLmCJk]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(3.39906678763273, 3.63332913320667), radius = 0.2)
+    local-shape : Disk(center = V2d(0.801739201550844, -1.31935013878728), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [CNPi64G5tDVrRKw2uewDLu]
+  id : [A4AgD9AzJ2nRBHW9y6299T/CCcjU4XqNJZjZJwyWyzPQA] => VIA at V2d(7.06323553430746, 6.30031271445651) : [A4AgD9AzJ2nRBHW9y6299T/CCcjU4XqNJZjZJwyWyzPQA]
+    trait : trait :
+      net-group : [72159]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(7.06323553430746, 6.30031271445651), radius = 0.125)
+    local-shape : Disk(center = V2d(0.200000000000001, -0.400000000000001), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [A4AgD9AzJ2nRBHW9y6299T]
+  id : [F1P9sLfUJXXSMvevxq52FN/6c7AULUfS7XfVGsE2QH2Ld] => VIA at V2d(-1.89483520428917, -4.06008584718827) : [F1P9sLfUJXXSMvevxq52FN/6c7AULUfS7XfVGsE2QH2Ld]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-1.89483520428917, -4.06008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(1.575, -0.225000000000001), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [A4AgD9AzJ2nRBHW9y6299T/Coqz7NfNDLyPc93XUuYxbv] => VIA at V2d(7.86323553430746, 6.70031271445651) : [A4AgD9AzJ2nRBHW9y6299T/Coqz7NfNDLyPc93XUuYxbv]
+    trait : trait :
+      net-group : [72145]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(7.86323553430746, 6.70031271445651), radius = 0.125)
+    local-shape : Disk(center = V2d(-0.2, 0.4), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [A4AgD9AzJ2nRBHW9y6299T]
+  id : [F1P9sLfUJXXSMvevxq52FN/Bhz7EifdDHSmcFzVGLJyfn] => VIA at V2d(-3.36743555135059, -5.11080316659347) : [F1P9sLfUJXXSMvevxq52FN/Bhz7EifdDHSmcFzVGLJyfn]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-3.36743555135059, -5.11080316659347), radius = 0.2)
+    local-shape : Disk(center = V2d(3.04760034706142, 0.825717319405192), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [BR44ZunFMD3NjTnDNSCPp5/DRt3cRPMkCiYS2kzkgB3Qw] => VIA at V2d(7.33975126474834, 3.9232417829123) : [BR44ZunFMD3NjTnDNSCPp5/DRt3cRPMkCiYS2kzkgB3Qw]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(7.33975126474834, 3.9232417829123), radius = 0.2)
+    local-shape : Disk(center = V2d(0.122484202142423, 0.763397978367881), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [BR44ZunFMD3NjTnDNSCPp5]
+  id : [GBYAZYDfjtAXwHnAGQ11ut/2yhyyJKUKcLvsM5Zg9eTaj] => VIA at V2d(-5.7413084157869, -1.14989687849149) : [GBYAZYDfjtAXwHnAGQ11ut/2yhyyJKUKcLvsM5Zg9eTaj]
+    trait : trait :
+      net-group : [72128]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-5.7413084157869, -1.14989687849149), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.000574757632689549, -0.614610122773065), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [GBYAZYDfjtAXwHnAGQ11ut]
+  id : [7wzCdfxdqJqMnQz2zB4r6g/GDnXA7ubKPjjGZdzFfVPuy] => VIA at V2d(-1.15134251822758, 2.27541927430855) : [7wzCdfxdqJqMnQz2zB4r6g/GDnXA7ubKPjjGZdzFfVPuy]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-1.15134251822758, 2.27541927430855), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.598292558360498, -0.457656949176177), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7wzCdfxdqJqMnQz2zB4r6g]
+  id : [/1111111111X46PBk6E] => OBSTACLE at V2d(13.75, -0.343749999999999) : [/1111111111X46PBk6E]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.75, -0.343749999999999), V2d(13.75, 0.75))
+    local-shape : Segment(V2d(13.75, -0.343749999999999), V2d(13.75, 0.75))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [4S2WaewMQhK9uzpNtGXNKa/8WQZMazwhuZ3G5z3B8jKgf] => VIA at V2d(-8.09812111255475, 0.860460303826892) : [4S2WaewMQhK9uzpNtGXNKa/8WQZMazwhuZ3G5z3B8jKgf]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-8.09812111255475, 0.860460303826892), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.0393911264875277, 1.50921363647853), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [4S2WaewMQhK9uzpNtGXNKa]
+  id : [F1P9sLfUJXXSMvevxq52FN/By3jKJMT7kBBAyyjBpzf6J] => VIA at V2d(-3.09233520428917, -6.06758584718827) : [F1P9sLfUJXXSMvevxq52FN/By3jKJMT7kBBAyyjBpzf6J]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-3.09233520428917, -6.06758584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(2.7725, 1.7825), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111X6365EK1] => OBSTACLE at V2d(0.0, 9.5) : [/1111111111X6365EK1]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(0.0, 9.5), V2d(-1.71875, 9.5))
+    local-shape : Segment(V2d(0.0, 9.5), V2d(-1.71875, 9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [A2u7NdnDnE6XFt3TyNKLHp/25HBwcWn93G6iTGhWRh6VX] => VIA at V2d(-3.80279659754265, -3.9492333972975) : [A2u7NdnDnE6XFt3TyNKLHp/25HBwcWn93G6iTGhWRh6VX]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-3.80279659754265, -3.9492333972975), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.585307119946834, 1.44117753993441), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [A2u7NdnDnE6XFt3TyNKLHp]
+  id : [3pC5XRFfGntJ8odwTDzGkf/Ef9P7juRMsoZoxN52UKXgF] => VIA at V2d(-2.32938634638481, 3.46214109161876) : [3pC5XRFfGntJ8odwTDzGkf/Ef9P7juRMsoZoxN52UKXgF]
+    trait : trait :
+      net-group : [72121]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-2.32938634638481, 3.46214109161876), radius = 0.2)
+    local-shape : Disk(center = V2d(0.0264380874100709, 4.08244524851528), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [3pC5XRFfGntJ8odwTDzGkf]
+  id : [/1111111111X9R16m37] => OBSTACLE at V2d(-3.90625, -9.5) : [/1111111111X9R16m37]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-3.90625, -9.5), V2d(-2.265625, -9.5))
+    local-shape : Segment(V2d(-3.90625, -9.5), V2d(-2.265625, -9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [/1111111111XAgyFSme] => OBSTACLE at V2d(12.5, -9.0) : [/1111111111XAgyFSme]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(12.5, -9.0), V2d(12.5, -8.8683475024126))
+    local-shape : Segment(V2d(12.5, -9.0), V2d(12.5, -8.8683475024126))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [/1111111111XA5dFkSX] => OBSTACLE at V2d(5.9375, -9.5) : [/1111111111XA5dFkSX]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(5.9375, -9.5), V2d(7.578125, -9.5))
+    local-shape : Segment(V2d(5.9375, -9.5), V2d(7.578125, -9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [7Kp2x9kdAtzt3zYzXnStUw/DH8AL9jdcr9WaTDDRnNx37] => VIA at V2d(-13.2527485805898, 4.99908527277082) : [7Kp2x9kdAtzt3zYzXnStUw/DH8AL9jdcr9WaTDDRnNx37]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.2527485805898, 4.99908527277082), radius = 0.2)
+    local-shape : Disk(center = V2d(3.74908527277082, 1.55274858058983), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [F1P9sLfUJXXSMvevxq52FN/47smoF8Dp2f8rtWuo4b3GG] => VIA at V2d(-3.41445807327635, -2.94658916104267) : [F1P9sLfUJXXSMvevxq52FN/47smoF8Dp2f8rtWuo4b3GG]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-3.41445807327635, -2.94658916104267), radius = 0.2)
+    local-shape : Disk(center = V2d(3.09462286898718, -1.33849668614561), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [FinPpnUzaoQQjvsjdctnp1/8EzgzVGb5UqcasGLdMgn34] => VIA at V2d(4.31256788876175, -7.86883638387173) : [FinPpnUzaoQQjvsjdctnp1/8EzgzVGb5UqcasGLdMgn34]
+    trait : trait :
+      net-group : [72099]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(4.31256788876175, -7.86883638387173), radius = 0.125)
+    local-shape : Disk(center = V2d(-0.35, -0.4), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [FinPpnUzaoQQjvsjdctnp1]
+  id : [F1P9sLfUJXXSMvevxq52FN/DohuEZWrreVUkafvhVrUJ] => VIA at V2d(0.35516479571083, -4.06008584718827) : [F1P9sLfUJXXSMvevxq52FN/DohuEZWrreVUkafvhVrUJ]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(0.35516479571083, -4.06008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(-0.675, -0.225000000000001), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111X7Ww6Mp9] => OBSTACLE at V2d(-13.75, 3.5625) : [/1111111111X7Ww6Mp9]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-13.75, 3.5625), V2d(-13.75, 2.375))
+    local-shape : Segment(V2d(-13.75, 3.5625), V2d(-13.75, 2.375))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [/47Pwg9GLDUMScZ9AHoQzkL] => POUR at V2d(6.41161165235168, -4.16161165235168) : [/47Pwg9GLDUMScZ9AHoQzkL]
+    trait : trait :
+      net-group : [72141]
+      hole-inset : false
+      soldermask-outset : false
+      edge : false
+    shape : PolygonWithArcs([
+      Arc(V2d(13.5, -9.0), 1.0, 3.14159265358979, -1.5707963267949), 
+      V2d(13.75, -8.0), 
+      V2d(13.75, 9.5), 
+      V2d(-13.75, 9.5), 
+      V2d(-13.75, -9.5), 
+      V2d(12.5, -9.5)])
+    local-shape : PolygonWithArcs([
+      Arc(V2d(13.5, -9.0), 1.0, 3.14159265358979, -1.5707963267949), 
+      V2d(13.75, -8.0), 
+      V2d(13.75, 9.5), 
+      V2d(-13.75, 9.5), 
+      V2d(-13.75, -9.5), 
+      V2d(12.5, -9.5)])
+    layers : {2}
+    original-layers : [2]
+    instance : false
+  id : [GQGaeXFaL8HCKA8PaJSdeg/EyZQ2fo9oiPJq23Nv9qAMn] => VIA at V2d(9.66103437242491, -0.872388946276017) : [GQGaeXFaL8HCKA8PaJSdeg/EyZQ2fo9oiPJq23Nv9qAMn]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(9.66103437242491, -0.872388946276017), radius = 0.2)
+    local-shape : Disk(center = V2d(-1.31390584895154, 0.654841573611582), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [GQGaeXFaL8HCKA8PaJSdeg]
+  id : [/1111111111X7HWCCHc] => OBSTACLE at V2d(-13.75, 5.9375) : [/1111111111X7HWCCHc]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-13.75, 5.9375), V2d(-13.75, 4.75))
+    local-shape : Segment(V2d(-13.75, 5.9375), V2d(-13.75, 4.75))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [7Kp2x9kdAtzt3zYzXnStUw/8hSJaBA9szcwuSGGeSc8Tm] => VIA at V2d(-13.2277485795964, 3.34908520720572) : [7Kp2x9kdAtzt3zYzXnStUw/8hSJaBA9szcwuSGGeSc8Tm]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.2277485795964, 3.34908520720572), radius = 0.2)
+    local-shape : Disk(center = V2d(2.09908520720572, 1.52774857959642), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [2zxrKzTNy4B5gHXvjAsLU4/DGZSmWDFmTowA4PGt9RvGR] => VIA at V2d(13.2030725258229, -5.07523572868362) : [2zxrKzTNy4B5gHXvjAsLU4/DGZSmWDFmTowA4PGt9RvGR]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.2030725258229, -5.07523572868362), radius = 0.2)
+    local-shape : Disk(center = V2d(3.68313336311699, 0.398367430606988), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [2zxrKzTNy4B5gHXvjAsLU4]
+  id : [Ac82Q5cnyuDbVJki1ZLriv/5X8u1Bn6BLMFZ7kNqhS1d1] => VIA at V2d(9.95101608311837, 6.16156479474414) : [Ac82Q5cnyuDbVJki1ZLriv/5X8u1Bn6BLMFZ7kNqhS1d1]
+    trait : trait :
+      net-group : [72076]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(9.95101608311837, 6.16156479474414), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.629592310543348, 0.0857847007823788), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [Ac82Q5cnyuDbVJki1ZLriv]
+  id : [/1111111111XACYL2LB] => OBSTACLE at V2d(7.578125, -9.5) : [/1111111111XACYL2LB]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(7.578125, -9.5), V2d(9.21875, -9.5))
+    local-shape : Segment(V2d(7.578125, -9.5), V2d(9.21875, -9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [9SSh4BComEEC2cugXXifVe/3jmKxUMUUk5ArHd4ZCphHf] => VIA at V2d(7.81682712334417, -1.07243358799437) : [9SSh4BComEEC2cugXXifVe/3jmKxUMUUk5ArHd4ZCphHf]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(7.81682712334417, -1.07243358799437), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.829633458645928, 1.70935014447935), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [9SSh4BComEEC2cugXXifVe]
+  id : [F1P9sLfUJXXSMvevxq52FN/GGcWt1x97Mcapdv6M6UfSM] => VIA at V2d(-0.0948352042891696, -4.06008584718827) : [F1P9sLfUJXXSMvevxq52FN/GGcWt1x97Mcapdv6M6UfSM]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-0.0948352042891696, -4.06008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(-0.225, -0.225000000000001), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111X9jhX4kW] => OBSTACLE at V2d(1.015625, -9.5) : [/1111111111X9jhX4kW]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(1.015625, -9.5), V2d(2.65625, -9.5))
+    local-shape : Segment(V2d(1.015625, -9.5), V2d(2.65625, -9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [FinPpnUzaoQQjvsjdctnp1/35u98mS8TXgyA8G8kyVcBX] => VIA at V2d(4.31256788876175, -7.46883638387173) : [FinPpnUzaoQQjvsjdctnp1/35u98mS8TXgyA8G8kyVcBX]
+    trait : trait :
+      net-group : [72097]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(4.31256788876175, -7.46883638387173), radius = 0.125)
+    local-shape : Disk(center = V2d(-0.35, 0.0), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [FinPpnUzaoQQjvsjdctnp1]
+  id : [/1111111111X3YUJLWB] => OBSTACLE at V2d(13.75, -5.8125) : [/1111111111X3YUJLWB]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.75, -5.8125), V2d(13.75, -4.71875))
+    local-shape : Segment(V2d(13.75, -5.8125), V2d(13.75, -4.71875))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [C1dUGNQ2HKgwiCR6fqkqoE/4ZDFm5UvK9E2HkiVrjJA2Y] => VIA at V2d(13.272248112217, 4.48807033777121) : [C1dUGNQ2HKgwiCR6fqkqoE/4ZDFm5UvK9E2HkiVrjJA2Y]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.272248112217, 4.48807033777121), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.563433663024457, 0.227971844241494), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [C1dUGNQ2HKgwiCR6fqkqoE]
+  id : [/1111111111X7bZBSXq] => OBSTACLE at V2d(-13.75, 2.375) : [/1111111111X7bZBSXq]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-13.75, 2.375), V2d(-13.75, 1.1875))
+    local-shape : Segment(V2d(-13.75, 2.375), V2d(-13.75, 1.1875))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [/1111111111X2zwytYU] => BOUNDS at V2d(-15.75, 11.5) : [/1111111111X2zwytYU]
+    trait : trait : [no copper]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : false
+    shape : Segment(V2d(-15.75, 11.5), V2d(15.75, 11.5))
+    local-shape : Segment(V2d(-15.75, 11.5), V2d(15.75, 11.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [7hk7sc8Q6fzZ8XzmMiUS5M/E6G4rhjw9JQajjivXXSPP3] => VIA at V2d(-4.56525434792908, -9.01702264586693) : [7hk7sc8Q6fzZ8XzmMiUS5M/E6G4rhjw9JQajjivXXSPP3]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-4.56525434792908, -9.01702264586693), radius = 0.2)
+    local-shape : Disk(center = V2d(-6.60324930196004, 0.831827691607048), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7hk7sc8Q6fzZ8XzmMiUS5M]
+  id : [/1111111111X95ZoDx3] => OBSTACLE at V2d(-8.828125, -9.5) : [/1111111111X95ZoDx3]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-8.828125, -9.5), V2d(-7.1875, -9.5))
+    local-shape : Segment(V2d(-8.828125, -9.5), V2d(-7.1875, -9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [/1111111111XAnXeyTQ] => OBSTACLE at V2d(12.5, -8.8683475024126) : [/1111111111XAnXeyTQ]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(12.5, -8.8683475024126), V2d(12.5681483474219, -8.61401440738235))
+    local-shape : Segment(V2d(12.5, -8.8683475024126), V2d(12.5681483474219, -8.61401440738235))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [2zxrKzTNy4B5gHXvjAsLU4/BUD1TjKwCsK5Js3msLg5rB] => VIA at V2d(13.1942336910581, -6.40989977817323) : [2zxrKzTNy4B5gHXvjAsLU4/BUD1TjKwCsK5Js3msLg5rB]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.1942336910581, -6.40989977817323), radius = 0.2)
+    local-shape : Disk(center = V2d(5.01779741260659, 0.389528595842156), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [2zxrKzTNy4B5gHXvjAsLU4]
+  id : [DMVhQV65iUgLDFcCQwfT3f/4UaiEsthwtC2G7VjE9CXPJ] => VIA at V2d(-2.66997731016558, 2.99336670423801) : [DMVhQV65iUgLDFcCQwfT3f/4UaiEsthwtC2G7VjE9CXPJ]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-2.66997731016558, 2.99336670423801), radius = 0.2)
+    local-shape : Disk(center = V2d(1.74336670423801, 0.969977310165585), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [DMVhQV65iUgLDFcCQwfT3f]
+  id : [DXxxXc11GMaGHnTF1YF2f3/PWDmRsyDT3ppN4YfA4vSD] => VIA at V2d(-11.909406588789, 4.05180087457312) : [DXxxXc11GMaGHnTF1YF2f3/PWDmRsyDT3ppN4YfA4vSD]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-11.909406588789, 4.05180087457312), radius = 0.2)
+    local-shape : Disk(center = V2d(-1.40267428487947, -2.07579992373602), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [DXxxXc11GMaGHnTF1YF2f3]
+  id : [25aokwRNHTKt4dJj4jEJoJ/72SSr23w12gP7ndhQFneGa] => VIA at V2d(-6.86159079558911, 3.29730066483402) : [25aokwRNHTKt4dJj4jEJoJ/72SSr23w12gP7ndhQFneGa]
+    trait : trait :
+      net-group : [72157]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-6.86159079558911, 3.29730066483402), radius = 0.2)
+    local-shape : Disk(center = V2d(0.184257697670921, -5.18177969586581), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [25aokwRNHTKt4dJj4jEJoJ]
+  id : [F1P9sLfUJXXSMvevxq52FN/AGEi4UBXR4haKXwjzXqCdq] => VIA at V2d(-1.74233520428917, -6.96758584718827) : [F1P9sLfUJXXSMvevxq52FN/AGEi4UBXR4haKXwjzXqCdq]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-1.74233520428917, -6.96758584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(1.4225, 2.6825), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [DXxxXc11GMaGHnTF1YF2f3/2g3xBqsajSEVy5vt3Zx5bG] => VIA at V2d(-11.2489086074951, 6.77156289575056) : [DXxxXc11GMaGHnTF1YF2f3/2g3xBqsajSEVy5vt3Zx5bG]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-11.2489086074951, 6.77156289575056), radius = 0.2)
+    local-shape : Disk(center = V2d(1.31708773629798, -1.41530194244211), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [DXxxXc11GMaGHnTF1YF2f3]
+  id : [/1111111111X8emm5KY] => OBSTACLE at V2d(-13.75, -8.3125) : [/1111111111X8emm5KY]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-13.75, -8.3125), V2d(-13.75, -9.5))
+    local-shape : Segment(V2d(-13.75, -8.3125), V2d(-13.75, -9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [7Kp2x9kdAtzt3zYzXnStUw/6A3Z4fCkturJp53xpovNfY] => VIA at V2d(-13.2464985803415, 7.10533535646567) : [7Kp2x9kdAtzt3zYzXnStUw/6A3Z4fCkturJp53xpovNfY]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.2464985803415, 7.10533535646567), radius = 0.2)
+    local-shape : Disk(center = V2d(5.85533535646567, 1.54649858034147), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [/1111111111X5p5o2GT] => OBSTACLE at V2d(3.4375, 9.5) : [/1111111111X5p5o2GT]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(3.4375, 9.5), V2d(1.71875, 9.5))
+    local-shape : Segment(V2d(3.4375, 9.5), V2d(1.71875, 9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [DY7fGrFX9zneLycCkiL1ou/2otQvWb1Fr1Y2MpbGgY37t] => VIA at V2d(9.74319527150949, 1.76457777653424) : [DY7fGrFX9zneLycCkiL1ou/2otQvWb1Fr1Y2MpbGgY37t]
+    trait : trait :
+      net-group : [72093]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(9.74319527150949, 1.76457777653424), radius = 0.2)
+    local-shape : Disk(center = V2d(0.00225997429164626, -0.5875001), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [DY7fGrFX9zneLycCkiL1ou]
+  id : [2zxrKzTNy4B5gHXvjAsLU4/AQEQoivHgiCKrVSgxv76Kx] => VIA at V2d(13.2119113605877, -7.12584539412461) : [2zxrKzTNy4B5gHXvjAsLU4/AQEQoivHgiCKrVSgxv76Kx]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.2119113605877, -7.12584539412461), radius = 0.2)
+    local-shape : Disk(center = V2d(5.73374302855797, 0.40720626537182), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [2zxrKzTNy4B5gHXvjAsLU4]
+  id : [v66atuRhTUmQ9wbKoDkC7/A9LsYx5UiVCpQ3VkSmezbz] => VIA at V2d(-1.62865149212783, 8.82729027356016) : [v66atuRhTUmQ9wbKoDkC7/A9LsYx5UiVCpQ3VkSmezbz]
+    trait : trait :
+      net-group : [72116]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-1.62865149212783, 8.82729027356016), radius = 0.2)
+    local-shape : Disk(center = V2d(-1.41268116942886, -0.591948533079), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [v66atuRhTUmQ9wbKoDkC7]
+  id : [2zxrKzTNy4B5gHXvjAsLU4/9qjxDDa8a5bryMKQM9mP8d] => VIA at V2d(13.1942336910581, -5.72047066651635) : [2zxrKzTNy4B5gHXvjAsLU4/9qjxDDa8a5bryMKQM9mP8d]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.1942336910581, -5.72047066651635), radius = 0.2)
+    local-shape : Disk(center = V2d(4.32836830094971, 0.389528595842156), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [2zxrKzTNy4B5gHXvjAsLU4]
+  id : [/1111111111X5uNzcXN] => OBSTACLE at V2d(1.71875, 9.5) : [/1111111111X5uNzcXN]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(1.71875, 9.5), V2d(0.0, 9.5))
+    local-shape : Segment(V2d(1.71875, 9.5), V2d(0.0, 9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [ErxJqA2VcyJbqmz1KnUzK1/AoyAjiGMYChCin4hGGFzxi] => VIA at V2d(-0.113320516518016, -8.59589087802543) : [ErxJqA2VcyJbqmz1KnUzK1/AoyAjiGMYChCin4hGGFzxi]
+    trait : trait :
+      net-group : [72169]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-0.113320516518016, -8.59589087802543), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.0218665254845956, -0.113700643255302), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [ErxJqA2VcyJbqmz1KnUzK1]
+  id : [F1P9sLfUJXXSMvevxq52FN/BVDQK7WT77a3tp4kaqCsjg] => VIA at V2d(1.25516479571083, -2.71008584718827) : [F1P9sLfUJXXSMvevxq52FN/BVDQK7WT77a3tp4kaqCsjg]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(1.25516479571083, -2.71008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(-1.575, -1.575), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [7Kp2x9kdAtzt3zYzXnStUw/PTUQg4marmgZxRT2hvQVm] => VIA at V2d(-13.2417966509109, 7.62634435037957) : [7Kp2x9kdAtzt3zYzXnStUw/PTUQg4marmgZxRT2hvQVm]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.2417966509109, 7.62634435037957), radius = 0.2)
+    local-shape : Disk(center = V2d(6.37634435037957, 1.5417966509109), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [/1111111111X4n4dyny] => OBSTACLE at V2d(13.75, 6.21875) : [/1111111111X4n4dyny]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.75, 6.21875), V2d(13.75, 7.3125))
+    local-shape : Segment(V2d(13.75, 6.21875), V2d(13.75, 7.3125))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [F1P9sLfUJXXSMvevxq52FN/A4QbihCAed9TnCdZE6rnuK] => VIA at V2d(-0.994835204289169, -4.06008584718827) : [F1P9sLfUJXXSMvevxq52FN/A4QbihCAed9TnCdZE6rnuK]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-0.994835204289169, -4.06008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(0.675, -0.225000000000001), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [7Kp2x9kdAtzt3zYzXnStUw/2SyhTi4rC68h9928XNi11P] => VIA at V2d(-13.2469743206463, 2.20123794645795) : [7Kp2x9kdAtzt3zYzXnStUw/2SyhTi4rC68h9928XNi11P]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.2469743206463, 2.20123794645795), radius = 0.2)
+    local-shape : Disk(center = V2d(0.95123794645795, 1.54697432064631), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [/1111111111XAa1vvHL] => OBSTACLE at V2d(12.5, -9.5) : [/1111111111XAa1vvHL]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(12.5, -9.5), V2d(12.5, -9.0))
+    local-shape : Segment(V2d(12.5, -9.5), V2d(12.5, -9.0))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [3pC5XRFfGntJ8odwTDzGkf/C5G7LQFqTVzFJYTaBcP9Cd] => VIA at V2d(-3.65534611869566, 5.92678708842733) : [3pC5XRFfGntJ8odwTDzGkf/C5G7LQFqTVzFJYTaBcP9Cd]
+    trait : trait :
+      net-group : [72151]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-3.65534611869566, 5.92678708842733), radius = 0.2)
+    local-shape : Disk(center = V2d(-1.29952168490078, 1.61779925170671), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [3pC5XRFfGntJ8odwTDzGkf]
+  id : [6HKsGtiqajrMnb1JFcCFGk/9vHuCzGkRhuhyuK7U7FPcp] => VIA at V2d(-9.5296565122107, -2.29689870517842) : [6HKsGtiqajrMnb1JFcCFGk/9vHuCzGkRhuhyuK7U7FPcp]
+    trait : trait :
+      net-group : [72128]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-9.5296565122107, -2.29689870517842), radius = 0.2)
+    local-shape : Disk(center = V2d(1.17524765900305, -1.23462092849687), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [6HKsGtiqajrMnb1JFcCFGk]
+  id : [/1111111111X9srY2K9] => OBSTACLE at V2d(2.65625, -9.5) : [/1111111111X9srY2K9]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(2.65625, -9.5), V2d(4.296875, -9.5))
+    local-shape : Segment(V2d(2.65625, -9.5), V2d(4.296875, -9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [GAzxAf9ycAYuPGE1qCFe9K/9AXAf4TTKivtzq9Q1hLob4] => VIA at V2d(3.14739758829545, -2.81014171027765) : [GAzxAf9ycAYuPGE1qCFe9K/9AXAf4TTKivtzq9Q1hLob4]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(3.14739758829545, -2.81014171027765), radius = 0.2)
+    local-shape : Disk(center = V2d(0.834930829771085, 0.856037073738826), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [GAzxAf9ycAYuPGE1qCFe9K]
+  id : [/1111111111X79H6GyP] => OBSTACLE at V2d(-13.75, 7.125) : [/1111111111X79H6GyP]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-13.75, 7.125), V2d(-13.75, 5.9375))
+    local-shape : Segment(V2d(-13.75, 7.125), V2d(-13.75, 5.9375))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [/1111111111XB2jWrdq] => OBSTACLE at V2d(12.6998008450093, -8.38598559261765) : [/1111111111XB2jWrdq]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(12.6998008450093, -8.38598559261765), V2d(12.8859855926176, -8.19980084500926))
+    local-shape : Segment(V2d(12.6998008450093, -8.38598559261765), V2d(12.8859855926176, -8.19980084500926))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [C1dUGNQ2HKgwiCR6fqkqoE/7eGBogPT99yjUKSnEWmJ8Z] => VIA at V2d(12.6697832430252, 4.45608533618353) : [C1dUGNQ2HKgwiCR6fqkqoE/7eGBogPT99yjUKSnEWmJ8Z]
+    trait : trait :
+      net-group : [72095]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(12.6697832430252, 4.45608533618353), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.531448661436778, -0.374493024950333), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [C1dUGNQ2HKgwiCR6fqkqoE]
+  id : [2zxrKzTNy4B5gHXvjAsLU4/DfMfBwwQ7nSJx65RbMjGqG] => VIA at V2d(13.2207501953526, -2.05235423911114) : [2zxrKzTNy4B5gHXvjAsLU4/DfMfBwwQ7nSJx65RbMjGqG]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.2207501953526, -2.05235423911114), radius = 0.2)
+    local-shape : Disk(center = V2d(0.660251873544498, 0.41604510013665), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [2zxrKzTNy4B5gHXvjAsLU4]
+  id : [8XcoftfePPzJsUD6RH6DdS/3HWYCUDParLDRKzEzPtQWx] => VIA at V2d(1.31387799670746, 2.88622054620552) : [8XcoftfePPzJsUD6RH6DdS/3HWYCUDParLDRKzEzPtQWx]
+    trait : trait :
+      net-group : [72164]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(1.31387799670746, 2.88622054620552), radius = 0.2)
+    local-shape : Disk(center = V2d(5.53772245274824, 0.869889275268192), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [8XcoftfePPzJsUD6RH6DdS]
+  id : [F1P9sLfUJXXSMvevxq52FN/7EVq7gfmZvbc6VX43WKgS4] => VIA at V2d(2.15516479571083, -3.61008584718827) : [F1P9sLfUJXXSMvevxq52FN/7EVq7gfmZvbc6VX43WKgS4]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(2.15516479571083, -3.61008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(-2.475, -0.675), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [7Kp2x9kdAtzt3zYzXnStUw/8RrK5Tj6ceh5nxfvhRG9Zz] => VIA at V2d(-13.2464985803415, 6.04908531449407) : [7Kp2x9kdAtzt3zYzXnStUw/8RrK5Tj6ceh5nxfvhRG9Zz]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.2464985803415, 6.04908531449407), radius = 0.2)
+    local-shape : Disk(center = V2d(4.79908531449407, 1.54649858034147), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [7hk7sc8Q6fzZ8XzmMiUS5M/3fEZRD4et35wg2obVcE6cJ] => VIA at V2d(-4.03820524837666, -9.00568825662924) : [7hk7sc8Q6fzZ8XzmMiUS5M/3fEZRD4et35wg2obVcE6cJ]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-4.03820524837666, -9.00568825662924), radius = 0.2)
+    local-shape : Disk(center = V2d(-7.13029840151246, 0.820493302369361), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7hk7sc8Q6fzZ8XzmMiUS5M]
+  id : [F1P9sLfUJXXSMvevxq52FN/4uKCmYR1DJYVjgSyy2E9ga] => VIA at V2d(1.25516479571083, -3.61008584718827) : [F1P9sLfUJXXSMvevxq52FN/4uKCmYR1DJYVjgSyy2E9ga]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(1.25516479571083, -3.61008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(-1.575, -0.675), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [F1P9sLfUJXXSMvevxq52FN/6Wf6wp8FutRXkHs41x4SKH] => VIA at V2d(8.8356278130359, -1.82283043308975) : [F1P9sLfUJXXSMvevxq52FN/6Wf6wp8FutRXkHs41x4SKH]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(8.8356278130359, -1.82283043308975), radius = 0.2)
+    local-shape : Disk(center = V2d(-9.15546301732507, -2.46225541409852), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [7Kp2x9kdAtzt3zYzXnStUw/D2dKLQctQJsA745sXMHucr] => VIA at V2d(-13.255054903585, 8.14341620466882) : [7Kp2x9kdAtzt3zYzXnStUw/D2dKLQctQJsA745sXMHucr]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.255054903585, 8.14341620466882), radius = 0.2)
+    local-shape : Disk(center = V2d(6.89341620466882, 1.55505490358499), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [2GsNjSksumtQT61RdtXJZa/8gPUoiPAHyQdhnR8h2xPn6] => VIA at V2d(-1.51755976974471, -1.24161685541634) : [2GsNjSksumtQT61RdtXJZa/8gPUoiPAHyQdhnR8h2xPn6]
+    trait : trait :
+      net-group : [72147]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-1.51755976974471, -1.24161685541634), radius = 0.2)
+    local-shape : Disk(center = V2d(-3.06883038637306, -3.36885451699193), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [2GsNjSksumtQT61RdtXJZa]
+  id : [/1111111111X6BM4A8H] => OBSTACLE at V2d(-1.71875, 9.5) : [/1111111111X6BM4A8H]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-1.71875, 9.5), V2d(-3.4375, 9.5))
+    local-shape : Segment(V2d(-1.71875, 9.5), V2d(-3.4375, 9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [F1P9sLfUJXXSMvevxq52FN/2dzMsyp9Dt6UkUeBraMZBb] => VIA at V2d(0.35516479571083, -3.16008584718827) : [F1P9sLfUJXXSMvevxq52FN/2dzMsyp9Dt6UkUeBraMZBb]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(0.35516479571083, -3.16008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(-0.675, -1.125), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [7Kp2x9kdAtzt3zYzXnStUw/D22eRjTRLfcjjDvhi2k6SJ] => VIA at V2d(-13.2532243208947, 0.0949878627630982) : [7Kp2x9kdAtzt3zYzXnStUw/D22eRjTRLfcjjDvhi2k6SJ]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.2532243208947, 0.0949878627630982), radius = 0.2)
+    local-shape : Disk(center = V2d(-1.1550121372369, 1.55322432089467), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [7Kp2x9kdAtzt3zYzXnStUw/9FbdgG3pNuqD7CFansYgtY] => VIA at V2d(-13.259474321143, -1.9925122201867) : [7Kp2x9kdAtzt3zYzXnStUw/9FbdgG3pNuqD7CFansYgtY]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.259474321143, -1.9925122201867), radius = 0.2)
+    local-shape : Disk(center = V2d(-3.2425122201867, 1.55947432114302), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [F1P9sLfUJXXSMvevxq52FN/FRn3hnEhnjXutCJcbn7jRk] => VIA at V2d(-1.74233520428917, -6.51758584718827) : [F1P9sLfUJXXSMvevxq52FN/FRn3hnEhnjXutCJcbn7jRk]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-1.74233520428917, -6.51758584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(1.4225, 2.2325), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [6p2ocdEtJ8ctriHDmNrKsp/EJvCBDrGQJUpQuaQX6QW5K] => VIA at V2d(9.60399965583057, 2.56650578288942) : [6p2ocdEtJ8ctriHDmNrKsp/EJvCBDrGQJUpQuaQX6QW5K]
+    trait : trait :
+      net-group : [72117]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(9.60399965583057, 2.56650578288942), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.142705340042391, -0.712167557487952), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [6p2ocdEtJ8ctriHDmNrKsp]
+  id : [Fk4KVTWQNebJjtDMk9Q5mY/28EVVLkETLcgYNv12a8KpK] => VIA at V2d(-2.68618774726431, 2.53115077609503) : [Fk4KVTWQNebJjtDMk9Q5mY/28EVVLkETLcgYNv12a8KpK]
+    trait : trait :
+      net-group : [72153]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-2.68618774726431, 2.53115077609503), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.71338845096265, -0.273262297098319), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [Fk4KVTWQNebJjtDMk9Q5mY]
+  id : [/1111111111X6hFGeyV] => OBSTACLE at V2d(-10.3125, 9.5) : [/1111111111X6hFGeyV]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-10.3125, 9.5), V2d(-12.03125, 9.5))
+    local-shape : Segment(V2d(-10.3125, 9.5), V2d(-12.03125, 9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [94VNEw5PraYSGbbDtKsPoy/CGEZGWEttWXq2b7PAUPJWm] => VIA at V2d(-3.25043108318014, -1.36579135047821) : [94VNEw5PraYSGbbDtKsPoy/CGEZGWEttWXq2b7PAUPJWm]
+    trait : trait :
+      net-group : [72160]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-3.25043108318014, -1.36579135047821), radius = 0.2)
+    local-shape : Disk(center = V2d(-2.69738112331306, 1.98035357375817), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [94VNEw5PraYSGbbDtKsPoy]
+  id : [/1111111111X7PiCmPP] => OBSTACLE at V2d(-13.75, 4.75) : [/1111111111X7PiCmPP]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-13.75, 4.75), V2d(-13.75, 3.5625))
+    local-shape : Segment(V2d(-13.75, 4.75), V2d(-13.75, 3.5625))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [2zxrKzTNy4B5gHXvjAsLU4/EBziZd5jJfHR3MC9atStFm] => VIA at V2d(13.2030725258229, -2.61803966406037) : [2zxrKzTNy4B5gHXvjAsLU4/EBziZd5jJfHR3MC9atStFm]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.2030725258229, -2.61803966406037), radius = 0.2)
+    local-shape : Disk(center = V2d(1.22593729849374, 0.398367430606986), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [2zxrKzTNy4B5gHXvjAsLU4]
+  id : [3xjQ7S8VpSYPuLLEJVkQAV/G4zAo8Febc8Hmnv1zrbJ7g] => VIA at V2d(2.20041952001784, 0.682176923661114) : [3xjQ7S8VpSYPuLLEJVkQAV/G4zAo8Febc8Hmnv1zrbJ7g]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(2.20041952001784, 0.682176923661114), radius = 0.2)
+    local-shape : Disk(center = V2d(0.683765205603598, 0.594277334260401), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [3xjQ7S8VpSYPuLLEJVkQAV]
+  id : [F1P9sLfUJXXSMvevxq52FN/5pmjN8ohthApjkrGC5MTZH] => VIA at V2d(-0.0948352042891697, -2.71008584718827) : [F1P9sLfUJXXSMvevxq52FN/5pmjN8ohthApjkrGC5MTZH]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-0.0948352042891697, -2.71008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(-0.225, -1.575), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111X7qL3c8n] => OBSTACLE at V2d(-13.75, 0.0) : [/1111111111X7qL3c8n]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-13.75, 0.0), V2d(-13.75, -1.1875))
+    local-shape : Segment(V2d(-13.75, 0.0), V2d(-13.75, -1.1875))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [C1dUGNQ2HKgwiCR6fqkqoE/DKzAZEnFty4ZvweDw2aH5F] => VIA at V2d(13.303498112217, 7.68807033777121) : [C1dUGNQ2HKgwiCR6fqkqoE/DKzAZEnFty4ZvweDw2aH5F]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.303498112217, 7.68807033777121), radius = 0.2)
+    local-shape : Disk(center = V2d(-3.76343366302446, 0.25922184424149), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [C1dUGNQ2HKgwiCR6fqkqoE]
+  id : [F1P9sLfUJXXSMvevxq52FN/6uT6PGYCcPB3JW12ojDxBJ] => VIA at V2d(-0.994835204289169, -3.61008584718827) : [F1P9sLfUJXXSMvevxq52FN/6uT6PGYCcPB3JW12ojDxBJ]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-0.994835204289169, -3.61008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(0.675, -0.675), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [F1P9sLfUJXXSMvevxq52FN/9PfVZq95CpwAKFYYBE12L9] => VIA at V2d(-1.44483520428917, -3.16008584718827) : [F1P9sLfUJXXSMvevxq52FN/9PfVZq95CpwAKFYYBE12L9]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-1.44483520428917, -3.16008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(1.125, -1.125), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111X4SuKtdK] => OBSTACLE at V2d(13.75, 2.9375) : [/1111111111X4SuKtdK]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.75, 2.9375), V2d(13.75, 4.03125))
+    local-shape : Segment(V2d(13.75, 2.9375), V2d(13.75, 4.03125))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [7hk7sc8Q6fzZ8XzmMiUS5M/GaKohdeca9114JVXuS14ak] => VIA at V2d(-6.62722181017056, -9.00233393995507) : [7hk7sc8Q6fzZ8XzmMiUS5M/GaKohdeca9114JVXuS14ak]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-6.62722181017056, -9.00233393995507), radius = 0.2)
+    local-shape : Disk(center = V2d(-4.54128183971856, 0.817138985695186), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7hk7sc8Q6fzZ8XzmMiUS5M]
+  id : [CrTkMX2fu1qFsAMVKfZz3a/5scWiPTdjCrNqyEboatxe7] => VIA at V2d(5.4459565357953, -5.73861136034116) : [CrTkMX2fu1qFsAMVKfZz3a/5scWiPTdjCrNqyEboatxe7]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(5.4459565357953, -5.73861136034116), radius = 0.2)
+    local-shape : Disk(center = V2d(0.469689976976778, 1.24665697428729), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [CrTkMX2fu1qFsAMVKfZz3a]
+  id : [/1111111111X5LyY7Eo] => OBSTACLE at V2d(10.3125, 9.5) : [/1111111111X5LyY7Eo]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(10.3125, 9.5), V2d(8.59375, 9.5))
+    local-shape : Segment(V2d(10.3125, 9.5), V2d(8.59375, 9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [F1P9sLfUJXXSMvevxq52FN/C8EtLLY2CM291nphRHp4Gf] => VIA at V2d(-1.44483520428917, -2.26008584718827) : [F1P9sLfUJXXSMvevxq52FN/C8EtLLY2CM291nphRHp4Gf]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-1.44483520428917, -2.26008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(1.125, -2.025), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111X3vJ2qxD] => OBSTACLE at V2d(13.75, -2.53125) : [/1111111111X3vJ2qxD]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.75, -2.53125), V2d(13.75, -1.4375))
+    local-shape : Segment(V2d(13.75, -2.53125), V2d(13.75, -1.4375))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [DXxxXc11GMaGHnTF1YF2f3/7S6nnBVkos9nwTK49ziM1U] => VIA at V2d(-12.4509921173225, 4.60252303826735) : [DXxxXc11GMaGHnTF1YF2f3/7S6nnBVkos9nwTK49ziM1U]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-12.4509921173225, 4.60252303826735), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.851952121185234, -2.61738545226944), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [DXxxXc11GMaGHnTF1YF2f3]
+  id : [/1111111111X3E775nD] => BOUNDS at V2d(15.75, -11.5) : [/1111111111X3E775nD]
+    trait : trait : [no copper]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : false
+    shape : Segment(V2d(15.75, -11.5), V2d(-15.75, -11.5))
+    local-shape : Segment(V2d(15.75, -11.5), V2d(-15.75, -11.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [F1P9sLfUJXXSMvevxq52FN/BPEhaHL9zgxfvnHA28Ek7n] => VIA at V2d(2.15516479571083, -1.81008584718827) : [F1P9sLfUJXXSMvevxq52FN/BPEhaHL9zgxfvnHA28Ek7n]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(2.15516479571083, -1.81008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(-2.475, -2.475), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111X8rm3xBA] => OBSTACLE at V2d(-12.109375, -9.5) : [/1111111111X8rm3xBA]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-12.109375, -9.5), V2d(-10.46875, -9.5))
+    local-shape : Segment(V2d(-12.109375, -9.5), V2d(-10.46875, -9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [F1P9sLfUJXXSMvevxq52FN/Fq7VzGpiuJqXaX393yiST1] => VIA at V2d(0.35516479571083, -2.71008584718827) : [F1P9sLfUJXXSMvevxq52FN/Fq7VzGpiuJqXaX393yiST1]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(0.35516479571083, -2.71008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(-0.675, -1.575), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [7hk7sc8Q6fzZ8XzmMiUS5M/9GvyvtYnQceJxhmgDnv9eR] => VIA at V2d(-7.65865123080003, -9.00516753726449) : [7hk7sc8Q6fzZ8XzmMiUS5M/9GvyvtYnQceJxhmgDnv9eR]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-7.65865123080003, -9.00516753726449), radius = 0.2)
+    local-shape : Disk(center = V2d(-3.50985241908909, 0.819972583004612), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7hk7sc8Q6fzZ8XzmMiUS5M]
+  id : [7zWkzSL9dsanvNrd3J4Jfp/6TttgA2wEWvHJ7nvQb2EcZ] => VIA at V2d(6.23658346131659, -3.16997692423501) : [7zWkzSL9dsanvNrd3J4Jfp/6TttgA2wEWvHJ7nvQb2EcZ]
+    trait : trait :
+      net-group : [72141]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(6.23658346131659, -3.16997692423501), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.00775517439589146, -0.829971048747587), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7zWkzSL9dsanvNrd3J4Jfp]
+  id : [/1111111111X3fFsCup] => OBSTACLE at V2d(13.75, -4.71875) : [/1111111111X3fFsCup]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.75, -4.71875), V2d(13.75, -3.625))
+    local-shape : Segment(V2d(13.75, -4.71875), V2d(13.75, -3.625))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [7moLqAbuekQe6TpRwzoTMu/DcJH6WWFZZ2RWD3donfDrY] => VIA at V2d(10.2753186451653, -0.0834968900605917) : [7moLqAbuekQe6TpRwzoTMu/DcJH6WWFZZ2RWD3donfDrY]
+    trait : trait :
+      net-group : [72093]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(10.2753186451653, -0.0834968900605917), radius = 0.2)
+    local-shape : Disk(center = V2d(-1.18604093216875, 0.0484017310762788), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7moLqAbuekQe6TpRwzoTMu]
+  id : [C1dUGNQ2HKgwiCR6fqkqoE/9Vo8kvgFzxXuH5YWoftEwq] => VIA at V2d(13.272248112217, 6.08807033777121) : [C1dUGNQ2HKgwiCR6fqkqoE/9Vo8kvgFzxXuH5YWoftEwq]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.272248112217, 6.08807033777121), radius = 0.2)
+    local-shape : Disk(center = V2d(-2.16343366302446, 0.22797184424149), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [C1dUGNQ2HKgwiCR6fqkqoE]
+  id : [F1P9sLfUJXXSMvevxq52FN/GohCH36QFxkVHbcobGvRiW] => VIA at V2d(0.35516479571083, -4.51008584718828) : [F1P9sLfUJXXSMvevxq52FN/GohCH36QFxkVHbcobGvRiW]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(0.35516479571083, -4.51008584718828), radius = 0.125)
+    local-shape : Disk(center = V2d(-0.675, 0.225000000000001), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111X6aTuByS] => OBSTACLE at V2d(-8.59375, 9.5) : [/1111111111X6aTuByS]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-8.59375, 9.5), V2d(-10.3125, 9.5))
+    local-shape : Segment(V2d(-8.59375, 9.5), V2d(-10.3125, 9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [F1P9sLfUJXXSMvevxq52FN/6knwMMgLtQcagFSsSPpL7V] => VIA at V2d(3.1946695200513, -4.84326172919714) : [F1P9sLfUJXXSMvevxq52FN/6knwMMgLtQcagFSsSPpL7V]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(3.1946695200513, -4.84326172919714), radius = 0.2)
+    local-shape : Disk(center = V2d(-3.51450472434047, 0.558175882008867), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [C1dUGNQ2HKgwiCR6fqkqoE/C4NEhr2DDNSGQTMw8d5rWv] => VIA at V2d(13.290998112217, 7.15682033777121) : [C1dUGNQ2HKgwiCR6fqkqoE/C4NEhr2DDNSGQTMw8d5rWv]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.290998112217, 7.15682033777121), radius = 0.2)
+    local-shape : Disk(center = V2d(-3.23218366302446, 0.24672184424149), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [C1dUGNQ2HKgwiCR6fqkqoE]
+  id : [F1P9sLfUJXXSMvevxq52FN/GnrDhKUQB77NVmhiqndpdc] => VIA at V2d(3.42981588364333, -6.30305234134505) : [F1P9sLfUJXXSMvevxq52FN/GnrDhKUQB77NVmhiqndpdc]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(3.42981588364333, -6.30305234134505), radius = 0.2)
+    local-shape : Disk(center = V2d(-3.7496510879325, 2.01796649415678), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111X9DgTKbJ] => OBSTACLE at V2d(-7.1875, -9.5) : [/1111111111X9DgTKbJ]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-7.1875, -9.5), V2d(-5.546875, -9.5))
+    local-shape : Segment(V2d(-7.1875, -9.5), V2d(-5.546875, -9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [9uJyW2UHvtFfc5xnJzbWB8/44gKK3dNMWx5DCyFvBB1MQ] => VIA at V2d(13.0361673170516, 0.962130638496421) : [9uJyW2UHvtFfc5xnJzbWB8/44gKK3dNMWx5DCyFvBB1MQ]
+    trait : trait :
+      net-group : [72095]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.0361673170516, 0.962130638496421), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.526044573954522, 0.0239555626212871), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [9uJyW2UHvtFfc5xnJzbWB8]
+  id : [/1111111111X4uFEVhF] => OBSTACLE at V2d(13.75, 7.3125) : [/1111111111X4uFEVhF]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.75, 7.3125), V2d(13.75, 8.40625))
+    local-shape : Segment(V2d(13.75, 7.3125), V2d(13.75, 8.40625))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [DXxxXc11GMaGHnTF1YF2f3/51wNcztc4v6qnZcgLVqQsw] => OBSTACLE at V2d(-9.83360666505302, 2.91447515945258) : [DXxxXc11GMaGHnTF1YF2f3/51wNcztc4v6qnZcgLVqQsw]
+    trait : trait : [no copper]
+      net-group : []
+      hole-inset : 0.0
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-9.83360666505302, 2.91447515945258), radius = 0.4955)
+    local-shape : Disk(center = V2d(-2.54, 0.0), radius = 0.4955)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [DXxxXc11GMaGHnTF1YF2f3]
+  id : [8gZnRd8Cb2X7FzBJcjKiwN/17B455oY9MqwkEnEjiJHN3] => VIA at V2d(11.8544755986441, 1.08490295036776) : [8gZnRd8Cb2X7FzBJcjKiwN/17B455oY9MqwkEnEjiJHN3]
+    trait : trait :
+      net-group : [72171]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(11.8544755986441, 1.08490295036776), radius = 0.125)
+    local-shape : Disk(center = V2d(0.75, 0.17), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [8gZnRd8Cb2X7FzBJcjKiwN]
+  id : [5vtR75BZWkWGZ8CiqMSp3w/Ah71qTzPvxJkr9ugdK1euk] => VIA at V2d(-6.32642588470327, 3.09050874257073) : [5vtR75BZWkWGZ8CiqMSp3w/Ah71qTzPvxJkr9ugdK1euk]
+    trait : trait :
+      net-group : [72141]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-6.32642588470327, 3.09050874257073), radius = 0.2)
+    local-shape : Disk(center = V2d(0.533916597925598, -0.23645878482777), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [5vtR75BZWkWGZ8CiqMSp3w]
+  id : [FinPpnUzaoQQjvsjdctnp1/4Er56WDLc62PuQN3gQ6WQW] => VIA at V2d(4.66256788876175, -7.66883638387173) : [FinPpnUzaoQQjvsjdctnp1/4Er56WDLc62PuQN3gQ6WQW]
+    trait : trait :
+      net-group : [72096]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(4.66256788876175, -7.66883638387173), radius = 0.125)
+    local-shape : Disk(center = V2d(0.0, -0.2), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [FinPpnUzaoQQjvsjdctnp1]
+  id : [7hk7sc8Q6fzZ8XzmMiUS5M/DCEQXK45RmsXT8QTVwE2vR] => VIA at V2d(-7.14577011779471, -9.00233393995507) : [7hk7sc8Q6fzZ8XzmMiUS5M/DCEQXK45RmsXT8QTVwE2vR]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-7.14577011779471, -9.00233393995507), radius = 0.2)
+    local-shape : Disk(center = V2d(-4.02273353209441, 0.817138985695186), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7hk7sc8Q6fzZ8XzmMiUS5M]
+  id : [/1111111111X4f88yCv] => OBSTACLE at V2d(13.75, 5.125) : [/1111111111X4f88yCv]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.75, 5.125), V2d(13.75, 6.21875))
+    local-shape : Segment(V2d(13.75, 5.125), V2d(13.75, 6.21875))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [/1111111111X8W7hofj] => OBSTACLE at V2d(-13.75, -7.125) : [/1111111111X8W7hofj]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-13.75, -7.125), V2d(-13.75, -8.3125))
+    local-shape : Segment(V2d(-13.75, -7.125), V2d(-13.75, -8.3125))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [F1P9sLfUJXXSMvevxq52FN/CL2KjVx4rYTSXNRWuAW19P] => VIA at V2d(-2.64233520428917, -6.96758584718827) : [F1P9sLfUJXXSMvevxq52FN/CL2KjVx4rYTSXNRWuAW19P]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-2.64233520428917, -6.96758584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(2.3225, 2.6825), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111X2tHEdY1] => BOUNDS at V2d(-15.75, -11.5) : [/1111111111X2tHEdY1]
+    trait : trait : [no copper]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : false
+    shape : Segment(V2d(-15.75, -11.5), V2d(-15.75, 11.5))
+    local-shape : Segment(V2d(-15.75, -11.5), V2d(-15.75, 11.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [Bkdsb5yH2HtXHhfP5Gnmjo/Bx1suGqVxTMAPRTpC4fgtT] => VIA at V2d(4.35434303974333, -3.61693385773458) : [Bkdsb5yH2HtXHhfP5Gnmjo/Bx1suGqVxTMAPRTpC4fgtT]
+    trait : trait :
+      net-group : [72093]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(4.35434303974333, -3.61693385773458), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.819934957417679, -1.74630245878418), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [Bkdsb5yH2HtXHhfP5Gnmjo]
+  id : [FinPpnUzaoQQjvsjdctnp1/DYpQ9ebAgpnoDymNiVX5WN] => VIA at V2d(4.66873681722388, -6.86937078847962) : [FinPpnUzaoQQjvsjdctnp1/DYpQ9ebAgpnoDymNiVX5WN]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(4.66873681722388, -6.86937078847962), radius = 0.2)
+    local-shape : Disk(center = V2d(0.00616892846212647, 0.599465595392108), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [FinPpnUzaoQQjvsjdctnp1]
+  id : [3HXkBAHTNULm45sZfhwZ5m/2pWLPuqH6CGkqukZ3Qjcrs] => VIA at V2d(0.694742989829406, 2.58417019799237) : [3HXkBAHTNULm45sZfhwZ5m/2pWLPuqH6CGkqukZ3Qjcrs]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(0.694742989829406, 2.58417019799237), radius = 0.2)
+    local-shape : Disk(center = V2d(0.394400757782913, 0.741667041849706), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [3HXkBAHTNULm45sZfhwZ5m]
+  id : [F1P9sLfUJXXSMvevxq52FN/D2b1P15pAhenJjjAQPjg3Z] => VIA at V2d(0.80516479571083, -2.71008584718827) : [F1P9sLfUJXXSMvevxq52FN/D2b1P15pAhenJjjAQPjg3Z]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(0.80516479571083, -2.71008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(-1.125, -1.575), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [7moLqAbuekQe6TpRwzoTMu/9F9ftCfDv9NeGpwBuy39oX] => VIA at V2d(9.66510626344705, 1.08417275260514) : [7moLqAbuekQe6TpRwzoTMu/9F9ftCfDv9NeGpwBuy39oX]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(9.66510626344705, 1.08417275260514), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.0183712895030228, 0.658614112794489), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7moLqAbuekQe6TpRwzoTMu]
+  id : [C1dUGNQ2HKgwiCR6fqkqoE/Er1wCVNatWTaRo9JBsFnBg] => VIA at V2d(13.315998112217, 8.21932033777121) : [C1dUGNQ2HKgwiCR6fqkqoE/Er1wCVNatWTaRo9JBsFnBg]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.315998112217, 8.21932033777121), radius = 0.2)
+    local-shape : Disk(center = V2d(-4.29468366302446, 0.271721844241491), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [C1dUGNQ2HKgwiCR6fqkqoE]
+  id : [F1P9sLfUJXXSMvevxq52FN/5SkJ9Dqqnrom1GG89D74Ud] => VIA at V2d(-0.0948352042891695, -4.51008584718828) : [F1P9sLfUJXXSMvevxq52FN/5SkJ9Dqqnrom1GG89D74Ud]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-0.0948352042891695, -4.51008584718828), radius = 0.125)
+    local-shape : Disk(center = V2d(-0.225, 0.225000000000001), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [F1P9sLfUJXXSMvevxq52FN/CdjYQiqRvdskDWx2piYpZi] => VIA at V2d(2.90555013257352, -4.1188910847837) : [F1P9sLfUJXXSMvevxq52FN/CdjYQiqRvdskDWx2piYpZi]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(2.90555013257352, -4.1188910847837), radius = 0.2)
+    local-shape : Disk(center = V2d(-3.22538533686269, -0.166194762404577), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [F1P9sLfUJXXSMvevxq52FN/BTbj4LyAUoxLL2TFjiYJN7] => VIA at V2d(-1.44483520428917, -4.06008584718827) : [F1P9sLfUJXXSMvevxq52FN/BTbj4LyAUoxLL2TFjiYJN7]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-1.44483520428917, -4.06008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(1.125, -0.225000000000001), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [A4AgD9AzJ2nRBHW9y6299T/3t31zGEAHFiwRzggMYnHYt] => VIA at V2d(6.66323553430746, 6.30031271445651) : [A4AgD9AzJ2nRBHW9y6299T/3t31zGEAHFiwRzggMYnHYt]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(6.66323553430746, 6.30031271445651), radius = 0.125)
+    local-shape : Disk(center = V2d(0.200000000000001, -0.8), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [A4AgD9AzJ2nRBHW9y6299T]
+  id : [FinPpnUzaoQQjvsjdctnp1/4W9fFEnq7Ysd6qZNWtLMd7] => VIA at V2d(5.01256788876175, -7.86883638387173) : [FinPpnUzaoQQjvsjdctnp1/4W9fFEnq7Ysd6qZNWtLMd7]
+    trait : trait :
+      net-group : [72092]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(5.01256788876175, -7.86883638387173), radius = 0.125)
+    local-shape : Disk(center = V2d(0.35, -0.4), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [FinPpnUzaoQQjvsjdctnp1]
+  id : [DXxxXc11GMaGHnTF1YF2f3/B91kMhNVHBsZ5esJtWqURC] => VIA at V2d(-8.40040500783345, 6.73514758922009) : [DXxxXc11GMaGHnTF1YF2f3/B91kMhNVHBsZ5esJtWqURC]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-8.40040500783345, 6.73514758922009), radius = 0.2)
+    local-shape : Disk(center = V2d(1.2806724297675, 1.43320165721957), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [DXxxXc11GMaGHnTF1YF2f3]
+  id : [8gZnRd8Cb2X7FzBJcjKiwN/13irYS6WsRtWLbGfDtriXC] => VIA at V2d(12.7052824324955, 1.34603966043023) : [8gZnRd8Cb2X7FzBJcjKiwN/13irYS6WsRtWLbGfDtriXC]
+    trait : trait :
+      net-group : [72141]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(12.7052824324955, 1.34603966043023), radius = 0.2)
+    local-shape : Disk(center = V2d(0.48886328993753, 1.02080683385141), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [8gZnRd8Cb2X7FzBJcjKiwN]
+  id : [94VNEw5PraYSGbbDtKsPoy/5c8GVvr5RCG9VBqjLSR3RQ] => VIA at V2d(-1.16855024490441, 1.18426912786282) : [94VNEw5PraYSGbbDtKsPoy/5c8GVvr5RCG9VBqjLSR3RQ]
+    trait : trait :
+      net-group : [72160]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-1.16855024490441, 1.18426912786282), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.615500285037329, -0.569706904582864), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [94VNEw5PraYSGbbDtKsPoy]
+  id : [7hk7sc8Q6fzZ8XzmMiUS5M/FwzSNbMgJFsM2Ej7cwja76] => VIA at V2d(-6.11239847887328, -9.0000210620104) : [7hk7sc8Q6fzZ8XzmMiUS5M/FwzSNbMgJFsM2Ej7cwja76]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-6.11239847887328, -9.0000210620104), radius = 0.2)
+    local-shape : Disk(center = V2d(-5.05610517101584, 0.814826107750518), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7hk7sc8Q6fzZ8XzmMiUS5M]
+  id : [7Kp2x9kdAtzt3zYzXnStUw/FYhBSZu6kXcpop3Jy8DxNq] => VIA at V2d(-13.2532243208947, -0.942512178463446) : [7Kp2x9kdAtzt3zYzXnStUw/FYhBSZu6kXcpop3Jy8DxNq]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.2532243208947, -0.942512178463446), radius = 0.2)
+    local-shape : Disk(center = V2d(-2.19251217846345, 1.55322432089467), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [/1111111111X3zCY6nN] => OBSTACLE at V2d(13.75, -1.4375) : [/1111111111X3zCY6nN]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.75, -1.4375), V2d(13.75, -0.343749999999999))
+    local-shape : Segment(V2d(13.75, -1.4375), V2d(13.75, -0.343749999999999))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [C1dUGNQ2HKgwiCR6fqkqoE/2Ff4TMVQb7yWXx8TbUei4u] => VIA at V2d(13.334748112217, 8.74432033777121) : [C1dUGNQ2HKgwiCR6fqkqoE/2Ff4TMVQb7yWXx8TbUei4u]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.334748112217, 8.74432033777121), radius = 0.2)
+    local-shape : Disk(center = V2d(-4.81968366302446, 0.290471844241489), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [C1dUGNQ2HKgwiCR6fqkqoE]
+  id : [/1111111111X9zUjdA3] => OBSTACLE at V2d(4.296875, -9.5) : [/1111111111X9zUjdA3]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(4.296875, -9.5), V2d(5.9375, -9.5))
+    local-shape : Segment(V2d(4.296875, -9.5), V2d(5.9375, -9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [A4AgD9AzJ2nRBHW9y6299T/CyeqdSjysmxeUnteEtusoy] => VIA at V2d(5.89513176815949, 6.9910190177838) : [A4AgD9AzJ2nRBHW9y6299T/CyeqdSjysmxeUnteEtusoy]
+    trait : trait :
+      net-group : [72140]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(5.89513176815949, 6.9910190177838), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.490706303327291, -1.56810376614797), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [A4AgD9AzJ2nRBHW9y6299T]
+  id : [/1111111111X6FkBz4N] => OBSTACLE at V2d(-3.4375, 9.5) : [/1111111111X6FkBz4N]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-3.4375, 9.5), V2d(-5.15625, 9.5))
+    local-shape : Segment(V2d(-3.4375, 9.5), V2d(-5.15625, 9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [F1P9sLfUJXXSMvevxq52FN/7Yv9kVVXhizKiVtuUJkqy7] => VIA at V2d(-0.54483520428917, -4.06008584718827) : [F1P9sLfUJXXSMvevxq52FN/7Yv9kVVXhizKiVtuUJkqy7]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-0.54483520428917, -4.06008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(0.225, -0.225000000000001), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111XAtHMgx5] => OBSTACLE at V2d(12.5681483474219, -8.61401440738235) : [/1111111111XAtHMgx5]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(12.5681483474219, -8.61401440738235), V2d(12.6998008450093, -8.38598559261765))
+    local-shape : Segment(V2d(12.5681483474219, -8.61401440738235), V2d(12.6998008450093, -8.38598559261765))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [Bkdsb5yH2HtXHhfP5Gnmjo/CWxaBesXVoN5sKBdHo43q1] => VIA at V2d(6.99865469473511, -5.49835125874509) : [Bkdsb5yH2HtXHhfP5Gnmjo/CWxaBesXVoN5sKBdHo43q1]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(6.99865469473511, -5.49835125874509), radius = 0.2)
+    local-shape : Disk(center = V2d(1.06148244359283, 0.898009196207601), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [Bkdsb5yH2HtXHhfP5Gnmjo]
+  id : [6HKsGtiqajrMnb1JFcCFGk/Ch27SHUFRur8Zhju9eMy5p] => VIA at V2d(-8.72626169669953, -0.610381752212052) : [6HKsGtiqajrMnb1JFcCFGk/Ch27SHUFRur8Zhju9eMy5p]
+    trait : trait :
+      net-group : [72128]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-8.72626169669953, -0.610381752212052), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.511269293963321, -0.431226112985705), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [6HKsGtiqajrMnb1JFcCFGk]
+  id : [/1111111111X8B7KrNT] => OBSTACLE at V2d(-13.75, -3.5625) : [/1111111111X8B7KrNT]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-13.75, -3.5625), V2d(-13.75, -4.75))
+    local-shape : Segment(V2d(-13.75, -3.5625), V2d(-13.75, -4.75))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [GAzxAf9ycAYuPGE1qCFe9K/9gkDUoDMBqipivP7e99LMk] => VIA at V2d(3.95261159134381, -1.78987408877847) : [GAzxAf9ycAYuPGE1qCFe9K/9gkDUoDMBqipivP7e99LMk]
+    trait : trait :
+      net-group : [72169]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(3.95261159134381, -1.78987408877847), radius = 0.2)
+    local-shape : Disk(center = V2d(0.0297168267227279, -0.164230547760361), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [GAzxAf9ycAYuPGE1qCFe9K]
+  id : [F1P9sLfUJXXSMvevxq52FN/6Si9Ctqwq4DqkeZZeYJ4NS] => VIA at V2d(1.70516479571083, -2.71008584718827) : [F1P9sLfUJXXSMvevxq52FN/6Si9Ctqwq4DqkeZZeYJ4NS]
+    trait : trait :
+      net-group : [72128]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(1.70516479571083, -2.71008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(-2.025, -1.575), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111XBUE76f5] => OBSTACLE at V2d(13.5, -8.0) : [/1111111111XBUE76f5]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.5, -8.0), V2d(13.75, -8.0))
+    local-shape : Segment(V2d(13.5, -8.0), V2d(13.75, -8.0))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [F1P9sLfUJXXSMvevxq52FN/4uR8FLsDARzw4Cj5Mk3Wqw] => VIA at V2d(0.80516479571083, -3.16008584718827) : [F1P9sLfUJXXSMvevxq52FN/4uR8FLsDARzw4Cj5Mk3Wqw]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(0.80516479571083, -3.16008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(-1.125, -1.125), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [CFrMkS9wiHE6xZVzBvv5eW/4qnM3vJJwGXjUz12vmdzxb] => VIA at V2d(1.88290671780645, 3.07772414251119) : [CFrMkS9wiHE6xZVzBvv5eW/4qnM3vJJwGXjUz12vmdzxb]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(1.88290671780645, 3.07772414251119), radius = 0.2)
+    local-shape : Disk(center = V2d(0.4275001, 0.23396435708326), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [CFrMkS9wiHE6xZVzBvv5eW]
+  id : [F1P9sLfUJXXSMvevxq52FN/8iaeL4cgcmr6xCUjS4dTZL] => VIA at V2d(-2.34483520428917, -4.96008584718827) : [F1P9sLfUJXXSMvevxq52FN/8iaeL4cgcmr6xCUjS4dTZL]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-2.34483520428917, -4.96008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(2.025, 0.675), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [A3Azc5QG2J2WkFD2K3xoUW/7K679mSUnubbBWPHgvN8n4] => VIA at V2d(-5.1656322254909, 2.3673199177346) : [A3Azc5QG2J2WkFD2K3xoUW/7K679mSUnubbBWPHgvN8n4]
+    trait : trait :
+      net-group : [72138]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-5.1656322254909, 2.3673199177346), radius = 0.2)
+    local-shape : Disk(center = V2d(0.19519803817402, -1.16248114627212), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [A3Azc5QG2J2WkFD2K3xoUW]
+  id : [7hk7sc8Q6fzZ8XzmMiUS5M/33954MB6RmeUk4BxNrR5K7] => REGION at V2d(-11.1684861498891, -6.13519495425988) : [7hk7sc8Q6fzZ8XzmMiUS5M/33954MB6RmeUk4BxNrR5K7]
+    trait : trait : [no copper]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : false
+    shape : Polygon([
+      V2d(-13.1685036498891, -3.13519495425988), 
+      V2d(-13.1685036498891, -9.13519495425988), 
+      V2d(-9.16850364988912, -9.13519495425988), 
+      V2d(-9.16843364988912, -3.13519495425988)])
+    local-shape : Polygon([
+      V2d(2.0, -5.05), 
+      V2d(2.0, 0.95), 
+      V2d(-2.0, 0.95), 
+      V2d(-2.00007, -5.05)])
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7hk7sc8Q6fzZ8XzmMiUS5M]
+  id : [BUL6JmbRyqBANBMtPpoW2o/7Jra7oVnE5ueU61UiFEvnW] => VIA at V2d(4.37520020565386, 5.62785063025101) : [BUL6JmbRyqBANBMtPpoW2o/7Jra7oVnE5ueU61UiFEvnW]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(4.37520020565386, 5.62785063025101), radius = 0.2)
+    local-shape : Disk(center = V2d(0.264716096799395, -0.586176170270925), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [BUL6JmbRyqBANBMtPpoW2o]
+  id : [F1P9sLfUJXXSMvevxq52FN/2jJJVXzzVfEWFWhVCgHj5Q] => VIA at V2d(-3.09233520428917, -6.96758584718827) : [F1P9sLfUJXXSMvevxq52FN/2jJJVXzzVfEWFWhVCgHj5Q]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-3.09233520428917, -6.96758584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(2.7725, 2.6825), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111X3RHMUJ4] => OBSTACLE at V2d(13.75, -6.90625) : [/1111111111X3RHMUJ4]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.75, -6.90625), V2d(13.75, -5.8125))
+    local-shape : Segment(V2d(13.75, -6.90625), V2d(13.75, -5.8125))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [/1111111111X53dV3X3] => OBSTACLE at V2d(13.75, 8.40625) : [/1111111111X53dV3X3]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.75, 8.40625), V2d(13.75, 9.5))
+    local-shape : Segment(V2d(13.75, 8.40625), V2d(13.75, 9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [/1111111111XB7JNcRK] => OBSTACLE at V2d(12.8859855926176, -8.19980084500926) : [/1111111111XB7JNcRK]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(12.8859855926176, -8.19980084500926), V2d(13.1140144073824, -8.06814834742186))
+    local-shape : Segment(V2d(12.8859855926176, -8.19980084500926), V2d(13.1140144073824, -8.06814834742186))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [/1111111111X9ZEJR7M] => OBSTACLE at V2d(-2.265625, -9.5) : [/1111111111X9ZEJR7M]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-2.265625, -9.5), V2d(-0.625, -9.5))
+    local-shape : Segment(V2d(-2.265625, -9.5), V2d(-0.625, -9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [A7E7JQGJi76Q379kmQsfXo/BBAdxH8XmySMXYwMeRf2NS] => VIA at V2d(-0.464555742922876, -0.369074722631971) : [A7E7JQGJi76Q379kmQsfXo/BBAdxH8XmySMXYwMeRf2NS]
+    trait : trait :
+      net-group : [72095]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-0.464555742922876, -0.369074722631971), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.233004907559733, -0.554395066737944), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [A7E7JQGJi76Q379kmQsfXo]
+  id : [DXxxXc11GMaGHnTF1YF2f3/3wuQmJhpmHanDWBqsy9sKm] => OBSTACLE at V2d(-8.81760666505302, 7.99447515945258) : [DXxxXc11GMaGHnTF1YF2f3/3wuQmJhpmHanDWBqsy9sKm]
+    trait : trait : [no copper]
+      net-group : []
+      hole-inset : 0.0
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-8.81760666505302, 7.99447515945258), radius = 0.4955)
+    local-shape : Disk(center = V2d(2.54, 1.016), radius = 0.4955)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [DXxxXc11GMaGHnTF1YF2f3]
+  id : [/1111111111X6vbq6hn] => OBSTACLE at V2d(-13.75, 9.5) : [/1111111111X6vbq6hn]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-13.75, 9.5), V2d(-13.75, 8.3125))
+    local-shape : Segment(V2d(-13.75, 9.5), V2d(-13.75, 8.3125))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [BFm46vTbqDZxYp3mLsXYYq/6CfPzTS98UABi65GP2veWE] => VIA at V2d(-4.25418878739698, 2.91562109990861) : [BFm46vTbqDZxYp3mLsXYYq/6CfPzTS98UABi65GP2veWE]
+    trait : trait :
+      net-group : [72141]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-4.25418878739698, 2.91562109990861), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.00906627531860194, -0.641294786580896), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [BFm46vTbqDZxYp3mLsXYYq]
+  id : [/1111111111X4EfQoZt] => OBSTACLE at V2d(13.75, 0.75) : [/1111111111X4EfQoZt]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.75, 0.75), V2d(13.75, 1.84375))
+    local-shape : Segment(V2d(13.75, 0.75), V2d(13.75, 1.84375))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [7hk7sc8Q6fzZ8XzmMiUS5M/89ZF1HBMSsdbAwWnd5ga4F] => VIA at V2d(-5.08096905824381, -9.02268984048577) : [7hk7sc8Q6fzZ8XzmMiUS5M/89ZF1HBMSsdbAwWnd5ga4F]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-5.08096905824381, -9.02268984048577), radius = 0.2)
+    local-shape : Disk(center = V2d(-6.08753459164531, 0.83749488622589), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7hk7sc8Q6fzZ8XzmMiUS5M]
+  id : [F1P9sLfUJXXSMvevxq52FN/A6wYHRuKD1MXuRT96Sn9GC] => VIA at V2d(0.0701732127314371, -0.951199737490723) : [F1P9sLfUJXXSMvevxq52FN/A6wYHRuKD1MXuRT96Sn9GC]
+    trait : trait :
+      net-group : [72088]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(0.0701732127314371, -0.951199737490723), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.390008417020607, -3.33388610969755), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [DXxxXc11GMaGHnTF1YF2f3/97qBi5Fvn5oRZcEPyrrqLw] => OBSTACLE at V2d(-10.849606665053, 7.99447515945258) : [DXxxXc11GMaGHnTF1YF2f3/97qBi5Fvn5oRZcEPyrrqLw]
+    trait : trait : [no copper]
+      net-group : []
+      hole-inset : 0.0
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-10.849606665053, 7.99447515945258), radius = 0.4955)
+    local-shape : Disk(center = V2d(2.54, -1.016), radius = 0.4955)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [DXxxXc11GMaGHnTF1YF2f3]
+  id : [BR44ZunFMD3NjTnDNSCPp5/AVkJNhzgXo1hwzo5q9o2Br] => VIA at V2d(6.21954899701051, 3.83249062813812) : [BR44ZunFMD3NjTnDNSCPp5/AVkJNhzgXo1hwzo5q9o2Br]
+    trait : trait :
+      net-group : [72151]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(6.21954899701051, 3.83249062813812), radius = 0.2)
+    local-shape : Disk(center = V2d(1.24268646988025, 0.854149133142064), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [BR44ZunFMD3NjTnDNSCPp5]
+  id : [F1P9sLfUJXXSMvevxq52FN/2f51Kvryq6aqryJFEacdui] => VIA at V2d(-0.54483520428917, -3.16008584718827) : [F1P9sLfUJXXSMvevxq52FN/2f51Kvryq6aqryJFEacdui]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-0.54483520428917, -3.16008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(0.225, -1.125), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [6HKsGtiqajrMnb1JFcCFGk/F2x7zH5Xj4rkVXosRWThWo] => VIA at V2d(-7.17163035372049, 0.499107697188495) : [6HKsGtiqajrMnb1JFcCFGk/F2x7zH5Xj4rkVXosRWThWo]
+    trait : trait :
+      net-group : [72082]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-7.17163035372049, 0.499107697188495), radius = 0.2)
+    local-shape : Disk(center = V2d(-1.62075874336387, 1.12340522999333), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [6HKsGtiqajrMnb1JFcCFGk]
+  id : [A4AgD9AzJ2nRBHW9y6299T/FqM3twJXgUCkDciBGS3td1] => VIA at V2d(6.67013176815949, 7.7175815177838) : [A4AgD9AzJ2nRBHW9y6299T/FqM3twJXgUCkDciBGS3td1]
+    trait : trait :
+      net-group : [72163]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(6.67013176815949, 7.7175815177838), radius = 0.2)
+    local-shape : Disk(center = V2d(-1.21726880332729, -0.79310376614797), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [A4AgD9AzJ2nRBHW9y6299T]
+  id : [A2u7NdnDnE6XFt3TyNKLHp/GLjq7SAYZaayUnj9h11Tpx] => VIA at V2d(-5.60904659754265, -4.65604041724435) : [A2u7NdnDnE6XFt3TyNKLHp/GLjq7SAYZaayUnj9h11Tpx]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-5.60904659754265, -4.65604041724435), radius = 0.2)
+    local-shape : Disk(center = V2d(0.121499900000015, -0.365072460065591), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [A2u7NdnDnE6XFt3TyNKLHp]
+  id : [8gZnRd8Cb2X7FzBJcjKiwN/77Gw91fh4gedzYQpkt6RZt] => VIA at V2d(11.1744755986441, 1.58490295036776) : [8gZnRd8Cb2X7FzBJcjKiwN/77Gw91fh4gedzYQpkt6RZt]
+    trait : trait :
+      net-group : [72095]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(11.1744755986441, 1.58490295036776), radius = 0.125)
+    local-shape : Disk(center = V2d(0.25, -0.51), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [8gZnRd8Cb2X7FzBJcjKiwN]
+  id : [F1P9sLfUJXXSMvevxq52FN/G49vTYbA3sC1JETfrBx9LL] => VIA at V2d(-2.79483520428917, -4.96008584718827) : [F1P9sLfUJXXSMvevxq52FN/G49vTYbA3sC1JETfrBx9LL]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-2.79483520428917, -4.96008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(2.475, 0.675), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [C1dUGNQ2HKgwiCR6fqkqoE/Dwjv6aaKiXpVsNx8iibC9M] => VIA at V2d(13.272248112217, 5.54432033777121) : [C1dUGNQ2HKgwiCR6fqkqoE/Dwjv6aaKiXpVsNx8iibC9M]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.272248112217, 5.54432033777121), radius = 0.2)
+    local-shape : Disk(center = V2d(-1.61968366302446, 0.22797184424149), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [C1dUGNQ2HKgwiCR6fqkqoE]
+  id : [F1P9sLfUJXXSMvevxq52FN/9c7hsTLSRueRUiMJASquMh] => VIA at V2d(-0.994835204289169, -6.76008584718828) : [F1P9sLfUJXXSMvevxq52FN/9c7hsTLSRueRUiMJASquMh]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-0.994835204289169, -6.76008584718828), radius = 0.125)
+    local-shape : Disk(center = V2d(0.674999999999999, 2.475), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [A3Azc5QG2J2WkFD2K3xoUW/34NVfqihadJSkfS5RbmvKu] => VIA at V2d(-7.43384020658461, 1.1938623671111) : [A3Azc5QG2J2WkFD2K3xoUW/34NVfqihadJSkfS5RbmvKu]
+    trait : trait :
+      net-group : [72154]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-7.43384020658461, 1.1938623671111), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.978259512449476, 1.10572683482159), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [A3Azc5QG2J2WkFD2K3xoUW]
+  id : [/1111111111X9HgsW3C] => OBSTACLE at V2d(-5.546875, -9.5) : [/1111111111X9HgsW3C]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-5.546875, -9.5), V2d(-3.90625, -9.5))
+    local-shape : Segment(V2d(-5.546875, -9.5), V2d(-3.90625, -9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [2zxrKzTNy4B5gHXvjAsLU4/BpnczCmauXvT8NX7r69yap] => VIA at V2d(13.2119113605877, -3.78476585301818) : [2zxrKzTNy4B5gHXvjAsLU4/BpnczCmauXvT8NX7r69yap]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.2119113605877, -3.78476585301818), radius = 0.2)
+    local-shape : Disk(center = V2d(2.39266348745154, 0.407206265371818), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [2zxrKzTNy4B5gHXvjAsLU4]
+  id : [6p2ocdEtJ8ctriHDmNrKsp/7HZPpyL3XHdLgXBdddeVSM] => VIA at V2d(10.0755706968094, 2.8915292090503) : [6p2ocdEtJ8ctriHDmNrKsp/7HZPpyL3XHdLgXBdddeVSM]
+    trait : trait :
+      net-group : [72093]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(10.0755706968094, 2.8915292090503), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.46772876620327, -0.240596516509163), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [6p2ocdEtJ8ctriHDmNrKsp]
+  id : [C1dUGNQ2HKgwiCR6fqkqoE/5794ifGAcCQwWtdivWPRaf] => VIA at V2d(13.278498112217, 5.01307033777121) : [C1dUGNQ2HKgwiCR6fqkqoE/5794ifGAcCQwWtdivWPRaf]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.278498112217, 5.01307033777121), radius = 0.2)
+    local-shape : Disk(center = V2d(-1.08843366302446, 0.234221844241492), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [C1dUGNQ2HKgwiCR6fqkqoE]
+  id : [BFm46vTbqDZxYp3mLsXYYq/81DkCEPie8neu9kiJ2nytJ] => VIA at V2d(-5.52301826513844, 3.25411805969031) : [BFm46vTbqDZxYp3mLsXYYq/81DkCEPie8neu9kiJ2nytJ]
+    trait : trait :
+      net-group : [72149]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-5.52301826513844, 3.25411805969031), radius = 0.2)
+    local-shape : Disk(center = V2d(0.329430684463098, 0.627534691160566), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [BFm46vTbqDZxYp3mLsXYYq]
+  id : [F1P9sLfUJXXSMvevxq52FN/7nmSvcLZBg4wKh8VzzfGeS] => VIA at V2d(0.80516479571083, -3.61008584718827) : [F1P9sLfUJXXSMvevxq52FN/7nmSvcLZBg4wKh8VzzfGeS]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(0.80516479571083, -3.61008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(-1.125, -0.675), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111X7xJYksE] => OBSTACLE at V2d(-13.75, -1.1875) : [/1111111111X7xJYksE]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-13.75, -1.1875), V2d(-13.75, -2.375))
+    local-shape : Segment(V2d(-13.75, -1.1875), V2d(-13.75, -2.375))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [7Kp2x9kdAtzt3zYzXnStUw/CJnYagxEEpXATv3iSRxV2N] => VIA at V2d(-13.2469743206463, -1.46751219932507) : [7Kp2x9kdAtzt3zYzXnStUw/CJnYagxEEpXATv3iSRxV2N]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.2469743206463, -1.46751219932507), radius = 0.2)
+    local-shape : Disk(center = V2d(-2.71751219932507, 1.54697432064631), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [/1111111111X5GpVGUn] => OBSTACLE at V2d(12.03125, 9.5) : [/1111111111X5GpVGUn]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(12.03125, 9.5), V2d(10.3125, 9.5))
+    local-shape : Segment(V2d(12.03125, 9.5), V2d(10.3125, 9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [F1P9sLfUJXXSMvevxq52FN/FzXPeEHo9LF8dfreuAq1bg] => VIA at V2d(-3.09233520428917, -5.61758584718828) : [F1P9sLfUJXXSMvevxq52FN/FzXPeEHo9LF8dfreuAq1bg]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-3.09233520428917, -5.61758584718828), radius = 0.125)
+    local-shape : Disk(center = V2d(2.7725, 1.3325), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [F1P9sLfUJXXSMvevxq52FN/FWad1M9GFW5fTggo34mYtf] => VIA at V2d(1.69143423452775, -5.86771697009515) : [F1P9sLfUJXXSMvevxq52FN/FWad1M9GFW5fTggo34mYtf]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(1.69143423452775, -5.86771697009515), radius = 0.125)
+    local-shape : Disk(center = V2d(-2.01126943881692, 1.58263112290687), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [F1P9sLfUJXXSMvevxq52FN/4PQP5XTR9s1EHH2aiYZzzn] => VIA at V2d(-0.99483520428917, -3.16008584718827) : [F1P9sLfUJXXSMvevxq52FN/4PQP5XTR9s1EHH2aiYZzzn]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-0.99483520428917, -3.16008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(0.675, -1.125), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [7hk7sc8Q6fzZ8XzmMiUS5M/FNXdRL666jmTwAKqAuwFMs] => VIA at V2d(-5.60235096317739, -9.00568825662924) : [7hk7sc8Q6fzZ8XzmMiUS5M/FNXdRL666jmTwAKqAuwFMs]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-5.60235096317739, -9.00568825662924), radius = 0.2)
+    local-shape : Disk(center = V2d(-5.56615268671173, 0.820493302369361), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7hk7sc8Q6fzZ8XzmMiUS5M]
+  id : [ALCcC4NqAPpAXZez4bfCiJ/Fg2LhyZArKGdzo2PXZXuyC] => VIA at V2d(4.35711345397223, 8.50508110938906) : [ALCcC4NqAPpAXZez4bfCiJ/Fg2LhyZArKGdzo2PXZXuyC]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(4.35711345397223, 8.50508110938906), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.00133544580094824, -0.843536638256236), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [ALCcC4NqAPpAXZez4bfCiJ]
+  id : [/1111111111X7kXAQj3] => OBSTACLE at V2d(-13.75, 1.1875) : [/1111111111X7kXAQj3]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-13.75, 1.1875), V2d(-13.75, 0.0))
+    local-shape : Segment(V2d(-13.75, 1.1875), V2d(-13.75, 0.0))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [8gZnRd8Cb2X7FzBJcjKiwN/8TT8Rpjefk2E9DTRtYW7LE] => VIA at V2d(12.1944755986441, 0.834902950367756) : [8gZnRd8Cb2X7FzBJcjKiwN/8TT8Rpjefk2E9DTRtYW7LE]
+    trait : trait :
+      net-group : [72077]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(12.1944755986441, 0.834902950367756), radius = 0.125)
+    local-shape : Disk(center = V2d(1.0, 0.51), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [8gZnRd8Cb2X7FzBJcjKiwN]
+  id : [F1P9sLfUJXXSMvevxq52FN/7TcYpEATxKxtXrruyYxxdY] => VIA at V2d(-0.0948352042891696, -3.61008584718827) : [F1P9sLfUJXXSMvevxq52FN/7TcYpEATxKxtXrruyYxxdY]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-0.0948352042891696, -3.61008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(-0.225, -0.675), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [2GsNjSksumtQT61RdtXJZa/33Kob44NSP1JkSYrE2o6RE] => VIA at V2d(-4.24634020658461, 1.8313623671111) : [2GsNjSksumtQT61RdtXJZa/33Kob44NSP1JkSYrE2o6RE]
+    trait : trait :
+      net-group : [72141]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-4.24634020658461, 1.8313623671111), radius = 0.2)
+    local-shape : Disk(center = V2d(0.00414883615437933, -0.640074080152027), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [2GsNjSksumtQT61RdtXJZa]
+  id : [6HKsGtiqajrMnb1JFcCFGk/7mSew3hRRavUnAe1fDQXSs] => VIA at V2d(-8.71517566036733, -1.11546990599754) : [6HKsGtiqajrMnb1JFcCFGk/7mSew3hRRavUnAe1fDQXSs]
+    trait : trait :
+      net-group : [72135]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-8.71517566036733, -1.11546990599754), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.00618114017783267, -0.420140076653508), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [6HKsGtiqajrMnb1JFcCFGk]
+  id : [A4AgD9AzJ2nRBHW9y6299T/DrUYkeSCaDMjj3ptoGrs4K] => VIA at V2d(6.56249651399819, 5.47110349171166) : [A4AgD9AzJ2nRBHW9y6299T/DrUYkeSCaDMjj3ptoGrs4K]
+    trait : trait :
+      net-group : [72142]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(6.56249651399819, 5.47110349171166), radius = 0.2)
+    local-shape : Disk(center = V2d(1.02920922274485, -0.900739020309271), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [A4AgD9AzJ2nRBHW9y6299T]
+  id : [F1P9sLfUJXXSMvevxq52FN/2xjigfFNJEmXdrQv8cgZ9n] => VIA at V2d(1.25516479571083, -3.16008584718827) : [F1P9sLfUJXXSMvevxq52FN/2xjigfFNJEmXdrQv8cgZ9n]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(1.25516479571083, -3.16008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(-1.575, -1.125), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [F1P9sLfUJXXSMvevxq52FN/6pEEpekW64d7gviegcQJvm] => VIA at V2d(1.25516479571083, -4.51008584718828) : [F1P9sLfUJXXSMvevxq52FN/6pEEpekW64d7gviegcQJvm]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(1.25516479571083, -4.51008584718828), radius = 0.125)
+    local-shape : Disk(center = V2d(-1.575, 0.225000000000001), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [6HKsGtiqajrMnb1JFcCFGk/21zZRkSsffjHVRDoq5viXA] => VIA at V2d(1.6153027311821, -8.77314832929462) : [6HKsGtiqajrMnb1JFcCFGk/21zZRkSsffjHVRDoq5viXA]
+    trait : trait :
+      net-group : [72136]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(1.6153027311821, -8.77314832929462), radius = 0.2)
+    local-shape : Disk(center = V2d(7.65149728311925, 9.91033831489593), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [6HKsGtiqajrMnb1JFcCFGk]
+  id : [FRTDevdX5F4aJ2kcP8idVN/9UpB16Kb4MYHkNcoMS5j5n] => VIA at V2d(0.705109674832937, 0.756422205459355) : [FRTDevdX5F4aJ2kcP8idVN/9UpB16Kb4MYHkNcoMS5j5n]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(0.705109674832937, 0.756422205459355), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.0132582521472479, 0.55128257435071), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [FRTDevdX5F4aJ2kcP8idVN]
+  id : [BoxJVQDokFs2S8avTkodvT/GhQeN3vVKps2EjsAbUqFe9] => VIA at V2d(-0.889906855786113, -0.833958761628438) : [BoxJVQDokFs2S8avTkodvT/GhQeN3vVKps2EjsAbUqFe9]
+    trait : trait :
+      net-group : [72158]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-0.889906855786113, -0.833958761628438), radius = 0.2)
+    local-shape : Disk(center = V2d(1.4485209849084, -0.866343325142678), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [BoxJVQDokFs2S8avTkodvT]
+  id : [F1P9sLfUJXXSMvevxq52FN/EP6W4i5HNsL795qwEk9hoZ] => VIA at V2d(-2.79483520428917, -4.06008584718827) : [F1P9sLfUJXXSMvevxq52FN/EP6W4i5HNsL795qwEk9hoZ]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-2.79483520428917, -4.06008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(2.475, -0.225000000000001), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111X8x99SnC] => OBSTACLE at V2d(-10.46875, -9.5) : [/1111111111X8x99SnC]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-10.46875, -9.5), V2d(-8.828125, -9.5))
+    local-shape : Segment(V2d(-10.46875, -9.5), V2d(-8.828125, -9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [F1P9sLfUJXXSMvevxq52FN/6CPPqN375SyX5yat3HFf1i] => VIA at V2d(-0.99483520428917, -2.26008584718827) : [F1P9sLfUJXXSMvevxq52FN/6CPPqN375SyX5yat3HFf1i]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-0.99483520428917, -2.26008584718827), radius = 0.125)
+    local-shape : Disk(center = V2d(0.675, -2.025), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [F1P9sLfUJXXSMvevxq52FN]
+  id : [/1111111111X4NPSrmB] => OBSTACLE at V2d(13.75, 1.84375) : [/1111111111X4NPSrmB]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(13.75, 1.84375), V2d(13.75, 2.9375))
+    local-shape : Segment(V2d(13.75, 1.84375), V2d(13.75, 2.9375))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [/1111111111X6oZQX6U] => OBSTACLE at V2d(-12.03125, 9.5) : [/1111111111X6oZQX6U]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-12.03125, 9.5), V2d(-13.75, 9.5))
+    local-shape : Segment(V2d(-12.03125, 9.5), V2d(-13.75, 9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [7Kp2x9kdAtzt3zYzXnStUw/GgXjd4jLY2v8ZkHUofes5g] => VIA at V2d(-13.2402485800931, 3.9053352293091) : [7Kp2x9kdAtzt3zYzXnStUw/GgXjd4jLY2v8ZkHUofes5g]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.2402485800931, 3.9053352293091), radius = 0.2)
+    local-shape : Disk(center = V2d(2.6553352293091, 1.54024858009312), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [/1111111111X5ZfcbiE] => OBSTACLE at V2d(6.875, 9.5) : [/1111111111X5ZfcbiE]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(6.875, 9.5), V2d(5.15625, 9.5))
+    local-shape : Segment(V2d(6.875, 9.5), V2d(5.15625, 9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [6HKsGtiqajrMnb1JFcCFGk/5t52eTc3NMDbB6zUzbYekH] => VIA at V2d(-9.78630190536571, -1.60146803859727) : [6HKsGtiqajrMnb1JFcCFGk/5t52eTc3NMDbB6zUzbYekH]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-9.78630190536571, -1.60146803859727), radius = 0.2)
+    local-shape : Disk(center = V2d(0.479816992421901, -1.49126632165188), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [6HKsGtiqajrMnb1JFcCFGk]
+  id : [A4AgD9AzJ2nRBHW9y6299T/CWBPrNKd5DGrK4XGntBi3Y] => VIA at V2d(9.1055478868768, 5.69427526081409) : [A4AgD9AzJ2nRBHW9y6299T/CWBPrNKd5DGrK4XGntBi3Y]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(9.1055478868768, 5.69427526081409), radius = 0.2)
+    local-shape : Disk(center = V2d(0.806037453642415, 1.64231235256933), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [A4AgD9AzJ2nRBHW9y6299T]
+  id : [3pC5XRFfGntJ8odwTDzGkf/AeMajD9arCT8QKtpAuRn75] => VIA at V2d(-3.00122468065115, 3.50310684370817) : [3pC5XRFfGntJ8odwTDzGkf/AeMajD9arCT8QKtpAuRn75]
+    trait : trait :
+      net-group : [72123]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-3.00122468065115, 3.50310684370817), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.645400246856271, 4.04147949642587), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [3pC5XRFfGntJ8odwTDzGkf]
+  id : [/1111111111XATvrcEY] => OBSTACLE at V2d(10.859375, -9.5) : [/1111111111XATvrcEY]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(10.859375, -9.5), V2d(12.5, -9.5))
+    local-shape : Segment(V2d(10.859375, -9.5), V2d(12.5, -9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false
+  id : [7Kp2x9kdAtzt3zYzXnStUw/7DUbtGzExv2D1fcSrTru75] => VIA at V2d(-13.2402485800931, 4.46158525141249) : [7Kp2x9kdAtzt3zYzXnStUw/7DUbtGzExv2D1fcSrTru75]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.2402485800931, 4.46158525141249), radius = 0.2)
+    local-shape : Disk(center = V2d(3.21158525141249, 1.54024858009312), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [3pC5XRFfGntJ8odwTDzGkf/F9waL5yP1yBi8qcr5EtX3n] => VIA at V2d(-1.03486858035941, 3.47033424203664) : [3pC5XRFfGntJ8odwTDzGkf/F9waL5yP1yBi8qcr5EtX3n]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-1.03486858035941, 3.47033424203664), radius = 0.2)
+    local-shape : Disk(center = V2d(1.32095585343547, 4.0742520980974), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [3pC5XRFfGntJ8odwTDzGkf]
+  id : [2zxrKzTNy4B5gHXvjAsLU4/2nKBSiCrHh1jzD1UR1SGVj] => VIA at V2d(13.2119113605877, -3.19256392377444) : [2zxrKzTNy4B5gHXvjAsLU4/2nKBSiCrHh1jzD1UR1SGVj]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(13.2119113605877, -3.19256392377444), radius = 0.2)
+    local-shape : Disk(center = V2d(1.8004615582078, 0.407206265371818), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [2zxrKzTNy4B5gHXvjAsLU4]
+  id : [7Kp2x9kdAtzt3zYzXnStUw/64TxQawnncCJKeYA6zkADA] => VIA at V2d(-13.259474321143, -0.423762157850174) : [7Kp2x9kdAtzt3zYzXnStUw/64TxQawnncCJKeYA6zkADA]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(-13.259474321143, -0.423762157850174), radius = 0.2)
+    local-shape : Disk(center = V2d(-1.67376215785017, 1.55947432114302), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [7Kp2x9kdAtzt3zYzXnStUw]
+  id : [8gZnRd8Cb2X7FzBJcjKiwN/BVD4XFLRKVdYNJKyr1TAgg] => VIA at V2d(11.8544755986441, 3.58490295036776) : [8gZnRd8Cb2X7FzBJcjKiwN/BVD4XFLRKVdYNJKyr1TAgg]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(11.8544755986441, 3.58490295036776), radius = 0.125)
+    local-shape : Disk(center = V2d(-1.75, 0.169999999999999), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [8gZnRd8Cb2X7FzBJcjKiwN]
+  id : [8gZnRd8Cb2X7FzBJcjKiwN/FXWyEa2rQ3YtKL4J8wnba9] => VIA at V2d(11.8544755986441, 0.584902950367756) : [8gZnRd8Cb2X7FzBJcjKiwN/FXWyEa2rQ3YtKL4J8wnba9]
+    trait : trait :
+      net-group : [72095]
+      hole-inset : 0.05
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(11.8544755986441, 0.584902950367756), radius = 0.125)
+    local-shape : Disk(center = V2d(1.25, 0.17), radius = 0.125)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [8gZnRd8Cb2X7FzBJcjKiwN]
+  id : [FQkoXjMW9mhR3tcP1RGPUK/CAreEFfbxT9CdYVTj4EexW] => VIA at V2d(4.07507296691859, 6.62935560596339) : [FQkoXjMW9mhR3tcP1RGPUK/CAreEFfbxT9CdYVTj4EexW]
+    trait : trait :
+      net-group : [72104]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(4.07507296691859, 6.62935560596339), radius = 0.2)
+    local-shape : Disk(center = V2d(-0.0695240911352153, -0.912882557638142), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [FQkoXjMW9mhR3tcP1RGPUK]
+  id : [A4AgD9AzJ2nRBHW9y6299T/CqkLDx8oeWRErF2bG1K9pg] => VIA at V2d(5.8763817681595, 5.6488315177838) : [A4AgD9AzJ2nRBHW9y6299T/CqkLDx8oeWRErF2bG1K9pg]
+    trait : trait :
+      net-group : []
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(5.8763817681595, 5.6488315177838), radius = 0.2)
+    local-shape : Disk(center = V2d(0.851481196672708, -1.58685376614797), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [A4AgD9AzJ2nRBHW9y6299T]
+  id : [FSgABi9pPsSZezWdFHSez5/3euSwonXtd6SEHFEShZZHP] => VIA at V2d(5.74559591162117, 7.65121986145184) : [FSgABi9pPsSZezWdFHSez5/3euSwonXtd6SEHFEShZZHP]
+    trait : trait :
+      net-group : [72129]
+      hole-inset : 0.1
+      soldermask-outset : false
+      edge : false
+    shape : Disk(center = V2d(5.74559591162117, 7.65121986145184), radius = 0.2)
+    local-shape : Disk(center = V2d(0.0873712189847229, 0.728829043022301), radius = 0.2)
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : [FSgABi9pPsSZezWdFHSez5]
+  id : [/1111111111X9dMqeP5] => OBSTACLE at V2d(-0.625, -9.5) : [/1111111111X9dMqeP5]
+    trait : trait : [no copper] [edge]
+      net-group : []
+      hole-inset : false
+      soldermask-outset : false
+      edge : true
+    shape : Segment(V2d(-0.625, -9.5), V2d(1.015625, -9.5))
+    local-shape : Segment(V2d(-0.625, -9.5), V2d(1.015625, -9.5))
+    layers : {0 1 2 3}
+    original-layers : [0 1 2 3]
+    instance : false

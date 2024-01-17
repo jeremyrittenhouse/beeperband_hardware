@@ -1,0 +1,44 @@
+SplitGroup(name = board-io, input = box layout input (320, 175) 0.8 :
+  box 1481280 from (-2, -1) to (2, 1):
+    port 1481279 at (2, 0) facing Right
+  box 1481553 from (-6, -3) to (6, 1):
+    port 1481549 at (-6, -3) facing Left
+    port 1481550 at (-6, 1) facing Left
+    port 1481551 at (6, -3) facing Right
+    port 1481552 at (6, 1) facing Right
+  box 1481362 from (-1, -2) to (1, 2):
+    port 1481360 at (0, 2) facing Up
+    port 1481361 at (0, -2) facing Down
+  box 1481365 from (-1, -2) to (1, 2):
+    port 1481363 at (0, 2) facing Up
+    port 1481364 at (0, -2) facing Down
+  box 1481605 from (-8, -9) to (8, 4):
+    port 1481601 at (8, 2) facing Right
+    port 1481602 at (-8, 2) facing Left
+    port 1481603 at (-8, -4) facing Left
+    port 1481604 at (8, -4) facing Right
+  box 1480910 from (-1, -2) to (1, 0):
+    port 1480909 at (0, 0) facing Up
+  inst 1481672 of box 1481365 (group board-io)
+  inst 1481671 of box 1481362 (group board-io)
+  inst 1481668 of box 1481280 (group board-io)
+  inst 1481667 of box 1481280 (group board-io)
+  inst 1481664 of box 1481605 (group board-io)
+  inst 1481656 of box 1481553 (group board-io)
+  inst 1481655 of box 1481553 (group board-io)
+  inst 1481654 of box 1481553 (group board-io)
+  net 1481978 SP_N (B1481668.P1481279) (labeled) 
+  net 1481974 VLED (B1481664.P1481601) (labeled) 
+  net 1481970 board-io.rgb.b (B1481664.P1481603) (labeled) 
+  net 1481966 SP_P (B1481667.P1481279) (labeled) 
+  net 1481960 mcu.mcu-button[2].gpio (B1481656.P1481549, B1481656.P1481550) (labeled) (require 1481838 mcu.mcu-button[2].gpio)
+  net 1481949 board-io.rgb.g (B1481664.P1481604) (labeled) 
+  net 1481943 mcu.q-spi.sck (B1481672.P1481364) (labeled) 
+  net 1481937 board-io.qsen-i3c.sda (B1481671.P1481360) (labeled) 
+  net 1481934 mcu.q-spi.sdo (B1481671.P1481361) (labeled) 
+  net 1481921 mcu.mcu-button[1].gpio (B1481655.P1481550, B1481655.P1481549) (labeled) (require 1481791 mcu.mcu-button[1].gpio)
+  net 1481912 mcu.mcu-button[0].gpio (B1481654.P1481550, B1481654.P1481549) (labeled) (require 1481780 mcu.mcu-button[0].gpio)
+  net 1481909 board-io.qsen-i3c.scl (B1481672.P1481363) (labeled) 
+  net 1481904 board-io.rgb.r (B1481664.P1481602) (labeled) 
+  net 1481880 GND (B1481656.P1481551, B1481655.P1481552, B1481654.P1481552, B1481654.P1481551, B1481655.P1481551, B1481656.P1481552) (symbol 1480910) 
+  order (), partial-nets = [PartialNet(1481824, [B1481664.P1481604], []) => 1481949 PartialNet(1481816, [B1481672.P1481364], []) => 1481943 PartialNet(1481739, [B1481654.P1481551 B1481654.P1481552 B1481655.P1481551 B1481655.P1481552 B1481656.P1481551 B1481656.P1481552], []) => 1481880 PartialNet(1481770, [B1481664.P1481602], []) => 1481904 PartialNet(1481808, [B1481671.P1481361], []) => 1481934 PartialNet(1481872, [B1481668.P1481279], []) => 1481978 PartialNet(1481775, [B1481672.P1481363], []) => 1481909 PartialNet(1481811, [B1481671.P1481360], []) => 1481937 PartialNet(1481858, [B1481664.P1481603], []) => 1481970 PartialNet(1481837, [B1481656.P1481549 B1481656.P1481550], [RequireMarker(id = 1481838, name = mcu.mcu-button[2].gpio)]) => 1481960 PartialNet(1481847, [B1481667.P1481279], []) => 1481966 PartialNet(1481790, [B1481655.P1481549 B1481655.P1481550], [RequireMarker(id = 1481791, name = mcu.mcu-button[1].gpio)]) => 1481921 PartialNet(1481779, [B1481654.P1481549 B1481654.P1481550], [RequireMarker(id = 1481780, name = mcu.mcu-button[0].gpio)]) => 1481912 PartialNet(1481869, [B1481664.P1481601], []) => 1481974])

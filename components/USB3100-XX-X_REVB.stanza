@@ -1,0 +1,145 @@
+#use-added-syntax(jitx)
+defpackage USB3100-XX-X_REVB :
+  import core
+  import collections
+  import jitx
+  import jitx/commands
+  import ocdb/utils/box-symbol
+
+
+pcb-pad rect-smd-pad-1 :
+  type = SMD
+  shape = Rectangle(0.400, 1.350)
+  ocdb/utils/landpatterns/apply-soldermask(0.102)
+  layer(Paste(Top)) = Rectangle(0.400, 1.350)
+  layer(SolderMask(Top)) = Rectangle(0.400, 1.350)
+
+pcb-pad rect-smd-pad-2 :
+  type = SMD
+  shape = Rectangle(1.400, 1.900)
+  ocdb/utils/landpatterns/apply-soldermask(0.102)
+  layer(Paste(Top)) = Rectangle(1.400, 1.900)
+  layer(SolderMask(Top)) = Rectangle(1.400, 1.900)
+
+pcb-pad rect-smd-pad-3 :
+  type = SMD
+  shape = Rectangle(1.600, 1.900)
+  ocdb/utils/landpatterns/apply-soldermask(0.102)
+  layer(Paste(Top)) = Rectangle(1.600, 1.900)
+  layer(SolderMask(Top)) = Rectangle(1.600, 1.900)
+
+public pcb-landpattern GCT_USB3100-XX-X_REVB-1 :
+  pad p[1] : rect-smd-pad-1 at loc(1.300, 2.675) on Top
+  pad p[2] : rect-smd-pad-1 at loc(0.650, 2.675) on Top
+  pad p[3] : rect-smd-pad-1 at loc(0.0, 2.675) on Top
+  pad p[4] : rect-smd-pad-1 at loc(-0.650, 2.675) on Top
+  pad p[5] : rect-smd-pad-1 at loc(-1.300, 2.675) on Top
+  pad p[6] : rect-smd-pad-2 at loc(-0.950, 0.0) on Top
+  pad p[7] : rect-smd-pad-2 at loc(0.950, 0.0) on Top
+  pad p[8] : rect-smd-pad-3 at loc(-4.200, 0.0) on Top
+  pad p[9] : rect-smd-pad-3 at loc(4.200, 0.0) on Top
+
+  layer(Courtyard(Top)) = Polygon([
+    Point(-5.250, 3.750)
+    Point(5.250, 3.750)
+    Point(5.250, -3.000)
+    Point(-5.250, -3.000)])
+  layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.601354, C, loc(1.271, 5.466), "", TrueTypeFont, false, false)
+  layer(CustomLayer("Fab", Top)) = Text(">VALUE", 1.600118, C, loc(17.527, -4.699), "", TrueTypeFont, false, false)
+  layer(CustomLayer("Fab", Top)) = Text("PCB Edge", 0.525955, C, loc(-7.635, -2.545), "", TrueTypeFont, false, false)
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.200, [Point(-3.700, 2.775), Point(-1.800, 2.775)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.200, [Point(-3.700, 1.200), Point(-3.700, 2.775)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.200, [Point(1.800, 2.775), Point(3.700, 2.775)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.200, [Point(3.700, 1.200), Point(3.700, 2.775)])
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.200, [
+    Arc(1.300, 3.800, 0.102, 0.0, 360.000)])
+  layer(Cutout()) = Line(0.102, [Point(-5.600, -1.450), Point(-2.800, -1.450)])
+  layer(Cutout()) = Line(0.102, [Point(-2.800, 0.430), Point(-1.950, 0.430)])
+  layer(Cutout()) = Line(0.102, [Point(-2.800, -1.450), Point(-2.800, 0.430)])
+  layer(Cutout()) = Line(0.102, [Point(-1.950, -1.450), Point(-1.950, 0.430)])
+  layer(Cutout()) = Line(0.102, [Point(-1.950, -1.450), Point(1.950, -1.450)])
+  layer(Cutout()) = Line(0.102, [Point(1.950, 0.430), Point(2.800, 0.430)])
+  layer(Cutout()) = Line(0.102, [Point(1.950, -1.450), Point(1.950, 0.430)])
+  layer(Cutout()) = Line(0.102, [Point(2.800, -1.450), Point(2.800, 0.430)])
+  layer(Cutout()) = Line(0.102, [Point(2.800, -1.450), Point(5.600, -1.450)])
+  layer(CustomLayer("Fab", Top)) = Line(0.102, [Point(-5.600, -1.450), Point(-2.800, -1.450)])
+  layer(CustomLayer("Fab", Top)) = Line(0.100, [Point(-3.700, 2.775), Point(3.700, 2.775)])
+  layer(CustomLayer("Fab", Top)) = Line(0.100, [Point(-3.700, -2.775), Point(-3.700, 2.775)])
+  layer(CustomLayer("Fab", Top)) = Line(0.100, [Point(-3.700, -2.775), Point(3.700, -2.775)])
+  layer(CustomLayer("Fab", Top)) = Line(0.102, [Point(-2.800, 0.430), Point(-1.950, 0.430)])
+  layer(CustomLayer("Fab", Top)) = Line(0.102, [Point(-2.800, -1.450), Point(-2.800, 0.430)])
+  layer(CustomLayer("Fab", Top)) = Line(0.102, [Point(-1.950, -1.450), Point(-1.950, 0.430)])
+  layer(CustomLayer("Fab", Top)) = Line(0.102, [Point(-1.950, -1.450), Point(1.950, -1.450)])
+  layer(CustomLayer("Fab", Top)) = Line(0.100, [Point(-0.508, 0.0), Point(0.508, 0.0)])
+  layer(CustomLayer("Fab", Top)) = Line(0.100, [Point(0.0, -0.508), Point(0.0, 0.508)])
+  layer(CustomLayer("Fab", Top)) = Line(0.102, [Point(1.950, 0.430), Point(2.800, 0.430)])
+  layer(CustomLayer("Fab", Top)) = Line(0.102, [Point(1.950, -1.450), Point(1.950, 0.430)])
+  layer(CustomLayer("Fab", Top)) = Line(0.102, [Point(2.800, -1.450), Point(2.800, 0.430)])
+  layer(CustomLayer("Fab", Top)) = Line(0.102, [Point(2.800, -1.450), Point(5.600, -1.450)])
+  layer(CustomLayer("Fab", Top)) = Line(0.100, [Point(3.700, -2.775), Point(3.700, 2.775)])
+
+  model3d = Model3D("3d-models/usb3100-30-a.stp",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 90.0))
+
+public pcb-symbol USB3100-XX-X_REVB :
+  pin VBUS at Point(-5.080, 7.620) with :
+    direction = Left
+    length = 5.080
+    number-size = 1.016
+    name-size = 1.016
+  pin D- at Point(-5.080, 5.080) with :
+    direction = Left
+    length = 5.080
+    number-size = 1.016
+    name-size = 1.016
+  pin D+ at Point(-5.080, 2.540) with :
+    direction = Left
+    length = 5.080
+    number-size = 1.016
+    name-size = 1.016
+  pin ID at Point(-5.080, 0.0) with :
+    direction = Left
+    length = 5.080
+    number-size = 1.016
+    name-size = 1.016
+  pin GND at Point(-5.080, -2.540) with :
+    direction = Left
+    length = 5.080
+    number-size = 1.016
+    name-size = 1.016
+  pin SHIELD at Point(-5.080, -7.620) with :
+    direction = Left
+    length = 5.080
+    number-size = 1.016
+    name-size = 1.016
+
+  layer("foreground") = Text(">REF", 1.27, C, loc(-5.087, 10.683), "", TrueTypeFont, false, false)
+  layer("foreground") = Text(">VALUE", 1.27, C, loc(-5.086, -12.716), "", TrueTypeFont, false, false)
+  layer("foreground") = Rectangle(10.160, 20.320)
+
+public pcb-component component :
+  description = "USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle"
+  datasheet = ""
+  reference-prefix = "J"
+  pin-properties :
+    [pin:Ref | pads:Ref ... | side:Dir | electrical-type:String]
+    [VBUS | p[1] | Left | "PowerIn"]
+    [D- | p[2] | Left | "Bidirectional"]
+    [D+ | p[3] | Left | "Bidirectional"]
+    [ID | p[4] | Left | "Bidirectional"]
+    [GND | p[5] | Left | "PowerIn"]
+    [SHIELD | p[9] p[8] p[7] p[6] | Left | "PowerIn"]
+
+  assign-landpattern(GCT_USB3100-XX-X_REVB-1)
+  assign-symbol(USB3100-XX-X_REVB)
+
+  property(self.Check_prices) = "https://www.snapeda.com/parts/USB3100-30-A/Global+Connector+Technology/view-part/?ref=eda"
+  property(self.DigiKey_Part_Number) = "2073-USB3100-30-ATR-ND"
+  property(self.MANUFACTURER) = "GCT"
+  property(self.MF) = "Global Connector Technology"
+  property(self.MP) = "USB3100-30-A"
+  property(self.Package) = "None"
+  property(self.SnapEDA_Link) = "https://www.snapeda.com/parts/USB3100-30-A/Global+Connector+Technology/view-part/?ref=snap"
+  property(self.Value) = "USB3100-XX-X_REVB"

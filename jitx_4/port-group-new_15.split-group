@@ -1,0 +1,36 @@
+SplitGroup(name = board-io.qsensor.module, input = box layout input (320, 175) 0.8 :
+  box 1481193 from (-1, -2) to (1, 2):
+    port 1481191 at (0, 2) facing Up
+    port 1481192 at (0, -2) facing Down
+  box 1480924 from (0, -1) to (2, 1):
+    port 1480923 at (0, 0) facing Left
+  box 1481548 from (-11, -16) to (11, 16):
+    port 1481534 at (-11, 1) facing Left
+    port 1481535 at (-11, -1) facing Left
+    port 1481536 at (11, 8) facing Right
+    port 1481537 at (11, 6) facing Right
+    port 1481538 at (11, 4) facing Right
+    port 1481539 at (11, 2) facing Right
+    port 1481540 at (11, 0) facing Right
+    port 1481541 at (11, -2) facing Right
+    port 1481542 at (11, -4) facing Right
+    port 1481543 at (11, -6) facing Right
+    port 1481544 at (11, -8) facing Right
+    port 1481545 at (-1, 16) facing Up
+    port 1481546 at (1, 16) facing Up
+    port 1481547 at (0, -16) facing Down
+  box 1480910 from (-1, -2) to (1, 0):
+    port 1480909 at (0, 0) facing Up
+  box 1481199 from (-1, -2) to (1, 2):
+    port 1481197 at (0, 2) facing Up
+    port 1481198 at (0, -2) facing Down
+  inst 1481653 of box 1481199 (group board-io.qsensor.module)
+  inst 1481652 of box 1481193 (group board-io.qsensor.module)
+  inst 1481651 of box 1481548 (group board-io.qsensor.module)
+  net 1481938 board-io.qsen-i3c.sda (B1481651.P1481544) (labeled) 
+  net 1481910 board-io.qsen-i3c.scl (B1481651.P1481543) (labeled) 
+  net 1481906 mcu.q-spi.sdi (B1481651.P1481536) (labeled) 
+  net 1481898 mcu.q-spi.cs (B1481651.P1481542) (labeled) 
+  net 1481886 VDD1P8 (B1481651.P1481546, B1481651.P1481545, B1481652.P1481192, B1481653.P1481198) (symbol 1480924) 
+  net 1481877 GND (B1481651.P1481547, B1481652.P1481191, B1481653.P1481197) (symbol 1480910) 
+  order (), partial-nets = [PartialNet(1481739, [B1481651.P1481547 B1481652.P1481191 B1481653.P1481197], []) => 1481877 PartialNet(1481753, [B1481651.P1481542], []) => 1481898 PartialNet(1481775, [B1481651.P1481543], []) => 1481910 PartialNet(1481772, [B1481651.P1481536], []) => 1481906 PartialNet(1481811, [B1481651.P1481544], []) => 1481938 PartialNet(1481743, [B1481651.P1481545 B1481651.P1481546 B1481652.P1481192 B1481653.P1481198], []) => 1481886])

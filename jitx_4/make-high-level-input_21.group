@@ -1,0 +1,93 @@
+SchematicGroupOutput 1118262:
+  ref: board-io.hapdrv.module
+  origin: (0, 0)
+  border: (145, 71) to (209, 104)
+  box layout output :
+    inst 1481657 at loc((186, 86), 0, false)
+    inst 1481663 at loc((200, 85), 180, false)
+    inst 1481662 at loc((205, 87), 180, false)
+    inst 1481658 at loc((199, 96), 180, false)
+    inst 1481659 at loc((205, 96), 180, false)
+    layout net 1481849 :
+      wire (185, 100) to (199, 100)
+      wire (199, 98) to (199, 100)
+      wire (185, 96) to (185, 100)
+    layout net 1481820 :
+      wire (197, 87) to (203, 87)
+    layout net 1481944 :
+      wire (158, 87) to (175, 87)
+      wire (159, 87) to (159, 88)
+      label 1118234 at loc((159, 88), 90, false)
+      require marker 1481819 at loc((158, 87), 180, false)
+    layout net 1481768 :
+      wire (197, 85) to (198, 85)
+    layout net 1118201 :
+      wire (205, 98) to (205, 100)
+      label 1118211 at loc((205, 100), 90, false)
+    layout net 1118200 :
+      wire (187, 96) to (187, 97)
+      label 1118237 at loc((187, 97), 90, false)
+    layout net 1481882 :
+      wire (171, 89) to (175, 89)
+      wire (172, 89) to (172, 91)
+      label 1118231 at loc((172, 91), 90, false)
+      require marker 1481742 at loc((171, 89), 180, false)
+    layout net 1118204 :
+      wire (199, 93) to (199, 94)
+      label 1118235 at loc((199, 93), 0, false)
+    layout net 1118203 :
+      wire (186, 75) to (186, 76)
+      label 1118236 at loc((186, 75), 0, false)
+    layout net 1118202 :
+      wire (205, 93) to (205, 94)
+      label 1118210 at loc((205, 93), 0, false)
+    layout net 1481957 :
+      wire (145, 83) to (175, 83)
+    layout net 1481914 :
+      wire (145, 85) to (175, 85)
+  partial-island-nets :
+    net 1118200 = partial-net (parent = 1481894) (B1481657.P1481636)
+    net 1118201 = partial-net (parent = 1481894) (B1481659.P1481250)
+    net 1118202 = partial-net (parent = 1481873) (B1481659.P1481249)
+    net 1118203 = partial-net (parent = 1481873) (B1481657.P1481637)
+    net 1118204 = partial-net (parent = 1481873) (B1481658.P1481240)
+  wire-splits :
+    WireSplit (net-id = 1481849, wire-idx = 0):
+      chunk 158537 from (185, 100) to (199, 100)
+    WireSplit (net-id = 1481849, wire-idx = 1):
+      chunk 158538 from (199, 98) to (199, 100)
+    WireSplit (net-id = 1481849, wire-idx = 2):
+      chunk 158539 from (185, 96) to (185, 100)
+    WireSplit (net-id = 1481820, wire-idx = 0):
+      chunk 158540 from (197, 87) to (203, 87)
+    WireSplit (net-id = 1481944, wire-idx = 0):
+      chunk 158541 from (158, 87) to (159, 87)
+      chunk 158542 from (159, 87) to (175, 87)
+    WireSplit (net-id = 1481944, wire-idx = 1):
+      chunk 158543 from (159, 87) to (159, 88)
+    WireSplit (net-id = 1481768, wire-idx = 0):
+      chunk 158544 from (197, 85) to (198, 85)
+    WireSplit (net-id = 1118201, wire-idx = 0):
+      chunk 158545 from (205, 98) to (205, 100)
+    WireSplit (net-id = 1118200, wire-idx = 0):
+      chunk 158546 from (187, 96) to (187, 97)
+    WireSplit (net-id = 1481882, wire-idx = 0):
+      chunk 158547 from (171, 89) to (172, 89)
+      chunk 158548 from (172, 89) to (175, 89)
+    WireSplit (net-id = 1481882, wire-idx = 1):
+      chunk 158549 from (172, 89) to (172, 91)
+    WireSplit (net-id = 1118204, wire-idx = 0):
+      chunk 158550 from (199, 93) to (199, 94)
+    WireSplit (net-id = 1118203, wire-idx = 0):
+      chunk 158551 from (186, 75) to (186, 76)
+    WireSplit (net-id = 1118202, wire-idx = 0):
+      chunk 158552 from (205, 93) to (205, 94)
+    WireSplit (net-id = 1481957, wire-idx = 0):
+      chunk 158553 from (145, 83) to (175, 83)
+    WireSplit (net-id = 1481914, wire-idx = 0):
+      chunk 158554 from (145, 85) to (175, 85)
+  children : ()
+  external-ports-by-net-id :
+    1481957 => [port 1387311 at (145, 83) facing Left]
+    1481914 => [port 1387312 at (145, 85) facing Left]
+  high-level-nets : ()

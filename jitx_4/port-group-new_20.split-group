@@ -1,0 +1,126 @@
+SplitGroup(name = wpwr.module, input = box layout input (320, 175) 0.8 :
+  box 1481280 from (-2, -1) to (2, 1):
+    port 1481279 at (2, 0) facing Right
+  box 1481217 from (-1, -2) to (1, 2):
+    port 1481215 at (0, 2) facing Up
+    port 1481216 at (0, -2) facing Down
+  box 1481283 from (-1, -2) to (1, 2):
+    port 1481281 at (0, 2) facing Up
+    port 1481282 at (0, -2) facing Down
+  box 1481220 from (-1, -2) to (1, 2):
+    port 1481218 at (0, 2) facing Up
+    port 1481219 at (0, -2) facing Down
+  box 1481254 from (-1, -2) to (1, 2):
+    port 1481252 at (0, 2) facing Up
+    port 1481253 at (0, -2) facing Down
+  box 1481319 from (-1, -2) to (1, 2):
+    port 1481317 at (0, 2) facing Up
+    port 1481318 at (0, -2) facing Down
+  box 1481196 from (-1, -2) to (1, 2):
+    port 1481194 at (0, 2) facing Up
+    port 1481195 at (0, -2) facing Down
+  box 1481260 from (-1, -2) to (1, 2):
+    port 1481258 at (0, 2) facing Up
+    port 1481259 at (0, -2) facing Down
+  box 1481292 from (-1, -2) to (1, 2):
+    port 1481290 at (0, 2) facing Up
+    port 1481291 at (0, -2) facing Down
+  box 1480910 from (-1, -2) to (1, 0):
+    port 1480909 at (0, 0) facing Up
+  box 1481230 from (-1, -2) to (1, 2):
+    port 1481228 at (0, 2) facing Up
+    port 1481229 at (0, -2) facing Down
+  box 1481328 from (-1, -2) to (1, 2):
+    port 1481326 at (0, 2) facing Up
+    port 1481327 at (0, -2) facing Down
+  box 1481233 from (-1, -2) to (1, 2):
+    port 1481231 at (0, 2) facing Up
+    port 1481232 at (0, -2) facing Down
+  box 1481202 from (-1, -2) to (1, 2):
+    port 1481200 at (0, 2) facing Up
+    port 1481201 at (0, -2) facing Down
+  box 1481236 from (-1, -2) to (1, 2):
+    port 1481234 at (0, 2) facing Up
+    port 1481235 at (0, -2) facing Down
+  box 1481301 from (-1, -2) to (1, 2):
+    port 1481299 at (0, 2) facing Up
+    port 1481300 at (0, -2) facing Down
+  box 1481208 from (-1, -2) to (1, 2):
+    port 1481206 at (0, 2) facing Up
+    port 1481207 at (0, -2) facing Down
+  box 1481272 from (-1, -2) to (1, 2):
+    port 1481270 at (0, 2) facing Up
+    port 1481271 at (0, -2) facing Down
+  box 1480924 from (0, -1) to (2, 1):
+    port 1480923 at (0, 0) facing Left
+  box 1481628 from (-11, -16) to (11, 16):
+    port 1481609 at (-11, 5) facing Left
+    port 1481610 at (-11, 3) facing Left
+    port 1481611 at (-11, 1) facing Left
+    port 1481612 at (-11, -1) facing Left
+    port 1481613 at (-11, -3) facing Left
+    port 1481614 at (-11, -5) facing Left
+    port 1481615 at (11, 8) facing Right
+    port 1481616 at (11, 6) facing Right
+    port 1481617 at (11, 4) facing Right
+    port 1481618 at (11, 2) facing Right
+    port 1481619 at (11, 0) facing Right
+    port 1481620 at (11, -2) facing Right
+    port 1481621 at (11, -4) facing Right
+    port 1481622 at (11, -6) facing Right
+    port 1481623 at (11, -8) facing Right
+    port 1481624 at (-1, 16) facing Up
+    port 1481625 at (1, 16) facing Up
+    port 1481626 at (-1, -16) facing Down
+    port 1481627 at (1, -16) facing Down
+  box 1481245 from (-1, -2) to (1, 2):
+    port 1481243 at (0, 2) facing Up
+    port 1481244 at (0, -2) facing Down
+  box 1481214 from (-1, -2) to (1, 2):
+    port 1481212 at (0, 2) facing Up
+    port 1481213 at (0, -2) facing Down
+  box 1481310 from (-1, -2) to (1, 2):
+    port 1481308 at (0, 2) facing Up
+    port 1481309 at (0, -2) facing Down
+  inst 1481738 of box 1481328 (group wpwr.module)
+  inst 1481737 of box 1481319 (group wpwr.module)
+  inst 1481736 of box 1481310 (group wpwr.module)
+  inst 1481735 of box 1481301 (group wpwr.module)
+  inst 1481734 of box 1481292 (group wpwr.module)
+  inst 1481733 of box 1481283 (group wpwr.module)
+  inst 1481732 of box 1481272 (group wpwr.module)
+  inst 1481731 of box 1481260 (group wpwr.module)
+  inst 1481730 of box 1481254 (group wpwr.module)
+  inst 1481729 of box 1481245 (group wpwr.module)
+  inst 1481728 of box 1481236 (group wpwr.module)
+  inst 1481727 of box 1481233 (group wpwr.module)
+  inst 1481726 of box 1481230 (group wpwr.module)
+  inst 1481725 of box 1481220 (group wpwr.module)
+  inst 1481724 of box 1481217 (group wpwr.module)
+  inst 1481723 of box 1481214 (group wpwr.module)
+  inst 1481722 of box 1481208 (group wpwr.module)
+  inst 1481721 of box 1481202 (group wpwr.module)
+  inst 1481720 of box 1481196 (group wpwr.module)
+  inst 1481719 of box 1481280 (group wpwr.module)
+  inst 1481718 of box 1481280 (group wpwr.module)
+  inst 1481717 of box 1481628 (group wpwr.module)
+  net 1481866 COMM1 (B1481730.P1481253, B1481717.P1481621) (unlabeled) 
+  net 1481852 BOOT1 (B1481732.P1481271, B1481717.P1481624) (unlabeled) 
+  net 1481850 COMM2 (B1481731.P1481259, B1481717.P1481622) (unlabeled) 
+  net 1481963 mcu.mcu-wpwr[0].gpio (B1481717.P1481610, B1481724.P1481215) (labeled) (require 1481844 mcu.mcu-wpwr[0].gpio)
+  net 1481841 CLAMP2 (B1481729.P1481244, B1481717.P1481620) (unlabeled) 
+  net 1481836 ILIM (B1481717.P1481613, B1481721.P1481200) (unlabeled) 
+  net 1481821 BOOT2 (B1481717.P1481625, B1481733.P1481282) (unlabeled) 
+  net 1481810 AC1 (B1481734.P1481291, B1481732.P1481270, B1481728.P1481234, B1481735.P1481300, B1481717.P1481615, B1481730.P1481252) (unlabeled) 
+  net 1481797 CLAMP1 (B1481717.P1481619, B1481728.P1481235) (unlabeled) 
+  net 1481925 mcu.mcu-wpwr[1].gpio (B1481717.P1481611, B1481725.P1481218) (labeled) (require 1481796 mcu.mcu-wpwr[1].gpio)
+  net 1481918 mcu.mcu-wpwr[3].gpio (B1481717.P1481614, B1481726.P1481228) (labeled) (require 1481787 mcu.mcu-wpwr[3].gpio)
+  net 1481916 mcu.mcu-wpwr[2].gpio (B1481717.P1481618) (labeled) (require 1481785 mcu.mcu-wpwr[2].gpio)
+  net 1481769 RECT (B1481736.P1481309, B1481737.P1481318, B1481717.P1481627, B1481723.P1481213) (unlabeled) 
+  net 1481761 cap.p[1] (B1481718.P1481279, B1481735.P1481299) (unlabeled) 
+  net 1481752 FOD (B1481721.P1481201, B1481722.P1481207, B1481717.P1481612, B1481723.P1481212) (unlabeled) 
+  net 1481750 AC2 (B1481734.P1481290, B1481733.P1481281, B1481719.P1481279, B1481717.P1481616, B1481731.P1481258, B1481729.P1481243) (unlabeled) 
+  net 1481749 AD (B1481727.P1481231, B1481717.P1481609) (unlabeled) 
+  net 1481890 VBUS (B1481717.P1481623, B1481738.P1481327, B1481720.P1481195) (symbol 1480924) 
+  net 1481878 GND (B1481724.P1481216, B1481722.P1481206, B1481727.P1481232, B1481737.P1481317, B1481725.P1481219, B1481736.P1481308, B1481720.P1481194, B1481717.P1481626, B1481726.P1481229, B1481738.P1481326) (symbol 1480910) 
+  order (), partial-nets = [PartialNet(1481786, [B1481717.P1481614 B1481726.P1481228], [RequireMarker(id = 1481787, name = mcu.mcu-wpwr[3].gpio)]) => 1481918 PartialNet(1481795, [B1481717.P1481611 B1481725.P1481218], [RequireMarker(id = 1481796, name = mcu.mcu-wpwr[1].gpio)]) => 1481925 PartialNet(1481784, [B1481717.P1481618], [RequireMarker(id = 1481785, name = mcu.mcu-wpwr[2].gpio)]) => 1481916 PartialNet(1481747, [B1481717.P1481623 B1481720.P1481195 B1481738.P1481327], []) => 1481890 PartialNet(1481843, [B1481717.P1481610 B1481724.P1481215], [RequireMarker(id = 1481844, name = mcu.mcu-wpwr[0].gpio)]) => 1481963 PartialNet(1481739, [B1481717.P1481626 B1481720.P1481194 B1481722.P1481206 B1481724.P1481216 B1481725.P1481219 B1481726.P1481229 B1481727.P1481232 B1481736.P1481308 B1481737.P1481317 B1481738.P1481326], []) => 1481878])

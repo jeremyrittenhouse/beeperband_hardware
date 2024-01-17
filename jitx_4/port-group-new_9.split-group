@@ -1,0 +1,323 @@
+SplitGroup(name = mcu.module, input = box layout input (320, 175) 0.8 :
+  box 1481280 from (-2, -1) to (2, 1):
+    port 1481279 at (2, 0) facing Right
+  box 1481412 from (-8, -12) to (8, 12):
+    port 1481402 at (-8, 2) facing Left
+    port 1481403 at (-8, 0) facing Left
+    port 1481404 at (-8, -2) facing Left
+    port 1481405 at (8, 2) facing Right
+    port 1481406 at (8, 0) facing Right
+    port 1481407 at (8, -2) facing Right
+    port 1481408 at (0, 12) facing Up
+    port 1481409 at (-2, -12) facing Down
+    port 1481410 at (0, -12) facing Down
+    port 1481411 at (2, -12) facing Down
+  box 1481349 from (-1, -2) to (1, 2):
+    port 1481347 at (0, 2) facing Up
+    port 1481348 at (0, -2) facing Down
+  box 1481414 from (-7, -2) to (5, 2):
+    port 1481413 at (-7, 0) facing Left
+  box 1481352 from (-1, -2) to (1, 2):
+    port 1481350 at (0, 2) facing Up
+    port 1481351 at (0, -2) facing Down
+  box 1481480 from (-7, -17) to (7, 17):
+    port 1481448 at (-7, 15) facing Left
+    port 1481449 at (-7, 13) facing Left
+    port 1481450 at (-7, 11) facing Left
+    port 1481451 at (-7, 9) facing Left
+    port 1481452 at (-7, 7) facing Left
+    port 1481453 at (-7, 5) facing Left
+    port 1481454 at (-7, 3) facing Left
+    port 1481455 at (-7, 1) facing Left
+    port 1481456 at (-7, -1) facing Left
+    port 1481457 at (-7, -3) facing Left
+    port 1481458 at (-7, -5) facing Left
+    port 1481459 at (-7, -7) facing Left
+    port 1481460 at (-7, -9) facing Left
+    port 1481461 at (-7, -11) facing Left
+    port 1481462 at (-7, -13) facing Left
+    port 1481463 at (-7, -15) facing Left
+    port 1481464 at (7, 15) facing Right
+    port 1481465 at (7, 13) facing Right
+    port 1481466 at (7, 11) facing Right
+    port 1481467 at (7, 9) facing Right
+    port 1481468 at (7, 7) facing Right
+    port 1481469 at (7, 5) facing Right
+    port 1481470 at (7, 3) facing Right
+    port 1481471 at (7, 1) facing Right
+    port 1481472 at (7, -1) facing Right
+    port 1481473 at (7, -3) facing Right
+    port 1481474 at (7, -5) facing Right
+    port 1481475 at (7, -7) facing Right
+    port 1481476 at (7, -9) facing Right
+    port 1481477 at (7, -11) facing Right
+    port 1481478 at (7, -13) facing Right
+    port 1481479 at (7, -15) facing Right
+  box 1481608 from (-1, -2) to (1, 2):
+    port 1481606 at (0, 2) facing Up
+    port 1481607 at (0, -2) facing Down
+  box 1481289 from (-1, -2) to (1, 2):
+    port 1481287 at (0, 2) facing Up
+    port 1481288 at (0, -2) facing Down
+  box 1481227 from (-7, -5) to (7, 5):
+    port 1481221 at (-7, 2) facing Left
+    port 1481222 at (-7, 0) facing Left
+    port 1481223 at (-7, -2) facing Left
+    port 1481224 at (7, -2) facing Right
+    port 1481225 at (7, 0) facing Right
+    port 1481226 at (7, 2) facing Right
+  box 1480910 from (-1, -2) to (1, 0):
+    port 1480909 at (0, 0) facing Up
+  box 1481298 from (-1, -2) to (1, 2):
+    port 1481296 at (0, 2) facing Up
+    port 1481297 at (0, -2) facing Down
+  box 1481239 from (-1, -2) to (1, 2):
+    port 1481237 at (0, 2) facing Up
+    port 1481238 at (0, -2) facing Down
+  box 1481368 from (-1, -2) to (1, 2):
+    port 1481366 at (0, 2) facing Up
+    port 1481367 at (0, -2) facing Down
+  box 1481496 from (-7, -16) to (5, 16):
+    port 1481481 at (-7, 14) facing Left
+    port 1481482 at (-7, 12) facing Left
+    port 1481483 at (-7, 10) facing Left
+    port 1481484 at (-7, 8) facing Left
+    port 1481485 at (-7, 6) facing Left
+    port 1481486 at (-7, 4) facing Left
+    port 1481487 at (-7, 2) facing Left
+    port 1481488 at (-7, 0) facing Left
+    port 1481489 at (-7, -2) facing Left
+    port 1481490 at (-7, -4) facing Left
+    port 1481491 at (-7, -6) facing Left
+    port 1481492 at (-7, -8) facing Left
+    port 1481493 at (-7, -10) facing Left
+    port 1481494 at (-7, -12) facing Left
+    port 1481495 at (-7, -14) facing Left
+  box 1481307 from (-1, -2) to (1, 2):
+    port 1481305 at (0, 2) facing Up
+    port 1481306 at (0, -2) facing Down
+  box 1481371 from (-1, -2) to (1, 2):
+    port 1481369 at (0, 2) facing Up
+    port 1481370 at (0, -2) facing Down
+  box 1480924 from (0, -1) to (2, 1):
+    port 1480923 at (0, 0) facing Left
+  box 1481182 from (-1, -2) to (1, 2):
+    port 1481180 at (0, 2) facing Up
+    port 1481181 at (0, -2) facing Down
+  box 1481248 from (-1, -2) to (1, 2):
+    port 1481246 at (0, 2) facing Up
+    port 1481247 at (0, -2) facing Down
+  box 1481505 from (-8, -9) to (10, 7):
+    port 1481497 at (10, 0) facing Right
+    port 1481498 at (-6, -9) facing Down
+    port 1481499 at (-4, -9) facing Down
+    port 1481500 at (-2, -9) facing Down
+    port 1481501 at (0, -9) facing Down
+    port 1481502 at (2, -9) facing Down
+    port 1481503 at (4, -9) facing Down
+    port 1481504 at (6, -9) facing Down
+  box 1481378 from (-4, -3) to (4, 3):
+    port 1481372 at (-4, 2) facing Left
+    port 1481373 at (4, 2) facing Right
+    port 1481374 at (-4, 0) facing Left
+    port 1481375 at (4, 0) facing Right
+    port 1481376 at (-4, -2) facing Left
+    port 1481377 at (4, -2) facing Right
+  box 1481187 from (-6, -5) to (6, 5):
+    port 1481183 at (-6, -2) facing Left
+    port 1481184 at (6, 2) facing Right
+    port 1481185 at (-6, 2) facing Left
+    port 1481186 at (6, -2) facing Right
+  box 1481316 from (-1, -2) to (1, 2):
+    port 1481314 at (0, 2) facing Up
+    port 1481315 at (0, -2) facing Down
+  box 1481381 from (-3, -3) to (7, 4):
+    port 1481379 at (7, -3) facing Right
+    port 1481380 at (0, -3) facing Down
+  box 1481190 from (-1, -2) to (1, 2):
+    port 1481188 at (0, 2) facing Up
+    port 1481189 at (0, -2) facing Down
+  box 1481447 from (-7, -17) to (7, 17):
+    port 1481415 at (-7, 15) facing Left
+    port 1481416 at (-7, 13) facing Left
+    port 1481417 at (-7, 11) facing Left
+    port 1481418 at (-7, 9) facing Left
+    port 1481419 at (-7, 7) facing Left
+    port 1481420 at (-7, 5) facing Left
+    port 1481421 at (-7, 3) facing Left
+    port 1481422 at (-7, 1) facing Left
+    port 1481423 at (-7, -1) facing Left
+    port 1481424 at (-7, -3) facing Left
+    port 1481425 at (-7, -5) facing Left
+    port 1481426 at (-7, -7) facing Left
+    port 1481427 at (-7, -9) facing Left
+    port 1481428 at (-7, -11) facing Left
+    port 1481429 at (-7, -13) facing Left
+    port 1481430 at (-7, -15) facing Left
+    port 1481431 at (7, 15) facing Right
+    port 1481432 at (7, 13) facing Right
+    port 1481433 at (7, 11) facing Right
+    port 1481434 at (7, 9) facing Right
+    port 1481435 at (7, 7) facing Right
+    port 1481436 at (7, 5) facing Right
+    port 1481437 at (7, 3) facing Right
+    port 1481438 at (7, 1) facing Right
+    port 1481439 at (7, -1) facing Right
+    port 1481440 at (7, -3) facing Right
+    port 1481441 at (7, -5) facing Right
+    port 1481442 at (7, -7) facing Right
+    port 1481443 at (7, -9) facing Right
+    port 1481444 at (7, -11) facing Right
+    port 1481445 at (7, -13) facing Right
+    port 1481446 at (7, -15) facing Right
+  box 1481257 from (-1, -2) to (1, 2):
+    port 1481255 at (0, 2) facing Up
+    port 1481256 at (0, -2) facing Down
+  box 1481325 from (-1, -2) to (1, 2):
+    port 1481323 at (0, 2) facing Up
+    port 1481324 at (0, -2) facing Down
+  box 1481269 from (-1, -2) to (1, 2):
+    port 1481267 at (0, 2) facing Up
+    port 1481268 at (0, -2) facing Down
+  box 1481334 from (-1, -2) to (1, 2):
+    port 1481332 at (0, 2) facing Up
+    port 1481333 at (0, -2) facing Down
+  box 1481591 from (-1, -2) to (1, 2):
+    port 1481589 at (0, 2) facing Up
+    port 1481590 at (0, -2) facing Down
+  box 1481401 from (-5, -7) to (7, 7):
+    port 1481395 at (7, 5) facing Right
+    port 1481396 at (7, 3) facing Right
+    port 1481397 at (7, 1) facing Right
+    port 1481398 at (7, -1) facing Right
+    port 1481399 at (7, -3) facing Right
+    port 1481400 at (7, -5) facing Right
+  box 1481533 from (-25, -11) to (25, 11):
+    port 1481506 at (-14, 11) facing Up
+    port 1481507 at (-12, 11) facing Up
+    port 1481508 at (-10, 11) facing Up
+    port 1481509 at (-8, 11) facing Up
+    port 1481510 at (-6, 11) facing Up
+    port 1481511 at (-4, 11) facing Up
+    port 1481512 at (-2, 11) facing Up
+    port 1481513 at (0, 11) facing Up
+    port 1481514 at (2, 11) facing Up
+    port 1481515 at (4, 11) facing Up
+    port 1481516 at (6, 11) facing Up
+    port 1481517 at (8, 11) facing Up
+    port 1481518 at (10, 11) facing Up
+    port 1481519 at (12, 11) facing Up
+    port 1481520 at (-12, -11) facing Down
+    port 1481521 at (-10, -11) facing Down
+    port 1481522 at (-8, -11) facing Down
+    port 1481523 at (-6, -11) facing Down
+    port 1481524 at (-4, -11) facing Down
+    port 1481525 at (-2, -11) facing Down
+    port 1481526 at (0, -11) facing Down
+    port 1481527 at (2, -11) facing Down
+    port 1481528 at (4, -11) facing Down
+    port 1481529 at (6, -11) facing Down
+    port 1481530 at (8, -11) facing Down
+    port 1481531 at (10, -11) facing Down
+    port 1481532 at (12, -11) facing Down
+  box 1481278 from (-1, -2) to (1, 2):
+    port 1481276 at (0, 2) facing Up
+    port 1481277 at (0, -2) facing Down
+  inst 1481716 of box 1481227 (group mcu.module)
+  inst 1481712 of box 1481190 (group mcu.module)
+  inst 1481711 of box 1481182 (group mcu.module)
+  inst 1481710 of box 1481608 (group mcu.module)
+  inst 1481709 of box 1481591 (group mcu.module)
+  inst 1481708 of box 1481381 (group mcu.module)
+  inst 1481707 of box 1481371 (group mcu.module)
+  inst 1481706 of box 1481368 (group mcu.module)
+  inst 1481705 of box 1481352 (group mcu.module)
+  inst 1481704 of box 1481349 (group mcu.module)
+  inst 1481703 of box 1481334 (group mcu.module)
+  inst 1481702 of box 1481325 (group mcu.module)
+  inst 1481701 of box 1481316 (group mcu.module)
+  inst 1481700 of box 1481307 (group mcu.module)
+  inst 1481699 of box 1481298 (group mcu.module)
+  inst 1481698 of box 1481289 (group mcu.module)
+  inst 1481697 of box 1481278 (group mcu.module)
+  inst 1481696 of box 1481269 (group mcu.module)
+  inst 1481695 of box 1481257 (group mcu.module)
+  inst 1481694 of box 1481248 (group mcu.module)
+  inst 1481693 of box 1481239 (group mcu.module)
+  inst 1481692 of box 1481280 (group mcu.module)
+  inst 1481691 of box 1481280 (group mcu.module)
+  inst 1481690 of box 1481280 (group mcu.module)
+  inst 1481689 of box 1481280 (group mcu.module)
+  inst 1481688 of box 1481280 (group mcu.module)
+  inst 1481687 of box 1481280 (group mcu.module)
+  inst 1481686 of box 1481280 (group mcu.module)
+  inst 1481685 of box 1481280 (group mcu.module)
+  inst 1481684 of box 1481378 (group mcu.module)
+  inst 1481683 of box 1481187 (group mcu.module)
+  inst 1481680 of box 1481533 (group mcu.module)
+  inst 1481679 of box 1481505 (group mcu.module)
+  inst 1481678 of box 1481496 (group mcu.module)
+  inst 1481677 of box 1481480 (group mcu.module)
+  inst 1481676 of box 1481447 (group mcu.module)
+  inst 1481675 of box 1481414 (group mcu.module)
+  inst 1481674 of box 1481412 (group mcu.module)
+  inst 1481673 of box 1481401 (group mcu.module)
+  net 1481973 VLED (B1481680.P1481518, B1481702.P1481324) (labeled) 
+  net 1481868 RF2 (B1481711.P1481180, B1481712.P1481188, B1481710.P1481607) (labeled) 
+  net 1481867 RF3 (B1481712.P1481189, B1481708.P1481380) (labeled) 
+  net 1481863 mcu.mcu-dbg-m33.swdio (B1481684.P1481373, B1481676.P1481415) (unlabeled) (require 1481864 mcu.mcu-dbg-m33.swdio) (require 1481865 mcu.dbg-m33.swdio)
+  net 1481971 D- (B1481678.P1481492, B1481716.P1481222) (labeled) (require 1481862 mcu.mcu-usb.N)
+  net 1481860 XTAL32Mp (B1481683.P1481183, B1481674.P1481403) (unlabeled) 
+  net 1481969 board-io.rgb.b (B1481674.P1481407) (labeled) (require 1481859 board-io.rgb.b)
+  net 1481855 mcu.dbg-m33.swdclk (B1481684.P1481375, B1481676.P1481416) (unlabeled) (require 1481856 mcu.dbg-m33.swdclk) (require 1481857 mcu.mcu-dbg-m33.swdclk)
+  net 1481853 LZ (B1481680.P1481508, B1481706.P1481366) (unlabeled) 
+  net 1481967 V18F (B1481680.P1481513, B1481697.P1481277, B1481704.P1481347) (labeled) 
+  net 1481848 RF1 (B1481710.P1481606, B1481709.P1481589, B1481679.P1481497) (labeled) 
+  net 1481845 mcu.mcu-etm.data[2] (B1481677.P1481479, B1481688.P1481279) (unlabeled) (require 1481846 mcu.mcu-etm.data[2])
+  net 1481964 mcu.mcu-wpwr[0].gpio (B1481677.P1481448) (labeled) 
+  net 1481961 D+ (B1481678.P1481491, B1481716.P1481221) (labeled) (require 1481840 mcu.mcu-usb.P)
+  net 1481959 mcu.mcu-button[2].gpio (B1481677.P1481474) (labeled) 
+  net 1481958 mcu.hap-i2c.scl (B1481676.P1481423) (labeled) 
+  net 1481954 mcu.mcu-mem.sdio[0] (B1481677.P1481463) (labeled) (require 1481832 mcu.mcu-mem.sdio[0])
+  net 1481952 mcu.mcu-mem.cs (B1481677.P1481472) (labeled) (require 1481829 mcu.mcu-mem.cs)
+  net 1481950 mcu.mcu-mem.sck (B1481677.P1481467) (labeled) (require 1481827 mcu.mcu-mem.sck)
+  net 1481948 board-io.rgb.g (B1481674.P1481406) (labeled) (require 1481825 board-io.rgb.g)
+  net 1481945 mcu.hap-gpio[1].gpio (B1481676.P1481438) (labeled) 
+  net 1481942 mcu.q-spi.sck (B1481678.P1481489) (labeled) (require 1481817 mcu.q-spi.sck)
+  net 1481941 codec-i2c-net.sda (B1481676.P1481437) (labeled) 
+  net 1481936 board-io.qsen-i3c.sda (B1481677.P1481459) (labeled) 
+  net 1481933 mcu.q-spi.sdo (B1481676.P1481442) (labeled) (require 1481809 mcu.q-spi.sdo)
+  net 1481931 mcu.mcu-mem.sdio[2] (B1481677.P1481461) (labeled) (require 1481807 mcu.mcu-mem.sdio[2])
+  net 1481805 VBAT (B1481700.P1481306, B1481680.P1481516, B1481691.P1481279) (unlabeled) 
+  net 1481803 mcu.mcu-etm.data[0] (B1481677.P1481478, B1481686.P1481279) (unlabeled) (require 1481804 mcu.mcu-etm.data[0])
+  net 1481929 mcu.mcu-mem.sdio[1] (B1481677.P1481462) (labeled) (require 1481800 mcu.mcu-mem.sdio[1])
+  net 1481926 mcu.mcu-wpwr[1].gpio (B1481677.P1481457) (labeled) 
+  net 1481924 codec-i2c-net.scl (B1481678.P1481485) (labeled) 
+  net 1481792 V14RF (B1481695.P1481256, B1481680.P1481510, B1481680.P1481511, B1481694.P1481247) (unlabeled) 
+  net 1481920 mcu.mcu-button[1].gpio (B1481677.P1481454) (labeled) 
+  net 1481788 mcu.mcu-etm.data[1] (B1481677.P1481470, B1481687.P1481279) (unlabeled) (require 1481789 mcu.mcu-etm.data[1])
+  net 1481919 mcu.mcu-wpwr[3].gpio (B1481677.P1481473) (labeled) 
+  net 1481917 mcu.mcu-wpwr[2].gpio (B1481677.P1481455) (labeled) 
+  net 1481915 mcu.hap-i2c.sda (B1481677.P1481453) (labeled) 
+  net 1481781 V12 (B1481680.P1481509, B1481693.P1481238) (unlabeled) 
+  net 1481911 mcu.mcu-button[0].gpio (B1481676.P1481443) (labeled) 
+  net 1481778 XTAL32Mm (B1481683.P1481184, B1481674.P1481402) (unlabeled) 
+  net 1481908 board-io.qsen-i3c.scl (B1481677.P1481460) (labeled) 
+  net 1481774 LY (B1481680.P1481507, B1481705.P1481351) (unlabeled) 
+  net 1481905 mcu.q-spi.sdi (B1481676.P1481445) (labeled) (require 1481773 mcu.q-spi.sdi)
+  net 1481903 board-io.rgb.r (B1481674.P1481405) (labeled) (require 1481771 board-io.rgb.r)
+  net 1481902 VDD3P0 (B1481699.P1481297, B1481680.P1481515) (symbol 1480924) 
+  net 1481764 mcu.conn-uart.rx (B1481684.P1481374, B1481676.P1481431) (unlabeled) (require 1481765 mcu.conn-uart.rx) (require 1481766 mcu.mcu-uart.rx)
+  net 1481762 mcu.mcu-etm.clk (B1481685.P1481279, B1481676.P1481446) (unlabeled) (require 1481763 mcu.mcu-etm.clk)
+  net 1481758 mcu.conn-uart.tx (B1481684.P1481377, B1481676.P1481425) (unlabeled) (require 1481759 mcu.conn-uart.tx) (require 1481760 mcu.mcu-uart.tx)
+  net 1481899 mcu.mcu-mem.sdio[3] (B1481677.P1481468) (labeled) (require 1481757 mcu.mcu-mem.sdio[3])
+  net 1481755 LX (B1481680.P1481506, B1481705.P1481350) (unlabeled) 
+  net 1481897 mcu.q-spi.cs (B1481678.P1481490) (labeled) (require 1481754 mcu.q-spi.cs)
+  net 1481896 VDDSYS (B1481707.P1481370, B1481703.P1481333, B1481680.P1481519, B1481706.P1481367) (symbol 1480924) 
+  net 1481891 VBUS (B1481716.P1481226, B1481684.P1481372, B1481680.P1481517, B1481701.P1481315) (symbol 1480924) (require 1481748 mcu.dbg-power-m33.vdd)
+  net 1481889 VDD1P8P (B1481680.P1481514, B1481704.P1481348, B1481698.P1481288) (symbol 1480924) 
+  net 1481744 mcu.mcu-etm.data[3] (B1481677.P1481471, B1481689.P1481279) (unlabeled) (require 1481745 mcu.mcu-etm.data[3])
+  net 1481885 VDD1P8 (B1481696.P1481268, B1481680.P1481512) (symbol 1480924) 
+  net 1481883 mcu.hap-gpio[0].gpio (B1481678.P1481482) (labeled) 
+  net 1481875 GND (B1481679.P1481503, B1481674.P1481409, B1481674.P1481411, B1481716.P1481224, B1481679.P1481500, B1481680.P1481526, B1481680.P1481531, B1481680.P1481524, B1481695.P1481255, B1481680.P1481529, B1481680.P1481521, B1481698.P1481287, B1481679.P1481499, B1481699.P1481296, B1481694.P1481246, B1481711.P1481181, B1481690.P1481279, B1481680.P1481520, B1481680.P1481525, B1481674.P1481410, B1481684.P1481376, B1481680.P1481522, B1481679.P1481501, B1481703.P1481332, B1481709.P1481590, B1481702.P1481323, B1481708.P1481379, B1481680.P1481530, B1481696.P1481267, B1481707.P1481369, B1481680.P1481528, B1481680.P1481523, B1481697.P1481276, B1481683.P1481186, B1481692.P1481279, B1481693.P1481237, B1481700.P1481305, B1481679.P1481498, B1481683.P1481185, B1481680.P1481527, B1481701.P1481314, B1481679.P1481504, B1481679.P1481502, B1481680.P1481532) (symbol 1480910) (require 1481740 mcu.dbg-power-m33.gnd)
+  order (), partial-nets = [PartialNet(1481851, [B1481680.P1481513 B1481697.P1481277 B1481704.P1481347], []) => 1481967 PartialNet(1481816, [B1481678.P1481489], [RequireMarker(id = 1481817, name = mcu.q-spi.sck)]) => 1481942 PartialNet(1481811, [B1481677.P1481459], []) => 1481936 PartialNet(1481795, [B1481677.P1481457], []) => 1481926 PartialNet(1481818, [B1481676.P1481438], []) => 1481945 PartialNet(1481839, [B1481678.P1481491 B1481716.P1481221], [RequireMarker(id = 1481840, name = mcu.mcu-usb.P)]) => 1481961 PartialNet(1481753, [B1481678.P1481490], [RequireMarker(id = 1481754, name = mcu.q-spi.cs)]) => 1481897 PartialNet(1481814, [B1481676.P1481437], []) => 1481941 PartialNet(1481770, [B1481674.P1481405], [RequireMarker(id = 1481771, name = board-io.rgb.r)]) => 1481903 PartialNet(1481843, [B1481677.P1481448], []) => 1481964 PartialNet(1481779, [B1481676.P1481443], []) => 1481911 PartialNet(1481767, [B1481680.P1481515 B1481699.P1481297], []) => 1481902 PartialNet(1481861, [B1481678.P1481492 B1481716.P1481222], [RequireMarker(id = 1481862, name = mcu.mcu-usb.N)]) => 1481971 PartialNet(1481828, [B1481677.P1481472], [RequireMarker(id = 1481829, name = mcu.mcu-mem.cs)]) => 1481952 PartialNet(1481784, [B1481677.P1481455], []) => 1481917 PartialNet(1481790, [B1481677.P1481454], []) => 1481920 PartialNet(1481775, [B1481677.P1481460], []) => 1481908 PartialNet(1481782, [B1481677.P1481453], []) => 1481915 PartialNet(1481833, [B1481676.P1481423], []) => 1481958 PartialNet(1481772, [B1481676.P1481445], [RequireMarker(id = 1481773, name = mcu.q-spi.sdi)]) => 1481905 PartialNet(1481746, [B1481680.P1481514 B1481698.P1481288 B1481704.P1481348], []) => 1481889 PartialNet(1481806, [B1481677.P1481461], [RequireMarker(id = 1481807, name = mcu.mcu-mem.sdio[2])]) => 1481931 PartialNet(1481799, [B1481677.P1481462], [RequireMarker(id = 1481800, name = mcu.mcu-mem.sdio[1])]) => 1481929 PartialNet(1481824, [B1481674.P1481406], [RequireMarker(id = 1481825, name = board-io.rgb.g)]) => 1481948 PartialNet(1481751, [B1481680.P1481519 B1481703.P1481333 B1481706.P1481367 B1481707.P1481370], []) => 1481896 PartialNet(1481858, [B1481674.P1481407], [RequireMarker(id = 1481859, name = board-io.rgb.b)]) => 1481969 PartialNet(1481808, [B1481676.P1481442], [RequireMarker(id = 1481809, name = mcu.q-spi.sdo)]) => 1481933 PartialNet(1481831, [B1481677.P1481463], [RequireMarker(id = 1481832, name = mcu.mcu-mem.sdio[0])]) => 1481954 PartialNet(1481786, [B1481677.P1481473], []) => 1481919 PartialNet(1481747, [B1481680.P1481517 B1481684.P1481372 B1481701.P1481315 B1481716.P1481226], [RequireMarker(id = 1481748, name = mcu.dbg-power-m33.vdd)]) => 1481891 PartialNet(1481756, [B1481677.P1481468], [RequireMarker(id = 1481757, name = mcu.mcu-mem.sdio[3])]) => 1481899 PartialNet(1481793, [B1481678.P1481485], []) => 1481924 PartialNet(1481826, [B1481677.P1481467], [RequireMarker(id = 1481827, name = mcu.mcu-mem.sck)]) => 1481950 PartialNet(1481869, [B1481680.P1481518 B1481702.P1481324], []) => 1481973 PartialNet(1481837, [B1481677.P1481474], []) => 1481959 PartialNet(1481739, [B1481674.P1481409 B1481674.P1481410 B1481674.P1481411 B1481679.P1481498 B1481679.P1481499 B1481679.P1481500 B1481679.P1481501 B1481679.P1481502 B1481679.P1481503 B1481679.P1481504 B1481680.P1481520 B1481680.P1481521 B1481680.P1481522 B1481680.P1481523 B1481680.P1481524 B1481680.P1481525 B1481680.P1481526 B1481680.P1481527 B1481680.P1481528 B1481680.P1481529 B1481680.P1481530 B1481680.P1481531 B1481680.P1481532 B1481683.P1481185 B1481683.P1481186 B1481684.P1481376 B1481690.P1481279 B1481692.P1481279 B1481693.P1481237 B1481694.P1481246 B1481695.P1481255 B1481696.P1481267 B1481697.P1481276 B1481698.P1481287 B1481699.P1481296 B1481700.P1481305 B1481701.P1481314 B1481702.P1481323 B1481703.P1481332 B1481707.P1481369 B1481708.P1481379 B1481709.P1481590 B1481711.P1481181 B1481716.P1481224], [RequireMarker(id = 1481740, name = mcu.dbg-power-m33.gnd)]) => 1481875 PartialNet(1481743, [B1481680.P1481512 B1481696.P1481268], []) => 1481885 PartialNet(1481741, [B1481678.P1481482], []) => 1481883])

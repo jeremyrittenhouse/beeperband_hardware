@@ -1,0 +1,98 @@
+SplitGroup(name = board-io.codec.module, input = box layout input (320, 175) 0.8 :
+  box 1481313 from (-1, -2) to (1, 2):
+    port 1481311 at (0, 2) facing Up
+    port 1481312 at (0, -2) facing Down
+  box 1481286 from (-1, -2) to (1, 2):
+    port 1481284 at (0, 2) facing Up
+    port 1481285 at (0, -2) facing Down
+  box 1481322 from (-1, -2) to (1, 2):
+    port 1481320 at (0, 2) facing Up
+    port 1481321 at (0, -2) facing Down
+  box 1480910 from (-1, -2) to (1, 0):
+    port 1480909 at (0, 0) facing Up
+  box 1481295 from (-1, -2) to (1, 2):
+    port 1481293 at (0, 2) facing Up
+    port 1481294 at (0, -2) facing Down
+  box 1481266 from (-1, -2) to (1, 2):
+    port 1481264 at (0, 2) facing Up
+    port 1481265 at (0, -2) facing Down
+  box 1481331 from (-1, -2) to (1, 2):
+    port 1481329 at (0, 2) facing Up
+    port 1481330 at (0, -2) facing Down
+  box 1481588 from (-21, -22) to (21, 22):
+    port 1481554 at (-21, 7) facing Left
+    port 1481555 at (-21, 5) facing Left
+    port 1481556 at (-21, 3) facing Left
+    port 1481557 at (-21, 1) facing Left
+    port 1481558 at (-21, -1) facing Left
+    port 1481559 at (-21, -3) facing Left
+    port 1481560 at (-21, -5) facing Left
+    port 1481561 at (-21, -7) facing Left
+    port 1481562 at (21, 11) facing Right
+    port 1481563 at (21, 9) facing Right
+    port 1481564 at (21, 7) facing Right
+    port 1481565 at (21, 5) facing Right
+    port 1481566 at (21, 3) facing Right
+    port 1481567 at (21, 1) facing Right
+    port 1481568 at (21, -1) facing Right
+    port 1481569 at (21, -3) facing Right
+    port 1481570 at (21, -5) facing Right
+    port 1481571 at (21, -7) facing Right
+    port 1481572 at (21, -9) facing Right
+    port 1481573 at (21, -11) facing Right
+    port 1481574 at (-10, 22) facing Up
+    port 1481575 at (-8, 22) facing Up
+    port 1481576 at (-6, 22) facing Up
+    port 1481577 at (-4, 22) facing Up
+    port 1481578 at (-2, 22) facing Up
+    port 1481579 at (0, 22) facing Up
+    port 1481580 at (2, 22) facing Up
+    port 1481581 at (4, 22) facing Up
+    port 1481582 at (6, 22) facing Up
+    port 1481583 at (8, 22) facing Up
+    port 1481584 at (10, 22) facing Up
+    port 1481585 at (-2, -22) facing Down
+    port 1481586 at (0, -22) facing Down
+    port 1481587 at (2, -22) facing Down
+  box 1481304 from (-1, -2) to (1, 2):
+    port 1481302 at (0, 2) facing Up
+    port 1481303 at (0, -2) facing Down
+  box 1481275 from (-1, -2) to (1, 2):
+    port 1481273 at (0, 2) facing Up
+    port 1481274 at (0, -2) facing Down
+  box 1480924 from (0, -1) to (2, 1):
+    port 1480923 at (0, 0) facing Left
+  box 1481340 from (-1, -2) to (1, 2):
+    port 1481338 at (0, 2) facing Up
+    port 1481339 at (0, -2) facing Down
+  box 1481343 from (-1, -2) to (1, 2):
+    port 1481341 at (0, 2) facing Up
+    port 1481342 at (0, -2) facing Down
+  inst 1481650 of box 1481343 (group board-io.codec.module)
+  inst 1481649 of box 1481340 (group board-io.codec.module)
+  inst 1481648 of box 1481331 (group board-io.codec.module)
+  inst 1481647 of box 1481322 (group board-io.codec.module)
+  inst 1481646 of box 1481313 (group board-io.codec.module)
+  inst 1481645 of box 1481304 (group board-io.codec.module)
+  inst 1481644 of box 1481295 (group board-io.codec.module)
+  inst 1481643 of box 1481286 (group board-io.codec.module)
+  inst 1481642 of box 1481275 (group board-io.codec.module)
+  inst 1481641 of box 1481266 (group board-io.codec.module)
+  inst 1481640 of box 1481588 (group board-io.codec.module)
+  net 1481977 SP_N (B1481640.P1481567) (labeled) 
+  net 1481975 codec-pdm-net.data (B1481640.P1481555) (labeled) (require 1481871 board-io.codec-pdm.data)
+  net 1481854 MICBIAS2 (B1481646.P1481312, B1481640.P1481563) (unlabeled) 
+  net 1481965 SP_P (B1481640.P1481566) (labeled) 
+  net 1481842 DACREF (B1481648.P1481330, B1481640.P1481561) (unlabeled) 
+  net 1481835 VMID (B1481647.P1481321, B1481640.P1481578) (unlabeled) 
+  net 1481830 VREF (B1481640.P1481579, B1481650.P1481342) (unlabeled) 
+  net 1481946 codec-pdm-net.clk (B1481640.P1481554) (labeled) (require 1481823 board-io.codec-pdm.clk)
+  net 1481940 codec-i2c-net.sda (B1481640.P1481568) (labeled) 
+  net 1481801 VDIG (B1481642.P1481274, B1481640.P1481584) (unlabeled) 
+  net 1481927 MICBIAS1 (B1481645.P1481303, B1481640.P1481562) (labeled) 
+  net 1481923 codec-i2c-net.scl (B1481640.P1481569) (labeled) 
+  net 1481901 VDD3P0 (B1481643.P1481285, B1481640.P1481583, B1481649.P1481339, B1481640.P1481581) (symbol 1480924) 
+  net 1481895 VDDSYS (B1481640.P1481582, B1481644.P1481294) (symbol 1480924) 
+  net 1481888 VDD1P8P (B1481640.P1481580, B1481641.P1481265) (symbol 1480924) 
+  net 1481874 GND (B1481645.P1481302, B1481644.P1481293, B1481650.P1481341, B1481649.P1481338, B1481642.P1481273, B1481641.P1481264, B1481640.P1481586, B1481648.P1481329, B1481643.P1481284, B1481647.P1481320, B1481640.P1481587, B1481646.P1481311) (symbol 1480910) 
+  order (), partial-nets = [PartialNet(1481751, [B1481640.P1481582 B1481644.P1481294], []) => 1481895 PartialNet(1481746, [B1481640.P1481580 B1481641.P1481265], []) => 1481888 PartialNet(1481793, [B1481640.P1481569], []) => 1481923 PartialNet(1481798, [B1481640.P1481562 B1481645.P1481303], []) => 1481927 PartialNet(1481870, [B1481640.P1481555], [RequireMarker(id = 1481871, name = board-io.codec-pdm.data)]) => 1481975 PartialNet(1481847, [B1481640.P1481566], []) => 1481965 PartialNet(1481739, [B1481640.P1481586 B1481640.P1481587 B1481641.P1481264 B1481642.P1481273 B1481643.P1481284 B1481644.P1481293 B1481645.P1481302 B1481646.P1481311 B1481647.P1481320 B1481648.P1481329 B1481649.P1481338 B1481650.P1481341], []) => 1481874 PartialNet(1481814, [B1481640.P1481568], []) => 1481940 PartialNet(1481822, [B1481640.P1481554], [RequireMarker(id = 1481823, name = board-io.codec-pdm.clk)]) => 1481946 PartialNet(1481872, [B1481640.P1481567], []) => 1481977 PartialNet(1481767, [B1481640.P1481581 B1481640.P1481583 B1481643.P1481285 B1481649.P1481339], []) => 1481901])

@@ -1,0 +1,78 @@
+box layout input 0.8 :
+  box 1482308 from (0, 0) to (15, 10):
+    port 1482294 at (0, 2) facing Left
+    port 1482302 at (0, 5) facing Left
+    port 1482298 at (0, 8) facing Left
+    port 1482251 at (2, 10) facing Up
+    port 1482245 at (5, 10) facing Up
+    port 1482249 at (8, 10) facing Up
+    port 1482276 at (11, 10) facing Up
+    port 1482258 at (14, 10) facing Up
+    port 1482299 at (15, 5) facing Right
+    port 1482234 at (7, 0) facing Down
+  box 1482309 from (0, 0) to (10, 10):
+    port 1482300 at (0, 5) facing Left
+    port 1482235 at (5, 0) facing Down
+  box 1482310 from (0, 0) to (12, 10):
+    port 1482267 at (0, 5) facing Left
+    port 1482244 at (2, 10) facing Up
+    port 1482248 at (5, 10) facing Up
+    port 1482275 at (8, 10) facing Up
+    port 1482256 at (11, 10) facing Up
+    port 1482301 at (12, 5) facing Right
+    port 1482231 at (6, 0) facing Down
+  box 1482311 from (0, 0) to (10, 10):
+    port 1482257 at (5, 10) facing Up
+    port 1482293 at (10, 5) facing Right
+    port 1482232 at (5, 0) facing Down
+  box 1482312 from (0, 0) to (13, 10):
+    port 1482250 at (7, 10) facing Up
+    port 1482268 at (13, 7) facing Right
+    port 1482297 at (13, 2) facing Right
+    port 1482233 at (6, 0) facing Down
+  box 1480910 from (-1, -2) to (1, 0):
+    port 1480909 at (0, 0) facing Up
+  box 1480924 from (0, -1) to (2, 1):
+    port 1480923 at (0, 0) facing Left
+  box 1482374 from (0, 0) to (13, 1):
+    port 1482375 at (0, 0) facing Left
+  inst 1482216 of box 1482308
+  inst 1482217 of box 1482309
+  inst 1482218 of box 1482310
+  inst 1482219 of box 1482311
+  inst 1482220 of box 1482312
+  inst 1120154 of box 1480910
+  inst 1120155 of box 1480910
+  inst 1120160 of box 1480910
+  inst 1120162 of box 1480910
+  inst 1120153 of box 1480924
+  inst 1120159 of box 1480924
+  inst 1120152 of box 1480924
+  inst 1120158 of box 1480924
+  inst 1120151 of box 1480924
+  inst 1120161 of box 1480924
+  inst 1120150 of box 1480924
+  inst 1120157 of box 1480924
+  inst 1120149 of box 1480924
+  inst 1120156 of box 1480924
+  inst 1480716 of box 1482374
+  net 1120100 GND (B1482216.P1482234, B1120154.P1480909) (unlabeled) 
+  net 1120101 GND (B1482217.P1482235, B1120155.P1480909) (unlabeled) 
+  net 1120102 GND (B1482218.P1482231, B1120160.P1480909) (unlabeled) 
+  net 1120103 GND (B1482219.P1482232, B1482220.P1482233, B1120162.P1480909) (unlabeled) 
+  net 1120104 VDD1P8 (B1482216.P1482245, B1120153.P1480923) (unlabeled) 
+  net 1120105 VDD1P8 (B1482218.P1482244, B1120159.P1480923) (unlabeled) 
+  net 1120106 VDD1P8P (B1482216.P1482249, B1120152.P1480923) (unlabeled) 
+  net 1120107 VDD1P8P (B1482218.P1482248, B1120158.P1480923) (unlabeled) 
+  net 1120108 VBUS (B1482216.P1482251, B1120151.P1480923) (unlabeled) 
+  net 1120109 VBUS (B1482220.P1482250, B1120161.P1480923) (unlabeled) 
+  net 1120110 VDDSYS (B1482216.P1482258, B1120150.P1480923) (unlabeled) 
+  net 1120111 VDDSYS (B1482218.P1482256, B1482219.P1482257, B1120157.P1480923) (unlabeled) 
+  net 1120112 VDD3P0 (B1482216.P1482276, B1120149.P1480923) (unlabeled) 
+  net 1120113 VDD3P0 (B1482218.P1482275, B1120156.P1480923) (unlabeled) 
+  net 1482303 G158803____________________ (B1482216.P1482299, B1482217.P1482300) (unlabeled) 
+  net 1482304 G158804_______________ (B1482220.P1482297, B1482216.P1482298) (unlabeled) 
+  net 1482305 G158805______________________________________________________________________ (B1482218.P1482301, B1482216.P1482302) (unlabeled) 
+  net 1482306 G158806_______________ (B1482219.P1482293, B1482216.P1482294) (unlabeled) 
+  net 1482307 G158807_________________ (B1482218.P1482267, B1482220.P1482268, B1480716.P1482375) (unlabeled) 
+  order ()

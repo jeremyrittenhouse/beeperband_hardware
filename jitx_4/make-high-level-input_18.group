@@ -1,0 +1,50 @@
+SchematicGroupOutput 1118407:
+  ref: board-io.rs.collector[0]
+  origin: (0, 0)
+  border: (190, 39) to (214, 54)
+  box layout output :
+    inst 1481666 at loc((193, 46), 180, false)
+    inst 1481665 at loc((208, 45), 180, false)
+    layout net 1118382 :
+      wire (208, 47) to (208, 50)
+      label 1118394 at loc((208, 50), 90, false)
+    layout net 1118381 :
+      wire (193, 48) to (193, 50)
+      label 1118388 at loc((193, 50), 90, false)
+    layout net 1481939 :
+      wire (208, 42) to (214, 42)
+      wire (208, 42) to (208, 43)
+      wire (212, 42) to (212, 43)
+      require marker 1481815 at loc((212, 43), 90, false)
+    layout net 1481922 :
+      wire (193, 41) to (214, 41)
+      wire (193, 41) to (193, 44)
+      wire (200, 41) to (200, 42)
+      require marker 1481794 at loc((200, 42), 90, false)
+  partial-island-nets :
+    net 1118381 = partial-net (parent = 1481887) (B1481666.P1481336)
+    net 1118382 = partial-net (parent = 1481887) (B1481665.P1481336)
+  wire-splits :
+    WireSplit (net-id = 1118382, wire-idx = 0):
+      chunk 156733 from (208, 47) to (208, 50)
+    WireSplit (net-id = 1118381, wire-idx = 0):
+      chunk 156734 from (193, 48) to (193, 50)
+    WireSplit (net-id = 1481939, wire-idx = 0):
+      chunk 156735 from (208, 42) to (212, 42)
+      chunk 156736 from (212, 42) to (214, 42)
+    WireSplit (net-id = 1481939, wire-idx = 1):
+      chunk 156737 from (208, 42) to (208, 43)
+    WireSplit (net-id = 1481939, wire-idx = 2):
+      chunk 156738 from (212, 42) to (212, 43)
+    WireSplit (net-id = 1481922, wire-idx = 0):
+      chunk 156739 from (193, 41) to (200, 41)
+      chunk 156740 from (200, 41) to (214, 41)
+    WireSplit (net-id = 1481922, wire-idx = 1):
+      chunk 156741 from (193, 41) to (193, 44)
+    WireSplit (net-id = 1481922, wire-idx = 2):
+      chunk 156742 from (200, 41) to (200, 42)
+  children : ()
+  external-ports-by-net-id :
+    1481939 => [port 1394755 at (214, 42) facing Right]
+    1481922 => [port 1394756 at (214, 41) facing Right]
+  high-level-nets : ()

@@ -1,0 +1,99 @@
+DesignGroup:
+  box layout input (320, 175) 0.8 :
+    box 1479555 from (-1, -2) to (1, 2):
+      port 1479553 at (0, 2) facing Up
+      port 1479554 at (0, -2) facing Down
+    box 1479268 from (0, -1) to (2, 1):
+      port 1479267 at (0, 0) facing Left
+    box 1479549 from (-1, -2) to (1, 2):
+      port 1479547 at (0, 2) facing Up
+      port 1479548 at (0, -2) facing Down
+    box 1479254 from (-1, -2) to (1, 0):
+      port 1479253 at (0, 0) facing Up
+    box 1479703 from (-3, -12) to (5, 10):
+      port 1479697 at (5, 3) facing Right
+      port 1479698 at (5, 1) facing Right
+      port 1479699 at (5, -1) facing Right
+      port 1479700 at (5, -3) facing Right
+      port 1479701 at (-1, -12) facing Down
+      port 1479702 at (1, -12) facing Down
+    inst 1480059 of box 1479555 (group mcu.usb.micro-usb)
+    inst 1480058 of box 1479549 (group mcu.usb.micro-usb)
+    inst 1480057 of box 1479703 (group mcu.usb.micro-usb)
+    net 1480316 D- (B1480057.P1479699) (labeled) 
+    net 1480306 D+ (B1480057.P1479698) (labeled) 
+    net 1480146 SHIELD (B1480058.P1479547, B1480057.P1479702, B1480059.P1479553) (labeled) 
+    net 1480236 VBUS (B1480057.P1479697) (symbol 1479268) 
+    net 1480220 GND (B1480057.P1479701, B1480059.P1479554, B1480058.P1479548) (symbol 1479254) 
+    order ()
+  SchematicGroupOutput 1119384:
+    ref: mcu.usb.micro-usb
+    origin: (0, 0)
+    border: (-4, 94) to (13, 138)
+    box layout output :
+      inst 1480057 at loc((1, 123), 0, false)
+      inst 1480059 at loc((-1, 102), 0, false)
+      inst 1480058 at loc((2, 102), 0, false)
+      layout net 1480146 :
+        wire (-1, 105) to (2, 105)
+        wire (2, 104) to (2, 111)
+        wire (-1, 104) to (-1, 105)
+        wire (2, 106) to (3, 106)
+        label 1119378 at loc((3, 106), 0, false)
+      layout net 1480236 :
+        wire (6, 126) to (10, 126)
+        wire (10, 126) to (10, 134)
+        label 1119379 at loc((10, 134), 90, false)
+      layout net 1119366 :
+        wire (-1, 99) to (2, 99)
+        wire (2, 98) to (2, 100)
+        wire (-1, 99) to (-1, 100)
+        label 1119380 at loc((2, 98), 0, false)
+      layout net 1119367 :
+        wire (0, 110) to (0, 111)
+        label 1119381 at loc((0, 110), 0, false)
+      layout net 1480316 :
+        wire (6, 122) to (7, 122)
+        label 1119382 at loc((7, 122), 0, false)
+      layout net 1480306 :
+        wire (6, 124) to (7, 124)
+        label 1119383 at loc((7, 124), 0, false)
+    partial-island-nets :
+      net 1119366 = partial-net (parent = 1480220) (B1480058.P1479548, B1480059.P1479554)
+      net 1119367 = partial-net (parent = 1480220) (B1480057.P1479701)
+    wire-splits :
+      WireSplit (net-id = 1480146, wire-idx = 0):
+        chunk 155625 from (-1, 105) to (2, 105)
+      WireSplit (net-id = 1480146, wire-idx = 3):
+        chunk 155626 from (2, 106) to (3, 106)
+      WireSplit (net-id = 1480146, wire-idx = 1):
+        chunk 155627 from (2, 104) to (2, 105)
+        chunk 155628 from (2, 105) to (2, 106)
+        chunk 155629 from (2, 106) to (2, 111)
+      WireSplit (net-id = 1480146, wire-idx = 2):
+        chunk 155630 from (-1, 104) to (-1, 105)
+      WireSplit (net-id = 1480236, wire-idx = 0):
+        chunk 155631 from (6, 126) to (10, 126)
+      WireSplit (net-id = 1480236, wire-idx = 1):
+        chunk 155632 from (10, 126) to (10, 134)
+      WireSplit (net-id = 1119366, wire-idx = 0):
+        chunk 155633 from (-1, 99) to (2, 99)
+      WireSplit (net-id = 1119366, wire-idx = 1):
+        chunk 155634 from (2, 98) to (2, 99)
+        chunk 155635 from (2, 99) to (2, 100)
+      WireSplit (net-id = 1119366, wire-idx = 2):
+        chunk 155636 from (-1, 99) to (-1, 100)
+      WireSplit (net-id = 1119367, wire-idx = 0):
+        chunk 155637 from (0, 110) to (0, 111)
+      WireSplit (net-id = 1480316, wire-idx = 0):
+        chunk 155638 from (6, 122) to (7, 122)
+      WireSplit (net-id = 1480306, wire-idx = 0):
+        chunk 155639 from (6, 124) to (7, 124)
+    children : ()
+    external-ports-by-net-id : ()
+    high-level-nets : ()
+  partial-group-nets :
+    PartialNet(1480083, [B1480057.P1479701 B1480058.P1479548 B1480059.P1479554], []) => 1480220
+    PartialNet(1480205, [B1480057.P1479699], []) => 1480316
+    PartialNet(1480091, [B1480057.P1479697], []) => 1480236
+    PartialNet(1480183, [B1480057.P1479698], []) => 1480306

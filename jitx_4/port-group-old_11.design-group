@@ -1,0 +1,106 @@
+DesignGroup:
+  box layout input (320, 175) 0.8 :
+    box 1479738 from (-1, -2) to (1, 2):
+      port 1479736 at (0, 2) facing Up
+      port 1479737 at (0, -2) facing Down
+    box 1479254 from (-1, -2) to (1, 0):
+      port 1479253 at (0, 0) facing Up
+    box 1479735 from (-7, -9) to (7, 9):
+      port 1479726 at (-7, 2) facing Left
+      port 1479727 at (-7, 0) facing Left
+      port 1479728 at (-7, -2) facing Left
+      port 1479729 at (7, 2) facing Right
+      port 1479730 at (7, 0) facing Right
+      port 1479731 at (7, -2) facing Right
+      port 1479732 at (0, 9) facing Up
+      port 1479733 at (-1, -9) facing Down
+      port 1479734 at (1, -9) facing Down
+    inst 1480026 of box 1479738 (group mcu.mem.module)
+    inst 1480025 of box 1479735 (group mcu.mem.module)
+    net 1480312 V18F (B1480026.P1479737, B1480025.P1479732) (labeled) 
+    net 1480299 mcu.mcu-mem.sdio[0] (B1480025.P1479727) (labeled) 
+    net 1480297 mcu.mcu-mem.cs (B1480025.P1479726) (labeled) 
+    net 1480295 mcu.mcu-mem.sck (B1480025.P1479728) (labeled) 
+    net 1480276 mcu.mcu-mem.sdio[2] (B1480025.P1479731) (labeled) 
+    net 1480274 mcu.mcu-mem.sdio[1] (B1480025.P1479729) (labeled) 
+    net 1480244 mcu.mcu-mem.sdio[3] (B1480025.P1479730) (labeled) 
+    net 1480225 GND (B1480025.P1479734, B1480026.P1479736) (symbol 1479254) 
+    order ()
+  SchematicGroupOutput 1118653:
+    ref: mcu.mem.module
+    origin: (0, 0)
+    border: (140, 72) to (180, 103)
+    box layout output :
+      inst 1480025 at loc((160, 86), 0, false)
+      inst 1480026 at loc((173, 98), 180, false)
+      layout net 1480312 :
+        wire (160, 96) to (162, 96)
+        wire (160, 101) to (173, 101)
+        wire (160, 95) to (160, 101)
+        wire (173, 100) to (173, 101)
+        label 1118645 at loc((162, 96), 0, false)
+      layout net 1480299 :
+        wire (152, 86) to (153, 86)
+        label 1118647 at loc((152, 86), 180, false)
+      layout net 1480297 :
+        wire (152, 88) to (153, 88)
+        label 1118648 at loc((152, 88), 180, false)
+      layout net 1480295 :
+        wire (152, 84) to (153, 84)
+        label 1118649 at loc((152, 84), 180, false)
+      layout net 1480276 :
+        wire (167, 84) to (168, 84)
+        label 1118650 at loc((168, 84), 0, false)
+      layout net 1480274 :
+        wire (167, 88) to (168, 88)
+        label 1118651 at loc((168, 88), 0, false)
+      layout net 1480244 :
+        wire (167, 86) to (168, 86)
+        label 1118652 at loc((168, 86), 0, false)
+      layout net 1118625 :
+        wire (173, 94) to (173, 96)
+        label 1118642 at loc((173, 94), 0, false)
+      layout net 1118624 :
+        wire (161, 76) to (161, 77)
+        label 1118646 at loc((161, 76), 0, false)
+    partial-island-nets :
+      net 1118624 = partial-net (parent = 1480225) (B1480025.P1479734)
+      net 1118625 = partial-net (parent = 1480225) (B1480026.P1479736)
+    wire-splits :
+      WireSplit (net-id = 1480312, wire-idx = 0):
+        chunk 155653 from (160, 96) to (162, 96)
+      WireSplit (net-id = 1480312, wire-idx = 1):
+        chunk 155654 from (160, 101) to (173, 101)
+      WireSplit (net-id = 1480312, wire-idx = 2):
+        chunk 155655 from (160, 95) to (160, 96)
+        chunk 155656 from (160, 96) to (160, 101)
+      WireSplit (net-id = 1480312, wire-idx = 3):
+        chunk 155657 from (173, 100) to (173, 101)
+      WireSplit (net-id = 1480299, wire-idx = 0):
+        chunk 155658 from (152, 86) to (153, 86)
+      WireSplit (net-id = 1480297, wire-idx = 0):
+        chunk 155659 from (152, 88) to (153, 88)
+      WireSplit (net-id = 1480295, wire-idx = 0):
+        chunk 155660 from (152, 84) to (153, 84)
+      WireSplit (net-id = 1480276, wire-idx = 0):
+        chunk 155661 from (167, 84) to (168, 84)
+      WireSplit (net-id = 1480274, wire-idx = 0):
+        chunk 155662 from (167, 88) to (168, 88)
+      WireSplit (net-id = 1480244, wire-idx = 0):
+        chunk 155663 from (167, 86) to (168, 86)
+      WireSplit (net-id = 1118625, wire-idx = 0):
+        chunk 155664 from (173, 94) to (173, 96)
+      WireSplit (net-id = 1118624, wire-idx = 0):
+        chunk 155665 from (161, 76) to (161, 77)
+    children : ()
+    external-ports-by-net-id : ()
+    high-level-nets : ()
+  partial-group-nets :
+    PartialNet(1480195, [B1480025.P1479732 B1480026.P1479737], []) => 1480312
+    PartialNet(1480172, [B1480025.P1479726], []) => 1480297
+    PartialNet(1480170, [B1480025.P1479728], []) => 1480295
+    PartialNet(1480175, [B1480025.P1479727], []) => 1480299
+    PartialNet(1480143, [B1480025.P1479729], []) => 1480274
+    PartialNet(1480100, [B1480025.P1479730], []) => 1480244
+    PartialNet(1480150, [B1480025.P1479731], []) => 1480276
+    PartialNet(1480083, [B1480025.P1479734 B1480026.P1479736], []) => 1480225

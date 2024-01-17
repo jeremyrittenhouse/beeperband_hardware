@@ -1,0 +1,128 @@
+DesignGroup:
+  box layout input (320, 175) 0.8 :
+    box 1479537 from (-1, -2) to (1, 2):
+      port 1479535 at (0, 2) facing Up
+      port 1479536 at (0, -2) facing Down
+    box 1479268 from (0, -1) to (2, 1):
+      port 1479267 at (0, 0) facing Left
+    box 1479892 from (-11, -16) to (11, 16):
+      port 1479878 at (-11, 1) facing Left
+      port 1479879 at (-11, -1) facing Left
+      port 1479880 at (11, 8) facing Right
+      port 1479881 at (11, 6) facing Right
+      port 1479882 at (11, 4) facing Right
+      port 1479883 at (11, 2) facing Right
+      port 1479884 at (11, 0) facing Right
+      port 1479885 at (11, -2) facing Right
+      port 1479886 at (11, -4) facing Right
+      port 1479887 at (11, -6) facing Right
+      port 1479888 at (11, -8) facing Right
+      port 1479889 at (-1, 16) facing Up
+      port 1479890 at (1, 16) facing Up
+      port 1479891 at (0, -16) facing Down
+    box 1479254 from (-1, -2) to (1, 0):
+      port 1479253 at (0, 0) facing Up
+    box 1479543 from (-1, -2) to (1, 2):
+      port 1479541 at (0, 2) facing Up
+      port 1479542 at (0, -2) facing Down
+    inst 1479997 of box 1479543 (group board-io.qsensor.module)
+    inst 1479996 of box 1479537 (group board-io.qsensor.module)
+    inst 1479995 of box 1479892 (group board-io.qsensor.module)
+    net 1480282 board-io.qsen-i3c.sda (B1479995.P1479888) (labeled) 
+    net 1480254 board-io.qsen-i3c.scl (B1479995.P1479887) (labeled) 
+    net 1480250 mcu.q-spi.sdi (B1479995.P1479880) (labeled) 
+    net 1480242 mcu.q-spi.cs (B1479995.P1479886) (labeled) 
+    net 1480230 VDD1P8 (B1479995.P1479890, B1479995.P1479889, B1479996.P1479536, B1479997.P1479542) (symbol 1479268) 
+    net 1480221 GND (B1479995.P1479891, B1479996.P1479535, B1479997.P1479541) (symbol 1479254) 
+    order ()
+  SchematicGroupOutput 1118364:
+    ref: board-io.qsensor.module
+    origin: (0, 0)
+    border: (115, 81) to (158, 124)
+    box layout output :
+      inst 1479995 at loc((128, 102), 0, false)
+      inst 1479996 at loc((152, 90), 180, false)
+      inst 1479997 at loc((155, 90), 180, false)
+      layout net 1480250 :
+        wire (139, 110) to (141, 110)
+        label 1118346 at loc((141, 110), 0, false)
+      layout net 1480242 :
+        wire (139, 98) to (142, 98)
+        label 1118347 at loc((142, 98), 0, false)
+      layout net 1118324 :
+        wire (127, 119) to (129, 119)
+        wire (129, 118) to (129, 119)
+        wire (127, 118) to (127, 120)
+        label 1118342 at loc((127, 120), 90, false)
+      layout net 1118325 :
+        wire (152, 93) to (155, 93)
+        wire (155, 92) to (155, 96)
+        wire (152, 92) to (152, 93)
+        label 1118328 at loc((155, 96), 90, false)
+      layout net 1118326 :
+        wire (128, 85) to (128, 86)
+        label 1118343 at loc((128, 85), 0, false)
+      layout net 1118327 :
+        wire (152, 87) to (155, 87)
+        wire (155, 85) to (155, 88)
+        wire (152, 87) to (152, 88)
+        label 1118329 at loc((155, 85), 0, false)
+      layout net 1480282 :
+        wire (139, 94) to (158, 94)
+      layout net 1480254 :
+        wire (139, 96) to (140, 96)
+        wire (140, 112) to (158, 112)
+        wire (140, 96) to (140, 112)
+    partial-island-nets :
+      net 1118325 = partial-net (parent = 1480230) (B1479996.P1479536, B1479997.P1479542)
+      net 1118324 = partial-net (parent = 1480230) (B1479995.P1479889, B1479995.P1479890)
+      net 1118327 = partial-net (parent = 1480221) (B1479996.P1479535, B1479997.P1479541)
+      net 1118326 = partial-net (parent = 1480221) (B1479995.P1479891)
+    wire-splits :
+      WireSplit (net-id = 1480250, wire-idx = 0):
+        chunk 155963 from (139, 110) to (141, 110)
+      WireSplit (net-id = 1480242, wire-idx = 0):
+        chunk 155964 from (139, 98) to (142, 98)
+      WireSplit (net-id = 1118324, wire-idx = 0):
+        chunk 155965 from (127, 119) to (129, 119)
+      WireSplit (net-id = 1118324, wire-idx = 1):
+        chunk 155966 from (129, 118) to (129, 119)
+      WireSplit (net-id = 1118324, wire-idx = 2):
+        chunk 155967 from (127, 118) to (127, 119)
+        chunk 155968 from (127, 119) to (127, 120)
+      WireSplit (net-id = 1118325, wire-idx = 0):
+        chunk 155969 from (152, 93) to (155, 93)
+      WireSplit (net-id = 1118325, wire-idx = 1):
+        chunk 155970 from (155, 92) to (155, 93)
+        chunk 155971 from (155, 93) to (155, 96)
+      WireSplit (net-id = 1118325, wire-idx = 2):
+        chunk 155972 from (152, 92) to (152, 93)
+      WireSplit (net-id = 1118326, wire-idx = 0):
+        chunk 155973 from (128, 85) to (128, 86)
+      WireSplit (net-id = 1118327, wire-idx = 0):
+        chunk 155974 from (152, 87) to (155, 87)
+      WireSplit (net-id = 1118327, wire-idx = 1):
+        chunk 155975 from (155, 85) to (155, 87)
+        chunk 155976 from (155, 87) to (155, 88)
+      WireSplit (net-id = 1118327, wire-idx = 2):
+        chunk 155977 from (152, 87) to (152, 88)
+      WireSplit (net-id = 1480282, wire-idx = 0):
+        chunk 155978 from (139, 94) to (158, 94)
+      WireSplit (net-id = 1480254, wire-idx = 0):
+        chunk 155979 from (139, 96) to (140, 96)
+      WireSplit (net-id = 1480254, wire-idx = 1):
+        chunk 155980 from (140, 112) to (158, 112)
+      WireSplit (net-id = 1480254, wire-idx = 2):
+        chunk 155981 from (140, 96) to (140, 112)
+    children : ()
+    external-ports-by-net-id :
+      1480282 => [port 1431033 at (158, 94) facing Right]
+      1480254 => [port 1431034 at (158, 112) facing Right]
+    high-level-nets : ()
+  partial-group-nets :
+    PartialNet(1480119, [B1479995.P1479887], []) => 1480254
+    PartialNet(1480097, [B1479995.P1479886], []) => 1480242
+    PartialNet(1480083, [B1479995.P1479891 B1479996.P1479535 B1479997.P1479541], []) => 1480221
+    PartialNet(1480116, [B1479995.P1479880], []) => 1480250
+    PartialNet(1480087, [B1479995.P1479889 B1479995.P1479890 B1479996.P1479536 B1479997.P1479542], []) => 1480230
+    PartialNet(1480155, [B1479995.P1479888], []) => 1480282

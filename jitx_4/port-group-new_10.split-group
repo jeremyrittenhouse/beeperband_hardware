@@ -1,0 +1,27 @@
+SplitGroup(name = mcu.usb.micro-usb, input = box layout input (320, 175) 0.8 :
+  box 1481211 from (-1, -2) to (1, 2):
+    port 1481209 at (0, 2) facing Up
+    port 1481210 at (0, -2) facing Down
+  box 1480924 from (0, -1) to (2, 1):
+    port 1480923 at (0, 0) facing Left
+  box 1481205 from (-1, -2) to (1, 2):
+    port 1481203 at (0, 2) facing Up
+    port 1481204 at (0, -2) facing Down
+  box 1480910 from (-1, -2) to (1, 0):
+    port 1480909 at (0, 0) facing Up
+  box 1481359 from (-3, -12) to (5, 10):
+    port 1481353 at (5, 3) facing Right
+    port 1481354 at (5, 1) facing Right
+    port 1481355 at (5, -1) facing Right
+    port 1481356 at (5, -3) facing Right
+    port 1481357 at (-1, -12) facing Down
+    port 1481358 at (1, -12) facing Down
+  inst 1481715 of box 1481211 (group mcu.usb.micro-usb)
+  inst 1481714 of box 1481205 (group mcu.usb.micro-usb)
+  inst 1481713 of box 1481359 (group mcu.usb.micro-usb)
+  net 1481972 D- (B1481713.P1481355) (labeled) 
+  net 1481962 D+ (B1481713.P1481354) (labeled) 
+  net 1481802 SHIELD (B1481714.P1481203, B1481713.P1481358, B1481715.P1481209) (labeled) 
+  net 1481892 VBUS (B1481713.P1481353) (symbol 1480924) 
+  net 1481876 GND (B1481713.P1481357, B1481715.P1481210, B1481714.P1481204) (symbol 1480910) 
+  order (), partial-nets = [PartialNet(1481739, [B1481713.P1481357 B1481714.P1481204 B1481715.P1481210], []) => 1481876 PartialNet(1481861, [B1481713.P1481355], []) => 1481972 PartialNet(1481839, [B1481713.P1481354], []) => 1481962 PartialNet(1481747, [B1481713.P1481353], []) => 1481892])

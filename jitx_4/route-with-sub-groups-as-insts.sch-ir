@@ -1,0 +1,36 @@
+box layout input (320, 175) 0.8 :
+  box 1427593 from (0, -1) to (2, 1):
+    port 1427592 at (0, 0) facing Left
+  box 1428217 from (-11, -16) to (11, 16):
+    port 1428203 at (-11, 1) facing Left
+    port 1428204 at (-11, -1) facing Left
+    port 1428205 at (11, 8) facing Right
+    port 1428206 at (11, 6) facing Right
+    port 1428207 at (11, 4) facing Right
+    port 1428208 at (11, 2) facing Right
+    port 1428209 at (11, 0) facing Right
+    port 1428210 at (11, -2) facing Right
+    port 1428211 at (11, -4) facing Right
+    port 1428212 at (11, -6) facing Right
+    port 1428213 at (11, -8) facing Right
+    port 1428214 at (-1, 16) facing Up
+    port 1428215 at (1, 16) facing Up
+    port 1428216 at (0, -16) facing Down
+  box 1427579 from (-1, -2) to (1, 0):
+    port 1427578 at (0, 0) facing Up
+  box 1427868 from (-1, -2) to (1, 2):
+    port 1427866 at (0, 2) facing Up
+    port 1427867 at (0, -2) facing Down
+  box 1427862 from (-1, -2) to (1, 2):
+    port 1427860 at (0, 2) facing Up
+    port 1427861 at (0, -2) facing Down
+  inst 1428322 of box 1427868 (group board-io.qsensor.module)
+  inst 1428321 of box 1427862 (group board-io.qsensor.module)
+  inst 1428320 of box 1428217 (group board-io.qsensor.module)
+  net 1428607 board-io.qsen-i3c.sda (B1428320.P1428213) (labeled) 
+  net 1428579 board-io.qsen-i3c.scl (B1428320.P1428212) (labeled) 
+  net 1428575 mcu.q-spi.sdi (B1428320.P1428205) (labeled) 
+  net 1428567 mcu.q-spi.cs (B1428320.P1428211) (labeled) 
+  net 1428555 VDD1P8 (B1428320.P1428215, B1428320.P1428214, B1428321.P1427861, B1428322.P1427867) (symbol 1427593) 
+  net 1428546 GND (B1428320.P1428216, B1428321.P1427860, B1428322.P1427866) (symbol 1427579) 
+  order ()

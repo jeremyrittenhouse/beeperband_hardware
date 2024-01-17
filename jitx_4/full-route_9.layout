@@ -1,0 +1,76 @@
+box layout output :
+  inst 1429840 at loc((178, 36), 0, false)
+  inst 1429841 at loc((158, 36), 0, false)
+  inst 1429837 at loc((197, 40), 0, false)
+  inst 1429838 at loc((216, 41), 0, false)
+  inst 1429839 at loc((141, 35), 0, false)
+  inst 1120151 at loc((199, 51), 90, false)
+  inst 1120161 at loc((165, 49), 90, false)
+  inst 1120150 at loc((211, 51), 90, false)
+  inst 1120157 at loc((183, 49), 90, false)
+  inst 1120149 at loc((208, 51), 90, false)
+  inst 1120156 at loc((149, 48), 90, false)
+  inst 1120154 at loc((204, 35), 0, false)
+  inst 1120155 at loc((221, 36), 0, false)
+  inst 1120160 at loc((147, 33), 0, false)
+  inst 1120162 at loc((174, 32), 0, false)
+  inst 1120153 at loc((202, 51), 90, false)
+  inst 1120159 at loc((143, 48), 90, false)
+  inst 1120152 at loc((205, 51), 90, false)
+  inst 1120158 at loc((146, 48), 90, false)
+  inst 1429993 at loc((155, 64), 90, false)
+  layout net 1120108 :
+    wire (199, 50) to (199, 51)
+  layout net 1120109 :
+    wire (165, 46) to (165, 49)
+  layout net 1120110 :
+    wire (211, 50) to (211, 51)
+  layout net 1120111 :
+    wire (152, 47) to (183, 47)
+    wire (152, 45) to (152, 47)
+    wire (183, 46) to (183, 49)
+  layout net 1120112 :
+    wire (208, 50) to (208, 51)
+  layout net 1120113 :
+    wire (149, 45) to (149, 48)
+  layout net 1120100 :
+    wire (204, 35) to (204, 40)
+  layout net 1120101 :
+    wire (221, 36) to (221, 41)
+  layout net 1120102 :
+    wire (147, 33) to (147, 35)
+  layout net 1120103 :
+    wire (164, 35) to (183, 35)
+    wire (183, 35) to (183, 36)
+    wire (174, 32) to (174, 35)
+    wire (164, 35) to (164, 36)
+  layout net 1120104 :
+    wire (202, 50) to (202, 51)
+  layout net 1120105 :
+    wire (143, 45) to (143, 48)
+  layout net 1120106 :
+    wire (205, 50) to (205, 51)
+  layout net 1120107 :
+    wire (146, 45) to (146, 48)
+  layout net 1429924 :
+    wire (176, 48) to (197, 48)
+    wire (171, 41) to (176, 41)
+    wire (176, 41) to (176, 48)
+  layout net 1429925 :
+    wire (192, 43) to (197, 43)
+    wire (188, 41) to (192, 41)
+    wire (192, 41) to (192, 43)
+  layout net 1429926 :
+    wire (153, 40) to (155, 40)
+    wire (155, 41) to (158, 41)
+    wire (155, 40) to (155, 41)
+  layout net 1429927 :
+    wire (140, 40) to (141, 40)
+    wire (140, 54) to (213, 54)
+    wire (212, 47) to (213, 47)
+    wire (213, 47) to (213, 54)
+    wire (140, 40) to (140, 54)
+  layout net 1429928 :
+    wire (214, 46) to (216, 46)
+    wire (212, 42) to (214, 42)
+    wire (214, 42) to (214, 46)

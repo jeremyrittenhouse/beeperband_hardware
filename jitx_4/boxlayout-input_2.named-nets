@@ -1,0 +1,3373 @@
+named-nets :
+  nets :
+    named-net 72104 :
+      name : GND
+      nets :
+        net [1111111111M9JWk8F6] = false
+        net [1111111111M9S8rHne] = false
+        net [1111111111M9XyxUTv] = false
+        net [1111111111M9eMeHW7] = false
+        net [1111111111M9kCjv2D] = false
+        net [1111111111M9ruMyMC] = false
+        net [1111111111M9xnKfqT] = false
+        net [1111111111MA6zJhB5] = false
+        net [1111111111MACp4zRA] = false
+        net [1111111111MAJFHmFt] = false
+        net [1111111111MASCs5T2] = false
+        net [1111111111MAX2yoRK] = false
+        net [1111111111MAeaFbLV] = false
+        net [1111111111MAjgLePx] = false
+        net [1111111111MAtie5Fs] = false
+        net [1111111111MAymk74L] = false
+        net [1111111111MB6ZuFuQ] = false
+        net [1111111111MBD9iTQ5] = false
+        net [1111111111MBKLX6DW] = false
+        net [1111111111MBTcv81q] = false
+        net [1111111111MBXSHWRn] = false
+        net [1111111111MBgfrjjY] = false
+        net [1111111111MBo7Vpn1] = false
+        net [1111111111MBuKpPBZ] = false
+        net [1111111111MC1NPZja] = false
+        net [1111111111MC8nu4ko] = false
+        net [1111111111MCEKmWfm] = false
+        net [1111111111MCLNRJLK] = false
+        net [1111111111MCTycT8G] = false
+        net [1111111111MCaWKh8s] = false
+        net [1111111111MChUXwhK] = false
+        net [1111111111MCni2vyW] = false
+        net [1111111111MCup7H29] = false
+        net [1111111111MD2PgV85] = false
+        net [1111111111MD74qH2H] = false
+        net [1111111111MDFozbGC] = false
+        net [1111111111MDP3Tpwr] = false
+        net [1111111111MDUc1LXZ] = false
+        net [1111111111MDbUdQ1P] = false
+        net [1111111111MDikwntF] = false
+        net [1111111111MDpHw5HU] = false
+        net [1111111111MDtshEVP] = false
+        net [1111111111ME3fqSTp] = false
+        net [1111111111ME9qA3GY] = false
+        net [1111111111MEFTatFD] = false
+        net [1111111111MEMsZ6ZC] = false
+        net [1111111111MEVzRH1y] = false
+        net [1111111111MEatU1Fx] = false
+        net [1111111111MEj7o1T5] = false
+        net [1111111111MEo8rA5c] = false
+        net [1111111111MEvuNFyd] = false
+        net [1111111111MF3ARCk2] = false
+        net [1111111111MFAouRwr] = false
+        net [1111111111MFH5RYnW] = false
+        net [1111111111MFQvTRZT] = false
+        net [1111111111MFVjjCcN] = false
+        net [1111111111MFbLLi1E] = false
+        net [1111111111MFhdKvAq] = false
+        net [1111111111MFrm291t] = false
+        net [1111111111MFwZc6jr] = false
+        net [1111111111MG5Tujex] = false
+        net [1111111111MG9gaqKr] = false
+        net [1111111111MGJYb7Mo] = false
+        net [1111111111MGPHrfiR] = false
+        net [1111111111MGVHMXAR] = false
+        net [1111111111MGdL9SjJ] = false
+        net [1111111111MGjrxE5V] = false
+        net [1111111111MGqTzATg] = GND
+        net [1111111111MGyuWFd1] = false
+        net [1111111111MH5SzriH] = false
+        net [1111111111MHCvcAUU] = false
+        net [1111111111MHJw1MRF] = false
+        net [1111111111MHPvjJQx] = false
+        net [1111111111MHWj6MxE] = false
+        net [1111111111MHeyv2rz] = false
+        net [1111111111MHnEgWfw] = false
+        net [1111111111MHs6LDtQ] = false
+        net [1111111111MHxtTGTB] = false
+        net [1111111111MJ7x9PLM] = false
+        net [1111111111MJBxVMxf] = false
+        net [1111111111MJKN3qu6] = false
+        net [1111111111MJQg2NG9] = false
+        net [1111111111MJYz3qXP] = false
+        net [1111111111MJgqNUKs] = false
+        net [1111111111MJnqsbMM] = false
+        net [1111111111MJuJ8yBL] = false
+        net [1111111111MJyk6jGD] = false
+        net [1111111111MK5zp4L9] = false
+        net [1111111111MKEKSwW5] = false
+        net [1111111111MKLykLBu] = false
+      pins :
+        [C7ifBZP9gPym9at2VgREgt]
+        [G769S5Ma6Z3bSfLG34quu9]
+        [9eGuFbTnVLvRYLtDWtLuDk]
+        [6m3hpDQ86KmXYo4tkSFpFX]
+        [Bw5gfBg5dyNbpfN6cCgKxa]
+        [3bfX5UMW2R4VSbcjocpgZS]
+        [BdH3ae6zQM5nf5mtbHzUkH]
+        [2sAZ6NDWQAMNodv7oKRs7K]
+        [5VGiwfsBTsvAVSaezNPpHi]
+        [6YD3kLz4h63YUNXC5jnX5i]
+        [AM2vA4n62vCHLuH8SC7fCq]
+        [8XnZ2oWQmabZqE6MSYpy3z]
+        [9PTV5gUyJ8EzeyVptUFDqa]
+        [FJoT4hzAHyHXNqBQ9Afmrt]
+        [99XUCKJe9fMcpR7P5u6VtV]
+        [BXr1DV7PdTXPDZ1Rb19qjV]
+        [78zxRhBo9BMzrVgNCN5pUZ]
+        [2BHjRiMb4t6sM9yt4Jg9Gf]
+        [GoVJcnUwre2NedmoWKodJW]
+        [5JdgpLD7ypzznijaZ7Pp9y]
+        [7w7syMNRksHchqek8tjGyM]
+        [2Zcu8UDBxSLKC4mVfmsYTJ]
+        [6ft9jmKJAX27GccTpbAKZy]
+        [6r5hmvv4iJ6Nyc1URyNurw]
+        [BLwLuAipXRubuskefiXgov]
+        [DxSKzMFV25RVVNng2nB47v]
+        [2WgVRZ1edkxfT918sX4c9u]
+        [Ehdp5kAgST5DzaDTrCuhZZ]
+        [5eWMUSuqNcttSdmDo1fJ5g]
+        [3Y67LnRZC4Xgq2Fjfe2enk]
+        [9Bi9LtbsgbfkuTPAAmicr9]
+        [3a2VdSXbdziVBhGgq6853V]
+        [DERndZ1GRZxC4kJZPuTLn5]
+        [9eyLK9bBaohhN35MhTGwsH]
+        [6GV1xbkGAxVUi76Xqhet85]
+        [8dcSFPtDY1JzjGuESRNrWA]
+        [GfxXX4UzoS3znR59rQMUo1]
+        [9AmiX5hmbCCvPCr41peTr7]
+        [5HJhZ9xreAzi1Hr34xq1QH]
+        [4SbED7dFNTTkjS5K12X89m]
+        [7EF15jphb96FLRRaR1bsnX]
+        [2XRg7GJUrQuzpQK4YCfUM7]
+        [FA5PUbn5qcFkDxEmNb7DYv]
+        [FcCjrwhQ7GpR8HYSHso6SB]
+        [AzJN7YeWjqbZiLmh9T7RPj]
+        [5VsDeTmWywoEDsKfxpND2E]
+        [EsCCg12DbSkBYEfq2fqQ3i]
+        [GftGjPnUt32jrbe4WRQSQK]
+        [8yxwpC7cLLChPhdRnA8YQt]
+        [DbMeXsoobciMrgZc6NV5nj]
+        [43xqBk3AtaeK2VAJquv98x]
+        [CqbZcja7WFDTJy9F8mYZyF]
+        [6mbRGTHLVdxrKVENUCdWk7]
+        [A5S1Vh274bt9bRqdmLQGe5]
+        [9qBynZudv3ps3qgvWVaw5y]
+        [AWnee9n2HKhw69VKmJWQKD]
+        [39Ss4LZknL6SZrwbDfQU2A]
+        [9gzayrZfUULYUGAF2gFJq1]
+        [FFbHGFHvzQZxaGVxrXYEa1]
+        [4cFFN9MrBS5ue2RGcfHTgF]
+        [6A7k4BZ8hWYGigdCFZeeZx]
+        [2YBXktZr2rkXYRhJs9Sjky]
+        [EJ5sH5wJogKgMqh49Y27o1]
+        [2qbsGTxVho2JDf7MZftZnX]
+        [CMzJVg1i6N7V2ssWCaFZ7f]
+        [5oqQhEdNgmMyYMx7hRXzxq]
+        [AVR8ZA4aqvoUNL9ZipcaKH]
+        [5TDQwxYBH1NwdsyA32GhHi]
+        [64VMGr93ZrCoVbBVsBmjtk]
+        [Cav4TdXbupJJrtnRvdvNpG]
+        [5BAPHso3PE8VHHUuZTYmMr]
+        [AKT5xWDoDFH7dDdLrAPfEn]
+        [552o4eEVVTBZLtEzcacZ7c]
+        [DxDspVxGSRkFhjvmt6pGrK]
+        [4pKtkPKoXVcbmQmBoAG23Y]
+        [FSQmkc8yoHHY7vJ2syJkNk]
+        [fmV7dwF9sejX7cSCmN1ZJ]
+        [GBNBzGu9uCTiJyxibeKW24]
+        [HxvxXxAh6URYhdbe2Mwxe]
+        [65mw461VERAPTFhGi5H5bW]
+        [3dUg75QkZmU44dPnTN3AnC]
+        [QbDnNz33ujQcgPMBGhfvc]
+        [Cfmtim8Jc4Pw1QWrivBZ4m]
+        [DaceZSmqPG1uPWjQU77Jqx]
+        [9HWE2yGQc3H43vuSEdN7f9]
+        [9Ao6WcLSj81itumXArvy5r]
+        [AMRdoXaxAe5dHwsdzm3wcv]
+        [CQaoghPGEFShGzPXn5bvmi]
+      requires :
+        [8MDLQZcBdo7MyfjZG75YWg]
+      short-traces :
+      symbol :
+        [1111111111REKY3KYt]
+      named? :
+        true
+    named-net 72137 :
+      name : mcu.hap-gpio[0].gpio
+      nets :
+        net [1111111111MT2X2Y5B] = false
+        net [1111111111MT7XfEkw] = false
+        net [1111111111MTFNzHbU] = false
+        net [1111111111MTMFNafd] = false
+      pins :
+        [3mYYZz1h1c1nx7ZD5aH4Gp]
+        [7JxJYgBLZ4g6SBadRcc1AW]
+      requires :
+        [7NZUKUjv2foU6xqJNXbyUT]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72128 :
+      name : VDD1P8
+      nets :
+        net [1111111111MPyxRnYn] = false
+        net [1111111111MQ4mp2dK] = false
+        net [1111111111MQCv4uUv] = false
+        net [1111111111MQKNuL6p] = false
+        net [1111111111MQRWa382] = false
+        net [1111111111MQXuNtPw] = false
+        net [1111111111MQedNNSg] = false
+        net [1111111111MQmUGgWz] = false
+        net [1111111111MQtWe8xi] = false
+        net [1111111111MQz7afRo] = VDD1P8
+      pins :
+        [9MBr9DZ8HzwmsbLoQkQthi]
+        [A7ryiJDa5shgq3759ujbtA]
+        [CvYC17wnit7dDiJ5U7dh6N]
+        [4DxrHCTe6KRnmMSa2r1nji]
+        [6rv8zECQnBan4JnqDUKCvq]
+        [9nAWGdPzVPWeQPGNx1bpgz]
+        [FAK1qUYTCSBcpzPt5zf2i6]
+        [5Mep5bqZBLi6BSrWziwnAr]
+      requires :
+      short-traces :
+        short-trace [4DxrHCTe6KRnmMSa2r1nji] and [5Mep5bqZBLi6BSrWziwnAr]
+        short-trace [9MBr9DZ8HzwmsbLoQkQthi] and [FAK1qUYTCSBcpzPt5zf2i6]
+        short-trace [6rv8zECQnBan4JnqDUKCvq] and [CvYC17wnit7dDiJ5U7dh6N]
+      symbol :
+        [1111111111RDSxiu6Y]
+      named? :
+        true
+    named-net 72162 :
+      name : mcu.mcu-etm.data[3]
+      nets :
+        net [1111111111MbUFU1AR] = false
+      pins :
+        [G5oRSzXFgzAEj2PcZ8yKFo]
+        [BSuL2bsaLYR4udX18EtBk9]
+      requires :
+        [AgUquJYNzwZRvFgQUzuq2F]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72093 :
+      name : VDD1P8P
+      nets :
+        net [1111111111M4mqyhMd] = false
+        net [1111111111M4uyjXAJ] = false
+        net [1111111111M52RNUDc] = false
+        net [1111111111M59QPQi7] = false
+        net [1111111111M5DfHL8X] = false
+        net [1111111111M5LF5aoK] = false
+        net [1111111111M5Tj8CSe] = false
+        net [1111111111M5ZBEuAr] = VDD1P8P
+        net [1111111111M5fEVe1U] = false
+        net [1111111111M5pSn1DW] = false
+      pins :
+        [6CNhdhty1FvxXmub4inWrc]
+        [Bu9fA1p4RAGLMb5hw7bXFv]
+        [GieuaLdLvAwJHLFRfwkJ9y]
+        [56ghh9d7s8o5kh7mz21X5b]
+        [A5qSMzKiN1TWaBA19UsE7q]
+        [EN6ovoNQzkH3ryR8Ws1Tp]
+        [4LaKJKMjUwbudawjK2Y1jX]
+      requires :
+      short-traces :
+        short-trace [56ghh9d7s8o5kh7mz21X5b] and [A5qSMzKiN1TWaBA19UsE7q]
+        short-trace [6CNhdhty1FvxXmub4inWrc] and [GieuaLdLvAwJHLFRfwkJ9y]
+      symbol :
+        [1111111111RDSxiu6Y]
+      named? :
+        true
+    named-net 72151 :
+      name : VBUS
+      nets :
+        net [1111111111MYC3yiBt] = false
+        net [1111111111MYKvz3h2] = VBUS
+        net [1111111111MYQsUn8B] = false
+        net [1111111111MYYqoWwj] = false
+        net [1111111111MYfvN1XS] = false
+        net [1111111111MYnU4Fwf] = false
+        net [1111111111MYrTBNYJ] = false
+        net [1111111111MYymHSZ8] = false
+        net [1111111111MZ7LkAJH] = VBUS
+        net [1111111111MZChQNKN] = false
+        net [1111111111MZKYMZHZ] = false
+      pins :
+        [Drcw7ckDhiJkNHtPppS6ow]
+        [5NPc9deHqiPGS1q1AX4Zms]
+        [4r5Du22k861n7eovJRk2ih]
+        [7YYLxBmVmicdUQTuXYcyso]
+        [9yaxN4BPbzozbDnZ6bJFue]
+        [5A79evgdVvNjyMfnPCQY7v]
+        [APfVYbX7zCTjL4mfxcQBZN]
+        [8VWAH4uQdnbk4nscmJ2fjU]
+      requires :
+        [9mPcxtbNyKgkJEpkJBRynA]
+      short-traces :
+        short-trace [4r5Du22k861n7eovJRk2ih] and [9yaxN4BPbzozbDnZ6bJFue]
+        short-trace [Drcw7ckDhiJkNHtPppS6ow] and [8VWAH4uQdnbk4nscmJ2fjU]
+        short-trace [7YYLxBmVmicdUQTuXYcyso] and [DVXJHaGnmPPDj4WsCy48nL]
+      symbol :
+        [1111111111RDSxiu6Y]
+      named? :
+        true
+    named-net 72152 :
+      name : AD
+      nets :
+        net [1111111111MZT5BmjB] = false
+      pins :
+        [2z8qc1By8hZJyUN2PNF3TZ]
+        [89jV9XfKKzCgbwkQyg9a3Y]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72161 :
+      name : AC2
+      nets :
+        net [1111111111MavVzoED] = false
+        net [1111111111MazhpLPw] = false
+        net [1111111111Mb9rBJuw] = false
+        net [1111111111MbEnmC7a] = false
+        net [1111111111MbMR7F3p] = false
+      pins :
+        [6VenSLDP8v5hy9obJ1LHd6]
+        [5waMLBALSjw68PzKdKZoEx]
+        [2xckzVUsWEQM5zzkD8GrBQ]
+        [87aJ1amK2J7HsUzhL97bHv]
+        [G4QNHy5HQYot3fG8ShpQqe]
+        [78CfsHLY1YcF4dorrJHrvL]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72141 :
+      name : VDDSYS
+      nets :
+        net [1111111111MUNSqKGM] = false
+        net [1111111111MUTt7gjf] = false
+        net [1111111111MUbgR9nU] = false
+        net [1111111111MUhPwKcy] = false
+        net [1111111111MUq3A14T] = false
+        net [1111111111MUwjwuD6] = false
+        net [1111111111MV3N2bjb] = false
+        net [1111111111MV916g2L] = false
+        net [1111111111MVFWjEgU] = false
+        net [1111111111MVQRySRu] = false
+        net [1111111111MVWb7FmG] = VDDSYS
+        net [1111111111MVbPXsDh] = false
+        net [1111111111MVjMG4fg] = false
+      pins :
+        [6ChBiZLzcwazFdKadCwte9]
+        [8rbu4G9mbG3K1CoqipFzbC]
+        [AZeNqGMYYysy131Agpv3PH]
+        [Ed5BzSHUXh241SRDm2devk]
+        [EG5zgkD1yeyjL4Q6bvaDVJ]
+        [DHJXRjD3M5HV63iairfBKD]
+        [471MDwmCjPzxiiN91t3sYy]
+        [A9VDbcSMEFntD3kPDDHu25]
+        [4RaC2kP1gf3tidCaXXwiPj]
+        [6yGjYZdV9p5jUgsgyryDJY]
+      requires :
+      short-traces :
+        short-trace [DHJXRjD3M5HV63iairfBKD] and [A9VDbcSMEFntD3kPDDHu25]
+        short-trace [6yGjYZdV9p5jUgsgyryDJY] and [471MDwmCjPzxiiN91t3sYy]
+        short-trace [AZeNqGMYYysy131Agpv3PH] and [8rbu4G9mbG3K1CoqipFzbC]
+        short-trace [6ChBiZLzcwazFdKadCwte9] and [8rbu4G9mbG3K1CoqipFzbC]
+        short-trace [4RaC2kP1gf3tidCaXXwiPj] and [8rbu4G9mbG3K1CoqipFzbC]
+      symbol :
+        [1111111111RDSxiu6Y]
+      named? :
+        true
+    named-net 72140 :
+      name : FOD
+      nets :
+        net [1111111111MU3SQCE8] = false
+        net [1111111111MU8NK3YT] = false
+        net [1111111111MUGVAeAv] = false
+      pins :
+        [2UWGYpb3Snmvmrd7YNvYoB]
+        [yTPeubzTz7gBv6C653XsP]
+        [6u5cGacB57JUgaYaqyWwUg]
+        [2TVKtAvyFgcsem7bnNMhBG]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72083 :
+      name : mcu.q-spi.cs
+      nets :
+        net [1111111111M1FzGZaC] = false
+        net [1111111111M1P7L45n] = false
+        net [1111111111M1VWx8Nc] = false
+      pins :
+        [7AeMTKVPxfQ9wXmhiBsCes]
+        [9HjunMbX2xBTetGrjcbJq5]
+      requires :
+        [C7C3ZdWkh8WPASpFqyvcJT]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72103 :
+      name : LX
+      nets :
+        net [1111111111M9CGaNYc] = false
+      pins :
+        [BwoT3AtiPFwPUuVpwCNmA5]
+        [AvpQQjRgj98LSxTR9btNWe]
+      requires :
+      short-traces :
+        short-trace [AvpQQjRgj98LSxTR9btNWe] and [BwoT3AtiPFwPUuVpwCNmA5]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72100 :
+      name : mcu.mcu-mem.sdio[3]
+      nets :
+        net [1111111111M8J8X3xh] = false
+        net [1111111111M8QUTuBM] = false
+      pins :
+        [APEkG9hchShsBT5UJUFaRe]
+        [FnUYhdSRKHjmazZeoVLsJq]
+      requires :
+        [79Q4HvvdG35ZR9tYkR9NvP]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72150 :
+      name : mcu.conn-uart.tx
+      nets :
+        net [1111111111MY4yXMPt] = false
+      pins :
+        [C9yjp9cRocmwGNp5ASKa9V]
+        [6rTar9y5Ui44kiJCxFkqyv]
+      requires :
+        [FQ1yU7u1DGHMUtiCPfzND9]
+        [Cxqw4x5LzFKtLagQoiudfV]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72076 :
+      name : cap.p[1]
+      nets :
+        net [1111111111LxvWay2p] = false
+      pins :
+        [5BB91NXjLytW9nsE38hqVs]
+        [AS4jU4BmnUSn5BEucDPDAF]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72153 :
+      name : mcu.mcu-etm.clk
+      nets :
+        net [1111111111MZaCfv8a] = false
+      pins :
+        [CDd1wg5juKuQR3TLyhmVfY]
+        [E4dUb51KZ2i61y8YQFh8sC]
+      requires :
+        [4TLe1DKRNbQ1h7BbJVmMeF]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72148 :
+      name : mcu.conn-uart.rx
+      nets :
+        net [1111111111MXPstFQX] = false
+      pins :
+        [7Vv8AVRgCTapx8cSRCrbH9]
+        [691bpoccxifYoU3iemyPVW]
+      requires :
+        [Fn8wqYXAiEBq8BgXWgiJTX]
+        [5BXYyhDha4xcCJ5iBBDMpm]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72095 :
+      name : VDD3P0
+      nets :
+        net [1111111111M6AMtNo3] = false
+        net [1111111111M6GPwSLK] = false
+        net [1111111111M6NDo4yP] = false
+        net [1111111111M6VZoJLz] = VDD3P0
+        net [1111111111M6a6F7JA] = false
+        net [1111111111M6gedgAg] = false
+        net [1111111111M6oy5mR5] = false
+        net [1111111111M6w67iSV] = false
+      pins :
+        [9p5cUFPCV7GHL7yCQfSoBC]
+        [BMcvWxgkDiA4bNtzYeDS94]
+        [AWRhD4yu6KJUeq5wXbTsAt]
+        [5czWpSwsCcfCakM4qR6Qmt]
+        [8bvfvxsPaDe63hXD1ksxDY]
+        [63Ka3cHW6kYU7qVLeSFf2N]
+      requires :
+      short-traces :
+        short-trace [63Ka3cHW6kYU7qVLeSFf2N] and [BMcvWxgkDiA4bNtzYeDS94]
+        short-trace [AWRhD4yu6KJUeq5wXbTsAt] and [8bvfvxsPaDe63hXD1ksxDY]
+        short-trace [5czWpSwsCcfCakM4qR6Qmt] and [9p5cUFPCV7GHL7yCQfSoBC]
+      symbol :
+        [1111111111RDSxiu6Y]
+      named? :
+        true
+    named-net 72157 :
+      name : OUT-
+      nets :
+        net [1111111111MaUZTteJ] = false
+      pins :
+        [5kahoFhaExNBMUpgnwpZf3]
+        [BA4jmegWra3bVVNxfFQU8Y]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72145 :
+      name : RECT
+      nets :
+        net [1111111111MWPypC1f] = false
+        net [1111111111MWW7JFNQ] = false
+        net [1111111111MWco6Wom] = false
+      pins :
+        [EarF4RXgDgMZMBGFxvq3HN]
+        [Df4cP2pEetk5E7FK6YQDyU]
+        [GChSXoBJUPmMs1B5RWstfr]
+        [4PpLyHPhfQdXvoQysf7zSR]
+      requires :
+      short-traces :
+        short-trace [EarF4RXgDgMZMBGFxvq3HN] and [GChSXoBJUPmMs1B5RWstfr]
+        short-trace [Df4cP2pEetk5E7FK6YQDyU] and [GChSXoBJUPmMs1B5RWstfr]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72088 :
+      name : board-io.rgb.r
+      nets :
+        net [1111111111M35Nj96g] = false
+        net [1111111111M3CTb1Ay] = false
+        net [1111111111M3L5A1nR] = false
+      pins :
+        [EXrLv7h1uyQUe2AY9NWFE5]
+        [CdFxCrnkii5HJdAZ8iqJhZ]
+      requires :
+        [3HujTSaTHzPkGeEJq9ubUk]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72082 :
+      name : mcu.q-spi.sdi
+      nets :
+        net [1111111111LzvRw6bY] = false
+        net [1111111111M15cmCwR] = false
+        net [1111111111M19ZwbtR] = false
+      pins :
+        [9s4acJ7A5oHPx1LN5ZovQM]
+        [6yPMsMSZ2DYfXstcAhojfh]
+      requires :
+        [96ycgq3ny7x4ptnu1UjPrp]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72105 :
+      name : LY
+      nets :
+        net [1111111111MKStc6Ro] = false
+      pins :
+        [5TVsdpKTJm8FESdZ26Ps9B]
+        [8uE2Kd3jrnJ1mefX6Qk6xM]
+      requires :
+      short-traces :
+        short-trace [8uE2Kd3jrnJ1mefX6Qk6xM] and [5TVsdpKTJm8FESdZ26Ps9B]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72079 :
+      name : board-io.qsen-i3c.scl
+      nets :
+        net [1111111111Lyhd6eix] = false
+        net [1111111111Lyqiys3v] = false
+        net [1111111111LywRVb2r] = false
+        net [1111111111Lz53FU1a] = false
+        net [1111111111LzA61MPm] = false
+      pins :
+        [69QCpy1VzD4BGhtv35j7eA]
+        [ESizPC1fLpkyaF8qrTpF7f]
+        [5bFBjHJMRZBjGs9cXGbNxs]
+        [FEVUUoZu8qB92vNLrtpUW]
+      requires :
+        [QRPsSm9CwKSH4ThWBNPjs]
+        [5PaQpuBijhpV61JimLgLvB]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72108 :
+      name : XTAL32Mm
+      nets :
+        net [1111111111MKmTEr1b] = false
+      pins :
+        [G2y2xuFjfv5yRnffEd8d32]
+        [C9p6sd721ebh6JWVBNCxLe]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72084 :
+      name : mcu.mcu-button[0].gpio
+      nets :
+        net [1111111111M1ef4oiM] = false
+        net [1111111111M1mJE5XP] = false
+        net [1111111111M1sr3z3Y] = false
+      pins :
+        [46hFN85BSmoTSaZzcXUnPQ]
+        [4LR8prk2H28EMkmj5tWHZo]
+        [CuZcC5ebrL5YC5K1uY7xiV]
+      requires :
+        [7pD3UVJS4rTYFcgotuXWDp]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72167 :
+      name : V12
+      nets :
+        net [1111111111McEv1iaL] = false
+      pins :
+        [CqSiW3QJRra8EStaQN8tSG]
+        [BgLQAy4ZzVqS8UDMStGact]
+      requires :
+      short-traces :
+        short-trace [BgLQAy4ZzVqS8UDMStGact] and [CqSiW3QJRra8EStaQN8tSG]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72147 :
+      name : mcu.hap-i2c.sda
+      nets :
+        net [1111111111MWqnxDvu] = false
+        net [1111111111MWwmjmh9] = false
+        net [1111111111MX6HqFDx] = false
+        net [1111111111MXBnDhVV] = false
+        net [1111111111MXHuVTfz] = false
+      pins :
+        [3GzHzTP7ZVeCudKruDE978]
+        [4smBEDFMVuHywPpv2oSBJG]
+        [8PKnD7rzWDkHh9UwgDvb5i]
+      requires :
+        [As4rTU6zfSwDn1UYmwUcAH]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72142 :
+      name : mcu.mcu-wpwr[2].gpio
+      nets :
+        net [1111111111MVpc62qT] = false
+        net [1111111111MVvNgScV] = false
+        net [1111111111MW5Ztxk1] = false
+      pins :
+        [7FSNEKYYLi6QTPecuNXdei]
+        [B4CpXZdcpMaCkvafxZwNb4]
+      requires :
+        [3aPbCyPJjUKuZuE27vmJjm]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72129 :
+      name : mcu.mcu-wpwr[3].gpio
+      nets :
+        net [1111111111MR6yKZxm] = false
+        net [1111111111MRBGqdUZ] = false
+        net [1111111111MRJZhnek] = false
+        net [1111111111MRRsdzfw] = false
+      pins :
+        [2B1HGNarx2Tcr4vrnNL9QJ]
+        [4kCQ2guizzfToHZTUTetBz]
+        [G4bn1mjTPearBQMe6zeyLN]
+      requires :
+        [4d3RtrV5D1fHMmc4A7j2EZ]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72158 :
+      name : mcu.mcu-etm.data[1]
+      nets :
+        net [1111111111MaYkaTYn] = false
+      pins :
+        [7ZP7TLbFHwieg3kcwvyySC]
+        [5tGZNAx7uhzzUuyAuzYmFU]
+      requires :
+        [5uHKMriwwsXvtYLFoWicEs]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72085 :
+      name : mcu.mcu-button[1].gpio
+      nets :
+        net [1111111111M1yJhsx1] = false
+        net [1111111111M25MsdNi] = false
+        net [1111111111M2AKvigw] = false
+      pins :
+        [AhpjDDR228qsnxEWMMTdS6]
+        [EFyzrVupocKYTMkKwC78jq]
+        [15cjTeQiciYy8dUsHBwiSZ]
+      requires :
+        [2FV1PRB9qoaweuj5H7RFZR]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72169 :
+      name : V14RF
+      nets :
+        net [1111111111McWEJEbV] = false
+        net [1111111111Mcc4VJCb] = false
+        net [1111111111Mch6F8hE] = false
+      pins :
+        [6wBwx4ALTNBDYvnb3XM8pA]
+        [2PVPfPuxpHDuRNsn5WJxhP]
+        [2f71mpDhQjq2NXQU81b9BS]
+        [DQi2KV4Uko6gRCEezc2NBG]
+      requires :
+      short-traces :
+        short-trace [DQi2KV4Uko6gRCEezc2NBG] and [2PVPfPuxpHDuRNsn5WJxhP]
+        short-trace [6wBwx4ALTNBDYvnb3XM8pA] and [2f71mpDhQjq2NXQU81b9BS]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72117 :
+      name : codec-i2c-net.scl
+      nets :
+        net [1111111111MM2NBLTC] = codec-i2c-net.scl
+        net [1111111111MMAkzdAE] = false
+        net [1111111111MMEXo4WM] = false
+        net [1111111111MMM8tUp2] = false
+        net [1111111111MMTYjX6X] = false
+      pins :
+        [2ZAL1uoio7tp12Uo9xhrDk]
+        [2WZJGhnrXG38PLPPSXHgAP]
+        [EyYhvxKVsNewyEg9RsXbga]
+      requires :
+        [E2fivS8KRH7PRxzeD3Vmag]
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72133 :
+      name : mcu.mcu-wpwr[1].gpio
+      nets :
+        net [1111111111MSE97u8g] = false
+        net [1111111111MSKZKAbi] = false
+        net [1111111111MSSmVoY2] = false
+        net [1111111111MSaekBZo] = false
+      pins :
+        [6fFZZBHibQ3sRdZEwmntGj]
+        [4HUmZktYKGbQs1t31FNTwS]
+        [GV5YmmvnUR9ZGfAQLUyNXX]
+      requires :
+        [3QdhfybS7GAsXZ9AqrAnJs]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72159 :
+      name : CLAMP1
+      nets :
+        net [1111111111Magiw3tV] = false
+      pins :
+        [DjmWSxyVYvdQJrhtbirB3X]
+        [4z1wVYMGQ6h1uA6qfoWXsk]
+      requires :
+      short-traces :
+        short-trace [4z1wVYMGQ6h1uA6qfoWXsk] and [DjmWSxyVYvdQJrhtbirB3X]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72098 :
+      name : MICBIAS1
+      nets :
+        net [1111111111M7V7vN71] = false
+        net [1111111111M7cefgjZ] = false
+        net [1111111111M7j33cS8] = false
+        net [1111111111M7qYbrDN] = false
+        net [1111111111M7vyCsTy] = false
+      pins :
+        [Fo8yLL8ep3QyDHdJsv9z8b]
+        [6np3eCPJ4NVBu1SHvzBZ1e]
+        [6vechcJf9CPidH76VEmTw6]
+      requires :
+      short-traces :
+        short-trace [6np3eCPJ4NVBu1SHvzBZ1e] and [Fo8yLL8ep3QyDHdJsv9z8b]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72097 :
+      name : mcu.mcu-mem.sdio[1]
+      nets :
+        net [1111111111M7HBPe3S] = false
+        net [1111111111M7QCupqX] = false
+      pins :
+        [FH4p6rxp1HrknGjpyGZ5aq]
+        [6wjvE4yy6ZMrx66WoZxWMj]
+      requires :
+        [3MUxryLtc7r1zYCr3iEnvz]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72102 :
+      name : VDIG
+      nets :
+        net [1111111111M944Biap] = false
+      pins :
+        [4RuipDMZddbcCeAbBYer17]
+        [358M821LHWEyfRGthph7x3]
+      requires :
+      short-traces :
+        short-trace [4RuipDMZddbcCeAbBYer17] and [358M821LHWEyfRGthph7x3]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72116 :
+      name : SHIELD
+      nets :
+        net [1111111111MLfcDACG] = false
+        net [1111111111MLotZAAK] = SHIELD
+        net [1111111111MLvhW7Vg] = false
+      pins :
+        [FnbxXn1x5YEWHxNSMq3XN3]
+        [EfaTj6vi5faSCA2iFdetJL]
+        [EkKK6HXhS7Bvwe4ZweVXnE]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72155 :
+      name : mcu.mcu-etm.data[0]
+      nets :
+        net [1111111111MZmQsGHM] = false
+      pins :
+        [67SEywVCiQtPmyqjmSg5rF]
+        [ChZkBnxb7CoJY2XMhHMoc7]
+      requires :
+        [4gFpNiaqGRdn5SVEW42NQB]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72164 :
+      name : VBAT
+      nets :
+        net [1111111111MbhQgxDf] = false
+        net [1111111111Mbpg7NhR] = false
+        net [1111111111MbuBdDc1] = false
+      pins :
+        [3VFe3MXjCcUQFowNEMPpxj]
+        [3kQYP8rx4FrWFDx5ahS6nK]
+        [EB9HSEbVSiHSCtcwawy6pD]
+      requires :
+      short-traces :
+        short-trace [3VFe3MXjCcUQFowNEMPpxj] and [3kQYP8rx4FrWFDx5ahS6nK]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72099 :
+      name : mcu.mcu-mem.sdio[2]
+      nets :
+        net [1111111111M84FWwcc] = false
+        net [1111111111M89fDqyn] = false
+      pins :
+        [ABzavAJP9U7pdHFoC1N75C]
+        [vdmhDGb2ZwrHvtyimQTTQ]
+      requires :
+        [ExvPruCTDW5pMfeiSUUrjL]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72080 :
+      name : mcu.q-spi.sdo
+      nets :
+        net [1111111111LzFSumUo] = false
+        net [1111111111LzP8sjWU] = false
+        net [1111111111LzVczYKC] = false
+      pins :
+        [C7p2zgpKmGyZSxtRwhsQfr]
+        [2uysxabmb5a9TKuwvFAiu1]
+      requires :
+        [BtzJRWQJ7JZz3o3ZVL8KRU]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72156 :
+      name : AC1
+      nets :
+        net [1111111111MZtmfw6X] = false
+        net [1111111111MZzN7oic] = false
+        net [1111111111Ma8VV9MQ] = false
+        net [1111111111MaDewgbp] = false
+        net [1111111111MaKRa8VL] = false
+      pins :
+        [F66RsbHrC8QA8v11UrP2h4]
+        [DZi7M4WW9oDPFWMTC5jYnL]
+        [2K8Frv9camACdEQwkLrBY3]
+        [Gh5x8Xa174k3n3ybNQUJ1n]
+        [7NHuMezmppEDmk7fUrgJth]
+        [BqkPUxcsCyifAd9mtA7Gss]
+      requires :
+      short-traces :
+        short-trace [F66RsbHrC8QA8v11UrP2h4] and [7NHuMezmppEDmk7fUrgJth]
+        short-trace [Gh5x8Xa174k3n3ybNQUJ1n] and [7NHuMezmppEDmk7fUrgJth]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72078 :
+      name : board-io.qsen-i3c.sda
+      nets :
+        net [1111111111Ly9AsPV2] = false
+        net [1111111111LyGDUJFy] = false
+        net [1111111111LyN7gvDw] = false
+        net [1111111111LyVFVEFp] = false
+        net [1111111111LycmAx4S] = false
+      pins :
+        [4AkbgspAPkJdSLoZ63BCwt]
+        [93diejw4Gm3To8fNr4K1PB]
+        [Fcz7U3dZiZV5P8bXM3EvVz]
+        [DRA3ZyiPHBjZZfrPgbykEr]
+      requires :
+        [2q9XFXZGhET7eLs82pWLuX]
+        [5rFz1AHZpbdwqV25Ho8zP8]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72119 :
+      name : codec-i2c-net.sda
+      nets :
+        net [1111111111MN3Gk5tb] = false
+        net [1111111111MN9rEcyu] = codec-i2c-net.sda
+        net [1111111111MNGvWpya] = false
+        net [1111111111MNNMmZWz] = false
+        net [1111111111MNVtHA9G] = false
+      pins :
+        [EMa14g7vn93NubgTJUfqYZ]
+        [6Z2iS1DmtjM6ZhArvpxzMx]
+        [4aFD7S5qqdn3oYDiS57Y6x]
+      requires :
+        [BTtFHaa6ULRaqhqP6zx2he]
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72081 :
+      name : mcu.q-spi.sck
+      nets :
+        net [1111111111LzaxSm1Y] = false
+        net [1111111111LziuP3TV] = false
+        net [1111111111LzorEBP9] = false
+      pins :
+        [AAiR68e5uj8fsdc17sdTqi]
+        [AJ3H4dKWv9JbSmH68Lwwdf]
+      requires :
+        [7Cu2XEeX2xwKsBGovqxwu6]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72138 :
+      name : mcu.hap-gpio[1].gpio
+      nets :
+        net [1111111111MTUqafj1] = false
+        net [1111111111MTbkXFfW] = false
+        net [1111111111MTi2w3YS] = false
+        net [1111111111MTpkEdHY] = false
+      pins :
+        [62EjaPuYeMPmviQnpmMK9R]
+        [DBToL3UYfQtaNTZgnXjMh9]
+      requires :
+        [2q3Ngbw6iTvhaop3RvWR4E]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72154 :
+      name : OUT+
+      nets :
+        net [1111111111MZfdMQ9L] = false
+      pins :
+        [BaeWrt9iDu1Noiq8afjZw9]
+        [6UjyTfCue1h6h2UmjqeYvM]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72170 :
+      name : BOOT2
+      nets :
+        net [1111111111McocoCG1] = false
+      pins :
+        [R6xJnB9894kHLYyS1RxKM]
+        [4VqoNRqm3qoBL2MLxk1DTs]
+      requires :
+      short-traces :
+        short-trace [4VqoNRqm3qoBL2MLxk1DTs] and [R6xJnB9894kHLYyS1RxKM]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72086 :
+      name : codec-pdm-net.clk
+      nets :
+        net [1111111111M2Hrhrg5] = codec-pdm-net.clk
+        net [1111111111M2PZnxic] = false
+        net [1111111111M2WSLsAA] = false
+        net [1111111111M2dqJGLu] = false
+      pins :
+        [BscrgYBF25jJTqBMx23Q1Y]
+        [4kKQAqnoftmMpVZGQkVfZq]
+      requires :
+        [EnEaE9dmxvpcgprbLGFKBf]
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72090 :
+      name : board-io.rgb.g
+      nets :
+        net [1111111111M3s6126q] = false
+        net [1111111111M3yZ5FF2] = false
+        net [1111111111M47cSEGU] = false
+      pins :
+        [AtuEq4GG9Eu7UNsdDYrc8L]
+        [B3mff3cs8ptez2oDzp7gz]
+      requires :
+        [DPmQHhZkVtQZV57Am2P7Y7]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72092 :
+      name : mcu.mcu-mem.sck
+      nets :
+        net [1111111111M4ZH3zZW] = false
+        net [1111111111M4gX5FRi] = false
+      pins :
+        [CLJfEaxFBpHMt3xiUyqbCB]
+        [2gtUoWFuhxnmN5DyaeTav5]
+      requires :
+        [DuawA2A33SG8kodDKZb61V]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72094 :
+      name : mcu.mcu-mem.cs
+      nets :
+        net [1111111111M5ti2uPr] = false
+        net [1111111111M63Uy9f7] = false
+      pins :
+        [9MjSx4fsCS2jcYS78sRmGe]
+        [5KsnXmk6XkWpTU1fNVPUpZ]
+      requires :
+        [3SUVrg5uZvyE4p4V4dba6P]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72115 :
+      name : VREF
+      nets :
+        net [1111111111MLbLsKKa] = false
+      pins :
+        [Dw2zexj65BfrgEyKL7eFGh]
+        [Bd6DZma7uwRutMoPhBSrMT]
+      requires :
+      short-traces :
+        short-trace [Bd6DZma7uwRutMoPhBSrMT] and [Dw2zexj65BfrgEyKL7eFGh]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72096 :
+      name : mcu.mcu-mem.sdio[0]
+      nets :
+        net [1111111111M72D9r33] = false
+        net [1111111111M7B7M8Xm] = false
+      pins :
+        [FptWFVxs4mo2NiHPYVqFRE]
+        [4EEWrrNp9CWfWbi1ZhR69g]
+      requires :
+        [4pG3W73NSQTMEmRi8C7kGX]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72149 :
+      name : mcu.hap-i2c.scl
+      nets :
+        net [1111111111MXXaVd7X] = false
+        net [1111111111MXcEruKC] = false
+        net [1111111111MXkUsFJw] = false
+        net [1111111111MXrWAumy] = false
+        net [1111111111MXwxVrmX] = false
+      pins :
+        [5vbdV2RVyhVjwToUep8GGq]
+        [7D4WYwJp94SDMgTKirgFDH]
+        [67ENM3fv6F4DYnmtCos7Sk]
+      requires :
+        [DovmhizCFoTcjHyr8vA36z]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72112 :
+      name : VMID
+      nets :
+        net [1111111111MLEfyPCt] = false
+      pins :
+        [3nVnfCbYygUUPWvDonc5uL]
+        [93BSSSBGmSsDTWJmZvp7BL]
+      requires :
+      short-traces :
+        short-trace [3nVnfCbYygUUPWvDonc5uL] and [93BSSSBGmSsDTWJmZvp7BL]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72139 :
+      name : ILIM
+      nets :
+        net [1111111111MTv2mMAv] = false
+      pins :
+        [FWHSvQ8dUHBFKWNDm5bmtg]
+        [8zJL8ErviGmALSJs1RfL8M]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72087 :
+      name : mcu.mcu-button[2].gpio
+      nets :
+        net [1111111111M2iztZGp] = false
+        net [1111111111M2rDwLPd] = false
+        net [1111111111M2zXPNYY] = false
+      pins :
+        [13f1DeVE8JAk3Mvkb1BQXJ]
+        [EEf8CyuRcGaTbp5pZyxaaZ]
+        [FpJGwTGbjKhgAtUwB45LaP]
+      requires :
+        [FKan2Qno34sLjDBuGNrxKa]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72121 :
+      name : D+
+      nets :
+        net [1111111111MNkEQR8U] = false
+        net [1111111111MNqnDAXK] = false
+        net [1111111111MNx5ogXE] = D+
+      pins :
+        [37vgP5xk6GvG8Hx5QHGfRv]
+        [CWTmkpUq59URUuwzKUHpUe]
+        [GCpemHvM6uo4U695ESHwvW]
+      requires :
+        [BSMWpQbaezZwPBSuNMs7Ym]
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72163 :
+      name : CLAMP2
+      nets :
+        net [1111111111MbbsxQRz] = false
+      pins :
+        [2akkoZbRToGHGj5ojt1hZC]
+        [G1qa7UAohyU7t33RV9D5j9]
+      requires :
+      short-traces :
+        short-trace [2akkoZbRToGHGj5ojt1hZC] and [G1qa7UAohyU7t33RV9D5j9]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72114 :
+      name : DACREF
+      nets :
+        net [1111111111MLUcVzXh] = false
+      pins :
+        [F7c9CcYcpzfbJovUJrMo1Y]
+        [EB7mZpK1MwzuhzHoncxXFE]
+      requires :
+      short-traces :
+        short-trace [F7c9CcYcpzfbJovUJrMo1Y] and [EB7mZpK1MwzuhzHoncxXFE]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72131 :
+      name : mcu.mcu-wpwr[0].gpio
+      nets :
+        net [1111111111MReWqdnc] = false
+        net [1111111111MRnHXovo] = false
+        net [1111111111MRrVUfHq] = false
+        net [1111111111MRzv5v2h] = false
+      pins :
+        [5HEM8fLGbZLXAYM7qSkdt1]
+        [7axXkRxkb1BGf6myq2fJ6N]
+        [CJNdarb6nP8XMziVKy3NxS]
+      requires :
+        [35Zd7dS4NCrvMcqLK4A2DN]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72160 :
+      name : mcu.mcu-etm.data[2]
+      nets :
+        net [1111111111MangW9oY] = false
+      pins :
+        [75hfPz6hU7jZfQX6Mb6FYA]
+        [6Eseh1LhZXUYLrqgzpNhb3]
+      requires :
+        [4AfMHxATu62CwrrvZKwumH]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72171 :
+      name : SP_P
+      nets :
+        net [1111111111McxZ4nbA] = SP_P
+      pins :
+        [2aR9UQTEojkYcLcAMGSpMU]
+        [2Cy3g9hjVqWXuFDcmaoRbM]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72109 :
+      name : RF1
+      nets :
+        net [1111111111MKv8pxdq] = RF1
+      pins :
+        [ERVnPJG74pouq143eFyVqu]
+        [GYwVrc8txHChiGeudvQGey]
+        [E5EyJbKf5KtJDyEcRxoZvt]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72143 :
+      name : REG
+      nets :
+        net [1111111111MWBF7PNa] = false
+      pins :
+        [CFnSwFgmUMoM2GqsgoAQ4e]
+        [9Du95781QurgF4duJrkxa]
+      requires :
+      short-traces :
+        short-trace [CFnSwFgmUMoM2GqsgoAQ4e] and [9Du95781QurgF4duJrkxa]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72166 :
+      name : COMM2
+      nets :
+        net [1111111111Mc8iTLdh] = false
+      pins :
+        [7Mk7zSY6NgYD9qTdYKThUR]
+        [DzSXP3VJzj5yNC4warRQkR]
+      requires :
+      short-traces :
+        short-trace [7Mk7zSY6NgYD9qTdYKThUR] and [DzSXP3VJzj5yNC4warRQkR]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72101 :
+      name : V18F
+      nets :
+        net [1111111111M8VVQz1T] = false
+        net [1111111111M8dciGzm] = false
+        net [1111111111M8hqWwVC] = false
+        net [1111111111M8s1CoUi] = false
+        net [1111111111M8x7xdke] = false
+      pins :
+        [BmttJGSWbU38QPZzJ2CrAV]
+        [FoeyzZhXAuJ5b1WSh31PRu]
+        [5ERvSdmjk6tdteR3MLMYjM]
+        [3aziYmr7ckejcC6usTwtFP]
+        [BMakR1xJXWrif9yMUH64j1]
+      requires :
+      short-traces :
+        short-trace [BMakR1xJXWrif9yMUH64j1] and [3gRFhSgRj7Cb1yna8rEgha]
+        short-trace [FoeyzZhXAuJ5b1WSh31PRu] and [5ERvSdmjk6tdteR3MLMYjM]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72168 :
+      name : BOOT1
+      nets :
+        net [1111111111McQ362hq] = false
+      pins :
+        [6f4VicSmDBkndVPG8bS8Bf]
+        [BrohJZLCsY3n8e7scP5kJA]
+      requires :
+      short-traces :
+        short-trace [6f4VicSmDBkndVPG8bS8Bf] and [BrohJZLCsY3n8e7scP5kJA]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72106 :
+      name : LZ
+      nets :
+        net [1111111111MKXxxie3] = false
+      pins :
+        [2zonXmbisMXDZcoH8MvRxN]
+        [8uhuC9Ryoxk8NMBtq8EHBv]
+      requires :
+      short-traces :
+        short-trace [8uhuC9Ryoxk8NMBtq8EHBv] and [2zonXmbisMXDZcoH8MvRxN]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72110 :
+      name : MICBIAS2
+      nets :
+        net [1111111111ML1us3GQ] = false
+      pins :
+        [CZe9M1zxL756H9FmP6unY4]
+        [A3CmePsWRAGCk8TkH4s54U]
+      requires :
+      short-traces :
+        short-trace [CZe9M1zxL756H9FmP6unY4] and [A3CmePsWRAGCk8TkH4s54U]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72146 :
+      name : mcu.dbg-m33.swdclk
+      nets :
+        net [1111111111MWkTReTx] = false
+      pins :
+        [7tS2DHXYPgMhCtMZpPx5q1]
+        [8qd9DLaMRUrA6EzHBv7ZGM]
+      requires :
+        [FRc6L47L9vwBU5bawwzoTY]
+        [AfNfHwjpWNEPbywTq5Yzku]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72091 :
+      name : board-io.rgb.b
+      nets :
+        net [1111111111M4EGDaoX] = false
+        net [1111111111M4LfasJ1] = false
+        net [1111111111M4SD41vA] = false
+      pins :
+        [CXmWQZd5De3vcFhWz2bcVP]
+        [3nmzk6dRPmr8TzAyt7e1oV]
+      requires :
+        [GeJDUy5hr9E5FkME6LJS32]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72107 :
+      name : XTAL32Mp
+      nets :
+        net [1111111111MKgcpjPq] = false
+      pins :
+        [9dPBbT3aj8sQBKRHQ998WZ]
+        [CrwxBhbmfh7ejTdXfDvu2P]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72123 :
+      name : D-
+      nets :
+        net [1111111111MPBPdX7p] = false
+        net [1111111111MPGTHK9u] = false
+        net [1111111111MPP2VLWs] = D-
+      pins :
+        [2u6KRaXFkqqZEgJPjhrpWr]
+        [42SoJKvMQG7tyZ2v2ruA4K]
+        [EyFjvEg96iVkJWJzqLWKGj]
+      requires :
+        [CdyR3nfHZFrHF7ekHUqkms]
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72144 :
+      name : mcu.mcu-dbg-m33.swdio
+      nets :
+        net [1111111111MWGWhLyM] = false
+      pins :
+        [5kyrg55Yau3QfRGm5m6eR7]
+        [DNquNKusHrcdVUxhjTBSiu]
+      requires :
+        [9Vbqva2kN33JyY8fgUvPwW]
+        [3juTJM6KL2iLkrPTUAqCxN]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72165 :
+      name : COMM1
+      nets :
+        net [1111111111Mc4FXEfw] = false
+      pins :
+        [7HeGiBu8a3XbSTE6gj9QaW]
+        [5uKnbuBxhwHCbkBscEfoQT]
+      requires :
+      short-traces :
+        short-trace [7HeGiBu8a3XbSTE6gj9QaW] and [5uKnbuBxhwHCbkBscEfoQT]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72113 :
+      name : RF3
+      nets :
+        net [1111111111MLNu5UR8] = RF3
+      pins :
+        [EzcdJhCPjXi6y4UeJ3rVEe]
+        [4d4s7Zsg6R4aJ4Mo1AuLj9]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72111 :
+      name : RF2
+      nets :
+        net [1111111111ML7anpzL] = RF2
+      pins :
+        [A8nUXahPS1WjKgNmpPcKVb]
+        [8KF1CzEKohqCKActJHQ61]
+        [CdQa222oGgxM5fkx1ZupjM]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72118 :
+      name : VLED
+      nets :
+        net [1111111111MMaMUSbc] = false
+        net [1111111111MMhfbtgG] = false
+        net [1111111111MMqzsU4G] = false
+        net [1111111111MMupdsn2] = false
+      pins :
+        [9gBjbwSkxFUxUdVFNq7Wu]
+        [95HYKPqnTbNzUK6KWU9aoR]
+        [5vw8iY13KtxQfhTy9r9BbT]
+      requires :
+      short-traces :
+        short-trace [95HYKPqnTbNzUK6KWU9aoR] and [5vw8iY13KtxQfhTy9r9BbT]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72089 :
+      name : codec-pdm-net.data
+      nets :
+        net [1111111111M3SnKtgF] = codec-pdm-net.data
+        net [1111111111M3YMDfLf] = false
+        net [1111111111M3fg6aSF] = false
+        net [1111111111M3mDMRuk] = false
+      pins :
+        [4kutkCWUa6xg5Yi2uqEnoL]
+        [81Tid3HnHL2FKmJHE7dmsZ]
+      requires :
+        [4zkgVeGY37fAfFDBQMAJHZ]
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72077 :
+      name : SP_N
+      nets :
+        net [1111111111Ly25TEP6] = SP_N
+      pins :
+        [3t3KukZyHFsFkzwHHvx5sj]
+        [DZSDytyhWBKXkdSQDzvG6S]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+  original-nets :
+    named-net 72104 :
+      name : GND
+      nets :
+        net [1111111111M9JWk8F6] = false
+        net [1111111111M9S8rHne] = false
+        net [1111111111M9XyxUTv] = false
+        net [1111111111M9eMeHW7] = false
+        net [1111111111M9kCjv2D] = false
+        net [1111111111M9ruMyMC] = false
+        net [1111111111M9xnKfqT] = false
+        net [1111111111MA6zJhB5] = false
+        net [1111111111MACp4zRA] = false
+        net [1111111111MAJFHmFt] = false
+        net [1111111111MASCs5T2] = false
+        net [1111111111MAX2yoRK] = false
+        net [1111111111MAeaFbLV] = false
+        net [1111111111MAjgLePx] = false
+        net [1111111111MAtie5Fs] = false
+        net [1111111111MAymk74L] = false
+        net [1111111111MB6ZuFuQ] = false
+        net [1111111111MBD9iTQ5] = false
+        net [1111111111MBKLX6DW] = false
+        net [1111111111MBTcv81q] = false
+        net [1111111111MBXSHWRn] = false
+        net [1111111111MBgfrjjY] = false
+        net [1111111111MBo7Vpn1] = false
+        net [1111111111MBuKpPBZ] = false
+        net [1111111111MC1NPZja] = false
+        net [1111111111MC8nu4ko] = false
+        net [1111111111MCEKmWfm] = false
+        net [1111111111MCLNRJLK] = false
+        net [1111111111MCTycT8G] = false
+        net [1111111111MCaWKh8s] = false
+        net [1111111111MChUXwhK] = false
+        net [1111111111MCni2vyW] = false
+        net [1111111111MCup7H29] = false
+        net [1111111111MD2PgV85] = false
+        net [1111111111MD74qH2H] = false
+        net [1111111111MDFozbGC] = false
+        net [1111111111MDP3Tpwr] = false
+        net [1111111111MDUc1LXZ] = false
+        net [1111111111MDbUdQ1P] = false
+        net [1111111111MDikwntF] = false
+        net [1111111111MDpHw5HU] = false
+        net [1111111111MDtshEVP] = false
+        net [1111111111ME3fqSTp] = false
+        net [1111111111ME9qA3GY] = false
+        net [1111111111MEFTatFD] = false
+        net [1111111111MEMsZ6ZC] = false
+        net [1111111111MEVzRH1y] = false
+        net [1111111111MEatU1Fx] = false
+        net [1111111111MEj7o1T5] = false
+        net [1111111111MEo8rA5c] = false
+        net [1111111111MEvuNFyd] = false
+        net [1111111111MF3ARCk2] = false
+        net [1111111111MFAouRwr] = false
+        net [1111111111MFH5RYnW] = false
+        net [1111111111MFQvTRZT] = false
+        net [1111111111MFVjjCcN] = false
+        net [1111111111MFbLLi1E] = false
+        net [1111111111MFhdKvAq] = false
+        net [1111111111MFrm291t] = false
+        net [1111111111MFwZc6jr] = false
+        net [1111111111MG5Tujex] = false
+        net [1111111111MG9gaqKr] = false
+        net [1111111111MGJYb7Mo] = false
+        net [1111111111MGPHrfiR] = false
+        net [1111111111MGVHMXAR] = false
+        net [1111111111MGdL9SjJ] = false
+        net [1111111111MGjrxE5V] = false
+        net [1111111111MGqTzATg] = GND
+        net [1111111111MGyuWFd1] = false
+        net [1111111111MH5SzriH] = false
+        net [1111111111MHCvcAUU] = false
+        net [1111111111MHJw1MRF] = false
+        net [1111111111MHPvjJQx] = false
+        net [1111111111MHWj6MxE] = false
+        net [1111111111MHeyv2rz] = false
+        net [1111111111MHnEgWfw] = false
+        net [1111111111MHs6LDtQ] = false
+        net [1111111111MHxtTGTB] = false
+        net [1111111111MJ7x9PLM] = false
+        net [1111111111MJBxVMxf] = false
+        net [1111111111MJKN3qu6] = false
+        net [1111111111MJQg2NG9] = false
+        net [1111111111MJYz3qXP] = false
+        net [1111111111MJgqNUKs] = false
+        net [1111111111MJnqsbMM] = false
+        net [1111111111MJuJ8yBL] = false
+        net [1111111111MJyk6jGD] = false
+        net [1111111111MK5zp4L9] = false
+        net [1111111111MKEKSwW5] = false
+        net [1111111111MKLykLBu] = false
+      pins :
+        [C7ifBZP9gPym9at2VgREgt]
+        [G769S5Ma6Z3bSfLG34quu9]
+        [9eGuFbTnVLvRYLtDWtLuDk]
+        [6m3hpDQ86KmXYo4tkSFpFX]
+        [Bw5gfBg5dyNbpfN6cCgKxa]
+        [3bfX5UMW2R4VSbcjocpgZS]
+        [BdH3ae6zQM5nf5mtbHzUkH]
+        [2sAZ6NDWQAMNodv7oKRs7K]
+        [5VGiwfsBTsvAVSaezNPpHi]
+        [6YD3kLz4h63YUNXC5jnX5i]
+        [AM2vA4n62vCHLuH8SC7fCq]
+        [8XnZ2oWQmabZqE6MSYpy3z]
+        [9PTV5gUyJ8EzeyVptUFDqa]
+        [FJoT4hzAHyHXNqBQ9Afmrt]
+        [99XUCKJe9fMcpR7P5u6VtV]
+        [BXr1DV7PdTXPDZ1Rb19qjV]
+        [78zxRhBo9BMzrVgNCN5pUZ]
+        [2BHjRiMb4t6sM9yt4Jg9Gf]
+        [GoVJcnUwre2NedmoWKodJW]
+        [5JdgpLD7ypzznijaZ7Pp9y]
+        [7w7syMNRksHchqek8tjGyM]
+        [2Zcu8UDBxSLKC4mVfmsYTJ]
+        [6ft9jmKJAX27GccTpbAKZy]
+        [6r5hmvv4iJ6Nyc1URyNurw]
+        [BLwLuAipXRubuskefiXgov]
+        [DxSKzMFV25RVVNng2nB47v]
+        [2WgVRZ1edkxfT918sX4c9u]
+        [Ehdp5kAgST5DzaDTrCuhZZ]
+        [5eWMUSuqNcttSdmDo1fJ5g]
+        [3Y67LnRZC4Xgq2Fjfe2enk]
+        [9Bi9LtbsgbfkuTPAAmicr9]
+        [3a2VdSXbdziVBhGgq6853V]
+        [DERndZ1GRZxC4kJZPuTLn5]
+        [9eyLK9bBaohhN35MhTGwsH]
+        [6GV1xbkGAxVUi76Xqhet85]
+        [8dcSFPtDY1JzjGuESRNrWA]
+        [GfxXX4UzoS3znR59rQMUo1]
+        [9AmiX5hmbCCvPCr41peTr7]
+        [5HJhZ9xreAzi1Hr34xq1QH]
+        [4SbED7dFNTTkjS5K12X89m]
+        [7EF15jphb96FLRRaR1bsnX]
+        [2XRg7GJUrQuzpQK4YCfUM7]
+        [FA5PUbn5qcFkDxEmNb7DYv]
+        [FcCjrwhQ7GpR8HYSHso6SB]
+        [AzJN7YeWjqbZiLmh9T7RPj]
+        [5VsDeTmWywoEDsKfxpND2E]
+        [EsCCg12DbSkBYEfq2fqQ3i]
+        [GftGjPnUt32jrbe4WRQSQK]
+        [8yxwpC7cLLChPhdRnA8YQt]
+        [DbMeXsoobciMrgZc6NV5nj]
+        [43xqBk3AtaeK2VAJquv98x]
+        [CqbZcja7WFDTJy9F8mYZyF]
+        [6mbRGTHLVdxrKVENUCdWk7]
+        [A5S1Vh274bt9bRqdmLQGe5]
+        [9qBynZudv3ps3qgvWVaw5y]
+        [AWnee9n2HKhw69VKmJWQKD]
+        [39Ss4LZknL6SZrwbDfQU2A]
+        [9gzayrZfUULYUGAF2gFJq1]
+        [FFbHGFHvzQZxaGVxrXYEa1]
+        [4cFFN9MrBS5ue2RGcfHTgF]
+        [6A7k4BZ8hWYGigdCFZeeZx]
+        [2YBXktZr2rkXYRhJs9Sjky]
+        [EJ5sH5wJogKgMqh49Y27o1]
+        [2qbsGTxVho2JDf7MZftZnX]
+        [CMzJVg1i6N7V2ssWCaFZ7f]
+        [5oqQhEdNgmMyYMx7hRXzxq]
+        [AVR8ZA4aqvoUNL9ZipcaKH]
+        [5TDQwxYBH1NwdsyA32GhHi]
+        [64VMGr93ZrCoVbBVsBmjtk]
+        [Cav4TdXbupJJrtnRvdvNpG]
+        [5BAPHso3PE8VHHUuZTYmMr]
+        [AKT5xWDoDFH7dDdLrAPfEn]
+        [552o4eEVVTBZLtEzcacZ7c]
+        [DxDspVxGSRkFhjvmt6pGrK]
+        [4pKtkPKoXVcbmQmBoAG23Y]
+        [FSQmkc8yoHHY7vJ2syJkNk]
+        [fmV7dwF9sejX7cSCmN1ZJ]
+        [GBNBzGu9uCTiJyxibeKW24]
+        [HxvxXxAh6URYhdbe2Mwxe]
+        [65mw461VERAPTFhGi5H5bW]
+        [3dUg75QkZmU44dPnTN3AnC]
+        [QbDnNz33ujQcgPMBGhfvc]
+        [Cfmtim8Jc4Pw1QWrivBZ4m]
+        [DaceZSmqPG1uPWjQU77Jqx]
+        [9HWE2yGQc3H43vuSEdN7f9]
+        [9Ao6WcLSj81itumXArvy5r]
+        [AMRdoXaxAe5dHwsdzm3wcv]
+        [CQaoghPGEFShGzPXn5bvmi]
+      requires :
+        [8MDLQZcBdo7MyfjZG75YWg]
+      short-traces :
+      symbol :
+        [1111111111REKY3KYt]
+      named? :
+        true
+    named-net 72137 :
+      name : mcu.hap-gpio[0].gpio
+      nets :
+        net [1111111111MT2X2Y5B] = false
+        net [1111111111MT7XfEkw] = false
+        net [1111111111MTFNzHbU] = false
+        net [1111111111MTMFNafd] = false
+      pins :
+        [3mYYZz1h1c1nx7ZD5aH4Gp]
+        [7JxJYgBLZ4g6SBadRcc1AW]
+      requires :
+        [7NZUKUjv2foU6xqJNXbyUT]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72128 :
+      name : VDD1P8
+      nets :
+        net [1111111111MPyxRnYn] = false
+        net [1111111111MQ4mp2dK] = false
+        net [1111111111MQCv4uUv] = false
+        net [1111111111MQKNuL6p] = false
+        net [1111111111MQRWa382] = false
+        net [1111111111MQXuNtPw] = false
+        net [1111111111MQedNNSg] = false
+        net [1111111111MQmUGgWz] = false
+        net [1111111111MQtWe8xi] = false
+        net [1111111111MQz7afRo] = VDD1P8
+      pins :
+        [9MBr9DZ8HzwmsbLoQkQthi]
+        [A7ryiJDa5shgq3759ujbtA]
+        [CvYC17wnit7dDiJ5U7dh6N]
+        [4DxrHCTe6KRnmMSa2r1nji]
+        [6rv8zECQnBan4JnqDUKCvq]
+        [9nAWGdPzVPWeQPGNx1bpgz]
+        [FAK1qUYTCSBcpzPt5zf2i6]
+        [5Mep5bqZBLi6BSrWziwnAr]
+      requires :
+      short-traces :
+        short-trace [4DxrHCTe6KRnmMSa2r1nji] and [5Mep5bqZBLi6BSrWziwnAr]
+        short-trace [9MBr9DZ8HzwmsbLoQkQthi] and [FAK1qUYTCSBcpzPt5zf2i6]
+        short-trace [6rv8zECQnBan4JnqDUKCvq] and [CvYC17wnit7dDiJ5U7dh6N]
+      symbol :
+        [1111111111RDSxiu6Y]
+      named? :
+        true
+    named-net 72162 :
+      name : mcu.mcu-etm.data[3]
+      nets :
+        net [1111111111MbUFU1AR] = false
+      pins :
+        [G5oRSzXFgzAEj2PcZ8yKFo]
+        [BSuL2bsaLYR4udX18EtBk9]
+      requires :
+        [AgUquJYNzwZRvFgQUzuq2F]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72093 :
+      name : VDD1P8P
+      nets :
+        net [1111111111M4mqyhMd] = false
+        net [1111111111M4uyjXAJ] = false
+        net [1111111111M52RNUDc] = false
+        net [1111111111M59QPQi7] = false
+        net [1111111111M5DfHL8X] = false
+        net [1111111111M5LF5aoK] = false
+        net [1111111111M5Tj8CSe] = false
+        net [1111111111M5ZBEuAr] = VDD1P8P
+        net [1111111111M5fEVe1U] = false
+        net [1111111111M5pSn1DW] = false
+      pins :
+        [6CNhdhty1FvxXmub4inWrc]
+        [Bu9fA1p4RAGLMb5hw7bXFv]
+        [GieuaLdLvAwJHLFRfwkJ9y]
+        [56ghh9d7s8o5kh7mz21X5b]
+        [A5qSMzKiN1TWaBA19UsE7q]
+        [EN6ovoNQzkH3ryR8Ws1Tp]
+        [4LaKJKMjUwbudawjK2Y1jX]
+      requires :
+      short-traces :
+        short-trace [56ghh9d7s8o5kh7mz21X5b] and [A5qSMzKiN1TWaBA19UsE7q]
+        short-trace [6CNhdhty1FvxXmub4inWrc] and [GieuaLdLvAwJHLFRfwkJ9y]
+      symbol :
+        [1111111111RDSxiu6Y]
+      named? :
+        true
+    named-net 72151 :
+      name : VBUS
+      nets :
+        net [1111111111MYC3yiBt] = false
+        net [1111111111MYKvz3h2] = VBUS
+        net [1111111111MYQsUn8B] = false
+        net [1111111111MYYqoWwj] = false
+        net [1111111111MYfvN1XS] = false
+        net [1111111111MYnU4Fwf] = false
+        net [1111111111MYrTBNYJ] = false
+        net [1111111111MYymHSZ8] = false
+        net [1111111111MZ7LkAJH] = VBUS
+        net [1111111111MZChQNKN] = false
+        net [1111111111MZKYMZHZ] = false
+      pins :
+        [Drcw7ckDhiJkNHtPppS6ow]
+        [5NPc9deHqiPGS1q1AX4Zms]
+        [4r5Du22k861n7eovJRk2ih]
+        [7YYLxBmVmicdUQTuXYcyso]
+        [9yaxN4BPbzozbDnZ6bJFue]
+        [5A79evgdVvNjyMfnPCQY7v]
+        [APfVYbX7zCTjL4mfxcQBZN]
+        [8VWAH4uQdnbk4nscmJ2fjU]
+      requires :
+        [9mPcxtbNyKgkJEpkJBRynA]
+      short-traces :
+        short-trace [4r5Du22k861n7eovJRk2ih] and [9yaxN4BPbzozbDnZ6bJFue]
+        short-trace [Drcw7ckDhiJkNHtPppS6ow] and [8VWAH4uQdnbk4nscmJ2fjU]
+        short-trace [7YYLxBmVmicdUQTuXYcyso] and [DVXJHaGnmPPDj4WsCy48nL]
+      symbol :
+        [1111111111RDSxiu6Y]
+      named? :
+        true
+    named-net 72152 :
+      name : AD
+      nets :
+        net [1111111111MZT5BmjB] = false
+      pins :
+        [2z8qc1By8hZJyUN2PNF3TZ]
+        [89jV9XfKKzCgbwkQyg9a3Y]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72161 :
+      name : AC2
+      nets :
+        net [1111111111MavVzoED] = false
+        net [1111111111MazhpLPw] = false
+        net [1111111111Mb9rBJuw] = false
+        net [1111111111MbEnmC7a] = false
+        net [1111111111MbMR7F3p] = false
+      pins :
+        [6VenSLDP8v5hy9obJ1LHd6]
+        [5waMLBALSjw68PzKdKZoEx]
+        [2xckzVUsWEQM5zzkD8GrBQ]
+        [87aJ1amK2J7HsUzhL97bHv]
+        [G4QNHy5HQYot3fG8ShpQqe]
+        [78CfsHLY1YcF4dorrJHrvL]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72141 :
+      name : VDDSYS
+      nets :
+        net [1111111111MUNSqKGM] = false
+        net [1111111111MUTt7gjf] = false
+        net [1111111111MUbgR9nU] = false
+        net [1111111111MUhPwKcy] = false
+        net [1111111111MUq3A14T] = false
+        net [1111111111MUwjwuD6] = false
+        net [1111111111MV3N2bjb] = false
+        net [1111111111MV916g2L] = false
+        net [1111111111MVFWjEgU] = false
+        net [1111111111MVQRySRu] = false
+        net [1111111111MVWb7FmG] = VDDSYS
+        net [1111111111MVbPXsDh] = false
+        net [1111111111MVjMG4fg] = false
+      pins :
+        [6ChBiZLzcwazFdKadCwte9]
+        [8rbu4G9mbG3K1CoqipFzbC]
+        [AZeNqGMYYysy131Agpv3PH]
+        [Ed5BzSHUXh241SRDm2devk]
+        [EG5zgkD1yeyjL4Q6bvaDVJ]
+        [DHJXRjD3M5HV63iairfBKD]
+        [471MDwmCjPzxiiN91t3sYy]
+        [A9VDbcSMEFntD3kPDDHu25]
+        [4RaC2kP1gf3tidCaXXwiPj]
+        [6yGjYZdV9p5jUgsgyryDJY]
+      requires :
+      short-traces :
+        short-trace [DHJXRjD3M5HV63iairfBKD] and [A9VDbcSMEFntD3kPDDHu25]
+        short-trace [6yGjYZdV9p5jUgsgyryDJY] and [471MDwmCjPzxiiN91t3sYy]
+        short-trace [AZeNqGMYYysy131Agpv3PH] and [8rbu4G9mbG3K1CoqipFzbC]
+        short-trace [6ChBiZLzcwazFdKadCwte9] and [8rbu4G9mbG3K1CoqipFzbC]
+        short-trace [4RaC2kP1gf3tidCaXXwiPj] and [8rbu4G9mbG3K1CoqipFzbC]
+      symbol :
+        [1111111111RDSxiu6Y]
+      named? :
+        true
+    named-net 72136 :
+      name : QVAR2
+      nets :
+        net [1111111111MSufYGqJ] = QVAR2
+      pins :
+        [8pbkexdc7ttA7e6uVtj7QA]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72124 :
+      name : BCLK
+      nets :
+        net [1111111111MPXsZxYQ] = false
+      pins :
+        [ESCbReBEGtmxex6hYpZ8nZ]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72140 :
+      name : FOD
+      nets :
+        net [1111111111MU3SQCE8] = false
+        net [1111111111MU8NK3YT] = false
+        net [1111111111MUGVAeAv] = false
+      pins :
+        [2UWGYpb3Snmvmrd7YNvYoB]
+        [yTPeubzTz7gBv6C653XsP]
+        [6u5cGacB57JUgaYaqyWwUg]
+        [2TVKtAvyFgcsem7bnNMhBG]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72083 :
+      name : mcu.q-spi.cs
+      nets :
+        net [1111111111M1FzGZaC] = false
+        net [1111111111M1P7L45n] = false
+        net [1111111111M1VWx8Nc] = false
+      pins :
+        [7AeMTKVPxfQ9wXmhiBsCes]
+        [9HjunMbX2xBTetGrjcbJq5]
+      requires :
+        [C7C3ZdWkh8WPASpFqyvcJT]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72120 :
+      name : DATIN
+      nets :
+        net [1111111111MNarai1r] = false
+      pins :
+        [7TY4F4RDbysiAW3WPEhMgL]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72103 :
+      name : LX
+      nets :
+        net [1111111111M9CGaNYc] = false
+      pins :
+        [BwoT3AtiPFwPUuVpwCNmA5]
+        [AvpQQjRgj98LSxTR9btNWe]
+      requires :
+      short-traces :
+        short-trace [AvpQQjRgj98LSxTR9btNWe] and [BwoT3AtiPFwPUuVpwCNmA5]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72100 :
+      name : mcu.mcu-mem.sdio[3]
+      nets :
+        net [1111111111M8J8X3xh] = false
+        net [1111111111M8QUTuBM] = false
+      pins :
+        [APEkG9hchShsBT5UJUFaRe]
+        [FnUYhdSRKHjmazZeoVLsJq]
+      requires :
+        [79Q4HvvdG35ZR9tYkR9NvP]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72150 :
+      name : mcu.conn-uart.tx
+      nets :
+        net [1111111111MY4yXMPt] = false
+      pins :
+        [C9yjp9cRocmwGNp5ASKa9V]
+        [6rTar9y5Ui44kiJCxFkqyv]
+      requires :
+        [FQ1yU7u1DGHMUtiCPfzND9]
+        [Cxqw4x5LzFKtLagQoiudfV]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72076 :
+      name : cap.p[1]
+      nets :
+        net [1111111111LxvWay2p] = false
+      pins :
+        [5BB91NXjLytW9nsE38hqVs]
+        [AS4jU4BmnUSn5BEucDPDAF]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72153 :
+      name : mcu.mcu-etm.clk
+      nets :
+        net [1111111111MZaCfv8a] = false
+      pins :
+        [CDd1wg5juKuQR3TLyhmVfY]
+        [E4dUb51KZ2i61y8YQFh8sC]
+      requires :
+        [4TLe1DKRNbQ1h7BbJVmMeF]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72148 :
+      name : mcu.conn-uart.rx
+      nets :
+        net [1111111111MXPstFQX] = false
+      pins :
+        [7Vv8AVRgCTapx8cSRCrbH9]
+        [691bpoccxifYoU3iemyPVW]
+      requires :
+        [Fn8wqYXAiEBq8BgXWgiJTX]
+        [5BXYyhDha4xcCJ5iBBDMpm]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72095 :
+      name : VDD3P0
+      nets :
+        net [1111111111M6AMtNo3] = false
+        net [1111111111M6GPwSLK] = false
+        net [1111111111M6NDo4yP] = false
+        net [1111111111M6VZoJLz] = VDD3P0
+        net [1111111111M6a6F7JA] = false
+        net [1111111111M6gedgAg] = false
+        net [1111111111M6oy5mR5] = false
+        net [1111111111M6w67iSV] = false
+      pins :
+        [9p5cUFPCV7GHL7yCQfSoBC]
+        [BMcvWxgkDiA4bNtzYeDS94]
+        [AWRhD4yu6KJUeq5wXbTsAt]
+        [5czWpSwsCcfCakM4qR6Qmt]
+        [8bvfvxsPaDe63hXD1ksxDY]
+        [63Ka3cHW6kYU7qVLeSFf2N]
+      requires :
+      short-traces :
+        short-trace [63Ka3cHW6kYU7qVLeSFf2N] and [BMcvWxgkDiA4bNtzYeDS94]
+        short-trace [AWRhD4yu6KJUeq5wXbTsAt] and [8bvfvxsPaDe63hXD1ksxDY]
+        short-trace [5czWpSwsCcfCakM4qR6Qmt] and [9p5cUFPCV7GHL7yCQfSoBC]
+      symbol :
+        [1111111111RDSxiu6Y]
+      named? :
+        true
+    named-net 72157 :
+      name : OUT-
+      nets :
+        net [1111111111MaUZTteJ] = false
+      pins :
+        [5kahoFhaExNBMUpgnwpZf3]
+        [BA4jmegWra3bVVNxfFQU8Y]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72145 :
+      name : RECT
+      nets :
+        net [1111111111MWPypC1f] = false
+        net [1111111111MWW7JFNQ] = false
+        net [1111111111MWco6Wom] = false
+      pins :
+        [EarF4RXgDgMZMBGFxvq3HN]
+        [Df4cP2pEetk5E7FK6YQDyU]
+        [GChSXoBJUPmMs1B5RWstfr]
+        [4PpLyHPhfQdXvoQysf7zSR]
+      requires :
+      short-traces :
+        short-trace [EarF4RXgDgMZMBGFxvq3HN] and [GChSXoBJUPmMs1B5RWstfr]
+        short-trace [Df4cP2pEetk5E7FK6YQDyU] and [GChSXoBJUPmMs1B5RWstfr]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72088 :
+      name : board-io.rgb.r
+      nets :
+        net [1111111111M35Nj96g] = false
+        net [1111111111M3CTb1Ay] = false
+        net [1111111111M3L5A1nR] = false
+      pins :
+        [EXrLv7h1uyQUe2AY9NWFE5]
+        [CdFxCrnkii5HJdAZ8iqJhZ]
+      requires :
+        [3HujTSaTHzPkGeEJq9ubUk]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72082 :
+      name : mcu.q-spi.sdi
+      nets :
+        net [1111111111LzvRw6bY] = false
+        net [1111111111M15cmCwR] = false
+        net [1111111111M19ZwbtR] = false
+      pins :
+        [9s4acJ7A5oHPx1LN5ZovQM]
+        [6yPMsMSZ2DYfXstcAhojfh]
+      requires :
+        [96ycgq3ny7x4ptnu1UjPrp]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72105 :
+      name : LY
+      nets :
+        net [1111111111MKStc6Ro] = false
+      pins :
+        [5TVsdpKTJm8FESdZ26Ps9B]
+        [8uE2Kd3jrnJ1mefX6Qk6xM]
+      requires :
+      short-traces :
+        short-trace [8uE2Kd3jrnJ1mefX6Qk6xM] and [5TVsdpKTJm8FESdZ26Ps9B]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72079 :
+      name : board-io.qsen-i3c.scl
+      nets :
+        net [1111111111Lyhd6eix] = false
+        net [1111111111Lyqiys3v] = false
+        net [1111111111LywRVb2r] = false
+        net [1111111111Lz53FU1a] = false
+        net [1111111111LzA61MPm] = false
+      pins :
+        [69QCpy1VzD4BGhtv35j7eA]
+        [ESizPC1fLpkyaF8qrTpF7f]
+        [5bFBjHJMRZBjGs9cXGbNxs]
+        [FEVUUoZu8qB92vNLrtpUW]
+      requires :
+        [QRPsSm9CwKSH4ThWBNPjs]
+        [5PaQpuBijhpV61JimLgLvB]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72108 :
+      name : XTAL32Mm
+      nets :
+        net [1111111111MKmTEr1b] = false
+      pins :
+        [G2y2xuFjfv5yRnffEd8d32]
+        [C9p6sd721ebh6JWVBNCxLe]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72084 :
+      name : mcu.mcu-button[0].gpio
+      nets :
+        net [1111111111M1ef4oiM] = false
+        net [1111111111M1mJE5XP] = false
+        net [1111111111M1sr3z3Y] = false
+      pins :
+        [46hFN85BSmoTSaZzcXUnPQ]
+        [4LR8prk2H28EMkmj5tWHZo]
+        [CuZcC5ebrL5YC5K1uY7xiV]
+      requires :
+        [7pD3UVJS4rTYFcgotuXWDp]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72167 :
+      name : V12
+      nets :
+        net [1111111111McEv1iaL] = false
+      pins :
+        [CqSiW3QJRra8EStaQN8tSG]
+        [BgLQAy4ZzVqS8UDMStGact]
+      requires :
+      short-traces :
+        short-trace [BgLQAy4ZzVqS8UDMStGact] and [CqSiW3QJRra8EStaQN8tSG]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72147 :
+      name : mcu.hap-i2c.sda
+      nets :
+        net [1111111111MWqnxDvu] = false
+        net [1111111111MWwmjmh9] = false
+        net [1111111111MX6HqFDx] = false
+        net [1111111111MXBnDhVV] = false
+        net [1111111111MXHuVTfz] = false
+      pins :
+        [3GzHzTP7ZVeCudKruDE978]
+        [4smBEDFMVuHywPpv2oSBJG]
+        [8PKnD7rzWDkHh9UwgDvb5i]
+      requires :
+        [As4rTU6zfSwDn1UYmwUcAH]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72142 :
+      name : mcu.mcu-wpwr[2].gpio
+      nets :
+        net [1111111111MVpc62qT] = false
+        net [1111111111MVvNgScV] = false
+        net [1111111111MW5Ztxk1] = false
+      pins :
+        [7FSNEKYYLi6QTPecuNXdei]
+        [B4CpXZdcpMaCkvafxZwNb4]
+      requires :
+        [3aPbCyPJjUKuZuE27vmJjm]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72129 :
+      name : mcu.mcu-wpwr[3].gpio
+      nets :
+        net [1111111111MR6yKZxm] = false
+        net [1111111111MRBGqdUZ] = false
+        net [1111111111MRJZhnek] = false
+        net [1111111111MRRsdzfw] = false
+      pins :
+        [2B1HGNarx2Tcr4vrnNL9QJ]
+        [4kCQ2guizzfToHZTUTetBz]
+        [G4bn1mjTPearBQMe6zeyLN]
+      requires :
+        [4d3RtrV5D1fHMmc4A7j2EZ]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72158 :
+      name : mcu.mcu-etm.data[1]
+      nets :
+        net [1111111111MaYkaTYn] = false
+      pins :
+        [7ZP7TLbFHwieg3kcwvyySC]
+        [5tGZNAx7uhzzUuyAuzYmFU]
+      requires :
+        [5uHKMriwwsXvtYLFoWicEs]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72085 :
+      name : mcu.mcu-button[1].gpio
+      nets :
+        net [1111111111M1yJhsx1] = false
+        net [1111111111M25MsdNi] = false
+        net [1111111111M2AKvigw] = false
+      pins :
+        [AhpjDDR228qsnxEWMMTdS6]
+        [EFyzrVupocKYTMkKwC78jq]
+        [15cjTeQiciYy8dUsHBwiSZ]
+      requires :
+        [2FV1PRB9qoaweuj5H7RFZR]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72169 :
+      name : V14RF
+      nets :
+        net [1111111111McWEJEbV] = false
+        net [1111111111Mcc4VJCb] = false
+        net [1111111111Mch6F8hE] = false
+      pins :
+        [6wBwx4ALTNBDYvnb3XM8pA]
+        [2PVPfPuxpHDuRNsn5WJxhP]
+        [2f71mpDhQjq2NXQU81b9BS]
+        [DQi2KV4Uko6gRCEezc2NBG]
+      requires :
+      short-traces :
+        short-trace [DQi2KV4Uko6gRCEezc2NBG] and [2PVPfPuxpHDuRNsn5WJxhP]
+        short-trace [6wBwx4ALTNBDYvnb3XM8pA] and [2f71mpDhQjq2NXQU81b9BS]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72117 :
+      name : codec-i2c-net.scl
+      nets :
+        net [1111111111MM2NBLTC] = codec-i2c-net.scl
+        net [1111111111MMAkzdAE] = false
+        net [1111111111MMEXo4WM] = false
+        net [1111111111MMM8tUp2] = false
+        net [1111111111MMTYjX6X] = false
+      pins :
+        [2ZAL1uoio7tp12Uo9xhrDk]
+        [2WZJGhnrXG38PLPPSXHgAP]
+        [EyYhvxKVsNewyEg9RsXbga]
+      requires :
+        [E2fivS8KRH7PRxzeD3Vmag]
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72133 :
+      name : mcu.mcu-wpwr[1].gpio
+      nets :
+        net [1111111111MSE97u8g] = false
+        net [1111111111MSKZKAbi] = false
+        net [1111111111MSSmVoY2] = false
+        net [1111111111MSaekBZo] = false
+      pins :
+        [6fFZZBHibQ3sRdZEwmntGj]
+        [4HUmZktYKGbQs1t31FNTwS]
+        [GV5YmmvnUR9ZGfAQLUyNXX]
+      requires :
+        [3QdhfybS7GAsXZ9AqrAnJs]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72159 :
+      name : CLAMP1
+      nets :
+        net [1111111111Magiw3tV] = false
+      pins :
+        [DjmWSxyVYvdQJrhtbirB3X]
+        [4z1wVYMGQ6h1uA6qfoWXsk]
+      requires :
+      short-traces :
+        short-trace [4z1wVYMGQ6h1uA6qfoWXsk] and [DjmWSxyVYvdQJrhtbirB3X]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72098 :
+      name : MICBIAS1
+      nets :
+        net [1111111111M7V7vN71] = false
+        net [1111111111M7cefgjZ] = false
+        net [1111111111M7j33cS8] = false
+        net [1111111111M7qYbrDN] = false
+        net [1111111111M7vyCsTy] = false
+      pins :
+        [Fo8yLL8ep3QyDHdJsv9z8b]
+        [6np3eCPJ4NVBu1SHvzBZ1e]
+        [6vechcJf9CPidH76VEmTw6]
+      requires :
+      short-traces :
+        short-trace [6np3eCPJ4NVBu1SHvzBZ1e] and [Fo8yLL8ep3QyDHdJsv9z8b]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72097 :
+      name : mcu.mcu-mem.sdio[1]
+      nets :
+        net [1111111111M7HBPe3S] = false
+        net [1111111111M7QCupqX] = false
+      pins :
+        [FH4p6rxp1HrknGjpyGZ5aq]
+        [6wjvE4yy6ZMrx66WoZxWMj]
+      requires :
+        [3MUxryLtc7r1zYCr3iEnvz]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72102 :
+      name : VDIG
+      nets :
+        net [1111111111M944Biap] = false
+      pins :
+        [4RuipDMZddbcCeAbBYer17]
+        [358M821LHWEyfRGthph7x3]
+      requires :
+      short-traces :
+        short-trace [4RuipDMZddbcCeAbBYer17] and [358M821LHWEyfRGthph7x3]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72116 :
+      name : SHIELD
+      nets :
+        net [1111111111MLfcDACG] = false
+        net [1111111111MLotZAAK] = SHIELD
+        net [1111111111MLvhW7Vg] = false
+      pins :
+        [FnbxXn1x5YEWHxNSMq3XN3]
+        [EfaTj6vi5faSCA2iFdetJL]
+        [EkKK6HXhS7Bvwe4ZweVXnE]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72155 :
+      name : mcu.mcu-etm.data[0]
+      nets :
+        net [1111111111MZmQsGHM] = false
+      pins :
+        [67SEywVCiQtPmyqjmSg5rF]
+        [ChZkBnxb7CoJY2XMhHMoc7]
+      requires :
+        [4gFpNiaqGRdn5SVEW42NQB]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72164 :
+      name : VBAT
+      nets :
+        net [1111111111MbhQgxDf] = false
+        net [1111111111Mbpg7NhR] = false
+        net [1111111111MbuBdDc1] = false
+      pins :
+        [3VFe3MXjCcUQFowNEMPpxj]
+        [3kQYP8rx4FrWFDx5ahS6nK]
+        [EB9HSEbVSiHSCtcwawy6pD]
+      requires :
+      short-traces :
+        short-trace [3VFe3MXjCcUQFowNEMPpxj] and [3kQYP8rx4FrWFDx5ahS6nK]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72099 :
+      name : mcu.mcu-mem.sdio[2]
+      nets :
+        net [1111111111M84FWwcc] = false
+        net [1111111111M89fDqyn] = false
+      pins :
+        [ABzavAJP9U7pdHFoC1N75C]
+        [vdmhDGb2ZwrHvtyimQTTQ]
+      requires :
+        [ExvPruCTDW5pMfeiSUUrjL]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72080 :
+      name : mcu.q-spi.sdo
+      nets :
+        net [1111111111LzFSumUo] = false
+        net [1111111111LzP8sjWU] = false
+        net [1111111111LzVczYKC] = false
+      pins :
+        [C7p2zgpKmGyZSxtRwhsQfr]
+        [2uysxabmb5a9TKuwvFAiu1]
+      requires :
+        [BtzJRWQJ7JZz3o3ZVL8KRU]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72156 :
+      name : AC1
+      nets :
+        net [1111111111MZtmfw6X] = false
+        net [1111111111MZzN7oic] = false
+        net [1111111111Ma8VV9MQ] = false
+        net [1111111111MaDewgbp] = false
+        net [1111111111MaKRa8VL] = false
+      pins :
+        [F66RsbHrC8QA8v11UrP2h4]
+        [DZi7M4WW9oDPFWMTC5jYnL]
+        [2K8Frv9camACdEQwkLrBY3]
+        [Gh5x8Xa174k3n3ybNQUJ1n]
+        [7NHuMezmppEDmk7fUrgJth]
+        [BqkPUxcsCyifAd9mtA7Gss]
+      requires :
+      short-traces :
+        short-trace [F66RsbHrC8QA8v11UrP2h4] and [7NHuMezmppEDmk7fUrgJth]
+        short-trace [Gh5x8Xa174k3n3ybNQUJ1n] and [7NHuMezmppEDmk7fUrgJth]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72078 :
+      name : board-io.qsen-i3c.sda
+      nets :
+        net [1111111111Ly9AsPV2] = false
+        net [1111111111LyGDUJFy] = false
+        net [1111111111LyN7gvDw] = false
+        net [1111111111LyVFVEFp] = false
+        net [1111111111LycmAx4S] = false
+      pins :
+        [4AkbgspAPkJdSLoZ63BCwt]
+        [93diejw4Gm3To8fNr4K1PB]
+        [Fcz7U3dZiZV5P8bXM3EvVz]
+        [DRA3ZyiPHBjZZfrPgbykEr]
+      requires :
+        [2q9XFXZGhET7eLs82pWLuX]
+        [5rFz1AHZpbdwqV25Ho8zP8]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72119 :
+      name : codec-i2c-net.sda
+      nets :
+        net [1111111111MN3Gk5tb] = false
+        net [1111111111MN9rEcyu] = codec-i2c-net.sda
+        net [1111111111MNGvWpya] = false
+        net [1111111111MNNMmZWz] = false
+        net [1111111111MNVtHA9G] = false
+      pins :
+        [EMa14g7vn93NubgTJUfqYZ]
+        [6Z2iS1DmtjM6ZhArvpxzMx]
+        [4aFD7S5qqdn3oYDiS57Y6x]
+      requires :
+        [BTtFHaa6ULRaqhqP6zx2he]
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72081 :
+      name : mcu.q-spi.sck
+      nets :
+        net [1111111111LzaxSm1Y] = false
+        net [1111111111LziuP3TV] = false
+        net [1111111111LzorEBP9] = false
+      pins :
+        [AAiR68e5uj8fsdc17sdTqi]
+        [AJ3H4dKWv9JbSmH68Lwwdf]
+      requires :
+        [7Cu2XEeX2xwKsBGovqxwu6]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72130 :
+      name : TDMOUT
+      nets :
+        net [1111111111MRX6aCow] = false
+      pins :
+        [4aRf1wxbammYu2XCjZMepr]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72138 :
+      name : mcu.hap-gpio[1].gpio
+      nets :
+        net [1111111111MTUqafj1] = false
+        net [1111111111MTbkXFfW] = false
+        net [1111111111MTi2w3YS] = false
+        net [1111111111MTpkEdHY] = false
+      pins :
+        [62EjaPuYeMPmviQnpmMK9R]
+        [DBToL3UYfQtaNTZgnXjMh9]
+      requires :
+        [2q3Ngbw6iTvhaop3RvWR4E]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72154 :
+      name : OUT+
+      nets :
+        net [1111111111MZfdMQ9L] = false
+      pins :
+        [BaeWrt9iDu1Noiq8afjZw9]
+        [6UjyTfCue1h6h2UmjqeYvM]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72170 :
+      name : BOOT2
+      nets :
+        net [1111111111McocoCG1] = false
+      pins :
+        [R6xJnB9894kHLYyS1RxKM]
+        [4VqoNRqm3qoBL2MLxk1DTs]
+      requires :
+      short-traces :
+        short-trace [4VqoNRqm3qoBL2MLxk1DTs] and [R6xJnB9894kHLYyS1RxKM]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72127 :
+      name : MCLK
+      nets :
+        net [1111111111MPqr9aAh] = false
+      pins :
+        [D9HQWm3oxqhsu6P7H9xpwL]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72086 :
+      name : codec-pdm-net.clk
+      nets :
+        net [1111111111M2Hrhrg5] = codec-pdm-net.clk
+        net [1111111111M2PZnxic] = false
+        net [1111111111M2WSLsAA] = false
+        net [1111111111M2dqJGLu] = false
+      pins :
+        [BscrgYBF25jJTqBMx23Q1Y]
+        [4kKQAqnoftmMpVZGQkVfZq]
+      requires :
+        [EnEaE9dmxvpcgprbLGFKBf]
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72090 :
+      name : board-io.rgb.g
+      nets :
+        net [1111111111M3s6126q] = false
+        net [1111111111M3yZ5FF2] = false
+        net [1111111111M47cSEGU] = false
+      pins :
+        [AtuEq4GG9Eu7UNsdDYrc8L]
+        [B3mff3cs8ptez2oDzp7gz]
+      requires :
+        [DPmQHhZkVtQZV57Am2P7Y7]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72092 :
+      name : mcu.mcu-mem.sck
+      nets :
+        net [1111111111M4ZH3zZW] = false
+        net [1111111111M4gX5FRi] = false
+      pins :
+        [CLJfEaxFBpHMt3xiUyqbCB]
+        [2gtUoWFuhxnmN5DyaeTav5]
+      requires :
+        [DuawA2A33SG8kodDKZb61V]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72094 :
+      name : mcu.mcu-mem.cs
+      nets :
+        net [1111111111M5ti2uPr] = false
+        net [1111111111M63Uy9f7] = false
+      pins :
+        [9MjSx4fsCS2jcYS78sRmGe]
+        [5KsnXmk6XkWpTU1fNVPUpZ]
+      requires :
+        [3SUVrg5uZvyE4p4V4dba6P]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72115 :
+      name : VREF
+      nets :
+        net [1111111111MLbLsKKa] = false
+      pins :
+        [Dw2zexj65BfrgEyKL7eFGh]
+        [Bd6DZma7uwRutMoPhBSrMT]
+      requires :
+      short-traces :
+        short-trace [Bd6DZma7uwRutMoPhBSrMT] and [Dw2zexj65BfrgEyKL7eFGh]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72096 :
+      name : mcu.mcu-mem.sdio[0]
+      nets :
+        net [1111111111M72D9r33] = false
+        net [1111111111M7B7M8Xm] = false
+      pins :
+        [FptWFVxs4mo2NiHPYVqFRE]
+        [4EEWrrNp9CWfWbi1ZhR69g]
+      requires :
+        [4pG3W73NSQTMEmRi8C7kGX]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72149 :
+      name : mcu.hap-i2c.scl
+      nets :
+        net [1111111111MXXaVd7X] = false
+        net [1111111111MXcEruKC] = false
+        net [1111111111MXkUsFJw] = false
+        net [1111111111MXrWAumy] = false
+        net [1111111111MXwxVrmX] = false
+      pins :
+        [5vbdV2RVyhVjwToUep8GGq]
+        [7D4WYwJp94SDMgTKirgFDH]
+        [67ENM3fv6F4DYnmtCos7Sk]
+      requires :
+        [DovmhizCFoTcjHyr8vA36z]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72112 :
+      name : VMID
+      nets :
+        net [1111111111MLEfyPCt] = false
+      pins :
+        [3nVnfCbYygUUPWvDonc5uL]
+        [93BSSSBGmSsDTWJmZvp7BL]
+      requires :
+      short-traces :
+        short-trace [3nVnfCbYygUUPWvDonc5uL] and [93BSSSBGmSsDTWJmZvp7BL]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72139 :
+      name : ILIM
+      nets :
+        net [1111111111MTv2mMAv] = false
+      pins :
+        [FWHSvQ8dUHBFKWNDm5bmtg]
+        [8zJL8ErviGmALSJs1RfL8M]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72087 :
+      name : mcu.mcu-button[2].gpio
+      nets :
+        net [1111111111M2iztZGp] = false
+        net [1111111111M2rDwLPd] = false
+        net [1111111111M2zXPNYY] = false
+      pins :
+        [13f1DeVE8JAk3Mvkb1BQXJ]
+        [EEf8CyuRcGaTbp5pZyxaaZ]
+        [FpJGwTGbjKhgAtUwB45LaP]
+      requires :
+        [FKan2Qno34sLjDBuGNrxKa]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72121 :
+      name : D+
+      nets :
+        net [1111111111MNkEQR8U] = false
+        net [1111111111MNqnDAXK] = false
+        net [1111111111MNx5ogXE] = D+
+      pins :
+        [37vgP5xk6GvG8Hx5QHGfRv]
+        [CWTmkpUq59URUuwzKUHpUe]
+        [GCpemHvM6uo4U695ESHwvW]
+      requires :
+        [BSMWpQbaezZwPBSuNMs7Ym]
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72163 :
+      name : CLAMP2
+      nets :
+        net [1111111111MbbsxQRz] = false
+      pins :
+        [2akkoZbRToGHGj5ojt1hZC]
+        [G1qa7UAohyU7t33RV9D5j9]
+      requires :
+      short-traces :
+        short-trace [2akkoZbRToGHGj5ojt1hZC] and [G1qa7UAohyU7t33RV9D5j9]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72114 :
+      name : DACREF
+      nets :
+        net [1111111111MLUcVzXh] = false
+      pins :
+        [F7c9CcYcpzfbJovUJrMo1Y]
+        [EB7mZpK1MwzuhzHoncxXFE]
+      requires :
+      short-traces :
+        short-trace [F7c9CcYcpzfbJovUJrMo1Y] and [EB7mZpK1MwzuhzHoncxXFE]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72131 :
+      name : mcu.mcu-wpwr[0].gpio
+      nets :
+        net [1111111111MReWqdnc] = false
+        net [1111111111MRnHXovo] = false
+        net [1111111111MRrVUfHq] = false
+        net [1111111111MRzv5v2h] = false
+      pins :
+        [5HEM8fLGbZLXAYM7qSkdt1]
+        [7axXkRxkb1BGf6myq2fJ6N]
+        [CJNdarb6nP8XMziVKy3NxS]
+      requires :
+        [35Zd7dS4NCrvMcqLK4A2DN]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72160 :
+      name : mcu.mcu-etm.data[2]
+      nets :
+        net [1111111111MangW9oY] = false
+      pins :
+        [75hfPz6hU7jZfQX6Mb6FYA]
+        [6Eseh1LhZXUYLrqgzpNhb3]
+      requires :
+        [4AfMHxATu62CwrrvZKwumH]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72171 :
+      name : SP_P
+      nets :
+        net [1111111111McxZ4nbA] = SP_P
+      pins :
+        [2aR9UQTEojkYcLcAMGSpMU]
+        [2Cy3g9hjVqWXuFDcmaoRbM]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72109 :
+      name : RF1
+      nets :
+        net [1111111111MKv8pxdq] = RF1
+      pins :
+        [ERVnPJG74pouq143eFyVqu]
+        [GYwVrc8txHChiGeudvQGey]
+        [E5EyJbKf5KtJDyEcRxoZvt]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72143 :
+      name : REG
+      nets :
+        net [1111111111MWBF7PNa] = false
+      pins :
+        [CFnSwFgmUMoM2GqsgoAQ4e]
+        [9Du95781QurgF4duJrkxa]
+      requires :
+      short-traces :
+        short-trace [CFnSwFgmUMoM2GqsgoAQ4e] and [9Du95781QurgF4duJrkxa]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72166 :
+      name : COMM2
+      nets :
+        net [1111111111Mc8iTLdh] = false
+      pins :
+        [7Mk7zSY6NgYD9qTdYKThUR]
+        [DzSXP3VJzj5yNC4warRQkR]
+      requires :
+      short-traces :
+        short-trace [7Mk7zSY6NgYD9qTdYKThUR] and [DzSXP3VJzj5yNC4warRQkR]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72101 :
+      name : V18F
+      nets :
+        net [1111111111M8VVQz1T] = false
+        net [1111111111M8dciGzm] = false
+        net [1111111111M8hqWwVC] = false
+        net [1111111111M8s1CoUi] = false
+        net [1111111111M8x7xdke] = false
+      pins :
+        [BmttJGSWbU38QPZzJ2CrAV]
+        [FoeyzZhXAuJ5b1WSh31PRu]
+        [5ERvSdmjk6tdteR3MLMYjM]
+        [3aziYmr7ckejcC6usTwtFP]
+        [BMakR1xJXWrif9yMUH64j1]
+      requires :
+      short-traces :
+        short-trace [BMakR1xJXWrif9yMUH64j1] and [3gRFhSgRj7Cb1yna8rEgha]
+        short-trace [FoeyzZhXAuJ5b1WSh31PRu] and [5ERvSdmjk6tdteR3MLMYjM]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72168 :
+      name : BOOT1
+      nets :
+        net [1111111111McQ362hq] = false
+      pins :
+        [6f4VicSmDBkndVPG8bS8Bf]
+        [BrohJZLCsY3n8e7scP5kJA]
+      requires :
+      short-traces :
+        short-trace [6f4VicSmDBkndVPG8bS8Bf] and [BrohJZLCsY3n8e7scP5kJA]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72106 :
+      name : LZ
+      nets :
+        net [1111111111MKXxxie3] = false
+      pins :
+        [2zonXmbisMXDZcoH8MvRxN]
+        [8uhuC9Ryoxk8NMBtq8EHBv]
+      requires :
+      short-traces :
+        short-trace [8uhuC9Ryoxk8NMBtq8EHBv] and [2zonXmbisMXDZcoH8MvRxN]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72110 :
+      name : MICBIAS2
+      nets :
+        net [1111111111ML1us3GQ] = false
+      pins :
+        [CZe9M1zxL756H9FmP6unY4]
+        [A3CmePsWRAGCk8TkH4s54U]
+      requires :
+      short-traces :
+        short-trace [CZe9M1zxL756H9FmP6unY4] and [A3CmePsWRAGCk8TkH4s54U]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72132 :
+      name : imu.BCLK
+      nets :
+        net [1111111111MS8ZwS1v] = false
+      pins :
+        [3vUf8mgjpZFfKcmVF1juBS]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72146 :
+      name : mcu.dbg-m33.swdclk
+      nets :
+        net [1111111111MWkTReTx] = false
+      pins :
+        [7tS2DHXYPgMhCtMZpPx5q1]
+        [8qd9DLaMRUrA6EzHBv7ZGM]
+      requires :
+        [FRc6L47L9vwBU5bawwzoTY]
+        [AfNfHwjpWNEPbywTq5Yzku]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72091 :
+      name : board-io.rgb.b
+      nets :
+        net [1111111111M4EGDaoX] = false
+        net [1111111111M4LfasJ1] = false
+        net [1111111111M4SD41vA] = false
+      pins :
+        [CXmWQZd5De3vcFhWz2bcVP]
+        [3nmzk6dRPmr8TzAyt7e1oV]
+      requires :
+        [GeJDUy5hr9E5FkME6LJS32]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72107 :
+      name : XTAL32Mp
+      nets :
+        net [1111111111MKgcpjPq] = false
+      pins :
+        [9dPBbT3aj8sQBKRHQ998WZ]
+        [CrwxBhbmfh7ejTdXfDvu2P]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72123 :
+      name : D-
+      nets :
+        net [1111111111MPBPdX7p] = false
+        net [1111111111MPGTHK9u] = false
+        net [1111111111MPP2VLWs] = D-
+      pins :
+        [2u6KRaXFkqqZEgJPjhrpWr]
+        [42SoJKvMQG7tyZ2v2ruA4K]
+        [EyFjvEg96iVkJWJzqLWKGj]
+      requires :
+        [CdyR3nfHZFrHF7ekHUqkms]
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72126 :
+      name : WCLK
+      nets :
+        net [1111111111MPm11nnN] = false
+      pins :
+        [4JNPDv2SbyRDAP4Bd7cGxN]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72135 :
+      name : QVAR1
+      nets :
+        net [1111111111MSoCnRZh] = QVAR1
+      pins :
+        [bmPCV4iJN4o9UMyG7yCmN]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72144 :
+      name : mcu.mcu-dbg-m33.swdio
+      nets :
+        net [1111111111MWGWhLyM] = false
+      pins :
+        [5kyrg55Yau3QfRGm5m6eR7]
+        [DNquNKusHrcdVUxhjTBSiu]
+      requires :
+        [9Vbqva2kN33JyY8fgUvPwW]
+        [3juTJM6KL2iLkrPTUAqCxN]
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72165 :
+      name : COMM1
+      nets :
+        net [1111111111Mc4FXEfw] = false
+      pins :
+        [7HeGiBu8a3XbSTE6gj9QaW]
+        [5uKnbuBxhwHCbkBscEfoQT]
+      requires :
+      short-traces :
+        short-trace [7HeGiBu8a3XbSTE6gj9QaW] and [5uKnbuBxhwHCbkBscEfoQT]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72113 :
+      name : RF3
+      nets :
+        net [1111111111MLNu5UR8] = RF3
+      pins :
+        [EzcdJhCPjXi6y4UeJ3rVEe]
+        [4d4s7Zsg6R4aJ4Mo1AuLj9]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72111 :
+      name : RF2
+      nets :
+        net [1111111111ML7anpzL] = RF2
+      pins :
+        [A8nUXahPS1WjKgNmpPcKVb]
+        [8KF1CzEKohqCKActJHQ61]
+        [CdQa222oGgxM5fkx1ZupjM]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72125 :
+      name : ID
+      nets :
+        net [1111111111MPdvnuHE] = ID
+      pins :
+        [7tZdiCgRbpk9VzsTfLKiSp]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72118 :
+      name : VLED
+      nets :
+        net [1111111111MMaMUSbc] = false
+        net [1111111111MMhfbtgG] = false
+        net [1111111111MMqzsU4G] = false
+        net [1111111111MMupdsn2] = false
+      pins :
+        [9gBjbwSkxFUxUdVFNq7Wu]
+        [95HYKPqnTbNzUK6KWU9aoR]
+        [5vw8iY13KtxQfhTy9r9BbT]
+      requires :
+      short-traces :
+        short-trace [95HYKPqnTbNzUK6KWU9aoR] and [5vw8iY13KtxQfhTy9r9BbT]
+      symbol :
+        false
+      named? :
+        false
+    named-net 72089 :
+      name : codec-pdm-net.data
+      nets :
+        net [1111111111M3SnKtgF] = codec-pdm-net.data
+        net [1111111111M3YMDfLf] = false
+        net [1111111111M3fg6aSF] = false
+        net [1111111111M3mDMRuk] = false
+      pins :
+        [4kutkCWUa6xg5Yi2uqEnoL]
+        [81Tid3HnHL2FKmJHE7dmsZ]
+      requires :
+        [4zkgVeGY37fAfFDBQMAJHZ]
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72077 :
+      name : SP_N
+      nets :
+        net [1111111111Ly25TEP6] = SP_N
+      pins :
+        [3t3KukZyHFsFkzwHHvx5sj]
+        [DZSDytyhWBKXkdSQDzvG6S]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        true
+    named-net 72122 :
+      name : DATOUT
+      nets :
+        net [1111111111MP3hvc8c] = false
+      pins :
+        [Dwbk24CHLH8xeTp4CtX8bb]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+    named-net 72134 :
+      name : imu.WCLK
+      nets :
+        net [1111111111MSeRSAbA] = false
+      pins :
+        [D7rVq4HixzhU1ZsfSPgZkn]
+      requires :
+      short-traces :
+      symbol :
+        false
+      named? :
+        false
+  supports :
+  assignments :
+    single-pin-assignment : [4zkgVeGY37fAfFDBQMAJHZ] => [4kutkCWUa6xg5Yi2uqEnoL]
+    single-pin-assignment : [EnEaE9dmxvpcgprbLGFKBf] => [BscrgYBF25jJTqBMx23Q1Y]
+    single-pin-assignment : [2q9XFXZGhET7eLs82pWLuX] => [DRA3ZyiPHBjZZfrPgbykEr]
+    single-pin-assignment : [QRPsSm9CwKSH4ThWBNPjs] => [ESizPC1fLpkyaF8qrTpF7f]
+    single-pin-assignment : [3HujTSaTHzPkGeEJq9ubUk] => [CdFxCrnkii5HJdAZ8iqJhZ]
+    single-pin-assignment : [DPmQHhZkVtQZV57Am2P7Y7] => [AtuEq4GG9Eu7UNsdDYrc8L]
+    single-pin-assignment : [GeJDUy5hr9E5FkME6LJS32] => [CXmWQZd5De3vcFhWz2bcVP]
+    single-pin-assignment : [DuawA2A33SG8kodDKZb61V] => [CLJfEaxFBpHMt3xiUyqbCB]
+    single-pin-assignment : [3SUVrg5uZvyE4p4V4dba6P] => [9MjSx4fsCS2jcYS78sRmGe]
+    single-pin-assignment : [4pG3W73NSQTMEmRi8C7kGX] => [FptWFVxs4mo2NiHPYVqFRE]
+    single-pin-assignment : [3MUxryLtc7r1zYCr3iEnvz] => [FH4p6rxp1HrknGjpyGZ5aq]
+    single-pin-assignment : [ExvPruCTDW5pMfeiSUUrjL] => [vdmhDGb2ZwrHvtyimQTTQ]
+    single-pin-assignment : [79Q4HvvdG35ZR9tYkR9NvP] => [FnUYhdSRKHjmazZeoVLsJq]
+    single-pin-assignment : [E2fivS8KRH7PRxzeD3Vmag] => [1111111111Not1pHuN]
+    single-pin-assignment : [BTtFHaa6ULRaqhqP6zx2he] => [1111111111Np6UY7Ea]
+    single-pin-assignment : [5PaQpuBijhpV61JimLgLvB] => [5bFBjHJMRZBjGs9cXGbNxs]
+    single-pin-assignment : [5rFz1AHZpbdwqV25Ho8zP8] => [4AkbgspAPkJdSLoZ63BCwt]
+    single-pin-assignment : [7Cu2XEeX2xwKsBGovqxwu6] => [1111111111NUiSpRFA]
+    single-pin-assignment : [BtzJRWQJ7JZz3o3ZVL8KRU] => [1111111111NUtZ3AL9]
+    single-pin-assignment : [96ycgq3ny7x4ptnu1UjPrp] => [1111111111NV8nELfG]
+    single-pin-assignment : [C7C3ZdWkh8WPASpFqyvcJT] => [1111111111NVNpuqvL]
+    single-pin-assignment : [7pD3UVJS4rTYFcgotuXWDp] => [4LR8prk2H28EMkmj5tWHZo]
+    single-pin-assignment : [2FV1PRB9qoaweuj5H7RFZR] => [15cjTeQiciYy8dUsHBwiSZ]
+    single-pin-assignment : [FKan2Qno34sLjDBuGNrxKa] => [13f1DeVE8JAk3Mvkb1BQXJ]
+    single-pin-assignment : [DovmhizCFoTcjHyr8vA36z] => [1111111111NpTZDnLL]
+    single-pin-assignment : [As4rTU6zfSwDn1UYmwUcAH] => [1111111111NpeAX4MG]
+    single-pin-assignment : [7NZUKUjv2foU6xqJNXbyUT] => [3mYYZz1h1c1nx7ZD5aH4Gp]
+    single-pin-assignment : [2q3Ngbw6iTvhaop3RvWR4E] => [DBToL3UYfQtaNTZgnXjMh9]
+    single-pin-assignment : [35Zd7dS4NCrvMcqLK4A2DN] => [5HEM8fLGbZLXAYM7qSkdt1]
+    single-pin-assignment : [3QdhfybS7GAsXZ9AqrAnJs] => [4HUmZktYKGbQs1t31FNTwS]
+    single-pin-assignment : [3aPbCyPJjUKuZuE27vmJjm] => [B4CpXZdcpMaCkvafxZwNb4]
+    single-pin-assignment : [4d3RtrV5D1fHMmc4A7j2EZ] => [4kCQ2guizzfToHZTUTetBz]
+    single-pin-assignment : [9mPcxtbNyKgkJEpkJBRynA] => [5A79evgdVvNjyMfnPCQY7v]
+    single-pin-assignment : [8MDLQZcBdo7MyfjZG75YWg] => [DbMeXsoobciMrgZc6NV5nj]
+    single-pin-assignment : [3juTJM6KL2iLkrPTUAqCxN] => [5kyrg55Yau3QfRGm5m6eR7]
+    single-pin-assignment : [FRc6L47L9vwBU5bawwzoTY] => [7tS2DHXYPgMhCtMZpPx5q1]
+    single-pin-assignment : [9Vbqva2kN33JyY8fgUvPwW] => [DNquNKusHrcdVUxhjTBSiu]
+    single-pin-assignment : [AfNfHwjpWNEPbywTq5Yzku] => [8qd9DLaMRUrA6EzHBv7ZGM]
+    single-pin-assignment : [Fn8wqYXAiEBq8BgXWgiJTX] => [7Vv8AVRgCTapx8cSRCrbH9]
+    single-pin-assignment : [FQ1yU7u1DGHMUtiCPfzND9] => [C9yjp9cRocmwGNp5ASKa9V]
+    single-pin-assignment : [5BXYyhDha4xcCJ5iBBDMpm] => [1111111111PT1acH9c]
+    single-pin-assignment : [Cxqw4x5LzFKtLagQoiudfV] => [1111111111PSmouGt1]
+    single-pin-assignment : [4TLe1DKRNbQ1h7BbJVmMeF] => [E4dUb51KZ2i61y8YQFh8sC]
+    single-pin-assignment : [4gFpNiaqGRdn5SVEW42NQB] => [67SEywVCiQtPmyqjmSg5rF]
+    single-pin-assignment : [5uHKMriwwsXvtYLFoWicEs] => [7ZP7TLbFHwieg3kcwvyySC]
+    single-pin-assignment : [4AfMHxATu62CwrrvZKwumH] => [75hfPz6hU7jZfQX6Mb6FYA]
+    single-pin-assignment : [AgUquJYNzwZRvFgQUzuq2F] => [G5oRSzXFgzAEj2PcZ8yKFo]
+    single-pin-assignment : [BSMWpQbaezZwPBSuNMs7Ym] => [CWTmkpUq59URUuwzKUHpUe]
+    single-pin-assignment : [CdyR3nfHZFrHF7ekHUqkms] => [42SoJKvMQG7tyZ2v2ruA4K]
+  generation : [E1MbUjQn8e2g7jtCzHLcSP]

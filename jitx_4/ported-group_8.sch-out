@@ -1,0 +1,145 @@
+box layout output :
+  inst 1428396 at loc((126, 66), 0, false)
+  inst 1428397 at loc((171, 74), 270, false)
+  inst 1428398 at loc((174, 96), 270, false)
+  inst 1428399 at loc((171, 77), 270, false)
+  inst 1428400 at loc((177, 91), 270, false)
+  inst 1428401 at loc((160, 105), 270, false)
+  inst 1428402 at loc((165, 103), 270, false)
+  inst 1428403 at loc((180, 87), 0, false)
+  inst 1428404 at loc((174, 70), 180, false)
+  inst 1428405 at loc((110, 57), 180, false)
+  inst 1428406 at loc((113, 57), 180, false)
+  inst 1428407 at loc((95, 117), 180, false)
+  inst 1428386 at loc((143, 86), 0, false)
+  inst 1428387 at loc((174, 65), 90, false)
+  inst 1428388 at loc((180, 101), 270, false)
+  inst 1428389 at loc((98, 117), 180, false)
+  inst 1428390 at loc((109, 80), 0, false)
+  inst 1428391 at loc((107, 74), 180, false)
+  inst 1428392 at loc((110, 65), 0, false)
+  inst 1428393 at loc((128, 74), 0, false)
+  inst 1428394 at loc((112, 74), 0, false)
+  inst 1428395 at loc((130, 66), 0, false)
+  layout net 1428535 :
+    wire (154, 82) to (158, 82)
+    wire (158, 77) to (169, 77)
+    wire (158, 77) to (158, 82)
+  layout net 1428521 :
+    wire (142, 105) to (158, 105)
+    wire (142, 102) to (142, 105)
+  layout net 1428519 :
+    wire (159, 91) to (175, 91)
+    wire (154, 80) to (159, 80)
+    wire (159, 80) to (159, 91)
+  layout net 1428632 :
+    wire (126, 97) to (128, 97)
+    wire (128, 89) to (132, 89)
+    wire (128, 76) to (128, 98)
+    label 1119439 at loc((128, 98), 90, false)
+    require marker 1428513 at loc((126, 97), 180, false)
+  layout net 1428510 :
+    wire (171, 96) to (172, 96)
+    wire (154, 84) to (171, 84)
+    wire (171, 84) to (171, 96)
+  layout net 1428505 :
+    wire (109, 83) to (132, 83)
+    wire (109, 82) to (109, 83)
+  layout net 1428490 :
+    wire (144, 103) to (163, 103)
+    wire (144, 102) to (144, 103)
+  layout net 1428479 :
+    wire (173, 74) to (174, 74)
+    wire (162, 105) to (182, 105)
+    wire (154, 94) to (174, 94)
+    wire (174, 84) to (182, 84)
+    wire (173, 77) to (174, 77)
+    wire (174, 72) to (174, 94)
+    wire (180, 84) to (180, 85)
+    wire (182, 84) to (182, 105)
+  layout net 1428466 :
+    wire (160, 74) to (169, 74)
+    wire (154, 86) to (160, 86)
+    wire (160, 74) to (160, 86)
+  layout net 1428594 :
+    wire (131, 87) to (132, 87)
+    wire (105, 86) to (112, 86)
+    wire (112, 82) to (131, 82)
+    wire (131, 82) to (131, 98)
+    wire (112, 76) to (112, 86)
+    label 1189661 at loc((131, 98), 90, false)
+    require marker 1428465 at loc((105, 86), 180, false)
+  layout net 1428587 :
+    wire (124, 81) to (132, 81)
+    wire (130, 68) to (130, 81)
+    wire (125, 81) to (125, 84)
+    label 1119446 at loc((125, 84), 90, false)
+    require marker 1428456 at loc((124, 81), 180, false)
+  layout net 1428585 :
+    wire (154, 88) to (157, 88)
+    wire (157, 81) to (162, 81)
+    wire (157, 81) to (157, 110)
+    label 1344838 at loc((157, 110), 90, false)
+    require marker 1428454 at loc((162, 81), 0, false)
+  layout net 1428438 :
+    wire (110, 60) to (144, 60)
+    wire (144, 60) to (144, 70)
+    wire (110, 59) to (110, 63)
+    wire (113, 59) to (113, 60)
+  layout net 1428430 :
+    wire (174, 67) to (174, 68)
+  layout net 1428421 :
+    wire (127, 85) to (132, 85)
+    wire (107, 77) to (127, 77)
+    wire (127, 77) to (127, 85)
+    wire (107, 76) to (107, 77)
+    wire (110, 67) to (110, 77)
+    wire (109, 77) to (109, 78)
+  layout net 1428419 :
+    wire (167, 103) to (168, 103)
+    wire (168, 98) to (180, 98)
+    wire (176, 96) to (180, 96)
+    wire (179, 91) to (180, 91)
+    wire (154, 92) to (168, 92)
+    wire (168, 92) to (168, 103)
+    wire (180, 89) to (180, 99)
+  layout net 1428418 :
+    wire (126, 91) to (132, 91)
+    wire (126, 68) to (126, 91)
+  layout net 1119398 :
+    wire (154, 78) to (161, 78)
+    wire (161, 78) to (161, 95)
+    label 1119436 at loc((161, 95), 90, false)
+  layout net 1119397 :
+    wire (95, 120) to (98, 120)
+    wire (95, 119) to (95, 120)
+    wire (98, 119) to (98, 121)
+    label 1119453 at loc((98, 121), 90, false)
+  layout net 1119406 :
+    wire (130, 63) to (130, 64)
+    label 1119451 at loc((130, 63), 0, false)
+  layout net 1119405 :
+    wire (128, 71) to (128, 72)
+    label 1119449 at loc((128, 71), 0, false)
+  layout net 1119404 :
+    wire (110, 54) to (113, 54)
+    wire (110, 54) to (110, 55)
+    wire (113, 53) to (113, 55)
+    label 1119440 at loc((113, 53), 0, false)
+  layout net 1119403 :
+    wire (107, 71) to (107, 72)
+    label 1119448 at loc((107, 71), 0, false)
+  layout net 1119402 :
+    wire (112, 71) to (112, 72)
+    label 1119450 at loc((112, 71), 0, false)
+  layout net 1119401 :
+    wire (126, 63) to (126, 64)
+    label 1119452 at loc((126, 63), 0, false)
+  layout net 1119400 :
+    wire (142, 69) to (142, 70)
+    label 1119447 at loc((142, 69), 0, false)
+  layout net 1119399 :
+    wire (95, 114) to (98, 114)
+    wire (95, 114) to (95, 115)
+    wire (98, 113) to (98, 115)
+    label 1119454 at loc((98, 113), 0, false)

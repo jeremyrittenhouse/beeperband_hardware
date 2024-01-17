@@ -1,25 +1,25 @@
 {
 	"diff-data":	{
-		"nets-data":	[[3730, {
-					"id":	3730,
+		"nets-data":	[[1006, {
+					"id":	1006,
 					"name":	"VDDMIC",
-					"symbol":	"1111111111mVCR1s2",
+					"symbol":	"11111111111Ac6oSpJ",
 					"requires":	[],
 					"named?":	true
-				}], [3732, {
-					"id":	3732,
+				}], [1004, {
+					"id":	1004,
 					"name":	"GND",
-					"symbol":	"1111111111n3EbZhF",
+					"symbol":	"11111111111AVe3M5m",
 					"requires":	[],
 					"named?":	true
-				}], [3733, {
-					"id":	3733,
+				}], [1005, {
+					"id":	1005,
 					"name":	"PDM.clk",
 					"symbol":	null,
 					"requires":	[],
 					"named?":	true
-				}], [3731, {
-					"id":	3731,
+				}], [1007, {
+					"id":	1007,
 					"name":	"PDM.data",
 					"symbol":	null,
 					"requires":	[],
@@ -73,54 +73,61 @@
 									"dir":	"Up"
 								}]
 						}]
-				}], ["1111111111mq81j8Z", {
+				}], ["11111111111ApjeZ57", {
 					"boxes":	[{
 							"sw":	{
-								"x":	-7,
-								"y":	-8
+								"x":	-9,
+								"y":	-7
 							},
 							"ne":	{
 								"x":	7,
-								"y":	8
+								"y":	7
 							},
 							"ports":	[{
-									"ref":	"B[0]",
-									"pt":	{
-										"x":	0,
-										"y":	-8
-									},
-									"dir":	"Down"
-								}, {
 									"ref":	"L[0]",
 									"pt":	{
-										"x":	-7,
-										"y":	1
+										"x":	-9,
+										"y":	5
 									},
 									"dir":	"Left"
 								}, {
 									"ref":	"L[1]",
 									"pt":	{
-										"x":	-7,
+										"x":	-9,
+										"y":	3
+									},
+									"dir":	"Left"
+								}, {
+									"ref":	"L[2]",
+									"pt":	{
+										"x":	-9,
+										"y":	1
+									},
+									"dir":	"Left"
+								}, {
+									"ref":	"L[3]",
+									"pt":	{
+										"x":	-9,
 										"y":	-1
 									},
 									"dir":	"Left"
 								}, {
-									"ref":	"R[0]",
+									"ref":	"L[4]",
 									"pt":	{
-										"x":	7,
-										"y":	0
+										"x":	-9,
+										"y":	-3
 									},
-									"dir":	"Right"
+									"dir":	"Left"
 								}, {
-									"ref":	"T[0]",
+									"ref":	"L[5]",
 									"pt":	{
-										"x":	0,
-										"y":	8
+										"x":	-9,
+										"y":	-5
 									},
-									"dir":	"Up"
+									"dir":	"Left"
 								}]
 						}]
-				}], ["1111111111n3EbZhF", {
+				}], ["11111111111AVe3M5m", {
 					"boxes":	[{
 							"sw":	{
 								"x":	-1,
@@ -139,7 +146,7 @@
 									"dir":	"Up"
 								}]
 						}]
-				}], ["1111111111mwnPJ31", {
+				}], ["BTum7iadX2NYqpGk1DpmHC", {
 					"boxes":	[{
 							"sw":	{
 								"x":	-1,
@@ -165,7 +172,7 @@
 									"dir":	"Down"
 								}]
 						}]
-				}], ["BTum7iadX2NYqpGk1DpmHC", {
+				}], ["11111111111APqj3bM", {
 					"boxes":	[{
 							"sw":	{
 								"x":	-1,
@@ -245,80 +252,54 @@
 									"dir":	"Left"
 								}]
 						}]
-				}], ["1111111111maoD2u2", {
+				}], ["11111111111AyZ37Nd", {
 					"boxes":	[{
 							"sw":	{
-								"x":	0,
-								"y":	-2
-							},
-							"ne":	{
-								"x":	4,
-								"y":	2
-							},
-							"ports":	[{
-									"ref":	"p[0]",
-									"pt":	{
-										"x":	0,
-										"y":	0
-									},
-									"dir":	"Left"
-								}]
-						}]
-				}], ["1111111111mj7eFNa", {
-					"boxes":	[{
-							"sw":	{
-								"x":	-9,
-								"y":	-7
+								"x":	-7,
+								"y":	-8
 							},
 							"ne":	{
 								"x":	7,
-								"y":	7
+								"y":	8
 							},
 							"ports":	[{
+									"ref":	"B[0]",
+									"pt":	{
+										"x":	0,
+										"y":	-8
+									},
+									"dir":	"Down"
+								}, {
 									"ref":	"L[0]",
 									"pt":	{
-										"x":	-9,
-										"y":	5
+										"x":	-7,
+										"y":	1
 									},
 									"dir":	"Left"
 								}, {
 									"ref":	"L[1]",
 									"pt":	{
-										"x":	-9,
-										"y":	3
-									},
-									"dir":	"Left"
-								}, {
-									"ref":	"L[2]",
-									"pt":	{
-										"x":	-9,
-										"y":	1
-									},
-									"dir":	"Left"
-								}, {
-									"ref":	"L[3]",
-									"pt":	{
-										"x":	-9,
+										"x":	-7,
 										"y":	-1
 									},
 									"dir":	"Left"
 								}, {
-									"ref":	"L[4]",
+									"ref":	"R[0]",
 									"pt":	{
-										"x":	-9,
-										"y":	-3
+										"x":	7,
+										"y":	0
 									},
-									"dir":	"Left"
+									"dir":	"Right"
 								}, {
-									"ref":	"L[5]",
+									"ref":	"T[0]",
 									"pt":	{
-										"x":	-9,
-										"y":	-5
+										"x":	0,
+										"y":	8
 									},
-									"dir":	"Left"
+									"dir":	"Up"
 								}]
 						}]
-				}], ["1111111111mVCR1s2", {
+				}], ["11111111111Ac6oSpJ", {
 					"boxes":	[{
 							"sw":	{
 								"x":	0,
@@ -337,9 +318,28 @@
 									"dir":	"Left"
 								}]
 						}]
+				}], ["11111111111AjudKFy", {
+					"boxes":	[{
+							"sw":	{
+								"x":	0,
+								"y":	-2
+							},
+							"ne":	{
+								"x":	4,
+								"y":	2
+							},
+							"ports":	[{
+									"ref":	"p[0]",
+									"pt":	{
+										"x":	0,
+										"y":	0
+									},
+									"dir":	"Left"
+								}]
+						}]
 				}]],
-		"unit-table":	[["1111111111nxTCbNe", 0], ["1111111111r1UTjDL", 0], ["1111111111qYAyiC5", 0], ["1111111111qntTLWM", 0], ["1111111111nqjLFvJ", 0], ["1111111111nVT8nt8", 0], ["1111111111oJw8uHh", 0], ["1111111111rU8wkmq", 0], ["1111111111qCvezR9", 0], ["1111111111rYfLn6y", 0], ["1111111111qfHWW7f", 0], ["1111111111qJTm6ff", 0], ["1111111111ncjYu73", 0], ["1111111111qS7mLwE", 0], ["1111111111o9QCEJs", 0], ["1111111111oNqgDbr", 0], ["1111111111rkkg55t", 0], ["1111111111rLjAveQ", 0], ["1111111111oX7q6Ck", 0], ["1111111111r85sdHa", 0], ["1111111111nBCAzGy", 0], ["1111111111rD989Ji", 0], ["1111111111nHprZBR", 0], ["1111111111rfrQH5v", 0], ["1111111111nhdGd6w", 0], ["1111111111o3Zh8B3", 0], ["1111111111nMwofHp", 0], ["1111111111ru3FyvQ", 0], ["1111111111quUzctm", 0]],
-		"component-pin-map":	[[["EuUHX9AzME7P5UokkzRW2o", "p[1]"], "1111111111nxTCbNe"], [["DoCqANh5wvQf1NPsZPBtgS", "GND"], "1111111111ncjYu73"], [["EuUHX9AzME7P5UokkzRW2o", "p[4]"], "1111111111nqjLFvJ"], [["EuUHX9AzME7P5UokkzRW2o", "p[6]"], "1111111111o9QCEJs"], [["DoCqANh5wvQf1NPsZPBtgS", "SELECT"], "1111111111nVT8nt8"], [["BTum7iadX2NYqpGk1DpmHC", "p[2]"], "1111111111oNqgDbr"], [["EuUHX9AzME7P5UokkzRW2o", "p[5]"], "1111111111oJw8uHh"], [["BTum7iadX2NYqpGk1DpmHC", "p[1]"], "1111111111oX7q6Ck"], [["DoCqANh5wvQf1NPsZPBtgS", "VDD"], "1111111111nBCAzGy"], [["DoCqANh5wvQf1NPsZPBtgS", "DATA"], "1111111111nHprZBR"], [["EuUHX9AzME7P5UokkzRW2o", "p[3]"], "1111111111nhdGd6w"], [["EuUHX9AzME7P5UokkzRW2o", "p[2]"], "1111111111o3Zh8B3"], [["DoCqANh5wvQf1NPsZPBtgS", "CLOCK"], "1111111111nMwofHp"]],
+		"unit-table":	[["11111111111GM9wVuq", 0], ["11111111111BA1ZpeR", 0], ["11111111111F7bQBLp", 0], ["11111111111F3fYard", 0], ["11111111111C6Z7P4R", 0], ["11111111111GGNBjE9", 0], ["11111111111FDbezF3", 0], ["11111111111BWxehAp", 0], ["11111111111GTtrDot", 0], ["11111111111G9t2HCH", 0], ["11111111111FcBdCpb", 0], ["11111111111BkmTMDD", 0], ["11111111111CCdV2Sp", 0], ["11111111111BrTJ2eN", 0], ["11111111111G3kqe7q", 0], ["11111111111BHndyCc", 0], ["11111111111BewXzJD", 0], ["11111111111EvztCsR", 0], ["11111111111Fnstb6L", 0], ["11111111111FLgLFoF", 0], ["11111111111FhaTf4K", 0], ["11111111111FUvaJsm", 0], ["11111111111B3Ty7cz", 0], ["11111111111CKVgmPZ", 0], ["11111111111CRK1cwU", 0], ["11111111111ByfoZet", 0], ["11111111111En5NYY8", 0], ["11111111111BPMpCAx", 0], ["11111111111Fwvnfq5", 0]],
+		"component-pin-map":	[[["EuUHX9AzME7P5UokkzRW2o", "p[3]"], "11111111111BewXzJD"], [["EuUHX9AzME7P5UokkzRW2o", "p[6]"], "11111111111BA1ZpeR"], [["DoCqANh5wvQf1NPsZPBtgS", "VDD"], "11111111111C6Z7P4R"], [["DoCqANh5wvQf1NPsZPBtgS", "DATA"], "11111111111BWxehAp"], [["BTum7iadX2NYqpGk1DpmHC", "p[1]"], "11111111111B3Ty7cz"], [["DoCqANh5wvQf1NPsZPBtgS", "GND"], "11111111111CKVgmPZ"], [["DoCqANh5wvQf1NPsZPBtgS", "SELECT"], "11111111111CRK1cwU"], [["EuUHX9AzME7P5UokkzRW2o", "p[1]"], "11111111111ByfoZet"], [["DoCqANh5wvQf1NPsZPBtgS", "CLOCK"], "11111111111BkmTMDD"], [["EuUHX9AzME7P5UokkzRW2o", "p[4]"], "11111111111BPMpCAx"], [["EuUHX9AzME7P5UokkzRW2o", "p[2]"], "11111111111CCdV2Sp"], [["BTum7iadX2NYqpGk1DpmHC", "p[2]"], "11111111111BrTJ2eN"], [["EuUHX9AzME7P5UokkzRW2o", "p[5]"], "11111111111BHndyCc"]],
 		"instance-ids":	[{
 				"id":	"AUz7L7cs1HrokDBxNvPmeZ",
 				"unit-id":	0
@@ -359,64 +359,64 @@
 		"group-ids":	["mic[0].module", "mic[1].module", "conn.beeper-connector"],
 		"pin-ids":	[{
 				"inst":	"9QHTxRDPgwLekYbhWCoMTK",
-				"pin":	"1111111111o9QCEJs"
+				"pin":	"11111111111BA1ZpeR"
 			}, {
 				"inst":	"EWbskhUx6WUtMB9m4KZTUf",
-				"pin":	"1111111111oNqgDbr"
+				"pin":	"11111111111BrTJ2eN"
 			}, {
 				"inst":	"AUz7L7cs1HrokDBxNvPmeZ",
-				"pin":	"1111111111nBCAzGy"
+				"pin":	"11111111111C6Z7P4R"
 			}, {
 				"inst":	"AUz7L7cs1HrokDBxNvPmeZ",
-				"pin":	"1111111111nVT8nt8"
+				"pin":	"11111111111CRK1cwU"
 			}, {
 				"inst":	"56wSbquBmPPgy7JafzaHom",
-				"pin":	"1111111111nBCAzGy"
+				"pin":	"11111111111C6Z7P4R"
 			}, {
 				"inst":	"AxZo77aQa5nP2zvNhrtt1T",
-				"pin":	"1111111111oNqgDbr"
+				"pin":	"11111111111BrTJ2eN"
 			}, {
 				"inst":	"9QHTxRDPgwLekYbhWCoMTK",
-				"pin":	"1111111111nhdGd6w"
+				"pin":	"11111111111BewXzJD"
 			}, {
 				"inst":	"AUz7L7cs1HrokDBxNvPmeZ",
-				"pin":	"1111111111ncjYu73"
+				"pin":	"11111111111CKVgmPZ"
 			}, {
 				"inst":	"EWbskhUx6WUtMB9m4KZTUf",
-				"pin":	"1111111111oX7q6Ck"
+				"pin":	"11111111111B3Ty7cz"
 			}, {
 				"inst":	"AxZo77aQa5nP2zvNhrtt1T",
-				"pin":	"1111111111oX7q6Ck"
+				"pin":	"11111111111B3Ty7cz"
 			}, {
 				"inst":	"9QHTxRDPgwLekYbhWCoMTK",
-				"pin":	"1111111111nqjLFvJ"
+				"pin":	"11111111111BPMpCAx"
 			}, {
 				"inst":	"9QHTxRDPgwLekYbhWCoMTK",
-				"pin":	"1111111111o3Zh8B3"
+				"pin":	"11111111111CCdV2Sp"
 			}, {
 				"inst":	"56wSbquBmPPgy7JafzaHom",
-				"pin":	"1111111111nVT8nt8"
+				"pin":	"11111111111CRK1cwU"
 			}, {
 				"inst":	"56wSbquBmPPgy7JafzaHom",
-				"pin":	"1111111111ncjYu73"
+				"pin":	"11111111111CKVgmPZ"
 			}, {
 				"inst":	"AUz7L7cs1HrokDBxNvPmeZ",
-				"pin":	"1111111111nMwofHp"
+				"pin":	"11111111111BkmTMDD"
 			}, {
 				"inst":	"9QHTxRDPgwLekYbhWCoMTK",
-				"pin":	"1111111111nxTCbNe"
+				"pin":	"11111111111ByfoZet"
 			}, {
 				"inst":	"56wSbquBmPPgy7JafzaHom",
-				"pin":	"1111111111nMwofHp"
+				"pin":	"11111111111BkmTMDD"
 			}, {
 				"inst":	"9QHTxRDPgwLekYbhWCoMTK",
-				"pin":	"1111111111oJw8uHh"
+				"pin":	"11111111111BHndyCc"
 			}, {
 				"inst":	"56wSbquBmPPgy7JafzaHom",
-				"pin":	"1111111111nHprZBR"
+				"pin":	"11111111111BWxehAp"
 			}, {
 				"inst":	"AUz7L7cs1HrokDBxNvPmeZ",
-				"pin":	"1111111111nHprZBR"
+				"pin":	"11111111111BWxehAp"
 			}],
 		"pure-netlist":	{
 			"instances":	[{
@@ -436,7 +436,7 @@
 					"group":	2
 				}],
 			"nets":	[{
-					"id":	3730,
+					"id":	1006,
 					"refs":	[{
 							"id":	0,
 							"instance":	4
@@ -457,7 +457,7 @@
 							"instance":	3
 						}]
 				}, {
-					"id":	3732,
+					"id":	1004,
 					"refs":	[{
 							"id":	6,
 							"instance":	4
@@ -484,7 +484,7 @@
 							"instance":	2
 						}]
 				}, {
-					"id":	3733,
+					"id":	1005,
 					"refs":	[{
 							"id":	14,
 							"instance":	0
@@ -496,7 +496,7 @@
 							"instance":	2
 						}]
 				}, {
-					"id":	3731,
+					"id":	1007,
 					"refs":	[{
 							"id":	17,
 							"instance":	4
@@ -517,231 +517,7 @@
 			},
 			"label-font-size":	0.8,
 			"boxes":	[{
-					"id":	1040401,
-					"sw":	{
-						"x":	-7,
-						"y":	-8
-					},
-					"ne":	{
-						"x":	7,
-						"y":	8
-					},
-					"ports":	[{
-							"id":	1040396,
-							"pt":	{
-								"x":	-7,
-								"y":	1
-							},
-							"dir":	"Left",
-							"tag":	"AnyTag"
-						}, {
-							"id":	1040397,
-							"pt":	{
-								"x":	-7,
-								"y":	-1
-							},
-							"dir":	"Left",
-							"tag":	"AnyTag"
-						}, {
-							"id":	1040398,
-							"pt":	{
-								"x":	7,
-								"y":	0
-							},
-							"dir":	"Right",
-							"tag":	"AnyTag"
-						}, {
-							"id":	1040399,
-							"pt":	{
-								"x":	0,
-								"y":	8
-							},
-							"dir":	"Up",
-							"tag":	"AnyTag"
-						}, {
-							"id":	1040400,
-							"pt":	{
-								"x":	0,
-								"y":	-8
-							},
-							"dir":	"Down",
-							"tag":	"AnyTag"
-						}],
-					"orientation":	{
-						"type":	"prefer-rotation",
-						"rotations":	[0]
-					}
-				}, {
-					"id":	1040417,
-					"sw":	{
-						"x":	0,
-						"y":	-1
-					},
-					"ne":	{
-						"x":	2,
-						"y":	1
-					},
-					"ports":	[{
-							"id":	1040416,
-							"pt":	{
-								"x":	0,
-								"y":	0
-							},
-							"dir":	"Left",
-							"tag":	"AnyTag"
-						}],
-					"orientation":	{
-						"type":	"prefer-rotation",
-						"rotations":	[1]
-					}
-				}, {
-					"id":	1040433,
-					"sw":	{
-						"x":	-9,
-						"y":	-7
-					},
-					"ne":	{
-						"x":	7,
-						"y":	7
-					},
-					"ports":	[{
-							"id":	1040427,
-							"pt":	{
-								"x":	-9,
-								"y":	5
-							},
-							"dir":	"Left",
-							"tag":	"AnyTag"
-						}, {
-							"id":	1040428,
-							"pt":	{
-								"x":	-9,
-								"y":	3
-							},
-							"dir":	"Left",
-							"tag":	"AnyTag"
-						}, {
-							"id":	1040429,
-							"pt":	{
-								"x":	-9,
-								"y":	1
-							},
-							"dir":	"Left",
-							"tag":	"AnyTag"
-						}, {
-							"id":	1040430,
-							"pt":	{
-								"x":	-9,
-								"y":	-1
-							},
-							"dir":	"Left",
-							"tag":	"AnyTag"
-						}, {
-							"id":	1040431,
-							"pt":	{
-								"x":	-9,
-								"y":	-3
-							},
-							"dir":	"Left",
-							"tag":	"AnyTag"
-						}, {
-							"id":	1040432,
-							"pt":	{
-								"x":	-9,
-								"y":	-5
-							},
-							"dir":	"Left",
-							"tag":	"AnyTag"
-						}],
-					"orientation":	{
-						"type":	"prefer-rotation",
-						"rotations":	[0]
-					}
-				}, {
-					"id":	1040403,
-					"sw":	{
-						"x":	-1,
-						"y":	-2
-					},
-					"ne":	{
-						"x":	1,
-						"y":	0
-					},
-					"ports":	[{
-							"id":	1040402,
-							"pt":	{
-								"x":	0,
-								"y":	0
-							},
-							"dir":	"Up",
-							"tag":	"AnyTag"
-						}],
-					"orientation":	{
-						"type":	"prefer-rotation",
-						"rotations":	[0]
-					}
-				}, {
-					"id":	1040420,
-					"sw":	{
-						"x":	-1,
-						"y":	-2
-					},
-					"ne":	{
-						"x":	1,
-						"y":	2
-					},
-					"ports":	[{
-							"id":	1040418,
-							"pt":	{
-								"x":	0,
-								"y":	2
-							},
-							"dir":	"Up",
-							"tag":	"AnyTag"
-						}, {
-							"id":	1040419,
-							"pt":	{
-								"x":	0,
-								"y":	-2
-							},
-							"dir":	"Down",
-							"tag":	"AnyTag"
-						}],
-					"orientation":	{
-						"type":	"any-rotation"
-					}
-				}, {
-					"id":	1040406,
-					"sw":	{
-						"x":	-1,
-						"y":	-2
-					},
-					"ne":	{
-						"x":	1,
-						"y":	2
-					},
-					"ports":	[{
-							"id":	1040404,
-							"pt":	{
-								"x":	0,
-								"y":	2
-							},
-							"dir":	"Up",
-							"tag":	"AnyTag"
-						}, {
-							"id":	1040405,
-							"pt":	{
-								"x":	0,
-								"y":	-2
-							},
-							"dir":	"Down",
-							"tag":	"AnyTag"
-						}],
-					"orientation":	{
-						"type":	"any-rotation"
-					}
-				}, {
-					"id":	1040408,
+					"id":	1424240,
 					"sw":	{
 						"x":	0,
 						"y":	-2
@@ -751,7 +527,7 @@
 						"y":	2
 					},
 					"ports":	[{
-							"id":	1040407,
+							"id":	1424239,
 							"pt":	{
 								"x":	0,
 								"y":	0
@@ -764,7 +540,153 @@
 						"rotations":	[3]
 					}
 				}, {
-					"id":	1040426,
+					"id":	1424256,
+					"sw":	{
+						"x":	-1,
+						"y":	-2
+					},
+					"ne":	{
+						"x":	1,
+						"y":	2
+					},
+					"ports":	[{
+							"id":	1424254,
+							"pt":	{
+								"x":	0,
+								"y":	2
+							},
+							"dir":	"Up",
+							"tag":	"AnyTag"
+						}, {
+							"id":	1424255,
+							"pt":	{
+								"x":	0,
+								"y":	-2
+							},
+							"dir":	"Down",
+							"tag":	"AnyTag"
+						}],
+					"orientation":	{
+						"type":	"any-rotation"
+					}
+				}, {
+					"id":	1424225,
+					"sw":	{
+						"x":	-9,
+						"y":	-7
+					},
+					"ne":	{
+						"x":	7,
+						"y":	7
+					},
+					"ports":	[{
+							"id":	1424219,
+							"pt":	{
+								"x":	-9,
+								"y":	5
+							},
+							"dir":	"Left",
+							"tag":	"AnyTag"
+						}, {
+							"id":	1424220,
+							"pt":	{
+								"x":	-9,
+								"y":	3
+							},
+							"dir":	"Left",
+							"tag":	"AnyTag"
+						}, {
+							"id":	1424221,
+							"pt":	{
+								"x":	-9,
+								"y":	1
+							},
+							"dir":	"Left",
+							"tag":	"AnyTag"
+						}, {
+							"id":	1424222,
+							"pt":	{
+								"x":	-9,
+								"y":	-1
+							},
+							"dir":	"Left",
+							"tag":	"AnyTag"
+						}, {
+							"id":	1424223,
+							"pt":	{
+								"x":	-9,
+								"y":	-3
+							},
+							"dir":	"Left",
+							"tag":	"AnyTag"
+						}, {
+							"id":	1424224,
+							"pt":	{
+								"x":	-9,
+								"y":	-5
+							},
+							"dir":	"Left",
+							"tag":	"AnyTag"
+						}],
+					"orientation":	{
+						"type":	"prefer-rotation",
+						"rotations":	[0]
+					}
+				}, {
+					"id":	1424227,
+					"sw":	{
+						"x":	-1,
+						"y":	-2
+					},
+					"ne":	{
+						"x":	1,
+						"y":	0
+					},
+					"ports":	[{
+							"id":	1424226,
+							"pt":	{
+								"x":	0,
+								"y":	0
+							},
+							"dir":	"Up",
+							"tag":	"AnyTag"
+						}],
+					"orientation":	{
+						"type":	"prefer-rotation",
+						"rotations":	[0]
+					}
+				}, {
+					"id":	1424230,
+					"sw":	{
+						"x":	-1,
+						"y":	-2
+					},
+					"ne":	{
+						"x":	1,
+						"y":	2
+					},
+					"ports":	[{
+							"id":	1424228,
+							"pt":	{
+								"x":	0,
+								"y":	2
+							},
+							"dir":	"Up",
+							"tag":	"AnyTag"
+						}, {
+							"id":	1424229,
+							"pt":	{
+								"x":	0,
+								"y":	-2
+							},
+							"dir":	"Down",
+							"tag":	"AnyTag"
+						}],
+					"orientation":	{
+						"type":	"any-rotation"
+					}
+				}, {
+					"id":	1424246,
 					"sw":	{
 						"x":	-7,
 						"y":	-8
@@ -774,7 +696,7 @@
 						"y":	8
 					},
 					"ports":	[{
-							"id":	1040421,
+							"id":	1424241,
 							"pt":	{
 								"x":	-7,
 								"y":	1
@@ -782,7 +704,7 @@
 							"dir":	"Left",
 							"tag":	"AnyTag"
 						}, {
-							"id":	1040422,
+							"id":	1424242,
 							"pt":	{
 								"x":	-7,
 								"y":	-1
@@ -790,7 +712,7 @@
 							"dir":	"Left",
 							"tag":	"AnyTag"
 						}, {
-							"id":	1040423,
+							"id":	1424243,
 							"pt":	{
 								"x":	7,
 								"y":	0
@@ -798,7 +720,7 @@
 							"dir":	"Right",
 							"tag":	"AnyTag"
 						}, {
-							"id":	1040424,
+							"id":	1424244,
 							"pt":	{
 								"x":	0,
 								"y":	8
@@ -806,7 +728,7 @@
 							"dir":	"Up",
 							"tag":	"AnyTag"
 						}, {
-							"id":	1040425,
+							"id":	1424245,
 							"pt":	{
 								"x":	0,
 								"y":	-8
@@ -819,7 +741,62 @@
 						"rotations":	[0]
 					}
 				}, {
-					"id":	1040415,
+					"id":	1424236,
+					"sw":	{
+						"x":	-7,
+						"y":	-8
+					},
+					"ne":	{
+						"x":	7,
+						"y":	8
+					},
+					"ports":	[{
+							"id":	1424231,
+							"pt":	{
+								"x":	-7,
+								"y":	1
+							},
+							"dir":	"Left",
+							"tag":	"AnyTag"
+						}, {
+							"id":	1424232,
+							"pt":	{
+								"x":	-7,
+								"y":	-1
+							},
+							"dir":	"Left",
+							"tag":	"AnyTag"
+						}, {
+							"id":	1424233,
+							"pt":	{
+								"x":	7,
+								"y":	0
+							},
+							"dir":	"Right",
+							"tag":	"AnyTag"
+						}, {
+							"id":	1424234,
+							"pt":	{
+								"x":	0,
+								"y":	8
+							},
+							"dir":	"Up",
+							"tag":	"AnyTag"
+						}, {
+							"id":	1424235,
+							"pt":	{
+								"x":	0,
+								"y":	-8
+							},
+							"dir":	"Down",
+							"tag":	"AnyTag"
+						}],
+					"orientation":	{
+						"type":	"prefer-rotation",
+						"rotations":	[0]
+					}
+				}, {
+					"id":	1424253,
 					"sw":	{
 						"x":	-9,
 						"y":	-7
@@ -829,7 +806,7 @@
 						"y":	7
 					},
 					"ports":	[{
-							"id":	1040409,
+							"id":	1424247,
 							"pt":	{
 								"x":	-9,
 								"y":	5
@@ -837,7 +814,7 @@
 							"dir":	"Left",
 							"tag":	"AnyTag"
 						}, {
-							"id":	1040410,
+							"id":	1424248,
 							"pt":	{
 								"x":	-9,
 								"y":	3
@@ -845,7 +822,7 @@
 							"dir":	"Left",
 							"tag":	"AnyTag"
 						}, {
-							"id":	1040411,
+							"id":	1424249,
 							"pt":	{
 								"x":	-9,
 								"y":	1
@@ -853,7 +830,7 @@
 							"dir":	"Left",
 							"tag":	"AnyTag"
 						}, {
-							"id":	1040412,
+							"id":	1424250,
 							"pt":	{
 								"x":	-9,
 								"y":	-1
@@ -861,7 +838,7 @@
 							"dir":	"Left",
 							"tag":	"AnyTag"
 						}, {
-							"id":	1040413,
+							"id":	1424251,
 							"pt":	{
 								"x":	-9,
 								"y":	-3
@@ -869,7 +846,7 @@
 							"dir":	"Left",
 							"tag":	"AnyTag"
 						}, {
-							"id":	1040414,
+							"id":	1424252,
 							"pt":	{
 								"x":	-9,
 								"y":	-5
@@ -881,117 +858,140 @@
 						"type":	"prefer-rotation",
 						"rotations":	[0]
 					}
+				}, {
+					"id":	1424238,
+					"sw":	{
+						"x":	0,
+						"y":	-1
+					},
+					"ne":	{
+						"x":	2,
+						"y":	1
+					},
+					"ports":	[{
+							"id":	1424237,
+							"pt":	{
+								"x":	0,
+								"y":	0
+							},
+							"dir":	"Left",
+							"tag":	"AnyTag"
+						}],
+					"orientation":	{
+						"type":	"prefer-rotation",
+						"rotations":	[1]
+					}
 				}],
 			"insts":	[{
-					"id":	1040434,
-					"box":	1040426,
+					"id":	1424257,
+					"box":	1424246,
 					"group":	"mic[0].module"
 				}, {
-					"id":	1040435,
-					"box":	1040420,
+					"id":	1424258,
+					"box":	1424256,
 					"group":	"mic[0].module"
 				}, {
-					"id":	1040436,
-					"box":	1040426,
+					"id":	1424259,
+					"box":	1424246,
 					"group":	"mic[1].module"
 				}, {
-					"id":	1040437,
-					"box":	1040420,
+					"id":	1424260,
+					"box":	1424256,
 					"group":	"mic[1].module"
 				}, {
-					"id":	1040438,
-					"box":	1040433,
+					"id":	1424261,
+					"box":	1424253,
 					"group":	"conn.beeper-connector"
 				}],
 			"nets":	[{
-					"id":	1040439,
+					"id":	1424262,
 					"name":	"VDDMIC",
 					"refs":	[{
-							"inst":	1040438,
-							"port":	1040432
+							"inst":	1424261,
+							"port":	1424252
 						}, {
-							"inst":	1040435,
-							"port":	1040419
+							"inst":	1424258,
+							"port":	1424255
 						}, {
-							"inst":	1040434,
-							"port":	1040424
+							"inst":	1424257,
+							"port":	1424244
 						}, {
-							"inst":	1040434,
-							"port":	1040422
+							"inst":	1424257,
+							"port":	1424242
 						}, {
-							"inst":	1040436,
-							"port":	1040424
+							"inst":	1424259,
+							"port":	1424244
 						}, {
-							"inst":	1040437,
-							"port":	1040419
+							"inst":	1424260,
+							"port":	1424255
 						}],
 					"labeled?":	{
 						"type":	"symbol",
-						"box":	1040417
+						"box":	1424238
 					},
 					"require-markers":	[]
 				}, {
-					"id":	1040440,
+					"id":	1424263,
 					"name":	"GND",
 					"refs":	[{
-							"inst":	1040438,
-							"port":	1040429
+							"inst":	1424261,
+							"port":	1424249
 						}, {
-							"inst":	1040434,
-							"port":	1040425
+							"inst":	1424257,
+							"port":	1424245
 						}, {
-							"inst":	1040435,
-							"port":	1040418
+							"inst":	1424258,
+							"port":	1424254
 						}, {
-							"inst":	1040437,
-							"port":	1040418
+							"inst":	1424260,
+							"port":	1424254
 						}, {
-							"inst":	1040438,
-							"port":	1040430
+							"inst":	1424261,
+							"port":	1424250
 						}, {
-							"inst":	1040438,
-							"port":	1040428
+							"inst":	1424261,
+							"port":	1424248
 						}, {
-							"inst":	1040436,
-							"port":	1040422
+							"inst":	1424259,
+							"port":	1424242
 						}, {
-							"inst":	1040436,
-							"port":	1040425
+							"inst":	1424259,
+							"port":	1424245
 						}],
 					"labeled?":	{
 						"type":	"symbol",
-						"box":	1040403
+						"box":	1424227
 					},
 					"require-markers":	[]
 				}, {
-					"id":	1040441,
+					"id":	1424264,
 					"name":	"PDM.clk",
 					"refs":	[{
-							"inst":	1040434,
-							"port":	1040421
+							"inst":	1424257,
+							"port":	1424241
 						}, {
-							"inst":	1040438,
-							"port":	1040427
+							"inst":	1424261,
+							"port":	1424247
 						}, {
-							"inst":	1040436,
-							"port":	1040421
+							"inst":	1424259,
+							"port":	1424241
 						}],
 					"labeled?":	{
 						"type":	"string"
 					},
 					"require-markers":	[]
 				}, {
-					"id":	1040442,
+					"id":	1424265,
 					"name":	"PDM.data",
 					"refs":	[{
-							"inst":	1040438,
-							"port":	1040431
+							"inst":	1424261,
+							"port":	1424251
 						}, {
-							"inst":	1040436,
-							"port":	1040423
+							"inst":	1424259,
+							"port":	1424243
 						}, {
-							"inst":	1040434,
-							"port":	1040423
+							"inst":	1424257,
+							"port":	1424243
 						}],
 					"labeled?":	{
 						"type":	"string"
@@ -1004,62 +1004,62 @@
 	},
 	"stable-board-to-box-layout-id-mapping":	{
 		"boxes":	[[{
-					"id":	"1111111111n3EbZhF",
+					"id":	"11111111111APqj3bM",
 					"unit-id":	0
-				}, 1040403], [{
+				}, 1424230], [{
+					"id":	"11111111111AVe3M5m",
+					"unit-id":	0
+				}, 1424227], [{
 					"id":	"BTum7iadX2NYqpGk1DpmHC",
 					"unit-id":	0
-				}, 1040420], [{
-					"id":	"1111111111mq81j8Z",
+				}, 1424256], [{
+					"id":	"11111111111AyZ37Nd",
 					"unit-id":	0
-				}, 1040401], [{
-					"id":	"1111111111maoD2u2",
+				}, 1424236], [{
+					"id":	"11111111111Ac6oSpJ",
 					"unit-id":	0
-				}, 1040408], [{
-					"id":	"1111111111mVCR1s2",
-					"unit-id":	0
-				}, 1040417], [{
-					"id":	"1111111111mj7eFNa",
-					"unit-id":	0
-				}, 1040415], [{
+				}, 1424238], [{
 					"id":	"EuUHX9AzME7P5UokkzRW2o",
 					"unit-id":	0
-				}, 1040433], [{
-					"id":	"1111111111mwnPJ31",
+				}, 1424253], [{
+					"id":	"11111111111AjudKFy",
 					"unit-id":	0
-				}, 1040406], [{
+				}, 1424240], [{
+					"id":	"11111111111ApjeZ57",
+					"unit-id":	0
+				}, 1424225], [{
 					"id":	"DoCqANh5wvQf1NPsZPBtgS",
 					"unit-id":	0
-				}, 1040426]],
+				}, 1424246]],
 		"inst-boxes":	[[{
 					"id":	"EWbskhUx6WUtMB9m4KZTUf",
 					"unit-id":	0
-				}, 1040435], [{
+				}, 1424258], [{
 					"id":	"AxZo77aQa5nP2zvNhrtt1T",
 					"unit-id":	0
-				}, 1040437], [{
+				}, 1424260], [{
 					"id":	"9QHTxRDPgwLekYbhWCoMTK",
 					"unit-id":	0
-				}, 1040438], [{
+				}, 1424261], [{
 					"id":	"56wSbquBmPPgy7JafzaHom",
 					"unit-id":	0
-				}, 1040436], [{
+				}, 1424259], [{
 					"id":	"AUz7L7cs1HrokDBxNvPmeZ",
 					"unit-id":	0
-				}, 1040434]],
-		"nets":	[[3730, 1040439], [3731, 1040442], [3732, 1040440], [3733, 1040441]],
-		"ports":	[["1111111111nxTCbNe", 1040427], ["1111111111r1UTjDL", 1040409], ["1111111111qYAyiC5", 1040399], ["1111111111qntTLWM", 1040404], ["1111111111nqjLFvJ", 1040430], ["1111111111nVT8nt8", 1040422], ["1111111111oJw8uHh", 1040431], ["1111111111rU8wkmq", 1040413], ["1111111111qCvezR9", 1040396], ["1111111111rYfLn6y", 1040414], ["1111111111qfHWW7f", 1040400], ["1111111111qJTm6ff", 1040397], ["1111111111ncjYu73", 1040425], ["1111111111qS7mLwE", 1040398], ["1111111111o9QCEJs", 1040432], ["1111111111oNqgDbr", 1040419], ["1111111111rkkg55t", 1040407], ["1111111111rLjAveQ", 1040412], ["1111111111oX7q6Ck", 1040418], ["1111111111r85sdHa", 1040410], ["1111111111nBCAzGy", 1040424], ["1111111111rD989Ji", 1040411], ["1111111111nHprZBR", 1040423], ["1111111111rfrQH5v", 1040416], ["1111111111nhdGd6w", 1040429], ["1111111111o3Zh8B3", 1040428], ["1111111111nMwofHp", 1040421], ["1111111111ru3FyvQ", 1040402], ["1111111111quUzctm", 1040405]],
+				}, 1424257]],
+		"nets":	[[1004, 1424263], [1005, 1424264], [1006, 1424262], [1007, 1424265]],
+		"ports":	[["11111111111GM9wVuq", 1424228], ["11111111111BA1ZpeR", 1424252], ["11111111111F7bQBLp", 1424222], ["11111111111F3fYard", 1424221], ["11111111111C6Z7P4R", 1424244], ["11111111111GGNBjE9", 1424235], ["11111111111FDbezF3", 1424223], ["11111111111BWxehAp", 1424243], ["11111111111GTtrDot", 1424229], ["11111111111G9t2HCH", 1424234], ["11111111111FcBdCpb", 1424239], ["11111111111BkmTMDD", 1424241], ["11111111111CCdV2Sp", 1424248], ["11111111111BrTJ2eN", 1424255], ["11111111111G3kqe7q", 1424233], ["11111111111BHndyCc", 1424251], ["11111111111BewXzJD", 1424249], ["11111111111EvztCsR", 1424220], ["11111111111Fnstb6L", 1424231], ["11111111111FLgLFoF", 1424224], ["11111111111FhaTf4K", 1424226], ["11111111111FUvaJsm", 1424237], ["11111111111B3Ty7cz", 1424254], ["11111111111CKVgmPZ", 1424245], ["11111111111CRK1cwU", 1424242], ["11111111111ByfoZet", 1424247], ["11111111111En5NYY8", 1424219], ["11111111111BPMpCAx", 1424250], ["11111111111Fwvnfq5", 1424232]],
 		"require-pins":	[]
 	},
 	"output":	{
 		"sheets":	[{
-				"id":	1040501,
+				"id":	1424324,
 				"title":	null,
 				"schematic-groups":	[{
-						"id":	1040476,
+						"id":	1424299,
 						"ref":	null,
 						"children":	[{
-								"id":	1040458,
+								"id":	1424281,
 								"ref":	"mic",
 								"children":	[{
 										"id":	4163,
@@ -1067,7 +1067,7 @@
 										"children":	[],
 										"output":	{
 											"inst-placements":	[{
-													"inst":	1040436,
+													"inst":	1424259,
 													"pose":	{
 														"center":	{
 															"x":	179,
@@ -1077,7 +1077,7 @@
 														"flip-x?":	false
 													}
 												}, {
-													"inst":	1040437,
+													"inst":	1424260,
 													"pose":	{
 														"center":	{
 															"x":	195,
@@ -1217,7 +1217,7 @@
 													},
 													"require-marker-placements":	[]
 												}, {
-													"id":	1040452,
+													"id":	1424275,
 													"wires":	[{
 															"a":	{
 																"x":	186,
@@ -1231,7 +1231,7 @@
 													"label-placement?":	null,
 													"require-marker-placements":	[]
 												}, {
-													"id":	1040449,
+													"id":	1424272,
 													"wires":	[{
 															"a":	{
 																"x":	168,
@@ -1257,42 +1257,42 @@
 											"y":	0
 										},
 										"partial-island-nets":	[[{
-													"parent-net-id":	1040446,
+													"parent-net-id":	1424269,
 													"refs":	[{
-															"inst":	1040436,
-															"port":	1040425
+															"inst":	1424259,
+															"port":	1424245
 														}],
 													"require-markers":	[]
 												}, 4123], [{
-													"parent-net-id":	1040446,
+													"parent-net-id":	1424269,
 													"refs":	[{
-															"inst":	1040436,
-															"port":	1040422
+															"inst":	1424259,
+															"port":	1424242
 														}],
 													"require-markers":	[]
 												}, 4124], [{
-													"parent-net-id":	1040446,
+													"parent-net-id":	1424269,
 													"refs":	[{
-															"inst":	1040437,
-															"port":	1040418
+															"inst":	1424260,
+															"port":	1424254
 														}],
 													"require-markers":	[]
 												}, 4125], [{
-													"parent-net-id":	1040443,
+													"parent-net-id":	1424266,
 													"refs":	[{
-															"inst":	1040436,
-															"port":	1040424
+															"inst":	1424259,
+															"port":	1424244
 														}],
 													"require-markers":	[]
 												}, 4126], [{
-													"parent-net-id":	1040443,
+													"parent-net-id":	1424266,
 													"refs":	[{
-															"inst":	1040437,
-															"port":	1040419
+															"inst":	1424260,
+															"port":	1424255
 														}],
 													"require-markers":	[]
 												}, 4127]],
-										"external-ports-by-net-id":	[[1040452, [{
+										"external-ports-by-net-id":	[[1424275, [{
 														"id":	649103,
 														"pt":	{
 															"x":	198,
@@ -1300,7 +1300,7 @@
 														},
 														"dir":	"Right",
 														"tag":	"AnyTag"
-													}]], [1040449, [{
+													}]], [1424272, [{
 														"id":	649104,
 														"pt":	{
 															"x":	168,
@@ -1316,7 +1316,7 @@
 										"children":	[],
 										"output":	{
 											"inst-placements":	[{
-													"inst":	1040434,
+													"inst":	1424257,
 													"pose":	{
 														"center":	{
 															"x":	138,
@@ -1326,7 +1326,7 @@
 														"flip-x?":	false
 													}
 												}, {
-													"inst":	1040435,
+													"inst":	1424258,
 													"pose":	{
 														"center":	{
 															"x":	159,
@@ -1466,7 +1466,7 @@
 													},
 													"require-marker-placements":	[]
 												}, {
-													"id":	1040453,
+													"id":	1424276,
 													"wires":	[{
 															"a":	{
 																"x":	145,
@@ -1480,7 +1480,7 @@
 													"label-placement?":	null,
 													"require-marker-placements":	[]
 												}, {
-													"id":	1040450,
+													"id":	1424273,
 													"wires":	[{
 															"a":	{
 																"x":	127,
@@ -1506,42 +1506,42 @@
 											"y":	0
 										},
 										"partial-island-nets":	[[{
-													"parent-net-id":	1040447,
+													"parent-net-id":	1424270,
 													"refs":	[{
-															"inst":	1040434,
-															"port":	1040425
+															"inst":	1424257,
+															"port":	1424245
 														}],
 													"require-markers":	[]
 												}, 4068], [{
-													"parent-net-id":	1040447,
+													"parent-net-id":	1424270,
 													"refs":	[{
-															"inst":	1040435,
-															"port":	1040418
+															"inst":	1424258,
+															"port":	1424254
 														}],
 													"require-markers":	[]
 												}, 4069], [{
-													"parent-net-id":	1040444,
+													"parent-net-id":	1424267,
 													"refs":	[{
-															"inst":	1040434,
-															"port":	1040422
+															"inst":	1424257,
+															"port":	1424242
 														}],
 													"require-markers":	[]
 												}, 4070], [{
-													"parent-net-id":	1040444,
+													"parent-net-id":	1424267,
 													"refs":	[{
-															"inst":	1040434,
-															"port":	1040424
+															"inst":	1424257,
+															"port":	1424244
 														}],
 													"require-markers":	[]
 												}, 4071], [{
-													"parent-net-id":	1040444,
+													"parent-net-id":	1424267,
 													"refs":	[{
-															"inst":	1040435,
-															"port":	1040419
+															"inst":	1424258,
+															"port":	1424255
 														}],
 													"require-markers":	[]
 												}, 4072]],
-										"external-ports-by-net-id":	[[1040453, [{
+										"external-ports-by-net-id":	[[1424276, [{
 														"id":	649057,
 														"pt":	{
 															"x":	162,
@@ -1549,7 +1549,7 @@
 														},
 														"dir":	"Right",
 														"tag":	"AnyTag"
-													}]], [1040450, [{
+													}]], [1424273, [{
 														"id":	649058,
 														"pt":	{
 															"x":	127,
@@ -1563,17 +1563,8 @@
 								"output":	{
 									"inst-placements":	[],
 									"nets":	[{
-											"id":	1040459,
+											"id":	1424282,
 											"wires":	[{
-													"a":	{
-														"x":	124,
-														"y":	74
-													},
-													"b":	{
-														"x":	126,
-														"y":	74
-													}
-												}, {
 													"a":	{
 														"x":	126,
 														"y":	66
@@ -1600,11 +1591,20 @@
 														"x":	126,
 														"y":	83
 													}
+												}, {
+													"a":	{
+														"x":	124,
+														"y":	74
+													},
+													"b":	{
+														"x":	126,
+														"y":	74
+													}
 												}],
 											"label-placement?":	null,
 											"require-marker-placements":	[]
 										}, {
-											"id":	1040460,
+											"id":	1424283,
 											"wires":	[{
 													"a":	{
 														"x":	198,
@@ -1657,16 +1657,16 @@
 									"y":	0
 								},
 								"partial-island-nets":	[],
-								"external-ports-by-net-id":	[[1040459, [{
-												"id":	1040487,
+								"external-ports-by-net-id":	[[1424282, [{
+												"id":	1424310,
 												"pt":	{
 													"x":	124,
 													"y":	74
 												},
 												"dir":	"Left",
 												"tag":	"AnyTag"
-											}]], [1040460, [{
-												"id":	1040488,
+											}]], [1424283, [{
+												"id":	1424311,
 												"pt":	{
 													"x":	201,
 													"y":	73
@@ -1675,19 +1675,19 @@
 												"tag":	"AnyTag"
 											}]]],
 								"high-level-nets":	[{
-										"id":	1040459,
+										"id":	1424282,
 										"name":	"PDM.clk",
 										"labeled?":	{
 											"type":	"string"
 										},
-										"net-id-by-group-id":	[[4108, 1040450], [4163, 1040449]]
+										"net-id-by-group-id":	[[4108, 1424273], [4163, 1424272]]
 									}, {
-										"id":	1040460,
+										"id":	1424283,
 										"name":	"PDM.data",
 										"labeled?":	{
 											"type":	"string"
 										},
-										"net-id-by-group-id":	[[4108, 1040453], [4163, 1040452]]
+										"net-id-by-group-id":	[[4108, 1424276], [4163, 1424275]]
 									}]
 							}, {
 								"id":	4059,
@@ -1695,7 +1695,7 @@
 								"children":	[],
 								"output":	{
 									"inst-placements":	[{
-											"inst":	1040438,
+											"inst":	1424261,
 											"pose":	{
 												"center":	{
 													"x":	171,
@@ -1706,7 +1706,7 @@
 											}
 										}],
 									"nets":	[{
-											"id":	1040448,
+											"id":	1424271,
 											"wires":	[{
 													"a":	{
 														"x":	160,
@@ -1757,7 +1757,7 @@
 											},
 											"require-marker-placements":	[]
 										}, {
-											"id":	1040445,
+											"id":	1424268,
 											"wires":	[{
 													"a":	{
 														"x":	159,
@@ -1790,7 +1790,7 @@
 											},
 											"require-marker-placements":	[]
 										}, {
-											"id":	1040454,
+											"id":	1424277,
 											"wires":	[{
 													"a":	{
 														"x":	156,
@@ -1804,7 +1804,7 @@
 											"label-placement?":	null,
 											"require-marker-placements":	[]
 										}, {
-											"id":	1040451,
+											"id":	1424274,
 											"wires":	[{
 													"a":	{
 														"x":	156,
@@ -1848,7 +1848,7 @@
 									"y":	0
 								},
 								"partial-island-nets":	[],
-								"external-ports-by-net-id":	[[1040454, [{
+								"external-ports-by-net-id":	[[1424277, [{
 												"id":	648824,
 												"pt":	{
 													"x":	156,
@@ -1856,7 +1856,7 @@
 												},
 												"dir":	"Left",
 												"tag":	"AnyTag"
-											}]], [1040451, [{
+											}]], [1424274, [{
 												"id":	648825,
 												"pt":	{
 													"x":	156,
@@ -1870,7 +1870,7 @@
 						"output":	{
 							"inst-placements":	[],
 							"nets":	[{
-									"id":	1040479,
+									"id":	1424302,
 									"wires":	[{
 											"a":	{
 												"x":	122,
@@ -1909,7 +1909,7 @@
 											}
 										}],
 									"label-placement?":	{
-										"inst":	1040493,
+										"inst":	1424316,
 										"pose":	{
 											"center":	{
 												"x":	122,
@@ -1921,7 +1921,7 @@
 									},
 									"require-marker-placements":	[]
 								}, {
-									"id":	1040480,
+									"id":	1424303,
 									"wires":	[{
 											"a":	{
 												"x":	155,
@@ -1969,7 +1969,7 @@
 											}
 										}],
 									"label-placement?":	{
-										"inst":	1040496,
+										"inst":	1424319,
 										"pose":	{
 											"center":	{
 												"x":	155,
@@ -1995,131 +1995,131 @@
 						"partial-island-nets":	[],
 						"external-ports-by-net-id":	[],
 						"high-level-nets":	[{
-								"id":	1040479,
+								"id":	1424302,
 								"name":	"PDM.clk",
 								"labeled?":	{
 									"type":	"string"
 								},
-								"net-id-by-group-id":	[[4059, 1040451], [1040458, 1040459]]
+								"net-id-by-group-id":	[[4059, 1424274], [1424281, 1424282]]
 							}, {
-								"id":	1040480,
+								"id":	1424303,
 								"name":	"PDM.data",
 								"labeled?":	{
 									"type":	"string"
 								},
-								"net-id-by-group-id":	[[4059, 1040454], [1040458, 1040460]]
+								"net-id-by-group-id":	[[4059, 1424277], [1424281, 1424283]]
 							}]
 					}]
 			}],
 		"hierarchical-diagram":	null,
 		"partial-group-nets":	[[{
-					"parent-net-id":	1040441,
+					"parent-net-id":	1424265,
 					"refs":	[{
-							"inst":	1040436,
-							"port":	1040421
+							"inst":	1424259,
+							"port":	1424243
 						}],
 					"require-markers":	[]
-				}, 1040449], [{
-					"parent-net-id":	1040441,
+				}, 1424275], [{
+					"parent-net-id":	1424264,
 					"refs":	[{
-							"inst":	1040434,
-							"port":	1040421
+							"inst":	1424261,
+							"port":	1424247
 						}],
 					"require-markers":	[]
-				}, 1040450], [{
-					"parent-net-id":	1040442,
+				}, 1424274], [{
+					"parent-net-id":	1424263,
 					"refs":	[{
-							"inst":	1040434,
-							"port":	1040423
-						}],
-					"require-markers":	[]
-				}, 1040453], [{
-					"parent-net-id":	1040441,
-					"refs":	[{
-							"inst":	1040438,
-							"port":	1040427
-						}],
-					"require-markers":	[]
-				}, 1040451], [{
-					"parent-net-id":	1040442,
-					"refs":	[{
-							"inst":	1040438,
-							"port":	1040431
-						}],
-					"require-markers":	[]
-				}, 1040454], [{
-					"parent-net-id":	1040442,
-					"refs":	[{
-							"inst":	1040436,
-							"port":	1040423
-						}],
-					"require-markers":	[]
-				}, 1040452], [{
-					"parent-net-id":	1040439,
-					"refs":	[{
-							"inst":	1040438,
-							"port":	1040432
-						}],
-					"require-markers":	[]
-				}, 1040445], [{
-					"parent-net-id":	1040440,
-					"refs":	[{
-							"inst":	1040438,
-							"port":	1040428
+							"inst":	1424259,
+							"port":	1424242
 						}, {
-							"inst":	1040438,
-							"port":	1040429
+							"inst":	1424259,
+							"port":	1424245
 						}, {
-							"inst":	1040438,
-							"port":	1040430
+							"inst":	1424260,
+							"port":	1424254
 						}],
 					"require-markers":	[]
-				}, 1040448], [{
-					"parent-net-id":	1040440,
+				}, 1424269], [{
+					"parent-net-id":	1424262,
 					"refs":	[{
-							"inst":	1040434,
-							"port":	1040425
+							"inst":	1424259,
+							"port":	1424244
 						}, {
-							"inst":	1040435,
-							"port":	1040418
+							"inst":	1424260,
+							"port":	1424255
 						}],
 					"require-markers":	[]
-				}, 1040447], [{
-					"parent-net-id":	1040439,
+				}, 1424266], [{
+					"parent-net-id":	1424263,
 					"refs":	[{
-							"inst":	1040436,
-							"port":	1040424
+							"inst":	1424257,
+							"port":	1424245
 						}, {
-							"inst":	1040437,
-							"port":	1040419
+							"inst":	1424258,
+							"port":	1424254
 						}],
 					"require-markers":	[]
-				}, 1040443], [{
-					"parent-net-id":	1040440,
+				}, 1424270], [{
+					"parent-net-id":	1424263,
 					"refs":	[{
-							"inst":	1040436,
-							"port":	1040422
+							"inst":	1424261,
+							"port":	1424248
 						}, {
-							"inst":	1040436,
-							"port":	1040425
+							"inst":	1424261,
+							"port":	1424249
 						}, {
-							"inst":	1040437,
-							"port":	1040418
+							"inst":	1424261,
+							"port":	1424250
 						}],
 					"require-markers":	[]
-				}, 1040446], [{
-					"parent-net-id":	1040439,
+				}, 1424271], [{
+					"parent-net-id":	1424262,
 					"refs":	[{
-							"inst":	1040434,
-							"port":	1040422
+							"inst":	1424257,
+							"port":	1424242
 						}, {
-							"inst":	1040434,
-							"port":	1040424
+							"inst":	1424257,
+							"port":	1424244
 						}, {
-							"inst":	1040435,
-							"port":	1040419
+							"inst":	1424258,
+							"port":	1424255
 						}],
 					"require-markers":	[]
-				}, 1040444]]
+				}, 1424267], [{
+					"parent-net-id":	1424265,
+					"refs":	[{
+							"inst":	1424261,
+							"port":	1424251
+						}],
+					"require-markers":	[]
+				}, 1424277], [{
+					"parent-net-id":	1424265,
+					"refs":	[{
+							"inst":	1424257,
+							"port":	1424243
+						}],
+					"require-markers":	[]
+				}, 1424276], [{
+					"parent-net-id":	1424262,
+					"refs":	[{
+							"inst":	1424261,
+							"port":	1424252
+						}],
+					"require-markers":	[]
+				}, 1424268], [{
+					"parent-net-id":	1424264,
+					"refs":	[{
+							"inst":	1424257,
+							"port":	1424241
+						}],
+					"require-markers":	[]
+				}, 1424273], [{
+					"parent-net-id":	1424264,
+					"refs":	[{
+							"inst":	1424259,
+							"port":	1424241
+						}],
+					"require-markers":	[]
+				}, 1424272]]
 	}
 }

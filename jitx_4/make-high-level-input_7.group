@@ -1,0 +1,617 @@
+SchematicGroupOutput 1118565:
+  ref: board-io
+  origin: (0, 0)
+  border: (92, -11) to (221, 185)
+  box layout output :
+    inst 1428336 at loc((211, 25), 180, false)
+    inst 1428337 at loc((196, 21), 180, false)
+    inst 1428323 at loc((184, 147), 270, false)
+    inst 1428324 at loc((165, 147), 270, false)
+    inst 1428340 at loc((163, 96), 180, false)
+    inst 1428325 at loc((205, 147), 270, false)
+    inst 1428341 at loc((167, 114), 0, false)
+    inst 1428333 at loc((177, 179), 0, false)
+    layout net 1428647 :
+      wire (191, 24) to (192, 24)
+      wire (191, 21) to (194, 21)
+      wire (191, 21) to (191, 24)
+      label 1119770 at loc((192, 24), 0, false)
+    layout net 1428643 :
+      wire (185, 181) to (186, 181)
+      label 1119732 at loc((186, 181), 0, false)
+    layout net 1428639 :
+      wire (167, 175) to (169, 175)
+      label 1119733 at loc((167, 175), 180, false)
+    layout net 1428635 :
+      wire (206, 27) to (207, 27)
+      wire (206, 25) to (209, 25)
+      wire (206, 25) to (206, 27)
+      label 1119773 at loc((207, 27), 0, false)
+    layout net 1428629 :
+      wire (202, 154) to (207, 154)
+      wire (206, 153) to (206, 154)
+      wire (202, 153) to (202, 155)
+      label 1119744 at loc((207, 154), 0, false)
+      require marker 1428507 at loc((202, 155), 90, false)
+    layout net 1428618 :
+      wire (185, 175) to (186, 175)
+      label 1119734 at loc((186, 175), 0, false)
+    layout net 1428612 :
+      wire (167, 111) to (167, 112)
+      label 1119793 at loc((167, 111), 270, false)
+    layout net 1428606 :
+      wire (163, 93) to (199, 93)
+      wire (163, 93) to (163, 94)
+      label 1119788 at loc((199, 93), 0, false)
+    layout net 1428603 :
+      wire (163, 98) to (163, 99)
+      label 1119792 at loc((163, 99), 90, false)
+    layout net 1428590 :
+      wire (162, 154) to (167, 154)
+      wire (166, 153) to (166, 154)
+      wire (162, 153) to (162, 156)
+      label 1119752 at loc((167, 154), 0, false)
+      require marker 1428460 at loc((162, 156), 90, false)
+    layout net 1428581 :
+      wire (181, 154) to (186, 154)
+      wire (185, 153) to (185, 154)
+      wire (181, 153) to (181, 156)
+      label 1119761 at loc((186, 154), 0, false)
+      require marker 1428449 at loc((181, 156), 90, false)
+    layout net 1428578 :
+      wire (167, 122) to (189, 122)
+      wire (167, 116) to (167, 122)
+      label 1119791 at loc((189, 122), 0, false)
+    layout net 1428573 :
+      wire (167, 181) to (169, 181)
+      label 1119735 at loc((167, 181), 180, false)
+    layout net 1119729 :
+      wire (162, 140) to (166, 140)
+      wire (166, 140) to (166, 141)
+      wire (162, 139) to (162, 141)
+      label 1119753 at loc((162, 139), 0, false)
+    layout net 1119730 :
+      wire (202, 140) to (206, 140)
+      wire (206, 140) to (206, 141)
+      wire (202, 139) to (202, 141)
+      label 1119745 at loc((202, 139), 0, false)
+    layout net 1119731 :
+      wire (181, 140) to (185, 140)
+      wire (185, 140) to (185, 141)
+      wire (181, 139) to (181, 141)
+      label 1119760 at loc((181, 139), 0, false)
+  partial-island-nets :
+    net 1119731 = partial-net (parent = 1428549) (B1428323.P1428220, B1428323.P1428221)
+    net 1119730 = partial-net (parent = 1428549) (B1428325.P1428220, B1428325.P1428221)
+    net 1119729 = partial-net (parent = 1428549) (B1428324.P1428220, B1428324.P1428221)
+  wire-splits :
+    WireSplit (net-id = 1428647, wire-idx = 0):
+      chunk 133191 from (191, 24) to (192, 24)
+    WireSplit (net-id = 1428647, wire-idx = 1):
+      chunk 133192 from (191, 21) to (194, 21)
+    WireSplit (net-id = 1428647, wire-idx = 2):
+      chunk 133193 from (191, 21) to (191, 24)
+    WireSplit (net-id = 1428643, wire-idx = 0):
+      chunk 133194 from (185, 181) to (186, 181)
+    WireSplit (net-id = 1428639, wire-idx = 0):
+      chunk 133195 from (167, 175) to (169, 175)
+    WireSplit (net-id = 1428635, wire-idx = 0):
+      chunk 133196 from (206, 27) to (207, 27)
+    WireSplit (net-id = 1428635, wire-idx = 1):
+      chunk 133197 from (206, 25) to (209, 25)
+    WireSplit (net-id = 1428635, wire-idx = 2):
+      chunk 133198 from (206, 25) to (206, 27)
+    WireSplit (net-id = 1428629, wire-idx = 0):
+      chunk 133199 from (202, 154) to (206, 154)
+      chunk 133200 from (206, 154) to (207, 154)
+    WireSplit (net-id = 1428629, wire-idx = 1):
+      chunk 133201 from (206, 153) to (206, 154)
+    WireSplit (net-id = 1428629, wire-idx = 2):
+      chunk 133202 from (202, 153) to (202, 154)
+      chunk 133203 from (202, 154) to (202, 155)
+    WireSplit (net-id = 1428618, wire-idx = 0):
+      chunk 133204 from (185, 175) to (186, 175)
+    WireSplit (net-id = 1428612, wire-idx = 0):
+      chunk 133205 from (167, 111) to (167, 112)
+    WireSplit (net-id = 1428606, wire-idx = 0):
+      chunk 133206 from (163, 93) to (199, 93)
+    WireSplit (net-id = 1428606, wire-idx = 1):
+      chunk 133207 from (163, 93) to (163, 94)
+    WireSplit (net-id = 1428603, wire-idx = 0):
+      chunk 133208 from (163, 98) to (163, 99)
+    WireSplit (net-id = 1428590, wire-idx = 0):
+      chunk 133209 from (162, 154) to (166, 154)
+      chunk 133210 from (166, 154) to (167, 154)
+    WireSplit (net-id = 1428590, wire-idx = 1):
+      chunk 133211 from (166, 153) to (166, 154)
+    WireSplit (net-id = 1428590, wire-idx = 2):
+      chunk 133212 from (162, 153) to (162, 154)
+      chunk 133213 from (162, 154) to (162, 156)
+    WireSplit (net-id = 1428581, wire-idx = 0):
+      chunk 133214 from (181, 154) to (185, 154)
+      chunk 133215 from (185, 154) to (186, 154)
+    WireSplit (net-id = 1428581, wire-idx = 1):
+      chunk 133216 from (185, 153) to (185, 154)
+    WireSplit (net-id = 1428581, wire-idx = 2):
+      chunk 133217 from (181, 153) to (181, 154)
+      chunk 133218 from (181, 154) to (181, 156)
+    WireSplit (net-id = 1428578, wire-idx = 0):
+      chunk 133219 from (167, 122) to (189, 122)
+    WireSplit (net-id = 1428578, wire-idx = 1):
+      chunk 133220 from (167, 116) to (167, 122)
+    WireSplit (net-id = 1428573, wire-idx = 0):
+      chunk 133221 from (167, 181) to (169, 181)
+    WireSplit (net-id = 1119729, wire-idx = 0):
+      chunk 133222 from (162, 140) to (166, 140)
+    WireSplit (net-id = 1119729, wire-idx = 1):
+      chunk 133223 from (166, 140) to (166, 141)
+    WireSplit (net-id = 1119729, wire-idx = 2):
+      chunk 133224 from (162, 139) to (162, 140)
+      chunk 133225 from (162, 140) to (162, 141)
+    WireSplit (net-id = 1119730, wire-idx = 0):
+      chunk 133226 from (202, 140) to (206, 140)
+    WireSplit (net-id = 1119730, wire-idx = 1):
+      chunk 133227 from (206, 140) to (206, 141)
+    WireSplit (net-id = 1119730, wire-idx = 2):
+      chunk 133228 from (202, 139) to (202, 140)
+      chunk 133229 from (202, 140) to (202, 141)
+    WireSplit (net-id = 1119731, wire-idx = 0):
+      chunk 133230 from (181, 140) to (185, 140)
+    WireSplit (net-id = 1119731, wire-idx = 1):
+      chunk 133231 from (185, 140) to (185, 141)
+    WireSplit (net-id = 1119731, wire-idx = 2):
+      chunk 133232 from (181, 139) to (181, 140)
+      chunk 133233 from (181, 140) to (181, 141)
+  children :
+    SchematicGroupOutput 1118364:
+      ref: board-io.qsensor.module
+      origin: (0, 0)
+      border: (115, 81) to (158, 124)
+      box layout output :
+        inst 1428320 at loc((128, 102), 0, false)
+        inst 1428321 at loc((152, 90), 180, false)
+        inst 1428322 at loc((155, 90), 180, false)
+        layout net 1428575 :
+          wire (139, 110) to (141, 110)
+          label 1118346 at loc((141, 110), 0, false)
+        layout net 1428567 :
+          wire (139, 98) to (142, 98)
+          label 1118347 at loc((142, 98), 0, false)
+        layout net 1118324 :
+          wire (127, 119) to (129, 119)
+          wire (129, 118) to (129, 119)
+          wire (127, 118) to (127, 120)
+          label 1118342 at loc((127, 120), 90, false)
+        layout net 1118325 :
+          wire (152, 93) to (155, 93)
+          wire (155, 92) to (155, 96)
+          wire (152, 92) to (152, 93)
+          label 1118328 at loc((155, 96), 90, false)
+        layout net 1118326 :
+          wire (128, 85) to (128, 86)
+          label 1118343 at loc((128, 85), 0, false)
+        layout net 1118327 :
+          wire (152, 87) to (155, 87)
+          wire (155, 85) to (155, 88)
+          wire (152, 87) to (152, 88)
+          label 1118329 at loc((155, 85), 0, false)
+        layout net 1428607 :
+          wire (139, 94) to (158, 94)
+        layout net 1428579 :
+          wire (139, 96) to (140, 96)
+          wire (140, 112) to (158, 112)
+          wire (140, 96) to (140, 112)
+      partial-island-nets :
+        net 1118325 = partial-net (parent = 1428555) (B1428321.P1427861, B1428322.P1427867)
+        net 1118324 = partial-net (parent = 1428555) (B1428320.P1428214, B1428320.P1428215)
+        net 1118327 = partial-net (parent = 1428546) (B1428321.P1427860, B1428322.P1427866)
+        net 1118326 = partial-net (parent = 1428546) (B1428320.P1428216)
+      wire-splits :
+        WireSplit (net-id = 1428575, wire-idx = 0):
+          chunk 133489 from (139, 110) to (141, 110)
+        WireSplit (net-id = 1428567, wire-idx = 0):
+          chunk 133490 from (139, 98) to (142, 98)
+        WireSplit (net-id = 1118324, wire-idx = 0):
+          chunk 133491 from (127, 119) to (129, 119)
+        WireSplit (net-id = 1118324, wire-idx = 1):
+          chunk 133492 from (129, 118) to (129, 119)
+        WireSplit (net-id = 1118324, wire-idx = 2):
+          chunk 133493 from (127, 118) to (127, 119)
+          chunk 133494 from (127, 119) to (127, 120)
+        WireSplit (net-id = 1118325, wire-idx = 0):
+          chunk 133495 from (152, 93) to (155, 93)
+        WireSplit (net-id = 1118325, wire-idx = 1):
+          chunk 133496 from (155, 92) to (155, 93)
+          chunk 133497 from (155, 93) to (155, 96)
+        WireSplit (net-id = 1118325, wire-idx = 2):
+          chunk 133498 from (152, 92) to (152, 93)
+        WireSplit (net-id = 1118326, wire-idx = 0):
+          chunk 133499 from (128, 85) to (128, 86)
+        WireSplit (net-id = 1118327, wire-idx = 0):
+          chunk 133500 from (152, 87) to (155, 87)
+        WireSplit (net-id = 1118327, wire-idx = 1):
+          chunk 133501 from (155, 85) to (155, 87)
+          chunk 133502 from (155, 87) to (155, 88)
+        WireSplit (net-id = 1118327, wire-idx = 2):
+          chunk 133503 from (152, 87) to (152, 88)
+        WireSplit (net-id = 1428607, wire-idx = 0):
+          chunk 133504 from (139, 94) to (158, 94)
+        WireSplit (net-id = 1428579, wire-idx = 0):
+          chunk 133505 from (139, 96) to (140, 96)
+        WireSplit (net-id = 1428579, wire-idx = 1):
+          chunk 133506 from (140, 112) to (158, 112)
+        WireSplit (net-id = 1428579, wire-idx = 2):
+          chunk 133507 from (140, 96) to (140, 112)
+      children : ()
+      external-ports-by-net-id :
+        1428607 => [port 1429596 at (158, 94) facing Right]
+        1428579 => [port 1429597 at (158, 112) facing Right]
+      high-level-nets : ()
+    SchematicGroupOutput 1118454:
+      ref: board-io.rs.collector[1]
+      origin: (0, 0)
+      border: (170, 94) to (198, 116)
+      box layout output :
+        inst 1428338 at loc((185, 99), 180, false)
+        inst 1428339 at loc((190, 108), 180, false)
+        layout net 1118420 :
+          wire (190, 110) to (190, 112)
+          label 1118429 at loc((190, 112), 90, false)
+        layout net 1118421 :
+          wire (185, 101) to (185, 104)
+          label 1118434 at loc((185, 104), 90, false)
+        layout net 1428604 :
+          wire (177, 94) to (177, 96)
+          wire (172, 96) to (185, 96)
+          wire (185, 96) to (185, 97)
+          wire (172, 96) to (172, 104)
+          wire (174, 96) to (174, 104)
+          require marker 1428482 at loc((172, 104), 90, false)
+          require marker 1428481 at loc((174, 104), 90, false)
+        layout net 1428576 :
+          wire (190, 103) to (196, 103)
+          wire (190, 103) to (190, 106)
+          wire (196, 103) to (196, 104)
+          wire (194, 103) to (194, 104)
+          wire (193, 94) to (193, 103)
+          require marker 1428446 at loc((194, 104), 90, false)
+          require marker 1428445 at loc((196, 104), 90, false)
+      partial-island-nets :
+        net 1118421 = partial-net (parent = 1428553) (B1428338.P1428014)
+        net 1118420 = partial-net (parent = 1428553) (B1428339.P1428014)
+      wire-splits :
+        WireSplit (net-id = 1118420, wire-idx = 0):
+          chunk 133752 from (190, 110) to (190, 112)
+        WireSplit (net-id = 1118421, wire-idx = 0):
+          chunk 133753 from (185, 101) to (185, 104)
+        WireSplit (net-id = 1428604, wire-idx = 1):
+          chunk 133754 from (172, 96) to (174, 96)
+          chunk 133755 from (174, 96) to (177, 96)
+          chunk 133756 from (177, 96) to (185, 96)
+        WireSplit (net-id = 1428604, wire-idx = 0):
+          chunk 133757 from (177, 94) to (177, 96)
+        WireSplit (net-id = 1428604, wire-idx = 2):
+          chunk 133758 from (185, 96) to (185, 97)
+        WireSplit (net-id = 1428604, wire-idx = 3):
+          chunk 133759 from (172, 96) to (172, 104)
+        WireSplit (net-id = 1428604, wire-idx = 4):
+          chunk 133760 from (174, 96) to (174, 104)
+        WireSplit (net-id = 1428576, wire-idx = 0):
+          chunk 133761 from (190, 103) to (193, 103)
+          chunk 133762 from (193, 103) to (194, 103)
+          chunk 133763 from (194, 103) to (196, 103)
+        WireSplit (net-id = 1428576, wire-idx = 1):
+          chunk 133764 from (190, 103) to (190, 106)
+        WireSplit (net-id = 1428576, wire-idx = 2):
+          chunk 133765 from (196, 103) to (196, 104)
+        WireSplit (net-id = 1428576, wire-idx = 3):
+          chunk 133766 from (194, 103) to (194, 104)
+        WireSplit (net-id = 1428576, wire-idx = 4):
+          chunk 133767 from (193, 94) to (193, 103)
+      children : ()
+      external-ports-by-net-id :
+        1428604 => [port 1429614 at (177, 94) facing Down]
+        1428576 => [port 1429615 at (193, 94) facing Down]
+      high-level-nets : ()
+    SchematicGroupOutput 1118149:
+      ref: board-io.codec.module
+      origin: (0, 0)
+      border: (94, -9) to (186, 80)
+      box layout output :
+        inst 1428309 at loc((145, 20), 0, false)
+        inst 1428315 at loc((175, 13), 180, false)
+        inst 1428314 at loc((183, 35), 180, false)
+        inst 1428311 at loc((169, 40), 180, false)
+        inst 1428319 at loc((129, 54), 180, false)
+        inst 1428316 at loc((136, 52), 180, false)
+        inst 1428317 at loc((122, 9), 180, false)
+        inst 1428312 at loc((97, 58), 180, false)
+        inst 1428318 at loc((100, 58), 180, false)
+        inst 1428313 at loc((97, 71), 180, false)
+        inst 1428310 at loc((101, 72), 180, false)
+        layout net 1428644 :
+          wire (108, 25) to (124, 25)
+          wire (109, 25) to (109, 26)
+          label 1118074 at loc((109, 26), 90, false)
+          require marker 1428540 at loc((108, 25), 180, false)
+        layout net 1428523 :
+          wire (166, 29) to (175, 29)
+          wire (175, 15) to (175, 29)
+        layout net 1428511 :
+          wire (122, 13) to (124, 13)
+          wire (122, 11) to (122, 13)
+        layout net 1428504 :
+          wire (136, 55) to (143, 55)
+          wire (143, 42) to (143, 55)
+          wire (136, 54) to (136, 55)
+        layout net 1428499 :
+          wire (129, 57) to (145, 57)
+          wire (145, 42) to (145, 57)
+          wire (129, 56) to (129, 57)
+        layout net 1428615 :
+          wire (122, 27) to (124, 27)
+          wire (123, 27) to (123, 28)
+          label 1118077 at loc((123, 28), 90, false)
+          require marker 1428492 at loc((122, 27), 180, false)
+        layout net 1428470 :
+          wire (155, 43) to (169, 43)
+          wire (169, 42) to (169, 43)
+          wire (155, 42) to (155, 43)
+        layout net 1428596 :
+          wire (179, 38) to (183, 38)
+          wire (166, 31) to (179, 31)
+          wire (183, 37) to (183, 39)
+          wire (179, 31) to (179, 38)
+          label 1118071 at loc((183, 39), 90, false)
+        layout net 1118010 :
+          wire (149, 46) to (153, 46)
+          wire (153, 42) to (153, 46)
+          wire (149, 42) to (149, 47)
+          label 1118078 at loc((149, 47), 90, false)
+        layout net 1118009 :
+          wire (97, 61) to (100, 61)
+          wire (100, 60) to (100, 64)
+          wire (97, 60) to (97, 61)
+          label 1118097 at loc((100, 64), 90, false)
+        layout net 1118012 :
+          wire (151, 42) to (151, 43)
+          label 1118081 at loc((151, 43), 90, false)
+        layout net 1118011 :
+          wire (97, 73) to (97, 76)
+          label 1118091 at loc((97, 76), 90, false)
+        layout net 1118014 :
+          wire (147, 42) to (147, 43)
+          label 1118080 at loc((147, 43), 90, false)
+        layout net 1118013 :
+          wire (101, 74) to (101, 76)
+          label 1118030 at loc((101, 76), 90, false)
+        layout net 1118024 :
+          wire (101, 69) to (101, 70)
+          label 1118031 at loc((101, 69), 0, false)
+        layout net 1118023 :
+          wire (175, 10) to (175, 11)
+          label 1118084 at loc((175, 10), 0, false)
+        layout net 1118022 :
+          wire (97, 55) to (100, 55)
+          wire (100, 54) to (100, 56)
+          wire (97, 55) to (97, 56)
+          label 1118098 at loc((100, 54), 0, false)
+        layout net 1118021 :
+          wire (136, 49) to (136, 50)
+          label 1118085 at loc((136, 49), 0, false)
+        layout net 1118020 :
+          wire (169, 37) to (169, 38)
+          label 1118082 at loc((169, 37), 0, false)
+        layout net 1118019 :
+          wire (183, 32) to (183, 33)
+          label 1118083 at loc((183, 32), 0, false)
+        layout net 1118018 :
+          wire (129, 50) to (129, 52)
+          label 1118079 at loc((129, 50), 0, false)
+        layout net 1118017 :
+          wire (97, 68) to (97, 69)
+          label 1118092 at loc((97, 68), 0, false)
+        layout net 1118016 :
+          wire (145, -3) to (147, -3)
+          wire (147, -5) to (147, -2)
+          wire (145, -3) to (145, -2)
+          label 1118068 at loc((147, -5), 0, false)
+        layout net 1118015 :
+          wire (122, 6) to (122, 7)
+          label 1118086 at loc((122, 6), 0, false)
+        layout net 1428646 :
+          wire (166, 21) to (186, 21)
+        layout net 1428634 :
+          wire (166, 23) to (186, 23)
+        layout net 1428609 :
+          wire (166, 19) to (186, 19)
+        layout net 1428592 :
+          wire (166, 17) to (186, 17)
+      partial-island-nets :
+        net 1118009 = partial-net (parent = 1428570) (B1428312.P1427954, B1428318.P1428008)
+        net 1118010 = partial-net (parent = 1428570) (B1428309.P1428250, B1428309.P1428252)
+        net 1118011 = partial-net (parent = 1428564) (B1428313.P1427963)
+        net 1118012 = partial-net (parent = 1428564) (B1428309.P1428251)
+        net 1118013 = partial-net (parent = 1428557) (B1428310.P1427934)
+        net 1118014 = partial-net (parent = 1428557) (B1428309.P1428249)
+        net 1118015 = partial-net (parent = 1428543) (B1428317.P1427998)
+        net 1118016 = partial-net (parent = 1428543) (B1428309.P1428255, B1428309.P1428256)
+        net 1118017 = partial-net (parent = 1428543) (B1428313.P1427962)
+        net 1118018 = partial-net (parent = 1428543) (B1428319.P1428010)
+        net 1118019 = partial-net (parent = 1428543) (B1428314.P1427971)
+        net 1118020 = partial-net (parent = 1428543) (B1428311.P1427942)
+        net 1118021 = partial-net (parent = 1428543) (B1428316.P1427989)
+        net 1118022 = partial-net (parent = 1428543) (B1428312.P1427953, B1428318.P1428007)
+        net 1118023 = partial-net (parent = 1428543) (B1428315.P1427980)
+        net 1118024 = partial-net (parent = 1428543) (B1428310.P1427933)
+      wire-splits :
+        WireSplit (net-id = 1428644, wire-idx = 0):
+          chunk 132752 from (108, 25) to (109, 25)
+          chunk 132753 from (109, 25) to (124, 25)
+        WireSplit (net-id = 1428644, wire-idx = 1):
+          chunk 132754 from (109, 25) to (109, 26)
+        WireSplit (net-id = 1428523, wire-idx = 0):
+          chunk 132755 from (166, 29) to (175, 29)
+        WireSplit (net-id = 1428523, wire-idx = 1):
+          chunk 132756 from (175, 15) to (175, 29)
+        WireSplit (net-id = 1428511, wire-idx = 0):
+          chunk 132757 from (122, 13) to (124, 13)
+        WireSplit (net-id = 1428511, wire-idx = 1):
+          chunk 132758 from (122, 11) to (122, 13)
+        WireSplit (net-id = 1428504, wire-idx = 0):
+          chunk 132759 from (136, 55) to (143, 55)
+        WireSplit (net-id = 1428504, wire-idx = 1):
+          chunk 132760 from (143, 42) to (143, 55)
+        WireSplit (net-id = 1428504, wire-idx = 2):
+          chunk 132761 from (136, 54) to (136, 55)
+        WireSplit (net-id = 1428499, wire-idx = 0):
+          chunk 132762 from (129, 57) to (145, 57)
+        WireSplit (net-id = 1428499, wire-idx = 1):
+          chunk 132763 from (145, 42) to (145, 57)
+        WireSplit (net-id = 1428499, wire-idx = 2):
+          chunk 132764 from (129, 56) to (129, 57)
+        WireSplit (net-id = 1428615, wire-idx = 0):
+          chunk 132765 from (122, 27) to (123, 27)
+          chunk 132766 from (123, 27) to (124, 27)
+        WireSplit (net-id = 1428615, wire-idx = 1):
+          chunk 132767 from (123, 27) to (123, 28)
+        WireSplit (net-id = 1428470, wire-idx = 0):
+          chunk 132768 from (155, 43) to (169, 43)
+        WireSplit (net-id = 1428470, wire-idx = 1):
+          chunk 132769 from (169, 42) to (169, 43)
+        WireSplit (net-id = 1428470, wire-idx = 2):
+          chunk 132770 from (155, 42) to (155, 43)
+        WireSplit (net-id = 1428596, wire-idx = 0):
+          chunk 132771 from (179, 38) to (183, 38)
+        WireSplit (net-id = 1428596, wire-idx = 1):
+          chunk 132772 from (166, 31) to (179, 31)
+        WireSplit (net-id = 1428596, wire-idx = 2):
+          chunk 132773 from (183, 37) to (183, 38)
+          chunk 132774 from (183, 38) to (183, 39)
+        WireSplit (net-id = 1428596, wire-idx = 3):
+          chunk 132775 from (179, 31) to (179, 38)
+        WireSplit (net-id = 1118010, wire-idx = 0):
+          chunk 132776 from (149, 46) to (153, 46)
+        WireSplit (net-id = 1118010, wire-idx = 1):
+          chunk 132777 from (153, 42) to (153, 46)
+        WireSplit (net-id = 1118010, wire-idx = 2):
+          chunk 132778 from (149, 42) to (149, 46)
+          chunk 132779 from (149, 46) to (149, 47)
+        WireSplit (net-id = 1118009, wire-idx = 0):
+          chunk 132780 from (97, 61) to (100, 61)
+        WireSplit (net-id = 1118009, wire-idx = 1):
+          chunk 132781 from (100, 60) to (100, 61)
+          chunk 132782 from (100, 61) to (100, 64)
+        WireSplit (net-id = 1118009, wire-idx = 2):
+          chunk 132783 from (97, 60) to (97, 61)
+        WireSplit (net-id = 1118012, wire-idx = 0):
+          chunk 132784 from (151, 42) to (151, 43)
+        WireSplit (net-id = 1118011, wire-idx = 0):
+          chunk 132785 from (97, 73) to (97, 76)
+        WireSplit (net-id = 1118014, wire-idx = 0):
+          chunk 132786 from (147, 42) to (147, 43)
+        WireSplit (net-id = 1118013, wire-idx = 0):
+          chunk 132787 from (101, 74) to (101, 76)
+        WireSplit (net-id = 1118024, wire-idx = 0):
+          chunk 132788 from (101, 69) to (101, 70)
+        WireSplit (net-id = 1118023, wire-idx = 0):
+          chunk 132789 from (175, 10) to (175, 11)
+        WireSplit (net-id = 1118022, wire-idx = 0):
+          chunk 132790 from (97, 55) to (100, 55)
+        WireSplit (net-id = 1118022, wire-idx = 1):
+          chunk 132791 from (100, 54) to (100, 55)
+          chunk 132792 from (100, 55) to (100, 56)
+        WireSplit (net-id = 1118022, wire-idx = 2):
+          chunk 132793 from (97, 55) to (97, 56)
+        WireSplit (net-id = 1118021, wire-idx = 0):
+          chunk 132794 from (136, 49) to (136, 50)
+        WireSplit (net-id = 1118020, wire-idx = 0):
+          chunk 132795 from (169, 37) to (169, 38)
+        WireSplit (net-id = 1118019, wire-idx = 0):
+          chunk 132796 from (183, 32) to (183, 33)
+        WireSplit (net-id = 1118018, wire-idx = 0):
+          chunk 132797 from (129, 50) to (129, 52)
+        WireSplit (net-id = 1118017, wire-idx = 0):
+          chunk 132798 from (97, 68) to (97, 69)
+        WireSplit (net-id = 1118016, wire-idx = 0):
+          chunk 132799 from (145, -3) to (147, -3)
+        WireSplit (net-id = 1118016, wire-idx = 1):
+          chunk 132800 from (147, -5) to (147, -3)
+          chunk 132801 from (147, -3) to (147, -2)
+        WireSplit (net-id = 1118016, wire-idx = 2):
+          chunk 132802 from (145, -3) to (145, -2)
+        WireSplit (net-id = 1118015, wire-idx = 0):
+          chunk 132803 from (122, 6) to (122, 7)
+        WireSplit (net-id = 1428646, wire-idx = 0):
+          chunk 132804 from (166, 21) to (186, 21)
+        WireSplit (net-id = 1428634, wire-idx = 0):
+          chunk 132805 from (166, 23) to (186, 23)
+        WireSplit (net-id = 1428609, wire-idx = 0):
+          chunk 132806 from (166, 19) to (186, 19)
+        WireSplit (net-id = 1428592, wire-idx = 0):
+          chunk 132807 from (166, 17) to (186, 17)
+      children : ()
+      external-ports-by-net-id :
+        1428646 => [port 1393105 at (186, 21) facing Right]
+        1428634 => [port 1393106 at (186, 23) facing Right]
+        1428609 => [port 1393107 at (186, 19) facing Right]
+        1428592 => [port 1393108 at (186, 17) facing Right]
+      high-level-nets : ()
+    SchematicGroupOutput 1118407:
+      ref: board-io.rs.collector[0]
+      origin: (0, 0)
+      border: (190, 39) to (214, 54)
+      box layout output :
+        inst 1428335 at loc((193, 46), 180, false)
+        inst 1428334 at loc((208, 45), 180, false)
+        layout net 1118382 :
+          wire (208, 47) to (208, 50)
+          label 1118394 at loc((208, 50), 90, false)
+        layout net 1118381 :
+          wire (193, 48) to (193, 50)
+          label 1118388 at loc((193, 50), 90, false)
+        layout net 1428608 :
+          wire (208, 42) to (214, 42)
+          wire (208, 42) to (208, 43)
+          wire (212, 42) to (212, 43)
+          require marker 1428484 at loc((212, 43), 90, false)
+        layout net 1428591 :
+          wire (193, 41) to (214, 41)
+          wire (193, 41) to (193, 44)
+          wire (200, 41) to (200, 42)
+          require marker 1428463 at loc((200, 42), 90, false)
+      partial-island-nets :
+        net 1118381 = partial-net (parent = 1428556) (B1428335.P1428005)
+        net 1118382 = partial-net (parent = 1428556) (B1428334.P1428005)
+      wire-splits :
+        WireSplit (net-id = 1118382, wire-idx = 0):
+          chunk 132808 from (208, 47) to (208, 50)
+        WireSplit (net-id = 1118381, wire-idx = 0):
+          chunk 132809 from (193, 48) to (193, 50)
+        WireSplit (net-id = 1428608, wire-idx = 0):
+          chunk 132810 from (208, 42) to (212, 42)
+          chunk 132811 from (212, 42) to (214, 42)
+        WireSplit (net-id = 1428608, wire-idx = 1):
+          chunk 132812 from (208, 42) to (208, 43)
+        WireSplit (net-id = 1428608, wire-idx = 2):
+          chunk 132813 from (212, 42) to (212, 43)
+        WireSplit (net-id = 1428591, wire-idx = 0):
+          chunk 132814 from (193, 41) to (200, 41)
+          chunk 132815 from (200, 41) to (214, 41)
+        WireSplit (net-id = 1428591, wire-idx = 1):
+          chunk 132816 from (193, 41) to (193, 44)
+        WireSplit (net-id = 1428591, wire-idx = 2):
+          chunk 132817 from (200, 41) to (200, 42)
+      children : ()
+      external-ports-by-net-id :
+        1428608 => [port 1394755 at (214, 42) facing Right]
+        1428591 => [port 1394756 at (214, 41) facing Right]
+      high-level-nets : ()
+  external-ports-by-net-id : ()
+  high-level-nets :
+    HighLevelNet(id = 1429574, name = codec-i2c-net.scl, labeled? = StringLabel(), net-id-by-group-id = [1118407 => 1428591 1118149 => 1428592])
+    HighLevelNet(id = 1428606, name = board-io.qsen-i3c.sda, labeled? = StringLabel(), net-id-by-group-id = [1118454 => 1428604 1118364 => 1428607 1118565 => 1428606])
+    HighLevelNet(id = 1429575, name = codec-i2c-net.sda, labeled? = StringLabel(), net-id-by-group-id = [1118407 => 1428608 1118149 => 1428609])
+    HighLevelNet(id = 1428647, name = SP_N, labeled? = StringLabel(), net-id-by-group-id = [1118149 => 1428646 1118565 => 1428647])
+    HighLevelNet(id = 1428635, name = SP_P, labeled? = StringLabel(), net-id-by-group-id = [1118149 => 1428634 1118565 => 1428635])
+    HighLevelNet(id = 1428578, name = board-io.qsen-i3c.scl, labeled? = StringLabel(), net-id-by-group-id = [1118454 => 1428576 1118364 => 1428579 1118565 => 1428578])

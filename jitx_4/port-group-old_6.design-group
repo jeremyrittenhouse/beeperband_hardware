@@ -1,0 +1,139 @@
+DesignGroup:
+  box layout input (320, 175) 0.8 :
+    box 1426512 from (-11, -10) to (11, 10):
+      port 1426503 at (-11, 3) facing Left
+      port 1426504 at (-11, 1) facing Left
+      port 1426505 at (-11, -1) facing Left
+      port 1426506 at (-11, -3) facing Left
+      port 1426507 at (11, 1) facing Right
+      port 1426508 at (11, -1) facing Right
+      port 1426509 at (-1, 10) facing Up
+      port 1426510 at (1, 10) facing Up
+      port 1426511 at (0, -10) facing Down
+    box 1425841 from (-1, -2) to (1, 0):
+      port 1425840 at (0, 0) facing Up
+    box 1426613 from (-2, -1) to (2, 1):
+      port 1426612 at (2, 0) facing Right
+    box 1425846 from (0, -1) to (2, 1):
+      port 1425845 at (0, 0) facing Left
+    box 1426584 from (-1, -2) to (1, 2):
+      port 1426582 at (0, 2) facing Up
+      port 1426583 at (0, -2) facing Down
+    box 1426575 from (-1, -2) to (1, 2):
+      port 1426573 at (0, 2) facing Up
+      port 1426574 at (0, -2) facing Down
+    inst 1426677 of box 1426613 (group board-io.hapdrv.module)
+    inst 1426676 of box 1426613 (group board-io.hapdrv.module)
+    inst 1426673 of box 1426584 (group board-io.hapdrv.module)
+    inst 1426672 of box 1426575 (group board-io.hapdrv.module)
+    inst 1426671 of box 1426512 (group board-io.hapdrv.module)
+    net 1426863 REG (B1426672.P1426574, B1426671.P1426509) (unlabeled) 
+    net 1426971 mcu.hap-i2c.scl (B1426671.P1426506) (labeled) 
+    net 1426834 OUT+ (B1426671.P1426507, B1426676.P1426612) (unlabeled) 
+    net 1426958 mcu.hap-gpio[1].gpio (B1426671.P1426504) (labeled) (require 1426833 mcu.hap-gpio[1].gpio)
+    net 1426928 mcu.hap-i2c.sda (B1426671.P1426505) (labeled) 
+    net 1426782 OUT- (B1426677.P1426612, B1426671.P1426508) (unlabeled) 
+    net 1426908 VDDSYS (B1426673.P1426583, B1426671.P1426510) (symbol 1425846) 
+    net 1426896 mcu.hap-gpio[0].gpio (B1426671.P1426503) (labeled) (require 1426756 mcu.hap-gpio[0].gpio)
+    net 1426887 GND (B1426672.P1426573, B1426671.P1426511, B1426673.P1426582) (symbol 1425841) 
+    order ()
+  SchematicGroupOutput 1118262:
+    ref: board-io.hapdrv.module
+    origin: (0, 0)
+    border: (145, 71) to (209, 104)
+    box layout output :
+      inst 1426671 at loc((186, 86), 0, false)
+      inst 1426677 at loc((200, 85), 180, false)
+      inst 1426676 at loc((205, 87), 180, false)
+      inst 1426672 at loc((199, 96), 180, false)
+      inst 1426673 at loc((205, 96), 180, false)
+      layout net 1426863 :
+        wire (185, 100) to (199, 100)
+        wire (199, 98) to (199, 100)
+        wire (185, 96) to (185, 100)
+      layout net 1426834 :
+        wire (197, 87) to (203, 87)
+      layout net 1426958 :
+        wire (158, 87) to (175, 87)
+        wire (159, 87) to (159, 88)
+        label 1118234 at loc((159, 88), 90, false)
+        require marker 1426833 at loc((158, 87), 180, false)
+      layout net 1426782 :
+        wire (197, 85) to (198, 85)
+      layout net 1118201 :
+        wire (205, 98) to (205, 100)
+        label 1118211 at loc((205, 100), 90, false)
+      layout net 1118200 :
+        wire (187, 96) to (187, 97)
+        label 1118237 at loc((187, 97), 90, false)
+      layout net 1426896 :
+        wire (171, 89) to (175, 89)
+        wire (172, 89) to (172, 91)
+        label 1118231 at loc((172, 91), 90, false)
+        require marker 1426756 at loc((171, 89), 180, false)
+      layout net 1118204 :
+        wire (199, 93) to (199, 94)
+        label 1118235 at loc((199, 93), 0, false)
+      layout net 1118203 :
+        wire (186, 75) to (186, 76)
+        label 1118236 at loc((186, 75), 0, false)
+      layout net 1118202 :
+        wire (205, 93) to (205, 94)
+        label 1118210 at loc((205, 93), 0, false)
+      layout net 1426971 :
+        wire (145, 83) to (175, 83)
+      layout net 1426928 :
+        wire (145, 85) to (175, 85)
+    partial-island-nets :
+      net 1118200 = partial-net (parent = 1426908) (B1426671.P1426510)
+      net 1118201 = partial-net (parent = 1426908) (B1426673.P1426583)
+      net 1118202 = partial-net (parent = 1426887) (B1426673.P1426582)
+      net 1118203 = partial-net (parent = 1426887) (B1426671.P1426511)
+      net 1118204 = partial-net (parent = 1426887) (B1426672.P1426573)
+    wire-splits :
+      WireSplit (net-id = 1426863, wire-idx = 0):
+        chunk 94490 from (185, 100) to (199, 100)
+      WireSplit (net-id = 1426863, wire-idx = 1):
+        chunk 94491 from (199, 98) to (199, 100)
+      WireSplit (net-id = 1426863, wire-idx = 2):
+        chunk 94492 from (185, 96) to (185, 100)
+      WireSplit (net-id = 1426834, wire-idx = 0):
+        chunk 94493 from (197, 87) to (203, 87)
+      WireSplit (net-id = 1426958, wire-idx = 0):
+        chunk 94494 from (158, 87) to (159, 87)
+        chunk 94495 from (159, 87) to (175, 87)
+      WireSplit (net-id = 1426958, wire-idx = 1):
+        chunk 94496 from (159, 87) to (159, 88)
+      WireSplit (net-id = 1426782, wire-idx = 0):
+        chunk 94497 from (197, 85) to (198, 85)
+      WireSplit (net-id = 1118201, wire-idx = 0):
+        chunk 94498 from (205, 98) to (205, 100)
+      WireSplit (net-id = 1118200, wire-idx = 0):
+        chunk 94499 from (187, 96) to (187, 97)
+      WireSplit (net-id = 1426896, wire-idx = 0):
+        chunk 94500 from (171, 89) to (172, 89)
+        chunk 94501 from (172, 89) to (175, 89)
+      WireSplit (net-id = 1426896, wire-idx = 1):
+        chunk 94502 from (172, 89) to (172, 91)
+      WireSplit (net-id = 1118204, wire-idx = 0):
+        chunk 94503 from (199, 93) to (199, 94)
+      WireSplit (net-id = 1118203, wire-idx = 0):
+        chunk 94504 from (186, 75) to (186, 76)
+      WireSplit (net-id = 1118202, wire-idx = 0):
+        chunk 94505 from (205, 93) to (205, 94)
+      WireSplit (net-id = 1426971, wire-idx = 0):
+        chunk 94506 from (145, 83) to (175, 83)
+      WireSplit (net-id = 1426928, wire-idx = 0):
+        chunk 94507 from (145, 85) to (175, 85)
+    children : ()
+    external-ports-by-net-id :
+      1426971 => [port 1387311 at (145, 83) facing Left]
+      1426928 => [port 1387312 at (145, 85) facing Left]
+    high-level-nets : ()
+  partial-group-nets :
+    PartialNet(1426847, [B1426671.P1426506], []) => 1426971
+    PartialNet(1426832, [B1426671.P1426504], [RequireMarker(id = 1426833, name = mcu.hap-gpio[1].gpio)]) => 1426958
+    PartialNet(1426753, [B1426671.P1426511 B1426672.P1426573 B1426673.P1426582], []) => 1426887
+    PartialNet(1426765, [B1426671.P1426510 B1426673.P1426583], []) => 1426908
+    PartialNet(1426755, [B1426671.P1426503], [RequireMarker(id = 1426756, name = mcu.hap-gpio[0].gpio)]) => 1426896
+    PartialNet(1426796, [B1426671.P1426505], []) => 1426928

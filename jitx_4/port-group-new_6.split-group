@@ -1,0 +1,38 @@
+SplitGroup(name = board-io.hapdrv.module, input = box layout input (320, 175) 0.8 :
+  box 1427920 from (-1, -2) to (1, 2):
+    port 1427918 at (0, 2) facing Up
+    port 1427919 at (0, -2) facing Down
+  box 1428307 from (-11, -10) to (11, 10):
+    port 1428298 at (-11, 3) facing Left
+    port 1428299 at (-11, 1) facing Left
+    port 1428300 at (-11, -1) facing Left
+    port 1428301 at (-11, -3) facing Left
+    port 1428302 at (11, 1) facing Right
+    port 1428303 at (11, -1) facing Right
+    port 1428304 at (-1, 10) facing Up
+    port 1428305 at (1, 10) facing Up
+    port 1428306 at (0, -10) facing Down
+  box 1427911 from (-1, -2) to (1, 2):
+    port 1427909 at (0, 2) facing Up
+    port 1427910 at (0, -2) facing Down
+  box 1427593 from (0, -1) to (2, 1):
+    port 1427592 at (0, 0) facing Left
+  box 1427579 from (-1, -2) to (1, 0):
+    port 1427578 at (0, 0) facing Up
+  box 1427949 from (-2, -1) to (2, 1):
+    port 1427948 at (2, 0) facing Right
+  inst 1428332 of box 1427949 (group board-io.hapdrv.module)
+  inst 1428331 of box 1427949 (group board-io.hapdrv.module)
+  inst 1428328 of box 1427920 (group board-io.hapdrv.module)
+  inst 1428327 of box 1427911 (group board-io.hapdrv.module)
+  inst 1428326 of box 1428307 (group board-io.hapdrv.module)
+  net 1428518 REG (B1428327.P1427910, B1428326.P1428304) (unlabeled) 
+  net 1428626 mcu.hap-i2c.scl (B1428326.P1428301) (labeled) 
+  net 1428489 OUT+ (B1428326.P1428302, B1428331.P1427948) (unlabeled) 
+  net 1428613 mcu.hap-gpio[1].gpio (B1428326.P1428299) (labeled) (require 1428488 mcu.hap-gpio[1].gpio)
+  net 1428583 mcu.hap-i2c.sda (B1428326.P1428300) (labeled) 
+  net 1428437 OUT- (B1428332.P1427948, B1428326.P1428303) (unlabeled) 
+  net 1428563 VDDSYS (B1428328.P1427919, B1428326.P1428305) (symbol 1427593) 
+  net 1428551 mcu.hap-gpio[0].gpio (B1428326.P1428298) (labeled) (require 1428411 mcu.hap-gpio[0].gpio)
+  net 1428542 GND (B1428327.P1427909, B1428326.P1428306, B1428328.P1427918) (symbol 1427579) 
+  order (), partial-nets = [PartialNet(1428408, [B1428326.P1428306 B1428327.P1427909 B1428328.P1427918], []) => 1428542 PartialNet(1428502, [B1428326.P1428301], []) => 1428626 PartialNet(1428451, [B1428326.P1428300], []) => 1428583 PartialNet(1428487, [B1428326.P1428299], [RequireMarker(id = 1428488, name = mcu.hap-gpio[1].gpio)]) => 1428613 PartialNet(1428420, [B1428326.P1428305 B1428328.P1427919], []) => 1428563 PartialNet(1428410, [B1428326.P1428298], [RequireMarker(id = 1428411, name = mcu.hap-gpio[0].gpio)]) => 1428551])

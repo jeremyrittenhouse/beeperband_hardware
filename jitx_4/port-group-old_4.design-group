@@ -1,0 +1,67 @@
+DesignGroup:
+  box layout input (320, 175) 0.8 :
+    box 1426211 from (-1, -2) to (1, 2):
+      port 1426209 at (0, 2) facing Up
+      port 1426210 at (0, -2) facing Down
+    box 1425846 from (0, -1) to (2, 1):
+      port 1425845 at (0, 0) facing Left
+    inst 1426680 of box 1426211 (group board-io.rs.collector[0])
+    inst 1426679 of box 1426211 (group board-io.rs.collector[0])
+    net 1426953 codec-i2c-net.sda (B1426679.P1426209) (labeled) (require 1426829 mcu.c-i2c.sda)
+    net 1426936 codec-i2c-net.scl (B1426680.P1426209) (labeled) (require 1426808 mcu.c-i2c.scl)
+    net 1426901 VDD1P8P (B1426679.P1426210, B1426680.P1426210) (symbol 1425846) 
+    order ()
+  SchematicGroupOutput 1118407:
+    ref: board-io.rs.collector[0]
+    origin: (0, 0)
+    border: (190, 39) to (214, 54)
+    box layout output :
+      inst 1426680 at loc((193, 46), 180, false)
+      inst 1426679 at loc((208, 45), 180, false)
+      layout net 1118382 :
+        wire (208, 47) to (208, 50)
+        label 1118394 at loc((208, 50), 90, false)
+      layout net 1118381 :
+        wire (193, 48) to (193, 50)
+        label 1118388 at loc((193, 50), 90, false)
+      layout net 1426953 :
+        wire (208, 42) to (214, 42)
+        wire (208, 42) to (208, 43)
+        wire (212, 42) to (212, 43)
+        require marker 1426829 at loc((212, 43), 90, false)
+      layout net 1426936 :
+        wire (193, 41) to (214, 41)
+        wire (193, 41) to (193, 44)
+        wire (200, 41) to (200, 42)
+        require marker 1426808 at loc((200, 42), 90, false)
+    partial-island-nets :
+      net 1118381 = partial-net (parent = 1426901) (B1426680.P1426210)
+      net 1118382 = partial-net (parent = 1426901) (B1426679.P1426210)
+    wire-splits :
+      WireSplit (net-id = 1118382, wire-idx = 0):
+        chunk 94442 from (208, 47) to (208, 50)
+      WireSplit (net-id = 1118381, wire-idx = 0):
+        chunk 94443 from (193, 48) to (193, 50)
+      WireSplit (net-id = 1426953, wire-idx = 0):
+        chunk 94444 from (208, 42) to (212, 42)
+        chunk 94445 from (212, 42) to (214, 42)
+      WireSplit (net-id = 1426953, wire-idx = 1):
+        chunk 94446 from (208, 42) to (208, 43)
+      WireSplit (net-id = 1426953, wire-idx = 2):
+        chunk 94447 from (212, 42) to (212, 43)
+      WireSplit (net-id = 1426936, wire-idx = 0):
+        chunk 94448 from (193, 41) to (200, 41)
+        chunk 94449 from (200, 41) to (214, 41)
+      WireSplit (net-id = 1426936, wire-idx = 1):
+        chunk 94450 from (193, 41) to (193, 44)
+      WireSplit (net-id = 1426936, wire-idx = 2):
+        chunk 94451 from (200, 41) to (200, 42)
+    children : ()
+    external-ports-by-net-id :
+      1426953 => [port 1394755 at (214, 42) facing Right]
+      1426936 => [port 1394756 at (214, 41) facing Right]
+    high-level-nets : ()
+  partial-group-nets :
+    PartialNet(1426760, [B1426679.P1426210 B1426680.P1426210], []) => 1426901
+    PartialNet(1426828, [B1426679.P1426209], [RequireMarker(id = 1426829, name = mcu.c-i2c.sda)]) => 1426953
+    PartialNet(1426807, [B1426680.P1426209], [RequireMarker(id = 1426808, name = mcu.c-i2c.scl)]) => 1426936

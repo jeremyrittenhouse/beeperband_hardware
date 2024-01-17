@@ -1,0 +1,25 @@
+box layout input (320, 175) 0.8 :
+  box 1427593 from (0, -1) to (2, 1):
+    port 1427592 at (0, 0) facing Left
+  box 1428015 from (-1, -2) to (1, 2):
+    port 1428013 at (0, 2) facing Up
+    port 1428014 at (0, -2) facing Down
+  box 1429393 from (0, 0) to (11, 1):
+    port 1429394 at (0, 0) facing Left
+  box 1429395 from (0, 0) to (7, 1):
+    port 1429396 at (0, 0) facing Left
+  box 1429397 from (0, 0) to (11, 1):
+    port 1429398 at (0, 0) facing Left
+  box 1429399 from (0, 0) to (7, 1):
+    port 1429400 at (0, 0) facing Left
+  inst 1428339 of box 1428015 (group board-io.rs.collector[1])
+  inst 1428338 of box 1428015 (group board-io.rs.collector[1])
+  inst 1428481 of box 1429393
+  inst 1428482 of box 1429395
+  inst 1428445 of box 1429397
+  inst 1428446 of box 1429399
+  net 1428604 board-io.qsen-i3c.sda (B1428338.P1428013, B1428481.P1429394, B1428482.P1429396) (labeled) 
+  net 1428576 board-io.qsen-i3c.scl (B1428339.P1428013, B1428445.P1429398, B1428446.P1429400) (labeled) 
+  net 1118420 VDD1P8 (B1428339.P1428014) (symbol 1427593) 
+  net 1118421 VDD1P8 (B1428338.P1428014) (symbol 1427593) 
+  order ()

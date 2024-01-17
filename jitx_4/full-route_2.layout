@@ -1,0 +1,36 @@
+box layout output :
+  inst 1428320 at loc((128, 102), 0, false)
+  inst 1428321 at loc((152, 89), 180, false)
+  inst 1428322 at loc((155, 89), 180, false)
+  inst 1429356 at loc((168, 94), 0, false)
+  inst 1429359 at loc((168, 96), 0, false)
+  inst 1118346 at loc((140, 110), 0, false)
+  inst 1118347 at loc((141, 98), 0, false)
+  inst 1118342 at loc((127, 120), 90, false)
+  inst 1118328 at loc((155, 96), 90, false)
+  inst 1118343 at loc((128, 85), 0, false)
+  inst 1118329 at loc((155, 85), 0, false)
+  layout net 1428607 :
+    wire (139, 94) to (158, 94)
+  layout net 1428579 :
+    wire (153, 122) to (158, 122)
+    wire (139, 96) to (153, 96)
+    wire (153, 96) to (153, 122)
+  layout net 1428575 :
+    wire (139, 110) to (140, 110)
+  layout net 1428567 :
+    wire (139, 98) to (141, 98)
+  layout net 1118324 :
+    wire (127, 119) to (129, 119)
+    wire (129, 118) to (129, 119)
+    wire (127, 118) to (127, 120)
+  layout net 1118325 :
+    wire (152, 92) to (155, 92)
+    wire (155, 91) to (155, 96)
+    wire (152, 91) to (152, 92)
+  layout net 1118326 :
+    wire (128, 85) to (128, 86)
+  layout net 1118327 :
+    wire (152, 86) to (155, 86)
+    wire (155, 85) to (155, 87)
+    wire (152, 86) to (152, 87)

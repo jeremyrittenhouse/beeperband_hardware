@@ -1,0 +1,97 @@
+box layout input (320, 175) 0.8 :
+  box 1428034 from (-1, -2) to (1, 2):
+    port 1428032 at (0, 2) facing Up
+    port 1428033 at (0, -2) facing Down
+  box 1428274 from (-8, -9) to (8, 4):
+    port 1428270 at (8, 2) facing Right
+    port 1428271 at (-8, 2) facing Left
+    port 1428272 at (-8, -4) facing Left
+    port 1428273 at (8, -4) facing Right
+  box 1427579 from (-1, -2) to (1, 0):
+    port 1427578 at (0, 0) facing Up
+  box 1427949 from (-2, -1) to (2, 1):
+    port 1427948 at (2, 0) facing Right
+  box 1428222 from (-6, -3) to (6, 1):
+    port 1428218 at (-6, -3) facing Left
+    port 1428219 at (-6, 1) facing Left
+    port 1428220 at (6, -3) facing Right
+    port 1428221 at (6, 1) facing Right
+  box 1428031 from (-1, -2) to (1, 2):
+    port 1428029 at (0, 2) facing Up
+    port 1428030 at (0, -2) facing Down
+  box 1429466 from (0, 0) to (12, 1):
+    port 1429467 at (0, 0) facing Left
+  box 1429468 from (0, 0) to (12, 1):
+    port 1429469 at (0, 0) facing Left
+  box 1429470 from (0, 0) to (12, 1):
+    port 1429471 at (0, 0) facing Left
+  box 1429504 from (0, 0) to (3, 1):
+    port 1429505 at (0, 0) facing Left
+  box 1429506 from (0, 0) to (3, 1):
+    port 1429507 at (0, 0) facing Left
+  box 1429508 from (0, 0) to (8, 1):
+    port 1429509 at (0, 0) facing Left
+  box 1429510 from (0, 0) to (3, 1):
+    port 1429511 at (0, 0) facing Left
+  box 1429512 from (0, 0) to (12, 1):
+    port 1429513 at (0, 0) facing Left
+  box 1429514 from (0, 0) to (8, 1):
+    port 1429515 at (0, 0) facing Left
+  box 1429516 from (0, 0) to (7, 1):
+    port 1429517 at (0, 0) facing Left
+  box 1429518 from (0, 0) to (11, 1):
+    port 1429519 at (0, 0) facing Left
+  box 1429520 from (0, 0) to (7, 1):
+    port 1429521 at (0, 0) facing Left
+  box 1429522 from (0, 0) to (12, 1):
+    port 1429523 at (0, 0) facing Left
+  box 1429524 from (0, 0) to (12, 1):
+    port 1429525 at (0, 0) facing Left
+  box 1429526 from (0, 0) to (11, 1):
+    port 1429527 at (0, 0) facing Left
+  box 1429528 from (0, 0) to (8, 1):
+    port 1429529 at (0, 0) facing Left
+  inst 1428341 of box 1428034 (group board-io)
+  inst 1428340 of box 1428031 (group board-io)
+  inst 1428337 of box 1427949 (group board-io)
+  inst 1428336 of box 1427949 (group board-io)
+  inst 1428333 of box 1428274 (group board-io)
+  inst 1428325 of box 1428222 (group board-io)
+  inst 1428324 of box 1428222 (group board-io)
+  inst 1428323 of box 1428222 (group board-io)
+  inst 1428507 of box 1429466
+  inst 1428460 of box 1429468
+  inst 1428449 of box 1429470
+  inst 1119770 of box 1429504
+  inst 1119732 of box 1429506
+  inst 1119733 of box 1429508
+  inst 1119773 of box 1429510
+  inst 1119744 of box 1429512
+  inst 1119734 of box 1429514
+  inst 1119793 of box 1429516
+  inst 1119788 of box 1429518
+  inst 1119792 of box 1429520
+  inst 1119752 of box 1429522
+  inst 1119761 of box 1429524
+  inst 1119791 of box 1429526
+  inst 1119735 of box 1429528
+  inst 1119753 of box 1427579
+  inst 1119745 of box 1427579
+  inst 1119760 of box 1427579
+  net 1428647 SP_N (B1428337.P1427948, B1119770.P1429505) (unlabeled) 
+  net 1428643 VLED (B1428333.P1428270, B1119732.P1429507) (unlabeled) 
+  net 1428639 board-io.rgb.b (B1428333.P1428272, B1119733.P1429509) (unlabeled) 
+  net 1428635 SP_P (B1428336.P1427948, B1119773.P1429511) (unlabeled) 
+  net 1428629 mcu.mcu-button[2].gpio (B1428325.P1428218, B1428325.P1428219, B1428507.P1429467, B1119744.P1429513) (unlabeled) 
+  net 1428618 board-io.rgb.g (B1428333.P1428273, B1119734.P1429515) (unlabeled) 
+  net 1428612 mcu.q-spi.sck (B1428341.P1428033, B1119793.P1429517) (unlabeled) 
+  net 1428606 board-io.qsen-i3c.sda (B1428340.P1428029, B1119788.P1429519) (unlabeled) 
+  net 1428603 mcu.q-spi.sdo (B1428340.P1428030, B1119792.P1429521) (unlabeled) 
+  net 1428590 mcu.mcu-button[1].gpio (B1428324.P1428219, B1428324.P1428218, B1428460.P1429469, B1119752.P1429523) (unlabeled) 
+  net 1428581 mcu.mcu-button[0].gpio (B1428323.P1428219, B1428323.P1428218, B1428449.P1429471, B1119761.P1429525) (unlabeled) 
+  net 1428578 board-io.qsen-i3c.scl (B1428341.P1428032, B1119791.P1429527) (unlabeled) 
+  net 1428573 board-io.rgb.r (B1428333.P1428271, B1119735.P1429529) (unlabeled) 
+  net 1119729 GND (B1428324.P1428220, B1428324.P1428221, B1119753.P1427578) (unlabeled) 
+  net 1119730 GND (B1428325.P1428220, B1428325.P1428221, B1119745.P1427578) (unlabeled) 
+  net 1119731 GND (B1428323.P1428220, B1428323.P1428221, B1119760.P1427578) (unlabeled) 
+  order ()

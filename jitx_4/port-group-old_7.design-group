@@ -1,0 +1,74 @@
+DesignGroup:
+  box layout input (320, 175) 0.8 :
+    box 1425841 from (-1, -2) to (1, 0):
+      port 1425840 at (0, 0) facing Up
+    box 1426474 from (-8, -9) to (6, 9):
+      port 1426466 at (-8, 7) facing Left
+      port 1426467 at (-8, 5) facing Left
+      port 1426468 at (-8, 3) facing Left
+      port 1426469 at (-8, 1) facing Left
+      port 1426470 at (-8, -1) facing Left
+      port 1426471 at (-8, -3) facing Left
+      port 1426472 at (-8, -5) facing Left
+      port 1426473 at (-8, -7) facing Left
+    inst 1426653 of box 1426474 (group flex-conn.beeper-connector)
+    net 1426990 codec-pdm-net.data (B1426653.P1426470) (labeled) 
+    net 1426961 codec-pdm-net.clk (B1426653.P1426466) (labeled) 
+    net 1426942 MICBIAS1 (B1426653.P1426471) (labeled) 
+    net 1426893 GND (B1426653.P1426469, B1426653.P1426467, B1426653.P1426468, B1426653.P1426473, B1426653.P1426472) (symbol 1425841) 
+    order ()
+  SchematicGroupOutput 1118615:
+    ref: flex-conn.beeper-connector
+    origin: (0, 0)
+    border: (198, 72) to (229, 97)
+    box layout output :
+      inst 1426653 at loc((221, 86), 0, false)
+      layout net 1426893 :
+        wire (201, 81) to (213, 81)
+        wire (201, 79) to (213, 79)
+        wire (201, 91) to (213, 91)
+        wire (201, 89) to (213, 89)
+        wire (201, 87) to (213, 87)
+        wire (201, 76) to (201, 91)
+        label 1118611 at loc((201, 76), 0, false)
+      layout net 1426990 :
+        wire (212, 85) to (213, 85)
+        label 1118612 at loc((212, 85), 180, false)
+      layout net 1426961 :
+        wire (212, 93) to (213, 93)
+        label 1118613 at loc((212, 93), 180, false)
+      layout net 1426942 :
+        wire (212, 83) to (213, 83)
+        label 1118614 at loc((212, 83), 180, false)
+    partial-island-nets : ()
+    wire-splits :
+      WireSplit (net-id = 1426893, wire-idx = 0):
+        chunk 94521 from (201, 81) to (213, 81)
+      WireSplit (net-id = 1426893, wire-idx = 1):
+        chunk 94522 from (201, 79) to (213, 79)
+      WireSplit (net-id = 1426893, wire-idx = 2):
+        chunk 94523 from (201, 91) to (213, 91)
+      WireSplit (net-id = 1426893, wire-idx = 3):
+        chunk 94524 from (201, 89) to (213, 89)
+      WireSplit (net-id = 1426893, wire-idx = 4):
+        chunk 94525 from (201, 87) to (213, 87)
+      WireSplit (net-id = 1426893, wire-idx = 5):
+        chunk 94526 from (201, 76) to (201, 79)
+        chunk 94527 from (201, 79) to (201, 81)
+        chunk 94528 from (201, 81) to (201, 87)
+        chunk 94529 from (201, 87) to (201, 89)
+        chunk 94530 from (201, 89) to (201, 91)
+      WireSplit (net-id = 1426990, wire-idx = 0):
+        chunk 94531 from (212, 85) to (213, 85)
+      WireSplit (net-id = 1426961, wire-idx = 0):
+        chunk 94532 from (212, 93) to (213, 93)
+      WireSplit (net-id = 1426942, wire-idx = 0):
+        chunk 94533 from (212, 83) to (213, 83)
+    children : ()
+    external-ports-by-net-id : ()
+    high-level-nets : ()
+  partial-group-nets :
+    PartialNet(1426812, [B1426653.P1426471], []) => 1426942
+    PartialNet(1426884, [B1426653.P1426470], []) => 1426990
+    PartialNet(1426753, [B1426653.P1426467 B1426653.P1426468 B1426653.P1426469 B1426653.P1426472 B1426653.P1426473], []) => 1426893
+    PartialNet(1426836, [B1426653.P1426466], []) => 1426961

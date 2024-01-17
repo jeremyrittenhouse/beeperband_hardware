@@ -1,0 +1,18 @@
+SplitGroup(name = flex-conn.beeper-connector, input = box layout input (320, 175) 0.8 :
+  box 1427579 from (-1, -2) to (1, 0):
+    port 1427578 at (0, 0) facing Up
+  box 1428269 from (-8, -9) to (6, 9):
+    port 1428261 at (-8, 7) facing Left
+    port 1428262 at (-8, 5) facing Left
+    port 1428263 at (-8, 3) facing Left
+    port 1428264 at (-8, 1) facing Left
+    port 1428265 at (-8, -1) facing Left
+    port 1428266 at (-8, -3) facing Left
+    port 1428267 at (-8, -5) facing Left
+    port 1428268 at (-8, -7) facing Left
+  inst 1428308 of box 1428269 (group flex-conn.beeper-connector)
+  net 1428645 codec-pdm-net.data (B1428308.P1428265) (labeled) 
+  net 1428616 codec-pdm-net.clk (B1428308.P1428261) (labeled) 
+  net 1428597 MICBIAS1 (B1428308.P1428266) (labeled) 
+  net 1428548 GND (B1428308.P1428264, B1428308.P1428262, B1428308.P1428263, B1428308.P1428268, B1428308.P1428267) (symbol 1427579) 
+  order (), partial-nets = [PartialNet(1428467, [B1428308.P1428266], []) => 1428597 PartialNet(1428408, [B1428308.P1428262 B1428308.P1428263 B1428308.P1428264 B1428308.P1428267 B1428308.P1428268], []) => 1428548 PartialNet(1428491, [B1428308.P1428261], []) => 1428616 PartialNet(1428539, [B1428308.P1428265], []) => 1428645])

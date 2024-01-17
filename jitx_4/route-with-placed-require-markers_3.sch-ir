@@ -1,0 +1,66 @@
+box layout input (320, 175) 0.8 :
+  box 1428034 from (-1, -2) to (1, 2):
+    port 1428032 at (0, 2) facing Up
+    port 1428033 at (0, -2) facing Down
+  box 1428274 from (-8, -9) to (8, 4):
+    port 1428270 at (8, 2) facing Right
+    port 1428271 at (-8, 2) facing Left
+    port 1428272 at (-8, -4) facing Left
+    port 1428273 at (8, -4) facing Right
+  box 1427579 from (-1, -2) to (1, 0):
+    port 1427578 at (0, 0) facing Up
+  box 1427949 from (-2, -1) to (2, 1):
+    port 1427948 at (2, 0) facing Right
+  box 1428222 from (-6, -3) to (6, 1):
+    port 1428218 at (-6, -3) facing Left
+    port 1428219 at (-6, 1) facing Left
+    port 1428220 at (6, -3) facing Right
+    port 1428221 at (6, 1) facing Right
+  box 1428031 from (-1, -2) to (1, 2):
+    port 1428029 at (0, 2) facing Up
+    port 1428030 at (0, -2) facing Down
+  box 1429616 from (115, 81) to (158, 124):
+    port 1429596 at (158, 94) facing Right
+    port 1429597 at (158, 112) facing Right
+  box 1429617 from (170, 94) to (198, 116):
+    port 1429614 at (177, 94) facing Down
+    port 1429615 at (193, 94) facing Down
+  box 1429618 from (94, -9) to (186, 80):
+    port 1393105 at (186, 21) facing Right
+    port 1393106 at (186, 23) facing Right
+    port 1393107 at (186, 19) facing Right
+    port 1393108 at (186, 17) facing Right
+  box 1429619 from (190, 39) to (214, 54):
+    port 1394755 at (214, 42) facing Right
+    port 1394756 at (214, 41) facing Right
+  inst 1428341 of box 1428034 (group board-io)
+  inst 1428340 of box 1428031 (group board-io)
+  inst 1428337 of box 1427949 (group board-io)
+  inst 1428336 of box 1427949 (group board-io)
+  inst 1428333 of box 1428274 (group board-io)
+  inst 1428325 of box 1428222 (group board-io)
+  inst 1428324 of box 1428222 (group board-io)
+  inst 1428323 of box 1428222 (group board-io)
+  inst 1118364 of box 1429616
+  inst 1118454 of box 1429617
+  inst 1118149 of box 1429618
+  inst 1118407 of box 1429619
+  net 1428643 VLED (B1428333.P1428270) (labeled) 
+  net 1428639 board-io.rgb.b (B1428333.P1428272) (labeled) 
+  net 1428629 mcu.mcu-button[2].gpio (B1428325.P1428218, B1428325.P1428219) (labeled) (require 1428507 mcu.mcu-button[2].gpio)
+  net 1428618 board-io.rgb.g (B1428333.P1428273) (labeled) 
+  net 1428612 mcu.q-spi.sck (B1428341.P1428033) (labeled) 
+  net 1428603 mcu.q-spi.sdo (B1428340.P1428030) (labeled) 
+  net 1428590 mcu.mcu-button[1].gpio (B1428324.P1428219, B1428324.P1428218) (labeled) (require 1428460 mcu.mcu-button[1].gpio)
+  net 1428581 mcu.mcu-button[0].gpio (B1428323.P1428219, B1428323.P1428218) (labeled) (require 1428449 mcu.mcu-button[0].gpio)
+  net 1428573 board-io.rgb.r (B1428333.P1428271) (labeled) 
+  net 1119729 GND (B1428324.P1428220, B1428324.P1428221) (symbol 1427579) 
+  net 1119730 GND (B1428325.P1428220, B1428325.P1428221) (symbol 1427579) 
+  net 1119731 GND (B1428323.P1428220, B1428323.P1428221) (symbol 1427579) 
+  net 1429574 codec-i2c-net.scl (B1118407.P1394756, B1118149.P1393108) (labeled) 
+  net 1428606 board-io.qsen-i3c.sda (B1118454.P1429614, B1118364.P1429596, B1428340.P1428029) (labeled) 
+  net 1429575 codec-i2c-net.sda (B1118407.P1394755, B1118149.P1393107) (labeled) 
+  net 1428647 SP_N (B1118149.P1393105, B1428337.P1427948) (labeled) 
+  net 1428635 SP_P (B1118149.P1393106, B1428336.P1427948) (labeled) 
+  net 1428578 board-io.qsen-i3c.scl (B1118454.P1429615, B1118364.P1429597, B1428341.P1428032) (labeled) 
+  order ()

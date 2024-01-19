@@ -235,7 +235,7 @@
 						},
 						"ref":	"D1",
 						"fileinfo":	{
-							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
+							"filename":	"/Users/duncan/projects/beeperband-hardware/main.stanza",
 							"line":	73,
 							"column":	2
 						}
@@ -1631,7 +1631,7 @@
 						},
 						"ref":	"U16",
 						"fileinfo":	{
-							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
+							"filename":	"/Users/duncan/projects/beeperband-hardware/main.stanza",
 							"line":	71,
 							"column":	2
 						}
@@ -1649,7 +1649,7 @@
 						},
 						"ref":	"U15",
 						"fileinfo":	{
-							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
+							"filename":	"/Users/duncan/projects/beeperband-hardware/main.stanza",
 							"line":	71,
 							"column":	2
 						}
@@ -1667,7 +1667,7 @@
 						},
 						"ref":	"U14",
 						"fileinfo":	{
-							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
+							"filename":	"/Users/duncan/projects/beeperband-hardware/main.stanza",
 							"line":	71,
 							"column":	2
 						}
@@ -2255,7 +2255,7 @@
 						},
 						"ref":	"D1",
 						"fileinfo":	{
-							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
+							"filename":	"/Users/duncan/projects/beeperband-hardware/main.stanza",
 							"line":	73,
 							"column":	2
 						}
@@ -3651,7 +3651,7 @@
 						},
 						"ref":	"U16",
 						"fileinfo":	{
-							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
+							"filename":	"/Users/duncan/projects/beeperband-hardware/main.stanza",
 							"line":	71,
 							"column":	2
 						}
@@ -3669,7 +3669,7 @@
 						},
 						"ref":	"U15",
 						"fileinfo":	{
-							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
+							"filename":	"/Users/duncan/projects/beeperband-hardware/main.stanza",
 							"line":	71,
 							"column":	2
 						}
@@ -3687,7 +3687,7 @@
 						},
 						"ref":	"U14",
 						"fileinfo":	{
-							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
+							"filename":	"/Users/duncan/projects/beeperband-hardware/main.stanza",
 							"line":	71,
 							"column":	2
 						}

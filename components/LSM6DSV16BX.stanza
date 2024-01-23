@@ -94,7 +94,7 @@ public pcb-component component :
   name = "LSM6DSOXTR"
   description = "MEMS MODULE 3D GYROSCOPE/ACCELEROMETER LGA"
   manufacturer = "STMicroelectronics"
-  mpn = "LSM6DSOXTR"
+  mpn = "LSM6DSV16BX"
   datasheet = "https://www.st.com/resource/en/datasheet/lsm6dsv16bx.pdf"
   pin-properties :
     [pin:Ref   | pads:Ref ...  | side:Dir | electrical-type:String | bank:Int]

@@ -62,17 +62,25 @@ public pcb-module module :
 
  ; speakers
   inst coil-pin : smd-testpoint-cmp(1.0)[2]
-  ; dnp(coil-pin[0])
-  ; dnp(coil-pin[1])
   component-status(coil-pin[0]) :
     bom-status = NotInBOM
   component-status(coil-pin[1]) :
     bom-status = NotInBOM
 
+  inst ren1 : chip-resistor(0.0)
+  inst ren2 : chip-resistor(0.0)
+  component-status(ren1) :
+    bom-status = NotInBOM
+  component-status(ren2) :
+    bom-status = NotInBOM
+
+  net (ren1.p[1] wpwr.EN1)
+  net (ren1.p[2] CMD.EN1)
+  net (ren2.p[1] wpwr.EN2)
+  net (ren2.p[2] CMD.EN2)
+
   net (CMD.nCHG wpwr.nCHG   )
   net (CMD.CTRL wpwr.TS-CTRL)
-  net (CMD.EN1  wpwr.EN1    )
-  net (CMD.EN2  wpwr.EN2    )
   net (VBUS     wpwr.OUT    )
   net (GND      wpwr.PGND   )
 
@@ -104,18 +112,6 @@ public pcb-module module :
   bypass-cap-strap(wpwr.RECT, GND, 10.0e-6)
   bypass-cap-strap(wpwr.RECT, GND, 4.7e-6)
 
-  ; inst q1 : CSD75207W15/component  ; database-part(["mpn" => "CSD75207W15", "manufacturer" => "Texas Instruments"])
-
-  ; net (VBUSP q1.G1 q1.D10 q1.D11)
-  ; net (VBUS q1.D20 q1.D21 q1.D22)
-  ; net (wpwr.nAD-EN q1.D12 q1.S2)
-
-  ; res-strap(VBUSp wpwr.AD, 0.0)
-  ; inst rvbus-ad : chip-resistor(0.0)
-  ; component-status(rvbus-ad) : 
-  ;   bom-status = NotInBOM
-  ; net (rvbus-ad.p[1] VBUSP)
-  ; net (rvbus-ad.p[2] wpwr.AD)
   bypass-cap-strap(VBUS, GND, 4.7e-6)
 
   layout-group(self) = wireless-power

@@ -223,37 +223,7 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"Colorless transparence -40℃~+85℃ Positive post RGB 120° SMD,1.6x1.7mm  Light Emitting Diodes (LED) ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"board-io"
-							},
-							"field":	{
-								"name":	"led"
-							}
-						},
-						"ref":	"D1",
-						"fileinfo":	{
-							"filename":	"/Users/duncan/projects/beeperband-hardware/main.stanza",
-							"line":	73,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2005041205_HONGLITRONIC-Hongli-Zhihui--HONGLITRONIC-HL-PCF-1617S39FU70GH203BC-A_C513368.pdf",
-				"manufacturer":	"HongliTronic",
-				"mpn":	"HL-PCF-1617S39FU70GH203BC-A",
-				"vendor":	"iodParts",
-				"sku":	"HL-PCF-1617S39FU70GH203BC-A",
-				"price":	0.08837,
-				"preferred":	true,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"description":	"16V 100nF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -1003,7 +973,7 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"description":	"0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -1189,7 +1159,63 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"description":	"RES SMD 0 OHM JUMPER 1/20W 0201",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"rm"
+							}
+						},
+						"ref":	"R19",
+						"fileinfo":	{
+							"filename":	"components/DA14705-00000HZ2.stanza",
+							"line":	368,
+							"column":	2
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"rpi"
+							}
+						},
+						"ref":	"R11",
+						"fileinfo":	{
+							"filename":	"components/DA14705-00000HZ2.stanza",
+							"line":	365,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf",
+				"manufacturer":	"BOURNS",
+				"mpn":	"CR0201-J/-000GLF",
+				"vendor":	"DigiKey",
+				"sku":	"CR0201-J/-000GLF",
+				"price":	0.19,
+				"preferred":	true,
+				"query_properties":	{
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"_stock":	20,
+					"mounting":	"smd",
+					"resistance":	0,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"resistor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"25V 270pF X7R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -1232,7 +1258,7 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"description":	"",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -1500,7 +1526,7 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"description":	"10V 4.7uF X5R ±20% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -1558,7 +1584,7 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"description":	"25V 22nF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -1685,7 +1711,7 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"50mA 470nH ±3% 16.5Ω -  Inductors (SMD) ROHS",
+				"description":	"450mA 1uH ±20% 100mA 350mΩ 0402  Inductors (SMD) ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -1807,7 +1833,7 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"description":	"10V 470nF ±20% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -1865,7 +1891,7 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"description":	"25V 10nF ±20% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -1965,60 +1991,34 @@
 				"query_properties":	null
 			}, {
 				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
 				},
-				"description":	"RES SMD 0 OHM JUMPER 1/20W 0201",
+				"description":	"Colorless transparence -40℃~+85℃ Positive post RGB 120° SMD,1.6x1.7mm  Light Emitting Diodes (LED) ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
-								"name":	"mcu"
+								"name":	"board-io"
 							},
 							"field":	{
-								"name":	"rm"
+								"name":	"led"
 							}
 						},
-						"ref":	"R19",
+						"ref":	"D1",
 						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	368,
-							"column":	2
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"rpi"
-							}
-						},
-						"ref":	"R11",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	365,
+							"filename":	"/Users/duncan/projects/beeperband-hardware/main.stanza",
+							"line":	73,
 							"column":	2
 						}
 					}],
-				"datasheet":	"https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf",
-				"manufacturer":	"BOURNS",
-				"mpn":	"CR0201-J/-000GLF",
-				"vendor":	"DigiKey",
-				"sku":	"CR0201-J/-000GLF",
-				"price":	0.19,
-				"preferred":	true,
-				"query_properties":	{
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"_stock":	20,
-					"mounting":	"smd",
-					"resistance":	0,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"resistor"
-				}
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2005041205_HONGLITRONIC-Hongli-Zhihui--HONGLITRONIC-HL-PCF-1617S39FU70GH203BC-A_C513368.pdf",
+				"manufacturer":	"HongliTronic",
+				"mpn":	"HL-PCF-1617S39FU70GH203BC-A",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
 			}],
 		"entries":	[{
 			}, {
@@ -2062,7 +2062,7 @@
 			"value":	71
 		}, {
 			"name":	"Cost",
-			"value":	"$25.82"
+			"value":	"$25.73"
 		}],
 	"is_update":	false,
 	"old_bom":	{
@@ -2243,37 +2243,7 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"Colorless transparence -40℃~+85℃ Positive post RGB 120° SMD,1.6x1.7mm  Light Emitting Diodes (LED) ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"name":	"board-io"
-							},
-							"field":	{
-								"name":	"led"
-							}
-						},
-						"ref":	"D1",
-						"fileinfo":	{
-							"filename":	"/Users/duncan/projects/beeperband-hardware/main.stanza",
-							"line":	73,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2005041205_HONGLITRONIC-Hongli-Zhihui--HONGLITRONIC-HL-PCF-1617S39FU70GH203BC-A_C513368.pdf",
-				"manufacturer":	"HongliTronic",
-				"mpn":	"HL-PCF-1617S39FU70GH203BC-A",
-				"vendor":	"iodParts",
-				"sku":	"HL-PCF-1617S39FU70GH203BC-A",
-				"price":	0.08837,
-				"preferred":	true,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"description":	"16V 100nF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -3023,7 +2993,7 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"description":	"0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -3209,7 +3179,63 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"description":	"RES SMD 0 OHM JUMPER 1/20W 0201",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"rm"
+							}
+						},
+						"ref":	"R19",
+						"fileinfo":	{
+							"filename":	"components/DA14705-00000HZ2.stanza",
+							"line":	368,
+							"column":	2
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"rpi"
+							}
+						},
+						"ref":	"R11",
+						"fileinfo":	{
+							"filename":	"components/DA14705-00000HZ2.stanza",
+							"line":	365,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf",
+				"manufacturer":	"BOURNS",
+				"mpn":	"CR0201-J/-000GLF",
+				"vendor":	"DigiKey",
+				"sku":	"CR0201-J/-000GLF",
+				"price":	0.19,
+				"preferred":	true,
+				"query_properties":	{
+					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+					"min-rated-temperature.max":	40,
+					"max-rated-temperature.min":	0,
+					"_stock":	20,
+					"mounting":	"smd",
+					"resistance":	0,
+					"min-stock":	100,
+					"_sort":	["area"],
+					"category":	"resistor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"25V 270pF X7R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -3252,7 +3278,7 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"description":	"",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -3520,7 +3546,7 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"description":	"10V 4.7uF X5R ±20% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -3578,7 +3604,7 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"description":	"25V 22nF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -3705,7 +3731,7 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"50mA 470nH ±3% 16.5Ω -  Inductors (SMD) ROHS",
+				"description":	"450mA 1uH ±20% 100mA 350mΩ 0402  Inductors (SMD) ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -3827,7 +3853,7 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"description":	"10V 470nF ±20% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -3885,7 +3911,7 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"10V 2.2uF X5R ±10% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"description":	"25V 10nF ±20% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -3985,60 +4011,34 @@
 				"query_properties":	null
 			}, {
 				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
 				},
-				"description":	"RES SMD 0 OHM JUMPER 1/20W 0201",
+				"description":	"Colorless transparence -40℃~+85℃ Positive post RGB 120° SMD,1.6x1.7mm  Light Emitting Diodes (LED) ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
-								"name":	"mcu"
+								"name":	"board-io"
 							},
 							"field":	{
-								"name":	"rm"
+								"name":	"led"
 							}
 						},
-						"ref":	"R19",
+						"ref":	"D1",
 						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	368,
-							"column":	2
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"rpi"
-							}
-						},
-						"ref":	"R11",
-						"fileinfo":	{
-							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	365,
+							"filename":	"/Users/duncan/projects/beeperband-hardware/main.stanza",
+							"line":	73,
 							"column":	2
 						}
 					}],
-				"datasheet":	"https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf",
-				"manufacturer":	"BOURNS",
-				"mpn":	"CR0201-J/-000GLF",
-				"vendor":	"DigiKey",
-				"sku":	"CR0201-J/-000GLF",
-				"price":	0.19,
-				"preferred":	true,
-				"query_properties":	{
-					"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-					"min-rated-temperature.max":	40,
-					"max-rated-temperature.min":	0,
-					"_stock":	20,
-					"mounting":	"smd",
-					"resistance":	0,
-					"min-stock":	100,
-					"_sort":	["area"],
-					"category":	"resistor"
-				}
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2005041205_HONGLITRONIC-Hongli-Zhihui--HONGLITRONIC-HL-PCF-1617S39FU70GH203BC-A_C513368.pdf",
+				"manufacturer":	"HongliTronic",
+				"mpn":	"HL-PCF-1617S39FU70GH203BC-A",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
 			}],
 		"entries":	[{
 			}, {

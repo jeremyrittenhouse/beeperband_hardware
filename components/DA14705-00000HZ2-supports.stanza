@@ -80,6 +80,14 @@ public defn make-supports ():
       octal-spi.sdio[6] => self.P2_06
       octal-spi.sdio[7] => self.P2_07
 
+    supports quad-spi :
+      quad-spi.sck => self.OQSIF_CLK
+      quad-spi.cs => self.OQSIF_CS
+      quad-spi.sdio[0] => self.OQSIF_D0
+      quad-spi.sdio[1] => self.OQSIF_D1
+      quad-spi.sdio[2] => self.OQSIF_D2
+      quad-spi.sdio[3] => self.OQSIF_D3
+
     pcb-bundle spi-sck:
       pin p
     

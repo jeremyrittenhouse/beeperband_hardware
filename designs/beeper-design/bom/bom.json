@@ -400,7 +400,7 @@
 						"ref":	"U1",
 						"fileinfo":	{
 							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	220,
+							"line":	246,
 							"column":	2
 						}
 					}],
@@ -752,7 +752,7 @@
 						"ref":	"U17",
 						"fileinfo":	{
 							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	361,
+							"line":	387,
 							"column":	2
 						}
 					}],
@@ -1139,7 +1139,7 @@
 						"ref":	"XTAL1",
 						"fileinfo":	{
 							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	223,
+							"line":	249,
 							"column":	2
 						}
 					}],
@@ -1172,7 +1172,7 @@
 						"ref":	"R19",
 						"fileinfo":	{
 							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	368,
+							"line":	394,
 							"column":	2
 						}
 					}, {
@@ -1187,7 +1187,7 @@
 						"ref":	"R11",
 						"fileinfo":	{
 							"filename":	"components/DA14705-00000HZ2.stanza",
-							"line":	365,
+							"line":	391,
 							"column":	2
 						}
 					}],

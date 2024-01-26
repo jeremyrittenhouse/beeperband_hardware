@@ -201,6 +201,32 @@ public pcb-component component :
   make-box-symbol()
   DA14705-00000HZ2-supports/make-supports()
 
+
+pcb-differential-routing-structure differential :
+  name = "90 Ohm common-mode impedance"
+  layer(Top) :
+    trace-width = 0.144    ; mm
+    pair-spacing = 0.12    ; mm
+    velocity = 0.19e12      ; mm/s
+    insertion-loss = 0.008  ; db/mm @ 1GHz 
+   
+public defn qspi-rules (in:JITXObject out:JITXObject time:Toleranced) :
+  inside pcb-module :
+    net (in out)
+    topology-segment(in.sck     out.sck)
+    for i in 0 to 4 do :
+      topology-segment(in.sdio[i] out.sdio[i])
+      timing-difference(in.sdio[1] => out.sdio[1], in.sck => out.sck) = TimingDifferenceConstraint(time)
+
+public defn differential-constraint (in1:JITXObject, out1:JITXObject, in2:JITXObject, out2:JITXObject) :
+  inside pcb-module :
+    net (in1 out1)
+    net (in2 out2)
+    topology-segment(in1 out1)
+    topology-segment(in2 out2)
+    structure(in1 => out1, in2 => out2) = differential
+    timing-difference(in1 => out1, in2 => out2) = TimingDifferenceConstraint(-1.e-12, 1.e-12)
+
 public pcb-module module :
   pin GND
   pin V18  
@@ -231,7 +257,7 @@ public pcb-module module :
 
 ; connect quad spi from memory to mcu
   require mcu-mem : quad-spi from mcu
-  net (mem.qspi mcu-mem)
+  qspi-rules(mem.qspi mcu-mem, 0.0 +/- 50.0e-12)
 
   net (led-io.leds.r mcu.LED1)
   net (led-io.leds.g mcu.LED2)
@@ -389,12 +415,16 @@ public pcb-module module :
   component-status(esd) :
     bom-status = NotInBOM
 
-  require mcu-usb : usb-2-data from mcu
   net (usb.usb-2.vbus.vdd VBUS)
   net (usb.usb-2.vbus.gnd GND)
-  net (usb.usb-2.data mcu-usb)
-  net (esd.D+ usb.usb-2.data.P)
-  net (esd.D- usb.usb-2.data.N)
+
+  net (esd.D+ usb.usb-2.data.P mcu.P2_10)
+  net (esd.D- usb.usb-2.data.N mcu.P2_11)
+
+  topology-segment(esd.D+ usb.usb-2.data.P)
+  topology-segment(esd.D- usb.usb-2.data.N)
+  differential-constraint(esd.D+, usb.usb-2.data.P, esd.D-, usb.usb-2.data.N)
+
   net (esd.GND usb.usb-2.vbus.gnd)
   net (esd.VBUS usb.usb-2.vbus.vdd)
   no-connect(esd.NC)
@@ -412,6 +442,8 @@ public pcb-module micro-usb-conn :
   net SHIELD (con.SHIELD)
   net D+ (usb-2.data.P con.D+)
   net D- (usb-2.data.N con.D-)
+  topology-segment(usb-2.data.P con.D+)
+  topology-segment(usb-2.data.N con.D-)
   net ID (usb-2.id con.ID)
   property(con.VBUS.power-supply-pin) = PowerSupplyPin(typ(5.0), 0.5)
 

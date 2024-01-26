@@ -79,6 +79,13 @@ public pcb-module module :
   net (qspi.sdio[2] m.WPn)
   net (qspi.sdio[3] m.HRn)
 
+  topology-segment(qspi.sck     m.SCK)
+  topology-segment(qspi.cs      m.CSn)
+  topology-segment(qspi.sdio[0] m.SI )
+  topology-segment(qspi.sdio[1] m.SO )
+  topology-segment(qspi.sdio[2] m.WPn)
+  topology-segment(qspi.sdio[3] m.HRn)
+
   net (VDD m.Vcc)
   net (GND m.GND)
   bypass-cap-strap(VDD, GND, 1.0e-6)

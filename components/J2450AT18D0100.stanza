@@ -65,9 +65,9 @@ public pcb-landpattern _2450AT18D0100_STD-R-1 (mirror-y:True|False) :
   layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 0.5, SW, loc(0.4410, 1.5432, 180.0), "Arial", StrokeFont, false, false)
 
   layer(ForbidCopper(LayerIndex(0), LayerIndex(0, Bottom))) = Polygon([  
-    Point(2.0, -5.05), 
-    Point(2.0, 0.950), 
-    Point(-2.000, 0.950), 
+    Point(2.5, -5.05), 
+    Point(2.5, 1.50), 
+    Point(-2.000, 1.50), 
     Point(-2.00007, -5.05)])
   ; copper(LayerIndex(1)) = Polygon([
   ;   Point(2.00, -5.05), 

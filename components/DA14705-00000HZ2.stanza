@@ -257,7 +257,7 @@ public pcb-module module :
 
 ; connect quad spi from memory to mcu
   require mcu-mem : quad-spi from mcu
-  qspi-rules(mem.qspi mcu-mem, 0.0 +/- 50.0e-12)
+  qspi-rules(mem.qspi mcu-mem, 0.0 +/- 1.0e-12)
 
   net (led-io.leds.r mcu.LED1)
   net (led-io.leds.g mcu.LED2)

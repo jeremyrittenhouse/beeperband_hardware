@@ -28,8 +28,8 @@ public pcb-rules my-std-rules :
 
 public pcb-rules my-flex-rules :
   min-copper-width = 0.080 
-  min-copper-copper-space = 0.080 
-  min-copper-hole-space = 0.200
+  min-copper-copper-space = 0.150 ; 0.080 
+  min-copper-hole-space = 0.250
   min-copper-edge-space = 0.150
   min-annular-ring = 0.100
   min-drill-diameter = 0.200

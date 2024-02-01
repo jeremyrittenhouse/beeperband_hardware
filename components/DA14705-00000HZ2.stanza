@@ -216,7 +216,7 @@ public defn qspi-rules (in:JITXObject out:JITXObject time:Toleranced) :
     topology-segment(in.sck     out.sck)
     for i in 0 to 4 do :
       topology-segment(in.sdio[i] out.sdio[i])
-      timing-difference(in.sdio[1] => out.sdio[1], in.sck => out.sck) = TimingDifferenceConstraint(time)
+      timing-difference(in.sdio[i] => out.sdio[i], in.sck => out.sck) = TimingDifferenceConstraint(time)
 
 public defn differential-constraint (in1:JITXObject, out1:JITXObject, in2:JITXObject, out2:JITXObject) :
   inside pcb-module :

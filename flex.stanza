@@ -95,10 +95,6 @@ public pcb-module beeper-flex :
   for n_ in [ VDDMIC ] do :
     symbol(n_) = ocdb/utils/symbols/altium-power-bar-sym
 
-  ; power planes (let's assume 2 layers for now...)
-  geom(VDDMIC) :
-    copper-pour(LayerIndex(1), isolate = 0.100, rank = 1) = signal-shape
-  
   geom(GND) :
     copper-pour(LayerIndex(0), isolate = 0.080, rank = 1) = signal-shape
 

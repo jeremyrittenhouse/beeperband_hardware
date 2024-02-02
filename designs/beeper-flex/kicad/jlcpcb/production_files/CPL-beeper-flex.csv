@@ -1,0 +1,5 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100n,Pkg0201,127.716412,-103.710127,0.0,bottom
+C2,100n,Pkg0201,138.081588,-103.795841,180.0,bottom
+U1,~,LP,124.18,-103.84,180.0,bottom
+U2,~,LP,141.43,-103.84,0.0,bottom

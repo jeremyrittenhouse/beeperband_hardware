@@ -206,6 +206,7 @@ public pcb-module beeper-design :
     copper-pour(LayerIndex(1), isolate = 0.1, rank = 1) = signal-shape
   geom(GND) :
     copper-pour(LayerIndex(2), isolate = 0.1, rank = 1) = signal-shape
+  
 
   schematic-group(self) = main-board
   layout-group(self) = main-board

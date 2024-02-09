@@ -616,9 +616,9 @@
 				"datasheet":	"",
 				"manufacturer":	"RENESAS",
 				"mpn":	"AT25FF321A-UUN-T",
-				"vendor":	"Easev",
+				"vendor":	"DigiKey",
 				"sku":	"AT25FF321A-UUN-T",
-				"price":	0.7595,
+				"price":	1.12,
 				"preferred":	true,
 				"query_properties":	null
 			}, {
@@ -1840,60 +1840,214 @@
 					"code":	5,
 					"name":	"Potential Alternate Vendors"
 				},
-				"description":	"IP67 20mA 2.6mm 50MΩ 500000 2.4N 15V -40℃~+85℃ 1.6mm 0.55mm Round Button Brick nogging SPST SMD,1.6x2.6mm  Tactile Switches ROHS",
+				"description":	"50mW Thick Film Resistors ±5% ±200ppm/℃ 10kΩ 0201  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"rid"
+							}
+						},
+						"ref":	"R7",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	727,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"rid"
+							}
+						},
+						"ref":	"R3",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	727,
+							"column":	4
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"name":	"wpwr"
+							},
+							"field":	{
+								"name":	"rid"
+							}
+						},
+						"ref":	"R5",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	727,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2210241101_CAL-CHIP-ELECTRONICS--INC--RM02J103CT_C4084817.pdf",
+				"manufacturer":	"CAL-CHIP ELECTRONICS, INC.",
+				"mpn":	"RM02J103CT",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
+				"description":	"50mW Thick Film Resistors ±5% ±200ppm/℃ 8.2kΩ 0201  Chip Resistor - Surface Mount ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
 								"ref":	{
-									"name":	"board-io"
+									"ref":	{
+										"name":	"board-io"
+									},
+									"field":	{
+										"name":	"rs"
+									}
 								},
 								"field":	{
-									"name":	"button"
-								}
-							},
-							"index":	2
-						},
-						"ref":	"U16",
-						"fileinfo":	{
-							"filename":	"/Users/duncan/projects/beeperband-hardware/main.stanza",
-							"line":	71,
-							"column":	2
-						}
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"button"
+									"name":	"r"
 								}
 							},
 							"index":	1
 						},
-						"ref":	"U15",
+						"ref":	"R15",
 						"fileinfo":	{
-							"filename":	"/Users/duncan/projects/beeperband-hardware/main.stanza",
-							"line":	71,
-							"column":	2
+							"filename":	"open-components-database/utils/generator-utils.stanza",
+							"line":	43,
+							"column":	6
 						}
 					}, {
 						"inst":	{
 							"ref":	{
 								"ref":	{
-									"name":	"board-io"
+									"ref":	{
+										"name":	"board-io"
+									},
+									"field":	{
+										"name":	"rs"
+									}
 								},
 								"field":	{
-									"name":	"button"
+									"name":	"r"
 								}
 							},
 							"index":	0
 						},
-						"ref":	"U14",
+						"ref":	"R14",
 						"fileinfo":	{
-							"filename":	"/Users/duncan/projects/beeperband-hardware/main.stanza",
-							"line":	71,
-							"column":	2
+							"filename":	"open-components-database/utils/generator-utils.stanza",
+							"line":	43,
+							"column":	6
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"board-io"
+									},
+									"field":	{
+										"name":	"rs"
+									}
+								},
+								"field":	{
+									"name":	"r"
+								}
+							},
+							"index":	1
+						},
+						"ref":	"R13",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generator-utils.stanza",
+							"line":	43,
+							"column":	6
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"board-io"
+									},
+									"field":	{
+										"name":	"rs"
+									}
+								},
+								"field":	{
+									"name":	"r"
+								}
+							},
+							"index":	0
+						},
+						"ref":	"R12",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generator-utils.stanza",
+							"line":	43,
+							"column":	6
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"board-io"
+										},
+										"field":	{
+											"name":	"hapdrv"
+										}
+									},
+									"field":	{
+										"name":	"rs"
+									}
+								},
+								"field":	{
+									"name":	"r"
+								}
+							},
+							"index":	1
+						},
+						"ref":	"R17",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generator-utils.stanza",
+							"line":	43,
+							"column":	6
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"board-io"
+										},
+										"field":	{
+											"name":	"hapdrv"
+										}
+									},
+									"field":	{
+										"name":	"rs"
+									}
+								},
+								"field":	{
+									"name":	"r"
+								}
+							},
+							"index":	0
+						},
+						"ref":	"R16",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generator-utils.stanza",
+							"line":	43,
+							"column":	6
 						}
 					}],
 				"datasheet":	"https://datasheet.lcsc.com/lcsc/1810171042_PANASONIC-EVPBB4A9B000_C140848.pdf",

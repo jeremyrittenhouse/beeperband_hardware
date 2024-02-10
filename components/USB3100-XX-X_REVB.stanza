@@ -53,15 +53,31 @@ public pcb-landpattern GCT_USB3100-XX-X_REVB-1 :
   layer(Silkscreen("F-SilkS", Top)) = Line(0.200, [Point(3.700, 1.200), Point(3.700, 2.775)])
   layer(Silkscreen("F-SilkS", Top)) = Polyline(0.200, [
     Arc(1.300, 3.800, 0.102, 0.0, 360.000)])
-  layer(Cutout()) = Line(0.102, [Point(-5.600, -1.450), Point(-2.800, -1.450)])
-  layer(Cutout()) = Line(0.102, [Point(-2.800, 0.430), Point(-1.950, 0.430)])
-  layer(Cutout()) = Line(0.102, [Point(-2.800, -1.450), Point(-2.800, 0.430)])
-  layer(Cutout()) = Line(0.102, [Point(-1.950, -1.450), Point(-1.950, 0.430)])
-  layer(Cutout()) = Line(0.102, [Point(-1.950, -1.450), Point(1.950, -1.450)])
-  layer(Cutout()) = Line(0.102, [Point(1.950, 0.430), Point(2.800, 0.430)])
-  layer(Cutout()) = Line(0.102, [Point(1.950, -1.450), Point(1.950, 0.430)])
-  layer(Cutout()) = Line(0.102, [Point(2.800, -1.450), Point(2.800, 0.430)])
-  layer(Cutout()) = Line(0.102, [Point(2.800, -1.450), Point(5.600, -1.450)])
+  
+  layer(Cutout()) = Polyline(0.102, [
+    Point(-5.600, -1.450), 
+    Point(-2.800, -1.450),
+    Point(-2.800,  0.430),
+    Point(-1.950,  0.430),
+    Point(-1.950, -1.450),
+    Point( 1.950, -1.450),
+    Point( 1.950,  0.430),
+    Point( 2.800,  0.430),
+    Point( 2.800, -1.450),
+    Point( 5.600, -1.450),
+    Point( 5.600, -1.600),
+    Point(-5.600, -1.600),
+    Point(-5.600, -1.450)
+  ])
+  ; layer(Cutout()) = Line(0.102, [Point(-5.600, -1.450), Point(-2.800, -1.450)])
+  ; layer(Cutout()) = Line(0.102, [Point(-2.800, 0.430), Point(-1.950, 0.430)])
+  ; layer(Cutout()) = Line(0.102, [Point(-2.800, -1.450), Point(-2.800, 0.430)])
+  ; layer(Cutout()) = Line(0.102, [Point(-1.950, -1.450), Point(-1.950, 0.430)])
+  ; layer(Cutout()) = Line(0.102, [Point(-1.950, -1.450), Point(1.950, -1.450)])
+  ; layer(Cutout()) = Line(0.102, [Point(1.950, 0.430), Point(2.800, 0.430)])
+  ; layer(Cutout()) = Line(0.102, [Point(1.950, -1.450), Point(1.950, 0.430)])
+  ; layer(Cutout()) = Line(0.102, [Point(2.800, -1.450), Point(2.800, 0.430)])
+  ; layer(Cutout()) = Line(0.102, [Point(2.800, -1.450), Point(5.600, -1.450)])
   layer(CustomLayer("Fab", Top)) = Line(0.102, [Point(-5.600, -1.450), Point(-2.800, -1.450)])
   layer(CustomLayer("Fab", Top)) = Line(0.100, [Point(-3.700, 2.775), Point(3.700, 2.775)])
   layer(CustomLayer("Fab", Top)) = Line(0.100, [Point(-3.700, -2.775), Point(-3.700, 2.775)])

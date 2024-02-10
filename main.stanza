@@ -57,6 +57,15 @@ val signal-shape = loc(x-off, y-off) * PolygonWithArcs([
                    Point( -3.520,   7.110),
                    Arc(Point(-3.770, 6.110), 1.000, 90.00, 90.00)])
 
+val signal-shape-wo-antenna = loc(x-off, y-off) * PolygonWithArcs([
+                   Point( -4.770,   5.610),
+                   Point(-26.520,   5.610),
+                   Point(-26.520,  12.160),
+                   Point(-31.020,  12.160),
+                   Point(-31.020,  24.610),
+                   Point( -3.520,  24.610),
+                   Point( -3.520,   7.110),
+                   Arc(Point(-3.770, 6.110), 1.000, 90.00, 90.00)])
 
 public pcb-module board-io :
   port system-io : system-io

@@ -16,8 +16,8 @@ pcb-pad rect-smd-pad :
 public pcb-landpattern _2450AT18D0100_STD-R-1 (mirror-y:True|False) :
   if mirror-y :
     pad p[1] : rect-smd-pad at loc(-1.500, -0.650, 180.0) on Top
-    pad p[2] : rect-smd-pad at loc( 1.500,  0.650, 180.0) on Top
-    pad p[3] : rect-smd-pad at loc( 1.500, -0.650, 180.0) on Top
+    pad p[2] : rect-smd-pad at loc( 1.500, -0.650, 180.0) on Top
+    pad p[3] : rect-smd-pad at loc( 1.500,  0.650, 180.0) on Top
     pad p[4] : rect-smd-pad at loc(-1.500,  0.650, 180.0) on Top
   else :
     pad p[1] : rect-smd-pad at loc(-1.500, -0.650, 180.0) on Top
@@ -30,19 +30,19 @@ public pcb-landpattern _2450AT18D0100_STD-R-1 (mirror-y:True|False) :
   else :
     layer(Silkscreen("F-SilkS", Top))  = Rectangle(0.5, 0.5, loc( 0.85, 0.000, 180.0))
 
-  layer(Silkscreen("F-SilkS", Top))  = Line(0.15, [Point(-1.600, -0.2000), Point(-1.600, 0.200)])
-  layer(Silkscreen("F-SilkS", Top))  = Line(0.15, [Point(-0.850, -0.8), Point(0.850, -0.800)])
-  layer(Silkscreen("F-SilkS", Top))  = Line(0.15, [Point(-0.850, 0.800), Point(0.850, 0.800)])
-  layer(Silkscreen("F-SilkS", Top))  = Line(0.15, [Point(1.600, -0.200), Point(1.600, 0.200)])
+  layer(Silkscreen("F-SilkS", Top))  = Line(0.15, [Point(-1.600, -0.200), Point(-1.600,  0.200)])
+  layer(Silkscreen("F-SilkS", Top))  = Line(0.15, [Point(-0.850, -0.800), Point( 0.850, -0.800)])
+  layer(Silkscreen("F-SilkS", Top))  = Line(0.15, [Point(-0.850,  0.800), Point( 0.850,  0.800)])
+  layer(Silkscreen("F-SilkS", Top))  = Line(0.15, [Point( 1.600, -0.200), Point( 1.600,  0.200)])
 
-  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(-1.600, -0.8), Point(-1.600, 0.800)])
-  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(-1.600, -0.8), Point(1.600, -0.8)])
-  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(-1.600, -0.5), Point(-1.100, -0.5)])
-  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(-1.600, 0.500), Point(-1.100, 0.500)])
-  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(-1.600, 0.800), Point(1.600, 0.800)])
+  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(-1.600, -0.800), Point(-1.600,  0.800)])
+  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(-1.600, -0.800), Point( 1.600, -0.800)])
+  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(-1.600, -0.500), Point(-1.100, -0.500)])
+  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(-1.600,  0.500), Point(-1.100,  0.500)])
+  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(-1.600,  0.800), Point( 1.600,  0.800)])
 
-  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(-1.100, -0.8), Point(-1.100, -0.5)])
-  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(-1.100, 0.500), Point(-1.100, 0.800)])
+  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(-1.100, -0.800), Point(-1.100, -0.500)])
+  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(-1.100,  0.500), Point(-1.100,  0.800)])
   if mirror-y :
     layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(-0.60689, -0.24725), Point(-0.60689,  0.25243)])
     layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(-0.60689, -0.24725), Point(-1.10574, -0.24725)])
@@ -55,20 +55,20 @@ public pcb-landpattern _2450AT18D0100_STD-R-1 (mirror-y:True|False) :
     layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point( 1.10574, -0.24725), Point( 1.10574,  0.25243)])
 
 
-  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(1.09992, -0.8), Point(1.09992, -0.5)])
-  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(1.09992, -0.5), Point(1.600, -0.5)])
-  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(1.09992, 0.500), Point(1.09992, 0.800)])
-  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(1.09992, 0.500), Point(1.600, 0.500)])
-  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(1.600, -0.8), Point(1.600, 0.800)])
+  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(1.100, -0.80), Point(1.100, -0.5)])
+  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(1.100, -0.50), Point(1.600, -0.5)])
+  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(1.100, 0.500), Point(1.100, 0.800)])
+  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(1.100, 0.500), Point(1.600, 0.500)])
+  layer(CustomLayer("Top Assembly", Top)) = Line(0.1, [Point(1.600, -0.80), Point(1.600, 0.800)])
 
   layer(CustomLayer("Top Assembly", Top)) = Text(">REF", 0.381, SW, loc(-0.90808, -0.200), "Arial", StrokeFont, false, false)
   layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 0.5, SW, loc(0.4410, 1.5432, 180.0), "Arial", StrokeFont, false, false)
 
   layer(ForbidCopper(LayerIndex(0), LayerIndex(0, Bottom))) = Polygon([  
-    Point(2.5, -5.05), 
-    Point(2.5, 1.50), 
-    Point(-2.000, 1.50), 
-    Point(-2.00007, -5.05)])
+    Point( 2.000, -5.050), 
+    Point( 2.000,  0.950), 
+    Point(-2.000,  0.950), 
+    Point(-2.000, -5.050)])
   ; copper(LayerIndex(1)) = Polygon([
   ;   Point(2.00, -5.05), 
   ;   Point(2.00, 0.950), 

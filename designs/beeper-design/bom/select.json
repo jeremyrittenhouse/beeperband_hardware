@@ -67,55 +67,6 @@
 			"insts":	[{
 					"inst":	{
 						"ref":	{
-							"name":	"wpwr"
-						},
-						"field":	{
-							"name":	"cap"
-						}
-					},
-					"ref":	"C14",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	743,
-						"column":	4
-					}
-				}, {
-					"inst":	{
-						"ref":	{
-							"name":	"mcu"
-						},
-						"field":	{
-							"name":	"cap"
-						}
-					},
-					"ref":	"C10",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	743,
-						"column":	4
-					}
-				}],
-			"vendor":	"DigiKey",
-			"mpn":	"GRM033R61A225KE47D",
-			"manufacturer":	"MURATA",
-			"query_properties":	{
-				"min-rated-temperature.max":	40,
-				"max-rated-temperature.min":	0,
-				"mounting":	"smd",
-				"capacitance":	2.2e-06,
-				"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-				"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-				"_stock":	20,
-				"type":	"ceramic",
-				"min-rated-voltage":	10,
-				"min-stock":	100,
-				"_sort":	["area"],
-				"category":	"capacitor"
-			}
-		}, {
-			"insts":	[{
-					"inst":	{
-						"ref":	{
 							"name":	"mcu"
 						},
 						"field":	{
@@ -157,7 +108,7 @@
 					"ref":	"D1",
 					"fileinfo":	{
 						"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-						"line":	73,
+						"line":	84,
 						"column":	2
 					}
 				}],
@@ -283,33 +234,25 @@
 			"insts":	[{
 					"inst":	{
 						"ref":	{
-							"name":	"wpwr"
+							"name":	"mcu"
 						},
 						"field":	{
-							"name":	"rid"
+							"name":	"esd"
 						}
 					},
-					"ref":	"R4",
+					"ref":	"U7",
 					"fileinfo":	{
-						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	727,
-						"column":	4
+						"filename":	"components/DA14705-00000HZ2.stanza",
+						"line":	413,
+						"column":	2
 					}
 				}],
 			"vendor":	"DigiKey",
-			"mpn":	"CR25203J",
-			"manufacturer":	"Meritek",
+			"mpn":	"TPD4S012DRYR",
+			"manufacturer":	"Texas Instruments",
 			"query_properties":	{
-				"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-				"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-				"min-rated-temperature.max":	40,
-				"max-rated-temperature.min":	0,
-				"_stock":	20,
-				"mounting":	"smd",
-				"resistance":	20000,
-				"min-stock":	100,
-				"_sort":	["area"],
-				"category":	"resistor"
+				"manufacturer":	"Texas Instruments",
+				"mpn":	"TPD4S012DRYR"
 			}
 		}, {
 			"insts":	[{
@@ -324,46 +267,14 @@
 					"ref":	"U1",
 					"fileinfo":	{
 						"filename":	"components/DA14705-00000HZ2.stanza",
-						"line":	220,
+						"line":	247,
 						"column":	2
 					}
 				}],
-			"vendor":	"Easev",
+			"vendor":	"DigiKey",
 			"mpn":	"DA14705-00000HZ2",
 			"manufacturer":	"RENESAS",
 			"query_properties":	null
-		}, {
-			"insts":	[{
-					"inst":	{
-						"ref":	{
-							"name":	"wpwr"
-						},
-						"field":	{
-							"name":	"rid"
-						}
-					},
-					"ref":	"R8",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	727,
-						"column":	4
-					}
-				}],
-			"vendor":	"DigiKey",
-			"mpn":	"CR0201-20W-102JT",
-			"manufacturer":	"Venkel",
-			"query_properties":	{
-				"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-				"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-				"min-rated-temperature.max":	40,
-				"max-rated-temperature.min":	0,
-				"_stock":	20,
-				"mounting":	"smd",
-				"resistance":	1000,
-				"min-stock":	100,
-				"_sort":	["area"],
-				"category":	"resistor"
-			}
 		}, {
 			"insts":	[{
 					"inst":	{
@@ -420,19 +331,109 @@
 							"name":	"wpwr"
 						},
 						"field":	{
-							"name":	"rid"
+							"name":	"ren2"
 						}
 					},
-					"ref":	"R6",
+					"ref":	"R21",
 					"fileinfo":	{
-						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	727,
-						"column":	4
+						"filename":	"components/BQ51003YFPR.stanza",
+						"line":	71,
+						"column":	2
+					}
+				}, {
+					"inst":	{
+						"ref":	{
+							"name":	"wpwr"
+						},
+						"field":	{
+							"name":	"ren1"
+						}
+					},
+					"ref":	"R20",
+					"fileinfo":	{
+						"filename":	"components/BQ51003YFPR.stanza",
+						"line":	70,
+						"column":	2
+					}
+				}, {
+					"inst":	{
+						"ref":	{
+							"name":	"mcu"
+						},
+						"field":	{
+							"name":	"rm"
+						}
+					},
+					"ref":	"R19",
+					"fileinfo":	{
+						"filename":	"components/DA14705-00000HZ2.stanza",
+						"line":	395,
+						"column":	2
+					}
+				}, {
+					"inst":	{
+						"ref":	{
+							"name":	"mcu"
+						},
+						"field":	{
+							"name":	"rpi"
+						}
+					},
+					"ref":	"R11",
+					"fileinfo":	{
+						"filename":	"components/DA14705-00000HZ2.stanza",
+						"line":	392,
+						"column":	2
+					}
+				}, {
+					"inst":	{
+						"ref":	{
+							"name":	"mcu"
+						},
+						"field":	{
+							"name":	"rv18fp"
+						}
+					},
+					"ref":	"R1",
+					"fileinfo":	{
+						"filename":	"components/DA14705-00000HZ2.stanza",
+						"line":	373,
+						"column":	2
+					}
+				}, {
+					"inst":	{
+						"ref":	{
+							"name":	"board-io"
+						},
+						"field":	{
+							"name":	"rs-scl"
+						}
+					},
+					"ref":	"R10",
+					"fileinfo":	{
+						"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
+						"line":	117,
+						"column":	2
+					}
+				}, {
+					"inst":	{
+						"ref":	{
+							"name":	"board-io"
+						},
+						"field":	{
+							"name":	"rs-sda"
+						}
+					},
+					"ref":	"R9",
+					"fileinfo":	{
+						"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
+						"line":	116,
+						"column":	2
 					}
 				}],
 			"vendor":	"DigiKey",
-			"mpn":	"RC0201FR-07196RL",
-			"manufacturer":	"YAGEO",
+			"mpn":	"CR0201-J/-000GLF",
+			"manufacturer":	"BOURNS",
 			"query_properties":	{
 				"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
 				"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
@@ -440,7 +441,7 @@
 				"max-rated-temperature.min":	0,
 				"_stock":	20,
 				"mounting":	"smd",
-				"resistance":	196,
+				"resistance":	0,
 				"min-stock":	100,
 				"_sort":	["area"],
 				"category":	"resistor"
@@ -449,68 +450,16 @@
 			"insts":	[{
 					"inst":	{
 						"ref":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"mem"
-							}
-						},
-						"field":	{
-							"name":	"m"
-						}
-					},
-					"ref":	"U2",
-					"fileinfo":	{
-						"filename":	"components/AT25FF321A-UUN-T.stanza",
-						"line":	74,
-						"column":	2
-					}
-				}],
-			"vendor":	"Easev",
-			"mpn":	"AT25FF321A-UUN-T",
-			"manufacturer":	"RENESAS",
-			"query_properties":	null
-		}, {
-			"insts":	[{
-					"inst":	{
-						"ref":	{
-							"ref":	{
-								"name":	"board-io"
-							},
-							"field":	{
-								"name":	"codec"
-							}
-						},
-						"field":	{
-							"name":	"codec"
-						}
-					},
-					"ref":	"U4",
-					"fileinfo":	{
-						"filename":	"components/DA7212-01UM2.stanza",
-						"line":	105,
-						"column":	2
-					}
-				}],
-			"vendor":	"DigiKey",
-			"mpn":	"DA7212-01UM2",
-			"manufacturer":	"RENESAS",
-			"query_properties":	null
-		}, {
-			"insts":	[{
-					"inst":	{
-						"ref":	{
 							"name":	"wpwr"
 						},
 						"field":	{
-							"name":	"rid"
+							"name":	"cap"
 						}
 					},
-					"ref":	"R7",
+					"ref":	"C22",
 					"fileinfo":	{
 						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	727,
+						"line":	743,
 						"column":	4
 					}
 				}, {
@@ -519,13 +468,13 @@
 							"name":	"wpwr"
 						},
 						"field":	{
-							"name":	"rid"
+							"name":	"cap"
 						}
 					},
-					"ref":	"R3",
+					"ref":	"C20",
 					"fileinfo":	{
 						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	727,
+						"line":	743,
 						"column":	4
 					}
 				}, {
@@ -534,30 +483,32 @@
 							"name":	"wpwr"
 						},
 						"field":	{
-							"name":	"rid"
+							"name":	"cap"
 						}
 					},
-					"ref":	"R5",
+					"ref":	"C19",
 					"fileinfo":	{
 						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	727,
+						"line":	743,
 						"column":	4
 					}
 				}],
 			"vendor":	"DigiKey",
-			"mpn":	"RM02J103CT",
-			"manufacturer":	"CAL-CHIP ELECTRONICS, INC.",
+			"mpn":	"GRM033R61E103MA12D",
+			"manufacturer":	"MURATA",
 			"query_properties":	{
-				"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-				"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
 				"min-rated-temperature.max":	40,
 				"max-rated-temperature.min":	0,
-				"_stock":	20,
 				"mounting":	"smd",
-				"resistance":	10000,
+				"capacitance":	1e-08,
+				"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+				"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+				"_stock":	20,
+				"type":	"ceramic",
+				"min-rated-voltage":	10,
 				"min-stock":	100,
 				"_sort":	["area"],
-				"category":	"resistor"
+				"category":	"capacitor"
 			}
 		}, {
 			"insts":	[{
@@ -604,7 +555,7 @@
 					"ref":	"U17",
 					"fileinfo":	{
 						"filename":	"components/DA14705-00000HZ2.stanza",
-						"line":	361,
+						"line":	388,
 						"column":	2
 					}
 				}],
@@ -616,190 +567,19 @@
 			"insts":	[{
 					"inst":	{
 						"ref":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"rs"
-								}
-							},
-							"field":	{
-								"name":	"r"
-							}
-						},
-						"index":	1
-					},
-					"ref":	"R15",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generator-utils.stanza",
-						"line":	43,
-						"column":	6
-					}
-				}, {
-					"inst":	{
-						"ref":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"rs"
-								}
-							},
-							"field":	{
-								"name":	"r"
-							}
-						},
-						"index":	0
-					},
-					"ref":	"R14",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generator-utils.stanza",
-						"line":	43,
-						"column":	6
-					}
-				}, {
-					"inst":	{
-						"ref":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"rs"
-								}
-							},
-							"field":	{
-								"name":	"r"
-							}
-						},
-						"index":	1
-					},
-					"ref":	"R13",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generator-utils.stanza",
-						"line":	43,
-						"column":	6
-					}
-				}, {
-					"inst":	{
-						"ref":	{
-							"ref":	{
-								"ref":	{
-									"name":	"board-io"
-								},
-								"field":	{
-									"name":	"rs"
-								}
-							},
-							"field":	{
-								"name":	"r"
-							}
-						},
-						"index":	0
-					},
-					"ref":	"R12",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generator-utils.stanza",
-						"line":	43,
-						"column":	6
-					}
-				}, {
-					"inst":	{
-						"ref":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"name":	"board-io"
-									},
-									"field":	{
-										"name":	"hapdrv"
-									}
-								},
-								"field":	{
-									"name":	"rs"
-								}
-							},
-							"field":	{
-								"name":	"r"
-							}
-						},
-						"index":	1
-					},
-					"ref":	"R17",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generator-utils.stanza",
-						"line":	43,
-						"column":	6
-					}
-				}, {
-					"inst":	{
-						"ref":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"name":	"board-io"
-									},
-									"field":	{
-										"name":	"hapdrv"
-									}
-								},
-								"field":	{
-									"name":	"rs"
-								}
-							},
-							"field":	{
-								"name":	"r"
-							}
-						},
-						"index":	0
-					},
-					"ref":	"R16",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generator-utils.stanza",
-						"line":	43,
-						"column":	6
-					}
-				}],
-			"vendor":	"DigiKey",
-			"mpn":	"RM02J822CT",
-			"manufacturer":	"CAL-CHIP ELECTRONICS, INC.",
-			"query_properties":	{
-				"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-				"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-				"min-rated-temperature.max":	40,
-				"max-rated-temperature.min":	0,
-				"_stock":	20,
-				"mounting":	"smd",
-				"resistance":	8200,
-				"min-stock":	100,
-				"_sort":	["area"],
-				"category":	"resistor"
-			}
-		}, {
-			"insts":	[{
-					"inst":	{
-						"ref":	{
 							"name":	"wpwr"
 						},
 						"field":	{
-							"name":	"wpwr"
+							"name":	"cap"
 						}
 					},
-					"ref":	"U3",
+					"ref":	"C16",
 					"fileinfo":	{
-						"filename":	"components/BQ51003YFPR.stanza",
-						"line":	61,
-						"column":	2
+						"filename":	"open-components-database/utils/generic-components.stanza",
+						"line":	743,
+						"column":	4
 					}
-				}],
-			"vendor":	"DigiKey",
-			"mpn":	"BQ51003YFPR",
-			"manufacturer":	"Texas Instruments",
-			"query_properties":	null
-		}, {
-			"insts":	[{
+				}, {
 					"inst":	{
 						"ref":	{
 							"name":	"wpwr"
@@ -808,82 +588,7 @@
 							"name":	"cap"
 						}
 					},
-					"ref":	"C23",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	743,
-						"column":	4
-					}
-				}, {
-					"inst":	{
-						"ref":	{
-							"name":	"mcu"
-						},
-						"field":	{
-							"name":	"cap"
-						}
-					},
-					"ref":	"C11",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	743,
-						"column":	4
-					}
-				}, {
-					"inst":	{
-						"ref":	{
-							"name":	"mcu"
-						},
-						"field":	{
-							"name":	"cap"
-						}
-					},
-					"ref":	"C12",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	743,
-						"column":	4
-					}
-				}, {
-					"inst":	{
-						"ref":	{
-							"name":	"mcu"
-						},
-						"field":	{
-							"name":	"cap"
-						}
-					},
-					"ref":	"C9",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	743,
-						"column":	4
-					}
-				}, {
-					"inst":	{
-						"ref":	{
-							"name":	"mcu"
-						},
-						"field":	{
-							"name":	"cap"
-						}
-					},
-					"ref":	"C8",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	743,
-						"column":	4
-					}
-				}, {
-					"inst":	{
-						"ref":	{
-							"name":	"mcu"
-						},
-						"field":	{
-							"name":	"cap"
-						}
-					},
-					"ref":	"C7",
+					"ref":	"C15",
 					"fileinfo":	{
 						"filename":	"open-components-database/utils/generic-components.stanza",
 						"line":	743,
@@ -891,13 +596,13 @@
 					}
 				}],
 			"vendor":	"DigiKey",
-			"mpn":	"CL05A106MP5NUNC",
-			"manufacturer":	"Samsung Electro-Mechanics",
+			"mpn":	"LMK063BC6474MPLF",
+			"manufacturer":	"Taiyo Yuden",
 			"query_properties":	{
 				"min-rated-temperature.max":	40,
 				"max-rated-temperature.min":	0,
 				"mounting":	"smd",
-				"capacitance":	1e-05,
+				"capacitance":	4.7e-07,
 				"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
 				"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
 				"_stock":	20,
@@ -906,6 +611,64 @@
 				"min-stock":	100,
 				"_sort":	["area"],
 				"category":	"capacitor"
+			}
+		}, {
+			"insts":	[{
+					"inst":	{
+						"ref":	{
+							"ref":	{
+								"name":	"board-io"
+							},
+							"field":	{
+								"name":	"qsensor"
+							}
+						},
+						"field":	{
+							"name":	"imu"
+						}
+					},
+					"ref":	"U9",
+					"fileinfo":	{
+						"filename":	"components/LSM6DSV16BX.stanza",
+						"line":	135,
+						"column":	2
+					}
+				}],
+			"vendor":	"DigiKey",
+			"mpn":	"LSM6DSOXTR",
+			"manufacturer":	"STMicroelectronics",
+			"query_properties":	null
+		}, {
+			"insts":	[{
+					"inst":	{
+						"ref":	{
+							"name":	"mcu"
+						},
+						"field":	{
+							"name":	"ind"
+						}
+					},
+					"ref":	"L2",
+					"fileinfo":	{
+						"filename":	"open-components-database/utils/generic-components.stanza",
+						"line":	759,
+						"column":	4
+					}
+				}],
+			"vendor":	"DigiKey",
+			"mpn":	"MLZ1005M1R0WT000",
+			"manufacturer":	"TDK Corporation",
+			"query_properties":	{
+				"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+				"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+				"min-rated-temperature.max":	40,
+				"max-rated-temperature.min":	0,
+				"inductance":	1e-06,
+				"_stock":	20,
+				"mounting":	"smd",
+				"min-stock":	100,
+				"_sort":	["area"],
+				"category":	"inductor"
 			}
 		}, {
 			"insts":	[{
@@ -933,64 +696,6 @@
 			"mpn":	"DRV2605YZFR",
 			"manufacturer":	"Texas Instruments",
 			"query_properties":	null
-		}, {
-			"insts":	[{
-					"inst":	{
-						"ref":	{
-							"name":	"mcu"
-						},
-						"field":	{
-							"name":	"xtal-32M"
-						}
-					},
-					"ref":	"XTAL1",
-					"fileinfo":	{
-						"filename":	"components/DA14705-00000HZ2.stanza",
-						"line":	223,
-						"column":	2
-					}
-				}],
-			"vendor":	"Arrow",
-			"mpn":	"XRCGB32M000F1H00R0",
-			"manufacturer":	"MURATA",
-			"query_properties":	{
-				"manufacturer":	"Murata",
-				"mpn":	"XRCGB32M000F1H00R0"
-			}
-		}, {
-			"insts":	[{
-					"inst":	{
-						"ref":	{
-							"name":	"wpwr"
-						},
-						"field":	{
-							"name":	"cap"
-						}
-					},
-					"ref":	"C21",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	743,
-						"column":	4
-					}
-				}],
-			"vendor":	"DigiKey",
-			"mpn":	"GRM033R71E271KA01D",
-			"manufacturer":	"MURATA",
-			"query_properties":	{
-				"min-rated-temperature.max":	40,
-				"max-rated-temperature.min":	0,
-				"mounting":	"smd",
-				"capacitance":	2.7e-10,
-				"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-				"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-				"_stock":	20,
-				"type":	"ceramic",
-				"min-rated-voltage":	10,
-				"min-stock":	100,
-				"_sort":	["area"],
-				"category":	"capacitor"
-			}
 		}, {
 			"insts":	[{
 					"inst":	{
@@ -1233,7 +938,7 @@
 						"column":	4
 					}
 				}],
-			"vendor":	"DigiKey",
+			"vendor":	"Mouser",
 			"mpn":	"0201ZD105MAT2A",
 			"manufacturer":	"AVX Corporation",
 			"query_properties":	{
@@ -1303,6 +1008,134 @@
 			"insts":	[{
 					"inst":	{
 						"ref":	{
+							"name":	"flex-conn"
+						},
+						"field":	{
+							"name":	"conn"
+						}
+					},
+					"ref":	"U5",
+					"fileinfo":	{
+						"filename":	"system.stanza",
+						"line":	26,
+						"column":	2
+					}
+				}],
+			"vendor":	"DigiKey",
+			"mpn":	"FH19C-6S-0.5SH(10)",
+			"manufacturer":	"Hirose",
+			"query_properties":	null
+		}, {
+			"insts":	[{
+					"inst":	{
+						"ref":	{
+							"name":	"wpwr"
+						},
+						"field":	{
+							"name":	"cap"
+						}
+					},
+					"ref":	"C14",
+					"fileinfo":	{
+						"filename":	"open-components-database/utils/generic-components.stanza",
+						"line":	743,
+						"column":	4
+					}
+				}, {
+					"inst":	{
+						"ref":	{
+							"name":	"mcu"
+						},
+						"field":	{
+							"name":	"cap"
+						}
+					},
+					"ref":	"C10",
+					"fileinfo":	{
+						"filename":	"open-components-database/utils/generic-components.stanza",
+						"line":	743,
+						"column":	4
+					}
+				}],
+			"vendor":	"DigiKey",
+			"mpn":	"GRM033R61A225KE47D",
+			"manufacturer":	"MURATA",
+			"query_properties":	{
+				"min-rated-temperature.max":	40,
+				"max-rated-temperature.min":	0,
+				"mounting":	"smd",
+				"capacitance":	2.2e-06,
+				"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+				"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+				"_stock":	20,
+				"type":	"ceramic",
+				"min-rated-voltage":	10,
+				"min-stock":	100,
+				"_sort":	["area"],
+				"category":	"capacitor"
+			}
+		}, {
+			"insts":	[{
+					"inst":	{
+						"ref":	{
+							"name":	"wpwr"
+						},
+						"field":	{
+							"name":	"rid"
+						}
+					},
+					"ref":	"R6",
+					"fileinfo":	{
+						"filename":	"open-components-database/utils/generic-components.stanza",
+						"line":	727,
+						"column":	4
+					}
+				}],
+			"vendor":	"DigiKey",
+			"mpn":	"RC0201FR-07196RL",
+			"manufacturer":	"YAGEO",
+			"query_properties":	{
+				"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+				"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+				"min-rated-temperature.max":	40,
+				"max-rated-temperature.min":	0,
+				"_stock":	20,
+				"mounting":	"smd",
+				"resistance":	196,
+				"min-stock":	100,
+				"_sort":	["area"],
+				"category":	"resistor"
+			}
+		}, {
+			"insts":	[{
+					"inst":	{
+						"ref":	{
+							"ref":	{
+								"name":	"mcu"
+							},
+							"field":	{
+								"name":	"mem"
+							}
+						},
+						"field":	{
+							"name":	"m"
+						}
+					},
+					"ref":	"U2",
+					"fileinfo":	{
+						"filename":	"components/AT25FF321A-UUN-T.stanza",
+						"line":	74,
+						"column":	2
+					}
+				}],
+			"vendor":	"Easev",
+			"mpn":	"AT25FF321A-UUN-T",
+			"manufacturer":	"RENESAS",
+			"query_properties":	null
+		}, {
+			"insts":	[{
+					"inst":	{
+						"ref":	{
 							"name":	"wpwr"
 						},
 						"field":	{
@@ -1352,183 +1185,13 @@
 			"insts":	[{
 					"inst":	{
 						"ref":	{
-							"ref":	{
-								"name":	"board-io"
-							},
-							"field":	{
-								"name":	"button"
-							}
-						},
-						"index":	2
-					},
-					"ref":	"U16",
-					"fileinfo":	{
-						"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-						"line":	71,
-						"column":	2
-					}
-				}, {
-					"inst":	{
-						"ref":	{
-							"ref":	{
-								"name":	"board-io"
-							},
-							"field":	{
-								"name":	"button"
-							}
-						},
-						"index":	1
-					},
-					"ref":	"U15",
-					"fileinfo":	{
-						"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-						"line":	71,
-						"column":	2
-					}
-				}, {
-					"inst":	{
-						"ref":	{
-							"ref":	{
-								"name":	"board-io"
-							},
-							"field":	{
-								"name":	"button"
-							}
-						},
-						"index":	0
-					},
-					"ref":	"U14",
-					"fileinfo":	{
-						"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-						"line":	71,
-						"column":	2
-					}
-				}],
-			"vendor":	"Mouser",
-			"mpn":	"EVPBB4A9B000",
-			"manufacturer":	"Panasonic",
-			"query_properties":	null
-		}, {
-			"insts":	[{
-					"inst":	{
-						"ref":	{
-							"name":	"mcu"
-						},
-						"field":	{
-							"name":	"ind"
-						}
-					},
-					"ref":	"L2",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	759,
-						"column":	4
-					}
-				}],
-			"vendor":	"DigiKey",
-			"mpn":	"MLZ1005M1R0WT000",
-			"manufacturer":	"TDK Corporation",
-			"query_properties":	{
-				"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-				"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-				"min-rated-temperature.max":	40,
-				"max-rated-temperature.min":	0,
-				"inductance":	1e-06,
-				"_stock":	20,
-				"mounting":	"smd",
-				"min-stock":	100,
-				"_sort":	["area"],
-				"category":	"inductor"
-			}
-		}, {
-			"insts":	[{
-					"inst":	{
-						"ref":	{
-							"ref":	{
-								"name":	"mcu"
-							},
-							"field":	{
-								"name":	"usb"
-							}
-						},
-						"field":	{
-							"name":	"rid"
-						}
-					},
-					"ref":	"R18",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	727,
-						"column":	4
-					}
-				}],
-			"vendor":	"DigiKey",
-			"mpn":	"RM02J104CT",
-			"manufacturer":	"CAL-CHIP ELECTRONICS, INC.",
-			"query_properties":	{
-				"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-				"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-				"min-rated-temperature.max":	40,
-				"max-rated-temperature.min":	0,
-				"_stock":	20,
-				"mounting":	"smd",
-				"resistance":	100000,
-				"min-stock":	100,
-				"_sort":	["area"],
-				"category":	"resistor"
-			}
-		}, {
-			"insts":	[{
-					"inst":	{
-						"ref":	{
-							"ref":	{
-								"name":	"board-io"
-							},
-							"field":	{
-								"name":	"qsensor"
-							}
-						},
-						"field":	{
-							"name":	"imu"
-						}
-					},
-					"ref":	"U9",
-					"fileinfo":	{
-						"filename":	"components/LSM6DSV16BX.stanza",
-						"line":	135,
-						"column":	2
-					}
-				}],
-			"vendor":	"DigiKey",
-			"mpn":	"LSM6DSOXTR",
-			"manufacturer":	"STMicroelectronics",
-			"query_properties":	null
-		}, {
-			"insts":	[{
-					"inst":	{
-						"ref":	{
 							"name":	"wpwr"
 						},
 						"field":	{
 							"name":	"cap"
 						}
 					},
-					"ref":	"C16",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	743,
-						"column":	4
-					}
-				}, {
-					"inst":	{
-						"ref":	{
-							"name":	"wpwr"
-						},
-						"field":	{
-							"name":	"cap"
-						}
-					},
-					"ref":	"C15",
+					"ref":	"C21",
 					"fileinfo":	{
 						"filename":	"open-components-database/utils/generic-components.stanza",
 						"line":	743,
@@ -1536,77 +1199,13 @@
 					}
 				}],
 			"vendor":	"DigiKey",
-			"mpn":	"LMK063BC6474MPLF",
-			"manufacturer":	"Taiyo Yuden",
-			"query_properties":	{
-				"min-rated-temperature.max":	40,
-				"max-rated-temperature.min":	0,
-				"mounting":	"smd",
-				"capacitance":	4.7e-07,
-				"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-				"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
-				"_stock":	20,
-				"type":	"ceramic",
-				"min-rated-voltage":	10,
-				"min-stock":	100,
-				"_sort":	["area"],
-				"category":	"capacitor"
-			}
-		}, {
-			"insts":	[{
-					"inst":	{
-						"ref":	{
-							"name":	"wpwr"
-						},
-						"field":	{
-							"name":	"cap"
-						}
-					},
-					"ref":	"C22",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	743,
-						"column":	4
-					}
-				}, {
-					"inst":	{
-						"ref":	{
-							"name":	"wpwr"
-						},
-						"field":	{
-							"name":	"cap"
-						}
-					},
-					"ref":	"C20",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	743,
-						"column":	4
-					}
-				}, {
-					"inst":	{
-						"ref":	{
-							"name":	"wpwr"
-						},
-						"field":	{
-							"name":	"cap"
-						}
-					},
-					"ref":	"C19",
-					"fileinfo":	{
-						"filename":	"open-components-database/utils/generic-components.stanza",
-						"line":	743,
-						"column":	4
-					}
-				}],
-			"vendor":	"DigiKey",
-			"mpn":	"GRM033R61E103MA12D",
+			"mpn":	"GRM033R71E271KA01D",
 			"manufacturer":	"MURATA",
 			"query_properties":	{
 				"min-rated-temperature.max":	40,
 				"max-rated-temperature.min":	0,
 				"mounting":	"smd",
-				"capacitance":	1e-08,
+				"capacitance":	2.7e-10,
 				"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
 				"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
 				"_stock":	20,
@@ -1620,38 +1219,62 @@
 			"insts":	[{
 					"inst":	{
 						"ref":	{
-							"name":	"flex-conn"
+							"name":	"mcu"
 						},
 						"field":	{
-							"name":	"conn"
+							"name":	"xtal-32M"
 						}
 					},
-					"ref":	"U5",
+					"ref":	"XTAL1",
 					"fileinfo":	{
-						"filename":	"system.stanza",
-						"line":	26,
+						"filename":	"components/DA14705-00000HZ2.stanza",
+						"line":	250,
+						"column":	2
+					}
+				}],
+			"vendor":	"Arrow",
+			"mpn":	"XRCGB32M000F1H00R0",
+			"manufacturer":	"MURATA",
+			"query_properties":	{
+				"manufacturer":	"Murata",
+				"mpn":	"XRCGB32M000F1H00R0"
+			}
+		}, {
+			"insts":	[{
+					"inst":	{
+						"ref":	{
+							"name":	"wpwr"
+						},
+						"field":	{
+							"name":	"wpwr"
+						}
+					},
+					"ref":	"U3",
+					"fileinfo":	{
+						"filename":	"components/BQ51003YFPR.stanza",
+						"line":	61,
 						"column":	2
 					}
 				}],
 			"vendor":	"DigiKey",
-			"mpn":	"FH19C-6S-0.5SH(10)",
-			"manufacturer":	"Hirose",
+			"mpn":	"BQ51003YFPR",
+			"manufacturer":	"Texas Instruments",
 			"query_properties":	null
 		}, {
 			"insts":	[{
 					"inst":	{
 						"ref":	{
-							"name":	"mcu"
+							"name":	"wpwr"
 						},
 						"field":	{
-							"name":	"rm"
+							"name":	"cap"
 						}
 					},
-					"ref":	"R19",
+					"ref":	"C23",
 					"fileinfo":	{
-						"filename":	"components/DA14705-00000HZ2.stanza",
-						"line":	368,
-						"column":	2
+						"filename":	"open-components-database/utils/generic-components.stanza",
+						"line":	743,
+						"column":	4
 					}
 				}, {
 					"inst":	{
@@ -1659,30 +1282,92 @@
 							"name":	"mcu"
 						},
 						"field":	{
-							"name":	"rpi"
+							"name":	"cap"
 						}
 					},
-					"ref":	"R11",
+					"ref":	"C11",
 					"fileinfo":	{
-						"filename":	"components/DA14705-00000HZ2.stanza",
-						"line":	365,
-						"column":	2
+						"filename":	"open-components-database/utils/generic-components.stanza",
+						"line":	743,
+						"column":	4
+					}
+				}, {
+					"inst":	{
+						"ref":	{
+							"name":	"mcu"
+						},
+						"field":	{
+							"name":	"cap"
+						}
+					},
+					"ref":	"C12",
+					"fileinfo":	{
+						"filename":	"open-components-database/utils/generic-components.stanza",
+						"line":	743,
+						"column":	4
+					}
+				}, {
+					"inst":	{
+						"ref":	{
+							"name":	"mcu"
+						},
+						"field":	{
+							"name":	"cap"
+						}
+					},
+					"ref":	"C9",
+					"fileinfo":	{
+						"filename":	"open-components-database/utils/generic-components.stanza",
+						"line":	743,
+						"column":	4
+					}
+				}, {
+					"inst":	{
+						"ref":	{
+							"name":	"mcu"
+						},
+						"field":	{
+							"name":	"cap"
+						}
+					},
+					"ref":	"C8",
+					"fileinfo":	{
+						"filename":	"open-components-database/utils/generic-components.stanza",
+						"line":	743,
+						"column":	4
+					}
+				}, {
+					"inst":	{
+						"ref":	{
+							"name":	"mcu"
+						},
+						"field":	{
+							"name":	"cap"
+						}
+					},
+					"ref":	"C7",
+					"fileinfo":	{
+						"filename":	"open-components-database/utils/generic-components.stanza",
+						"line":	743,
+						"column":	4
 					}
 				}],
 			"vendor":	"DigiKey",
-			"mpn":	"CR0201-J/-000GLF",
-			"manufacturer":	"BOURNS",
+			"mpn":	"CL05A106MP5NUNC",
+			"manufacturer":	"Samsung Electro-Mechanics",
 			"query_properties":	{
-				"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-				"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
 				"min-rated-temperature.max":	40,
 				"max-rated-temperature.min":	0,
-				"_stock":	20,
 				"mounting":	"smd",
-				"resistance":	0,
+				"capacitance":	1e-05,
+				"case":	["0201", "0603m", "0202", "0606m", "0204", "0510m", "Wide 0402", "0306", "0816m", "Wide 0603", "0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+				"_sellers":	["DigiKey", "Mouser", "Newark", "Arrow", "Future", "Easev", "iodParts"],
+				"_stock":	20,
+				"type":	"ceramic",
+				"min-rated-voltage":	10,
 				"min-stock":	100,
 				"_sort":	["area"],
-				"category":	"resistor"
+				"category":	"capacitor"
 			}
 		}]
 }

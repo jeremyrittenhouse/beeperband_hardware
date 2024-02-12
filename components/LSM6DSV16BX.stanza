@@ -30,9 +30,9 @@ defn qvar-shape (ver : Int) :
   switch(ver) :
     1 : loc(x-off, y-off) * Polygon([
       Point(-17.420,  6.110)
-      Point(-26.270,  6.110)
-      Point(-26.270, 12.310)
-      Point(-30.520, 12.310)
+      Point(-25.870,  6.110)
+      Point(-25.870, 11.750)
+      Point(-30.520, 11.750)
       Point(-30.520, 24.110)
       Point(-17.420, 24.110)
       Point(-17.420,  6.110)

@@ -59,9 +59,11 @@ val signal-shape = loc(x-off, y-off) * PolygonWithArcs([
 
 val signal-shape-wo-antenna = loc(x-off, y-off) * PolygonWithArcs([
                    Point( -4.770,   5.610),
-                   Point(-26.520,   5.610),
-                   Point(-26.520,  12.160),
-                   Point(-31.020,  12.160),
+                   Point(-25.870,   5.610),
+                   Point(-25.870,  11.750),
+                   Point(-29.870,  11.750),
+                   Point(-29.870,   5.610),
+                   Point(-31.020,   5.610),
                    Point(-31.020,  24.610),
                    Point( -3.520,  24.610),
                    Point( -3.520,   7.110),
@@ -210,11 +212,11 @@ public pcb-module beeper-design :
 
   ; power planes (let's assume 4 layers for now...)s
   geom(GND) :
-    copper-pour(LayerIndex(0), isolate = 0.15, rank = 1) = signal-shape
+    copper-pour(LayerIndex(0), isolate = 0.15, rank = 1) = signal-shape-wo-antenna
   geom(GND) :
-    copper-pour(LayerIndex(1), isolate = 0.1, rank = 1) = signal-shape
-  geom(GND) :
-    copper-pour(LayerIndex(2), isolate = 0.1, rank = 1) = signal-shape
+    copper-pour(LayerIndex(1), isolate = 0.1, rank = 1) = signal-shape-wo-antenna
+  ; geom(GND) :
+  ;   copper-pour(LayerIndex(2), isolate = 0.1, rank = 1) = signal-shape-wo-antenna
   
 
   schematic-group(self) = main-board

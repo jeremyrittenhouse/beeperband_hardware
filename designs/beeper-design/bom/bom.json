@@ -178,7 +178,7 @@
 						"ref":	"D1",
 						"fileinfo":	{
 							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	82,
+							"line":	84,
 							"column":	2
 						}
 					}],
@@ -527,7 +527,7 @@
 						"ref":	"R10",
 						"fileinfo":	{
 							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	115,
+							"line":	117,
 							"column":	2
 						}
 					}, {
@@ -542,7 +542,7 @@
 						"ref":	"R9",
 						"fileinfo":	{
 							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	114,
+							"line":	116,
 							"column":	2
 						}
 					}],
@@ -2004,7 +2004,7 @@
 						"ref":	"U16",
 						"fileinfo":	{
 							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	80,
+							"line":	82,
 							"column":	2
 						}
 					}, {
@@ -2022,7 +2022,7 @@
 						"ref":	"U15",
 						"fileinfo":	{
 							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	80,
+							"line":	82,
 							"column":	2
 						}
 					}, {
@@ -2040,7 +2040,7 @@
 						"ref":	"U14",
 						"fileinfo":	{
 							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	80,
+							"line":	82,
 							"column":	2
 						}
 					}],
@@ -2333,7 +2333,7 @@
 						"ref":	"TP3",
 						"fileinfo":	{
 							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	99,
+							"line":	101,
 							"column":	2
 						}
 					}],
@@ -2437,7 +2437,7 @@
 						"ref":	"TP4",
 						"fileinfo":	{
 							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	99,
+							"line":	101,
 							"column":	2
 						}
 					}],
@@ -2851,7 +2851,7 @@
 						"ref":	"D1",
 						"fileinfo":	{
 							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	82,
+							"line":	84,
 							"column":	2
 						}
 					}],
@@ -3200,7 +3200,7 @@
 						"ref":	"R10",
 						"fileinfo":	{
 							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	115,
+							"line":	117,
 							"column":	2
 						}
 					}, {
@@ -3215,7 +3215,7 @@
 						"ref":	"R9",
 						"fileinfo":	{
 							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	114,
+							"line":	116,
 							"column":	2
 						}
 					}],
@@ -4677,7 +4677,7 @@
 						"ref":	"U16",
 						"fileinfo":	{
 							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	80,
+							"line":	82,
 							"column":	2
 						}
 					}, {
@@ -4695,7 +4695,7 @@
 						"ref":	"U15",
 						"fileinfo":	{
 							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	80,
+							"line":	82,
 							"column":	2
 						}
 					}, {
@@ -4713,7 +4713,7 @@
 						"ref":	"U14",
 						"fileinfo":	{
 							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	80,
+							"line":	82,
 							"column":	2
 						}
 					}],
@@ -5006,7 +5006,7 @@
 						"ref":	"TP3",
 						"fileinfo":	{
 							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	99,
+							"line":	101,
 							"column":	2
 						}
 					}],
@@ -5110,7 +5110,7 @@
 						"ref":	"TP4",
 						"fileinfo":	{
 							"filename":	"/Users/bgupta/src/JITX/customers/beeper/beeperband_hardware/main.stanza",
-							"line":	99,
+							"line":	101,
 							"column":	2
 						}
 					}],

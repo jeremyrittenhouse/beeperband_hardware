@@ -54,7 +54,7 @@ public pcb-landpattern GCT_USB3100-XX-X_REVB-1 :
   layer(Silkscreen("F-SilkS", Top)) = Polyline(0.200, [
     Arc(1.300, 3.800, 0.102, 0.0, 360.000)])
   
-  layer(Cutout()) = Polyline(0.102, [
+  layer(Cutout()) = Polyline(0.050, [
     Point(-5.600, -1.450), 
     Point(-2.800, -1.450),
     Point(-2.800,  0.430),

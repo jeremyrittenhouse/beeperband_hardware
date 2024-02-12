@@ -364,8 +364,8 @@
 								}]
 						}]
 				}]],
-		"unit-table":	[["11111111111EbTac4V", 0], ["11111111111CXmnsiU", 0], ["11111111111BVr62Mu", 0], ["11111111111Efbn4F3", 0], ["11111111111C4nBMvg", 0], ["11111111111CK5Qoos", 0], ["11111111111G4VdMGZ", 0], ["11111111111Bd1K4b1", 0], ["11111111111F8CL3A1", 0], ["11111111111Fa2Uimw", 0], ["11111111111EUbhVut", 0], ["11111111111BQq69D1", 0], ["11111111111CQN7uPT", 0], ["11111111111FhUnV96", 0], ["11111111111Fv9jSmF", 0], ["11111111111En8rhoW", 0], ["11111111111BJ7oBXw", 0], ["11111111111BjGdgv9", 0], ["11111111111FMxgmFN", 0], ["11111111111FnRGosr", 0], ["11111111111Byqh9Ae", 0], ["11111111111EMtauk3", 0], ["111111111119eCX1N", 0], ["11111111111Ezce6wm", 0], ["11111111111FF8qoDQ", 0], ["11111111111FUN69mj", 0], ["11111111111CBZxSY8", 0], ["11111111111EvdC1oG", 0], ["11111111111BsvxkBf", 0], ["111111111111bouPE", 0], ["11111111111CfJ4R6Y", 0]],
-		"component-pin-map":	[[["BN3Z6unByw1W8AJPNT88bg", "GND"], "11111111111CXmnsiU"], [["F3qnbLNaZLMR6zxdREJnbk", "p[5]"], "11111111111BVr62Mu"], [["BJaPwboqWVCfBT913AbZSt", "p[2]"], "11111111111C4nBMvg"], [["BJaPwboqWVCfBT913AbZSt", "p[1]"], "11111111111BJ7oBXw"], [["BN3Z6unByw1W8AJPNT88bg", "VDD"], "11111111111CK5Qoos"], [["BN3Z6unByw1W8AJPNT88bg", "DATA"], "11111111111BjGdgv9"], [["F3qnbLNaZLMR6zxdREJnbk", "p[4]"], "11111111111Bd1K4b1"], [["BN3Z6unByw1W8AJPNT88bg", "CLOCK"], "11111111111Byqh9Ae"], [["1114VuAvHNgLD5Rkx8Vpm", "require-pin"], "111111111119eCX1N"], [["F3qnbLNaZLMR6zxdREJnbk", "p[1]"], "11111111111CBZxSY8"], [["F3qnbLNaZLMR6zxdREJnbk", "p[6]"], "11111111111BQq69D1"], [["F3qnbLNaZLMR6zxdREJnbk", "p[3]"], "11111111111BsvxkBf"], [["1114VuAvHNgLD5Rkx8Vpm", "support-pin"], "111111111111bouPE"], [["BN3Z6unByw1W8AJPNT88bg", "SELECT"], "11111111111CfJ4R6Y"], [["F3qnbLNaZLMR6zxdREJnbk", "p[2]"], "11111111111CQN7uPT"]],
+		"unit-table":	[["11111111111EbTac4V", 0], ["11111111111CXmnsiU", 0], ["11111111111BVr62Mu", 0], ["11111111111Efbn4F3", 0], ["11111111111C4nBMvg", 0], ["11111111111CK5Qoos", 0], ["11111111111G4VdMGZ", 0], ["11111111111Bd1K4b1", 0], ["11111111111F8CL3A1", 0], ["11111111111Fa2Uimw", 0], ["11111111111EUbhVut", 0], ["11111111111BQq69D1", 0], ["1111111111112HPbPs", 0], ["11111111111CQN7uPT", 0], ["11111111111FhUnV96", 0], ["11111111111Fv9jSmF", 0], ["11111111111En8rhoW", 0], ["11111111111BJ7oBXw", 0], ["11111111111BjGdgv9", 0], ["11111111111FMxgmFN", 0], ["11111111111FnRGosr", 0], ["11111111111Byqh9Ae", 0], ["11111111111EMtauk3", 0], ["11111111111Ezce6wm", 0], ["11111111111FF8qoDQ", 0], ["11111111111FUN69mj", 0], ["11111111111CBZxSY8", 0], ["111111111118vgvim", 0], ["11111111111EvdC1oG", 0], ["11111111111BsvxkBf", 0], ["11111111111CfJ4R6Y", 0]],
+		"component-pin-map":	[[["BN3Z6unByw1W8AJPNT88bg", "GND"], "11111111111CXmnsiU"], [["F3qnbLNaZLMR6zxdREJnbk", "p[5]"], "11111111111BVr62Mu"], [["BJaPwboqWVCfBT913AbZSt", "p[2]"], "11111111111C4nBMvg"], [["BJaPwboqWVCfBT913AbZSt", "p[1]"], "11111111111BJ7oBXw"], [["BN3Z6unByw1W8AJPNT88bg", "VDD"], "11111111111CK5Qoos"], [["BN3Z6unByw1W8AJPNT88bg", "DATA"], "11111111111BjGdgv9"], [["F3qnbLNaZLMR6zxdREJnbk", "p[4]"], "11111111111Bd1K4b1"], [["BN3Z6unByw1W8AJPNT88bg", "CLOCK"], "11111111111Byqh9Ae"], [["F3qnbLNaZLMR6zxdREJnbk", "p[1]"], "11111111111CBZxSY8"], [["1114VuAvHNgLD5Rkx8Vpm", "require-pin"], "111111111118vgvim"], [["F3qnbLNaZLMR6zxdREJnbk", "p[6]"], "11111111111BQq69D1"], [["1114VuAvHNgLD5Rkx8Vpm", "support-pin"], "1111111111112HPbPs"], [["F3qnbLNaZLMR6zxdREJnbk", "p[3]"], "11111111111BsvxkBf"], [["BN3Z6unByw1W8AJPNT88bg", "SELECT"], "11111111111CfJ4R6Y"], [["F3qnbLNaZLMR6zxdREJnbk", "p[2]"], "11111111111CQN7uPT"]],
 		"instance-ids":	[{
 				"id":	"6j4tcSe4fDPVwhyhs6zgiF",
 				"unit-id":	0
@@ -553,7 +553,7 @@
 						"y":	8
 					},
 					"ports":	[{
-							"id":	44789,
+							"id":	45007,
 							"pt":	{
 								"x":	-7,
 								"y":	1
@@ -561,7 +561,7 @@
 							"dir":	"Left",
 							"tag":	"AnyTag"
 						}, {
-							"id":	44790,
+							"id":	45008,
 							"pt":	{
 								"x":	-7,
 								"y":	-1
@@ -569,7 +569,7 @@
 							"dir":	"Left",
 							"tag":	"AnyTag"
 						}, {
-							"id":	44791,
+							"id":	45009,
 							"pt":	{
 								"x":	7,
 								"y":	0
@@ -577,7 +577,7 @@
 							"dir":	"Right",
 							"tag":	"AnyTag"
 						}, {
-							"id":	44792,
+							"id":	45010,
 							"pt":	{
 								"x":	0,
 								"y":	8
@@ -585,7 +585,7 @@
 							"dir":	"Up",
 							"tag":	"AnyTag"
 						}, {
-							"id":	44793,
+							"id":	45011,
 							"pt":	{
 								"x":	0,
 								"y":	-8
@@ -671,7 +671,7 @@
 						"y":	2
 					},
 					"ports":	[{
-							"id":	44795,
+							"id":	45013,
 							"pt":	{
 								"x":	0,
 								"y":	0
@@ -694,7 +694,7 @@
 						"y":	0
 					},
 					"ports":	[{
-							"id":	44797,
+							"id":	45015,
 							"pt":	{
 								"x":	0,
 								"y":	0
@@ -747,7 +747,7 @@
 						"y":	7
 					},
 					"ports":	[{
-							"id":	44777,
+							"id":	44995,
 							"pt":	{
 								"x":	-9,
 								"y":	5
@@ -755,7 +755,7 @@
 							"dir":	"Left",
 							"tag":	"AnyTag"
 						}, {
-							"id":	44778,
+							"id":	44996,
 							"pt":	{
 								"x":	-9,
 								"y":	3
@@ -763,7 +763,7 @@
 							"dir":	"Left",
 							"tag":	"AnyTag"
 						}, {
-							"id":	44779,
+							"id":	44997,
 							"pt":	{
 								"x":	-9,
 								"y":	1
@@ -771,7 +771,7 @@
 							"dir":	"Left",
 							"tag":	"AnyTag"
 						}, {
-							"id":	44780,
+							"id":	44998,
 							"pt":	{
 								"x":	-9,
 								"y":	-1
@@ -779,7 +779,7 @@
 							"dir":	"Left",
 							"tag":	"AnyTag"
 						}, {
-							"id":	44781,
+							"id":	44999,
 							"pt":	{
 								"x":	-9,
 								"y":	-3
@@ -787,7 +787,7 @@
 							"dir":	"Left",
 							"tag":	"AnyTag"
 						}, {
-							"id":	44782,
+							"id":	45000,
 							"pt":	{
 								"x":	-9,
 								"y":	-5
@@ -810,7 +810,7 @@
 						"y":	1
 					},
 					"ports":	[{
-							"id":	44784,
+							"id":	45002,
 							"pt":	{
 								"x":	0,
 								"y":	0
@@ -833,7 +833,7 @@
 						"y":	1
 					},
 					"ports":	[{
-							"id":	44815,
+							"id":	45033,
 							"pt":	{
 								"x":	-3,
 								"y":	0
@@ -841,7 +841,7 @@
 							"dir":	"Left",
 							"tag":	"AnyTag"
 						}, {
-							"id":	44816,
+							"id":	45034,
 							"pt":	{
 								"x":	3,
 								"y":	0
@@ -863,7 +863,7 @@
 						"y":	2
 					},
 					"ports":	[{
-							"id":	44786,
+							"id":	45004,
 							"pt":	{
 								"x":	0,
 								"y":	2
@@ -871,7 +871,7 @@
 							"dir":	"Up",
 							"tag":	"AnyTag"
 						}, {
-							"id":	44787,
+							"id":	45005,
 							"pt":	{
 								"x":	0,
 								"y":	-2
@@ -1103,14 +1103,14 @@
 					"unit-id":	0
 				}, 44600]],
 		"nets":	[[1002, 44605], [1003, 44606], [1004, 44607], [1005, 44608]],
-		"ports":	[["11111111111EbTac4V", 44779], ["11111111111CXmnsiU", 44585], ["11111111111BVr62Mu", 44591], ["11111111111Efbn4F3", 44780], ["11111111111C4nBMvg", 44595], ["11111111111CK5Qoos", 44584], ["11111111111G4VdMGZ", 44787], ["11111111111Bd1K4b1", 44590], ["11111111111F8CL3A1", 44795], ["11111111111Fa2Uimw", 44791], ["11111111111EUbhVut", 44778], ["11111111111BQq69D1", 44592], ["11111111111CQN7uPT", 44588], ["11111111111FhUnV96", 44792], ["11111111111Fv9jSmF", 44786], ["11111111111En8rhoW", 44781], ["11111111111BJ7oBXw", 44594], ["11111111111BjGdgv9", 44583], ["11111111111FMxgmFN", 44789], ["11111111111FnRGosr", 44793], ["11111111111Byqh9Ae", 44581], ["11111111111EMtauk3", 44777], ["111111111119eCX1N", 44816], ["11111111111Ezce6wm", 44784], ["11111111111FF8qoDQ", 44797], ["11111111111FUN69mj", 44790], ["11111111111CBZxSY8", 44587], ["11111111111EvdC1oG", 44782], ["11111111111BsvxkBf", 44589], ["111111111111bouPE", 44815], ["11111111111CfJ4R6Y", 44582]]
+		"ports":	[["11111111111EbTac4V", 44997], ["11111111111CXmnsiU", 44585], ["11111111111BVr62Mu", 44591], ["11111111111Efbn4F3", 44998], ["11111111111C4nBMvg", 44595], ["11111111111CK5Qoos", 44584], ["11111111111G4VdMGZ", 45005], ["11111111111Bd1K4b1", 44590], ["11111111111F8CL3A1", 45013], ["11111111111Fa2Uimw", 45009], ["11111111111EUbhVut", 44996], ["11111111111BQq69D1", 44592], ["1111111111112HPbPs", 45033], ["11111111111CQN7uPT", 44588], ["11111111111FhUnV96", 45010], ["11111111111Fv9jSmF", 45004], ["11111111111En8rhoW", 44999], ["11111111111BJ7oBXw", 44594], ["11111111111BjGdgv9", 44583], ["11111111111FMxgmFN", 45007], ["11111111111FnRGosr", 45011], ["11111111111Byqh9Ae", 44581], ["11111111111EMtauk3", 44995], ["11111111111Ezce6wm", 45002], ["11111111111FF8qoDQ", 45015], ["11111111111FUN69mj", 45008], ["11111111111CBZxSY8", 44587], ["111111111118vgvim", 45034], ["11111111111EvdC1oG", 45000], ["11111111111BsvxkBf", 44589], ["11111111111CfJ4R6Y", 44582]]
 	},
 	"output":	{
 		"sheets":	[{
-				"id":	44885,
+				"id":	45103,
 				"title":	null,
 				"schematic-groups":	[{
-						"id":	44860,
+						"id":	45078,
 						"ref":	null,
 						"children":	[{
 								"id":	115,
@@ -1286,7 +1286,7 @@
 											}]]],
 								"high-level-nets":	[]
 							}, {
-								"id":	44843,
+								"id":	45061,
 								"ref":	"mic",
 								"children":	[{
 										"id":	165,
@@ -1766,7 +1766,7 @@
 								"output":	{
 									"inst-placements":	[],
 									"nets":	[{
-											"id":	44844,
+											"id":	45062,
 											"wires":	[{
 													"a":	{
 														"x":	111,
@@ -1806,7 +1806,7 @@
 												}],
 											"label-placement?":	null
 										}, {
-											"id":	44845,
+											"id":	45063,
 											"wires":	[{
 													"a":	{
 														"x":	183,
@@ -1858,16 +1858,16 @@
 									"y":	0
 								},
 								"partial-island-nets":	[],
-								"external-ports-by-net-id":	[[44844, [{
-												"id":	44871,
+								"external-ports-by-net-id":	[[45062, [{
+												"id":	45089,
 												"pt":	{
 													"x":	109,
 													"y":	84
 												},
 												"dir":	"Left",
 												"tag":	"AnyTag"
-											}]], [44845, [{
-												"id":	44872,
+											}]], [45063, [{
+												"id":	45090,
 												"pt":	{
 													"x":	186,
 													"y":	83
@@ -1876,14 +1876,14 @@
 												"tag":	"AnyTag"
 											}]]],
 								"high-level-nets":	[{
-										"id":	44844,
+										"id":	45062,
 										"name":	"PDM.clk",
 										"labeled?":	{
 											"type":	"string"
 										},
 										"net-id-by-group-id":	[[221, 44611], [165, 44610]]
 									}, {
-										"id":	44845,
+										"id":	45063,
 										"name":	"PDM.data",
 										"labeled?":	{
 											"type":	"string"
@@ -1894,7 +1894,7 @@
 						"output":	{
 							"inst-placements":	[],
 							"nets":	[{
-									"id":	44863,
+									"id":	45081,
 									"wires":	[{
 											"a":	{
 												"x":	108,
@@ -1933,7 +1933,7 @@
 											}
 										}],
 									"label-placement?":	{
-										"inst":	44877,
+										"inst":	45095,
 										"pose":	{
 											"center":	{
 												"x":	107,
@@ -1944,7 +1944,7 @@
 										}
 									}
 								}, {
-									"id":	44864,
+									"id":	45082,
 									"wires":	[{
 											"a":	{
 												"x":	186,
@@ -1974,7 +1974,7 @@
 											}
 										}],
 									"label-placement?":	{
-										"inst":	44880,
+										"inst":	45098,
 										"pose":	{
 											"center":	{
 												"x":	187,
@@ -1999,19 +1999,19 @@
 						"partial-island-nets":	[],
 						"external-ports-by-net-id":	[],
 						"high-level-nets":	[{
-								"id":	44863,
+								"id":	45081,
 								"name":	"PDM.clk",
 								"labeled?":	{
 									"type":	"string"
 								},
-								"net-id-by-group-id":	[[44843, 44844], [115, 44609]]
+								"net-id-by-group-id":	[[45061, 45062], [115, 44609]]
 							}, {
-								"id":	44864,
+								"id":	45082,
 								"name":	"PDM.data",
 								"labeled?":	{
 									"type":	"string"
 								},
-								"net-id-by-group-id":	[[44843, 44845], [115, 44615]]
+								"net-id-by-group-id":	[[45061, 45063], [115, 44615]]
 							}]
 					}]
 			}],

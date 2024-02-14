@@ -50,7 +50,7 @@ public pcb-stackup jlcpcb-flex-2-layer-110um :
   layer(0.0500, stiffener) ; options: from 50um to 200um
 
 public pcb-stackup FS-Tech-4-layer-62-mil :
-  name = "FS Tech 6-layer 0.062in"
+  name = "FS Tech 4-layer 0.062in"
   layer(0.01778, soldermask) ; 7mil over conductor
   layer(0.01778, copper)     ; 0.5oz/foot
   layer(0.127, prepreg)      ; 5 mil

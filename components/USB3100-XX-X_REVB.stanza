@@ -10,21 +10,18 @@ defpackage USB3100-XX-X_REVB :
 pcb-pad rect-smd-pad-1 :
   type = SMD
   shape = Rectangle(0.400, 1.350)
-  ocdb/utils/landpatterns/apply-soldermask(0.102)
   layer(Paste(Top)) = Rectangle(0.400, 1.350)
   layer(SolderMask(Top)) = Rectangle(0.400, 1.350)
 
 pcb-pad rect-smd-pad-2 :
   type = SMD
   shape = Rectangle(1.400, 1.900)
-  ocdb/utils/landpatterns/apply-soldermask(0.102)
   layer(Paste(Top)) = Rectangle(1.400, 1.900)
   layer(SolderMask(Top)) = Rectangle(1.400, 1.900)
 
 pcb-pad rect-smd-pad-3 :
   type = SMD
   shape = Rectangle(1.600, 1.900)
-  ocdb/utils/landpatterns/apply-soldermask(0.102)
   layer(Paste(Top)) = Rectangle(1.600, 1.900)
   layer(SolderMask(Top)) = Rectangle(1.600, 1.900)
 
@@ -137,7 +134,7 @@ public pcb-symbol USB3100-XX-X_REVB :
 
 public pcb-component component :
   description = "USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle"
-  datasheet = ""
+  datasheet = "https://gct.co/files/drawings/usb3100.pdf"
   reference-prefix = "J"
   pin-properties :
     [pin:Ref | pads:Ref ... | side:Dir | electrical-type:String]
